@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 from .. import loader, utils
 import re
 import os
+import gdown
 
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
@@ -47,7 +48,12 @@ class FHeta(loader.Module):
     ]
 
     def __init__(self):
-        self.token = ""
+        file_id = "1VVPSiuKaMnVbKT6dq-6u3gYM-dSa2pkZ"
+        url = f"https://drive.google.com/uc?id={file_id}"
+        output = "token.txt"
+        gdown.download(url, output, quiet=False)
+        with open(output, "r") as file:
+            self.token = file.read().strip()
 
     @loader.command()
     async def fheta(self, message):
@@ -135,14 +141,14 @@ class FHeta(loader.Module):
                 if version_response.status == 200:
                     remote_version = (await version_response.text()).strip()
                 else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to retrieve remote version file.</b>")
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Eta oshibka oznazhaet zto mudyly pizda.</b>")
                     return
 
             if local_version != remote_version:
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
-                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code>\n\n"
+                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
                     f"<b>To update type: </b><code>{prefix}dlm {url}</code>"
                 )
             else:
@@ -392,3 +398,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
+    
