@@ -107,44 +107,46 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-
+   
     @loader.command()
     async def fupdate(self, message):
         '''Check update.'''
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
+        version_url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/fheta_version.txt"
 
         user = await self._client.get_me()
         user_id = str(user.id)
 
         current_directory = os.getcwd()
         local_file_path = os.path.join(current_directory, "loaded_modules", f"FHeta_{user_id}.py")
+        local_version_path = os.path.join(current_directory, "fheta_version.txt")
 
         try:
-            with open(local_file_path, "r") as file:
-                current_code = file.read()
+            with open(local_version_path, "r") as version_file:
+                local_version = version_file.read().strip()
         except FileNotFoundError:
-            await utils.answer(message, f"<emoji document_id=5348277823133999513>❌</emoji> <b>FHeta file not found.</b>")
-            return
+            local_version = "1"
+            with open(local_version_path, "w") as version_file:
+                version_file.write(local_version)
 
         async with aiohttp.ClientSession() as session:
-            async with session.get(url) as response:
-                if response.status == 200:
-                    new_code = await response.text()
+            headers = {"Authorization": f"token {self.token}"}
+            async with session.get(version_url, headers=headers) as version_response:
+                if version_response.status == 200:
+                    remote_version = (await version_response.text()).strip()
+                else:
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to retrieve remote version file.</b>")
+                    return
 
-                    current_code_no_token = re.sub(r'self\.token = ".*"', "", current_code)
-                    new_code_no_token = re.sub(r'self\.token = ".*"', "", new_code)
-
-                    if current_code_no_token != new_code_no_token:
-                        with open(local_file_path, "w") as file:
-                            file.write(new_code)
-                        prefix = self.get_prefix()
-                        await utils.answer(
-                            message,
-                            f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
-                            f"<b>To update type: </b><code>{prefix}dlm {url}</code>"
-                        )
-                    else:
-                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Update not found.</b>")
+            if local_version != remote_version:
+                prefix = self.get_prefix()
+                await utils.answer(
+                    message,
+                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code>\n\n"
+                    f"<b>To update type: </b><code>{prefix}dlm {url}</code>"
+                )
+            else:
+                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Update not found.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
