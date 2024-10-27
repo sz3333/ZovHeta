@@ -6,6 +6,7 @@ import aiohttp
 from concurrent.futures import ThreadPoolExecutor
 from .. import loader, utils
 import re
+import os
 
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
@@ -46,7 +47,7 @@ class FHeta(loader.Module):
     ]
 
     def __init__(self):
-        self.token = "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"
+        self.token = ""
 
     @loader.command()
     async def fheta(self, message):
@@ -106,6 +107,44 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
+
+    @loader.command()
+    async def fupdate(self, message):
+        '''Check update.'''
+        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
+
+        user = await self._client.get_me()
+        user_id = str(user.id)
+
+        current_directory = os.getcwd()
+        local_file_path = os.path.join(current_directory, "loaded_modules", f"FHeta_{user_id}.py")
+
+        try:
+            with open(local_file_path, "r") as file:
+                current_code = file.read()
+        except FileNotFoundError:
+            await utils.answer(message, f"<emoji document_id=5348277823133999513>❌</emoji> <b>FHeta file not found.</b>")
+            return
+
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url) as response:
+                if response.status == 200:
+                    new_code = await response.text()
+
+                    current_code_no_token = re.sub(r'self\.token = ".*"', "", current_code)
+                    new_code_no_token = re.sub(r'self\.token = ".*"', "", new_code)
+
+                    if current_code_no_token != new_code_no_token:
+                        with open(local_file_path, "w") as file:
+                            file.write(new_code)
+                        prefix = self.get_prefix()
+                        await utils.answer(
+                            message,
+                            f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
+                            f"<b>To update type: </b><code>{prefix}dlm {url}</code>"
+                        )
+                    else:
+                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Update not found.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -299,7 +338,7 @@ class FHeta(loader.Module):
                     )
                     if match:
                         return match.group(1).strip()
-                    
+
                     match = re.search(
                         r'class\s+\w+\(loader\.Module(?:, \w+)*\):\s+[\'"]{3}(.+?)[\'"]{3}',
                         content
