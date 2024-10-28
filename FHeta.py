@@ -345,7 +345,6 @@ class FHeta(loader.Module):
                         return match.group(1).strip()
         return ""
 
-
     def extract_commands(self, content):
         commands = {}
         lines = content.split('\n')
