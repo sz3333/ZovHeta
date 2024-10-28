@@ -140,10 +140,7 @@ class FHeta(loader.Module):
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
                     return
 
-            local_code_lines = [line.strip() for line in local_code.splitlines()]
-            remote_code_lines = [line.strip() for line in remote_code.splitlines()]
-
-            if local_code_lines != remote_code_lines:
+            if local_code.replace(" ", "") != remote_code.replace(" ", ""):
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
@@ -397,4 +394,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-                    
+                
