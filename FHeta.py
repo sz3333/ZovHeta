@@ -1,4 +1,4 @@
-__version__ = 2.2
+__version__ = 2.3
 # meta developer: @foxy437
 
 import requests
@@ -47,7 +47,8 @@ class FHeta(loader.Module):
         "1jpshiro/hikka-modules",
         "MoriSummerz/ftg-mods",
         "dekkusudev/mm-hikka-mods",
-        "idiotcoders/idiotmodules"
+        "idiotcoders/idiotmodules",
+        "Fixyres/FHeta"
     ]
 
     def __init__(self):
