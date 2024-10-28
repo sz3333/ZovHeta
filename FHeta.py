@@ -1,6 +1,6 @@
-__version__ = (2, 5)
+__version__ = (2, 6)
 # meta developer: @foxy437
-# what new: Rework fupdate.
+# what new: Bugs fixed, search speed improved.
 
 import requests
 import asyncio
@@ -99,11 +99,6 @@ class FHeta(loader.Module):
                 if description:
                     description_section = f"\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}"
 
-                if "heta.hikariatama.ru" in download_url:
-                    repo, module_name = await self.get_github_link(module['repo'], module['name'])
-                    branch = await self.get_github_branch(repo, module_name)
-                    download_url = f"https://raw.githubusercontent.com/{repo}/refs/heads/{branch}/{module_name}.py"
-                
                 author_info = await self.get_author_from_file(download_url)
                 module_name = module['name'].replace('.py', '')
                 module_key = f"{module_name}_{author_info}"
@@ -152,7 +147,7 @@ class FHeta(loader.Module):
         else:
             update_message = (
                 f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version </b> <code>{new_version}v</code><b> available!</b>\n"
+                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>{new_version}v</code><b> available!</b>\n"
             )
             if what_new:
                 update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
@@ -169,11 +164,17 @@ class FHeta(loader.Module):
             for result in results:
                 if result:
                     found_modules.extend(result)
-
-        heta_results = await self.search_heta_parallel(query)
-        found_modules.extend(heta_results)
         return found_modules
 
+    async def search_modules_by_command_parallel(self, query: str):
+        found_modules = []
+        async with aiohttp.ClientSession() as session:
+            tasks = [self.search_repo_by_command(repo, query, session) for repo in self.repos]
+            results = await asyncio.gather(*tasks)
+            for result in results:
+                if result:
+                    found_modules.extend(result)
+        return found_modules
     async def search_repo(self, repo, query, session):
         url = f"https://api.github.com/repos/{repo}/contents"
         headers = {
@@ -193,36 +194,15 @@ class FHeta(loader.Module):
                 ]
             return []
 
-    async def search_heta_parallel(self, query):
+    async def search_modules_parallel(self, query: str):
         found_modules = []
         async with aiohttp.ClientSession() as session:
-            tasks = [
-                self.search_heta_range(query, session, i * 4, (i + 1) * 4)
-                for i in range(25)
-            ]
+            tasks = [self.search_repo(repo, query, session) for repo in self.repos]
             results = await asyncio.gather(*tasks)
             for result in results:
                 if result:
                     found_modules.extend(result)
         return found_modules
-
-    async def search_heta_range(self, query, session, start, end):
-        url = "https://heta.dan.tatar/modules.json"
-        async with session.get(url) as response:
-            if response.status == 200:
-                heta_data = await response.json()
-                length = len(heta_data)
-                range_data = heta_data[int(length * start / 100):int(length * end / 100)]
-                return [
-                    {
-                        "name": module['name'],
-                        "repo": module['repo'],
-                        "commands": module.get('commands', {}),
-                        "download_url": module['link']
-                    }
-                    for module in range_data if query.lower() in module['name'].lower()
-                ]
-            return []
 
     async def search_modules_by_command_parallel(self, query: str):
         found_modules = []
@@ -232,9 +212,6 @@ class FHeta(loader.Module):
             for result in results:
                 if result:
                     found_modules.extend(result)
-
-        heta_results = await self.search_heta_by_command_parallel(query)
-        found_modules.extend(heta_results)
         return found_modules
 
     async def search_repo_by_command(self, repo, query, session):
@@ -259,76 +236,12 @@ class FHeta(loader.Module):
                 return result
             return []
 
-    async def search_heta_by_command_parallel(self, query):
-        found_modules = []
-        async with aiohttp.ClientSession() as session:
-            tasks = [
-                self.search_heta_by_command_range(query, session, i * 4, (i + 1) * 4)
-                for i in range(25)
-            ]
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                if result:
-                    found_modules.extend(result)
-        return found_modules
-
-    async def search_heta_by_command_range(self, query, session, start, end):
-        url = "https://heta.dan.tatar/modules.json"
-        async with session.get(url) as response:
-            if response.status == 200:
-                heta_data = await response.json()
-                length = len(heta_data)
-                range_data = heta_data[int(length * start / 100):int(length * end / 100)]
-                result = []
-                for module in range_data:
-                    commands = module.get('commands', {})
-                    if any(query.lower() in cmd.lower() for cmd in commands):
-                        result.append({
-                            "name": module['name'],
-                            "repo": module['repo'],
-                            "commands": commands,
-                            "download_url": module['link']
-                        })
-                return result
-            return []
-
     async def get_commands_from_module(self, download_url, session):
         async with session.get(download_url) as response:
             if response.status == 200:
                 content = await response.text()
                 return self.extract_commands(content)
         return {}
-
-    async def get_github_link(self, repo, module_name):
-        url = f"https://api.github.com/repos/{repo}/contents"
-        headers = {
-            'Authorization': f'token {self.token}'
-        }
-        async with aiohttp.ClientSession() as session:
-           async with session.get(url, headers=headers) as response:
-               if response.status == 200:
-                   data = await response.json()
-                   for item in data:
-                       if item['name'].lower() == module_name.lower():
-                           return repo, item['name']
-           return repo, module_name
-
-    async def get_github_branch(self, repo, module_name):
-        url = f"https://api.github.com/repos/{repo}/branches"
-        headers = {
-            'Authorization': f'token {self.token}'
-        }
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url, headers=headers) as response:
-                if response.status == 200:
-                    data = await response.json()
-                    for branch in data:
-                        branch_name = branch['name']
-                        module_url = f"https://raw.githubusercontent.com/{repo}/refs/heads/{branch_name}/{module_name}.py"
-                        async with session.get(module_url) as module_response:
-                            if module_response.status == 200:
-                                return branch_name
-        return "master"
 
     async def get_author_from_file(self, download_url):
         async with aiohttp.ClientSession() as session:
