@@ -1,6 +1,6 @@
 __version__ = (1, 9)
 # meta developer: @foxy437
-# whats new: Rework fupdate.
+# what new: Rework fupdate.
 
 import requests
 import asyncio
