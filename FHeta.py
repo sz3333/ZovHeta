@@ -1,4 +1,4 @@
-__version__ = 2.1
+__version__ = 2.2
 # meta developer: @foxy437
 
 import requests
