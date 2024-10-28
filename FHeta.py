@@ -378,8 +378,8 @@ class FHeta(loader.Module):
                     if description:
                         commands[cmd_name] = " ".join(description).strip()
                         
+             cmd_name = line.split('async def ')[1].split('(')[0]           
              elif 'async def' in line and cmd_name[-3:] == 'cmd':
-                cmd_name = line.split('async def ')[1].split('(')[0]
                 cmd_name = cmd_name[:-3]
                 description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
                 if description_match:
