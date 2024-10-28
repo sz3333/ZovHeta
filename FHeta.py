@@ -116,7 +116,6 @@ class FHeta(loader.Module):
    
     @loader.command()
     async def fupdate(self, message):
-        '''Check for updates and provide command to update if needed.'''
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
 
         user = await self._client.get_me()
@@ -140,7 +139,10 @@ class FHeta(loader.Module):
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
                     return
 
-            if local_code != remote_code:
+            local_code_lines = [line.strip() for line in local_code.splitlines()]
+            remote_code_lines = [line.strip() for line in remote_code.splitlines()]
+
+            if local_code_lines != remote_code_lines:
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
