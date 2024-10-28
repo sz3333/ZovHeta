@@ -116,7 +116,7 @@ class FHeta(loader.Module):
    
     @loader.command()
     async def fupdate(self, message):
-        '''Check update.'''
+        '''Check for updates and provide command to update if needed.'''
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
 
         user = await self._client.get_me()
@@ -129,7 +129,7 @@ class FHeta(loader.Module):
             with open(local_file_path, "r") as local_file:
                 local_code = local_file.read()
         except FileNotFoundError:
-            local_code = ""
+            local_code = ""  # If file is not found, assume it needs to be downloaded
 
         async with aiohttp.ClientSession() as session:
             headers = {"Authorization": f"token {self.token}"}
@@ -137,18 +137,18 @@ class FHeta(loader.Module):
                 if response.status == 200:
                     remote_code = await response.text()
                 else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error reading update.</b>")
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
                     return
 
             if local_code != remote_code:
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
-                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>Your version of </b><code>Fheta</code><b> is outdated!</b>\n\n"
-                    f"<b>To update, type: </b><code>{prefix}dlm {url}</code>"
+                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
+                    f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
                 )
             else:
-                await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
+                await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No updates found, code is up to date.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -394,3 +394,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
+            
