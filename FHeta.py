@@ -347,18 +347,18 @@ class FHeta(loader.Module):
     def extract_commands(self, content):
         commands = {}
         lines = content.split('\n')
-
+        
         for i, line in enumerate(lines):
             if '@loader.command' in line or '@loader.sudo' in line:
                 cmd_name_line = lines[i + 1].strip()
-                if 'async def' in cmd_name_line:
+                if 'async def' in cmd_name_line and not cmd_name_line.startswith('async def button_'):
                     cmd_name = cmd_name_line.split('async def ')[1].split('(')[0]
                     if cmd_name.endswith('cmd'):
                         cmd_name = cmd_name[:-3]
-
+                    
                     description = []
                     in_description = False
-
+                    
                     for desc_line in lines[i + 2:]:
                         desc_line = desc_line.strip()
                         if desc_line.startswith('"""') or desc_line.startswith("'''"):
@@ -375,16 +375,15 @@ class FHeta(loader.Module):
 
                     if description:
                         commands[cmd_name] = " ".join(description).strip()
-
-            elif 'async def' in line:
+                        
+            elif 'async def' in line and not line.startswith('async def button_'):
                 cmd_name = line.split('async def ')[1].split('(')[0]
-                if not cmd_name.endswith('cmd'):
-                    continue
-                
+                if cmd_name.endswith('cmd'):
+                    cmd_name = cmd_name[:-3]
                 description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
                 if description_match:
                     command_description = description_match.group(1) or description_match.group(2)
                     if command_description:
                         commands[cmd_name] = command_description.strip()
-
+                        
         return commands if commands else None
