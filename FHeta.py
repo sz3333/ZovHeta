@@ -1,4 +1,4 @@
-__version__ = 2.2
+__version__ = 2.1
 # meta developer: @foxy437
 
 import requests
@@ -115,7 +115,7 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-
+    
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -127,44 +127,36 @@ class FHeta(loader.Module):
         current_directory = os.getcwd()
         local_file_path = os.path.join(current_directory, "loaded_modules", f"FHeta_{user_id}.py")
 
-        with tempfile.NamedTemporaryFile(delete=False, mode="w", encoding="utf-8") as log_file:
-            log_path = log_file.name
+        try:
+            with open(local_file_path, "r") as local_file:
+                local_first_line = local_file.readline().strip()
+        except FileNotFoundError:
+            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Local file not found.</b>")
+            return
+
+        async with aiohttp.ClientSession() as session:
+            headers = {"Authorization": f"token {self.token}"}
             try:
-                with open(local_file_path, "r") as local_file:
-                    local_code = ''.join(local_file.read().split())
-            except FileNotFoundError:
-                local_code = ""
-            
-            async def fetch_remote_code():
-                async with aiohttp.ClientSession() as session:
-                    headers = {"Authorization": f"token {self.token}"}
-                    try:
-                        async with session.get(url, headers=headers) as response:
-                            if response.status == 200:
-                                remote_code = ''.join((await response.text()).split())
-                                return remote_code
-                            else:
-                                return None
-                    except aiohttp.ClientError as e:
-                        return None
-
-            remote_code = await fetch_remote_code()
-            if remote_code is None:
-                await asyncio.sleep(2)
-                remote_code = await fetch_remote_code()
-
-            if remote_code is None:
+                async with session.get(url, headers=headers) as response:
+                    if response.status == 200:
+                        remote_code = await response.text()
+                        remote_first_line = remote_code.splitlines()[0].strip()
+                    else:
+                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                        return
+            except aiohttp.ClientError:
                 await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
-            else:
-                if local_code != remote_code:
-                    prefix = self.get_prefix()
-                    await utils.answer(
-                        message,
-                        f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
-                        f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
-                    )
-                else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
+                return
+
+        if local_first_line != remote_first_line:
+            prefix = self.get_prefix()
+            await utils.answer(
+                message,
+                f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
+                f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
+            )
+        else:
+            await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -410,4 +402,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-        
+            
