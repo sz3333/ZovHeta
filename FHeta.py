@@ -118,41 +118,37 @@ class FHeta(loader.Module):
     async def fupdate(self, message):
         '''Check update.'''
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
-        version_url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/fheta_version.txt"
 
         user = await self._client.get_me()
         user_id = str(user.id)
 
         current_directory = os.getcwd()
         local_file_path = os.path.join(current_directory, "loaded_modules", f"FHeta_{user_id}.py")
-        local_version_path = os.path.join(current_directory, "fheta_version.txt")
 
         try:
-            with open(local_version_path, "r") as version_file:
-                local_version = version_file.read().strip()
+            with open(local_file_path, "r") as local_file:
+                local_code = local_file.read()
         except FileNotFoundError:
-            local_version = "1"
-            with open(local_version_path, "w") as version_file:
-                version_file.write(local_version)
+            local_code = ""
 
         async with aiohttp.ClientSession() as session:
             headers = {"Authorization": f"token {self.token}"}
-            async with session.get(version_url, headers=headers) as version_response:
-                if version_response.status == 200:
-                    remote_version = (await version_response.text()).strip()
+            async with session.get(url, headers=headers) as response:
+                if response.status == 200:
+                    remote_code = await response.text()
                 else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Eta oshibka oznazhaet zto mudyly pizda.</b>")
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error reading update.</b>")
                     return
 
-            if local_version != remote_version:
+            if local_code != remote_code:
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
-                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
-                    f"<b>To update type: </b><code>{prefix}dlm {url}</code>"
+                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>Your version of </b><code>Fheta</code><b> is outdated!</b>\n\n"
+                    f"<b>To update, type: </b><code>{prefix}dlm {url}</code>"
                 )
             else:
-                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Update not found.</b>")
+                await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -346,7 +342,7 @@ class FHeta(loader.Module):
                     )
                     if match:
                         return match.group(1).strip()
-
+                    
                     match = re.search(
                         r'class\s+\w+\(loader\.Module(?:, \w+)*\):\s+[\'"]{3}(.+?)[\'"]{3}',
                         content
@@ -398,4 +394,3 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-    
