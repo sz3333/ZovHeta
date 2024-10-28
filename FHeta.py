@@ -127,15 +127,15 @@ class FHeta(loader.Module):
 
         try:
             with open(local_file_path, "r") as local_file:
-                local_code = local_file.read()
+                local_code = local_file.read().strip()
         except FileNotFoundError:
-            local_code = ""  # If file is not found, assume it needs to be downloaded
+            local_code = ""
 
         async with aiohttp.ClientSession() as session:
             headers = {"Authorization": f"token {self.token}"}
             async with session.get(url, headers=headers) as response:
                 if response.status == 200:
-                    remote_code = await response.text()
+                    remote_code = (await response.text()).strip()
                 else:
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
                     return
@@ -394,4 +394,3 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-            
