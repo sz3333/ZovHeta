@@ -131,24 +131,20 @@ class FHeta(loader.Module):
         except FileNotFoundError:
             local_code = ""
 
-        async def fetch_remote_code():
-            async with aiohttp.ClientSession() as session:
-                headers = {"Authorization": f"token {self.token}"}
-                try:
-                    async with session.get(url, headers=headers) as response:
-                        if response.status == 200:
-                            return ''.join((await response.text()).split())
-                except aiohttp.ClientError:
-                    return None
+        async with aiohttp.ClientSession() as session:
+            headers = {"Authorization": f"token {self.token}"}
+            try:
+                async with session.get(url, headers=headers) as response:
+                    if response.status == 200:
+                        remote_code = ''.join((await response.text()).split())
+                    else:
+                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                        return
+            except aiohttp.ClientError:
+                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                return
 
-        remote_code = await fetch_remote_code()
-        if remote_code is None:
-            await asyncio.sleep(2)
-            remote_code = await fetch_remote_code()
-
-        if remote_code is None:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
-        elif local_code != remote_code:
+        if local_code != remote_code:
             prefix = self.get_prefix()
             await utils.answer(
                 message,
@@ -402,4 +398,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-                    
+        
