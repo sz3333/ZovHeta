@@ -133,12 +133,16 @@ class FHeta(loader.Module):
 
         async with aiohttp.ClientSession() as session:
             headers = {"Authorization": f"token {self.token}"}
-            async with session.get(url, headers=headers) as response:
-                if response.status == 200:
-                    remote_code = (await response.text()).strip()
-                else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
-                    return
+            try:
+                async with session.get(url, headers=headers) as response:
+                    if response.status == 200:
+                        remote_code = (await response.text()).strip()
+                    else:
+                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                        return
+            except aiohttp.ClientError:
+                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                return
 
             if local_code.replace(" ", "") != remote_code.replace(" ", ""):
                 prefix = self.get_prefix()
@@ -394,4 +398,3 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-                
