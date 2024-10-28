@@ -1,6 +1,6 @@
 __version__ = (2, 7)
 # meta developer: @foxy437
-# what new: Bugs fixed.
+# what new: Bug fix.
 
 import requests
 import asyncio
