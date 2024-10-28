@@ -1,4 +1,5 @@
 # meta developer: @foxy437
+__version__ = 2.2
 
 import requests
 import asyncio
