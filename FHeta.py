@@ -128,7 +128,8 @@ class FHeta(loader.Module):
             await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>FHeta not found.</b>")
             return
 
-        async with aiohttp.ClientSession() as session:
+        headers = {'Authorization': f'token {self.token}'}
+        async with aiohttp.ClientSession(headers=headers) as session:
             async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
                 if response.status == 200:
                     remote_first_line = (await response.text()).splitlines()[0].strip()
@@ -139,8 +140,8 @@ class FHeta(loader.Module):
         if local_first_line == remote_first_line:
             await utils.answer(message, "<emoji document_id=5188311512791393083>✅</emoji> <b>You have the current version of</b> <code>FHeta</code><b>.</b>")
         else:
-            await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version of </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
-
+            await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version of </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>")
+            
     async def search_modules_parallel(self, query: str):
         found_modules = []
         async with aiohttp.ClientSession() as session:
