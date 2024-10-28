@@ -8,6 +8,7 @@ from .. import loader, utils
 import re
 import os
 import gdown
+import hashlib
 
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
@@ -113,7 +114,7 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-   
+
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -128,8 +129,9 @@ class FHeta(loader.Module):
         try:
             with open(local_file_path, "r") as local_file:
                 local_code = local_file.read().strip()
+                local_hash = hashlib.sha256(local_code.encode()).hexdigest()
         except FileNotFoundError:
-            local_code = ""
+            local_hash = None
 
         async with aiohttp.ClientSession() as session:
             headers = {"Authorization": f"token {self.token}"}
@@ -137,6 +139,7 @@ class FHeta(loader.Module):
                 async with session.get(url, headers=headers) as response:
                     if response.status == 200:
                         remote_code = (await response.text()).strip()
+                        remote_hash = hashlib.sha256(remote_code.encode()).hexdigest()
                     else:
                         await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
                         return
@@ -144,7 +147,7 @@ class FHeta(loader.Module):
                 await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
                 return
 
-            if local_code.replace(" ", "") != remote_code.replace(" ", ""):
+            if local_hash != remote_hash:
                 prefix = self.get_prefix()
                 await utils.answer(
                     message,
@@ -398,3 +401,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
+                
