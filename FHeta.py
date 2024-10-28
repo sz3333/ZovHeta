@@ -9,6 +9,7 @@ import re
 import os
 import gdown
 import hashlib
+import tempfile
 
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
@@ -114,7 +115,7 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-
+  
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -126,41 +127,61 @@ class FHeta(loader.Module):
         current_directory = os.getcwd()
         local_file_path = os.path.join(current_directory, "loaded_modules", f"FHeta_{user_id}.py")
 
-        try:
-            with open(local_file_path, "r") as local_file:
-                local_code = local_file.read().strip()
-                local_hash = hashlib.sha256(local_code.encode()).hexdigest()
-        except FileNotFoundError:
-            local_hash = None
+        with tempfile.NamedTemporaryFile(delete=False, mode="w", encoding="utf-8") as log_file:
+            log_path = log_file.name
+            log_file.write("Starting update check...\n")
 
-        remote_code = None
-        for attempt in range(3):  # до 3 попыток
-            async with aiohttp.ClientSession() as session:
-                headers = {"Authorization": f"token {self.token}"}
-                try:
-                    async with session.get(url, headers=headers) as response:
-                        if response.status == 200:
-                            remote_code = (await response.text()).strip()
-                            remote_hash = hashlib.sha256(remote_code.encode()).hexdigest()
-                            break  # успешный ответ
-                        else:
-                            await asyncio.sleep(1)  # задержка перед повтором
-                except aiohttp.ClientError:
-                    await asyncio.sleep(1)
-        
-        if remote_code is None:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
-            return
+            try:
+                with open(local_file_path, "r") as local_file:
+                    local_code = local_file.read().strip()
+                    local_hash = hashlib.sha256(local_code.encode()).hexdigest()
+                    log_file.write(f"Local file hash: {local_hash}\n")
+            except FileNotFoundError:
+                local_hash = None
+                log_file.write("Local file not found.\n")
 
-        if local_hash != remote_hash:
-            prefix = self.get_prefix()
-            await utils.answer(
-                message,
-                f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
-                f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
-            )
-        else:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
+            async def fetch_remote_code():
+                async with aiohttp.ClientSession() as session:
+                    headers = {"Authorization": f"token {self.token}"}
+                    try:
+                        async with session.get(url, headers=headers) as response:
+                            if response.status == 200:
+                                remote_code = (await response.text()).strip()
+                                log_file.write("Remote code fetched successfully.\n")
+                                return hashlib.sha256(remote_code.encode()).hexdigest()
+                            else:
+                                log_file.write(f"Failed to fetch remote code: Status {response.status}\n")
+                    except aiohttp.ClientError as e:
+                        log_file.write(f"Client error during fetch: {e}\n")
+                    return None
+
+            remote_hash = await fetch_remote_code()
+            if remote_hash is None:
+                await asyncio.sleep(2)
+                log_file.write("Retrying fetch of remote code...\n")
+                remote_hash = await fetch_remote_code()
+
+            if remote_hash is None:
+                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+                log_file.write("Failed to fetch remote code after retry.\n")
+            else:
+                log_file.write(f"Remote file hash: {remote_hash}\n")
+                if local_hash != remote_hash:
+                    prefix = self.get_prefix()
+                    await utils.answer(
+                        message,
+                        f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
+                        f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
+                    )
+                    log_file.write("Update available.\n")
+                else:
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
+                    log_file.write("No update found.\n")
+
+        with open(log_path, "r") as log_file:
+            log_content = log_file.read()
+        await utils.answer(message, f"<code>{log_content}</code>")
+        os.remove(log_path)
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -406,4 +427,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-                                
+        
