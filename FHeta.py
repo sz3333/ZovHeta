@@ -353,6 +353,8 @@ class FHeta(loader.Module):
                 cmd_name_line = line if 'async def' in line else lines[i + 1].strip()
                 if 'async def' in cmd_name_line:
                     cmd_name = cmd_name_line.split('async def ')[1].split('(')[0]
+                    if cmd_name.endswith('cmd'):
+                        cmd_name = cmd_name[:-3]
                     
                     description = []
                     in_description = False
