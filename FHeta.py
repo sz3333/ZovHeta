@@ -1,6 +1,5 @@
 # meta developer: @foxy437
 
-import requests
 import asyncio
 import aiohttp
 from concurrent.futures import ThreadPoolExecutor
