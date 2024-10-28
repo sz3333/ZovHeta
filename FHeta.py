@@ -141,7 +141,7 @@ class FHeta(loader.Module):
         if local_first_line.replace(" ", "") == remote_first_line.replace(" ", ""):
             await utils.answer(message, "<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta</code><b>.</b>")
         else:
-            await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version of </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>")
+            await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
