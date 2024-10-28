@@ -1,4 +1,4 @@
-__version__ = (2, 2)
+__version__ = (2, 3)
 # meta developer: @foxy437
 # what new: Rework fupdate.
 
@@ -117,6 +117,7 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
+
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -138,20 +139,15 @@ class FHeta(loader.Module):
                 if response.status == 200:
                     remote_content = await response.text()
                     remote_lines = remote_content.splitlines()
-                    remote_first_line = remote_lines[0].strip()
-                    new_version = ""
-                    for line in remote_lines:
-                        if line.startswith("__version__"):
-                            new_version = line.split("=", 1)[1].strip().strip("()").replace(",", "")
-                            break
-                        if line.startswith("# what new:"):
-                            what_new = line.split(":", 1)[1].strip()
-                            break
+
+                    new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "") if remote_lines[0].startswith("__version__") else ""
+                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# what new:") else ""
+                    
                 else:
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>")
                     return
 
-        if local_first_line.replace(" ", "") == remote_first_line.replace(" ", ""):
+        if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
             await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>.</b>")
         else:
             update_message = f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>"
