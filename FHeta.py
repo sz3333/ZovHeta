@@ -1,4 +1,4 @@
-__version__ = 2.3
+__version__ = 2.4
 # meta developer: @foxy437
 
 import requests
@@ -116,16 +116,18 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-        
+
     @loader.command()
     async def fupdate(self, message):
         '''- Check update.'''
         module_name = "FHeta"
         module = self.lookup(module_name)
         sys_module = inspect.getmodule(module)
+
         local_file = io.BytesIO(sys_module.__loader__.data)
+        local_file.name = f"{module_name}.py"
         local_file.seek(0)
-        local_first_line = local_file.readline().strip()
+        local_first_line = local_file.readline().strip().decode("utf-8")
 
         headers = {'Authorization': f'token {self.token}'}
         async with aiohttp.ClientSession(headers=headers) as session:
@@ -136,11 +138,11 @@ class FHeta(loader.Module):
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>")
                     return
 
-        if local_first_line == remote_first_line:
+        if local_first_line.replace(" ", "") == remote_first_line.replace(" ", ""):
             await utils.answer(message, "<emoji document_id=5188311512791393083>✅</emoji> <b>You have the current version of</b> <code>FHeta</code><b>.</b>")
         else:
             await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version of </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>")
-            
+
     async def search_modules_parallel(self, query: str):
         found_modules = []
         async with aiohttp.ClientSession() as session:
@@ -385,4 +387,3 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-      
