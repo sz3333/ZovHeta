@@ -1,4 +1,4 @@
-__version__ = (2, 2)
+__version__ = (2, 1)
 # meta developer: @foxy437
 
 import requests
@@ -345,6 +345,7 @@ class FHeta(loader.Module):
         return ""
 
 
+
     def extract_commands(self, content):
         commands = {}
         lines = content.split('\n')
@@ -377,14 +378,13 @@ class FHeta(loader.Module):
                     if description:
                         commands[cmd_name] = " ".join(description).strip()
                         
-            elif 'async def' in line:
+             elif 'async def' in line and cmd_name[-3:] == 'cmd':
                 cmd_name = line.split('async def ')[1].split('(')[0]
-                if cmd_name.endswith('cmd'):
-                    cmd_name = cmd_name[:-3]
-                    description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
-                    if description_match:             
-                        command_description = description_match.group(1) or description_match.group(2)
-                        if command_description:
-                            commands[cmd_name] = command_description.strip()
+                cmd_name = cmd_name[:-3]
+                description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
+                if description_match:
+                    command_description = description_match.group(1) or description_match.group(2)
+                    if command_description:
+                        commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
