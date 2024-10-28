@@ -115,7 +115,7 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-  
+
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -133,11 +133,10 @@ class FHeta(loader.Module):
 
             try:
                 with open(local_file_path, "r") as local_file:
-                    local_code = local_file.read().strip()
-                    local_hash = hashlib.sha256(local_code.encode()).hexdigest()
-                    log_file.write(f"Local file hash: {local_hash}\n")
+                    local_code = ''.join(local_file.read().split())
+                    log_file.write(f"Local file content (without spaces): {local_code}\n")
             except FileNotFoundError:
-                local_hash = None
+                local_code = ""
                 log_file.write("Local file not found.\n")
 
             async def fetch_remote_code():
@@ -146,27 +145,27 @@ class FHeta(loader.Module):
                     try:
                         async with session.get(url, headers=headers) as response:
                             if response.status == 200:
-                                remote_code = (await response.text()).strip()
+                                remote_code = ''.join((await response.text()).split())
                                 log_file.write("Remote code fetched successfully.\n")
-                                return hashlib.sha256(remote_code.encode()).hexdigest()
+                                log_file.write(f"Remote file content (without spaces): {remote_code}\n")
+                                return remote_code
                             else:
                                 log_file.write(f"Failed to fetch remote code: Status {response.status}\n")
                     except aiohttp.ClientError as e:
                         log_file.write(f"Client error during fetch: {e}\n")
                     return None
 
-            remote_hash = await fetch_remote_code()
-            if remote_hash is None:
+            remote_code = await fetch_remote_code()
+            if remote_code is None:
                 await asyncio.sleep(2)
                 log_file.write("Retrying fetch of remote code...\n")
-                remote_hash = await fetch_remote_code()
+                remote_code = await fetch_remote_code()
 
-            if remote_hash is None:
+            if remote_code is None:
                 await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
                 log_file.write("Failed to fetch remote code after retry.\n")
             else:
-                log_file.write(f"Remote file hash: {remote_hash}\n")
-                if local_hash != remote_hash:
+                if local_code != remote_code:
                     prefix = self.get_prefix()
                     await utils.answer(
                         message,
@@ -427,4 +426,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-        
+                
