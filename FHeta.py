@@ -1,4 +1,4 @@
-__version__ = 2.2
+__version__ = 2.3
 # meta developer: @foxy437
 
 import requests
@@ -118,15 +118,12 @@ class FHeta(loader.Module):
     @loader.command()
     async def fupdate(self, message):
         '''- Check update.'''
-        user_id = str((await self.client.get_me()).id)
-        local_file_path = f"loaded_modules/FHeta_{user_id}.py"
-        
-        try:
-            with open(local_file_path, 'r') as local_file:
-                local_first_line = local_file.readline().strip()
-        except FileNotFoundError:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>FHeta not found.</b>")
-            return
+        module_name = "FHeta"
+        module = self.lookup(module_name)
+        sys_module = inspect.getmodule(module)
+        local_file = io.BytesIO(sys_module.__loader__.data)
+        local_file.seek(0)
+        local_first_line = local_file.readline().strip()
 
         headers = {'Authorization': f'token {self.token}'}
         async with aiohttp.ClientSession(headers=headers) as session:
