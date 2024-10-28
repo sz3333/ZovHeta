@@ -10,6 +10,7 @@ import re
 import os
 import gdown
 import inspect
+import io
 
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
