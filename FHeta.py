@@ -1,4 +1,4 @@
-__version__ = (1, 9)
+__version__ = (2, 2)
 # meta developer: @foxy437
 # what new: Rework fupdate.
 
