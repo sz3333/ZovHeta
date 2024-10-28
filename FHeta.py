@@ -1,4 +1,4 @@
-__version__ = (2, 5)
+__version__ = (2, 2)
 # meta developer: @foxy437
 
 import requests
@@ -344,20 +344,19 @@ class FHeta(loader.Module):
                         return match.group(1).strip()
         return ""
 
-    import re
 
     def extract_commands(self, content):
         commands = {}
         lines = content.split('\n')
         
         for i, line in enumerate(lines):
-            if '@loader.command' in line or '@loader.sudo' in line or ('async def' in line and line.split('async def ')[1].split('(')[0].endswith('cmd')):
-                cmd_name_line = line if 'async def' in line else lines[i + 1].strip()
+            if '@loader.command' in line or '@loader.sudo' in line:
+                cmd_name_line = lines[i + 1].strip()
                 if 'async def' in cmd_name_line:
                     cmd_name = cmd_name_line.split('async def ')[1].split('(')[0]
                     if cmd_name.endswith('cmd'):
                         cmd_name = cmd_name[:-3]
-                     
+                    
                     description = []
                     in_description = False
                     
@@ -374,8 +373,18 @@ class FHeta(loader.Module):
                                 description.append(desc_line.strip('"""').strip("'''"))
                                 break
                             description.append(desc_line)
-                            
+
                     if description:
                         commands[cmd_name] = " ".join(description).strip()
+                        
+            elif 'async def' in line:
+                cmd_name = line.split('async def ')[1].split('(')[0]
+                if cmd_name.endswith('cmd'):
+                    cmd_name = cmd_name[:-3]
+                    description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
+                    if description_match:             
+                        command_description = description_match.group(1) or description_match.group(2)
+                        if command_description:
+                            commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
