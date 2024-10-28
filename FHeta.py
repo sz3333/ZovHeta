@@ -119,7 +119,7 @@ class FHeta(loader.Module):
 
     @loader.command()
     async def fupdate(self, message):
-        '''- Check update.'''
+        '''- check update.'''
         module_name = "FHeta"
         module = self.lookup(module_name)
         sys_module = inspect.getmodule(module)
