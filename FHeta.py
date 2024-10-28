@@ -1,4 +1,4 @@
-__version__ = (1, 6)
+__version__ = (1, 8)
 # meta developer: @foxy437
 # whats new: Rework fupdate.
 
@@ -117,7 +117,6 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-
     @loader.command()
     async def fupdate(self, message):
         '''- check update.'''
@@ -129,21 +128,39 @@ class FHeta(loader.Module):
         local_file.name = f"{module_name}.py"
         local_file.seek(0)
         local_first_line = local_file.readline().strip().decode("utf-8")
+        
+        correct_version = sys_module.__version__
+        correct_version_str = ".".join(map(str, correct_version))
 
         headers = {'Authorization': f'token {self.token}'}
         async with aiohttp.ClientSession(headers=headers) as session:
             async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
                 if response.status == 200:
-                    remote_first_line = (await response.text()).splitlines()[0].strip()
+                    remote_content = await response.text()
+                    remote_lines = remote_content.splitlines()
+                    remote_first_line = remote_lines[0].strip()
+                    new_version = ""
+                    for line in remote_lines:
+                        if line.startswith("__version__"):
+                            new_version = line.split("=", 1)[1].strip().strip("()").replace(",", "")
+                            break
+                        if line.startswith("# what new:"):
+                            what_new = line.split(":", 1)[1].strip()
+                            break
                 else:
                     await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>")
                     return
 
         if local_first_line.replace(" ", "") == remote_first_line.replace(" ", ""):
-            await utils.answer(message, "<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta</code><b>.</b>")
+            await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>.</b>")
         else:
-            await utils.answer(message, f"<emoji document_id=5348277823133999513>❗</emoji> <b>You are using an old version </b><code>FHeta</code><b>.</b>\n\n<b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>")
-
+            update_message = f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>"
+            if what_new:
+                update_message += f"\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version </b> <code>{new_version}</code><b> available!</b>"
+            update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}"
+            update_message += f"\n\n<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>"
+            await utils.answer(message, update_message)
+            
     async def search_modules_parallel(self, query: str):
         found_modules = []
         async with aiohttp.ClientSession() as session:
