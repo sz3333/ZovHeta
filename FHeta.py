@@ -116,7 +116,6 @@ class FHeta(loader.Module):
    
     @loader.command()
     async def fupdate(self, message):
-        """- Check update."""
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py"
 
         user = await self._client.get_me()
@@ -137,7 +136,7 @@ class FHeta(loader.Module):
                 if response.status == 200:
                     remote_code = (await response.text()).strip()
                 else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error reading update.</b>")
+                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Error fetching update.</b>")
                     return
 
             local_code_lines = [line.strip() for line in local_code.splitlines()]
@@ -151,7 +150,7 @@ class FHeta(loader.Module):
                     f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
                 )
             else:
-                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>No update found.</b>")
+                await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No updates found, code is up to date.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -397,3 +396,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
+                    
