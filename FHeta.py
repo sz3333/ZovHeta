@@ -1,4 +1,4 @@
-__version__ = (2, 6)
+__version__ = (2, 7)
 # meta developer: @foxy437
 # what new: Bugs fixed, search speed improved.
 
@@ -143,11 +143,11 @@ class FHeta(loader.Module):
                     return
 
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, f"<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>!</b>")
+            await utils.answer(message, f"<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual version of</b> <code>FHeta (v{correct_version_str})</code><b>.</b>")
         else:
             update_message = (
-                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>{new_version}v</code><b> available!</b>\n"
+                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version of </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
+                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
             )
             if what_new:
                 update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
@@ -273,48 +273,46 @@ class FHeta(loader.Module):
                     )
                     if match:
                         return match.group(1).strip()
+
         return ""
 
     def extract_commands(self, content):
         commands = {}
         lines = content.split('\n')
-        
+
         for i, line in enumerate(lines):
-            if '@loader.command' in line or '@loader.sudo' in line:
-                cmd_name_line = lines[i + 1].strip()
+            line = line.strip()
+
+            if '@loader.command' in line or '@loader.sudo' in line or 'async def' in line:
+                if 'async def' in line:
+                    cmd_name_line = line
+                else:
+                    cmd_name_line = lines[i + 1].strip()
+
                 if 'async def' in cmd_name_line:
                     cmd_name = cmd_name_line.split('async def ')[1].split('(')[0]
                     if cmd_name.endswith('cmd'):
                         cmd_name = cmd_name[:-3]
-                    
-                    description = []
-                    in_description = False
-                    
-                    for desc_line in lines[i + 2:]:
-                        desc_line = desc_line.strip()
-                        if desc_line.startswith('"""') or desc_line.startswith("'''"):
-                            if in_description:
-                                break
-                            else:
-                                in_description = True
-                                description.append(desc_line.strip('"""').strip("'''"))
-                        elif in_description:
-                            if desc_line.endswith('"""') or desc_line.endswith("'''"):
-                                description.append(desc_line.strip('"""').strip("'''"))
-                                break
-                            description.append(desc_line)
 
-                    if description:
+                    description = []
+
+                    if '@loader.command' in line and 'en_doc="' in line:
+                        en_doc_start = line.index('en_doc="') + 8
+                        en_doc_end = line.index('"', en_doc_start)
+                        en_doc_text = line[en_doc_start:en_doc_end]
+                        description.append(en_doc_text)
+
+                    description_line = lines[i + 1].strip()
+                    if description_line.startswith(('"""', "'''", '"', "'")):
+                        description_text = description_line.strip('"""').strip("'''").strip('"').strip("'")
+                        description.append(description_text)
+                    elif not description_line.startswith('"""') and not description_line.startswith("'''"):
+                        description_line_match = re.match(r'^["\'](.+?)["\']$', description_line)
+                        if description_line_match:
+                            description.append(description_line_match.group(1))
+
+                    if description and " ".join(description).strip() != "Callback button":
                         commands[cmd_name] = " ".join(description).strip()
-                        
-            elif 'async def' in line:
-                cmd_name = line.split('async def ')[1].split('(')[0]
-                if cmd_name.endswith('cmd'):
-                    cmd_name = cmd_name[:-3]
-                description_match = re.search(r'"""(.*?)"""|\'\'\'(.*?)\'\'\'', lines[i + 1].strip())
-                if description_match:
-                    command_description = description_match.group(1) or description_match.group(2)
-                    if command_description:
-                        commands[cmd_name] = command_description.strip()
-                        
-        return commands if commands else None
+
+        return commands
+                    
