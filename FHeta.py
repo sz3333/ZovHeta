@@ -133,29 +133,34 @@ class FHeta(loader.Module):
         except FileNotFoundError:
             local_hash = None
 
-        async with aiohttp.ClientSession() as session:
-            headers = {"Authorization": f"token {self.token}"}
-            try:
-                async with session.get(url, headers=headers) as response:
-                    if response.status == 200:
-                        remote_code = (await response.text()).strip()
-                        remote_hash = hashlib.sha256(remote_code.encode()).hexdigest()
-                    else:
-                        await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
-                        return
-            except aiohttp.ClientError:
-                await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
-                return
+        remote_code = None
+        for attempt in range(3):  # до 3 попыток
+            async with aiohttp.ClientSession() as session:
+                headers = {"Authorization": f"token {self.token}"}
+                try:
+                    async with session.get(url, headers=headers) as response:
+                        if response.status == 200:
+                            remote_code = (await response.text()).strip()
+                            remote_hash = hashlib.sha256(remote_code.encode()).hexdigest()
+                            break  # успешный ответ
+                        else:
+                            await asyncio.sleep(1)  # задержка перед повтором
+                except aiohttp.ClientError:
+                    await asyncio.sleep(1)
+        
+        if remote_code is None:
+            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Could not fetch update.</b>")
+            return
 
-            if local_hash != remote_hash:
-                prefix = self.get_prefix()
-                await utils.answer(
-                    message,
-                    f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
-                    f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
-                )
-            else:
-                await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
+        if local_hash != remote_hash:
+            prefix = self.get_prefix()
+            await utils.answer(
+                message,
+                f"<emoji document_id=5188311512791393083>🔎</emoji> <b>You are using an outdated version of </b><code>Fheta</code><b>!</b>\n\n"
+                f"<b>To update, type:</b> <code>{prefix}dlm {url}</code>"
+            )
+        else:
+            await utils.answer(message, "<emoji document_id=5348277823133999513>✅</emoji> <b>No update found.</b>")
 
     async def search_modules_parallel(self, query: str):
         found_modules = []
@@ -401,4 +406,4 @@ class FHeta(loader.Module):
                         commands[cmd_name] = command_description.strip()
                         
         return commands if commands else None
-                
+                                
