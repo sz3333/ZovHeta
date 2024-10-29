@@ -147,8 +147,8 @@ class FHeta(loader.Module):
             await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>.</b>")
         else:
             update_message = (
-                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>{new_version}v</code><b> available!</b>\n"
+                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
+                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
             )
             if what_new:
                 update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
