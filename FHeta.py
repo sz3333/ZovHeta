@@ -1,6 +1,6 @@
-__version__ = (2, 7)
+__version__ = (2, 8)
 # meta developer: @foxy437
-# what new: Bug fix.
+# what new: Search upgraded, and searching speed improved.
 
 import requests
 import asyncio
@@ -12,9 +12,10 @@ import os
 import gdown
 import inspect
 import io
-
+import ast
+    
 class FHeta(loader.Module):
-    '''Module for searching modules! Upload your modules in fheta_bot.t.me'''
+    '''Module for searching modules! Upload your modules to FHeta via fheta_bot.t.me!'''
     strings = {"name": "FHeta"}
 
     repos = [
@@ -91,7 +92,7 @@ class FHeta(loader.Module):
  
                 commands_section = ""
                 if module['commands']:
-                    commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd}</code> {desc}" for cmd, desc in module['commands'].items()])
+                    commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
                     commands_section = f"\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}"
 
                 description_section = ""
@@ -143,11 +144,11 @@ class FHeta(loader.Module):
                     return
 
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, f"<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual version of</b> <code>FHeta (v{correct_version_str})</code><b>.</b>")
+            await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>.</b>")
         else:
             update_message = (
-                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version of </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
+                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>\n\n"
+                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>{new_version}v</code><b> available!</b>\n"
             )
             if what_new:
                 update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
@@ -175,6 +176,7 @@ class FHeta(loader.Module):
                 if result:
                     found_modules.extend(result)
         return found_modules
+
     async def search_repo(self, repo, query, session):
         url = f"https://api.github.com/repos/{repo}/contents"
         headers = {
@@ -226,7 +228,7 @@ class FHeta(loader.Module):
                 for item in data:
                     if item['name'].endswith('.py'):
                         commands = await self.get_commands_from_module(item['download_url'], session) or ["<emoji document_id=5427052514094619126>🙅‍♂️</emoji>"]
-                        if any(query.lower() in cmd.lower() for cmd in commands):
+                        if any(isinstance(cmd, dict) and 'name' in cmd and query.lower() in cmd['name'].lower() for cmd in commands):
                             result.append({
                                 "name": item['name'],
                                 "repo": repo,
@@ -258,61 +260,44 @@ class FHeta(loader.Module):
             async with session.get(download_url) as response:
                 if response.status == 200:
                     content = await response.text()
-                    
-                    match = re.search(
-                        r'class\s+\w+\(loader\.Module(?:, \w+)*\):\s+[\'"]{3}([\s\S]*?)[\'"]{3}',
-                        content,
-                        re.DOTALL
-                    )
-                    if match:
-                        return match.group(1).strip()
-                    
-                    match = re.search(
-                        r'class\s+\w+\(loader\.Module(?:, \w+)*\):\s+[\'"]{3}(.+?)[\'"]{3}',
-                        content
-                    )
-                    if match:
-                        return match.group(1).strip()
-
+                    tree = ast.parse(content)
+                    for node in ast.walk(tree):
+                        if isinstance(node, ast.ClassDef) and any(
+                            isinstance(base, ast.Attribute) and base.attr == "Module" 
+                            for base in node.bases
+                        ):
+                            return ast.get_docstring(node) or ""
         return ""
 
-    def extract_commands(self, content):
-        commands = {}
-        lines = content.split('\n')
+    @staticmethod
+    def extract_commands(content):
+        try:
+            tree = ast.parse(content)
+        except SyntaxError:
+            return []
 
-        for i, line in enumerate(lines):
-            line = line.strip()
+        commands = []
+        def get_decorator_names(decorator_list):
+            return [ast.unparse(decorator) for decorator in decorator_list]
 
-            if '@loader.command' in line or '@loader.sudo' in line or 'async def' in line:
-                if 'async def' in line:
-                    cmd_name_line = line
-                else:
-                    cmd_name_line = lines[i + 1].strip()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ClassDef):
+                for class_body_node in node.body:
+                    if isinstance(class_body_node, (ast.FunctionDef, ast.AsyncFunctionDef)):
+                        decorators = get_decorator_names(class_body_node.decorator_list)
+                        is_loader_command = any("command" in decorator for decorator in decorators)
 
-                if 'async def' in cmd_name_line:
-                    cmd_name = cmd_name_line.split('async def ')[1].split('(')[0]
-                    if cmd_name.endswith('cmd'):
-                        cmd_name = cmd_name[:-3]
+                        if is_loader_command or class_body_node.name.endswith("cmd"):
+                            method_docstring = ast.get_docstring(class_body_node)
+                            command_name = class_body_node.name
+                            if command_name.endswith("cmd"):
+                                command_name = command_name[:-3]
 
-                    description = []
-
-                    if '@loader.command' in line and 'en_doc="' in line:
-                        en_doc_start = line.index('en_doc="') + 8
-                        en_doc_end = line.index('"', en_doc_start)
-                        en_doc_text = line[en_doc_start:en_doc_end]
-                        description.append(en_doc_text)
-
-                    description_line = lines[i + 1].strip()
-                    if description_line.startswith(('"""', "'''", '"', "'")):
-                        description_text = description_line.strip('"""').strip("'''").strip('"').strip("'")
-                        description.append(description_text)
-                    elif not description_line.startswith('"""') and not description_line.startswith("'''"):
-                        description_line_match = re.match(r'^["\'](.+?)["\']$', description_line)
-                        if description_line_match:
-                            description.append(description_line_match.group(1))
-
-                    if description and " ".join(description).strip() != "Callback button":
-                        commands[cmd_name] = " ".join(description).strip()
+                            command_info = {
+                                "name": command_name,
+                                "description": method_docstring or ""
+                            }
+                            commands.append(command_info)
 
         return commands
-                    
+                
