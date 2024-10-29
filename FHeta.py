@@ -1,4 +1,4 @@
-__version__ = (2, 8)
+__version__ = (2, 9)
 # meta developer: @foxy437
 # what new: Search upgraded, and searching speed improved.
 
@@ -69,7 +69,6 @@ class FHeta(loader.Module):
             return
 
         await utils.answer(message, "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>")
-
         modules = await self.search_modules_parallel(args)
 
         if not modules:
@@ -77,6 +76,7 @@ class FHeta(loader.Module):
             modules = await self.search_modules_parallel(args)
 
         if not modules:
+            await utils.answer(message, "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching by name failed, starting to searching by command...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>This is a long process, approximate waiting time is 2-3 minutes.</b>")
             modules = await self.search_modules_by_command_parallel(args)
 
         if not modules:
@@ -89,7 +89,7 @@ class FHeta(loader.Module):
             for module in modules:
                 repo_url = f"https://github.com/{module['repo']}"
                 download_url = module['download_url']
- 
+
                 commands_section = ""
                 if module['commands']:
                     commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
@@ -147,8 +147,8 @@ class FHeta(loader.Module):
             await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta ({correct_version_str}v)</code><b>.</b>")
         else:
             update_message = (
-                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
+                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta ({correct_version_str}v)</code><b>.</b>\n\n"
+                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>{new_version}v</code><b> available!</b>\n"
             )
             if what_new:
                 update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
@@ -300,4 +300,3 @@ class FHeta(loader.Module):
                             commands.append(command_info)
 
         return commands
-                
