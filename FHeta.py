@@ -1,6 +1,6 @@
 __version__ = (2, 9, 1)
 # meta developer: @foxy437
-# what new: Search upgraded, and searching speed improved.
+# what new: Search upgraded, and searching speed improved, bug fix.
 
 import requests
 import asyncio
