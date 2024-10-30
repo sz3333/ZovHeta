@@ -144,7 +144,7 @@ class FHeta(loader.Module):
                     return
 
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, f"<emoji document_id=5188311512791393083>✅</emoji> <b>You have the actual</b> <code>FHeta (v{correct_version_str})</code><b>.</b>")
+            await utils.answer(message, f"<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{correct_version_str})</code><b>.</b>")
         else:
             update_message = (
                 f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
