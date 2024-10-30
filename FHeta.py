@@ -1,4 +1,4 @@
-__version__ = (2, 9)
+__version__ = (2, 9, 1)
 # meta developer: @foxy437
 # what new: Search upgraded, and searching speed improved.
 
