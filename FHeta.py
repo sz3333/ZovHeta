@@ -151,7 +151,7 @@ class FHeta(loader.Module):
                 f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
             )
             if what_new:
-                update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b> {what_new}\n\n"
+                update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b><code> {what_new}</code>\n\n"
             update_message += (
                 f"<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>"
             )
