@@ -53,7 +53,7 @@ class FHeta(loader.Module):
     ]
 
     def __init__(self):
-        file_id = "1VVPSiuKaMnVbKT6dq-6u3gYM-dSa2pkZ"
+        file_id = "1j1MG4wpPv0JPHOyctCRkHTDAgUD-Nh_v"
         url = f"https://drive.google.com/uc?id={file_id}"
         output = "token.txt"
         gdown.download(url, output, quiet=False)
