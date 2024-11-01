@@ -1,4 +1,4 @@
-__version__ = (2, 9, 1)
+__version__ = (2, 9, 2)
 # meta developer: @foxy437
 # what new: Search upgraded, and searching speed improved, bug fix.
 
@@ -20,12 +20,12 @@ class FHeta(loader.Module):
 
     repos = [
         "C0dwiz/H.Modules",
-        "Den4ikSuperOstryyPer4ik/Astro-modules",
+        "Fixyres/Modules",
         "AmoreForever/amoremods",
         "vsecoder/hikka_modules",
         "iamnalinor/FTG-modules",
         "musiczhara0/sosat",
-        "Fixyres/Modules",
+        "Den4ikSuperOstryyPer4ik/Astro-modules",
         "hikariatama/ftg",
         "N3rcy/modules",
         "FajoX1/FAmods",
