@@ -1,4 +1,4 @@
-__version__ = (3, 0, 0)
+__version__ = (3, 0, 1)
 # meta developer: @foxy437
 # what new: Bug fix, added russian language!
 
@@ -17,7 +17,7 @@ from hikkatl.types import Message
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules! Upload your modules to FHeta via fheta_bot.t.me!'''
+    '''Module for searching modules! Upload your modules to FHeta via fheta_robot.t.me!'''
     strings = {
         "name": "FHeta",
         "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>",
