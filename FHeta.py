@@ -1,6 +1,6 @@
-__version__ = (2, 9, 2)
+__version__ = (3, 0, 0)
 # meta developer: @foxy437
-# what new: Search upgraded, and searching speed improved, bug fix.
+# what new: Bug fix, added russian language!
 
 import requests
 import asyncio
@@ -13,10 +13,42 @@ import gdown
 import inspect
 import io
 import ast
-    
+from hikkatl.types import Message
+
+@loader.tds
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules to FHeta via fheta_bot.t.me!'''
-    strings = {"name": "FHeta"}
+    strings = {
+        "name": "FHeta",
+        "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>",
+        "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Enter a query to search.</b>",
+        "searching_by_command": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching by name failed, starting to search by command...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>This is a long process, approximate waiting time is 2-3 minutes.</b>",
+        "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
+        "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
+        "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} for:</b> <code>{query}</code>\n<b>{module_name}</b> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>",
+        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
+        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>"
+    }
+
+    strings_ru = {
+        "name": "FHeta",
+        "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Поиск...</b>",
+        "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Введите запрос для поиска.</b>",
+        "searching_by_command": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Поиск по названию не дал результатов, начинаем поиск по командам...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>Это займет немного больше времени, приблизительно 2-3 минуты.</b>",
+        "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
+        "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
+        "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} для:</b> <code>{query}</code>\n<b>{module_name}</b> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Не удалось получить данные для FHeta.</b>",
+        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Что нового:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться, напишите: <code>{update_command}</code></b>"
+    }
 
     repos = [
         "C0dwiz/H.Modules",
@@ -60,15 +92,17 @@ class FHeta(loader.Module):
         with open(output, "r") as file:
             self.token = file.read().strip()
 
-    @loader.command()
+    @loader.command(
+             en_doc="<query> - search modules.", 
+             ru_doc="<запрос> - искать модули."
+    )
     async def fheta(self, message):
-        '''<query> - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Enter a query to search.</b>")
+            await utils.answer(message, self.strings("no_query"))
             return
 
-        await utils.answer(message, "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>")
+        await utils.answer(message, self.strings("search"))
         modules = await self.search_modules_parallel(args)
 
         if not modules:
@@ -76,11 +110,11 @@ class FHeta(loader.Module):
             modules = await self.search_modules_parallel(args)
 
         if not modules:
-            await utils.answer(message, "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching by name failed, starting to searching by command...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>This is a long process, approximate waiting time is 2-3 minutes.</b>")
+            await utils.answer(message, self.strings("searching_by_command"))
             modules = await self.search_modules_by_command_parallel(args)
 
         if not modules:
-            await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>")
+            await utils.answer(message, self.strings("no_modules_found"))
         else:
             results = ""
             seen_modules = set()
@@ -93,12 +127,12 @@ class FHeta(loader.Module):
                 commands_section = ""
                 if module['commands']:
                     commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                    commands_section = f"\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}"
+                    commands_section = self.strings("commands").format(commands_list=commands_list)
 
                 description_section = ""
                 description = await self.get_module_description(download_url)
                 if description:
-                    description_section = f"\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}"
+                    description_section = self.strings("description").format(description=description)
 
                 author_info = await self.get_author_from_file(download_url)
                 module_name = module['name'].replace('.py', '')
@@ -108,15 +142,26 @@ class FHeta(loader.Module):
                     continue
                 seen_modules.add(module_key)
 
-                result = f"<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {result_index} for:</b> <code>{args}</code>\n<b>{module_name}</b> by {author_info}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{self.get_prefix()}dlm {download_url}</code>{description_section}{commands_section}\n\n\n"
+                result = self.strings("result").format(
+                    index=result_index,
+                    query=args,
+                    module_name=module_name,
+                    author=author_info,
+                    repo_url=repo_url,
+                    install_command=f"{self.get_prefix()}dlm {download_url}",
+                    description=description_section,
+                    commands=commands_section
+                )
                 results += result
                 result_index += 1
 
             await utils.answer(message, results)
             
-    @loader.command()
-    async def fupdate(self, message):
-        '''- check update.'''
+    @loader.command(
+        en_doc = ' - check update.', 
+        ru_doc = ' - проверить обновления.'
+    )
+    async def fupdate(self, message: Message):
         module_name = "FHeta"
         module = self.lookup(module_name)
         sys_module = inspect.getmodule(module)
@@ -140,21 +185,16 @@ class FHeta(loader.Module):
                     what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# what new:") else ""
                     
                 else:
-                    await utils.answer(message, "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>")
+                    await utils.answer(message, self.strings("fetch_failed"))
                     return
 
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, f"<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{correct_version_str})</code><b>.</b>")
+            await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
         else:
-            update_message = (
-                f"<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{correct_version_str})</code><b>.</b>\n\n"
-                f"<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n"
-            )
+            update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
             if what_new:
-                update_message += f"<emoji document_id=5307761176132720417>⁉️</emoji> <b>What’s new:</b><code> {what_new}</code>\n\n"
-            update_message += (
-                f"<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py</code></b>"
-            )
+                update_message += self.strings("update_whats_new").format(whats_new=what_new)
+            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
                                   
     async def search_modules_parallel(self, query: str):
