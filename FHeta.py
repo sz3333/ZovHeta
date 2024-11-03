@@ -51,8 +51,8 @@ class FHeta(loader.Module):
     }
 
     repos = [
-        "C0dwiz/H.Modules",
         "Fixyres/Modules",
+        "C0dwiz/H.Modules",
         "AmoreForever/amoremods",
         "vsecoder/hikka_modules",
         "iamnalinor/FTG-modules",
