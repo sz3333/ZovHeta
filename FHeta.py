@@ -1,6 +1,6 @@
-__version__ = (3, 0, 1)
+__version__ = (3, 0, 2)
 # meta developer: @foxy437
-# what new: Bug fix, added russian language!
+# what new: New repository github.com/TheKsenon/MyHikkaModules
 
 import requests
 import asyncio
@@ -81,7 +81,8 @@ class FHeta(loader.Module):
         "1jpshiro/hikka-modules",
         "MoriSummerz/ftg-mods",
         "dekkusudev/mm-hikka-mods",
-        "idiotcoders/idiotmodules"
+        "idiotcoders/idiotmodules",
+        "TheKsenon/MyHikkaModules"
     ]
 
     def __init__(self):
