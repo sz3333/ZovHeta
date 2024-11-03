@@ -47,7 +47,7 @@ class FHeta(loader.Module):
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Что нового:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться, напишите: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>"
     }
 
     repos = [
