@@ -1,4 +1,4 @@
-__version__ = (3, 0, 3)
+__version__ = (3, 0, 4)
 # meta developer: @foxy437
 # what new: New repository github.com/TheKsenon/MyHikkaModules, bug fix.
 
@@ -98,6 +98,7 @@ class FHeta(loader.Module):
              ru_doc="<запрос> - искать модули."
     )
     async def fheta(self, message):
+        """<query> - search modules."""
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings("no_query"))
@@ -163,6 +164,7 @@ class FHeta(loader.Module):
         ru_doc = ' - проверить обновления.'
     )
     async def fupdate(self, message: Message):
+        ''' - check update.'''
         module_name = "FHeta"
         module = self.lookup(module_name)
         sys_module = inspect.getmodule(module)
