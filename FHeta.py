@@ -1,4 +1,4 @@
-__version__ = (3, 0, 4)
+__version__ = (3, 0, 5)
 # meta developer: @foxy437
 # what new: New repository github.com/TheKsenon/MyHikkaModules, bug fix.
 
@@ -82,7 +82,8 @@ class FHeta(loader.Module):
         "MoriSummerz/ftg-mods",
         "dekkusudev/mm-hikka-mods",
         "idiotcoders/idiotmodules",
-        "TheKsenon/MyHikkaModules"
+        "TheKsenon/MyHikkaModules",
+        "Fixyres/FHeta"
     ]
 
     def __init__(self):
