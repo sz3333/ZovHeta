@@ -1,5 +1,5 @@
 # meta developer: @Deeeeeeeeeeeeff & @Foxy437
-__version__ = (2, 5)
+__version__ = (2, 6)
 
 import requests
 import aiohttp
@@ -101,7 +101,7 @@ class ChatGPT(loader.Module):
             self.personal_histories[user_id] = []
             self.db.set("ChatGPTModule", "personal_histories", self.personal_histories)
             await utils.answer(message, self.strings("personal_reset"))
-
+            
     @loader.unrestricted
     async def watcher(self, message):
         chat_id = str(message.chat_id)
@@ -118,16 +118,12 @@ class ChatGPT(loader.Module):
         if not message.is_reply:
             return
 
-        reply_to_message = await message.get_reply_message()
-        if reply_to_message and (
-            any(substr in reply_to_message.raw_text for substr in [
-                "❗ To reset your chat history with ChatGPT, reply to this message:",
-                "❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:",
-                "🤖 Generating response...",
-                "🤖 Генерация ответа...",
-                "🤖 Ответ:"
-            ])
-        ):
+        if any(substr in message.text for substr in [
+            "❗ To reset your chat history with ChatGPT, reply to this message:",
+            "❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:",
+            "🤖 Generating response...",
+            "🤖 Ответ:"
+        ]):
             return
 
         now = time.time()
