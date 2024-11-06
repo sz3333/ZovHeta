@@ -1,10 +1,11 @@
 # meta developer: @Deeeeeeeeeeeeff & @Foxy437
-__version__ = (2, 3)
+__version__ = (2, 4)
 
 import requests
 import aiohttp
 import random
 import asyncio
+import time
 from .. import loader, utils
 from telethon import events
 
@@ -46,12 +47,16 @@ class ChatGPT(loader.Module):
         "history_what_reset": "\n\n**❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:** `.new_history`"
     }
 
+    def __init__(self):
+        self.last_request_time = {}
+
     async def client_ready(self, client, db):
         self.client = client
         self.db = db
         self.active_chats = self.db.get("ChatGPTModule", "active_chats", {})
         self.user_histories = self.db.get("ChatGPTModule", "user_histories", {})
         self.personal_histories = self.db.get("ChatGPTModule", "personal_histories", {})
+        self.last_request_time = {}
 
     @loader.command(ru_doc="Включить ChatGPT для всех в этом чате!")
     async def on_gptcmd(self, message):
@@ -100,18 +105,39 @@ class ChatGPT(loader.Module):
     @loader.unrestricted
     async def watcher(self, message):
         chat_id = str(message.chat_id)
+        user_id = str(message.sender_id)
 
         if not self.active_chats.get(chat_id):
             return
 
-        if message.is_reply:
-            reply_to_message = await message.get_reply_message()
-            if reply_to_message and reply_to_message.sender_id == (await self.client.get_me()).id:
-                text = message.text.strip()
-                if text == ".new_history":
-                    await self.reset_history(message)
-                else:
-                    await self.respond_to_message(message, text, personal=False)
+        text = message.text.strip()
+        if text == ".new_history":
+            await self.reset_history(message)
+            return
+
+        if not message.is_reply:
+            return
+
+        reply_to_message = await message.get_reply_message()
+        if reply_to_message and (
+            any(substr in reply_to_message.raw_text for substr in [
+                "❗ To reset your chat history with ChatGPT, reply to this message:",
+                "❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:",
+                "🤖 Generating response...",
+                "🤖 Ответ:"
+            ])
+        ):
+            return
+
+        now = time.time()
+        if user_id in self.last_request_time:
+            time_diff = now - self.last_request_time[user_id]
+            if time_diff < 3:
+                return
+        
+        await self.respond_to_message(message, text, personal=False)
+
+        self.last_request_time[user_id] = time.time()
 
     async def reset_history(self, message):
         user_id = str(message.sender_id)
@@ -160,7 +186,7 @@ class ChatGPT(loader.Module):
                             self.personal_histories[user_id].append({"role": "asis", "content": answer})
                             self.db.set("ChatGPTModule", "personal_histories", self.personal_histories)
                             await message.reply(self.strings("query_label").format(query=f"`{question}`") + "\n" + self.strings("response_label").format(response=answer), parse_mode="md")
-                        else:
+                        else:       
                             self.user_histories[user_id].append({"role": "asis", "content": answer})
                             self.db.set("ChatGPTModule", "user_histories", self.user_histories)
                             await generating_message.delete()
