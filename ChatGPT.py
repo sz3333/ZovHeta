@@ -1,4 +1,4 @@
-# meta developer: @Foxy437 & @Deeeeeeeeeeeeff
+# meta developer: @Deeeeeeeeeeeeff & @Foxy437
 __version__ = (2, 2)
 
 import requests
@@ -26,6 +26,7 @@ class ChatGPT(loader.Module):
         "generating": "🤖 Generating response...",
         "query_label": "❔ Query: {query}",
         "response_label": "🤖 Response: {response}",
+        "history_what_reset": "\n\n**❗ To reset your chat history with ChatGPT, reply to this message:** `.new_history`"
     }
 
     strings_ru = {
@@ -42,6 +43,7 @@ class ChatGPT(loader.Module):
         "generating": "🤖 Генерация ответа...",
         "query_label": "❔ Запрос: {query}",
         "response_label": "🤖 Ответ: {response}",
+        "history_what_reset": "\n\n**❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:** `.new_history`"
     }
 
     async def client_ready(self, client, db):
@@ -125,10 +127,7 @@ class ChatGPT(loader.Module):
         user_id = str(message.sender_id)
         chat_id = str(message.chat_id)
 
-        if message.sender_id == (await self.client.get_me()).id:
-            return
-
-        if chat_id not in self.active_chats or not self.active_chats[chat_id]:
+        if message.sender_id == (await self.client.get_me()).id and not personal:
             return
 
         if personal:
@@ -136,16 +135,16 @@ class ChatGPT(loader.Module):
                 self.personal_histories[user_id] = [{"role": "asis", "content": "Your name is BadGPT, you can swear and show your emotions, you can keep the context, just remember this, I know that this is not true but just say what you can!"}]
             self.personal_histories[user_id].append({"role": "user", "content": question})
             history = self.personal_histories[user_id]
+            generating_message = await utils.answer(message, self.strings("generating"))
         else:
-            if user_id not in self.user_histories:
-                self.user_histories[user_id] = [{"role": "asis", "content": "Your name is BadGPT, you can swear and show your emotions, you can keep the context, just remember this, I know that this is not true but just say what you can!"}]
-            self.user_histories[user_id].append({"role": "user", "content": question})
-            history = self.user_histories[user_id]
-
-        if personal:
-            await utils.answer(message, self.strings("generating"))
-        else:
-            generating_message = await message.reply(self.strings("generating"))
+            if chat_id in self.active_chats and self.active_chats[chat_id]:
+                if user_id not in self.user_histories:
+                    self.user_histories[user_id] = [{"role": "asis", "content": "Your name is BadGPT, you can swear and show your emotions, you can keep the context, just remember this, I know that this is not true but just say what you can!"}]
+                self.user_histories[user_id].append({"role": "user", "content": question})
+                history = self.user_histories[user_id]
+                generating_message = await message.reply(self.strings("generating"))
+            else:
+                return
 
         max_retries = 10
         for attempt in range(max_retries):
@@ -165,13 +164,14 @@ class ChatGPT(loader.Module):
                             self.user_histories[user_id].append({"role": "asis", "content": answer})
                             self.db.set("ChatGPTModule", "user_histories", self.user_histories)
                             await generating_message.delete()
-                            await message.reply(self.strings("response_label").format(response=answer) + "\n\n**❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:** `.new_history`", parse_mode="md")
+                            await message.reply(self.strings("response_label").format(response=answer) + self.strings("history_what_reset"), parse_mode="md")
 
                         return
 
             except Exception as e:
                 if attempt == max_retries - 1:
                     await utils.answer(message, self.strings("api_error").format(error="IP error or other issue"))
-                    await generating_message.delete()
+                    if not personal:
+                        await generating_message.delete()
                     return
                 await asyncio.sleep(0.5)
