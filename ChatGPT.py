@@ -1,5 +1,5 @@
 # meta developer: @Deeeeeeeeeeeeff & @Foxy437
-__version__ = (2, 4)
+__version__ = (2, 5)
 
 import requests
 import aiohttp
