@@ -124,6 +124,7 @@ class ChatGPT(loader.Module):
                 "❗ To reset your chat history with ChatGPT, reply to this message:",
                 "❗ Для сброса истории переписки с ChatGPT ответьте на это сообщение:",
                 "🤖 Generating response...",
+                "🤖 Генерация ответа...",
                 "🤖 Ответ:"
             ])
         ):
