@@ -197,7 +197,7 @@ class ChatGPT(loader.Module):
 
             except Exception as e:
                 if attempt == max_retries - 1:
-                    await utils.answer(message, self.strings("api_error").format(error="IP error or other issue"))
+                    await utils.answer(message, self.strings("api_error").format(error="vo vsem vinovat @pavel"))
                     if not personal:
                         await generating_message.delete()
                     return
