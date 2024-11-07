@@ -126,10 +126,10 @@ class ChatGPT(loader.Module):
         ]):
             return
 
-        if not message.text.startswith(('.g', '.г')):
+        if not message.text.startswith(('.gpt', '.гпт')):
             return
 
-        question = message.text[2:].strip()
+        question = message.text[4:].strip()
 
         now = time.time()
         if user_id in self.last_request_time and now - self.last_request_time[user_id] < 3:
