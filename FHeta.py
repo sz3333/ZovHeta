@@ -1,6 +1,6 @@
-__version__ = (3, 0, 5)
+__version__ = (3, 0, 6)
 # meta developer: @foxy437
-# what new: New repository github.com/TheKsenon/MyHikkaModules, bug fix.
+# change-log: New repository github.com/sawwnapix/Hikka, bug fix.
 
 import requests
 import asyncio
@@ -83,7 +83,8 @@ class FHeta(loader.Module):
         "dekkusudev/mm-hikka-mods",
         "idiotcoders/idiotmodules",
         "TheKsenon/MyHikkaModules",
-        "Fixyres/FHeta"
+        "Fixyres/FHeta",
+        "sawwnapix/Hikka"
     ]
 
     def __init__(self):
@@ -186,7 +187,7 @@ class FHeta(loader.Module):
                     remote_lines = remote_content.splitlines()
 
                     new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
-                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# what new:") else ""
+                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
                     
                 else:
                     await utils.answer(message, self.strings("fetch_failed"))
