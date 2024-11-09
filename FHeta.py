@@ -1,4 +1,4 @@
-__version__ = (3, 0, 7)
+__version__ = (3, 0, 8)
 # meta developer: @foxy437
 # change-log: Bug fix.
 
