@@ -1,6 +1,6 @@
 __version__ = (3, 0, 6)
 # meta developer: @foxy437
-# change-log: New repository github.com/sawwnapix/Hikka, bug fix.
+# change-log: Bug fix.
 
 import requests
 import asyncio
@@ -72,7 +72,7 @@ class FHeta(loader.Module):
         "D4n13l3k00/FTG-Modules",
         "chebupelka10/HikkaModules",
         "KorenbZla/Hikka",
-        "Vsakoe/HK",
+        "HikkTutor/HT",
         "anon97945/hikka-mods",
         "N3rcy/modules",
         "MuRuLOSE/HikkaModulesRepo",
