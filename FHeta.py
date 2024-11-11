@@ -1,4 +1,4 @@
-__version__ = (3, 2, 3)
+__version__ = (3, 2, 2)
 # meta developer: @Foxy437
 # change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
@@ -246,3 +246,4 @@ class FHeta(loader.Module):
                         await utils.answer(message, result_text)
         else:
             await utils.answer(message, result_text)
+            
