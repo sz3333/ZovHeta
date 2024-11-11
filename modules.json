@@ -570,6 +570,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Fping.py"
     },
     {
+        "author": "@FAmods",
+        "description": "Бесплатный ChatGPT. БЕЗ API. БЕЗ БОТОВ.",
+        "commands": [
+            {
+                "name": "gf",
+                "description": "Задать вопрос к ChatGPT"
+            },
+            {
+                "name": "gfi",
+                "description": "Сгенерировать картинку"
+            }
+        ],
+        "name": "FreeGPT",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/FreeGPT.py"
+    },
+    {
         "author": "@y9_d0lbaeb",
         "description": "Based on docs.onlysq.com",
         "commands": [
@@ -1567,6 +1584,19 @@
         "name": "dushnometr",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dushnometr.py"
+    },
+    {
+        "author": "@FAmods",
+        "description": "Взаимодействие с Grok AI",
+        "commands": [
+            {
+                "name": "grok",
+                "description": "Задать вопрос к Grok"
+            }
+        ],
+        "name": "grokai",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/grokai.py"
     },
     {
         "description": "был huhuhu стал hohoho",
