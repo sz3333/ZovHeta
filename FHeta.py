@@ -1,6 +1,6 @@
-__version__ = (3, 2, 1)
+__version__ = (3, 2, 2)
 # meta developer: @Foxy437
-# change-log: 🎉 REWORK SEARCHING!!!!!!
+# change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
 import requests
 import asyncio
@@ -226,18 +226,22 @@ class FHeta(loader.Module):
             commands=commands_section
         )
 
-    async def send_result_with_video(self, message, result):
+    async def send_result_with_video(self, message, result_text):
         async with aiohttp.ClientSession() as session:
             async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/videos.json") as response:
                 if response.status == 200:
-                    videos = await response.json()
-                    if len(videos) > 0 and random.randint(1, 10) <= 9:
-                        if message.chat.permissions and "video" in message.chat.permissions:
-                            video_url = random.choice(videos)
-                            await message.answer(result, video=video_url)
+                    content = await response.text()
+                    try:
+                        videos = json.loads(content)
+                        video_url = random.choice(videos) if videos else None
+                        if video_url:
+                            if message.chat.permissions and "video" in message.chat.permissions:
+                                await message.client.send_file(message.to_id, video_url, caption=result_text)
+                            else:
+                                await utils.answer(message, result_text)
                         else:
-                            await message.answer(result)
-                    else:
-                        await message.answer(result)
+                            await utils.answer(message, result_text)
+                    except json.JSONDecodeError:
+                        await utils.answer(message, result_text)
                 else:
-                    await message.answer(result)
+                    await utils.answer(message, result_text)
