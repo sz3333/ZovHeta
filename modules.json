@@ -7049,6 +7049,19 @@
     },
     {
         "author": "@FAmods",
+        "description": "Взаимодействие с Grok AI",
+        "commands": [
+            {
+                "name": "grok",
+                "description": "Задать вопрос к Grok"
+            }
+        ],
+        "name": "grokai",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/grokai.py"
+    },
+    {
+        "author": "@FAmods",
         "description": "Поиск в Google",
         "commands": [
             {
