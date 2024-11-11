@@ -126,6 +126,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AstroKs.py"
     },
     {
+        "description": "Модуль для отправки аудиосообщений с визуальной длительностью",
+        "commands": [
+            {
+                "name": "audiomsg",
+                "description": "<длительность:часы> - отправляет аудиосообщение длительностью <длительность> часов (визуально)"
+            }
+        ],
+        "name": "AudioMessage",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AudioMessage.py"
+    },
+    {
         "author": "@AuroraModules",
         "description": "Module for insults, make the interlocutor depressed.",
         "commands": [
