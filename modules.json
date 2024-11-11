@@ -7036,6 +7036,19 @@
     },
     {
         "author": "@FAmods",
+        "description": "GigaChat AI. БЕЗ АПИ",
+        "commands": [
+            {
+                "name": "ggchat",
+                "description": "Задать вопрос к GigaChat"
+            }
+        ],
+        "name": "gigachat",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/gigachat.py"
+    },
+    {
+        "author": "@FAmods",
         "description": "Авто-участие в розыгрышах Telegram Premium",
         "commands": [
             {
@@ -27941,7 +27954,7 @@
         "commands": [
             {
                 "name": "fheta",
-                "description": "<query> - search modules."
+                "description": "(query) - search modules."
             },
             {
                 "name": "fupdate",
