@@ -228,7 +228,7 @@ class FHeta(loader.Module):
 
     async def send_result_with_video(self, message, result_text):
         await message.delete()
-        if message.chat.type in ['group', 'supergroup']:
+        if message.chat.permissions and "video" in message.chat.permissions:
             async with aiohttp.ClientSession() as session:
                 async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/videos.json") as response:
                     if response.status == 200:
@@ -237,10 +237,7 @@ class FHeta(loader.Module):
                             videos = json.loads(content)
                             video_url = random.choice(videos) if videos else None
                             if video_url:
-                                if "video" in message.chat.permissions:
-                                    await message.client.send_file(message.to_id, video_url, caption=result_text)
-                                else:
-                                    await utils.answer(message, result_text)
+                                await message.client.send_file(message.to_id, video_url, caption=result_text)
                             else:
                                 await utils.answer(message, result_text)
                         except json.JSONDecodeError:
