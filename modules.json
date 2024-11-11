@@ -27996,7 +27996,7 @@
         "commands": [
             {
                 "name": "fheta",
-                "description": "(query) - search modules."
+                "description": "<query> - search modules."
             },
             {
                 "name": "fupdate",
