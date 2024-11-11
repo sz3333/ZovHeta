@@ -220,6 +220,7 @@ class FHeta(loader.Module):
         return self.strings["closest_match"].format(
             module_name=module_name,
             author=author_info,
+            query=args,
             repo_url=repo_url,
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
