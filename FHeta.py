@@ -1,6 +1,6 @@
-__version__ = (3, 1, 0)
+__version__ = (3, 2, 1)
 # meta developer: @Foxy437
-# change-log: REWORK SEARCHING!!!!!!
+# change-log: 🎉 REWORK SEARCHING!!!!!!
 
 import requests
 import asyncio
@@ -10,6 +10,8 @@ import json
 import io
 import inspect
 from hikkatl.types import Message
+from difflib import get_close_matches
+import random
 
 @loader.tds
 class FHeta(loader.Module):
@@ -27,7 +29,8 @@ class FHeta(loader.Module):
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     strings_ru = {
@@ -42,7 +45,8 @@ class FHeta(loader.Module):
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     @loader.command(ru_doc="<запрос> - искать модули.")
@@ -50,58 +54,65 @@ class FHeta(loader.Module):
         '''<query> - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
-            await utils.answer(message, self.strings("no_query"))
+            await utils.answer(message, self.strings["no_query"])
             return
 
-        await utils.answer(message, self.strings("search"))
+        await utils.answer(message, self.strings["search"])
         modules = await self.search_modules(args)
 
         if not modules:
-            args = args.replace(" ", "")
-            modules = await self.search_modules(args)
+            modules = await self.search_modules(args.replace(" ", ""))
 
         if not modules:
-            await utils.answer(message, self.strings("no_modules_found"))
+            modules = await self.get_closest_match(args)
+
+            if modules:
+                await self.send_result_with_video(message, modules)
+            else:
+                await utils.answer(message, self.strings["no_modules_found"])
         else:
-            results = ""
-            seen_modules = set()
-            result_index = 1
+            if len(modules) == 1:
+                await self.send_result_with_video(message, await self.format_module(modules[0], args))
+            else:
+                results = ""
+                seen_modules = set()
+                result_index = 1
 
-            for module in modules:
-                repo_url = f"https://github.com/{module['repo']}"
-                install = module['install']
+                for module in modules:
+                    repo_url = f"https://github.com/{module['repo']}"
+                    install = module['install']
 
-                commands_section = ""
-                if "commands" in module:
-                    commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                    commands_section = self.strings("commands").format(commands_list=commands_list)
+                    commands_section = ""
+                    if "commands" in module:
+                        commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+                        commands_section = self.strings["commands"].format(commands_list=commands_list)
 
-                description_section = ""
-                if "description" in module:
-                    description_section = self.strings("description").format(description=module["description"])
+                    description_section = ""
+                    if "description" in module:
+                        description_section = self.strings["description"].format(description=module["description"])
 
-                author_info = module.get("author", "???")
-                module_name = module['name'].replace('.py', '')
-                module_key = f"{module_name}_{author_info}"
+                    author_info = module.get("author", "???")
+                    module_name = module['name'].replace('.py', '')
+                    module_key = f"{module_name}_{author_info}"
 
-                if module_key in seen_modules:
-                    continue
-                seen_modules.add(module_key)
+                    if module_key in seen_modules:
+                        continue
+                    seen_modules.add(module_key)
 
-                result = self.strings("result").format(
-                    index=result_index,
-                    query=args,
-                    module_name=module_name,
-                    author=author_info,
-                    repo_url=repo_url,
-                    install_command=f"{self.get_prefix()}{install}",
-                    description=description_section,
-                    commands=commands_section
-                )
-                results += result
-                result_index += 1
+                    result = self.strings["result"].format(
+                        index=result_index,
+                        query=args,
+                        module_name=module_name,
+                        author=author_info,
+                        repo_url=repo_url,
+                        install_command=f"{self.get_prefix()}{install}",
+                        description=description_section,
+                        commands=commands_section
+                    )
+                    results += result
+                    result_index += 1
 
-            await utils.answer(message, results)
+                await utils.answer(message, results)
 
     @loader.command(ru_doc=' - проверить обновления.')
     async def fupdate(self, message: Message):
@@ -140,6 +151,23 @@ class FHeta(loader.Module):
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
 
+    async def get_closest_match(self, query: str):
+        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url) as response:
+                if response.status == 200:
+                    data = await response.text()
+                    modules = json.loads(data)
+                    
+                    module_names = [module['name'] for module in modules]
+                    closest_matches = get_close_matches(query, module_names, n=1, cutoff=0.5)
+
+                    if closest_matches:
+                        module = next((m for m in modules if m['name'] == closest_matches[0]), None)
+                        if module:
+                            return await self.format_module(module, query)
+                    return None
+
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
         async with aiohttp.ClientSession() as session:
@@ -171,10 +199,45 @@ class FHeta(loader.Module):
                             if query.lower() in module.get("description", "").lower()
                         ]
 
-                    if not found_modules:
-                        return None
-
                     return found_modules
 
-        return []
-                    
+    async def format_module(self, module, query):
+        repo_url = f"https://github.com/{module['repo']}"
+        install = module['install']
+
+        commands_section = ""
+        if "commands" in module:
+            commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+            commands_section = self.strings["commands"].format(commands_list=commands_list)
+
+        description_section = ""
+        if "description" in module:
+            description_section = self.strings["description"].format(description=module["description"])
+
+        author_info = module.get("author", "???")
+        module_name = module['name'].replace('.py', '')
+
+        return self.strings["closest_match"].format(
+            module_name=module_name,
+            author=author_info,
+            repo_url=repo_url,
+            install_command=f"{self.get_prefix()}{install}",
+            description=description_section,
+            commands=commands_section
+        )
+
+    async def send_result_with_video(self, message, result):
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/videos.json") as response:
+                if response.status == 200:
+                    videos = await response.json()
+                    if len(videos) > 0 and random.randint(1, 10) <= 9:
+                        if message.chat.permissions and "video" in message.chat.permissions:
+                            video_url = random.choice(videos)
+                            await message.answer(result, video=video_url)
+                        else:
+                            await message.answer(result)
+                    else:
+                        await message.answer(result)
+                else:
+                    await message.answer(result)
