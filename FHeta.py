@@ -1,4 +1,4 @@
-__version__ = (3, 2, 2)
+__version__ = (3, 2, 3)
 # meta developer: @Foxy437
 # change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
@@ -236,17 +236,10 @@ class FHeta(loader.Module):
                         videos = json.loads(content)
                         video_url = random.choice(videos) if videos else None
                         if video_url:
-                            try:
-                                if message.chat.permissions and "video" in message.chat.permissions:
-                                    await message.client.send_file(message.to_id, video_url, caption=result_text)
-                                else:
-                                    await utils.answer(message, result_text)
-                            except Exception as e:
-                                await utils.answer(message, result_text)
+                            await message.client.send_file(message.to_id, video_url, caption=result_text)
                         else:
                             await utils.answer(message, result_text)
                     except json.JSONDecodeError:
                         await utils.answer(message, result_text)
                 else:
                     await utils.answer(message, result_text)
-                                
