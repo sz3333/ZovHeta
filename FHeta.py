@@ -1,4 +1,4 @@
-__version__ = (3, 2, 5)
+__version__ = (3, 2, 3)
 # meta developer: @Foxy437
 # change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
@@ -30,7 +30,7 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found by query </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     strings_ru = {
@@ -46,12 +46,12 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
-    @loader.command(ru_doc="(запрос) - искать модули.")
+    @loader.command(ru_doc="<запрос> - искать модули.")
     async def fheta(self, message):
-        '''(query) - search modules.'''
+        '''<query> - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings["no_query"])
@@ -201,10 +201,9 @@ class FHeta(loader.Module):
 
                     return found_modules
 
-    async def format_module(self, module, query, message):
+    async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
-        args = utils.get_args_raw(message)
 
         commands_section = ""
         if "commands" in module:
@@ -221,7 +220,6 @@ class FHeta(loader.Module):
         return self.strings["closest_match"].format(
             module_name=module_name,
             author=author_info,
-            query=args,
             repo_url=repo_url,
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
