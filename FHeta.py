@@ -1,4 +1,4 @@
-__version__ = (3, 2, 2)
+__version__ = (3, 2, 3)
 # meta developer: @Foxy437
 # change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
@@ -227,7 +227,8 @@ class FHeta(loader.Module):
         )
 
     async def send_result_with_video(self, message, result_text):
-        if isinstance(message.chat, loader.types.Chat) and message.chat.permissions:
+        await message.delete()
+        if message.chat.type in ['group', 'supergroup']:
             async with aiohttp.ClientSession() as session:
                 async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/videos.json") as response:
                     if response.status == 200:
