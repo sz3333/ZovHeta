@@ -1,28 +1,24 @@
-__version__ = (3, 0, 8)
-# meta developer: @foxy437
-# change-log: Bug fix.
+__version__ = (3, 1, 0)
+# meta developer: @Foxy437
+# change-log: REWORK SEARCHING!!!!!!
 
 import requests
 import asyncio
 import aiohttp
-from concurrent.futures import ThreadPoolExecutor
 from .. import loader, utils
-import re
-import os
-import gdown
-import inspect
+import json
 import io
-import ast
+import inspect
 from hikkatl.types import Message
 
 @loader.tds
 class FHeta(loader.Module):
     '''Module for searching modules! Upload your modules to FHeta via fheta_robot.t.me!'''
+    
     strings = {
         "name": "FHeta",
         "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>",
         "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Enter a query to search.</b>",
-        "searching_by_command": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching by name failed, starting to search by command...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>This is a long process, approximate waiting time is 2-3 minutes.</b>",
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
@@ -38,7 +34,6 @@ class FHeta(loader.Module):
         "name": "FHeta",
         "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Поиск...</b>",
         "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Введите запрос для поиска.</b>",
-        "searching_by_command": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Поиск по названию не дал результатов, начинаем поиск по командам...</b>\n\n<emoji document_id=5325783112309817646>❕</emoji> <b>Это займет немного больше времени, приблизительно 2-3 минуты.</b>",
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
@@ -50,72 +45,20 @@ class FHeta(loader.Module):
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>"
     }
 
-    repos = [
-        "Fixyres/Modules",
-        "C0dwiz/H.Modules",
-        "AmoreForever/amoremods",
-        "vsecoder/hikka_modules",
-        "iamnalinor/FTG-modules",
-        "musiczhara0/sosat",
-        "Den4ikSuperOstryyPer4ik/Astro-modules",
-        "hikariatama/ftg",
-        "N3rcy/modules",
-        "FajoX1/FAmods",
-        "kayt3m/modules",
-        "sqlmerr/hikka_mods",
-        "Ijidishurka/modules",
-        "dorotorothequickend/DorotoroModules",
-        "kezuhiro-web/modules",
-        "coddrago/modules",
-        "Slaik78/ModulesHikkaFromSlaik",
-        "Daniel1236n29/Modules_hikka",
-        "D4n13l3k00/FTG-Modules",
-        "chebupelka10/HikkaModules",
-        "KorenbZla/Hikka",
-        "HikkTutor/HT",
-        "anon97945/hikka-mods",
-        "N3rcy/modules",
-        "MuRuLOSE/HikkaModulesRepo",
-        "shadowhikka/sh.modules",
-        "amm1edev/ame_repo",
-        "1jpshiro/hikka-modules",
-        "MoriSummerz/ftg-mods",
-        "dekkusudev/mm-hikka-mods",
-        "idiotcoders/idiotmodules",
-        "TheKsenon/MyHikkaModules",
-        "Fixyres/FHeta",
-        "sawwnapix/Hikka"
-    ]
-
-    def __init__(self):
-        file_id = "1j1MG4wpPv0JPHOyctCRkHTDAgUD-Nh_v"
-        url = f"https://drive.google.com/uc?id={file_id}"
-        output = "token.txt"
-        gdown.download(url, output, quiet=False)
-        with open(output, "r") as file:
-            self.token = file.read().strip()
-
-    @loader.command(
-             en_doc="<query> - search modules.", 
-             ru_doc="<запрос> - искать модули."
-    )
+    @loader.command(ru_doc="<запрос> - искать модули.")
     async def fheta(self, message):
-        """<query> - search modules."""
+        '''<query> - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings("no_query"))
             return
 
         await utils.answer(message, self.strings("search"))
-        modules = await self.search_modules_parallel(args)
+        modules = await self.search_modules(args)
 
         if not modules:
             args = args.replace(" ", "")
-            modules = await self.search_modules_parallel(args)
-
-        if not modules:
-            await utils.answer(message, self.strings("searching_by_command"))
-            modules = await self.search_modules_by_command_parallel(args)
+            modules = await self.search_modules(args)
 
         if not modules:
             await utils.answer(message, self.strings("no_modules_found"))
@@ -126,19 +69,18 @@ class FHeta(loader.Module):
 
             for module in modules:
                 repo_url = f"https://github.com/{module['repo']}"
-                download_url = module['download_url']
+                install = module['install']
 
                 commands_section = ""
-                if module['commands']:
+                if "commands" in module:
                     commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
                     commands_section = self.strings("commands").format(commands_list=commands_list)
 
                 description_section = ""
-                description = await self.get_module_description(download_url)
-                if description:
-                    description_section = self.strings("description").format(description=description)
+                if "description" in module:
+                    description_section = self.strings("description").format(description=module["description"])
 
-                author_info = await self.get_author_from_file(download_url)
+                author_info = module.get("author", "???")
                 module_name = module['name'].replace('.py', '')
                 module_key = f"{module_name}_{author_info}"
 
@@ -152,7 +94,7 @@ class FHeta(loader.Module):
                     module_name=module_name,
                     author=author_info,
                     repo_url=repo_url,
-                    install_command=f"{self.get_prefix()}dlm {download_url}",
+                    install_command=f"{self.get_prefix()}{install}",
                     description=description_section,
                     commands=commands_section
                 )
@@ -160,11 +102,8 @@ class FHeta(loader.Module):
                 result_index += 1
 
             await utils.answer(message, results)
-            
-    @loader.command(
-        en_doc = ' - check update.', 
-        ru_doc = ' - проверить обновления.'
-    )
+
+    @loader.command(ru_doc=' - проверить обновления.')
     async def fupdate(self, message: Message):
         ''' - check update.'''
         module_name = "FHeta"
@@ -179,8 +118,7 @@ class FHeta(loader.Module):
         correct_version = sys_module.__version__
         correct_version_str = ".".join(map(str, correct_version))
 
-        headers = {'Authorization': f'token {self.token}'}
-        async with aiohttp.ClientSession(headers=headers) as session:
+        async with aiohttp.ClientSession() as session:
             async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
                 if response.status == 200:
                     remote_content = await response.text()
@@ -201,147 +139,42 @@ class FHeta(loader.Module):
                 update_message += self.strings("update_whats_new").format(whats_new=what_new)
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
-                                  
-    async def search_modules_parallel(self, query: str):
-        found_modules = []
+
+    async def search_modules(self, query: str):
+        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
         async with aiohttp.ClientSession() as session:
-            tasks = [self.search_repo(repo, query, session) for repo in self.repos]
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                if result:
-                    found_modules.extend(result)
-        return found_modules
-
-    async def search_modules_by_command_parallel(self, query: str):
-        found_modules = []
-        async with aiohttp.ClientSession() as session:
-            tasks = [self.search_repo_by_command(repo, query, session) for repo in self.repos]
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                if result:
-                    found_modules.extend(result)
-        return found_modules
-
-    async def search_repo(self, repo, query, session):
-        url = f"https://api.github.com/repos/{repo}/contents"
-        headers = {
-            'Authorization': f'token {self.token}'
-        }
-        async with session.get(url, headers=headers) as response:
-            if response.status == 200:
-                data = await response.json()
-                return [
-                    {
-                        "name": item['name'],
-                        "repo": repo,
-                        "commands": await self.get_commands_from_module(item['download_url'], session),
-                        "download_url": item['download_url']
-                    }
-                    for item in data if item['name'].endswith('.py') and query.lower() in item['name'].lower()
-                ]
-            return []
-
-    async def search_modules_parallel(self, query: str):
-        found_modules = []
-        async with aiohttp.ClientSession() as session:
-            tasks = [self.search_repo(repo, query, session) for repo in self.repos]
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                if result:
-                    found_modules.extend(result)
-        return found_modules
-
-    async def search_modules_by_command_parallel(self, query: str):
-        found_modules = []
-        async with aiohttp.ClientSession() as session:
-            tasks = [self.search_repo_by_command(repo, query, session) for repo in self.repos]
-            results = await asyncio.gather(*tasks)
-            for result in results:
-                if result:
-                    found_modules.extend(result)
-        return found_modules
-
-    async def search_repo_by_command(self, repo, query, session):
-        url = f"https://api.github.com/repos/{repo}/contents"
-        headers = {
-            'Authorization': f'token {self.token}'
-        }
-        async with session.get(url, headers=headers) as response:
-            if response.status == 200:
-                data = await response.json()
-                result = []
-                for item in data:
-                    if item['name'].endswith('.py'):
-                        commands = await self.get_commands_from_module(item['download_url'], session) or ["<emoji document_id=5427052514094619126>🙅‍♂️</emoji>"]
-                        if any(isinstance(cmd, dict) and 'name' in cmd and query.lower() in cmd['name'].lower() for cmd in commands):
-                            result.append({
-                                "name": item['name'],
-                                "repo": repo,
-                                "commands": commands,
-                                "download_url": item['download_url']
-                            })
-                return result
-            return []
-
-    async def get_commands_from_module(self, download_url, session):
-        async with session.get(download_url) as response:
-            if response.status == 200:
-                content = await response.text()
-                return self.extract_commands(content)
-        return {}
-
-    async def get_author_from_file(self, download_url):
-        async with aiohttp.ClientSession() as session:
-            async with session.get(download_url) as response:
+            async with session.get(url) as response:
                 if response.status == 200:
-                    content = await response.text()
-                    author_line = next((line for line in content.split('\n') if line.startswith("# meta developer:")), None)
-                    if author_line:
-                        return author_line.split(":")[1].strip()
-        return "???"
+                    data = await response.text()
+                    modules = json.loads(data)
 
-    async def get_module_description(self, download_url):
-        async with aiohttp.ClientSession() as session:
-            async with session.get(download_url) as response:
-                if response.status == 200:
-                    content = await response.text()
-                    tree = ast.parse(content)
-                    for node in ast.walk(tree):
-                        if isinstance(node, ast.ClassDef) and any(
-                            isinstance(base, ast.Attribute) and base.attr == "Module" 
-                            for base in node.bases
-                        ):
-                            return ast.get_docstring(node) or ""
-        return ""
+                    found_modules = [
+                        module for module in modules
+                        if query.lower() in module.get("name", "").lower()
+                    ]
+                    
+                    if not found_modules:
+                        found_modules = [
+                            module for module in modules
+                            if any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
+                        ]
+                    
+                    if not found_modules:
+                        found_modules = [
+                            module for module in modules
+                            if query.lower() in module.get("author", "").lower()
+                        ]
 
-    @staticmethod
-    def extract_commands(content):
-        try:
-            tree = ast.parse(content)
-        except SyntaxError:
-            return []
+                    if not found_modules:
+                        found_modules = [
+                            module for module in modules
+                            if query.lower() in module.get("description", "").lower()
+                        ]
 
-        commands = []
-        def get_decorator_names(decorator_list):
-            return [ast.unparse(decorator) for decorator in decorator_list]
+                    if not found_modules:
+                        return None
 
-        for node in ast.walk(tree):
-            if isinstance(node, ast.ClassDef):
-                for class_body_node in node.body:
-                    if isinstance(class_body_node, (ast.FunctionDef, ast.AsyncFunctionDef)):
-                        decorators = get_decorator_names(class_body_node.decorator_list)
-                        is_loader_command = any("command" in decorator for decorator in decorators)
+                    return found_modules
 
-                        if is_loader_command or class_body_node.name.endswith("cmd"):
-                            method_docstring = ast.get_docstring(class_body_node)
-                            command_name = class_body_node.name
-                            if command_name.endswith("cmd"):
-                                command_name = command_name[:-3]
-
-                            command_info = {
-                                "name": command_name,
-                                "description": method_docstring or ""
-                            }
-                            commands.append(command_info)
-
-        return commands
+        return []
+                    
