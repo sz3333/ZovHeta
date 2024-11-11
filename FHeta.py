@@ -1,4 +1,4 @@
-__version__ = (3, 2, 5)
+__version__ = (3, 2, 6)
 # meta developer: @Foxy437
 # change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
 
@@ -204,6 +204,7 @@ class FHeta(loader.Module):
     async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
+        args = utils.get_args_raw(message)
 
         commands_section = ""
         if "commands" in module:
