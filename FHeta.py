@@ -49,9 +49,9 @@ class FHeta(loader.Module):
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
-    @loader.command(ru_doc="<запрос> - искать модули.")
+    @loader.command(ru_doc="(запрос) - искать модули.")
     async def fheta(self, message):
-        '''<query> - search modules.'''
+        '''(query) - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings["no_query"])
