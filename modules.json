@@ -27994,9 +27994,9 @@
                 "description": "<link from SoundCloud>"
             }
         ],
-        "name": "SoundCloudDownloader",
+        "name": "SoundCloud",
         "repo": "sawwnapix/Hikka",
-        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/SoundCloudDownloader.py"
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/SoundCloud.py"
     },
     {
         "author": "@angellmodules",
