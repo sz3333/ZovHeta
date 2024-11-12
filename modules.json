@@ -10715,6 +10715,23 @@
     },
     {
         "author": "@HikkTutor",
+        "description": "Генерация аккаунтов с временной почтой для регистрации без личных данных",
+        "commands": [
+            {
+                "name": "generate",
+                "description": "Генерация новых данных"
+            },
+            {
+                "name": "saves",
+                "description": "ник или вывести список"
+            }
+        ],
+        "name": "loginer",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/loginer.py"
+    },
+    {
+        "author": "@HikkTutor",
         "description": "Модуль для преобразования видео в видео-сообщение (кружок).",
         "commands": [
             {
