@@ -1,4 +1,4 @@
-__version__ = (3, 2, 4)
+__version__ = (3, 2, 5)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 
@@ -30,7 +30,7 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found by query </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     strings_ru = {
@@ -46,7 +46,7 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     @loader.command(ru_doc="(запрос) - искать модули.")
