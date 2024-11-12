@@ -193,6 +193,30 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
+        "author": "@eremod",
+        "commands": [
+            {
+                "name": "fmus",
+                "description": "[name] - Search for a track by title"
+            },
+            {
+                "name": "lmus",
+                "description": "Send the track that's playing right now"
+            },
+            {
+                "name": "togglestatus",
+                "description": "Enable/disable music broadcasting in BIO"
+            },
+            {
+                "name": "lstats",
+                "description": "Show listening statistics"
+            }
+        ],
+        "name": "BIOAudio",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BIOAudio.py"
+    },
+    {
         "author": "@Foxy437",
         "description": "Модуль для авто замены шрифта на жирный.",
         "commands": [
