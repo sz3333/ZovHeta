@@ -28008,6 +28008,12 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/FHeta/main/FHeta.py"
     },
     {
+        "description": "Описание отсутствует",
+        "name": "Test",
+        "repo": "Fixyres/FHeta",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/FHeta/main/Test.py"
+    },
+    {
         "author": "@angellmodules",
         "description": "Module for @aniversecard_bot",
         "commands": [
