@@ -1138,7 +1138,6 @@
     },
     {
         "author": "@shiningwhore",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "neofetch",
@@ -1272,12 +1271,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SoundCloud.py"
     },
     {
-        "description": "Описание отсутствует",
-        "name": "Spam",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Spam.py"
-    },
-    {
         "author": "@nalinormods",
         "description": "Tests your internet speed via speedtest.net",
         "commands": [
@@ -1305,7 +1298,6 @@
     },
     {
         "author": "большая часть кода @kepperok добавления и улучшения @tot_882",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "mmm",
@@ -1623,7 +1615,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/huhuhu.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ii",
@@ -1680,7 +1671,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/kazna.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "atak",
@@ -1772,7 +1762,6 @@
     },
     {
         "author": "@Eraminel01",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "tvivo",
@@ -1869,7 +1858,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/voiceMEMS1.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "zov",
@@ -1987,7 +1975,6 @@
     },
     {
         "author": "@shkipermolodec",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "patriot",
@@ -3232,7 +3219,6 @@
     },
     {
         "author": "@hikamorumods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "spic",
@@ -3331,7 +3317,6 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "name": "MangaSlider",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/MangaSlider.py"
@@ -3447,7 +3432,6 @@
     },
     {
         "author": "@shadow_modules, @toxicuse, @vsecoder",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rnd_hentai_manga",
@@ -7454,7 +7438,6 @@
         "install": "dlm https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "kp",
@@ -8160,7 +8143,6 @@
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/gs.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "elpe",
@@ -8185,7 +8167,6 @@
     },
     {
         "author": "@modwini",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rap",
@@ -8561,7 +8542,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "delacc",
@@ -8638,7 +8618,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "dota2hero",
@@ -8964,7 +8943,6 @@
     },
     {
         "author": "@htmIpage",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "neofetch",
@@ -9527,7 +9505,6 @@
     },
     {
         "author": "@stupid_alien_mods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "sosal",
@@ -9790,7 +9767,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "dai_set_token",
@@ -9807,7 +9783,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "deltm",
@@ -9846,7 +9821,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "fdq",
@@ -9980,7 +9954,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "nk",
@@ -9997,7 +9970,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "sph",
@@ -10047,7 +10019,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rndint",
@@ -10195,7 +10166,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "бля",
@@ -10212,7 +10182,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "srch",
@@ -10225,7 +10194,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "snd",
@@ -10255,7 +10223,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ocr",
@@ -10350,7 +10317,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "vsh",
@@ -10510,7 +10476,6 @@
     },
     {
         "author": "@RemoveWoman",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "facepalm",
@@ -11228,7 +11193,6 @@
     },
     {
         "author": "@apodiktum_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ctts",
@@ -11449,7 +11413,6 @@
     },
     {
         "author": "@BruhHikkaModules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "addignore",
@@ -11576,7 +11539,6 @@
     },
     {
         "author": "@BruhHikkaModules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "pinchat",
@@ -11798,12 +11760,6 @@
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/YoutubeDL.py"
     },
     {
-        "description": "Описание отсутствует",
-        "name": "autofull",
-        "repo": "MuRuLOSE/HikkaModulesRepo",
-        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/autofull.py"
-    },
-    {
         "author": "@BruhHikkaModules",
         "description": "Авто присоеденение к розыгрышам в @mine_evo_bot",
         "commands": [
@@ -12023,7 +11979,6 @@
     },
     {
         "author": "@shadow_modules, @toxicuse, @vsecoder",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rnd_hentai_manga",
@@ -12057,7 +12012,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "myvizit",
@@ -12233,7 +12187,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "delacc",
@@ -12496,7 +12449,6 @@
     },
     {
         "author": "@smeowcodes",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "face",
@@ -13437,7 +13389,6 @@
     },
     {
         "author": "@AuroraModules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "deanon",
@@ -13450,7 +13401,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "dai_set_token",
@@ -13492,7 +13442,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "deltm",
@@ -13556,7 +13505,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "dota2hero",
@@ -13741,7 +13689,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "fdq",
@@ -14067,7 +14014,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "google",
@@ -14122,7 +14068,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "gpt",
@@ -14536,7 +14481,6 @@
     },
     {
         "author": "@shadow_modules, @toxicuse",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "manga",
@@ -14910,7 +14854,6 @@
     },
     {
         "author": "@shadow_modules, @dan_endy, @hikarimods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "vizitka",
@@ -15367,7 +15310,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MYRZ.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "mac",
@@ -15392,13 +15334,11 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "name": "MangaSlider",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MangaSlider.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "mozg",
@@ -15483,7 +15423,6 @@
     },
     {
         "author": "@skillzmeow",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "stbl",
@@ -15599,7 +15538,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MineEVO.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ll",
@@ -15623,7 +15561,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MirrorFlip.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ll",
@@ -15790,7 +15727,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "myvizit",
@@ -15815,7 +15751,6 @@
     },
     {
         "author": "@shadow_modules, @hikarimods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "sendnews",
@@ -15907,7 +15842,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "sph",
@@ -16129,7 +16063,6 @@
     },
     {
         "author": "@AuroraModules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rpavatars",
@@ -16201,7 +16134,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "randmemes",
@@ -16737,7 +16669,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "бля",
@@ -16779,7 +16710,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "srch",
@@ -16852,7 +16782,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Send.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "snd",
@@ -17047,7 +16976,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SquareBlur.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "stick2pic",
@@ -17064,7 +16992,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "stickdown",
@@ -17273,7 +17200,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ocr",
@@ -17336,7 +17262,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TikTokDownloader.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "timeb",
@@ -17454,7 +17379,6 @@
     },
     {
         "author": "@shadow_modules, @dan_endy",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "myvk",
@@ -17604,7 +17528,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "vsh",
@@ -17660,7 +17583,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "vstor",
@@ -17876,7 +17798,6 @@
     },
     {
         "author": "@smeowcodes",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "yuki",
@@ -19059,7 +18980,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/autoreact.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "ava",
@@ -19779,7 +19699,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/codemanager.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "cbit",
@@ -20300,12 +20219,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/distort.py"
     },
     {
-        "description": "Описание отсутствует",
-        "name": "distortion_no_api",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/distortion_no_api.py"
-    },
-    {
         "author": "@AstroModules",
         "description": "Скачивает превью с ютуба",
         "commands": [
@@ -20715,7 +20628,6 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "name": "feedbackbot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/feedbackbot.py"
@@ -20829,12 +20741,6 @@
         "name": "filters",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/filters.py"
-    },
-    {
-        "description": "Описание отсутствует",
-        "name": "fl",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/fl.py"
     },
     {
         "author": "@hikarimods",
@@ -21378,7 +21284,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hacker.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "hearts",
@@ -22207,12 +22112,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/jikan.py"
     },
     {
-        "description": "Описание отсутствует",
-        "name": "jpeg",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/jpeg.py"
-    },
-    {
         "author": "@hikarimods",
         "description": "Allows you to create custom filters with regexes, commands and unlimited funcionality",
         "commands": [
@@ -22250,7 +22149,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/kick_random.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "addusers",
@@ -22405,7 +22303,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lcr.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "leave",
@@ -22585,7 +22482,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lovemagic.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "elpe",
@@ -22669,7 +22565,6 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "name": "mangalib",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/mangalib.py"
@@ -23437,7 +23332,6 @@
     },
     {
         "author": "@modwini",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "rap",
@@ -23641,7 +23535,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/picsaver.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "pinger",
@@ -24290,7 +24183,6 @@
     },
     {
         "author": "@hikamorumods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "spic",
@@ -24427,14 +24319,12 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "name": "smartbot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/smartbot.py"
     },
     {
         "author": "@hikkaftgmods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "hearts",
@@ -24968,7 +24858,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/text_generator.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "bottom",
@@ -25116,7 +25005,6 @@
     },
     {
         "author": "@morisummermods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "top20",
@@ -25264,7 +25152,6 @@
     },
     {
         "author": "@shadow_modules",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "try",
@@ -25276,7 +25163,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/trysamp.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "tt",
@@ -25288,7 +25174,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ttdl.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "tts",
@@ -25456,7 +25341,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/url.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "urldl",
@@ -26148,7 +26032,6 @@
     },
     {
         "author": "@vsecoder_m",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "vsetranslate",
@@ -26423,7 +26306,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/wordly.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "words",
@@ -26822,7 +26704,6 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "Описание отсутствует",
         "name": "SnakieGame",
         "repo": "1jpshiro/hikka-modules",
         "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/SnakieGame.py"
@@ -26875,7 +26756,6 @@
         "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Tracker.py"
     },
     {
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "timeb",
@@ -27011,7 +26891,6 @@
     },
     {
         "author": "@morisummermods",
-        "description": "Описание отсутствует",
         "commands": [
             {
                 "name": "top20",
@@ -28006,12 +27885,6 @@
         "name": "FHeta",
         "repo": "Fixyres/FHeta",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/FHeta/main/FHeta.py"
-    },
-    {
-        "description": "Описание отсутствует",
-        "name": "Test",
-        "repo": "Fixyres/FHeta",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/FHeta/main/Test.py"
     },
     {
         "author": "@angellmodules",
