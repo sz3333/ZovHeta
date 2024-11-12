@@ -1132,19 +1132,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Morse.py"
     },
     {
-        "author": "@hikarimods",
-        "description": "Download music",
-        "commands": [
-            {
-                "name": "mdl",
-                "description": "<name> - Download track"
-            }
-        ],
-        "name": "MusicDL",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/MusicDL.py"
-    },
-    {
         "description": "модуль созданный для плати налогов и полив сада. творец - @nik_xp",
         "commands": [
             {
