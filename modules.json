@@ -27962,6 +27962,31 @@
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/Magicball.py"
     },
     {
+        "author": "@angellmodules",
+        "description": "Your profile changer",
+        "commands": [
+            {
+                "name": "cname",
+                "description": "<name> — Change display name"
+            },
+            {
+                "name": "cusern",
+                "description": "<username> — Change username (leave empty to remove)"
+            },
+            {
+                "name": "cbio",
+                "description": "<bio> — Change bio"
+            },
+            {
+                "name": "cavatar",
+                "description": "<reply to photo> — Change avatar"
+            }
+        ],
+        "name": "Profilemanager",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/Profilemanager.py"
+    },
+    {
         "description": "Download music from SoundCloud🫀",
         "commands": [
             {
