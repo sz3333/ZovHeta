@@ -28007,8 +28007,8 @@
                 "description": "Check account status."
             }
         ],
-        "name": "checkspamban",
+        "name": "SpamBan",
         "repo": "sawwnapix/Hikka",
-        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/checkspamban.py"
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/SpamBan.py"
     }
 ]
