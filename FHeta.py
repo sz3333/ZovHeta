@@ -1,6 +1,6 @@
-__version__ = (3, 2, 3)
+__version__ = (3, 2, 4)
 # meta developer: @Foxy437
-# change-log: 🎉 REWORK SEARCHING!!!!!! Bug fix.
+# change-log: Bug fix.
 
 import requests
 import asyncio
@@ -24,13 +24,13 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} for:</b> <code>{query}</code>\n<b>{module_name}</b> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<b>{module_name}</b> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>",
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Closest match found by query </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     strings_ru = {
@@ -40,13 +40,13 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} для:</b> <code>{query}</code>\n<b>{module_name}</b> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<b>{module_name}</b> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Не удалось получить данные для FHeta.</b>",
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ближайшое совпадение по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
     @loader.command(ru_doc="<запрос> - искать модули.")
@@ -218,6 +218,7 @@ class FHeta(loader.Module):
         module_name = module['name'].replace('.py', '')
 
         return self.strings["closest_match"].format(
+            query=query,
             module_name=module_name,
             author=author_info,
             repo_url=repo_url,
@@ -236,7 +237,10 @@ class FHeta(loader.Module):
                         videos = json.loads(content)
                         video_url = random.choice(videos) if videos else None
                         if video_url:
-                            await message.client.send_file(message.to_id, video_url, caption=result_text)
+                            try:
+                                await message.client.send_file(message.to_id, video_url, caption=result_text)
+                            except Exception:
+                                await utils.answer(message, result_text)
                         else:
                             await utils.answer(message, result_text)
                     except json.JSONDecodeError:
