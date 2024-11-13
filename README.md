@@ -1,6 +1,6 @@
 # FHeta
 ![LOGO](https://i.imghippo.com/files/YgG2208DgM.jpg)
-**🔎 FHeta this is [Hikka](https://github.com/hikkariatama/Hikka) module for searching modules!**
+**🔎 FHeta this is [Hikka](https://github.com/hikariatama/Hikka) module for searching modules!**
 
 **👨‍💻 Developer:** `fixyres.github.io`
 # DONATE 
