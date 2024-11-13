@@ -1,4 +1,4 @@
-__version__ = (3, 2, 6)
+__version__ = (3, 2, 5)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 
@@ -206,45 +206,31 @@ class FHeta(loader.Module):
 
                     return found_modules
 
-    async def format_results(self, modules, args):
-        results = ""
-        result_index = 1
+    async def format_module(self, module, query):
+        repo_url = f"https://github.com/{module['repo']}"
+        install = module['install']
 
-        for module in modules:
-            repo_url = f"https://github.com/{module['repo']}"
-            install = module['install']
+        commands_section = ""
+        if "commands" in module:
+            commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+            commands_section = self.strings["commands"].format(commands_list=commands_list)
 
-            filtered_commands = [
-                cmd for cmd in module.get("commands", [])
-                if cmd['name'].lower() != module['name'].replace('.py', '').lower()
-            ]
+        description_section = ""
+        if "description" in module:
+            description_section = self.strings["description"].format(description=module["description"])
 
-            commands_section = ""
-            if filtered_commands:
-                commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in filtered_commands])
-                commands_section = self.strings["commands"].format(commands_list=commands_list)
+        author_info = module.get("author", "???")
+        module_name = module['name'].replace('.py', '')
 
-            description_section = ""
-            if "description" in module:
-                description_section = self.strings["description"].format(description=module["description"])
-
-            author_info = module.get("author", "???")
-            module_name = module['name'].replace('.py', '')
-
-            result = self.strings["result"].format(
-                index=result_index,
-                query=args,
-                module_name=module_name,
-                author=author_info,
-                repo_url=repo_url,
-                install_command=f"{self.get_prefix()}{install}",
-                description=description_section,
-                commands=commands_section
-            )
-            results += result
-            result_index += 1
-
-        return results
+        return self.strings["closest_match"].format(
+            query=query,
+            module_name=module_name,
+            author=author_info,
+            repo_url=repo_url,
+            install_command=f"{self.get_prefix()}{install}",
+            description=description_section,
+            commands=commands_section
+        )
 
     async def send_result_with_video(self, message, result_text):
         await message.delete()
