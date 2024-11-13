@@ -1,5 +1,5 @@
-![LOGO](https://i.imghippo.com/files/YgG2208DgM.jpg)
 # FHeta
+![LOGO](https://i.imghippo.com/files/YgG2208DgM.jpg)
 **FHeta is a module for Hikka to find modules!** 
 
 **Developer:** `fixyres.github.io`
