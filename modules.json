@@ -1401,6 +1401,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/UpgradedCustomPing.py"
     },
     {
+        "description": "Загрузшик https сылок на акаунты!",
+        "commands": [
+            {
+                "name": "up_https",
+                "description": "Загружает пользователя и генерирует https ссылку на его аккаунт."
+            }
+        ],
+        "name": "Uploaded_Https_",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Uploaded_Https_.py"
+    },
+    {
         "description": "Module for working with voicechat",
         "commands": [
             {
