@@ -51,7 +51,6 @@ class FHeta(loader.Module):
 
     @loader.command(ru_doc="(запрос) - искать модули.")
     async def fheta(self, message):
-        '''(query) - search modules.'''
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings["no_query"])
@@ -63,56 +62,28 @@ class FHeta(loader.Module):
         if not modules:
             modules = await self.search_modules(args.replace(" ", ""))
 
-        if not modules:
-            modules = await self.get_closest_match(args)
+        filtered_modules = []
+        seen_modules = set()
+        
+        for module in modules:
+            module_key = f"{module['name'].replace('.py', '').lower()}_{module.get('author', '???')}"
+            if module_key not in seen_modules:
+                seen_modules.add(module_key)
+                filtered_modules.append(module)
 
-            if modules:
-                await self.send_result_with_video(message, modules)
+        if len(filtered_modules) == 1:
+            result_text = await self.format_module(filtered_modules[0], args)
+            await self.send_result_with_video(message, result_text)
+        elif filtered_modules:
+            await utils.answer(message, await self.format_results(filtered_modules, args))
+        else:
+            modules = await self.get_closest_match(args)
+            if modules and len(modules) == 1:
+                await self.send_result_with_video(message, await self.format_module(modules[0], args))
+            elif modules:
+                await utils.answer(message, await self.format_results(modules, args))
             else:
                 await utils.answer(message, self.strings["no_modules_found"])
-        else:
-            if len(modules) == 1:
-                await self.send_result_with_video(message, await self.format_module(modules[0], args))
-            else:
-                results = ""
-                seen_modules = set()
-                result_index = 1
-
-                for module in modules:
-                    repo_url = f"https://github.com/{module['repo']}"
-                    install = module['install']
-
-                    commands_section = ""
-                    if "commands" in module:
-                        commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                        commands_section = self.strings["commands"].format(commands_list=commands_list)
-
-                    description_section = ""
-                    if "description" in module:
-                        description_section = self.strings["description"].format(description=module["description"])
-
-                    author_info = module.get("author", "???")
-                    module_name = module['name'].replace('.py', '')
-                    module_key = f"{module_name}_{author_info}"
-
-                    if module_key in seen_modules:
-                        continue
-                    seen_modules.add(module_key)
-
-                    result = self.strings["result"].format(
-                        index=result_index,
-                        query=args,
-                        module_name=module_name,
-                        author=author_info,
-                        repo_url=repo_url,
-                        install_command=f"{self.get_prefix()}{install}",
-                        description=description_section,
-                        commands=commands_section
-                    )
-                    results += result
-                    result_index += 1
-
-                await utils.answer(message, results)
 
     @loader.command(ru_doc=' - проверить обновления.')
     async def fupdate(self, message: Message):
@@ -226,6 +197,46 @@ class FHeta(loader.Module):
             description=description_section,
             commands=commands_section
         )
+
+    async def format_results(self, modules, args):
+        results = ""
+        result_index = 1
+
+        for module in modules:
+            repo_url = f"https://github.com/{module['repo']}"
+            install = module['install']
+
+            filtered_commands = [
+                cmd for cmd in module.get("commands", [])
+                if cmd['name'].lower() != module['name'].replace('.py', '').lower()
+            ]
+
+            commands_section = ""
+            if filtered_commands:
+                commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in filtered_commands])
+                commands_section = self.strings["commands"].format(commands_list=commands_list)
+
+            description_section = ""
+            if "description" in module:
+                description_section = self.strings["description"].format(description=module["description"])
+
+            author_info = module.get("author", "???")
+            module_name = module['name'].replace('.py', '')
+
+            result = self.strings["result"].format(
+                index=result_index,
+                query=args,
+                module_name=module_name,
+                author=author_info,
+                repo_url=repo_url,
+                install_command=f"{self.get_prefix()}{install}",
+                description=description_section,
+                commands=commands_section
+            )
+            results += result
+            result_index += 1
+
+        return results
 
     async def send_result_with_video(self, message, result_text):
         await message.delete()
