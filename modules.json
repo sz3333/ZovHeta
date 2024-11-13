@@ -9656,7 +9656,7 @@
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/sosal.py"
     },
     {
-        "author": "@stupid_alien_mods",
+        "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
             {
