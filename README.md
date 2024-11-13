@@ -1,5 +1,8 @@
-<img src="https://i.imghippo.com/files/YgG2208DgM.jpg" style="border-radius: 300px;" />
+![LOGO](https://i.imghippo.com/files/YgG2208DgM.jpg)
+# FHeta
+**FHeta is a module for Hikka to find modules!** 
 
+**Developer:** `fixyres.github.io`
 # DONATE 
 **TON:** `UQAA_rH4THGkzXQ1fkLcppnnL0sZC0JVZL37RaXdKjUHjsGV`
 
