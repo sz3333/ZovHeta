@@ -173,6 +173,9 @@ class FHeta(loader.Module):
                     return found_modules
 
     async def format_module(self, module, query):
+        if not modules:
+            return self.strings["no_modules_found"].format(query=args)
+            
         repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
 
