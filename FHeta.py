@@ -1,4 +1,4 @@
-__version__ = (3, 2, 6)
+__version__ = (3, 2, 7)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 
@@ -49,7 +49,7 @@ class FHeta(loader.Module):
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу </b><code>{query}</code><b>:</b>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n"
     }
 
-    @loader.command(ru_doc="(запрос) - искать модули.")
+        @loader.command(ru_doc="(запрос) - искать модули.")
     async def fheta(self, message):
         '''(query) - search modules.'''
         args = utils.get_args_raw(message)
@@ -118,7 +118,7 @@ class FHeta(loader.Module):
             await self.send_result_with_video(message, results)
         else:
             await utils.answer(message, results)
-
+            
     @loader.command(ru_doc=' - проверить обновления.')
     async def fupdate(self, message: Message):
         ''' - check update.'''
