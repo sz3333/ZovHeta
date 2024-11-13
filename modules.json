@@ -9197,7 +9197,7 @@
                 "description": "| Official channel with modules"
             },
             {
-                "name": "addchat",
+                "name": "addmchat",
                 "description": "[BOT API ID] | add chat"
             }
         ],
