@@ -1,6 +1,12 @@
 __version__ = (3, 2, 6)
 # meta developer: @Foxy437
 # change-log: Bug fix.
+# ©️ Fixyres, 2024
+# 🌐 https://github.com/Fixyres/FHeta
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
 import requests
 import asyncio
