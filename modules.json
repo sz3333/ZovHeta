@@ -27903,7 +27903,7 @@
         "commands": [
             {
                 "name": "fheta",
-                "description": "Описание отсутствует"
+                "description": "(query) - search modules."
             },
             {
                 "name": "fupdate",
