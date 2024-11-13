@@ -1,6 +1,6 @@
 # FHeta
 ![LOGO](https://i.imghippo.com/files/YgG2208DgM.jpg)
-**FHeta is a module for Hikka to find modules!** 
+**FHeta is a module for Hikka for other search modules!**
 
 **Developer:** `fixyres.github.io`
 # DONATE 
