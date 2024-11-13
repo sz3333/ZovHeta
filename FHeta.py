@@ -1,4 +1,4 @@
-__version__ = (3, 2, 6)
+__version__ = (3, 2, 7)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 # ©️ Fixyres, 2024
@@ -244,7 +244,6 @@ class FHeta(loader.Module):
         )
 
     async def send_result_with_video(self, message, result_text):
-        await message.delete()
         async with aiohttp.ClientSession() as session:
             async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/videos.json") as response:
                 if response.status == 200:
@@ -254,7 +253,7 @@ class FHeta(loader.Module):
                         video_url = random.choice(videos) if videos else None
                         if video_url:
                             try:
-                                await message.client.send_file(message.to_id, video_url, caption=result_text)
+                                await message.client.send_file(message.to_id, video_url, caption=result_text, reply_to=message.id)
                             except Exception:
                                 await utils.answer(message, result_text)
                         else:
@@ -263,3 +262,5 @@ class FHeta(loader.Module):
                         await utils.answer(message, result_text)
                 else:
                     await utils.answer(message, result_text)
+
+        await message.delete()
