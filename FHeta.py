@@ -1,4 +1,4 @@
-__version__ = (3, 2, 7)
+__version__ = (3, 2, 5)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 
@@ -65,60 +65,55 @@ class FHeta(loader.Module):
 
         if not modules:
             modules = await self.get_closest_match(args)
+
             if modules:
                 await self.send_result_with_video(message, modules)
             else:
                 await utils.answer(message, self.strings["no_modules_found"])
-            return
-
-        if len(modules) == 1:
-            single_module_result = await self.format_module(modules[0], args)
-            await self.send_result_with_video(message, single_module_result)
-            return
-
-        results = ""
-        seen_modules = set()
-        result_index = 1
-
-        for module in modules:
-            repo_url = f"https://github.com/{module['repo']}"
-            install = module['install']
-
-            commands_section = ""
-            if "commands" in module:
-                commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                commands_section = self.strings["commands"].format(commands_list=commands_list)
-
-            description_section = ""
-            if "description" in module:
-                description_section = self.strings["description"].format(description=module["description"])
-
-            author_info = module.get("author", "???")
-            module_name = module['name'].replace('.py', '')
-            module_key = f"{module_name}_{author_info}"
-
-            if module_key in seen_modules:
-                continue
-            seen_modules.add(module_key)
-
-            result = self.strings["result"].format(
-                index=result_index,
-                query=args,
-                module_name=module_name,
-                author=author_info,
-                repo_url=repo_url,
-                install_command=f"{self.get_prefix()}{install}",
-                description=description_section,
-                commands=commands_section
-            )
-            results += result
-            result_index += 1
-
-        if len(modules) == 1:
-            await self.send_result_with_video(message, results)
         else:
-            await utils.answer(message, results)
-            
+            if len(modules) == 1:
+                await self.send_result_with_video(message, await self.format_module(modules[0], args))
+            else:
+                results = ""
+                seen_modules = set()
+                result_index = 1
+
+                for module in modules:
+                    repo_url = f"https://github.com/{module['repo']}"
+                    install = module['install']
+
+                    commands_section = ""
+                    if "commands" in module:
+                        commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+                        commands_section = self.strings["commands"].format(commands_list=commands_list)
+
+                    description_section = ""
+                    if "description" in module:
+                        description_section = self.strings["description"].format(description=module["description"])
+
+                    author_info = module.get("author", "???")
+                    module_name = module['name'].replace('.py', '')
+                    module_key = f"{module_name}_{author_info}"
+
+                    if module_key in seen_modules:
+                        continue
+                    seen_modules.add(module_key)
+
+                    result = self.strings["result"].format(
+                        index=result_index,
+                        query=args,
+                        module_name=module_name,
+                        author=author_info,
+                        repo_url=repo_url,
+                        install_command=f"{self.get_prefix()}{install}",
+                        description=description_section,
+                        commands=commands_section
+                    )
+                    results += result
+                    result_index += 1
+
+                await utils.answer(message, results)
+
     @loader.command(ru_doc=' - проверить обновления.')
     async def fupdate(self, message: Message):
         ''' - check update.'''
