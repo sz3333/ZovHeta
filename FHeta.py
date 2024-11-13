@@ -1,4 +1,4 @@
-__version__ = (3, 2, 7)
+__version__ = (3, 2, 8)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 # ©️ Fixyres, 2024
@@ -255,12 +255,12 @@ class FHeta(loader.Module):
                             try:
                                 await message.client.send_file(message.to_id, video_url, caption=result_text, reply_to=message.id)
                             except Exception:
-                                await utils.answer(message, result_text)
+                                await message.client.send_message(message.to_id, result_text)
                         else:
-                            await utils.answer(message, result_text)
+                           await message.client.send_message(message.to_id, result_text)
                     except json.JSONDecodeError:
-                        await utils.answer(message, result_text)
+                        await message.client.send_message(message.to_id, result_text)
                 else:
-                    await utils.answer(message, result_text)
+                    await message.client.send_message(message.to_id, result_text)
 
         await message.delete()
