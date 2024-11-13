@@ -1,4 +1,4 @@
-__version__ = (3, 2, 5)
+__version__ = (3, 2, 6)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 
@@ -24,7 +24,7 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<b>{module_name}</b> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Failed to fetch the FHeta.</b>",
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
@@ -40,7 +40,7 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<b>{module_name}</b> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Не удалось получить данные для FHeta.</b>",
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
@@ -71,47 +71,57 @@ class FHeta(loader.Module):
             else:
                 await utils.answer(message, self.strings["no_modules_found"])
         else:
-            if len(modules) == 1:
-                await self.send_result_with_video(message, await self.format_module(modules[0], args))
+            seen_modules = set()
+            formatted_modules = []
+            result_index = 1
+
+            for module in modules:
+                repo_url = f"https://github.com/{module['repo']}"
+                install = module['install']
+
+                commands_section = ""
+                if "commands" in module:
+                    commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+                    commands_section = self.strings["commands"].format(commands_list=commands_list)
+
+                description_section = ""
+                if "description" in module:
+                    description_section = self.strings["description"].format(description=module["description"])
+
+                author_info = module.get("author", "???")
+                module_name = module['name'].replace('.py', '')
+                module_key = f"{module_name}_{author_info}"
+
+                if module_key in seen_modules:
+                    continue
+                seen_modules.add(module_key)
+
+                result = self.strings["result"].format(
+                    index=result_index,
+                    query=args,
+                    module_name=module_name,
+                    author=author_info,
+                    repo_url=repo_url,
+                    install_command=f"{self.get_prefix()}{install}",
+                    description=description_section,
+                    commands=commands_section
+                )
+                formatted_modules.append(result)
+                result_index += 1
+
+            if len(formatted_modules) == 1:
+                closest_match_result = self.strings["closest_match"].format(
+                    query=args,
+                    module_name=module_name,
+                    author=author_info,
+                    repo_url=repo_url,
+                    install_command=f"{self.get_prefix()}{install}",
+                    description=description_section,
+                    commands=commands_section
+                )
+                await self.send_result_with_video(message, closest_match_result)
             else:
-                results = ""
-                seen_modules = set()
-                result_index = 1
-
-                for module in modules:
-                    repo_url = f"https://github.com/{module['repo']}"
-                    install = module['install']
-
-                    commands_section = ""
-                    if "commands" in module:
-                        commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                        commands_section = self.strings["commands"].format(commands_list=commands_list)
-
-                    description_section = ""
-                    if "description" in module:
-                        description_section = self.strings["description"].format(description=module["description"])
-
-                    author_info = module.get("author", "???")
-                    module_name = module['name'].replace('.py', '')
-                    module_key = f"{module_name}_{author_info}"
-
-                    if module_key in seen_modules:
-                        continue
-                    seen_modules.add(module_key)
-
-                    result = self.strings["result"].format(
-                        index=result_index,
-                        query=args,
-                        module_name=module_name,
-                        author=author_info,
-                        repo_url=repo_url,
-                        install_command=f"{self.get_prefix()}{install}",
-                        description=description_section,
-                        commands=commands_section
-                    )
-                    results += result
-                    result_index += 1
-
+                results = "".join(formatted_modules)
                 await utils.answer(message, results)
 
     @loader.command(ru_doc=' - проверить обновления.')
