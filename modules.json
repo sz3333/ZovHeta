@@ -3588,6 +3588,27 @@
     },
     {
         "author": "@vsecoder_m",
+        "description": "@hikkahost userbot manager module",
+        "commands": [
+            {
+                "name": "hinfo",
+                "description": "- статус юзербота"
+            },
+            {
+                "name": "hlogs",
+                "description": "- логи юзербота"
+            },
+            {
+                "name": "hrestart",
+                "description": "- перезагрузить юзербота"
+            }
+        ],
+        "name": "hh",
+        "repo": "vsecoder/hikka_modules",
+        "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/hh.py"
+    },
+    {
+        "author": "@vsecoder_m",
         "description": "Module for getting information about minecraft Hypixel player",
         "commands": [
             {
