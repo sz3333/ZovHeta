@@ -28003,6 +28003,7 @@
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/yoomoney.py"
     },
     {
+        "author": "Ksenon | @MeKsenon",
         "description": "🤖 Модуль для работы с KsenonGPT и генерации изображений",
         "commands": [
             {
