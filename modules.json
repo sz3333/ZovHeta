@@ -9383,6 +9383,19 @@
     },
     {
         "author": "@codrago_m",
+        "description": "Module to run speedtest using speedtest library",
+        "commands": [
+            {
+                "name": "speedtest",
+                "description": "Speedtest of your server internet"
+            }
+        ],
+        "name": "speedtest",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/speedtest.py"
+    },
+    {
+        "author": "@codrago_m",
         "description": "Who you? Who i'm? Who all in this world?",
         "commands": [
             {
