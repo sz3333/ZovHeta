@@ -7488,6 +7488,23 @@
     },
     {
         "author": "@FAmods",
+        "description": "Модуль для работы с Ton DNS",
+        "commands": [
+            {
+                "name": "itondns",
+                "description": "Информация о TON DNS"
+            },
+            {
+                "name": "tonshot",
+                "description": "Скриншот TON DNS сайта"
+            }
+        ],
+        "name": "tondns",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/tondns.py"
+    },
+    {
+        "author": "@FAmods",
         "description": "Информация о TON адресе",
         "commands": [
             {
