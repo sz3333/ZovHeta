@@ -1,4 +1,4 @@
-__version__ = (3, 2, 8)
+__version__ = (3, 2, 9)
 # meta developer: @Foxy437
 # change-log: Bug fix.
 # ©️ Fixyres, 2024
@@ -82,38 +82,43 @@ class FHeta(loader.Module):
             result_index = 1
 
             for module in modules:
-                repo_url = f"https://github.com/{module['repo']}"
-                install = module['install']
+                try:
+                    repo_url = f"https://github.com/{module['repo']}"
+                    install = module['install']
 
-                commands_section = ""
-                if "commands" in module:
-                    commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-                    commands_section = self.strings["commands"].format(commands_list=commands_list)
+                    commands_section = ""
+                    if "commands" in module:
+                        commands_list = "\n".join(
+                            [f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(cmd['description'])}" for cmd in module['commands']]
+                        )
+                        commands_section = self.strings["commands"].format(commands_list=commands_list)
 
-                description_section = ""
-                if "description" in module:
-                    description_section = self.strings["description"].format(description=module["description"])
+                    description_section = ""
+                    if "description" in module:
+                        description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
 
-                author_info = module.get("author", "???")
-                module_name = module['name'].replace('.py', '')
-                module_key = f"{module_name}_{author_info}"
+                    author_info = utils.escape_html(module.get("author", "???"))
+                    module_name = utils.escape_html(module['name'].replace('.py', ''))
+                    module_key = f"{module_name}_{author_info}"
 
-                if module_key in seen_modules:
+                    if module_key in seen_modules:
+                        continue
+                    seen_modules.add(module_key)
+
+                    result = self.strings["result"].format(
+                        index=result_index,
+                        query=args,
+                        module_name=module_name,
+                        author=author_info,
+                        repo_url=repo_url,
+                        install_command=f"{self.get_prefix()}{install}",
+                        description=description_section,
+                        commands=commands_section
+                    )
+                    formatted_modules.append(result)
+                    result_index += 1
+                except Exception:
                     continue
-                seen_modules.add(module_key)
-
-                result = self.strings["result"].format(
-                    index=result_index,
-                    query=args,
-                    module_name=module_name,
-                    author=author_info,
-                    repo_url=repo_url,
-                    install_command=f"{self.get_prefix()}{install}",
-                    description=description_section,
-                    commands=commands_section
-                )
-                formatted_modules.append(result)
-                result_index += 1
 
             if len(formatted_modules) == 1:
                 closest_match_result = self.strings["closest_match"].format(
