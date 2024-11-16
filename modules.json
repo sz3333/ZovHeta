@@ -786,6 +786,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GoogleSearch.py"
     },
     {
+        "author": "@FAmods",
+        "description": "Поиск в Google",
+        "commands": [
+            {
+                "name": "gsearch",
+                "description": "Поиск в Google"
+            }
+        ],
+        "name": "Gsearch",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Gsearch.py"
+    },
+    {
         "description": "🖥️ Модуль для поиска статей на Хабре",
         "commands": [
             {
@@ -1610,6 +1623,23 @@
         "name": "VulgarStories",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/VulgarStories.py"
+    },
+    {
+        "author": "@FAmods",
+        "description": "Поиск в Youtube",
+        "commands": [
+            {
+                "name": "ytvsearch",
+                "description": "Поиск видео в Youtube"
+            },
+            {
+                "name": "ytcsearch",
+                "description": "Поиск каналов в Youtube"
+            }
+        ],
+        "name": "YTsearch",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/YTsearch.py"
     },
     {
         "author": "@eremod",
