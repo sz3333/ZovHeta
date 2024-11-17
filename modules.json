@@ -28105,10 +28105,6 @@
             {
                 "name": "fheta",
                 "description": "(query) - search modules."
-            },
-            {
-                "name": "fupdate",
-                "description": "- check update."
             }
         ],
         "name": "FHeta",
