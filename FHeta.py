@@ -1,4 +1,4 @@
-__version__ = (3, 3, 3)
+__version__ = (3, 3, 4)
 # meta developer: @Foxy437
 # change-log: 🎉🎉🎉🎉🎉🎉🎉🎉 ADDED INLINE!!! 
 # ©️ Fixyres, 2024
@@ -334,4 +334,4 @@ class FHeta(loader.Module):
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
             commands=commands_section
-                )
+                    )
