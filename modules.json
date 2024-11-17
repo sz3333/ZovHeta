@@ -801,6 +801,31 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GitRepo.py"
     },
     {
+        "author": "@Yaukais,@Shadow_red1",
+        "description": "Модуль для запуска ботов через GitHub!",
+        "commands": [
+            {
+                "name": "python",
+                "description": "Запускает файл бота"
+            },
+            {
+                "name": "of_b",
+                "description": "Отключает файл бота"
+            },
+            {
+                "name": "restart_b",
+                "description": "Перезапускает файл бота"
+            },
+            {
+                "name": "bot_ping",
+                "description": "Показывает задержку бота"
+            }
+        ],
+        "name": "GitServerBot",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GitServerBot.py"
+    },
+    {
         "description": "Гуглит что-то вместо тебя.",
         "commands": [
             {
