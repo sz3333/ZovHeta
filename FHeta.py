@@ -7,6 +7,7 @@ __version__ = (3, 3, 5)
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
+# ghfdtuuydfjrhrrheurjutduudikfjfjjdjfhhrhfhhdhfhfhfjdhfhdjjfjfjdjfjfjfhhfhdhdhdhrhdhd
 
 import requests
 import asyncio
@@ -333,3 +334,29 @@ class FHeta(loader.Module):
                         ]
 
                     return found_modules
+
+    async def format_module(self, module, query):
+        repo_url = f"https://github.com/{module['repo']}"
+        install = module['install']
+
+        commands_section = ""
+        if "commands" in module:
+            commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
+            commands_section = self.strings["commands"].format(commands_list=commands_list)
+
+        description_section = ""
+        if "description" in module:
+            description_section = self.strings["description"].format(description=module["description"])
+
+        author_info = module.get("author", "???")
+        module_name = module['name'].replace('.py', '')
+
+        return self.strings["closest_match"].format(
+            query=query,
+            module_name=module_name,
+            author=author_info,
+            repo_url=repo_url,
+            install_command=f"{self.get_prefix()}{install}",
+            description=description_section,
+            commands=commands_section
+                )
