@@ -587,6 +587,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser-Ksenon.py"
     },
     {
+        "author": "@D4n13l3k00, @yummy1gay",
+        "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
+        "commands": [
+            {
+                "name": "cu",
+                "description": ".cu <s> <a> <reply/@username>\n<s> - Скрытый режим\n<a> - Удалить ваши аватарки\nАргументы после юзера не указывайте, не скушает\nПримеры:\n.cu s @user/reply\n.cu a @user/reply\n.cu s a @user/reply"
+            }
+        ],
+        "name": "CopyUser",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser.py"
+    },
+    {
         "author": "@BruhHikkaModules",
         "description": "Have you seen a customizable ping module in Netfoll? I have, yes, but I find it unacceptable to use Netfoll, so I took the idea of custom ping, and replicated it.",
         "commands": [
@@ -1439,6 +1452,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sbeb.py"
     },
     {
+        "author": "@shrimp_mod",
+        "commands": [
+            {
+                "name": "sosal",
+                "description": "Активация/деактивация модуля"
+            }
+        ],
+        "name": "Sosal",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sosal.py"
+    },
+    {
         "description": "Download music from SoundCloud🫀",
         "commands": [
             {
@@ -2065,6 +2090,19 @@
         "name": "ss",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ss.py"
+    },
+    {
+        "author": "@shrimp_mod",
+        "description": "Модуль для конвертации видео в голосовое сообщение",
+        "commands": [
+            {
+                "name": "vtv",
+                "description": "Конвертация видео в голосовое сообщение"
+            }
+        ],
+        "name": "videovgs",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/videovgs.py"
     },
     {
         "author": "@Eraminel01",
