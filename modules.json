@@ -1735,6 +1735,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/codemanagermod.py"
     },
     {
+        "author": "@mqone",
+        "commands": [
+            {
+                "name": "CBAT",
+                "description": "Включить или отключить"
+            },
+            {
+                "name": "DOX",
+                "description": "Завуалировать сообщение. <reply>"
+            }
+        ],
+        "name": "dox_language",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dox_language.py"
+    },
+    {
         "author": "@HikkTutor",
         "description": "Модуль для поиска главной душнилы чата\n\nЭто шуточный модуль, автор ни в коем случае не пытался вас обидеть ",
         "commands": [
@@ -1771,6 +1787,18 @@
         "name": "hohoho",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/hohoho.py"
+    },
+    {
+        "author": "@skillzmeow",
+        "commands": [
+            {
+                "name": "hohol",
+                "description": "Включить или отключить режим свинки"
+            }
+        ],
+        "name": "hoholmod",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/hoholmod.py"
     },
     {
         "description": "Модуль созданныйllkdkkddk",
@@ -2026,6 +2054,69 @@
         "name": "voiceMEMS1",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/voiceMEMS1.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
+        "commands": [
+            {
+                "name": "bc",
+                "description": "проверить баланс в @CryptoBot"
+            },
+            {
+                "name": "bw",
+                "description": "проверить баланс в @wallet"
+            }
+        ],
+        "name": "yg_balance",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_balance.py"
+    },
+    {
+        "description": "Модуль для конвертации видео в кружочек",
+        "commands": [
+            {
+                "name": "kr",
+                "description": "<reply to video> конвертировать видео в кружочек"
+            }
+        ],
+        "name": "yg_circle",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_circle.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для распознавания текста на изображении и перевода",
+        "commands": [
+            {
+                "name": "ocr",
+                "description": "распознать текст на изображении"
+            },
+            {
+                "name": "trocr",
+                "description": "распознать и перевести текст на изображении"
+            }
+        ],
+        "name": "yg_ocr",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_ocr.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
+        "commands": [
+            {
+                "name": "prem",
+                "description": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
+            },
+            {
+                "name": "folder",
+                "description": "вкл/выкл добавление каналов на которые подписался модуль в папку"
+            }
+        ],
+        "name": "yg_prem",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_prem.py"
     },
     {
         "commands": [
