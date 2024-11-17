@@ -438,6 +438,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CendPing.py"
     },
     {
+        "author": "@BruhHikkaModules",
+        "description": "Модуль для получении информации о нахождении человека в канале.",
+        "commands": [
+            {
+                "name": "checksub",
+                "description": "[айди или юзернейм канала] [юзернейм или айди человека]- Проверить, находится ли человек в указанном вами канале"
+            }
+        ],
+        "name": "ChannelCheck",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ChannelCheck.py"
+    },
+    {
         "author": "@Deeeeeeeeeeeeff & @Foxy437",
         "description": "ChatGPT for everyone!",
         "commands": [
@@ -521,6 +534,19 @@
         "name": "CheckBunker",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckBunker.py"
+    },
+    {
+        "author": "@mqone",
+        "description": "Узнать сколько стоит юзер на Fragment.com",
+        "commands": [
+            {
+                "name": "ucheck",
+                "description": "Сколько стоит юзер на Fragment.com"
+            }
+        ],
+        "name": "CheckFragmen",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckFragmen.py"
     },
     {
         "author": "@hikka_mods",
@@ -1400,6 +1426,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SQuotes.py"
     },
     {
+        "author": "@stupid_alien_mods",
+        "description": "Перевод на ваш sbebbank",
+        "commands": [
+            {
+                "name": "sbeb",
+                "description": "Переводит деньги на ваш sbebbank"
+            }
+        ],
+        "name": "Sbeb",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sbeb.py"
+    },
+    {
         "description": "Download music from SoundCloud🫀",
         "commands": [
             {
@@ -1410,6 +1449,19 @@
         "name": "SoundCloud",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SoundCloud.py"
+    },
+    {
+        "author": "@vsecoder_m",
+        "description": "Module for censoring your speech",
+        "commands": [
+            {
+                "name": "censorship",
+                "description": "Turn on/off censorship mode"
+            }
+        ],
+        "name": "SpeechCensorship",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SpeechCensorship.py"
     },
     {
         "author": "@nalinormods",
@@ -1894,6 +1946,62 @@
         "name": "modgi",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/modgi.py"
+    },
+    {
+        "author": "@mqone",
+        "commands": [
+            {
+                "name": "shabl",
+                "description": "Добавить фразу | .shabl <фраза>"
+            },
+            {
+                "name": "type1hour",
+                "description": "Автотайп на 1 час"
+            },
+            {
+                "name": "mqone",
+                "description": "Запустить анимацию [.mqone]"
+            },
+            {
+                "name": "userinfo",
+                "description": "Get object infomation"
+            },
+            {
+                "name": "report",
+                "description": "User report for spam."
+            },
+            {
+                "name": "doxer",
+                "description": "Активирует докс"
+            },
+            {
+                "name": "chatid",
+                "description": "Команда .chatid показывает ID чата."
+            },
+            {
+                "name": "swat",
+                "description": "Включить или отключить режим swatera"
+            },
+            {
+                "name": "DOX",
+                "description": "Завуалировать сообщение. <reply>"
+            },
+            {
+                "name": "jara",
+                "description": "Устроит жару"
+            },
+            {
+                "name": "sm",
+                "description": "Используй: .sm «название» чтобы найти музыку по названию."
+            },
+            {
+                "name": "mq",
+                "description": "тайминг в секундах + шапка"
+            }
+        ],
+        "name": "mqone_v4_перезалив",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mqone_v4_перезалив.py"
     },
     {
         "author": "@HikkTutor",
