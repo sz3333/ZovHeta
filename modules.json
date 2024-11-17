@@ -9644,19 +9644,6 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Модуль для ответа на сообщения 'и чё?' в определенном чате.",
-        "commands": [
-            {
-                "name": "icho",
-                "description": "Активировать или деактивировать 'и чё?' "
-            }
-        ],
-        "name": "ichomodule",
-        "repo": "Daniel1236n29/Modules_hikka",
-        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/ichomodule.py"
-    },
-    {
-        "author": "@shrimp_mod",
         "description": "Модуль для отправки результата команды neofetch",
         "commands": [
             {
@@ -9693,19 +9680,6 @@
         "name": "sbeb",
         "repo": "Daniel1236n29/Modules_hikka",
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/sbeb.py"
-    },
-    {
-        "author": "@stupid_alien_mods",
-        "description": "Модуль, который отвечает на каждое сообщение в чате 'все говорят [текст], а ты купи слона'",
-        "commands": [
-            {
-                "name": "slon",
-                "description": "Включает/выключает 'купи слона' в текущем чате"
-            }
-        ],
-        "name": "slon",
-        "repo": "Daniel1236n29/Modules_hikka",
-        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/slon.py"
     },
     {
         "author": "@shrimp_mod",
