@@ -28120,6 +28120,19 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Показывает текущую погоду в указанном городе.🍃",
+        "commands": [
+            {
+                "name": "weather",
+                "description": ".weather <город> - Показывает текущую погоду."
+            }
+        ],
+        "name": "AngelWeather",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/AngelWeather.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Module for @aniversecard_bot",
         "commands": [
             {
