@@ -9721,6 +9721,39 @@
     },
     {
         "author": "@shrimp_mod",
+        "description": "Модуль для автоматических ответов по шаблонам",
+        "commands": [
+            {
+                "name": "settemplate",
+                "description": "Установить шаблон. Использование: .settemplate <номер> <текст шаблона>"
+            },
+            {
+                "name": "deltemplate",
+                "description": "Удалить шаблон. Использование: .deltemplate <номер>"
+            },
+            {
+                "name": "templates",
+                "description": "Показать все шаблоны"
+            },
+            {
+                "name": "autoon",
+                "description": "Включить автоответчик в чате. Использование: .autoon <номер шаблона>"
+            },
+            {
+                "name": "autooff",
+                "description": "Выключить автоответчик в чате"
+            },
+            {
+                "name": "autochats",
+                "description": "Показать список чатов с активным автоответчиком"
+            }
+        ],
+        "name": "tr",
+        "repo": "Daniel1236n29/Modules_hikka",
+        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/tr.py"
+    },
+    {
+        "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
             {
