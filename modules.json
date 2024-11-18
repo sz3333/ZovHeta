@@ -2213,6 +2213,26 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_balance.py"
     },
     {
+        "description": "Активатор чеков @send (@CryptoBot)",
+        "commands": [
+            {
+                "name": "checks",
+                "description": "проверить работоспособность"
+            },
+            {
+                "name": "yglogs",
+                "description": "вкл/выкл отправку логов"
+            },
+            {
+                "name": "ygls",
+                "description": "вкл/выкл активацию чеков отправленных в личке"
+            }
+        ],
+        "name": "yg_checks",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_checks.py"
+    },
+    {
         "description": "Модуль для конвертации видео в кружочек",
         "commands": [
             {
