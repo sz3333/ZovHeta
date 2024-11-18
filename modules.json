@@ -28506,5 +28506,131 @@
         "name": "SpamBan",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/SpamBan.py"
+    },
+    {
+        "description": "Модуль для изменения текста загрузки хикки. Используйте осторожно!\nАккуратнее при использовании на Lavhost и подобных. Использовать крайне не рекомендуется. \nЕсли у вас форк, то, вероятно, все будет работать, но выдаст не критическую ошибку.",
+        "commands": [
+            {
+                "name": "chloadertext",
+                "description": "{url} {text} - Задать текст загрузчика. Ссылка обязательна. Для пропуска строки используйте HTML."
+            },
+            {
+                "name": "updatefile",
+                "description": "- Обязательно перед использованием используйте это."
+            }
+        ],
+        "name": "AmeChangeLoaderText",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/AmeChangeLoaderText.py"
+    },
+    {
+        "description": "Модуль для поиска музыки, основанный на боте @AmeMusicbot",
+        "commands": [
+            {
+                "name": "searchm",
+                "description": "{Название трека} - Поиск трека."
+            }
+        ],
+        "name": "AmeMusic",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/AmeMusic.py"
+    },
+    {
+        "description": "Модуль для взаимодействия с dc_id.",
+        "commands": [
+            {
+                "name": "dcban",
+                "description": "{dc_id} -- Бан пользователей с определенным dc_id."
+            },
+            {
+                "name": "listdc",
+                "description": "-- Возвращает список участников и их dc_id"
+            },
+            {
+                "name": "getdcid",
+                "description": "[User_ID] -- Получить dc_id пользователя с помощью указанного в сообщении айди или репли. "
+            }
+        ],
+        "name": "DcTool",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/DcTool.py"
+    },
+    {
+        "author": "@amm1e",
+        "description": "AmeActions",
+        "commands": [
+            {
+                "name": "kiss",
+                "description": "- kiss [reply] Целовать человека из репли"
+            },
+            {
+                "name": "hug",
+                "description": "- hug [reply] Обнимать человека из репли"
+            },
+            {
+                "name": "push",
+                "description": "- push [reply] Толкать человека из репли"
+            },
+            {
+                "name": "hit",
+                "description": "- hit [reply] Ударить человека из репли"
+            },
+            {
+                "name": "scold",
+                "description": "- scold [reply] Ругать человека из репли"
+            },
+            {
+                "name": "kill",
+                "description": "- hug [reply] Обнимает человека из репли"
+            },
+            {
+                "name": "bite",
+                "description": "- bite [reply] Кусать человека из репли"
+            },
+            {
+                "name": "caction",
+                "description": "- caction (args) [reply] Кастомное действие"
+            }
+        ],
+        "name": "ameactions",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameactions.py"
+    },
+    {
+        "description": "Модуль для разрезания изображения на части.",
+        "commands": [
+            {
+                "name": "cut",
+                "description": "{кол-во по вертикали} {кол-во по горизонтали} — Разрезать изображение на части."
+            }
+        ],
+        "name": "ameimagecut",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameimagecut.py"
+    },
+    {
+        "author": "@amm1e & @AmeMods",
+        "description": "Useless mod for useless sites.",
+        "commands": [
+            {
+                "name": "uselessweb",
+                "description": "- Рандомный бесполезный сайт."
+            }
+        ],
+        "name": "uselessweb",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/uselessweb.py"
+    },
+    {
+        "description": "Модуль для ответа на сообщения 'хз' в определенном чате.",
+        "commands": [
+            {
+                "name": "xz",
+                "description": "On/Off mod in current chat"
+            }
+        ],
+        "name": "xzmodule",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/xzmodule.py"
     }
 ]
