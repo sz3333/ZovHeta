@@ -28342,7 +28342,7 @@
         "commands": [
             {
                 "name": "telegraph",
-                "description": "Create article. Use:\n.telegraph <title> <description>"
+                "description": "Create article. Use:\n.telegraph <title> | <description>"
             }
         ],
         "name": "telegraph",
