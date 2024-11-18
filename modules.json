@@ -28337,7 +28337,7 @@
         "commands": [
             {
                 "name": "copyuser",
-                "description": "Copy user.\nUse: .copy <username>"
+                "description": "Copy user.\nUse: .copyuser <username>"
             }
         ],
         "name": "copyuser",
@@ -28396,6 +28396,23 @@
         "name": "ksenongpt",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
+    },
+    {
+        "author": "@kmodules",
+        "description": "2 mode random memes.",
+        "commands": [
+            {
+                "name": "rnmeme",
+                "description": "NSFW memes. "
+            },
+            {
+                "name": "rmeme",
+                "description": "Safe memes."
+            }
+        ],
+        "name": "randommemes",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/randommemes.py"
     },
     {
         "author": "@kmodules",
