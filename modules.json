@@ -1552,6 +1552,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SummerTimer.py"
     },
     {
+        "author": "@kmodules",
+        "description": "Create article using telegra.ph",
+        "commands": [
+            {
+                "name": "telegraph",
+                "description": "Create article. Use:\n.telegraph <title> <description>"
+            }
+        ],
+        "name": "Telegraph",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Telegraph.py"
+    },
+    {
         "author": "большая часть кода @kepperok добавления и улучшения @tot_882",
         "commands": [
             {
@@ -28322,6 +28335,19 @@
         "name": "ksenongpt",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
+    },
+    {
+        "author": "@kmodules",
+        "description": "Create article using telegra.ph",
+        "commands": [
+            {
+                "name": "telegraph",
+                "description": "Create article. Use:\n.telegraph <title> <description>"
+            }
+        ],
+        "name": "telegraph",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/telegraph.py"
     },
     {
         "author": "@Foxy437",
