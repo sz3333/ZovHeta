@@ -28332,6 +28332,19 @@
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/yoomoney.py"
     },
     {
+        "author": "@kmodules",
+        "description": "Module that copying another user.",
+        "commands": [
+            {
+                "name": "copyuser",
+                "description": "Copy user.\nUse: .copy <username>"
+            }
+        ],
+        "name": "copyuser",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/copyuser.py"
+    },
+    {
         "author": "Ksenon | @MeKsenon",
         "description": "🤖 Модуль для работы с KsenonGPT и генерации изображений",
         "commands": [
