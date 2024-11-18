@@ -2408,6 +2408,34 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/повтор.py"
     },
     {
+        "author": "@Mersai",
+        "commands": [
+            {
+                "name": "clearbull",
+                "description": "Никого не буллить"
+            },
+            {
+                "name": "bulla",
+                "description": "Добавить фразу | .bulla <фраза>"
+            },
+            {
+                "name": "bullr",
+                "description": "Вкинуть рандомное оскорбление"
+            },
+            {
+                "name": "addbull",
+                "description": "Буллить человека. <reply>"
+            },
+            {
+                "name": "rmbull",
+                "description": "Не буллить человека. <reply>"
+            }
+        ],
+        "name": "☠️_Унижатор_2.0",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/☠️_Унижатор_2.0.py"
+    },
+    {
         "author": "@hikka_mods",
         "description": "Find out the approximate date of registration of the telegram account",
         "commands": [
