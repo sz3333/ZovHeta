@@ -110,6 +110,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsEdits.py"
     },
     {
+        "description": "Создает ASCII арт баннеры",
+        "commands": [
+            {
+                "name": "arts",
+                "description": "Создать ASCII арт баннер. Использование: .arts <текст>"
+            }
+        ],
+        "name": "AsciiArts",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsciiArts.py"
+    },
+    {
         "description": "Модуль для фарма в @astro_GameBot от @Apolon99",
         "commands": [
             {
@@ -1996,62 +2008,6 @@
         "name": "modgi",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/modgi.py"
-    },
-    {
-        "author": "@mqone",
-        "commands": [
-            {
-                "name": "shabl",
-                "description": "Добавить фразу | .shabl <фраза>"
-            },
-            {
-                "name": "type1hour",
-                "description": "Автотайп на 1 час"
-            },
-            {
-                "name": "mqone",
-                "description": "Запустить анимацию [.mqone]"
-            },
-            {
-                "name": "userinfo",
-                "description": "Get object infomation"
-            },
-            {
-                "name": "report",
-                "description": "User report for spam."
-            },
-            {
-                "name": "doxer",
-                "description": "Активирует докс"
-            },
-            {
-                "name": "chatid",
-                "description": "Команда .chatid показывает ID чата."
-            },
-            {
-                "name": "swat",
-                "description": "Включить или отключить режим swatera"
-            },
-            {
-                "name": "DOX",
-                "description": "Завуалировать сообщение. <reply>"
-            },
-            {
-                "name": "jara",
-                "description": "Устроит жару"
-            },
-            {
-                "name": "sm",
-                "description": "Используй: .sm «название» чтобы найти музыку по названию."
-            },
-            {
-                "name": "mq",
-                "description": "тайминг в секундах + шапка"
-            }
-        ],
-        "name": "mqone_v4_перезалив",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mqone_v4_перезалив.py"
     },
     {
         "author": "@HikkTutor",
