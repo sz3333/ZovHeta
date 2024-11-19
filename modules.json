@@ -28445,6 +28445,23 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/telegraph.py"
     },
     {
+        "author": "@kmodules",
+        "description": "🎤 Модуль для преобразования текста в речь",
+        "commands": [
+            {
+                "name": "text2speech",
+                "description": "Преобразовать текст в речь (использование: .text2speech <текст> <alex/sophia>)"
+            },
+            {
+                "name": "t2s",
+                "description": "Алиас команды .text2speech, использование: .t2s <текст> <alex/sophia>"
+            }
+        ],
+        "name": "text2speech",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/text2speech.py"
+    },
+    {
         "author": "@Foxy437",
         "description": "Module for searching modules! Upload your modules to FHeta via fheta_robot.t.me!",
         "commands": [
