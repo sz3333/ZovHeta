@@ -591,6 +591,33 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckSpamBan.py"
     },
     {
+        "commands": [
+            {
+                "name": "clearbull",
+                "description": "Никого не буллить"
+            },
+            {
+                "name": "cikadat",
+                "description": "Добавить фразу | .cikadat <фраза>"
+            },
+            {
+                "name": "cikadar",
+                "description": "Вкинуть рандомное оскорбление"
+            },
+            {
+                "name": "cikada",
+                "description": "Буллить человека. <reply>"
+            },
+            {
+                "name": "cikadarm",
+                "description": "Не буллить человека. <reply>"
+            }
+        ],
+        "name": "Cikada",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Cikada.py"
+    },
+    {
         "author": "@mqone",
         "description": "округляет всё",
         "commands": [
