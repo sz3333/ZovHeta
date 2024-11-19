@@ -1365,6 +1365,42 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Magic_Ball.py"
     },
     {
+        "description": "Модуль для рассылок",
+        "commands": [
+            {
+                "name": "addchat",
+                "description": "Добавь чат в список дял рассылки. Использование: .addchat <ссылка или @username>"
+            },
+            {
+                "name": "delchat",
+                "description": "Удалить чат из списка. Использование: .delchat <название>"
+            },
+            {
+                "name": "setint",
+                "description": "Установи интервал рассылки. Использование: .setint <секунды>"
+            },
+            {
+                "name": "chatlist",
+                "description": "Показать список чатов для рассылки"
+            },
+            {
+                "name": "stopmass",
+                "description": "Остановить рассылку"
+            },
+            {
+                "name": "startmass",
+                "description": "Запустить рассылку"
+            },
+            {
+                "name": "setsms",
+                "description": "Установи сообщение для рассылки! Использование: .setsms <текст>"
+            }
+        ],
+        "name": "MassSMS",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/MassSMS.py"
+    },
+    {
         "author": "@BruhHikkaModules",
         "description": "- Decode and Encode morse code",
         "commands": [
