@@ -1446,6 +1446,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Neofetch.py"
     },
     {
+        "description": "Manages stuff with heta.dan.tatar",
+        "commands": [
+            {
+                "name": "nheta",
+                "description": "<query> - Searches Heta repository for modules"
+            },
+            {
+                "name": "ndlh",
+                "description": "<hash> - Install module from hash"
+            }
+        ],
+        "name": "NewUnitHeta",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/NewUnitHeta.py"
+    },
+    {
         "description": "Permalink to user",
         "commands": [
             {
