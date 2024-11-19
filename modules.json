@@ -322,6 +322,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
+        "commands": [
+            {
+                "name": "prem",
+                "description": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
+            },
+            {
+                "name": "folder",
+                "description": "вкл/выкл добавление каналов на которые подписался модуль в папку"
+            }
+        ],
+        "name": "AutoPremium",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoPremium.py"
+    },
+    {
         "author": "@eremod",
         "commands": [
             {
