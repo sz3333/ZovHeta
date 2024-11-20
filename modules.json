@@ -28442,11 +28442,19 @@
     },
     {
         "author": "@kmodules",
-        "description": "Module that copying another user.",
+        "description": "Модуль чтобы копировать других пользователей.",
         "commands": [
             {
                 "name": "copyuser",
-                "description": "Copy user.\nUse: .copyuser <username>"
+                "description": "Копировать профиль пользователя.\nUse: .copyuser <username>"
+            },
+            {
+                "name": "backupme",
+                "description": "Создать бэкап данного профиля"
+            },
+            {
+                "name": "restoreme",
+                "description": "Восстановить старый профиль"
             }
         ],
         "name": "copyuser",
