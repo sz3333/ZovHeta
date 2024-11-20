@@ -11143,6 +11143,19 @@
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/BioFarm.py"
     },
     {
+        "author": "@HikkTutor",
+        "description": "Кастомный пинг с поддержкой премиум эмодзи",
+        "commands": [
+            {
+                "name": "cping",
+                "description": "Описание отсутствует"
+            }
+        ],
+        "name": "Cping",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Cping.py"
+    },
+    {
         "author": "@unnic",
         "description": "Модуль для сравнения курсов",
         "commands": [
