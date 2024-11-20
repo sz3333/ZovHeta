@@ -1353,6 +1353,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/LiMERPMod.py"
     },
     {
+        "description": "🤖 Продвинутый модуль для работы с различными AI моделями",
+        "commands": [
+            {
+                "name": "ai",
+                "description": "🤖 Запрос к AI. Использование: .ai <запрос>"
+            },
+            {
+                "name": "aimodels",
+                "description": "⚙️ Настройки и выбор модели"
+            }
+        ],
+        "name": "MW_API",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/MW_API.py"
+    },
+    {
         "description": "Волшебный шар by @modwini",
         "commands": [
             {
