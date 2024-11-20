@@ -2363,6 +2363,19 @@
     },
     {
         "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах GiveShareBot",
+        "commands": [
+            {
+                "name": "giveshare",
+                "description": "вкл/выкл автоматическое участие в розыгрышах"
+            }
+        ],
+        "name": "yg_giveshare",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_giveshare.py"
+    },
+    {
+        "author": "@yg_modules",
         "description": "Модуль для распознавания текста на изображении и перевода",
         "commands": [
             {
