@@ -2341,6 +2341,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_circle.py"
     },
     {
+        "author": "@yummy_gay",
+        "description": "Крутой модуль для того чтобы чекать курс в реальном времени🕶",
+        "commands": [
+            {
+                "name": "монета",
+                "description": "<название> выбрать крипту по умолчанию"
+            },
+            {
+                "name": "вклвыкл",
+                "description": "Включить/выключить автообновление курса (каждые 11 сек)"
+            },
+            {
+                "name": "курс",
+                "description": "<кол-во> <название монеты> смотреть курс"
+            }
+        ],
+        "name": "yg_crypto",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_crypto.py"
+    },
+    {
         "author": "@yg_modules",
         "description": "Модуль для распознавания текста на изображении и перевода",
         "commands": [
