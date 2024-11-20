@@ -2525,6 +2525,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/набор_в_ги.py"
     },
     {
+        "author": "@lorcyt",
+        "description": "отправка отложенных сообщений более простым и гибким способом",
+        "commands": [
+            {
+                "name": "отл",
+                "description": "Используй .otl <время в минутах> <кол-во сообщений> <текст сообщения>"
+            }
+        ],
+        "name": "отложка",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/отложка.py"
+    },
+    {
         "author": "@shkipermolodec",
         "commands": [
             {
