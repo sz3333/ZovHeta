@@ -1874,11 +1874,11 @@
             },
             {
                 "name": "qrewrite",
-                "description": "<answer/text> - Will quickly rewrite the text."
+                "description": "<answer/text> - Quikly rewrite text."
             },
             {
                 "name": "qemoji",
-                "description": "<answer/text> — Will add emoji to your text😊."
+                "description": "<answer/text> — Quickly adds an emoji to text😊"
             },
             {
                 "name": "yaset",
