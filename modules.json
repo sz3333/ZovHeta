@@ -28492,7 +28492,7 @@
         "commands": [
             {
                 "name": "copyuser",
-                "description": "Скопировать профиль пользователя"
+                "description": "Скопировать профиль пользователя (работает по reply/@username/ID)"
             },
             {
                 "name": "backupme",
