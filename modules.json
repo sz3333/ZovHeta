@@ -27281,7 +27281,7 @@
         ],
         "name": "Autotime",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Autotime.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/Autotime.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27294,7 +27294,7 @@
         ],
         "name": "ChannelImitator",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/ChannelImitator.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/ChannelImitator.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27307,7 +27307,7 @@
         ],
         "name": "ChannelSaver",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/ChannelSaver.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/ChannelSaver.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27324,7 +27324,7 @@
         ],
         "name": "Counter",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Counter.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/Counter.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27337,7 +27337,7 @@
         ],
         "name": "DelMyMsgs",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/DelMyMsgs.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/DelMyMsgs.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27350,7 +27350,7 @@
         ],
         "name": "PMstat",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/PMstat.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/PMstat.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27363,13 +27363,13 @@
         ],
         "name": "Sender",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Sender.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/Sender.py"
     },
     {
         "author": "@shiro_hikka",
         "name": "SnakieGame",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/SnakieGame.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/SnakieGame.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27382,7 +27382,7 @@
         ],
         "name": "StickerStealer",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/StickerStealer.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/StickerStealer.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27395,7 +27395,7 @@
         ],
         "name": "Timer",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Timer.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/Timer.py"
     },
     {
         "author": "@shiro_hikka",
@@ -27416,7 +27416,7 @@
         ],
         "name": "Tracker",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Tracker.py"
+        "install": "dlm https://raw.githubusercontent.com/jpshiroteaxx/hikka-modules/main/Tracker.py"
     },
     {
         "commands": [
