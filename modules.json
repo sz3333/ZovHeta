@@ -2101,6 +2101,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/LiMERPMod.py"
     },
     {
+        "author": "@xuduk",
+        "description": "Модуль для отправки рандомных изображений",
+        "commands": [
+            {
+                "name": "randpic",
+                "inline": false,
+                "description": {
+                    "doc": "[width] [height] - отправляет случайное изображение. Можно указать только ширину, высота настроится автоматически. Если не указать ширину и высоту формат будет 1000х1100."
+                }
+            }
+        ],
+        "name": "LoremPicsum",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Lorem_Picsum.py"
+    },
+    {
         "description": "Волшебный шар by @modwini",
         "commands": [
             {
@@ -3299,6 +3315,29 @@
         "name": "VideoToVoice",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/videovgs.py"
+    },
+    {
+        "author": "@xuduk",
+        "description": "Проверяет ссылки через VirusTotal API",
+        "commands": [
+            {
+                "name": "setvtotalkey",
+                "inline": false,
+                "description": {
+                    "doc": "Устанавливает API-ключ VirusTotal\nИспользование: .setvtotalkey <API_KEY>"
+                }
+            },
+            {
+                "name": "vtotal",
+                "inline": false,
+                "description": {
+                    "doc": "Проверяет ссылку через VirusTotal\nИспользование: .vtotal <ссылка>"
+                }
+            }
+        ],
+        "name": "VirusTotalUrl",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/virus_total_url.py"
     },
     {
         "author": "@Eraminel01",
