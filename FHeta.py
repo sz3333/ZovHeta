@@ -1,4 +1,5 @@
 __version__ = (3, 3, 5)
+# meta banner: https://camo.githubusercontent.com/5091a8298e4c92787a9aabf61f5a5797ac01b9bc0fd08b44fc54b1f8dfd6cc60/68747470733a2f2f692e696d67686970706f2e636f6d2f66696c65732f5967473232303844674d2e6a7067
 # meta developer: @Foxy437
 # change-log: 🎉🎉🎉🎉🎉🎉🎉🎉 ADDED INLINE!!! ADDED UKRAINIAN!!!
 # ©️ Fixyres, 2024
