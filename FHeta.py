@@ -141,35 +141,37 @@ class FHeta(loader.Module):
 
                 commands_section = ""
                 inline_commands_section = ""
-                
-                if "commands" in module and module['commands']:
-                    normal_commands = []
-                    inline_commands = []
 
-                    for cmd in module['commands']:
-                        description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))
-                        
-                        if cmd.get("inline", False):
-                            if description:
-                                cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
-                            else:
-                                cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code>"
-                            inline_commands.append(cmd_entry)
-                        else:
-                            if description:
-                                cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
-                            else:
-                                cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code>"
-                            normal_commands.append(cmd_entry)
+                if "commands" in module and module['commands']:                             
+                    normal_commands = []                                         
+                    inline_commands = []                                         
 
-                    if normal_commands:
-                        commands_section = self.strings["commands"].format(commands_list="\n".join(normal_commands))
+                    for cmd in module['commands']:                               
+                            description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))  
 
-                    if inline_commands:
-                        inline_commands_section = self.strings["inline_commandss"].format(
-                            inline_list="\n".join(inline_commands)
-                        )
+                            if isinstance(description, dict):                     
+                                    description = description.get('doc', '')             
 
+                            if cmd.get("inline", False):                         
+                                    if description:                                 
+                                            cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"   
+                                    else:                                            
+                                            cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code>"  
+                                    inline_commands.append(cmd_entry)                
+                            else:                                                 
+                                    if description:                                 
+                                            cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}" 
+                                    else:                                            
+                                            cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code>" 
+                                    normal_commands.append(cmd_entry)                
+
+                    if normal_commands:                                          
+                            commands_section = self.strings["commands"].format(commands_list="\n".join(normal_commands)) 
+
+                    if inline_commands:                                          
+                            inline_commands_section = self.strings["inline_commandss"].format(    
+                                    inline_list="\n".join(inline_commands))                   
+            
                 description_section = ""
                 if "description" in module and module["description"]:
                     description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
