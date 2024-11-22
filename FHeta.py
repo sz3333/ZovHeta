@@ -141,19 +141,25 @@ class FHeta(loader.Module):
 
                 commands_section = ""
                 inline_commands_section = ""
-
+                
                 if "commands" in module and module['commands']:
                     normal_commands = []
                     inline_commands = []
 
                     for cmd in module['commands']:
-                        description = cmd['description'].get(current_language, cmd['description'].get("doc"))
+                        description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))
 
                         if cmd.get("inline", False):
-                            cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
+                            if description:
+                                cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
+                            else:
+                                cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code>"
                             inline_commands.append(cmd_entry)
                         else:
-                            cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
+                            if description:
+                                cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
+                            else:
+                                cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code>"
                             normal_commands.append(cmd_entry)
 
                     if normal_commands:
