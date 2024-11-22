@@ -133,7 +133,7 @@ class FHeta(loader.Module):
         result_index = 1
 
         current_language = self.strings.get("language", "doc")
-
+        
         for module in modules[:50]:
             try:
                 repo_url = f"https://github.com/{module['repo']}"
@@ -148,7 +148,7 @@ class FHeta(loader.Module):
 
                     for cmd in module['commands']:
                         description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))
-
+                        
                         if cmd.get("inline", False):
                             if description:
                                 cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
