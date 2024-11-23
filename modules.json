@@ -3962,7 +3962,7 @@
                 }
             },
             {
-                "name": "asearch_i",
+                "name": "asearch_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Возвращает список найденных по названию тайтлов",
@@ -3970,7 +3970,7 @@
                 }
             },
             {
-                "name": "asearch_i",
+                "name": "asearch_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Возвращает список найденных по названию тайтлов",
@@ -4154,7 +4154,7 @@
         "description": "Create inline button",
         "commands": [
             {
-                "name": "crinl_i",
+                "name": "crinl_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
@@ -4162,7 +4162,7 @@
                 }
             },
             {
-                "name": "crinl_i",
+                "name": "crinl_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
@@ -4179,7 +4179,7 @@
         "description": "Mini game heads or tails",
         "commands": [
             {
-                "name": "coin_i",
+                "name": "coin_",
                 "inline": true,
                 "description": {}
             }
@@ -4193,7 +4193,7 @@
         "description": "Basic management of the UB in case only the inline works",
         "commands": [
             {
-                "name": "restart_i",
+                "name": "restart_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
@@ -4201,7 +4201,7 @@
                 }
             },
             {
-                "name": "restart_i",
+                "name": "restart_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
@@ -4209,7 +4209,7 @@
                 }
             },
             {
-                "name": "update_i",
+                "name": "update_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Обновить юзербота",
@@ -4217,7 +4217,7 @@
                 }
             },
             {
-                "name": "update_i",
+                "name": "update_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Обновить юзербота",
@@ -4225,7 +4225,7 @@
                 }
             },
             {
-                "name": "terminal_i",
+                "name": "terminal_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
@@ -4233,7 +4233,7 @@
                 }
             },
             {
-                "name": "terminal_i",
+                "name": "terminal_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
@@ -4241,7 +4241,7 @@
                 }
             },
             {
-                "name": "modules_i",
+                "name": "modules_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
@@ -4249,7 +4249,7 @@
                 }
             },
             {
-                "name": "modules_i",
+                "name": "modules_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
@@ -4257,7 +4257,7 @@
                 }
             },
             {
-                "name": "resetprefix_i",
+                "name": "resetprefix_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
@@ -4265,7 +4265,7 @@
                 }
             },
             {
-                "name": "resetprefix_i",
+                "name": "resetprefix_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
@@ -5336,7 +5336,7 @@
         "description": "Bull пиз#а собеседнику",
         "commands": [
             {
-                "name": "bull_i",
+                "name": "bull_",
                 "inline": true,
                 "description": {
                     "doc": "Забулить кого-то жесткими матами про мать"
@@ -5585,7 +5585,7 @@
                 }
             },
             {
-                "name": "ping_i",
+                "name": "ping_",
                 "inline": true,
                 "description": {
                     "doc": "Test your userbot ping"
@@ -5737,7 +5737,7 @@
                 }
             },
             {
-                "name": "mydiary_i",
+                "name": "mydiary_",
                 "inline": true,
                 "description": {
                     "doc": "> Main the diary section"
@@ -9121,28 +9121,28 @@
         "description": "Random tools for your userbot",
         "commands": [
             {
-                "name": "coin_i",
+                "name": "coin_",
                 "inline": true,
                 "description": {
                     "doc": "Heads or tails?"
                 }
             },
             {
-                "name": "random_i",
+                "name": "random_",
                 "inline": true,
                 "description": {
                     "doc": "[number] - Send random number less than specified"
                 }
             },
             {
-                "name": "choice_i",
+                "name": "choice_",
                 "inline": true,
                 "description": {
                     "doc": "[args, separated by comma] - Make a choice"
                 }
             },
             {
-                "name": "person_i",
+                "name": "person_",
                 "inline": true,
                 "description": {
                     "doc": "This person doesn't exist"
@@ -9312,7 +9312,7 @@
                 }
             },
             {
-                "name": "lr_i",
+                "name": "lr_",
                 "inline": true,
                 "description": {
                     "doc": "Create new hidden message"
@@ -9938,7 +9938,7 @@
                 }
             },
             {
-                "name": "gallery_i",
+                "name": "gallery_",
                 "inline": true,
                 "description": {
                     "doc": "Search for Scrolller subreddits"
@@ -9993,7 +9993,7 @@
         "description": "Shikimori API Wrapper",
         "commands": [
             {
-                "name": "anime_i",
+                "name": "anime_",
                 "inline": true,
                 "description": {
                     "doc": "<query> - Search Shikimori"
@@ -10446,7 +10446,7 @@
         "description": "Telethon docs in your pocket",
         "commands": [
             {
-                "name": "tl_i",
+                "name": "tl_",
                 "inline": true,
                 "description": {}
             },
@@ -17378,7 +17378,7 @@
         "description": "Show userbot info",
         "commands": [
             {
-                "name": "apoinfo_i",
+                "name": "apoinfo_",
                 "inline": true,
                 "description": {
                     "doc": "Send userbot info"
@@ -19533,7 +19533,7 @@
                 }
             },
             {
-                "name": "asearch_i",
+                "name": "asearch_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Возвращает список найденных по названию тайтлов",
@@ -19541,7 +19541,7 @@
                 }
             },
             {
-                "name": "asearch_i",
+                "name": "asearch_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Возвращает список найденных по названию тайтлов",
@@ -20669,7 +20669,7 @@
                 }
             },
             {
-                "name": "vizit_i",
+                "name": "vizit_",
                 "inline": true,
                 "description": {
                     "doc": "Send userbot info"
@@ -22444,7 +22444,7 @@
                 }
             },
             {
-                "name": "lin_i",
+                "name": "lin_",
                 "inline": true,
                 "description": {
                     "doc": "lincmd inline version"
@@ -23257,7 +23257,7 @@
         "description": "Create inline button",
         "commands": [
             {
-                "name": "crinl_i",
+                "name": "crinl_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
@@ -23265,7 +23265,7 @@
                 }
             },
             {
-                "name": "crinl_i",
+                "name": "crinl_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
@@ -23282,7 +23282,7 @@
         "description": "Mini game heads or tails",
         "commands": [
             {
-                "name": "coin_i",
+                "name": "coin_",
                 "inline": true,
                 "description": {}
             }
@@ -23296,7 +23296,7 @@
         "description": "Basic management of the UB in case only the inline works",
         "commands": [
             {
-                "name": "restart_i",
+                "name": "restart_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
@@ -23304,7 +23304,7 @@
                 }
             },
             {
-                "name": "restart_i",
+                "name": "restart_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
@@ -23312,7 +23312,7 @@
                 }
             },
             {
-                "name": "update_i",
+                "name": "update_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Обновить юзербота",
@@ -23320,7 +23320,7 @@
                 }
             },
             {
-                "name": "update_i",
+                "name": "update_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Обновить юзербота",
@@ -23328,7 +23328,7 @@
                 }
             },
             {
-                "name": "terminal_i",
+                "name": "terminal_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
@@ -23336,7 +23336,7 @@
                 }
             },
             {
-                "name": "terminal_i",
+                "name": "terminal_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
@@ -23344,7 +23344,7 @@
                 }
             },
             {
-                "name": "modules_i",
+                "name": "modules_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
@@ -23352,7 +23352,7 @@
                 }
             },
             {
-                "name": "modules_i",
+                "name": "modules_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
@@ -23360,7 +23360,7 @@
                 }
             },
             {
-                "name": "resetprefix_i",
+                "name": "resetprefix_",
                 "inline": false,
                 "description": {
                     "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
@@ -23368,7 +23368,7 @@
                 }
             },
             {
-                "name": "resetprefix_i",
+                "name": "resetprefix_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
@@ -28421,7 +28421,7 @@
                 }
             },
             {
-                "name": "alert_i",
+                "name": "alert_",
                 "inline": true,
                 "description": {
                     "doc": "Выбор регионов.\nЧтобы получать все предупреждения введите alert all.\nЧтобы посмотреть ваши регионы alert my"
@@ -28632,7 +28632,7 @@
                 }
             },
             {
-                "name": "asearch_i",
+                "name": "asearch_",
                 "inline": true,
                 "description": {
                     "doc": "Возвращает список найденных по названию тайтлов"
@@ -29103,7 +29103,7 @@
         "description": "Show userbot info",
         "commands": [
             {
-                "name": "apoinfo_i",
+                "name": "apoinfo_",
                 "inline": true,
                 "description": {
                     "doc": "Send userbot info"
@@ -30273,7 +30273,7 @@
         "description": "Bull пиз#а собеседнику",
         "commands": [
             {
-                "name": "bull_i",
+                "name": "bull_",
                 "inline": true,
                 "description": {
                     "doc": "Забулить кого-то жесткими матами про мать"
@@ -31427,28 +31427,28 @@
                 }
             },
             {
-                "name": "opengapps_i",
+                "name": "opengapps_",
                 "inline": true,
                 "description": {
                     "doc": "OpenGApps (Inline)\n@allow: all"
                 }
             },
             {
-                "name": "aex_i",
+                "name": "aex_",
                 "inline": true,
                 "description": {
                     "doc": "AOSP Extended (Inline)\n@allow: all"
                 }
             },
             {
-                "name": "dotos_i",
+                "name": "dotos_",
                 "inline": true,
                 "description": {
                     "doc": "DotOS (Inline)\n@allow: all"
                 }
             },
             {
-                "name": "magisk_i",
+                "name": "magisk_",
                 "inline": true,
                 "description": {
                     "doc": "Magisk (Inline)\n@allow: all"
@@ -32339,7 +32339,7 @@
                 }
             },
             {
-                "name": "fdroid_i",
+                "name": "fdroid_",
                 "inline": true,
                 "description": {
                     "doc": "Find the app in the FDroid catalog (Inline)"
@@ -32597,7 +32597,7 @@
                 }
             },
             {
-                "name": "book_i",
+                "name": "book_",
                 "inline": true,
                 "description": {
                     "doc": "🔎 Sending the form with the books. Send message with args if you want to find a book by title (Inline)"
@@ -32820,7 +32820,7 @@
                 }
             },
             {
-                "name": "catsgif_i",
+                "name": "catsgif_",
                 "inline": true,
                 "description": {
                     "doc": "- send inline cats gif gallery"
@@ -34373,28 +34373,28 @@
         "description": "Random tools for your userbot",
         "commands": [
             {
-                "name": "coin_i",
+                "name": "coin_",
                 "inline": true,
                 "description": {
                     "doc": "Heads or tails?"
                 }
             },
             {
-                "name": "random_i",
+                "name": "random_",
                 "inline": true,
                 "description": {
                     "doc": "[number] - Send random number less than specified"
                 }
             },
             {
-                "name": "choice_i",
+                "name": "choice_",
                 "inline": true,
                 "description": {
                     "doc": "[args, separated by comma] - Make a choice"
                 }
             },
             {
-                "name": "person_i",
+                "name": "person_",
                 "inline": true,
                 "description": {
                     "doc": "This person doesn't exist"
@@ -34462,7 +34462,7 @@
                 }
             },
             {
-                "name": "ping_i",
+                "name": "ping_",
                 "inline": true,
                 "description": {
                     "doc": "Test your userbot ping"
@@ -35095,7 +35095,7 @@
                 }
             },
             {
-                "name": "lr_i",
+                "name": "lr_",
                 "inline": true,
                 "description": {
                     "doc": "Create new hidden message"
@@ -35199,7 +35199,7 @@
                 }
             },
             {
-                "name": "lyrics_i",
+                "name": "lyrics_",
                 "inline": true,
                 "description": {
                     "doc": "Search song"
@@ -35430,7 +35430,7 @@
                 }
             },
             {
-                "name": "mems_i",
+                "name": "mems_",
                 "inline": true,
                 "description": {
                     "doc": "Send memes"
@@ -35851,7 +35851,7 @@
                 }
             },
             {
-                "name": "mydiary_i",
+                "name": "mydiary_",
                 "inline": true,
                 "description": {
                     "doc": "> Main the diary section"
@@ -37557,7 +37557,7 @@
                 }
             },
             {
-                "name": "gallery_i",
+                "name": "gallery_",
                 "inline": true,
                 "description": {
                     "doc": "Search for Scrolller subreddits"
@@ -37765,7 +37765,7 @@
         "description": "Shikimori API Wrapper",
         "commands": [
             {
-                "name": "anime_i",
+                "name": "anime_",
                 "inline": true,
                 "description": {
                     "doc": "<query> - Search Shikimori"
@@ -38599,7 +38599,7 @@
         "description": "Telethon docs in your pocket",
         "commands": [
             {
-                "name": "tl_i",
+                "name": "tl_",
                 "inline": true,
                 "description": {}
             },
@@ -38955,7 +38955,7 @@
                 }
             },
             {
-                "name": "hsearch_i",
+                "name": "hsearch_",
                 "inline": true,
                 "description": {
                     "doc": "Пошук по трекеру toloka.to (Inline)\n@allow: all"
@@ -39087,7 +39087,7 @@
                 }
             },
             {
-                "name": "transmission_i",
+                "name": "transmission_",
                 "inline": true,
                 "description": {
                     "doc": "General info (Inline)"
@@ -40799,7 +40799,7 @@
                 }
             },
             {
-                "name": "weather_i",
+                "name": "weather_",
                 "inline": true,
                 "description": {
                     "doc": "Search city"
@@ -41184,21 +41184,21 @@
                 }
             },
             {
-                "name": "ylast_i",
+                "name": "ylast_",
                 "inline": true,
                 "description": {
                     "doc": "The last posted art (Inline)\n@allow: all"
                 }
             },
             {
-                "name": "yrandom_i",
+                "name": "yrandom_",
                 "inline": true,
                 "description": {
                     "doc": "The random posted art (Inline)\n@allow: all"
                 }
             },
             {
-                "name": "ysearch_i",
+                "name": "ysearch_",
                 "inline": true,
                 "description": {
                     "doc": "Search art by tags.  (https://yande.re/help)\n@allow: all"
@@ -41669,7 +41669,7 @@
                 }
             },
             {
-                "name": "alert_i",
+                "name": "alert_",
                 "inline": true,
                 "description": {
                     "doc": "Выбор регионов.\nЧтобы получать все предупреждения введите alert all.\nЧтобы посмотреть ваши регионы alert my"
@@ -41718,7 +41718,7 @@
                 }
             },
             {
-                "name": "lyrics_i",
+                "name": "lyrics_",
                 "inline": true,
                 "description": {
                     "doc": "Search song"
@@ -41887,7 +41887,7 @@
                 }
             },
             {
-                "name": "weather_i",
+                "name": "weather_",
                 "inline": true,
                 "description": {
                     "doc": "Search city"
