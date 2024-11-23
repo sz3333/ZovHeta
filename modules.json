@@ -2701,6 +2701,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Uploaded_Https_.py"
     },
     {
+        "description": "Получение информации о пользователе или канале Telegram, включая дату регистрации и данные из @funstat",
+        "commands": [
+            {
+                "name": "userinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Получить информацию о пользователе или канале. Использование: .userinfo <@юзернейм/ID> или ответ на сообщение"
+                }
+            }
+        ],
+        "name": "UserInfo",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/UserInfo.py"
+    },
+    {
         "description": "Module for working with voicechat",
         "commands": [
             {
