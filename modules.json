@@ -3077,6 +3077,49 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/envs.py"
     },
     {
+        "description": "Универсальный файловый менеджер",
+        "commands": [
+            {
+                "name": "setpath",
+                "inline": false,
+                "description": {
+                    "doc": "Установка пути, для работы с файлами."
+                }
+            },
+            {
+                "name": "up",
+                "inline": false,
+                "description": {
+                    "doc": "Загрузить файл на сервер (реплеем на файл)"
+                }
+            },
+            {
+                "name": "dl",
+                "inline": false,
+                "description": {
+                    "doc": "Скачать файл с сервера. Указывать имя файла точно, с учётом расширения"
+                }
+            },
+            {
+                "name": "ls",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список файлов в текущей директории."
+                }
+            },
+            {
+                "name": "rmf",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить файл с сервера. Указывать имя файла точно, с учётом расширения"
+                }
+            }
+        ],
+        "name": "FileManager",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/file_manager.py"
+    },
+    {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/grokai.png?raw=true",
         "description": "Взаимодействие с Grok AI",
