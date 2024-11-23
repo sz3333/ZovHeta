@@ -43389,6 +43389,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Модуль для распознования текста из аудио.",
+        "commands": [
+            {
+                "name": "audio2text",
+                "inline": false,
+                "description": {
+                    "doc": "Преобразовать аудио в текст (ответом на аудиосообщение)"
+                }
+            }
+        ],
+        "name": "Audio2Text",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/audio2text.py"
+    },
+    {
+        "author": "@kmodules",
         "commands": [
             {
                 "name": "copyuser",
