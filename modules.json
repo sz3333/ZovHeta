@@ -3063,6 +3063,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dushnometr.py"
     },
     {
+        "author": "@XenSideMOD",
+        "description": "Uploader envs.sh",
+        "commands": [
+            {
+                "name": "envs",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "envs",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/envs.py"
+    },
+    {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/grokai.png?raw=true",
         "description": "Взаимодействие с Grok AI",
