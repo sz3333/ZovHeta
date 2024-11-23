@@ -279,18 +279,46 @@ class FHeta(loader.Module):
     async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
-
+        current_language = self.strings.get("language", "doc")
         commands_section = ""
-        if "commands" in module:
-            commands_list = "\n".join([f"<code>{self.get_prefix()}{cmd['name']}</code> {cmd['description']}" for cmd in module['commands']])
-            commands_section = self.strings["commands"].format(commands_list=commands_list)
+        inline_commands_section = ""
+
+        if "commands" in module and module['commands']:
+            normal_commands = []
+            inline_commands = []
+
+            for cmd in module['commands']:
+                description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))
+
+                if isinstance(description, dict):
+                    description = description.get('doc', '')
+
+                if cmd.get("inline", False):
+                    if description:
+                        cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
+                    else:
+                        cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code>"
+                    inline_commands.append(cmd_entry)
+                else:
+                    if description:
+                        cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
+                    else:
+                        cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code>"
+                    normal_commands.append(cmd_entry)
+
+            if normal_commands:
+                commands_section = self.strings["commands"].format(commands_list="\n".join(normal_commands))
+
+            if inline_commands:
+                inline_commands_section = self.strings["inline_commandss"].format(
+                    inline_list="\n".join(inline_commands))
 
         description_section = ""
-        if "description" in module:
-            description_section = self.strings["description"].format(description=module["description"])
+        if "description" in module and module["description"]:
+            description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
 
-        author_info = module.get("author", "???")
-        module_name = module['name'].replace('.py', '')
+        author_info = utils.escape_html(module.get("author", "???"))
+        module_name = utils.escape_html(module['name'].replace('.py', ''))
 
         return self.strings["closest_match"].format(
             query=query,
@@ -299,5 +327,5 @@ class FHeta(loader.Module):
             repo_url=repo_url,
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
-            commands=commands_section
-    )
+            commands=commands_section + inline_commands_section
+            )
