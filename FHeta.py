@@ -99,9 +99,9 @@ class FHeta(loader.Module):
 
                         module_names = [module['name'] for module in all_modules if 'name' in module]
                         closest_matches = difflib.get_close_matches(args, module_names, n=1, cutoff=0.5)
-
+                        
                         if closest_matches:
-                            closest_module = next((m for m in all_modules if m['name'] == closest_matches[0]), None)
+                            closest_module = next((m for m in all_modules if isinstance(m, dict) and 'name' in m and m['name'] == closest_matches[0]), None)
                             if closest_module:
                                 formatted_module = await self.format_module(closest_module, args)
                                 banner_url = closest_module.get("banner", None)
