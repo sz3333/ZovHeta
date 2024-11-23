@@ -3962,6 +3962,14 @@
                 }
             },
             {
+                "name": "asearch_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Возвращает список найденных по названию тайтлов",
+                    "en_doc": "Returns a list of titles found by name"
+                }
+            },
+            {
                 "name": "asearch_",
                 "inline": true,
                 "description": {
@@ -4146,6 +4154,14 @@
         "description": "Create inline button",
         "commands": [
             {
+                "name": "crinl_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
+                    "en_doc": "Create an inline button\nexample: @username_bot crinl Message text, Button text, Link in the button"
+                }
+            },
+            {
                 "name": "crinl_",
                 "inline": true,
                 "description": {
@@ -4177,11 +4193,27 @@
         "description": "Basic management of the UB in case only the inline works",
         "commands": [
             {
+                "name": "restart_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Перезагрузить юзербота",
+                    "en_doc": "Reboot the userbot"
+                }
+            },
+            {
                 "name": "restart_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
                     "en_doc": "Reboot the userbot"
+                }
+            },
+            {
+                "name": "update_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Обновить юзербота",
+                    "en_doc": "Update the userbot"
                 }
             },
             {
@@ -4193,6 +4225,14 @@
                 }
             },
             {
+                "name": "terminal_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
+                    "en_doc": "Execute the command in the terminal (it is better to prepare the command immediately and just paste it)"
+                }
+            },
+            {
                 "name": "terminal_",
                 "inline": true,
                 "description": {
@@ -4201,11 +4241,27 @@
                 }
             },
             {
+                "name": "modules_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Вывести список установленных модулей через инлайн",
+                    "en_doc": "Display a list of installed modules via the inline"
+                }
+            },
+            {
                 "name": "modules_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
                     "en_doc": "Display a list of installed modules via the inline"
+                }
+            },
+            {
+                "name": "resetprefix_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
+                    "en_doc": "Reset the prefix (be careful, resets your prefix to . )"
                 }
             },
             {
@@ -19477,6 +19533,14 @@
                 }
             },
             {
+                "name": "asearch_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Возвращает список найденных по названию тайтлов",
+                    "en_doc": "Returns a list of titles found by name"
+                }
+            },
+            {
                 "name": "asearch_",
                 "inline": true,
                 "description": {
@@ -23193,6 +23257,14 @@
         "description": "Create inline button",
         "commands": [
             {
+                "name": "crinl_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
+                    "en_doc": "Create an inline button\nexample: @username_bot crinl Message text, Button text, Link in the button"
+                }
+            },
+            {
                 "name": "crinl_",
                 "inline": true,
                 "description": {
@@ -23224,11 +23296,27 @@
         "description": "Basic management of the UB in case only the inline works",
         "commands": [
             {
+                "name": "restart_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Перезагрузить юзербота",
+                    "en_doc": "Reboot the userbot"
+                }
+            },
+            {
                 "name": "restart_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Перезагрузить юзербота",
                     "en_doc": "Reboot the userbot"
+                }
+            },
+            {
+                "name": "update_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Обновить юзербота",
+                    "en_doc": "Update the userbot"
                 }
             },
             {
@@ -23240,6 +23328,14 @@
                 }
             },
             {
+                "name": "terminal_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
+                    "en_doc": "Execute the command in the terminal (it is better to prepare the command immediately and just paste it)"
+                }
+            },
+            {
                 "name": "terminal_",
                 "inline": true,
                 "description": {
@@ -23248,11 +23344,27 @@
                 }
             },
             {
+                "name": "modules_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Вывести список установленных модулей через инлайн",
+                    "en_doc": "Display a list of installed modules via the inline"
+                }
+            },
+            {
                 "name": "modules_",
                 "inline": true,
                 "description": {
                     "ru_doc": "Вывести список установленных модулей через инлайн",
                     "en_doc": "Display a list of installed modules via the inline"
+                }
+            },
+            {
+                "name": "resetprefix_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
+                    "en_doc": "Reset the prefix (be careful, resets your prefix to . )"
                 }
             },
             {
