@@ -2463,6 +2463,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sosal.py"
     },
     {
+        "description": "сосал?",
+        "commands": [
+            {
+                "name": "sosamba",
+                "inline": false,
+                "description": {
+                    "doc": "👻 Включить/выключить модуль"
+                }
+            },
+            {
+                "name": "sostext",
+                "inline": false,
+                "description": {
+                    "doc": "📝 Изменить текст замены. Использование: .sostext <текст>"
+                }
+            }
+        ],
+        "name": "SosambaModule",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sosamba.py"
+    },
+    {
         "description": "Download music from SoundCloud🫀",
         "commands": [
             {
