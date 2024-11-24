@@ -2281,6 +2281,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/NewUnitHeta.py"
     },
     {
+        "description": "🌐 Модуль для вечного онлайна",
+        "commands": [
+            {
+                "name": "onl",
+                "inline": false,
+                "description": {
+                    "doc": "🌐 Включить/выключить вечный онлайн"
+                }
+            }
+        ],
+        "name": "OnlineModule",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/OnlineStatus.py"
+    },
+    {
         "description": "Permalink to user",
         "commands": [
             {
