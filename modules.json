@@ -2324,6 +2324,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Presets.py"
     },
     {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/?size=512&id=17387&format=png",
+        "description": "Image generator based on Prodia API. No API key required.",
+        "commands": [
+            {
+                "name": "prodia",
+                "inline": false,
+                "description": {
+                    "doc": "Generate an image using Prodia API."
+                }
+            }
+        ],
+        "name": "Prodia",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Prodia_IG.py"
+    },
+    {
         "author": "@DorotoroMods",
         "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroRandomJumoreska.png",
         "description": "Отправляет случайную юмореску.",
