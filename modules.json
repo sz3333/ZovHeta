@@ -3533,6 +3533,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ss.py"
     },
     {
+        "description": "Auto switching from Hikka to Heroku",
+        "commands": [
+            {
+                "name": "switchtoheroku",
+                "inline": false,
+                "description": {
+                    "doc": "- Automaticly switch to heroku"
+                }
+            }
+        ],
+        "name": "SwitchToHeroku",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/switchtoheroku.py"
+    },
+    {
         "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
