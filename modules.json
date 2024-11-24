@@ -2961,6 +2961,49 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ai_hikka.py"
     },
     {
+        "author": "@Mersai",
+        "commands": [
+            {
+                "name": "clearbull",
+                "inline": false,
+                "description": {
+                    "doc": "Никого не буллить"
+                }
+            },
+            {
+                "name": "bulla",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить фразу | .bulla <фраза>"
+                }
+            },
+            {
+                "name": "bullr",
+                "inline": false,
+                "description": {
+                    "doc": "Вкинуть рандомное оскорбление"
+                }
+            },
+            {
+                "name": "addbull",
+                "inline": false,
+                "description": {
+                    "doc": "Буллить человека. <reply>"
+                }
+            },
+            {
+                "name": "rmbull",
+                "inline": false,
+                "description": {
+                    "doc": "Не буллить человека. <reply>"
+                }
+            }
+        ],
+        "name": "Fucker",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/amm3koo.py"
+    },
+    {
         "author": "@codermasochist,@Yaukais",
         "description": "Модуль кидает ахуенные эдиты. by @codermasochist,@Yaukais",
         "commands": [
