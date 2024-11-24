@@ -2880,6 +2880,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/VulgarStories.py"
     },
     {
+        "description": "С помощью данного модуля вы можете проверять остальные модули как и на просто что он может делать. Так и на шифровку (расшифровка base64 кода автоматизирована)\n🤍Создатель - @OS7NT",
+        "commands": [
+            {
+                "name": "п",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить модуль на опасный код"
+                }
+            }
+        ],
+        "name": "ModuleChecker",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Warlock_Checker.py"
+    },
+    {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/ytsearch.png?raw=true",
         "description": "Поиск в Youtube",
