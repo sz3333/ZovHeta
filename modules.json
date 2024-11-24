@@ -15088,7 +15088,7 @@
                 "name": "switchtoheroku",
                 "inline": false,
                 "description": {
-                    "doc": "- Automaticly switch to heroku"
+                    "doc": "- Automatically switch to heroku"
                 }
             }
         ],
