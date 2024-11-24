@@ -3344,6 +3344,70 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/search.py"
     },
     {
+        "description": "Модуль для рассылки сообщений по заданным чатам от @Apostol_prince.",
+        "commands": [
+            {
+                "name": "soob",
+                "inline": false,
+                "description": {
+                    "doc": "- сохранить сообщение для рассылки (использовать в ответ на сообщение)"
+                }
+            },
+            {
+                "name": "slist",
+                "inline": false,
+                "description": {
+                    "doc": "- показать сохраненное сообщение для рассылки"
+                }
+            },
+            {
+                "name": "dobchat",
+                "inline": false,
+                "description": {
+                    "doc": "- добавить чат в список для рассылки (использовать только с @username)"
+                }
+            },
+            {
+                "name": "chatlist",
+                "inline": false,
+                "description": {
+                    "doc": "- показать список чатов для рассылки"
+                }
+            },
+            {
+                "name": "delchat",
+                "inline": false,
+                "description": {
+                    "doc": "- удалить чат из списка для рассылки (использовать только через @username)"
+                }
+            },
+            {
+                "name": "setinterval",
+                "inline": false,
+                "description": {
+                    "doc": "- установить интервал рассылки (в минутах)"
+                }
+            },
+            {
+                "name": "startr",
+                "inline": false,
+                "description": {
+                    "doc": "- разослать сохраненное сообщение по указанным чатам через интервал времени"
+                }
+            },
+            {
+                "name": "stopr",
+                "inline": false,
+                "description": {
+                    "doc": "- остановить рассылку сообщений"
+                }
+            }
+        ],
+        "name": "soobxp",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/soobxp.py"
+    },
+    {
         "author": "@Yaukais, @Shadow_red1",
         "description": "Спам модуль",
         "commands": [
