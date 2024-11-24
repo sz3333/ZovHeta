@@ -3352,6 +3352,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irissup.py"
     },
     {
+        "description": "Модуль для пополнения казны (Gentle bar) by nanashi..?",
+        "commands": [
+            {
+                "name": "kaz",
+                "inline": false,
+                "description": {
+                    "doc": "Пример ввода: .kaz 1e19"
+                }
+            }
+        ],
+        "name": "Buy",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/kazbar.py"
+    },
+    {
         "description": "Модуль для пополнения казны",
         "commands": [
             {
