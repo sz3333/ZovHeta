@@ -12930,6 +12930,24 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
+        "description": "Module for converting a large number of currencies to other currencies",
+        "commands": [
+            {
+                "name": "cconvert",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[from] [to] Конвертировать одну валюту в другую",
+                    "doc": "[from] [to] Convert currency to other currency"
+                }
+            }
+        ],
+        "name": "CurrencyConverter",
+        "repo": "sqlmerr/hikka_mods",
+        "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/currencyconverter.py"
+    },
+    {
+        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_fakedata.png?raw=true",
         "description": "Just fake data of persons and credit cards",
         "commands": [
