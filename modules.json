@@ -43707,6 +43707,22 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Модуль для имитации набора текста!",
+        "commands": [
+            {
+                "name": "fp",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>."
+                }
+            }
+        ],
+        "name": "FakeTyping",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/FakeTyping.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Magicball - отвечает случайными предсказаниями",
         "commands": [
             {
