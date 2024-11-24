@@ -3097,6 +3097,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/codemanagermod.py"
     },
     {
+        "description": "Конвертер валют и криптовалют с актуальными курсами",
+        "commands": [
+            {
+                "name": "con",
+                "inline": false,
+                "description": {
+                    "doc": "Конвертирует валюту\nИспользование: .con [сумма] [валюта]\nПример: .con 1000 USD"
+                }
+            }
+        ],
+        "name": "CurrencyConverter",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/convertor.py"
+    },
+    {
         "author": "@mqone",
         "commands": [
             {
