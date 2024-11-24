@@ -12752,22 +12752,6 @@
     },
     {
         "author": "@sqlmerr_m",
-        "description": "Полезный модуль для логгирования в боте @mine_evo_bot | Для работы поставьте в конфиге ваш ник | И загляните в конфиг",
-        "commands": [
-            {
-                "name": "mlogging",
-                "inline": false,
-                "description": {
-                    "doc": "Включить/выключить логгирование"
-                }
-            }
-        ],
-        "name": "MineEVO_logs",
-        "repo": "sqlmerr/hikka_mods",
-        "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/MineEVO-logging.py"
-    },
-    {
-        "author": "@sqlmerr_m",
         "description": "Полезный модуль для бота @mine_evo_bot",
         "commands": [
             {
