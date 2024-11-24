@@ -15104,6 +15104,21 @@
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/DoxTool.py"
     },
     {
+        "description": "Auto switching from Hikka to Heroku",
+        "commands": [
+            {
+                "name": "switchtoheroku",
+                "inline": false,
+                "description": {
+                    "doc": "- Automaticly switch to heroku"
+                }
+            }
+        ],
+        "name": "SwitchToHeroku",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/SwitchToHeroku.py"
+    },
+    {
         "author": "@codrago_m, @ytkanelox",
         "description": "Модуль для автоматического нажатия на инлайн кнопки.",
         "commands": [
