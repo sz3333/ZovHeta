@@ -13,7 +13,7 @@
                 }
             }
         ],
-        "name": "AcTime",
+        "name": "Account Time",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AccountTime.py"
     },
@@ -563,7 +563,7 @@
                 }
             }
         ],
-        "name": "LastFM",
+        "name": "BIOAudio",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BIOAudio.py"
     },
@@ -673,7 +673,7 @@
                 }
             }
         ],
-        "name": "CChid",
+        "name": "🆔 CChid",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CChid.py"
     },
@@ -821,7 +821,7 @@
                 }
             }
         ],
-        "name": "Chat",
+        "name": "ChatModule",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ChatModule.py"
     },
@@ -873,7 +873,7 @@
                 }
             }
         ],
-        "name": "Fragment",
+        "name": "Check Fragment",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckFragmen.py"
     },
@@ -890,7 +890,7 @@
                 }
             }
         ],
-        "name": "SpamBanCheck",
+        "name": "CheckSpamBan",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckSpamBan.py"
     },
@@ -932,7 +932,7 @@
                 }
             }
         ],
-        "name": "Cikada",
+        "name": "☠️ Cikada",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Cikada.py"
     },
@@ -963,7 +963,7 @@
                 }
             }
         ],
-        "name": "CopyUserModule",
+        "name": "CopyUser-Ksenon",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser-Ksenon.py"
     },
@@ -979,7 +979,7 @@
                 }
             }
         ],
-        "name": "Cu",
+        "name": "CopyUser",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser.py"
     },
@@ -1041,7 +1041,7 @@
                 }
             }
         ],
-        "name": "Doox",
+        "name": "Dox",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Dox.py"
     },
@@ -1056,7 +1056,7 @@
                 }
             }
         ],
-        "name": "DragonRoom",
+        "name": "DragonRoom tyda-suda",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/DragonRoom_tyda-suda.py"
     },
@@ -1229,7 +1229,7 @@
                 }
             }
         ],
-        "name": "GPT",
+        "name": "GPT3.5",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GPT3.5.py"
     },
@@ -1348,7 +1348,7 @@
                 }
             }
         ],
-        "name": "GoogleItForMe",
+        "name": "Давай погуглим",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GoogleItForMe.py"
     },
@@ -1808,7 +1808,7 @@
                 }
             }
         ],
-        "name": "iddocs",
+        "name": "🌘 ID ",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ID.py"
     },
@@ -1975,7 +1975,7 @@
                 }
             }
         ],
-        "name": "IrisMods",
+        "name": "IrisPM",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/IrisPM.py"
     },
@@ -2097,7 +2097,7 @@
                 }
             }
         ],
-        "name": "RP",
+        "name": "LiMERPMod",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/LiMERPMod.py"
     },
@@ -2113,7 +2113,7 @@
                 }
             }
         ],
-        "name": "LoremPicsum",
+        "name": "Lorem Picsum",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Lorem_Picsum.py"
     },
@@ -2128,7 +2128,7 @@
                 }
             }
         ],
-        "name": "magic_ball",
+        "name": "Magic Ball",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Magic_Ball.py"
     },
@@ -2291,7 +2291,7 @@
                 }
             }
         ],
-        "name": "OnlineModule",
+        "name": "OnlineStatus",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/OnlineStatus.py"
     },
@@ -2336,7 +2336,7 @@
                 }
             }
         ],
-        "name": "Prodia",
+        "name": "Prodia IG",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Prodia_IG.py"
     },
@@ -2459,7 +2459,7 @@
                 }
             }
         ],
-        "name": "ShitQuotes",
+        "name": "SQuotes",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SQuotes.py"
     },
@@ -2512,7 +2512,7 @@
                 }
             }
         ],
-        "name": "SosambaModule",
+        "name": "Sosamba",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Sosamba.py"
     },
@@ -2527,7 +2527,7 @@
                 }
             }
         ],
-        "name": "SoundCloudLoader",
+        "name": "SoundCloud",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SoundCloud.py"
     },
@@ -2576,7 +2576,7 @@
                 }
             }
         ],
-        "name": "Summer",
+        "name": "SummerTimer",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SummerTimer.py"
     },
@@ -2736,7 +2736,7 @@
                 }
             }
         ],
-        "name": "UCustomPing",
+        "name": "UpgradedCustomPing",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/UpgradedCustomPing.py"
     },
@@ -2858,7 +2858,7 @@
                 }
             }
         ],
-        "name": "Voice",
+        "name": "VoiceMod",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/VoiceMod.py"
     },
@@ -2907,7 +2907,7 @@
                 }
             }
         ],
-        "name": "ModuleChecker",
+        "name": "Warlock Checker",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Warlock_Checker.py"
     },
@@ -2988,7 +2988,7 @@
                 }
             }
         ],
-        "name": "AI_Hikka",
+        "name": "AI Hikka",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ai_hikka.py"
     },
@@ -3031,7 +3031,7 @@
                 }
             }
         ],
-        "name": "Fucker",
+        "name": "☠️ Унижатор 2.1 (дополнение от @DeadFures)",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/amm3koo.py"
     },
@@ -3109,7 +3109,7 @@
                 }
             }
         ],
-        "name": "CodeManager",
+        "name": "👨‍💻 Code-Manager",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/codemanagermod.py"
     },
@@ -3146,7 +3146,7 @@
                 }
             }
         ],
-        "name": "Vatnik",
+        "name": "dox_language",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dox_language.py"
     },
@@ -3163,7 +3163,7 @@
                 }
             }
         ],
-        "name": "Poisk",
+        "name": "dushnometr",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dushnometr.py"
     },
@@ -3177,7 +3177,7 @@
                 "description": {}
             }
         ],
-        "name": "envs",
+        "name": "envs.sh Uploader",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/envs.py"
     },
@@ -3220,7 +3220,7 @@
                 }
             }
         ],
-        "name": "FileManager",
+        "name": "File Manager",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/file_manager.py"
     },
@@ -3267,7 +3267,7 @@
                 }
             }
         ],
-        "name": "Hohol",
+        "name": "Hohol Text Modifier",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/hoholmod.py"
     },
@@ -3347,7 +3347,7 @@
                 }
             }
         ],
-        "name": "IrisSup",
+        "name": "irissup",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irissup.py"
     },
@@ -3362,7 +3362,7 @@
                 }
             }
         ],
-        "name": "Buy",
+        "name": "kazbar",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/kazbar.py"
     },
@@ -3377,7 +3377,7 @@
                 }
             }
         ],
-        "name": "Buy",
+        "name": "kazna",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/kazna.py"
     },
@@ -3459,7 +3459,7 @@
                 }
             }
         ],
-        "name": "Search",
+        "name": "search",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/search.py"
     },
@@ -3629,7 +3629,7 @@
                 }
             }
         ],
-        "name": "VirusTotalUrl",
+        "name": "Virus Total URL",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/virus_total_url.py"
     },
@@ -3644,7 +3644,7 @@
                 }
             }
         ],
-        "name": "Vivo",
+        "name": "📱 Смартфон vivo",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/vivomod.py"
     },
@@ -3780,7 +3780,7 @@
                 }
             }
         ],
-        "name": "voiceGirls3",
+        "name": "voiceMEMS1",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/voiceMEMS1.py"
     },
@@ -3847,7 +3847,7 @@
                 }
             }
         ],
-        "name": "circle",
+        "name": "yg_circle",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_circle.py"
     },
@@ -3877,7 +3877,7 @@
                 }
             }
         ],
-        "name": "MeowCryptoManager",
+        "name": "yg_crypto",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_crypto.py"
     },
@@ -3953,7 +3953,7 @@
                 }
             }
         ],
-        "name": "ZOV",
+        "name": "ZOV Text Modifier",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/zovmod.py"
     },
@@ -3983,7 +3983,7 @@
                 }
             }
         ],
-        "name": "TranslateLayout",
+        "name": "Перевести раскладку",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ПеревестиРаскладку.py"
     },
@@ -4001,7 +4001,7 @@
                 "description": {}
             }
         ],
-        "name": "Ебал_я_в_рот_ваш_пеп_8_",
+        "name": "Хуификатор",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Хуификатор.py"
     },
@@ -4102,7 +4102,7 @@
                 }
             }
         ],
-        "name": "AutoKitGi",
+        "name": "AutoKit",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/набор_в_ги.py"
     },
@@ -4118,7 +4118,7 @@
                 }
             }
         ],
-        "name": "ScheduledMessages",
+        "name": "otl",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/отложка.py"
     },
@@ -4140,7 +4140,7 @@
                 }
             }
         ],
-        "name": "Vatnik",
+        "name": "🇷🇺 Патриот",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/патриот.py"
     },
@@ -4206,7 +4206,7 @@
                 }
             }
         ],
-        "name": "Fucker",
+        "name": "☠️ Унижатор 2.0",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/☠️_Унижатор_2.0.py"
     },
@@ -4364,7 +4364,7 @@
                 }
             }
         ],
-        "name": "DaysToMyBirthday",
+        "name": "BirthdayTime",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/BirthdayTime.py"
     },
@@ -4381,7 +4381,7 @@
                 }
             }
         ],
-        "name": "SpamBanCheck",
+        "name": "CheckSpamBan",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/CheckSpamBan.py"
     },
@@ -4462,7 +4462,7 @@
                 "description": {}
             }
         ],
-        "name": "CoinSex",
+        "name": "InlineCoin",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/InlineCoin.py"
     },
@@ -4713,7 +4713,7 @@
                 }
             }
         ],
-        "name": "Textinsticker",
+        "name": "Text in sticker",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/Text_Sticker.py"
     },
@@ -4879,7 +4879,7 @@
                 }
             }
         ],
-        "name": "Hikkahost",
+        "name": "HikkaHost",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/hikkahost.py"
     },
@@ -4896,7 +4896,7 @@
                 }
             }
         ],
-        "name": "Jacques",
+        "name": "Жаконизатор",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/jacques.py"
     },
@@ -4997,7 +4997,7 @@
                 }
             }
         ],
-        "name": "ProfileEditor",
+        "name": "Profile",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/profile.py"
     },
@@ -5259,7 +5259,7 @@
                 }
             }
         ],
-        "name": "Amoreindo",
+        "name": "AmoreInfo",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/amoreinfo.py"
     },
@@ -5635,7 +5635,7 @@
                 }
             }
         ],
-        "name": "Bull",
+        "name": "BullMod",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/bull.py"
     },
@@ -5688,7 +5688,7 @@
                 }
             }
         ],
-        "name": "Amorelinks",
+        "name": "AmoreLinks",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/createlinks.py"
     },
@@ -5780,7 +5780,7 @@
                 }
             }
         ],
-        "name": "Fragment",
+        "name": "FragmentChecker",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/fragment_checker.py"
     },
@@ -5811,7 +5811,7 @@
                 }
             }
         ],
-        "name": "InlineFun",
+        "name": "FunQuotes",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/funquotes.py"
     },
@@ -5845,7 +5845,7 @@
                 }
             }
         ],
-        "name": "ImgbbUploader",
+        "name": "Imgbb",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/imgbb.py"
     },
@@ -5870,7 +5870,7 @@
                 }
             }
         ],
-        "name": "Pinger",
+        "name": "InlinePing",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/inlineping.py"
     },
@@ -5889,7 +5889,7 @@
                 }
             }
         ],
-        "name": "Instagram",
+        "name": "InstSave",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/instsave.py"
     },
@@ -5990,7 +5990,7 @@
                 }
             }
         ],
-        "name": "MyUsernames",
+        "name": "My Usernames",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/my_usernames.py"
     },
@@ -6022,7 +6022,7 @@
                 }
             }
         ],
-        "name": "Pages",
+        "name": "Diary",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/mydiary.py"
     },
@@ -6039,7 +6039,7 @@
                 }
             }
         ],
-        "name": "NY",
+        "name": "NewYearTimer",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/nytimer.py"
     },
@@ -6056,7 +6056,7 @@
                 }
             }
         ],
-        "name": "PhLogo",
+        "name": "Phlogo",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/phsticker.py"
     },
@@ -6073,7 +6073,7 @@
                 }
             }
         ],
-        "name": "PostStealer",
+        "name": "PostStealler",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/poststealer.py"
     },
@@ -6141,7 +6141,7 @@
                 }
             }
         ],
-        "name": "Telegraphup",
+        "name": "Telegraph",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/telegraphup.py"
     },
@@ -6165,7 +6165,7 @@
                 }
             }
         ],
-        "name": "UniversalTime",
+        "name": "UnivTime",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/universaltime.py"
     },
@@ -6188,7 +6188,7 @@
                 }
             }
         ],
-        "name": "UserStealer",
+        "name": "UsernameChecker",
         "repo": "AmoreForever/amoremods",
         "install": "dlm https://raw.githubusercontent.com/AmoreForever/amoremods/master/usernamestealer.py"
     },
@@ -6223,7 +6223,7 @@
                 }
             }
         ],
-        "name": "CheckModules",
+        "name": "Check module",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/CheckMods.py"
     },
@@ -6249,7 +6249,7 @@
                 }
             }
         ],
-        "name": "RussianRoulette",
+        "name": "Russian roulette",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/RussianRoulette.py"
     },
@@ -6267,7 +6267,7 @@
                 }
             }
         ],
-        "name": "AcTime",
+        "name": "Account Time",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/accounttime.py"
     },
@@ -6285,7 +6285,7 @@
                 }
             }
         ],
-        "name": "Ascii",
+        "name": "AsciiMod",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/ascii.py"
     },
@@ -6303,7 +6303,7 @@
                 }
             }
         ],
-        "name": "BioPage",
+        "name": "Bio Page",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/biopage.py"
     },
@@ -6321,7 +6321,7 @@
                 }
             }
         ],
-        "name": "Calc",
+        "name": "📟 Calc",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/calc.py"
     },
@@ -6353,7 +6353,7 @@
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/feedback.png&title=Feedback&description=Feedback%20bot%20for%20Hikka%20modules",
         "pic": "https://img.icons8.com/fluency/344/feedback.png",
         "description": "FeedbackBot",
-        "name": "FeedbackBot",
+        "name": "📥 Feedback",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/feedbackbot.py"
     },
@@ -6380,7 +6380,7 @@
                 }
             }
         ],
-        "name": "GoogleIt",
+        "name": "Google it",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/googleit.py"
     },
@@ -6546,7 +6546,7 @@
                 }
             }
         ],
-        "name": "Profile",
+        "name": "Profilemod",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/profile.py"
     },
@@ -6648,7 +6648,7 @@
                 }
             }
         ],
-        "name": "VseTranslate",
+        "name": "💠 Vsecoder Translate",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/vsecodertranslate.py"
     },
@@ -6666,7 +6666,7 @@
                 }
             }
         ],
-        "name": "Wiki",
+        "name": "Wikipedia🌐",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/wikimod.py"
     },
@@ -7004,7 +7004,7 @@
                 }
             }
         ],
-        "name": "идинахуй",
+        "name": "Иди нахуй",
         "repo": "musiczhara0/sosat",
         "install": "dlm https://raw.githubusercontent.com/musiczhara0/sosat/main/Idi%20naxuy.py"
     },
@@ -7099,7 +7099,7 @@
                 }
             }
         ],
-        "name": "memes",
+        "name": "Memes",
         "repo": "musiczhara0/sosat",
         "install": "dlm https://raw.githubusercontent.com/musiczhara0/sosat/main/memes.py"
     },
@@ -7130,7 +7130,7 @@
                 }
             }
         ],
-        "name": "AntiMat",
+        "name": "Анти-Мат",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/AntiMat.py"
     },
@@ -7218,7 +7218,7 @@
                 }
             }
         ],
-        "name": "PasswordGenerator",
+        "name": "RandomPasswordGenerator",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/RandomPasswordGenerator.py"
     },
@@ -7311,7 +7311,7 @@
                 }
             }
         ],
-        "name": "Steam",
+        "name": "SteamNow",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Steam.py"
     },
@@ -7370,7 +7370,7 @@
                 }
             }
         ],
-        "name": "TwinkManager",
+        "name": "Twink-Manager",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/TwinkManager.py"
     },
@@ -7417,7 +7417,7 @@
                 }
             }
         ],
-        "name": "YaMusic",
+        "name": "YandexMusic",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/YandexMusic.py"
     },
@@ -7453,7 +7453,7 @@
                 }
             }
         ],
-        "name": "AkinatorGame",
+        "name": "Akinator",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/akinator.py"
     },
@@ -7484,7 +7484,7 @@
                 }
             }
         ],
-        "name": "AstroAfk",
+        "name": "AstroAFK",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/astroafk.py"
     },
@@ -7654,7 +7654,7 @@
                 }
             }
         ],
-        "name": "YTPreview",
+        "name": "YT-Preview",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/dl_yt_previews.py"
     },
@@ -7671,7 +7671,7 @@
                 }
             }
         ],
-        "name": "GameeCheat",
+        "name": "GameeCheats",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/gamecheat.py"
     },
@@ -7689,7 +7689,7 @@
                 }
             }
         ],
-        "name": "iOSAppsForAndroid",
+        "name": "iOSappsForAndroid",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/iOSAppsForAndroid.py"
     },
@@ -7814,7 +7814,7 @@
                 }
             }
         ],
-        "name": "MineSwepperModule",
+        "name": "MineSweeper",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/minesweeper.py"
     },
@@ -7908,7 +7908,7 @@
                 }
             }
         ],
-        "name": "PCManager",
+        "name": "PC-Manager",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/pcmanager.py"
     },
@@ -7943,7 +7943,7 @@
                 }
             }
         ],
-        "name": "Summer",
+        "name": "SummerTimer",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/summer.py"
     },
@@ -8000,7 +8000,7 @@
                 }
             }
         ],
-        "name": "ВахуиПон",
+        "name": "ВАХУИ-ПОН",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/вахуи_пон.py"
     },
@@ -8023,7 +8023,7 @@
                 }
             }
         ],
-        "name": "ПонВахуи",
+        "name": "ПОН-ВАХУИ",
         "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
         "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/пон_вахуи.py"
     },
@@ -8306,7 +8306,7 @@
                 }
             }
         ],
-        "name": "BFG2",
+        "name": "BFG",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/bfg.py"
     },
@@ -8342,7 +8342,7 @@
                 }
             }
         ],
-        "name": "BinChecker",
+        "name": "BinCheck",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/bincheck.py"
     },
@@ -8607,7 +8607,7 @@
                 }
             }
         ],
-        "name": "DeepL",
+        "name": "DeepLScraper",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/deepl.py"
     },
@@ -8739,7 +8739,7 @@
                 }
             }
         ],
-        "name": "EduTatar",
+        "name": "eduTatar",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/edutatar.py"
     },
@@ -9301,7 +9301,7 @@
                 }
             }
         ],
-        "name": "HttpErrors",
+        "name": "HttpStatusCodes",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/httpsc.py"
     },
@@ -9333,7 +9333,7 @@
                 }
             }
         ],
-        "name": "Homework",
+        "name": "HomeWork",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/hw.py"
     },
@@ -9640,7 +9640,7 @@
                 }
             }
         ],
-        "name": "ILY",
+        "name": "LoveMagic",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/lovemagic.py"
     },
@@ -9930,7 +9930,7 @@
                 }
             }
         ],
-        "name": "NekoSpyBeta",
+        "name": "NekoSpy",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/nekospy_beta.py"
     },
@@ -10120,7 +10120,7 @@
                 }
             }
         ],
-        "name": "Keyword",
+        "name": "Purr",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/purr.py"
     },
@@ -10138,7 +10138,7 @@
                 }
             }
         ],
-        "name": "RateModule",
+        "name": "RateMod",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/ratemod.py"
     },
@@ -10191,7 +10191,7 @@
                 }
             }
         ],
-        "name": "RP",
+        "name": "RPMod",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/rpmod.py"
     },
@@ -10260,7 +10260,7 @@
                 }
             }
         ],
-        "name": "serverInfo",
+        "name": "ServerInfo",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/serverinfo.py"
     },
@@ -10488,7 +10488,7 @@
                 }
             }
         ],
-        "name": "Spotify",
+        "name": "SpotifyNow",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/spotify.py"
     },
@@ -10963,7 +10963,7 @@
                 }
             }
         ],
-        "name": "Todo",
+        "name": "ToDo",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/todo.py"
     },
@@ -11052,7 +11052,7 @@
                 }
             }
         ],
-        "name": "FileUploader",
+        "name": "Uploader",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/uploader.py"
     },
@@ -11334,7 +11334,7 @@
                 }
             }
         ],
-        "name": "YooMoney",
+        "name": "Yoomoney",
         "repo": "hikariatama/ftg",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/yoopay.py"
     },
@@ -11410,7 +11410,7 @@
                 }
             }
         ],
-        "name": "ClownModule",
+        "name": "ClownMod",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/clown.py"
     },
@@ -11452,7 +11452,7 @@
                 }
             }
         ],
-        "name": "GitHub",
+        "name": "GitHubMod",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/github.py"
     },
@@ -11597,7 +11597,7 @@
                 }
             }
         ],
-        "name": "News",
+        "name": "NewsMod",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/news.py"
     },
@@ -11615,7 +11615,7 @@
                 }
             }
         ],
-        "name": "OCR",
+        "name": "OCRMod",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/ocr.py"
     },
@@ -11632,7 +11632,7 @@
                 }
             }
         ],
-        "name": "MusicModule",
+        "name": "ProgMusic",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/progmusic.py"
     },
@@ -11674,7 +11674,7 @@
                 }
             }
         ],
-        "name": "TwitchModule",
+        "name": "Twitchdl",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/twitch.py"
     },
@@ -11732,7 +11732,7 @@
                 }
             }
         ],
-        "name": "Whisper",
+        "name": "WhisperMod",
         "repo": "N3rcy/modules",
         "install": "dlm https://raw.githubusercontent.com/N3rcy/modules/main/whisper.py"
     },
@@ -11838,7 +11838,7 @@
                 }
             }
         ],
-        "name": "BanForAsk",
+        "name": "BanForAskMod",
         "repo": "FajoX1/FAmods",
         "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/banforaskmod.py"
     },
@@ -12092,7 +12092,7 @@
                 }
             }
         ],
-        "name": "Fa",
+        "name": "Famod",
         "repo": "FajoX1/FAmods",
         "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/famod.py"
     },
@@ -12782,7 +12782,7 @@
                 }
             }
         ],
-        "name": "ProfileEditor",
+        "name": "Profile",
         "repo": "kayt3m/modules",
         "install": "dlm https://raw.githubusercontent.com/kayt3m/modules/main/Profile.py"
     },
@@ -12812,7 +12812,7 @@
                 }
             }
         ],
-        "name": "music",
+        "name": "musicMod",
         "repo": "kayt3m/modules",
         "install": "dlm https://raw.githubusercontent.com/kayt3m/modules/main/music.py"
     },
@@ -12904,7 +12904,7 @@
                 }
             }
         ],
-        "name": "Speedtest",
+        "name": "speedtester",
         "repo": "kayt3m/modules",
         "install": "dlm https://raw.githubusercontent.com/kayt3m/modules/main/speedtest.py"
     },
@@ -12945,7 +12945,7 @@
                 }
             }
         ],
-        "name": "FCTS",
+        "name": "FastChangeTgStatus",
         "repo": "sqlmerr/hikka_mods",
         "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/FastChangeTgStatus.py"
     },
@@ -13141,7 +13141,7 @@
                 }
             }
         ],
-        "name": "CurrencyConverter",
+        "name": "Currency Converter",
         "repo": "sqlmerr/hikka_mods",
         "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/currencyconverter.py"
     },
@@ -13372,7 +13372,7 @@
                 }
             }
         ],
-        "name": "CatModule",
+        "name": "Cat",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/Cat.py"
     },
@@ -13387,7 +13387,7 @@
                 }
             }
         ],
-        "name": "fake_ping",
+        "name": "fake ping v4",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/FakePing.py"
     },
@@ -13426,7 +13426,7 @@
                 }
             }
         ],
-        "name": "FarmMonaco",
+        "name": "MonacoFarm",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/MonacoFarm.py"
     },
@@ -13456,7 +13456,7 @@
                 }
             }
         ],
-        "name": "Premiumfake_ping",
+        "name": "Premium fake ping",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/PremiumPing.py"
     },
@@ -13486,7 +13486,7 @@
                 }
             }
         ],
-        "name": "checker",
+        "name": "BfgB",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/bfgb.py"
     },
@@ -13501,7 +13501,7 @@
                 }
             }
         ],
-        "name": "billy",
+        "name": "Billy",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/bill.py"
     },
@@ -13765,7 +13765,7 @@
                 }
             }
         ],
-        "name": "Keyword",
+        "name": "громкие гс",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/gs.py"
     },
@@ -13777,7 +13777,7 @@
                 "description": {}
             }
         ],
-        "name": "elpe",
+        "name": "ЛП by @modwini",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/lp.py"
     },
@@ -13792,7 +13792,7 @@
                 }
             }
         ],
-        "name": "magic_ball",
+        "name": "Magic Ball",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/magicBall.py"
     },
@@ -13805,7 +13805,7 @@
                 "description": {}
             }
         ],
-        "name": "rap",
+        "name": "Реп оксимирона",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/oksimiron.py"
     },
@@ -13858,7 +13858,7 @@
                 }
             }
         ],
-        "name": "VideoToVoice",
+        "name": "video_to_voice",
         "repo": "Ijidishurka/modules",
         "install": "dlm https://raw.githubusercontent.com/Ijidishurka/modules/main/video_to_voice.py"
     },
@@ -14391,7 +14391,7 @@
                 }
             }
         ],
-        "name": "tocodedecode",
+        "name": "01code",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/01code.py"
     },
@@ -14441,7 +14441,7 @@
                 }
             }
         ],
-        "name": "SpamBanCheck",
+        "name": "CheckSpamBan",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/CheckSpamBan.py"
     },
@@ -14496,7 +14496,7 @@
                 }
             }
         ],
-        "name": "Alphabet",
+        "name": "DoYouKnowAlphabet?",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/DoYouKnowAlphabet.py"
     },
@@ -14598,7 +14598,7 @@
                 }
             }
         ],
-        "name": "FuckingRickRoll",
+        "name": "FkinRickRoll",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/FkinRickRoll.py"
     },
@@ -14820,7 +14820,7 @@
                 }
             }
         ],
-        "name": "passwordgenerator",
+        "name": "PasswordGenerator",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/PasswordGenerator.py"
     },
@@ -14872,7 +14872,7 @@
                 }
             }
         ],
-        "name": "RandomHuman",
+        "name": "GenerateHuman",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/RandomHuman.py"
     },
@@ -14927,7 +14927,7 @@
                 }
             }
         ],
-        "name": "SimpleRolePlay",
+        "name": "Simple RolePlay",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/SimpleRolePlay.py"
     },
@@ -14944,7 +14944,7 @@
                 }
             }
         ],
-        "name": "whataword",
+        "name": "What a Word?",
         "repo": "dorotorothequickend/DorotoroModules",
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/WhataWord%3F.py"
     },
@@ -14967,7 +14967,7 @@
                 }
             }
         ],
-        "name": "GPT",
+        "name": "GPT3.5",
         "repo": "kezuhiro-web/modules",
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/GPT.py"
     },
@@ -15131,7 +15131,7 @@
                 }
             }
         ],
-        "name": "dox",
+        "name": "DoxTool",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/DoxTool.py"
     },
@@ -15298,7 +15298,7 @@
                 }
             }
         ],
-        "name": "lolihentai",
+        "name": "LoliHentai",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/loli.py"
     },
@@ -15330,7 +15330,7 @@
                 }
             }
         ],
-        "name": "ModulesList",
+        "name": "ModList",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/modlist.py"
     },
@@ -15620,7 +15620,7 @@
                 }
             }
         ],
-        "name": "Farmd",
+        "name": "FarmdMod",
         "repo": "Daniel1236n29/Modules_hikka",
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/FarmdMod.py"
     },
@@ -15690,7 +15690,7 @@
                 }
             }
         ],
-        "name": "DeleteMessages",
+        "name": "DeleteMessagesMod",
         "repo": "Daniel1236n29/Modules_hikka",
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/delmsg.py"
     },
@@ -15987,7 +15987,7 @@
                 }
             }
         ],
-        "name": "Ava",
+        "name": "AvatarMod",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/Ava.py"
     },
@@ -16133,7 +16133,7 @@
                 }
             }
         ],
-        "name": "ChatVoice",
+        "name": "ChatVoiceMod",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/ChatVoiceMod.py"
     },
@@ -16172,7 +16172,7 @@
                 }
             }
         ],
-        "name": "Cu",
+        "name": "CopyUser",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/CopyUser.py"
     },
@@ -16223,7 +16223,7 @@
                 }
             }
         ],
-        "name": "DelTm",
+        "name": "Delete Timer",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/DelTimer.py"
     },
@@ -16239,7 +16239,7 @@
                 }
             }
         ],
-        "name": "dmt228",
+        "name": "Демотиватор 228",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/Demotivator.py"
     },
@@ -16286,7 +16286,7 @@
                 }
             }
         ],
-        "name": "ChatFucker",
+        "name": "Чатоёб",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/FuckChat.py"
     },
@@ -16346,7 +16346,7 @@
                 }
             }
         ],
-        "name": "OpenAIGPT",
+        "name": "GPT",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/GPT.py"
     },
@@ -16446,7 +16446,7 @@
                 }
             }
         ],
-        "name": "MailSearcher",
+        "name": "AntiPublic MYRZ",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/MYRZ.py"
     },
@@ -16466,7 +16466,7 @@
                 "description": {}
             }
         ],
-        "name": "nkapimd",
+        "name": "NekosLife",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/NekosLife.py"
     },
@@ -16481,7 +16481,7 @@
                 }
             }
         ],
-        "name": "PhSrch",
+        "name": "PornHub",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/PHSearch.py"
     },
@@ -16568,7 +16568,7 @@
                 }
             }
         ],
-        "name": "Randomizer",
+        "name": "Рандомайзер",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/Randomizer.py"
     },
@@ -16720,7 +16720,7 @@
                 }
             }
         ],
-        "name": "RandomNSFW",
+        "name": "RndNsfw",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/RndNsfw.py"
     },
@@ -16734,7 +16734,7 @@
                 "description": {}
             }
         ],
-        "name": "S3",
+        "name": "S3 file manager",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/S3.py"
     },
@@ -16809,7 +16809,7 @@
                 }
             }
         ],
-        "name": "Shazam",
+        "name": "Shazam API",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/Shazam.py"
     },
@@ -16969,7 +16969,7 @@
                 }
             }
         ],
-        "name": "VSHAKAL",
+        "name": "Video Shakal",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/VideoShakal.py"
     },
@@ -17024,7 +17024,7 @@
                 }
             }
         ],
-        "name": "YtDl",
+        "name": "Youtube-Dl",
         "repo": "D4n13l3k00/FTG-Modules",
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/YTdl.py"
     },
@@ -17233,7 +17233,7 @@
                 "description": {}
             }
         ],
-        "name": "HitlerZig",
+        "name": "hitler",
         "repo": "chebupelka10/HikkaModules",
         "install": "dlm https://raw.githubusercontent.com/chebupelka10/HikkaModules/main/hitler.py"
     },
@@ -17467,7 +17467,7 @@
                 }
             }
         ],
-        "name": "SmartAutoHeal",
+        "name": "AutoHeal",
         "repo": "HikkTutor/HT",
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/autoheal.py"
     },
@@ -17501,7 +17501,7 @@
                 }
             }
         ],
-        "name": "Poisk",
+        "name": "dushnometr",
         "repo": "HikkTutor/HT",
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/dushnometr.py"
     },
@@ -17574,7 +17574,7 @@
                 }
             }
         ],
-        "name": "ApodiktumSkeleton",
+        "name": "Apo-Skeleton",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/_skeleton.py"
     },
@@ -17662,7 +17662,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAdminTools",
+        "name": "Apo-AdminTools",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/admintools.py"
     },
@@ -17694,7 +17694,7 @@
                 }
             }
         ],
-        "name": "ApodiktumInfo",
+        "name": "Apo-Info",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/apoinfo.py"
     },
@@ -17747,7 +17747,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLibController",
+        "name": "Apo-LibController",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/apolib_controller.py"
     },
@@ -17765,7 +17765,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoDelError",
+        "name": "Apo-AutoDelError",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/auto_delerror.py"
     },
@@ -17783,7 +17783,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoUpdate",
+        "name": "Apo-AutoUpdater",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/auto_update.py"
     },
@@ -17801,7 +17801,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoReact",
+        "name": "Apo-AutoReact",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/autoreact.py"
     },
@@ -17896,7 +17896,7 @@
                 }
             }
         ],
-        "name": "ApodiktumDND",
+        "name": "Apo-DND",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/dnd.py"
     },
@@ -17928,7 +17928,7 @@
                 }
             }
         ],
-        "name": "ApodiktumDonators",
+        "name": "Apo-Donators",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/donators.py"
     },
@@ -17953,7 +17953,7 @@
                 }
             }
         ],
-        "name": "ApodiktumGTranslate",
+        "name": "Apo-GoogleTranslator",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/gtranslate.py"
     },
@@ -17999,7 +17999,7 @@
                 }
             }
         ],
-        "name": "ApodiktumHerokuManager",
+        "name": "Apo-HerokuManager",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/heroku.py"
     },
@@ -18017,7 +18017,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLangReplier",
+        "name": "Apo-LangReplier",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/langreplier.py"
     },
@@ -18035,7 +18035,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLCR",
+        "name": "Apo-LoginCodeReciever",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/lcr.py"
     },
@@ -18053,7 +18053,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLinkedChat",
+        "name": "Apo-LinkedChat",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/linked_chat.py"
     },
@@ -18071,7 +18071,7 @@
                 }
             }
         ],
-        "name": "ApodiktumMarkRead",
+        "name": "Apo-MarkRead",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/mark_read.py"
     },
@@ -18103,7 +18103,7 @@
                 }
             }
         ],
-        "name": "ApodiktumMsgMerger",
+        "name": "Apo-MsgMerger",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/msg_merger.py"
     },
@@ -18121,7 +18121,7 @@
                 }
             }
         ],
-        "name": "ApodiktumPMLog",
+        "name": "Apo-PMLog",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/pmlog.py"
     },
@@ -18202,7 +18202,7 @@
                 }
             }
         ],
-        "name": "ApodiktumPurge",
+        "name": "Apo-Purge",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/purge.py"
     },
@@ -18220,7 +18220,7 @@
                 }
             }
         ],
-        "name": "ApodiktumPyPNG",
+        "name": "Apo-PyPNG",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/pypng.py"
     },
@@ -18249,7 +18249,7 @@
                 }
             }
         ],
-        "name": "ApodiktumQuotes",
+        "name": "Apo-Quotes",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/quotes.py"
     },
@@ -18274,7 +18274,7 @@
                 }
             }
         ],
-        "name": "ApodiktumSaveMessage",
+        "name": "Apo-SaveMessage",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/save_message.py"
     },
@@ -18299,7 +18299,7 @@
                 }
             }
         ],
-        "name": "ApodiktumShowViews",
+        "name": "Apo-ShowViews",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/show_viewer.py"
     },
@@ -18330,7 +18330,7 @@
                 }
             }
         ],
-        "name": "ApodiktumTTS",
+        "name": "Apo-TextToSpeech",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/tts.py"
     },
@@ -18474,7 +18474,7 @@
                 }
             }
         ],
-        "name": "ApodiktumVoiceTools",
+        "name": "Apo-VoiceTools",
         "repo": "anon97945/hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/anon97945/hikka-mods/master/voicetools.py"
     },
@@ -18611,7 +18611,7 @@
                 }
             }
         ],
-        "name": "FirstID",
+        "name": "firstid",
         "repo": "MuRuLOSE/HikkaModulesRepo",
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/FindID.py"
     },
@@ -19189,7 +19189,7 @@
                 }
             }
         ],
-        "name": "AutoGiveawayJoin",
+        "name": "MyModule",
         "repo": "MuRuLOSE/HikkaModulesRepo",
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/autogiveawayjoin.py"
     },
@@ -19242,7 +19242,7 @@
                 }
             }
         ],
-        "name": "compliments",
+        "name": "Compliments",
         "repo": "MuRuLOSE/HikkaModulesRepo",
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/compliments.py"
     },
@@ -19436,7 +19436,7 @@
                 }
             }
         ],
-        "name": "FoxGalerry",
+        "name": "FoxGallery",
         "repo": "shadowhikka/sh.modules",
         "install": "dlm https://raw.githubusercontent.com/ssshdev/sh.modules/main/FoxAndDogsGallery.py"
     },
@@ -19470,7 +19470,7 @@
                 }
             }
         ],
-        "name": "GPT2",
+        "name": "ChatGPT",
         "repo": "shadowhikka/sh.modules",
         "install": "dlm https://raw.githubusercontent.com/ssshdev/sh.modules/main/GPT2.py"
     },
@@ -19612,7 +19612,7 @@
                 "description": {}
             }
         ],
-        "name": "Table",
+        "name": "TableMod",
         "repo": "shadowhikka/sh.modules",
         "install": "dlm https://raw.githubusercontent.com/ssshdev/sh.modules/main/TableInfo.py"
     },
@@ -19629,7 +19629,7 @@
                 }
             }
         ],
-        "name": "VKInline",
+        "name": "MyVKInline",
         "repo": "shadowhikka/sh.modules",
         "install": "dlm https://raw.githubusercontent.com/ssshdev/sh.modules/main/VKInline.py"
     },
@@ -19687,7 +19687,7 @@
                 }
             }
         ],
-        "name": "tocodedecode",
+        "name": "01code",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/01code.py"
     },
@@ -19700,7 +19700,7 @@
                 "description": {}
             }
         ],
-        "name": "x0",
+        "name": "x0 Uploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/0x.py"
     },
@@ -19735,7 +19735,7 @@
                 }
             }
         ],
-        "name": "AbsolutGrossartigAntwort",
+        "name": "AGA!",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/AGA.py"
     },
@@ -19876,7 +19876,7 @@
                 }
             }
         ],
-        "name": "AnimeSearcherr",
+        "name": "AnimeSearcher",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/AnimeSearcher.py"
     },
@@ -20121,7 +20121,7 @@
                 }
             }
         ],
-        "name": "AntiMat",
+        "name": "Анти-Мат",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/AntiMat.py"
     },
@@ -20312,7 +20312,7 @@
                 }
             }
         ],
-        "name": "AudioShakal",
+        "name": "АудиоШакал",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/AudioShakal.py"
     },
@@ -20651,7 +20651,7 @@
                 "description": {}
             }
         ],
-        "name": "AutoOwoify",
+        "name": "AutoOwOify",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/AutoOwOify.py"
     },
@@ -20730,7 +20730,7 @@
                 }
             }
         ],
-        "name": "Ava",
+        "name": "AvatarMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Ava.py"
     },
@@ -20876,7 +20876,7 @@
                 }
             }
         ],
-        "name": "DaysToMyBirthday",
+        "name": "BirthdayTime",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/BirthdayTime.py"
     },
@@ -20971,7 +20971,7 @@
                 }
             }
         ],
-        "name": "MyVizitka",
+        "name": "BussinesCard",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/BusinessCard.py"
     },
@@ -20990,7 +20990,7 @@
                 }
             }
         ],
-        "name": "CDZSearcher",
+        "name": "CDZ-Searcher",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/CDZ-Searcher.py"
     },
@@ -21041,7 +21041,7 @@
                 }
             }
         ],
-        "name": "CatModule",
+        "name": "Cat",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Cat.py"
     },
@@ -21098,7 +21098,7 @@
                 }
             }
         ],
-        "name": "Chat",
+        "name": "ChatModule",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ChatModule.py"
     },
@@ -21204,7 +21204,7 @@
                 }
             }
         ],
-        "name": "ChatVoice",
+        "name": "ChatVoiceMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ChatVoiceMod.py"
     },
@@ -21222,7 +21222,7 @@
                 }
             }
         ],
-        "name": "CheckModules",
+        "name": "Check module",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/CheckMods.py"
     },
@@ -21239,7 +21239,7 @@
                 }
             }
         ],
-        "name": "SpamBanCheck",
+        "name": "CheckSpamBan",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/CheckSpamBan.py"
     },
@@ -21437,7 +21437,7 @@
                 }
             }
         ],
-        "name": "Cu",
+        "name": "CopyUser",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/CopyUser.py"
     },
@@ -21568,7 +21568,7 @@
                 }
             }
         ],
-        "name": "Currency",
+        "name": "CurrencyConverter",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/CurrencyConverter.py"
     },
@@ -21691,7 +21691,7 @@
                 }
             }
         ],
-        "name": "DelTm",
+        "name": "Delete Timer",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DelTimer.py"
     },
@@ -21707,7 +21707,7 @@
                 }
             }
         ],
-        "name": "dmt228",
+        "name": "Демотиватор 228",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Demotivator.py"
     },
@@ -21762,7 +21762,7 @@
                 }
             }
         ],
-        "name": "Alphabet",
+        "name": "DoYouKnowAlphabet?",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DoYouKnowAlphabet.py"
     },
@@ -21844,7 +21844,7 @@
                 }
             }
         ],
-        "name": "dox",
+        "name": "DoxTool",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DoxTool.py"
     },
@@ -22069,7 +22069,7 @@
                 }
             }
         ],
-        "name": "fake_ping",
+        "name": "fake ping v4",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FakePing.py"
     },
@@ -22168,7 +22168,7 @@
                 }
             }
         ],
-        "name": "FCTS",
+        "name": "FastChangeTgStatus",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FastChangeTgStatus.py"
     },
@@ -22193,7 +22193,7 @@
                 }
             }
         ],
-        "name": "Figlet",
+        "name": "FigletMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FigletMod.py"
     },
@@ -22239,7 +22239,7 @@
                 }
             }
         ],
-        "name": "FuckingRickRoll",
+        "name": "FkinRickRoll",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FkinRickRoll.py"
     },
@@ -22287,7 +22287,7 @@
                 }
             }
         ],
-        "name": "FoxGalerry",
+        "name": "FoxGallery",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FoxAndDogsGallery.py"
     },
@@ -22323,7 +22323,7 @@
                 }
             }
         ],
-        "name": "Frazes",
+        "name": "Фразы",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Frazes.py"
     },
@@ -22339,7 +22339,7 @@
                 }
             }
         ],
-        "name": "ChatFucker",
+        "name": "Чатоёб",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FuckChat.py"
     },
@@ -22444,7 +22444,7 @@
                 }
             }
         ],
-        "name": "FunApis",
+        "name": "FunApisMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FunApisMod.py"
     },
@@ -22518,7 +22518,7 @@
                 }
             }
         ],
-        "name": "memetext",
+        "name": "FunnyText",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/FunnyText.py"
     },
@@ -22593,7 +22593,7 @@
                 }
             }
         ],
-        "name": "OpenAIGPT",
+        "name": "GPT",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GPT.py"
     },
@@ -22609,7 +22609,7 @@
                 }
             }
         ],
-        "name": "GPT2",
+        "name": "ChatGPT",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GPT2.py"
     },
@@ -22666,7 +22666,7 @@
                 }
             }
         ],
-        "name": "BestPriceGamesFinder",
+        "name": "GameFinder",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GameFinder.py"
     },
@@ -22759,7 +22759,7 @@
                 "description": {}
             }
         ],
-        "name": "Gitadd",
+        "name": "GitUploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GitUploader.py"
     },
@@ -23011,7 +23011,7 @@
                 }
             }
         ],
-        "name": "GoogleTranslate",
+        "name": "GoogleTrans",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GoogleTrans.py"
     },
@@ -23098,7 +23098,7 @@
                 }
             }
         ],
-        "name": "GoogleTranslate",
+        "name": "GoogleTrans",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GoogleTransRR.py"
     },
@@ -23374,7 +23374,7 @@
                 }
             }
         ],
-        "name": "Hw_age_ur",
+        "name": "Hw_age_ur?",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Hw_age_ur.py"
     },
@@ -23582,7 +23582,7 @@
                 "description": {}
             }
         ],
-        "name": "CoinSex",
+        "name": "InlineCoin",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/InlineCoin.py"
     },
@@ -23705,7 +23705,7 @@
                 }
             }
         ],
-        "name": "InlineSystemInfo",
+        "name": "🖥 InlineSystemInfo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/InlineSystemInfo.py"
     },
@@ -23907,7 +23907,7 @@
                 }
             }
         ],
-        "name": "InlineWynnCraftInfo",
+        "name": "InlineWynnCraft",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/InlineWynnCraft.py"
     },
@@ -23924,7 +23924,7 @@
                 }
             }
         ],
-        "name": "YouTube",
+        "name": "InlineYouTube",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/InlineYouTube.py"
     },
@@ -24333,7 +24333,7 @@
                 }
             }
         ],
-        "name": "leomatch",
+        "name": "Leo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Leo.py"
     },
@@ -24420,7 +24420,7 @@
                 }
             }
         ],
-        "name": "Logger",
+        "name": "LoggerMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/LoggerMod.py"
     },
@@ -24435,7 +24435,7 @@
                 }
             }
         ],
-        "name": "LoremIpsum",
+        "name": "LoermIpsum",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/LoremIpsum.py"
     },
@@ -24535,7 +24535,7 @@
                 }
             }
         ],
-        "name": "MTF",
+        "name": "MessageToFile",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MTF.py"
     },
@@ -24556,7 +24556,7 @@
                 }
             }
         ],
-        "name": "MailSearcher",
+        "name": "AntiPublic MYRZ",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MYRZ.py"
     },
@@ -24568,7 +24568,7 @@
                 "description": {}
             }
         ],
-        "name": "a",
+        "name": "MacAshoT",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MacAshoT.py"
     },
@@ -24729,7 +24729,7 @@
                 }
             }
         ],
-        "name": "MeowCryptoManager",
+        "name": "MeowCrypto",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MeowCrypto.py"
     },
@@ -24758,7 +24758,7 @@
                 }
             }
         ],
-        "name": "Homework",
+        "name": "MeowHomework",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MeowHomework.py"
     },
@@ -24830,7 +24830,7 @@
                 }
             }
         ],
-        "name": "MineEVO_logs",
+        "name": "MineEVO-logging",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MineEVO-logging.py"
     },
@@ -24972,7 +24972,7 @@
                 }
             }
         ],
-        "name": "FarmMonaco",
+        "name": "MonacoFarm",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MonacoFarm.py"
     },
@@ -25158,7 +25158,7 @@
                 }
             }
         ],
-        "name": "MyRep",
+        "name": "Репутация",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/MyRep.py"
     },
@@ -25330,7 +25330,7 @@
                 }
             }
         ],
-        "name": "Num",
+        "name": "NumMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Num.py"
     },
@@ -25345,7 +25345,7 @@
                 }
             }
         ],
-        "name": "EternalOnline",
+        "name": "Online",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Online.py"
     },
@@ -25360,7 +25360,7 @@
                 }
             }
         ],
-        "name": "PhSrch",
+        "name": "PornHub",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PHSearch.py"
     },
@@ -25377,7 +25377,7 @@
                 }
             }
         ],
-        "name": "passwordgenerator",
+        "name": "PasswordGenerator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PasswordGenerator.py"
     },
@@ -25412,7 +25412,7 @@
                 }
             }
         ],
-        "name": "PinSaver",
+        "name": "Pin saver",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PinSaver.py"
     },
@@ -25428,7 +25428,7 @@
                 }
             }
         ],
-        "name": "PingerMeow",
+        "name": "Pinger",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Pinger.py"
     },
@@ -25446,7 +25446,7 @@
                 }
             }
         ],
-        "name": "PinSaver",
+        "name": "Pin saver",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Pinsaver.py"
     },
@@ -25461,7 +25461,7 @@
                 }
             }
         ],
-        "name": "Premiumfake_ping",
+        "name": "Premium fake ping",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PremiumPing.py"
     },
@@ -25485,7 +25485,7 @@
                 }
             }
         ],
-        "name": "PSA",
+        "name": "PremiumStickers2",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PremiumStickers.py"
     },
@@ -25507,7 +25507,7 @@
                 }
             }
         ],
-        "name": "QRtools",
+        "name": "QR tool's",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/QRtools.py"
     },
@@ -25637,7 +25637,7 @@
                 }
             }
         ],
-        "name": "RP",
+        "name": "RPMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RPMod.py"
     },
@@ -25762,7 +25762,7 @@
                 }
             }
         ],
-        "name": "RandomHuman",
+        "name": "GenerateHuman",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RandomHuman.py"
     },
@@ -25842,7 +25842,7 @@
                 }
             }
         ],
-        "name": "PasswordGenerator",
+        "name": "RandomPasswordGenerator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RandomPasswordGenerator.py"
     },
@@ -26121,7 +26121,7 @@
                 }
             }
         ],
-        "name": "ReactTor",
+        "name": "Reactor",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reactor.py"
     },
@@ -26330,7 +26330,7 @@
                 }
             }
         ],
-        "name": "RepoSaver",
+        "name": "Reposaver",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RepoSaver.py"
     },
@@ -26401,7 +26401,7 @@
                 }
             }
         ],
-        "name": "RepoSaver",
+        "name": "Reposaver",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reposaver.py"
     },
@@ -26459,7 +26459,7 @@
                 }
             }
         ],
-        "name": "RandomNSFW",
+        "name": "RndNsfw",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RndNsfw.py"
     },
@@ -26473,7 +26473,7 @@
                 "description": {}
             }
         ],
-        "name": "S3",
+        "name": "S3 file manager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/S3.py"
     },
@@ -26633,7 +26633,7 @@
                 }
             }
         ],
-        "name": "GoogleIt",
+        "name": "ScreenWeb",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ScreenWeb.py"
     },
@@ -26828,7 +26828,7 @@
                 }
             }
         ],
-        "name": "Shazam",
+        "name": "Shazam API",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Shazam.py"
     },
@@ -26843,7 +26843,7 @@
                 }
             }
         ],
-        "name": "Uploader",
+        "name": "FileUploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SiaskynetUploader.py"
     },
@@ -26905,7 +26905,7 @@
                 }
             }
         ],
-        "name": "SimpleMinecraftMe",
+        "name": "SimpleMe",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SimpleMe.py"
     },
@@ -26922,7 +26922,7 @@
                 }
             }
         ],
-        "name": "NoLinks",
+        "name": "SimpleNoLinks",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SimpleNoLink.py"
     },
@@ -26960,7 +26960,7 @@
                 }
             }
         ],
-        "name": "SimpleRolePlay",
+        "name": "Simple RolePlay",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SimpleRolePlay.py"
     },
@@ -27110,7 +27110,7 @@
                 }
             }
         ],
-        "name": "DeMoTiVaToRs",
+        "name": "SuperDemotivator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SuperDemotivator.V2.py"
     },
@@ -27132,7 +27132,7 @@
                 }
             }
         ],
-        "name": "DeMoTiVaToRs",
+        "name": "SuperDemotivator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/SuperDemotivator.py"
     },
@@ -27196,7 +27196,7 @@
                 "description": {}
             }
         ],
-        "name": "Tgsd",
+        "name": "TGSd",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TGSd.py"
     },
@@ -27219,7 +27219,7 @@
                 }
             }
         ],
-        "name": "TTsave",
+        "name": "TTsaveMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TTsaveMod.py"
     },
@@ -27234,7 +27234,7 @@
                 "description": {}
             }
         ],
-        "name": "Table",
+        "name": "TableMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TableInfo.py"
     },
@@ -27426,7 +27426,7 @@
                 }
             }
         ],
-        "name": "Textinsticker",
+        "name": "Text in sticker",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Text_Sticker.py"
     },
@@ -27472,7 +27472,7 @@
                 }
             }
         ],
-        "name": "TimerBot",
+        "name": "TimeBot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TimeBot.py"
     },
@@ -27546,7 +27546,7 @@
                 }
             }
         ],
-        "name": "TwinkManager",
+        "name": "Twink-Manager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/TwinkManager.py"
     },
@@ -27607,7 +27607,7 @@
                 }
             }
         ],
-        "name": "UrlShot",
+        "name": "UrlShotMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/UrlShot.py"
     },
@@ -27641,7 +27641,7 @@
                 }
             }
         ],
-        "name": "VKInline",
+        "name": "MyVKInline",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/VKInline.py"
     },
@@ -27733,7 +27733,7 @@
                 }
             }
         ],
-        "name": "Voice",
+        "name": "VoiceMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/VMsm.py"
     },
@@ -27748,7 +27748,7 @@
                 }
             }
         ],
-        "name": "Valute",
+        "name": "Конвертер Валют",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Valute.py"
     },
@@ -27877,7 +27877,7 @@
                 }
             }
         ],
-        "name": "VSHAKAL",
+        "name": "Video Shakal",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/VideoShakal.py"
     },
@@ -27917,7 +27917,7 @@
                 }
             }
         ],
-        "name": "Vijener",
+        "name": "Vizjener",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Vizjener.py"
     },
@@ -28085,7 +28085,7 @@
                 }
             }
         ],
-        "name": "Error",
+        "name": "Пиши грамотно",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/WriteCorrect.py"
     },
@@ -28116,7 +28116,7 @@
                 }
             }
         ],
-        "name": "YTmp3",
+        "name": "ytmp3",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/YTMP3.py"
     },
@@ -28139,7 +28139,7 @@
                 }
             }
         ],
-        "name": "YtDl",
+        "name": "Youtube-Dl",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/YTdl.py"
     },
@@ -28170,7 +28170,7 @@
                 }
             }
         ],
-        "name": "YaMusic",
+        "name": "YandexMusic",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/YandexMusic.py"
     },
@@ -28272,7 +28272,7 @@
                 }
             }
         ],
-        "name": "YaTranslate",
+        "name": "YandexTrans",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/YandexTrans.py"
     },
@@ -28294,7 +28294,7 @@
                 }
             }
         ],
-        "name": "Yuki",
+        "name": "YukiPr",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/YukiPr.py"
     },
@@ -28371,7 +28371,7 @@
                 }
             }
         ],
-        "name": "AcTime",
+        "name": "Account Time",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/accounttime.py"
     },
@@ -28561,7 +28561,7 @@
                 }
             }
         ],
-        "name": "Ban",
+        "name": "AdminTools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/admin_tools.py"
     },
@@ -28649,7 +28649,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAdminTools",
+        "name": "Apo-AdminTools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/admintools.py"
     },
@@ -28740,7 +28740,7 @@
                 }
             }
         ],
-        "name": "AkinatorGame",
+        "name": "Akinator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/akinator.py"
     },
@@ -28903,7 +28903,7 @@
                 }
             }
         ],
-        "name": "Amoreindo",
+        "name": "AmoreInfo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/amoreinfo.py"
     },
@@ -29343,7 +29343,7 @@
                 }
             }
         ],
-        "name": "ApodiktumMigrator",
+        "name": "Apo Migrator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/apo_migrator.py"
     },
@@ -29387,7 +29387,7 @@
                 }
             }
         ],
-        "name": "ApoAutoMigrator",
+        "name": "Apo-AutoMigratior",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/apo_migrator_class.py"
     },
@@ -29419,7 +29419,7 @@
                 }
             }
         ],
-        "name": "ApodiktumInfo",
+        "name": "Apo-Info",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/apoinfo.py"
     },
@@ -29472,7 +29472,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLibController",
+        "name": "Apo-LibController",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/apolib_controller.py"
     },
@@ -29509,7 +29509,7 @@
                 }
             }
         ],
-        "name": "ApoLibTester",
+        "name": "Apo-LibTester",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/apolib_tester.py"
     },
@@ -29772,7 +29772,7 @@
                 }
             }
         ],
-        "name": "Ascii",
+        "name": "AsciiMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ascii.py"
     },
@@ -29787,7 +29787,7 @@
                 }
             }
         ],
-        "name": "Asser",
+        "name": "as",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/asser.py"
     },
@@ -29818,7 +29818,7 @@
                 }
             }
         ],
-        "name": "AstroAfk",
+        "name": "AstroAFK",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/astroafk.py"
     },
@@ -29860,7 +29860,7 @@
                 }
             }
         ],
-        "name": "ActuallTelegraph",
+        "name": "📌 Actuall-Telegraph",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/atelegraph.py"
     },
@@ -29999,7 +29999,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoDelError",
+        "name": "Apo-AutoDelError",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/auto_delerror.py"
     },
@@ -30017,7 +30017,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoUpdate",
+        "name": "Apo-AutoUpdater",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/auto_update.py"
     },
@@ -30113,7 +30113,7 @@
                 }
             }
         ],
-        "name": "AutoProfile",
+        "name": "Automatic Profile",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/autoprofile.py"
     },
@@ -30131,7 +30131,7 @@
                 }
             }
         ],
-        "name": "ApodiktumAutoReact",
+        "name": "Apo-AutoReact",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/autoreact.py"
     },
@@ -30173,7 +30173,7 @@
                 "description": {}
             }
         ],
-        "name": "GetPP",
+        "name": "Profile",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/avatar.py"
     },
@@ -30188,7 +30188,7 @@
                 }
             }
         ],
-        "name": "BEmoji",
+        "name": "🅱️",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/b_emoji.py"
     },
@@ -30361,7 +30361,7 @@
                 }
             }
         ],
-        "name": "BanWords",
+        "name": "Ban Words",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/banwords.py"
     },
@@ -30388,7 +30388,7 @@
                 }
             }
         ],
-        "name": "BFG2",
+        "name": "BFG",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/bfg.py"
     },
@@ -30403,7 +30403,7 @@
                 }
             }
         ],
-        "name": "checker",
+        "name": "BfgB",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/bfgb.py"
     },
@@ -30436,7 +30436,7 @@
                 }
             }
         ],
-        "name": "billy",
+        "name": "Billy",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/bill.py"
     },
@@ -30454,7 +30454,7 @@
                 }
             }
         ],
-        "name": "BinChecker",
+        "name": "BinCheck",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/bincheck.py"
     },
@@ -30469,7 +30469,7 @@
                 }
             }
         ],
-        "name": "Biography",
+        "name": "Биография",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/biography.py"
     },
@@ -30486,7 +30486,7 @@
                 }
             }
         ],
-        "name": "BioPage",
+        "name": "Bio Page",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/biopage.py"
     },
@@ -30589,7 +30589,7 @@
                 }
             }
         ],
-        "name": "Bull",
+        "name": "BullMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/bull.py"
     },
@@ -30607,7 +30607,7 @@
                 }
             }
         ],
-        "name": "Calc",
+        "name": "📟 Calc",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/calc.py"
     },
@@ -30694,7 +30694,7 @@
                 }
             }
         ],
-        "name": "Cartoon",
+        "name": "CartoonIMG",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cartoonimg.py"
     },
@@ -30812,7 +30812,7 @@
                 }
             }
         ],
-        "name": "CChid",
+        "name": "🆔 CChid",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cchid.py"
     },
@@ -30831,7 +30831,7 @@
                 }
             }
         ],
-        "name": "CDeanon",
+        "name": "🚨 CDeanon",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cdeanon.py"
     },
@@ -30916,7 +30916,7 @@
                 }
             }
         ],
-        "name": "Chat",
+        "name": "Chat Tools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/chat.py"
     },
@@ -31063,7 +31063,7 @@
                 }
             }
         ],
-        "name": "Chat",
+        "name": "Chat Tools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/chattools.py"
     },
@@ -31096,7 +31096,7 @@
                 }
             }
         ],
-        "name": "channelEval",
+        "name": "ChannelEval",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cheval.py"
     },
@@ -31154,7 +31154,7 @@
                 }
             }
         ],
-        "name": "ClownModule",
+        "name": "ClownMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/clown.py"
     },
@@ -31179,7 +31179,7 @@
                 }
             }
         ],
-        "name": "CMovies",
+        "name": "🎥 CMovies",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cmovies.py"
     },
@@ -31226,7 +31226,7 @@
                 }
             }
         ],
-        "name": "CodeManager",
+        "name": "👨‍💻 Code-Manager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/codemanager.py"
     },
@@ -31278,7 +31278,7 @@
                 }
             }
         ],
-        "name": "Compli",
+        "name": "Compliments",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/compli.py"
     },
@@ -31352,7 +31352,7 @@
                 }
             }
         ],
-        "name": "CoronaReports",
+        "name": "Corona",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/corona.py"
     },
@@ -31436,7 +31436,7 @@
                 }
             }
         ],
-        "name": "Amorelinks",
+        "name": "AmoreLinks",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/createlinks.py"
     },
@@ -31454,7 +31454,7 @@
                 }
             }
         ],
-        "name": "Reanemer",
+        "name": "✍️ Fast-Rename",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/crename.py"
     },
@@ -31481,7 +31481,7 @@
                 }
             }
         ],
-        "name": "RandomCringe",
+        "name": "🍁 RandomCringe",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cringe.py"
     },
@@ -31579,7 +31579,7 @@
                 }
             }
         ],
-        "name": "TikDownBot",
+        "name": "💾 TikTok",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ctiktok.py"
     },
@@ -31611,7 +31611,7 @@
                 }
             }
         ],
-        "name": "UploadToProvider",
+        "name": "📤 CUploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cuploader.py"
     },
@@ -31670,7 +31670,7 @@
                 }
             }
         ],
-        "name": "CustomRoms",
+        "name": "ROMs",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/customroms.py"
     },
@@ -31750,7 +31750,7 @@
                 }
             }
         ],
-        "name": "CustomRoms",
+        "name": "InlineROMs",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/customroms_geek.py"
     },
@@ -31817,7 +31817,7 @@
                 }
             }
         ],
-        "name": "DeepL",
+        "name": "DeepLScraper",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/deepl.py"
     },
@@ -31839,7 +31839,7 @@
                 }
             }
         ],
-        "name": "Delme",
+        "name": "DelMe",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/delme.py"
     },
@@ -32057,7 +32057,7 @@
                 }
             }
         ],
-        "name": "YTPreview",
+        "name": "YT-Preview",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/dl_yt_previews.py"
     },
@@ -32163,7 +32163,7 @@
                 }
             }
         ],
-        "name": "DoNotDisturb",
+        "name": "DND",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/dnd.py"
     },
@@ -32259,7 +32259,7 @@
                 }
             }
         ],
-        "name": "ApodiktumDonators",
+        "name": "Apo-Donators",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/donators.py"
     },
@@ -32281,7 +32281,7 @@
                 }
             }
         ],
-        "name": "Dotify",
+        "name": "[PRIVATE]Dotify",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/dotify.py"
     },
@@ -32391,7 +32391,7 @@
                 }
             }
         ],
-        "name": "EduTatar",
+        "name": "eduTatar",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/edutatar.py"
     },
@@ -32479,7 +32479,7 @@
                 }
             }
         ],
-        "name": "FakeActions",
+        "name": "Fake Actions",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/fake.py"
     },
@@ -32564,7 +32564,7 @@
                 }
             }
         ],
-        "name": "Fake",
+        "name": "Fake Actions",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/fake_actions.py"
     },
@@ -32658,7 +32658,7 @@
         "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/feedback.png&title=Feedback&description=Feedback%20bot%20for%20Hikka%20modules",
         "pic": "https://img.icons8.com/fluency/344/feedback.png",
-        "name": "FeedbackBot",
+        "name": "📥 Feedback",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/feedbackbot.py"
     },
@@ -32711,7 +32711,7 @@
                 }
             }
         ],
-        "name": "FileUploader",
+        "name": "File Uploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/file_uploader.py"
     },
@@ -32950,7 +32950,7 @@
                 }
             }
         ],
-        "name": "Forward",
+        "name": "Forwarding",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/forward.py"
     },
@@ -32967,7 +32967,7 @@
                 }
             }
         ],
-        "name": "Fragment",
+        "name": "FragmentChecker",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/fragment_checker.py"
     },
@@ -32982,7 +32982,7 @@
                 }
             }
         ],
-        "name": "OmonBot",
+        "name": "FreeOmonBot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/freeomonbot.py"
     },
@@ -33045,7 +33045,7 @@
                 }
             }
         ],
-        "name": "InlineFun",
+        "name": "FunQuotes",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/funquotes.py"
     },
@@ -33061,7 +33061,7 @@
                 }
             }
         ],
-        "name": "GameeCheat",
+        "name": "GameeCheats",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gamecheat.py"
     },
@@ -33091,7 +33091,7 @@
                 }
             }
         ],
-        "name": "GGdotGG",
+        "name": "gg.gg",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gg.gg.py"
     },
@@ -33180,7 +33180,7 @@
                 }
             }
         ],
-        "name": "Grider",
+        "name": "Griding",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gird.py"
     },
@@ -33427,7 +33427,7 @@
                 }
             }
         ],
-        "name": "GitHub",
+        "name": "GitHubMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/github.py"
     },
@@ -33450,7 +33450,7 @@
                 }
             }
         ],
-        "name": "glitch",
+        "name": "glitchMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/glitchMod.py"
     },
@@ -33506,7 +33506,7 @@
                 }
             }
         ],
-        "name": "GoogleSearch",
+        "name": "Google Search",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/google.py"
     },
@@ -33524,7 +33524,7 @@
                 }
             }
         ],
-        "name": "GoogleIt",
+        "name": "Google it",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/googleit.py"
     },
@@ -33564,7 +33564,7 @@
                 }
             }
         ],
-        "name": "Keyword",
+        "name": "громкие гс",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gs.py"
     },
@@ -33579,7 +33579,7 @@
                 }
             }
         ],
-        "name": "GSBL",
+        "name": "Get-Stick-Bugged-Lol",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gsbl.py"
     },
@@ -33604,7 +33604,7 @@
                 }
             }
         ],
-        "name": "ApodiktumGTranslate",
+        "name": "Apo-GoogleTranslator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/gtranslate.py"
     },
@@ -33633,7 +33633,7 @@
                 "description": {}
             }
         ],
-        "name": "Hearts",
+        "name": "Heart's",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hearts.py"
     },
@@ -33748,7 +33748,7 @@
                 }
             }
         ],
-        "name": "ApodiktumHerokuManager",
+        "name": "Apo-HerokuManager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/heroku.py"
     },
@@ -34139,7 +34139,7 @@
                 }
             }
         ],
-        "name": "Hikkahost",
+        "name": "HikkaHost",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hikkahost.py"
     },
@@ -34186,7 +34186,7 @@
                 }
             }
         ],
-        "name": "HttpErrors",
+        "name": "HttpStatusCodes",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/httpsc.py"
     },
@@ -34218,7 +34218,7 @@
                 }
             }
         ],
-        "name": "Homework",
+        "name": "HomeWork",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hw.py"
     },
@@ -34236,7 +34236,7 @@
                 "description": {}
             }
         ],
-        "name": "Ебал_я_в_рот_ваш_пеп_8_",
+        "name": "Хуификатор",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hyi.py"
     },
@@ -34255,7 +34255,7 @@
                 }
             }
         ],
-        "name": "iOSAppsForAndroid",
+        "name": "iOSappsForAndroid",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/iOSAppsForAndroid.py"
     },
@@ -34307,7 +34307,7 @@
                 }
             }
         ],
-        "name": "Im2Binary",
+        "name": "Im2Bin",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/im2bin.py"
     },
@@ -34457,7 +34457,7 @@
                 }
             }
         ],
-        "name": "ImageTools",
+        "name": "Image Tools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/image_tools.py"
     },
@@ -34492,7 +34492,7 @@
                 }
             }
         ],
-        "name": "ImgbbUploader",
+        "name": "Imgbb",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/imgbb.py"
     },
@@ -34514,7 +34514,7 @@
                 }
             }
         ],
-        "name": "Imp",
+        "name": "Impostor?",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/impostor.py"
     },
@@ -34555,7 +34555,7 @@
                 }
             }
         ],
-        "name": "WhoIs",
+        "name": "Information",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/information.py"
     },
@@ -34657,7 +34657,7 @@
                 }
             }
         ],
-        "name": "ILY",
+        "name": "LoveMagicInline",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/inline_lovemagic.py"
     },
@@ -34764,7 +34764,7 @@
                 }
             }
         ],
-        "name": "Pinger",
+        "name": "InlinePing",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/inlineping.py"
     },
@@ -34801,7 +34801,7 @@
                 }
             }
         ],
-        "name": "Instagram",
+        "name": "InstSave",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/instsave.py"
     },
@@ -34816,7 +34816,7 @@
                 }
             }
         ],
-        "name": "Insult",
+        "name": "Insulter",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/insult.py"
     },
@@ -34831,7 +34831,7 @@
                 }
             }
         ],
-        "name": "IPLookup",
+        "name": "IP Lookup",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/iplookup.py"
     },
@@ -34846,7 +34846,7 @@
                 }
             }
         ],
-        "name": "Jacques",
+        "name": "Жаконизатор",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/jac.py"
     },
@@ -34863,7 +34863,7 @@
                 }
             }
         ],
-        "name": "Jacques",
+        "name": "Жаконизатор",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/jacques.py"
     },
@@ -35010,7 +35010,7 @@
                 }
             }
         ],
-        "name": "addmembers",
+        "name": "kickall & addusers",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/kickall-addusers.py"
     },
@@ -35068,7 +35068,7 @@
                 }
             }
         ],
-        "name": "KursMod",
+        "name": "KursInfo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/kursinfo.py"
     },
@@ -35104,7 +35104,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLangReplier",
+        "name": "Apo-LangReplier",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/langreplier.py"
     },
@@ -35202,7 +35202,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLCR",
+        "name": "Apo-LoginCodeReciever",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lcr.py"
     },
@@ -35216,7 +35216,7 @@
                 }
             }
         ],
-        "name": "Leave",
+        "name": "Just leave",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/leave.py"
     },
@@ -35274,7 +35274,7 @@
                 }
             }
         ],
-        "name": "ApodiktumLinkedChat",
+        "name": "Apo-LinkedChat",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/linked_chat.py"
     },
@@ -35316,7 +35316,7 @@
                 }
             }
         ],
-        "name": "LinuxPackages",
+        "name": "Packages",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/linux_packages.py"
     },
@@ -35349,7 +35349,7 @@
                 }
             }
         ],
-        "name": "LMGTFY",
+        "name": "LetMeGoogleThatForYou",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lmgtfy.py"
     },
@@ -35372,7 +35372,7 @@
                 }
             }
         ],
-        "name": "lolihentai",
+        "name": "LoliHentai",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/loli.py"
     },
@@ -35464,7 +35464,7 @@
                 }
             }
         ],
-        "name": "ILY",
+        "name": "LoveMagic",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lovemagic.py"
     },
@@ -35476,7 +35476,7 @@
                 "description": {}
             }
         ],
-        "name": "elpe",
+        "name": "ЛП by @modwini",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lp.py"
     },
@@ -35523,7 +35523,7 @@
                 }
             }
         ],
-        "name": "magic_ball",
+        "name": "Magic Ball",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/magicBall.py"
     },
@@ -35609,7 +35609,7 @@
                 }
             }
         ],
-        "name": "ApodiktumMarkRead",
+        "name": "Apo-MarkRead",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/mark_read.py"
     },
@@ -35657,7 +35657,7 @@
                 }
             }
         ],
-        "name": "MS",
+        "name": "МедиаСпам",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/mediaspam.py"
     },
@@ -35707,7 +35707,7 @@
                 }
             }
         ],
-        "name": "Mock",
+        "name": "Memes",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/memes.py"
     },
@@ -35750,7 +35750,7 @@
                 }
             }
         ],
-        "name": "CuteVoices",
+        "name": "Cute meow voices",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/meowvoices.py"
     },
@@ -35829,7 +35829,7 @@
                 }
             }
         ],
-        "name": "InlineMinecraftInfo",
+        "name": "MinecraftInfo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/minecraft.py"
     },
@@ -35865,7 +35865,7 @@
                 }
             }
         ],
-        "name": "Misc",
+        "name": "Miscellaneous",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/misc.py"
     },
@@ -35897,7 +35897,7 @@
                 }
             }
         ],
-        "name": "ModulesList",
+        "name": "ModList",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/modlist.py"
     },
@@ -35910,7 +35910,7 @@
                 "description": {}
             }
         ],
-        "name": "B",
+        "name": "Modulator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/modulator.py"
     },
@@ -35989,7 +35989,7 @@
                 }
             }
         ],
-        "name": "ApodiktumMsgMerger",
+        "name": "Apo-MsgMerger",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/msg_merger.py"
     },
@@ -36121,7 +36121,7 @@
                 }
             }
         ],
-        "name": "MyUsernames",
+        "name": "My Usernames",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/my_usernames.py"
     },
@@ -36153,7 +36153,7 @@
                 }
             }
         ],
-        "name": "Pages",
+        "name": "Diary",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/mydiary.py"
     },
@@ -36188,7 +36188,7 @@
                 }
             }
         ],
-        "name": "MyGallery",
+        "name": "🖼️ MyGallery",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/mygallery.py"
     },
@@ -36431,7 +36431,7 @@
                 }
             }
         ],
-        "name": "NekoSpyBeta",
+        "name": "NekoSpy",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/nekospy_beta.py"
     },
@@ -36504,7 +36504,7 @@
                 }
             }
         ],
-        "name": "News",
+        "name": "NewsMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/news.py"
     },
@@ -36580,7 +36580,7 @@
                 }
             }
         ],
-        "name": "AntiPM",
+        "name": "Anti PM",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/nopm.py"
     },
@@ -36736,7 +36736,7 @@
                 }
             }
         ],
-        "name": "NY",
+        "name": "NewYearTimer",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/nytimer.py"
     },
@@ -36754,7 +36754,7 @@
                 }
             }
         ],
-        "name": "OCR",
+        "name": "OCRMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ocr.py"
     },
@@ -36785,7 +36785,7 @@
                 "description": {}
             }
         ],
-        "name": "rap",
+        "name": "Реп оксимирона",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/oksimiron.py"
     },
@@ -36831,7 +36831,7 @@
                 }
             }
         ],
-        "name": "OrangeFox",
+        "name": "OrangeFox Recovery",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/orangefox.py"
     },
@@ -36990,7 +36990,7 @@
                 }
             }
         ],
-        "name": "PCManager",
+        "name": "PC-Manager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/pcmanager.py"
     },
@@ -37022,7 +37022,7 @@
                 }
             }
         ],
-        "name": "PhLogo",
+        "name": "Phlogo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/phsticker.py"
     },
@@ -37144,7 +37144,7 @@
                 }
             }
         ],
-        "name": "PMLog",
+        "name": "PM Logger",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/pmlog.py"
     },
@@ -37197,7 +37197,7 @@
                 }
             }
         ],
-        "name": "PostStealer",
+        "name": "PostStealler",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/poststealer.py"
     },
@@ -37212,7 +37212,7 @@
                 }
             }
         ],
-        "name": "GetPP",
+        "name": "Profile Photos",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/poto.py"
     },
@@ -37262,7 +37262,7 @@
                 }
             }
         ],
-        "name": "Print",
+        "name": "print",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/print.py"
     },
@@ -37296,7 +37296,7 @@
                 }
             }
         ],
-        "name": "ProfileEditor",
+        "name": "Profile",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/profile.py"
     },
@@ -37313,7 +37313,7 @@
                 }
             }
         ],
-        "name": "MusicModule",
+        "name": "ProgMusic",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/progmusic.py"
     },
@@ -37353,7 +37353,7 @@
                 }
             }
         ],
-        "name": "Keyword",
+        "name": "Purr",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/purr.py"
     },
@@ -37368,7 +37368,7 @@
                 }
             }
         ],
-        "name": "py2png",
+        "name": "pypng",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/pypng.py"
     },
@@ -37390,7 +37390,7 @@
                 }
             }
         ],
-        "name": "QRtools",
+        "name": "QR Code",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/qr_code.py"
     },
@@ -37422,7 +37422,7 @@
                 }
             }
         ],
-        "name": "QuickType",
+        "name": "Quick Typer",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/quicktype.py"
     },
@@ -37490,7 +37490,7 @@
                 }
             }
         ],
-        "name": "RTools",
+        "name": "Tools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/random_tools.py"
     },
@@ -37563,7 +37563,7 @@
                 }
             }
         ],
-        "name": "Range",
+        "name": "Python range",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/range.py"
     },
@@ -37581,7 +37581,7 @@
                 }
             }
         ],
-        "name": "RateModule",
+        "name": "RateMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ratemod.py"
     },
@@ -37596,7 +37596,7 @@
                 }
             }
         ],
-        "name": "RecentActions",
+        "name": "Recent Actions",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/recent_actions.py"
     },
@@ -37611,7 +37611,7 @@
                 }
             }
         ],
-        "name": "RecentActions",
+        "name": "Recent Actions",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/recentactions.py"
     },
@@ -37650,7 +37650,7 @@
                 }
             }
         ],
-        "name": "ReplyDownloader",
+        "name": "Reply Downloader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/replydownloader.py"
     },
@@ -37733,7 +37733,7 @@
                 }
             }
         ],
-        "name": "RP",
+        "name": "RPMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/rpmod.py"
     },
@@ -37748,7 +37748,7 @@
                 }
             }
         ],
-        "name": "Rysianskiy",
+        "name": "Rysianskiy yazyk",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/rysianskiy.py"
     },
@@ -37790,7 +37790,7 @@
                 }
             }
         ],
-        "name": "ApodiktumSaveMessage",
+        "name": "Apo-SaveMessage",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/save_message.py"
     },
@@ -37805,7 +37805,7 @@
                 }
             }
         ],
-        "name": "Saved",
+        "name": "SavedMessages",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/saved.py"
     },
@@ -37827,7 +37827,7 @@
                 }
             }
         ],
-        "name": "WebShot",
+        "name": "Screenshot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/screenshot.py"
     },
@@ -38049,7 +38049,7 @@
                 }
             }
         ],
-        "name": "serverInfo",
+        "name": "ServerInfo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/serverinfo.py"
     },
@@ -38145,7 +38145,7 @@
                 }
             }
         ],
-        "name": "ApodiktumShowViews",
+        "name": "Apo-ShowViews",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/show_viewer.py"
     },
@@ -38224,7 +38224,7 @@
                 }
             }
         ],
-        "name": "Soaper",
+        "name": "Soaping",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/soaper.py"
     },
@@ -38474,7 +38474,7 @@
                 }
             }
         ],
-        "name": "Spotify",
+        "name": "SpotifyNow",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/spotify.py"
     },
@@ -38504,7 +38504,7 @@
                 }
             }
         ],
-        "name": "Text2stick",
+        "name": "StickText",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/stext.py"
     },
@@ -38687,7 +38687,7 @@
                 }
             }
         ],
-        "name": "Summer",
+        "name": "SummerTimer",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/summer.py"
     },
@@ -38837,7 +38837,7 @@
                 "description": {}
             }
         ],
-        "name": "Tagall",
+        "name": "TagAll",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/tagall.py"
     },
@@ -38859,7 +38859,7 @@
                 }
             }
         ],
-        "name": "Tag",
+        "name": "Tags",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/tags.py"
     },
@@ -38883,7 +38883,7 @@
                 }
             }
         ],
-        "name": "Tamagochi",
+        "name": "Tamogochi",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/tamagochi.py"
     },
@@ -38924,7 +38924,7 @@
                 }
             }
         ],
-        "name": "Telegraphup",
+        "name": "Telegraph",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/telegraphup.py"
     },
@@ -39201,7 +39201,7 @@
                 }
             }
         ],
-        "name": "TikTok",
+        "name": "YATikTok-DL",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/tikcock.py"
     },
@@ -39233,7 +39233,7 @@
                 }
             }
         ],
-        "name": "Todo",
+        "name": "ToDo",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/todo.py"
     },
@@ -39257,7 +39257,7 @@
                 }
             }
         ],
-        "name": "Hurtom",
+        "name": "InlineHurtom",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/toloka_geek.py"
     },
@@ -39302,7 +39302,7 @@
                 }
             }
         ],
-        "name": "TransferSh",
+        "name": "transfer.sh support",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/transfersh.py"
     },
@@ -39317,7 +39317,7 @@
                 }
             }
         ],
-        "name": "Translate",
+        "name": "Translator",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/translate.py"
     },
@@ -39358,7 +39358,7 @@
                 }
             }
         ],
-        "name": "ApodiktumTranslations",
+        "name": "Apo-Translations",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/translations.py"
     },
@@ -39451,7 +39451,7 @@
                 }
             }
         ],
-        "name": "TrueOrFalse",
+        "name": "🎲 True-or-False",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/truefalse.py"
     },
@@ -39523,7 +39523,7 @@
                 }
             }
         ],
-        "name": "TTS",
+        "name": "Text to speech",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/tts.py"
     },
@@ -39546,7 +39546,7 @@
                 }
             }
         ],
-        "name": "TTsave",
+        "name": "TTsaveMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ttsave.py"
     },
@@ -39571,7 +39571,7 @@
                 }
             }
         ],
-        "name": "TwitchModule",
+        "name": "Twitchdl",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/twitch.py"
     },
@@ -39586,7 +39586,7 @@
                 }
             }
         ],
-        "name": "Typer",
+        "name": "Typewriter",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/typer.py"
     },
@@ -39610,7 +39610,7 @@
                 }
             }
         ],
-        "name": "UniversalTime",
+        "name": "UnivTime",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/universaltime.py"
     },
@@ -39660,7 +39660,7 @@
                 }
             }
         ],
-        "name": "UplDlbym4xx1m",
+        "name": "upldl",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/upldl.py"
     },
@@ -39692,7 +39692,7 @@
                 }
             }
         ],
-        "name": "FileUploader",
+        "name": "Uploader",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/uploader.py"
     },
@@ -39707,7 +39707,7 @@
                 }
             }
         ],
-        "name": "UrbanDictionary",
+        "name": "Urban Dictionary",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/urbandictionary.py"
     },
@@ -39750,7 +39750,7 @@
                 }
             }
         ],
-        "name": "URl",
+        "name": "URL",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/url.py"
     },
@@ -39767,7 +39767,7 @@
                 "description": {}
             }
         ],
-        "name": "a",
+        "name": "UrlDl",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/urldl.py"
     },
@@ -39862,7 +39862,7 @@
                 }
             }
         ],
-        "name": "UserInfo",
+        "name": "User Info",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/userinfo.py"
     },
@@ -39904,7 +39904,7 @@
                 }
             }
         ],
-        "name": "Valites",
+        "name": "Valutes",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/valute.py"
     },
@@ -40114,7 +40114,7 @@
                 }
             }
         ],
-        "name": "VideoToVoice",
+        "name": "video_to_voice",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/video_to_voice.py"
     },
@@ -40136,7 +40136,7 @@
                 }
             }
         ],
-        "name": "Vijener",
+        "name": "Vizjener",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/vizjener.py"
     },
@@ -40871,7 +40871,7 @@
                 }
             }
         ],
-        "name": "ApodiktumVoiceTools",
+        "name": "Apo-VoiceTools",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/voicetools.py"
     },
@@ -40903,7 +40903,7 @@
                 }
             }
         ],
-        "name": "VseTranslate",
+        "name": "💠 Vsecoder Translate",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/vsecodertranslate.py"
     },
@@ -40925,7 +40925,7 @@
                 }
             }
         ],
-        "name": "VsratoMemes",
+        "name": "Всратые мемы",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/vsratomemes.py"
     },
@@ -41171,7 +41171,7 @@
                 }
             }
         ],
-        "name": "What",
+        "name": "What?",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/what.py"
     },
@@ -41196,7 +41196,7 @@
                 }
             }
         ],
-        "name": "Whisper",
+        "name": "WhisperMod",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/whisper.py"
     },
@@ -41245,7 +41245,7 @@
                 }
             }
         ],
-        "name": "Wiki",
+        "name": "Wikipedia🌐",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/wikimod.py"
     },
@@ -41291,7 +41291,7 @@
                 "description": {}
             }
         ],
-        "name": "Words",
+        "name": "Words Counter",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/words.py"
     },
@@ -41448,7 +41448,7 @@
                 }
             }
         ],
-        "name": "Moebooru",
+        "name": "Yandere",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/yandere.py"
     },
@@ -41500,7 +41500,7 @@
                 }
             }
         ],
-        "name": "InlineMoebooru",
+        "name": "InlineYandere",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/yandere_geek.py"
     },
@@ -41586,7 +41586,7 @@
                 }
             }
         ],
-        "name": "YooMoney",
+        "name": "Yoomoney",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/yoopay.py"
     },
@@ -41650,7 +41650,7 @@
                 }
             }
         ],
-        "name": "YtDl",
+        "name": "Youtube-Dl",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/ytdl.py"
     },
@@ -41679,7 +41679,7 @@
                 }
             }
         ],
-        "name": "ZapomniZabudSogl",
+        "name": "Запомните;забудьте твари, согласен",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/zapomni_zabud_sogl.py"
     },
@@ -41729,7 +41729,7 @@
                 }
             }
         ],
-        "name": "Zip",
+        "name": "ZIP",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/zip.py"
     },
@@ -41946,7 +41946,7 @@
                 }
             }
         ],
-        "name": "TimerBot",
+        "name": "TimeBot",
         "repo": "MoriSummerz/ftg-mods",
         "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/TimeBot.py"
     },
@@ -42206,7 +42206,7 @@
                 }
             }
         ],
-        "name": "AbsolutGrossartigAntwort",
+        "name": "AGA!",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/AGA.py"
     },
@@ -42395,7 +42395,7 @@
                 }
             }
         ],
-        "name": "GoogleTranslate",
+        "name": "GoogleTrans",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/GoogleTrans.py"
     },
@@ -42482,7 +42482,7 @@
                 }
             }
         ],
-        "name": "GoogleTranslate",
+        "name": "GoogleTrans",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/GoogleTransRR.py"
     },
@@ -42623,7 +42623,7 @@
                 }
             }
         ],
-        "name": "RP",
+        "name": "LiMERPMod",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/LiMERPMod.py"
     },
@@ -42709,7 +42709,7 @@
                 }
             }
         ],
-        "name": "PSA",
+        "name": "PremiumStickers2",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/PremiumStickers.py"
     },
@@ -42726,7 +42726,7 @@
                 }
             }
         ],
-        "name": "Prodia",
+        "name": "Prodia IG",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/Prodia.py"
     },
@@ -42764,7 +42764,7 @@
                 }
             }
         ],
-        "name": "ReactTor",
+        "name": "Reactor",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/Reactor.py"
     },
@@ -43029,7 +43029,7 @@
                 }
             }
         ],
-        "name": "YaTranslate",
+        "name": "YandexTrans",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/YandexTrans.py"
     },
@@ -43167,7 +43167,7 @@
                 }
             }
         ],
-        "name": "MiyaHost",
+        "name": "miyahost.manager",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/dekkusudev/mm-hikka-mods/main/miyahost.py"
     },
@@ -43267,7 +43267,7 @@
                 }
             }
         ],
-        "name": "animearts",
+        "name": "AnimeArts",
         "repo": "idiotcoders/idiotmodules",
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/animearts.py"
     },
@@ -43320,7 +43320,7 @@
                 }
             }
         ],
-        "name": "animetools",
+        "name": "AnimeTools",
         "repo": "idiotcoders/idiotmodules",
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/animetools.py"
     },
@@ -43495,7 +43495,7 @@
                 }
             }
         ],
-        "name": "loliart",
+        "name": "LoliArt",
         "repo": "idiotcoders/idiotmodules",
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/loliart.py"
     },
@@ -43687,7 +43687,7 @@
                 }
             }
         ],
-        "name": "ProfileToolsModule",
+        "name": "CopyUser",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/copyuser.py"
     },
@@ -43796,7 +43796,7 @@
                 }
             }
         ],
-        "name": "RandomMemesModule",
+        "name": "RandomMemes",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/randommemes.py"
     },
@@ -43851,7 +43851,7 @@
                 }
             }
         ],
-        "name": "YouTubeSearch",
+        "name": "YTSearch",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ytsearch.py"
     },
@@ -43917,7 +43917,7 @@
                 }
             }
         ],
-        "name": "AniverseCardBot",
+        "name": "AniverseCard",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/AniverseCard.py"
     },
@@ -43986,7 +43986,7 @@
                 }
             }
         ],
-        "name": "Profile",
+        "name": "Profilemanager",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/Profilemanager.py"
     },
@@ -44149,7 +44149,7 @@
                 }
             }
         ],
-        "name": "AmeActions",
+        "name": "AmeActions — Действия",
         "repo": "amm1edev/AmeMods",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameactions.py"
     },
@@ -44181,7 +44181,7 @@
                 }
             }
         ],
-        "name": "uselessw",
+        "name": "uselessweb",
         "repo": "amm1edev/AmeMods",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/uselessweb.py"
     },
@@ -44197,7 +44197,7 @@
                 }
             }
         ],
-        "name": "hz",
+        "name": "xzmodule",
         "repo": "amm1edev/AmeMods",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/xzmodule.py"
     }
