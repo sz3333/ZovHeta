@@ -19040,7 +19040,7 @@
                 "name": "searchuser",
                 "inline": false,
                 "description": {
-                    "ru_doc": " [Юзернейм] (--raw сырой ответ) (--id поиск по id) - Найти пользователя",
+                    "ru_doc": " [Юзернейм] Найти пользователя (--id поиск по id)",
                     "doc": "[Username] (--raw  raw json answer) (--id search by id) - Search user"
                 }
             },
@@ -19048,8 +19048,23 @@
                 "name": "vacbaninfo",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - [Юзернейм] Информация о VAC-BANах пользователя (--raw сырой ответ) (--id поиск по id)",
-                    "doc": "- [Username] Informbation about user VAC-BANs  (--raw raw json answer) (--id search by id)"
+                    "ru_doc": " [Юзернейм] Информация о VAC-BANах пользователя (--id поиск по id)",
+                    "doc": "[Username] Informbation about user VAC-BANs (--id search by id)"
+                }
+            },
+            {
+                "name": "gameownedlist",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - [Юзернейм] Информация о играх пользователя (--id поиск по id)",
+                    "doc": "- [Username] Informbation about user games (--id search by id)"
+                }
+            },
+            {
+                "name": "execsteamcode",
+                "inline": false,
+                "description": {
+                    "doc": "DO NOT USE THIS COMMAND! IT ONLY WORKS WHEN DEBUGGING IS ENABLED! THIS COMMAND IS FOR DEVELOPER"
                 }
             },
             {
