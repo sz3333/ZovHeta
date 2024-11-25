@@ -3785,6 +3785,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/voiceMEMS1.py"
     },
     {
+        "description": "Модуль для замены текста в сообщениях на 'игривый' диалект.",
+        "commands": [
+            {
+                "name": "xoxol",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для включения или выключения модуля."
+                }
+            },
+            {
+                "name": "xoxolz",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для преобразования текста в ответном сообщении."
+                }
+            }
+        ],
+        "name": "Xoxolski",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xoxolski.py"
+    },
+    {
         "author": "@yg_modules",
         "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
         "commands": [
