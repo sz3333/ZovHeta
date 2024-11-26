@@ -1,5 +1,104 @@
 [
     {
+        "author": "@hikarimods",
+        "commands": [
+            {
+                "name": "addv",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to video or yt link> - Add video to chat's voicechat queue"
+                }
+            },
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to video or yt link> - Add video to chat's voicechat queue"
+                }
+            },
+            {
+                "name": "next",
+                "inline": false,
+                "description": {
+                    "doc": "Skips current audio in queue"
+                }
+            },
+            {
+                "name": "list",
+                "inline": false,
+                "description": {
+                    "doc": "Get current chat's queue"
+                }
+            },
+            {
+                "name": "list_save",
+                "inline": false,
+                "description": {
+                    "doc": "Save the queue"
+                }
+            },
+            {
+                "name": "list_load",
+                "inline": false,
+                "description": {
+                    "doc": "Load the saved queue"
+                }
+            },
+            {
+                "name": "replay",
+                "inline": false,
+                "description": {
+                    "doc": "Switch the 'repeat this queue forever'"
+                }
+            },
+            {
+                "name": "rem",
+                "inline": false,
+                "description": {
+                    "doc": "Remove song from queue"
+                }
+            },
+            {
+                "name": "rst",
+                "inline": false,
+                "description": {
+                    "doc": "Rejoin the call in case you accidentally joined it"
+                }
+            },
+            {
+                "name": "resume",
+                "inline": false,
+                "description": {
+                    "doc": "Resume current chat's queue"
+                }
+            },
+            {
+                "name": "pause",
+                "inline": false,
+                "description": {
+                    "doc": "Pause current chat's queue"
+                }
+            },
+            {
+                "name": "stop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop current chat's queue"
+                }
+            },
+            {
+                "name": "panel",
+                "inline": false,
+                "description": {
+                    "doc": "Показать панель управления"
+                }
+            }
+        ],
+        "name": "VoiceChat",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/3.py"
+    },
+    {
         "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/timer.png&title=Account%20Time&description=Get%20the%20account%20registration%20date%20and%20time!",
         "pic": "https://img.icons8.com/fluency/344/timer.png",
