@@ -43984,6 +43984,7 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/copyuser.py"
     },
     {
+        "author": "@kmodules",
         "description": "Модуль информации о профиле GitHub.",
         "commands": [
             {
