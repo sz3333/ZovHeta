@@ -43984,6 +43984,21 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/copyuser.py"
     },
     {
+        "description": "Модуль информации о профиле GitHub.",
+        "commands": [
+            {
+                "name": "github",
+                "inline": false,
+                "description": {
+                    "doc": "<username> - получить информацию о профиле GitHub"
+                }
+            }
+        ],
+        "name": "GitHubInfo",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/github.py"
+    },
+    {
         "author": "Ksenon | @MeKsenon",
         "description": "🤖 Модуль для работы с KsenonGPT и генерации изображений",
         "commands": [
