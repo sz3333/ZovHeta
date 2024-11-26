@@ -44087,6 +44087,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Игра-викторина с разными темами и сложностями",
+        "commands": [
+            {
+                "name": "quiz",
+                "inline": false,
+                "description": {
+                    "doc": "Начать викторину\nАргументы: -t \"тема\" -d <easy/normal/hard>\nПример: .quiz -t \"Minecraft\" -d easy"
+                }
+            }
+        ],
+        "name": "QuizAI",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/quizai.py"
+    },
+    {
+        "author": "@kmodules",
         "description": "2 mode random memes.",
         "commands": [
             {
