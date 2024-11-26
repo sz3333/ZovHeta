@@ -12090,6 +12090,37 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/bigmac.png?raw=true",
+        "description": "Авто-фарм в @BigMacMetreBot",
+        "commands": [
+            {
+                "name": "bigmacs",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить авто-фарм"
+                }
+            },
+            {
+                "name": "bp",
+                "inline": false,
+                "description": {
+                    "doc": "Посмотреть свой профиль"
+                }
+            },
+            {
+                "name": "btop",
+                "inline": false,
+                "description": {
+                    "doc": "Посмотреть топ"
+                }
+            }
+        ],
+        "name": "BigMac",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/bigmac.py"
+    },
+    {
+        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/checkhost.png?raw=true",
         "description": "Проверка доступности веб-сайтов, серверов, хостов и IP-адресов с разных геолокаций и тд.",
         "commands": [
