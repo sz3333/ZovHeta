@@ -44279,6 +44279,50 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Модуль для имитации различных действий в чате.",
+        "commands": [
+            {
+                "name": "ft",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>.\nСимулирует набор текста в чате указанное количество секунд."
+                }
+            },
+            {
+                "name": "ff",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>.\nСимулирует отправку файла."
+                }
+            },
+            {
+                "name": "fg",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>.\nСимулирует запись голосового сообщения."
+                }
+            },
+            {
+                "name": "fvg",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>.\nСимулирует запись видео-сообщения."
+                }
+            },
+            {
+                "name": "fpg",
+                "inline": false,
+                "description": {
+                    "doc": "<время в секундах>.\nСимулирует игру."
+                }
+            }
+        ],
+        "name": "FakeActions",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/FakeActions.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Модуль для имитации набора текста!",
         "commands": [
             {
