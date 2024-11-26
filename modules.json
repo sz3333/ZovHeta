@@ -4289,6 +4289,131 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/повтор.py"
     },
     {
+        "author": "@hikarimods",
+        "commands": [
+            {
+                "name": "addv",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответить на видео или ссылку> - Добавить видео в очередь голосового чата",
+                    "ua_doc": "<відповісти на відео або посилання> - додайте відео до черги голосового чату",
+                    "doc": "<reply to video or yt link> - Add video to chat's voicechat queue"
+                }
+            },
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответить на видео или ссылку YT> - Добавить видео в очередь голосового чата",
+                    "ua_doc": "<відповісти на відео або посилання YT> - Додати відео до черги голосового чату",
+                    "doc": "<reply to video or yt link> - Add video to chat's voicechat queue"
+                }
+            },
+            {
+                "name": "next",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Пропускает текущую музыку в очереди",
+                    "ua_doc": "Пропускає поточну пісню в черзі",
+                    "doc": "Skips current audio in queue"
+                }
+            },
+            {
+                "name": "list",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить текущую очередь чата",
+                    "ua_doc": "Отримати поточну чергу чату",
+                    "doc": "Get current chat's queue"
+                }
+            },
+            {
+                "name": "list_save",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сохранить очередь",
+                    "ua_doc": "Зберегти чергу",
+                    "doc": "Save the queue"
+                }
+            },
+            {
+                "name": "list_load",
+                "inline": false,
+                "description": {
+                    "ua_doc": "Завантажте збережену чергу",
+                    "ru_doc": "Загрузить сохраненную очередь",
+                    "doc": "Load the saved queue"
+                }
+            },
+            {
+                "name": "replay",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включите функцию «повторять эту очередь вечно»",
+                    "ua_doc": "Перемкніть «повторювати цю чергу назавжди».",
+                    "doc": "Switch the 'repeat this queue forever'"
+                }
+            },
+            {
+                "name": "rem",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить песню из очереди",
+                    "ua_doc": "Видалити пісню з черги",
+                    "doc": "Remove song from queue"
+                }
+            },
+            {
+                "name": "rst",
+                "inline": false,
+                "description": {
+                    "ua_doc": "Повторно приєднайтеся до дзвінка, якщо ви випадково приєдналися до нього",
+                    "ru_doc": "Повторно присоединитесь к звонку, если вы случайно к нему присоединились.",
+                    "doc": "Rejoin the call in case you accidentally joined it"
+                }
+            },
+            {
+                "name": "resume",
+                "inline": false,
+                "description": {
+                    "ua_doc": "Відновити поточну чергу чату",
+                    "ru_doc": "Возобновить очередь текущего чата",
+                    "doc": "Resume current chat's queue"
+                }
+            },
+            {
+                "name": "pause",
+                "inline": false,
+                "description": {
+                    "ua_doc": "Призупинити поточну чергу чату",
+                    "ru_doc": "Приостановить очередь текущего чата",
+                    "doc": "Pause current chat's queue"
+                }
+            },
+            {
+                "name": "stop",
+                "inline": false,
+                "description": {
+                    "ua_doc": "Зупинити поточну чергу чату",
+                    "ru_doc": "Остановить очередь текущего чата",
+                    "doc": "Stop current chat's queue"
+                }
+            },
+            {
+                "name": "panel",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать панель управления",
+                    "ua_doc": "Показати панель керування",
+                    "doc": "Показать панель управления"
+                }
+            }
+        ],
+        "name": "VoiceChat",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/тесты.py"
+    },
+    {
         "author": "@Mersai",
         "commands": [
             {
