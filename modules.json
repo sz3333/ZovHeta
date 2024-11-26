@@ -1437,6 +1437,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Git_serverBot.py"
     },
     {
+        "author": "@skillzmeow",
+        "commands": [
+            {
+                "name": "goida",
+                "inline": false,
+                "description": {
+                    "doc": "Включить или отключить режим гойды"
+                }
+            }
+        ],
+        "name": "Goida",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Goida.py"
+    },
+    {
         "description": "Гуглит что-то вместо тебя.",
         "commands": [
             {
