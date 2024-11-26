@@ -44104,14 +44104,13 @@
     },
     {
         "author": "@kmodules",
-        "banner": "https://i.ibb.co/VWYVC7c/1d011a5f-cb9c-4198-97fa-c4227b41c033.jpg",
         "description": "Игра-викторина с разными темами и сложностями",
         "commands": [
             {
                 "name": "quiz",
                 "inline": false,
                 "description": {
-                    "doc": "Начать викторину\nАргументы: -t \"тема\" -d <easy/normal/hard>\nПример: .quiz -t \"Minecraft\" -d easy"
+                    "doc": "Начать викторину\nАргументы: -t \"тема\" -d <easy/normal/hard/impossible> -m <stable/fast>\nПример: .quiz -t \"Minecraft\" -d easy -m stable"
                 }
             }
         ],
