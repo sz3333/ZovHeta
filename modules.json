@@ -3228,6 +3228,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/convertor.py"
     },
     {
+        "author": "@eremod",
+        "description": "Модуль для замены гласных на 'i'",
+        "commands": [
+            {
+                "name": "crib",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Меняет гласные на i (команда на вкл и выкл)",
+                    "doc": "Включает или выключает замену"
+                }
+            }
+        ],
+        "name": "Crib",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/crib.py"
+    },
+    {
         "author": "@mqone",
         "commands": [
             {
