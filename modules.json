@@ -44052,13 +44052,14 @@
     },
     {
         "author": "@kmodules",
-        "description": "Модуль информации о профиле GitHub.",
+        "description": "Module for viewing GitHub profile information",
         "commands": [
             {
                 "name": "github",
                 "inline": false,
                 "description": {
-                    "doc": "<username> - получить информацию о профиле GitHub"
+                    "ru_doc": "<username> - получить информацию о профиле GitHub",
+                    "en_doc": "<username> - get GitHub profile information"
                 }
             }
         ],
