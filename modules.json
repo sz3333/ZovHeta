@@ -44466,7 +44466,7 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/AmeChangeLoaderText.py"
     },
     {
-        "description": "Модуль для поиска музыки, основанный на боте @AmeMusicbot",
+        "description": "Модуль для поиска музыки, основанный на боте @LyaDownbot",
         "commands": [
             {
                 "name": "searchm",
@@ -44476,7 +44476,7 @@
                 }
             }
         ],
-        "name": "AmeMusic",
+        "name": "LyaMusic",
         "repo": "amm1edev/AmeMods",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/AmeMusic.py"
     },
