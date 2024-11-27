@@ -44225,5 +44225,150 @@
         "name": "Virus Total URL",
         "repo": "xuduk/modules",
         "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/VirusTotalUrl.py"
+    },
+    {
+        "description": "Модуль для рассылок",
+        "commands": [
+            {
+                "name": "addchat",
+                "inline": false,
+                "description": {
+                    "doc": "Добавь чат в список дял рассылки. Использование: .addchat <ссылка или @username>"
+                }
+            },
+            {
+                "name": "delchat",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить чат из списка. Использование: .delchat <название>"
+                }
+            },
+            {
+                "name": "setint",
+                "inline": false,
+                "description": {
+                    "doc": "Установи интервал рассылки. Использование: .setint <секунды>"
+                }
+            },
+            {
+                "name": "chatlist",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список чатов для рассылки"
+                }
+            },
+            {
+                "name": "stopmass",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить рассылку"
+                }
+            },
+            {
+                "name": "startmass",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить рассылку"
+                }
+            },
+            {
+                "name": "setsms",
+                "inline": false,
+                "description": {
+                    "doc": "Установи сообщение для рассылки! Использование: .setsms <текст>"
+                }
+            }
+        ],
+        "name": "MassSMS",
+        "repo": "Vahueyko/HikkaMods",
+        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/MassSMS.py"
+    },
+    {
+        "description": "Отправляет пользователю вашу биографию, которую вы сами напишете(.cfg)",
+        "commands": [
+            {
+                "name": "mbio1",
+                "inline": false,
+                "description": {
+                    "doc": "Используй, чтобы прислать свою  первую биографию"
+                }
+            },
+            {
+                "name": "mbio2",
+                "inline": false,
+                "description": {
+                    "doc": "Используй, чтобы прислать свою  вторую биографию"
+                }
+            }
+        ],
+        "name": "MyBio",
+        "repo": "Vahueyko/HikkaMods",
+        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/MyBio.py"
+    },
+    {
+        "author": "@VahueykoMod",
+        "description": "Универсальный файловый менеджер",
+        "commands": [
+            {
+                "name": "setpath",
+                "inline": false,
+                "description": {
+                    "doc": "Установка пути, для работы с файлами."
+                }
+            },
+            {
+                "name": "up",
+                "inline": false,
+                "description": {
+                    "doc": "Загрузить файл на сервер (реплеем на файл)"
+                }
+            },
+            {
+                "name": "dl",
+                "inline": false,
+                "description": {
+                    "doc": "Скачать файл с сервера. Указывать имя файла точно, с учётом расширения"
+                }
+            },
+            {
+                "name": "ls",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список файлов в текущей директории."
+                }
+            },
+            {
+                "name": "rmf",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить файл с сервера. Указывать имя файла точно, с учётом расширения"
+                }
+            }
+        ],
+        "name": "File Manager",
+        "repo": "Vahueyko/HikkaMods",
+        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/filemanager.py"
+    },
+    {
+        "description": "Поможет вам в нужной ситуации😘",
+        "commands": [
+            {
+                "name": "logstart",
+                "inline": false,
+                "description": {
+                    "doc": "Используй, чтобы включить отслеживание сообщений в этом чате"
+                }
+            },
+            {
+                "name": "logstop",
+                "inline": false,
+                "description": {
+                    "doc": "Используй, чтобы выключить отслеживание сообщений в этом чате"
+                }
+            }
+        ],
+        "name": "LoggerMod",
+        "repo": "Vahueyko/HikkaMods",
+        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/loggermod.py"
     }
 ]
