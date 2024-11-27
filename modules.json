@@ -44016,26 +44016,31 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/515XxY1/e3583b3c-434a-49fc-b532-cc70a3b5eccc.jpg",
+        "description": "Copy profile data from any user",
         "commands": [
             {
                 "name": "copyuser",
                 "inline": false,
                 "description": {
-                    "doc": "Скопировать профиль пользователя (работает по reply/@username/ID)"
+                    "ru_doc": "Скопировать профиль пользователя (работает по reply/@username/ID)",
+                    "en_doc": "Copy user profile (works with reply/@username/ID)"
                 }
             },
             {
                 "name": "backupme",
                 "inline": false,
                 "description": {
-                    "doc": "Сделать резервную копию профиля"
+                    "ru_doc": "Создать резервную копию вашего профиля",
+                    "en_doc": "Create backup of your profile"
                 }
             },
             {
                 "name": "restoreme",
                 "inline": false,
                 "description": {
-                    "doc": "Восстановить профиль из резервной копии"
+                    "ru_doc": "Восстановить профиль из резервной копии",
+                    "en_doc": "Restore profile from backup"
                 }
             }
         ],
@@ -44163,20 +44168,23 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/hK4zxP7/6f8d18ef-53d2-42a5-94e5-c0abef97b1bb.jpg",
         "description": "2 mode random memes.",
         "commands": [
             {
                 "name": "rnmeme",
                 "inline": false,
                 "description": {
-                    "doc": "NSFW memes."
+                    "ru_doc": "NSFW мемы",
+                    "en_doc": "NSFW memes"
                 }
             },
             {
                 "name": "rmeme",
                 "inline": false,
                 "description": {
-                    "doc": "Safe memes."
+                    "ru_doc": "Безопасные мемы",
+                    "en_doc": "Safe memes"
                 }
             }
         ],
