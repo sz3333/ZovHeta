@@ -3585,6 +3585,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/okruglator.py"
     },
     {
+        "description": "Модуль для автоматизації дій з кнопками у @coloniZERObot з кількістю повторів",
+        "commands": [
+            {
+                "name": "rocketauto_",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматизує дії з кнопками: .rocketauto <кількість повторів>"
+                }
+            }
+        ],
+        "name": "RocketFuel",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/rocket_fuel.py"
+    },
+    {
         "author": "@matubuntu, @RUIS_VlP",
         "description": "🌐 Internet search module",
         "commands": [
