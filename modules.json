@@ -3107,6 +3107,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ai_hikka.py"
     },
     {
+        "description": "Модуль для изменения текста и баннера загрузки Хикка в hikka-logs.",
+        "commands": [
+            {
+                "name": "updl",
+                "inline": false,
+                "description": {
+                    "doc": "Для баннера используйте ссылки на файлы с форматом mp4 и gif.\nОни должны быть загружены на сайт, чтобы добавить командой!\n\n• .updl https://x0.at/pYQV.mp4 - заменит баннер\n\n• .updl Hello, World! - заменит текст"
+                }
+            }
+        ],
+        "name": "AmeChangeLoaderText",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ameloader_(1).py"
+    },
+    {
         "author": "@Mersai",
         "commands": [
             {
