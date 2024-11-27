@@ -8,8 +8,8 @@ __version__ = (1, 4, 8, 8)
 #             ██╔══╝  ██╔══██║██╔══╝     ██║   ██╔══██║
 #             ██║     ██║  ██║███████╗   ██║   ██║  ██║
 
-# meta banner: https://camo.githubusercontent.com/5091a8298e4c92787a9aabf61f5a5797ac01b9bc0fd08b44fc54b1f8dfd6cc60/68747470733a2f2f692e696d67686970706f2e636f6d2f66696c65732f5967473232303844674d2e6a7067
-# meta pic: https://camo.githubusercontent.com/5091a8298e4c92787a9aabf61f5a5797ac01b9bc0fd08b44fc54b1f8dfd6cc60/68747470733a2f2f692e696d67686970706f2e636f6d2f66696c65732f5967473232303844674d2e6a7067
+# meta banner: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg
+# meta pic: 
 # ©️ Fixyres, 2024
 # 🌐 https://github.com/Fixyres/FHeta
 # Licensed under the Apache License, Version 2.0 (the "License");
