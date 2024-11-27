@@ -44637,5 +44637,89 @@
         "name": "xzmodule",
         "repo": "amm1edev/AmeMods",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/xzmodule.py"
+    },
+    {
+        "author": "@xuduk",
+        "description": "Модуль для отправки рандомных изображений",
+        "commands": [
+            {
+                "name": "randpic",
+                "inline": false,
+                "description": {
+                    "doc": "[width] [height] - отправляет случайное изображение. Можно указать только ширину, высота настроится автоматически. Если не указать ширину и высоту формат будет 1000х1100."
+                }
+            }
+        ],
+        "name": "Lorem Picsum",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/%20LoremPicsum.py"
+    },
+    {
+        "description": "Гуглит что-то вместо тебя.",
+        "commands": [
+            {
+                "name": "g",
+                "inline": false,
+                "description": {
+                    "doc": "[запрос] - сгенерировать ссылку которая гуглит за тебя"
+                }
+            }
+        ],
+        "name": "Давай погуглим",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/GoogleItForMe.py"
+    },
+    {
+        "description": "Изменяет все гласные буквы на і.\nZOVMod, наша битва будет легендарной.",
+        "commands": [
+            {
+                "name": "peremoga",
+                "inline": false,
+                "description": {
+                    "doc": "- включить/выключить переможное автоформатирование"
+                }
+            }
+        ],
+        "name": "Перемога Мод",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/PeremogaMod.py"
+    },
+    {
+        "description": "Переводит русский текст введённый на английской раскладке",
+        "commands": [
+            {
+                "name": "trlayout",
+                "inline": false,
+                "description": {
+                    "doc": "[text or replay] - Перевести на RU раскладку"
+                }
+            }
+        ],
+        "name": "Перевести раскладку",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/TranslateLayout.py"
+    },
+    {
+        "author": "@xuduk",
+        "description": "Проверяет ссылки через VirusTotal API",
+        "commands": [
+            {
+                "name": "setvtotalkey",
+                "inline": false,
+                "description": {
+                    "doc": "Устанавливает API-ключ VirusTotal\nИспользование: .setvtotalkey <API_KEY>"
+                }
+            },
+            {
+                "name": "vtotal",
+                "inline": false,
+                "description": {
+                    "doc": "Проверяет ссылку через VirusTotal\nИспользование: .vtotal <ссылка>"
+                }
+            }
+        ],
+        "name": "Virus Total URL",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/VirusTotalUrl.py"
     }
 ]
