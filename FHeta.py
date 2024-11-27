@@ -1,4 +1,6 @@
-__version__ = (6, 6, 6)
+__version__ = (1, 4, 8, 8)
+# change-log: Yes.
+# meta developer: @Foxy437
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -6,8 +8,6 @@ __version__ = (6, 6, 6)
 #             ██╔══╝  ██╔══██║██╔══╝     ██║   ██╔══██║
 #             ██║     ██║  ██║███████╗   ██║   ██║  ██║
 
-# meta developer: @Foxy437
-# change-log: ?????????
 # meta banner: https://camo.githubusercontent.com/5091a8298e4c92787a9aabf61f5a5797ac01b9bc0fd08b44fc54b1f8dfd6cc60/68747470733a2f2f692e696d67686970706f2e636f6d2f66696c65732f5967473232303844674d2e6a7067
 # meta pic: https://camo.githubusercontent.com/5091a8298e4c92787a9aabf61f5a5797ac01b9bc0fd08b44fc54b1f8dfd6cc60/68747470733a2f2f692e696d67686970706f2e636f6d2f66696c65732f5967473232303844674d2e6a7067
 # ©️ Fixyres, 2024
@@ -26,7 +26,7 @@ import io
 import inspect
 from hikkatl.types import Message
 import random
-from ..types import InlineQuery
+from ..types import InlineCall, InlineQuery
 import difflib
 
 @loader.tds
@@ -44,7 +44,13 @@ class FHeta(loader.Module):
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Error.</b>",
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Inline commands:</b>\n{inline_list}",
-        "language": "en_doc"
+        "language": "en_doc",
+        "sub": "👍 Rating submitted!",
+        "nope": "❌ You have already given one grade for this module, you cannot give a second one, you can only change it!",
+        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
+        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>"
     }
 
     strings_ru = {
@@ -58,7 +64,13 @@ class FHeta(loader.Module):
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Ошибка.</b>",
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Инлайн команды:</b>\n{inline_list}",
-        "language": "ru_doc"
+        "language": "ru_doc",
+        "sub": "👍 Оценка отправлена!",
+        "nope": "❌ Вы уже поставили одну оценку на этот модуль, вы не можете поставить вторую, вы можете только изменить ее!",
+        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>"
     }
 
     strings_ua = {
@@ -72,9 +84,15 @@ class FHeta(loader.Module):
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Помилка.</b>",
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Інлайн команди:</b>\n{inline_list}",
-        "language": "ua_doc"
+        "language": "ua_doc",
+        "sub": "👍 Оцінку подано!",
+        "nope": "❌ Ви вже поставили одну оцінку на цей модуль, ви не можете поставити другу, ви можете лише змінити її!",
+        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>" ,
+        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>"
     }
-
+        
     @loader.command(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fhetacmd(self, message):
         '''(query) - search modules.'''
@@ -90,42 +108,7 @@ class FHeta(loader.Module):
             modules = await self.search_modules(args.replace(" ", ""))
 
         if not modules:
-            url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url) as response:
-                    if response.status == 200:
-                        data = await response.text()
-                        all_modules = json.loads(data)
-
-                        module_names = [module['name'] for module in all_modules if 'name' in module]
-                        closest_matches = difflib.get_close_matches(args, module_names, n=1, cutoff=0.5)
-                        
-                        if closest_matches:
-                            closest_module = next((m for m in all_modules if isinstance(m, dict) and 'name' in m and m['name'] == closest_matches[0]), None)
-                            if closest_module:
-                                formatted_module = await self.format_module(closest_module, args)
-                                banner_url = closest_module.get("banner", None)
-
-                                if banner_url:
-                                    async with aiohttp.ClientSession() as session:
-                                        async with session.get(banner_url) as response:
-                                            if response.status == 200:
-                                                banner_data = await response.read()
-                                                file = io.BytesIO(banner_data)
-                                                file.name = "banner.jpg"
-                                                await message.client.send_file(
-                                                    message.peer_id,
-                                                    file,
-                                                    caption=formatted_module,
-                                                    reply_to=message.id
-                                                )
-                                                await search_message.delete()
-                                                return
-
-                            await utils.answer(search_message, formatted_module)
-                            return
-
-            await utils.answer(search_message, self.strings["no_modules_found"])
+            await utils.answer(message, self.strings["no_modules_found"])
             return
 
         seen_modules = set()
@@ -180,6 +163,7 @@ class FHeta(loader.Module):
                 module_name = utils.escape_html(module['name'].replace('.py', ''))
                 module_namee = utils.escape_html(module['name'].replace('.py', '').lower())
                 module_key = f"{module_namee}_{author_info}"
+                banner_url = utils.escape_html(module.get("banner", None))
 
                 if module_key in seen_modules:
                     continue
@@ -201,48 +185,156 @@ class FHeta(loader.Module):
             except Exception:
                 continue
 
-        if len(formatted_modules) == 1:
-            result_text, thumb_url = formatted_modules[0]
-            if thumb_url:
-                async with aiohttp.ClientSession() as session:
-                    async with session.get(thumb_url) as response:
-                        if response.status == 200:
-                            banner_data = await response.read()
-                            file = io.BytesIO(banner_data)
-                            file.name = "banner.jpg"
-                            closest_match_result = self.strings["closest_match"].format(
-                                query=args,
-                                module_name=module_name,
-                                author=author_info,
-                                repo_url=repo_url,
-                                install_command=f"{self.get_prefix()}{install}",
-                                description=description_section,
-                                commands=commands_section + inline_commands_section
-                            )
-                            await message.client.send_file(
-                                message.peer_id,
-                                file,
-                                caption=closest_match_result,
-                                reply_to=message.id
-                            )
-                            await search_message.delete()
-                            return
+        if len(formatted_modules) == 1:              
+                result_text, thumb_url = formatted_modules[0]              
 
-            closest_match_result = self.strings["closest_match"].format(
-                query=args,
-                module_name=module_name,
-                author=author_info,
-                repo_url=repo_url,
-                install_command=f"{self.get_prefix()}{install}",
-                description=description_section,
-                commands=commands_section + inline_commands_section
-            )
+                stats = await self.get_stats(module_name)
+                if stats is None:
+                    stats = {"likes": 0, "dislikes": 0, "average_rating": "0/5"}
 
-            await utils.answer(search_message, closest_match_result)
+                likes_count = stats['likes']      
+                dislikes_count = stats['dislikes']
+
+                buttons = [              
+                        [{              
+                                "text": f"👍 {likes_count}",              
+                                "callback": self.like_callback,              
+                                "args": (module_name, "like")              
+                        }, {              
+                                "text": f"👎 {dislikes_count}",              
+                                "callback": self.dislike_callback,              
+                                "args": (module_name, "dislike")              
+                        }]              
+                ]              
+
+                if thumb_url:              
+                        async with aiohttp.ClientSession() as session:              
+                                async with session.get(thumb_url) as response:              
+                                        if response.status == 200:              
+                                                
+                                                closest_match_result = self.strings["closest_match"].format(              
+                                                        query=args,              
+                                                        module_name=module_name,              
+                                                        author=author_info,              
+                                                        repo_url=repo_url,              
+                                                        install_command=f"{self.get_prefix()}{install}",              
+                                                        description=description_section,              
+                                                        commands=commands_section + inline_commands_section              
+                                                )              
+
+                                                await self.inline.form(              
+                                                        message=message,              
+                                                        text=closest_match_result,              
+                                                        **(              
+                                                            {"photo": banner_url}              
+                                                            if thumb_url              
+                                                            else {}              
+                                                        ),              
+                                                        reply_markup=buttons              
+                                                )              
+                                                await search_message.delete()              
+                                                return              
+
+                closest_match_result = self.strings["closest_match"].format(              
+                        query=args,              
+                        module_name=module_name,              
+                        author=author_info,              
+                        repo_url=repo_url,              
+                        install_command=f"{self.get_prefix()}{install}",              
+                        description=description_section,              
+                        commands=commands_section + inline_commands_section              
+                )              
+
+                await self.inline.form(              
+                        text=closest_match_result,              
+                        message=search_message,              
+                        reply_markup=buttons              
+                )        
+      
+        else:              
+                results = "".join([item[0] for item in formatted_modules])              
+                await utils.answer(search_message, results)              
+
+    @loader.command(ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення')
+    async def fupdate(self, message: Message):
+        ''' - check update.'''
+        module_name = "FHeta"
+        module = self.lookup(module_name)
+        sys_module = inspect.getmodule(module)
+
+        local_file = io.BytesIO(sys_module.__loader__.data)
+        local_file.name = f"{module_name}.py"
+        local_file.seek(0)
+        local_first_line = local_file.readline().strip().decode("utf-8")
+        
+        correct_version = sys_module.__version__
+        correct_version_str = ".".join(map(str, correct_version))
+
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
+                if response.status == 200:
+                    remote_content = await response.text()
+                    remote_lines = remote_content.splitlines()
+
+                    new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
+                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
+                    
+                else:
+                    await utils.answer(message, self.strings("fetch_failed"))
+                    return
+
+        if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
+            await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
         else:
-            results = "".join([item[0] for item in formatted_modules])
-            await utils.answer(search_message, results)
-    
+            update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
+            if what_new:
+                update_message += self.strings("update_whats_new").format(whats_new=what_new)
+            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
+            await utils.answer(message, update_message)
+
+    async def like_callback(self, call, module_name, action):
+        await self.handle_rating(call, module_name, action)
+
+    async def dislike_callback(self, call, module_name, action):
+        await self.handle_rating(call, module_name, action)
+
+    async def handle_rating(self, call, module_name, action):
+        try:
+            user_id = str(call.from_user.id)
+            async with aiohttp.ClientSession() as session:
+                post_url = f"https://foxy437777.pythonanywhere.com/rate/{user_id}/{module_name}/{action}"
+                async with session.post(post_url) as response:
+                    result = await response.json()
+
+                    if "yaebalmenasosali" in result:
+                        await call.answer(self.strings["sub"], show_alert=True)
+                        return
+
+                    elif "pizda" in result:
+                        await call.answer(self.strings["nope"], show_alert=True)
+                        return
+
+            get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
+            async with session.get(get_url) as response:
+                if response.status == 200:
+                    stats = await response.json()
+                    likes_count = stats['likes']
+                    dislikes_count = stats['dislikes']
+
+        except Exception as e:
+            await call.answer(f"{e}", show_alert=True)
+
+    async def get_stats(self, module_name):
+        try:
+            async with aiohttp.ClientSession() as session:
+                get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
+                async with session.get(get_url) as response:
+                    if response.status == 200:
+                        stats = await response.json()
+                        return stats
+        except Exception as e:
+            print(f"Error fetching stats: {e}")
+
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
         async with aiohttp.ClientSession() as session:
@@ -273,6 +365,12 @@ class FHeta(loader.Module):
                             module for module in modules
                             if query.lower() in module.get("description", "").lower()
                         ]
+
+                    if not found_modules:
+                        module_names = [module['name'] for module in modules if 'name' in module]
+                        closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
+                        if closest_matches:
+                            found_modules = [next(module for module in modules if module['name'] == closest_matches[0])]
 
                     return found_modules
 
@@ -328,4 +426,4 @@ class FHeta(loader.Module):
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
             commands=commands_section + inline_commands_section
-            )
+                                                 )
