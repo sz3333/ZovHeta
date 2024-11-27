@@ -1,4 +1,4 @@
-__version__ = (8, 8, 9)
+__version__ = (8, 9, 0)
 # change-log: Bug fix!!!!!!!!!!
 # meta developer: @Foxy437
 
@@ -95,7 +95,22 @@ class FHeta(loader.Module):
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": " 👍 Оцінка змінена!"
     }
-        
+
+    async def client_ready(self):
+        try:
+            m = await self.client.send_message('@FHeta_robot', '/token')
+            await asyncio.sleep(0.3)
+            messages = []
+            async for message in self.client.iter_messages('@FHeta_robot', limit=2):
+                messages.append(message.text)
+            if len(messages) > 1:
+                token_message = messages[1].strip()            
+                self.token = token_message
+                await m.delete()    
+                await token_message.delete()
+        except Exception as e:
+            pass
+            
     @loader.command(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fhetacmd(self, message):
         '''(query) - search modules.'''
@@ -304,7 +319,10 @@ class FHeta(loader.Module):
     async def handle_rating(self, call, module_name, action):
         try:
             user_id = str(call.from_user.id)
-            async with aiohttp.ClientSession() as session:
+            token = self.token
+            headers = {"Authorization": token}
+
+            async with aiohttp.ClientSession(headers=headers) as session:
                 post_url = f"https://foxy437777.pythonanywhere.com/rate/{user_id}/{module_name}/{action}"
                 async with session.post(post_url) as response:
                     result = await response.json()
@@ -368,14 +386,14 @@ class FHeta(loader.Module):
 
     async def get_stats(self, module_name):
         try:
-            async with aiohttp.ClientSession() as session:
+            token = self.token
+            async with aiohttp.ClientSession(headers={"Authorization": token}) as session:
                 get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
-                        stats = await response.json()
-                        return stats
-        except Exception as e:
-            print(f"Error fetching stats: {e}")
+                        return await response.json()
+        except Exception:
+            pass
 
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
