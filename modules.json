@@ -44210,20 +44210,23 @@
     },
     {
         "author": "@kmodules",
-        "description": "🎤 Модуль для преобразования текста в речь",
+        "banner": "https://i.ibb.co/Q6syvcG/5da73c45-b14f-4fe5-a8b6-85fc32a4b6c0.jpg",
+        "description": "Module for converting text to speech",
         "commands": [
             {
                 "name": "text2speech",
                 "inline": false,
                 "description": {
-                    "doc": "Преобразовать текст в речь (использование: .text2speech <текст> <alex/sophia>)"
+                    "ru_doc": "Преобразовать текст в речь (использование: .text2speech <текст> <alex/sophia>)",
+                    "en_doc": "Convert text to speech (usage: .text2speech <text> <alex/sophia>)"
                 }
             },
             {
                 "name": "t2s",
                 "inline": false,
                 "description": {
-                    "doc": "Алиас команды .text2speech, использование: .t2s <текст> <alex/sophia>"
+                    "ru_doc": "Алиас команды .text2speech (использование: .t2s <текст> <alex/sophia>)",
+                    "en_doc": "Alias for .text2speech command (usage: .t2s <text> <alex/sophia>)"
                 }
             }
         ],
@@ -44233,13 +44236,15 @@
     },
     {
         "author": "@kmodules",
-        "description": "🎬 Модуль для поиска видео на YouTube",
+        "banner": "https://i.ibb.co/84JDV0z/29a858b1-0c80-4c88-8042-9d7622ebc7f9.jpg",
+        "description": "Module for searching videos on YouTube",
         "commands": [
             {
                 "name": "ytsearch",
                 "inline": false,
                 "description": {
-                    "doc": "Поиск видео на YouTube. Использование: .ytsearch <запрос>"
+                    "ru_doc": "Поиск видео на YouTube. Использование: .ytsearch <запрос>",
+                    "en_doc": "Search for videos on YouTube. Usage: .ytsearch <query>"
                 }
             }
         ],
