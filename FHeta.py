@@ -1,5 +1,5 @@
-__version__ = (8, 8, 7)
-# change-log: Yes.
+__version__ = (8, 8, 8)
+# change-log: Bug fix!!!!!
 # meta developer: @Foxy437
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
@@ -370,7 +370,7 @@ class FHeta(loader.Module):
                         module_names = [module['name'] for module in modules if 'name' in module]
                         closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
                         if closest_matches:
-                            found_modules = [next(module for module in modules if module['name'] == closest_matches[0])]
+                            found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
                     return found_modules
 
