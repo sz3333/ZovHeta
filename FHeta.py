@@ -31,7 +31,7 @@ import difflib
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules! Upload your modules to FHeta via fheta_robot.t.me!'''
+    '''Module for searching modules!'''
     
     strings = {
         "name": "FHeta",
