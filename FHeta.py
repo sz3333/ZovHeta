@@ -1,4 +1,4 @@
-__version__ = (8, 9, 0)
+__version__ = (8, 9, 1)
 # meta developer: @Foxy437
 # change-log: Bug fix!!!!!!!!!!
 
@@ -98,7 +98,7 @@ class FHeta(loader.Module):
 
     async def client_ready(self):
         try:
-            m = await self.client.send_message('@FHeta_robot', '/token')
+            await self.client.send_message('@FHeta_robot', '/token')
             await asyncio.sleep(0.3)
             messages = []
             async for message in self.client.iter_messages('@FHeta_robot', limit=2):
@@ -106,8 +106,6 @@ class FHeta(loader.Module):
             if len(messages) > 1:
                 token_message = messages[1].strip()            
                 self.token = token_message
-                await m.delete()    
-                await token_message.delete()
         except Exception as e:
             pass
             
