@@ -1452,21 +1452,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Goida.py"
     },
     {
-        "description": "Гуглит что-то вместо тебя.",
-        "commands": [
-            {
-                "name": "g",
-                "inline": false,
-                "description": {
-                    "doc": "[запрос] - сгенерировать ссылку которая гуглит за тебя"
-                }
-            }
-        ],
-        "name": "Давай погуглим",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GoogleItForMe.py"
-    },
-    {
         "description": "🔍 Модуль для поиска в Google и красивого оформления результатов",
         "commands": [
             {
@@ -4137,6 +4122,21 @@
         "name": "ZOV Text Modifier",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/zovmod.py"
+    },
+    {
+        "description": "Гуглит что-то вместо тебя.",
+        "commands": [
+            {
+                "name": "g",
+                "inline": false,
+                "description": {
+                    "doc": "[запрос] - сгенерировать ссылку которая гуглит за тебя"
+                }
+            }
+        ],
+        "name": "Давай погуглим",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Давай_погуглим.py"
     },
     {
         "description": "Делает надстрочный текст",
@@ -44192,7 +44192,7 @@
                 "name": "telegraph",
                 "inline": false,
                 "description": {
-                    "doc": "Create article. Use:\n.telegraph <title> | <description>"
+                    "doc": "Create article. Use: .telegraph <title> | <description>"
                 }
             }
         ],
