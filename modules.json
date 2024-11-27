@@ -3483,6 +3483,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irissup.py"
     },
     {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "Kappa",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Kappa Uploader",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/kappamod.py"
+    },
+    {
         "description": "Модуль для пополнения казны (Gentle bar) by nanashi..?",
         "commands": [
             {
