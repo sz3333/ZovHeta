@@ -1,5 +1,5 @@
-__version__ = (8, 8, 8)
-# change-log: Bug fix!!!!!
+__version__ = (8, 8, 9)
+# change-log: Bug fix!!!!!!!!!!
 # meta developer: @Foxy437
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
@@ -50,7 +50,8 @@ class FHeta(loader.Module):
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
+        "che": " 👍 Rating has been changed!"
     }
 
     strings_ru = {
@@ -70,7 +71,8 @@ class FHeta(loader.Module):
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
+        "che": " 👍 Оценка изменена!"
     }
 
     strings_ua = {
@@ -85,12 +87,13 @@ class FHeta(loader.Module):
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
-        "sub": "👍 Оцінку подано!",
+        "sub": "👍 Оцінка відправлена!",
         "nope": "❌ Ви вже поставили одну оцінку на цей модуль, ви не можете поставити другу, ви можете лише змінити її!",
         "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>" ,
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>"
+        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
+        "che": " 👍 Оцінка змінена!"
     }
         
     @loader.command(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
@@ -307,19 +310,58 @@ class FHeta(loader.Module):
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
+                        get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
+                        async with session.get(get_url) as stats_response:
+                            if stats_response.status == 200:
+                                stats = await stats_response.json()
+                                likes_count = stats['likes']
+                                dislikes_count = stats['dislikes']
+
+                                new_buttons = [
+                                    [{
+                                        "text": f"👍 {likes_count}",
+                                        "callback": self.like_callback,
+                                        "args": (module_name, "like")
+                                    }, {
+                                        "text": f"👎 {dislikes_count}",
+                                        "callback": self.dislike_callback,
+                                        "args": (module_name, "dislike")
+                                    }]
+                                ]
+
+                                await call.edit(reply_markup=new_buttons)
+
                         await call.answer(self.strings["sub"], show_alert=True)
                         return
 
+                    elif "che" in result:
+                        get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
+                        async with session.get(get_url) as stats_response:
+                            if stats_response.status == 200:
+                                stats = await stats_response.json()
+                                likes_count = stats['likes']
+                                dislikes_count = stats['dislikes']
+
+                                new_buttons = [
+                                    [{
+                                        "text": f"👍 {likes_count}",
+                                        "callback": self.like_callback,
+                                        "args": (module_name, "like")
+                                    }, {
+                                        "text": f"👎 {dislikes_count}",
+                                        "callback": self.dislike_callback,
+                                        "args": (module_name, "dislike")
+                                    }]
+                                ]
+
+                                await call.edit(reply_markup=new_buttons)
+
+                        await call.answer(self.strings["che"], show_alert=True)
+                        return
+         
                     elif "pizda" in result:
                         await call.answer(self.strings["nope"], show_alert=True)
                         return
-
-            get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
-            async with session.get(get_url) as response:
-                if response.status == 200:
-                    stats = await response.json()
-                    likes_count = stats['likes']
-                    dislikes_count = stats['dislikes']
 
         except Exception as e:
             await call.answer(f"{e}", show_alert=True)
