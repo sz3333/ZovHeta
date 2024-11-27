@@ -44000,13 +44000,15 @@
     },
     {
         "author": "@kmodules",
-        "description": "Модуль для распознования текста из аудио.",
+        "banner": "https://i.ibb.co/7k4sJRR/5ad271ae-ec1b-4803-a714-5d6628ee8f50.jpg",
+        "description": "Module for speech-to-text conversion",
         "commands": [
             {
                 "name": "audio2text",
                 "inline": false,
                 "description": {
-                    "doc": "Преобразовать аудио в текст (ответом на аудиосообщение)"
+                    "ru_doc": "Преобразовать аудио в текст (ответом на аудиосообщение)",
+                    "en_doc": "Convert audio to text (reply to voice message)"
                 }
             }
         ],
