@@ -20455,6 +20455,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SummerTimer.py"
     },
     {
+        "author": "@Netfoll",
+        "description": "Simple System Info for Netfoll UserBot (And Hikka Support)",
+        "commands": [
+            {
+                "name": "sinfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать информацию о системе",
+                    "doc": "Show System"
+                }
+            }
+        ],
+        "name": "SysInfo",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SysInfo.py"
+    },
+    {
         "author": "@kmodules",
         "description": "Create article using telegra.ph",
         "commands": [
