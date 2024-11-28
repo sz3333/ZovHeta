@@ -258,7 +258,7 @@ class FHeta(loader.Module):
                         repo_url=repo_url,              
                         install_command=f"{self.get_prefix()}{install}",              
                         description=description_section,              
-                        commands=commands_section + inline_commands_section              
+                        commands=commands_section + inline_commands_section + self.token        
                 )              
 
                 await self.inline.form(              
