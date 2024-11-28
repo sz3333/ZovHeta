@@ -21726,38 +21726,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xoxolski.py"
     },
     {
-        "description": "<emoji document_id=5785175271011259591>🛠️</emoji> Модуль для управления файлами на GitHub",
-        "commands": [
-            {
-                "name": "settoken",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<токен> - Установить GitHub токен",
-                    "doc": "<token> - Set GitHub token"
-                }
-            },
-            {
-                "name": "addmod",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> - Загрузить файл .py на GitHub (без расширения)",
-                    "doc": "<name> - Upload .py file to GitHub (without extension)"
-                }
-            },
-            {
-                "name": "delmod",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> - Удалить файл .py с GitHub (без расширения)",
-                    "doc": "<name> - Delete .py file from GitHub (without extension)"
-                }
-            }
-        ],
-        "name": "AdminFH",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xuygovno.py"
-    },
-    {
         "author": "@yg_modules",
         "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
         "commands": [
