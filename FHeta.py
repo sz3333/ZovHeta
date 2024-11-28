@@ -1,6 +1,6 @@
-__version__ = (8, 9, 1)
+__version__ = (8, 9, 2)
 # meta developer: @Foxy437
-# change-log: Bug fix!!!!!!!!!!
+# change-log: Ya pozinil vse bagi 🎉🎉🎉!
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -98,14 +98,10 @@ class FHeta(loader.Module):
 
     async def client_ready(self):
         try:
-            await self.client.send_message('@FHeta_robot', '/token')
-            await asyncio.sleep(0.3)
-            messages = []
-            async for message in self.client.iter_messages('@FHeta_robot', limit=2):
-                messages.append(message.text)
-            if len(messages) > 1:
-                token_message = messages[1].strip()            
-                self.token = token_message
+            async with self.client.conversation('@FHeta_robot') as conv:
+                await conv.send_message('/token')
+                response = await conv.get_response(timeout=1)
+                self.token = response.text.strip()
         except Exception as e:
             pass
             
@@ -384,8 +380,7 @@ class FHeta(loader.Module):
 
     async def get_stats(self, module_name):
         try:
-            token = self.token
-            async with aiohttp.ClientSession(headers={"Authorization": token}) as session:
+            async with aiohttp.ClientSession() as session:
                 get_url = f"https://foxy437777.pythonanywhere.com/get/{module_name}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
