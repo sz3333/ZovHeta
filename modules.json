@@ -2513,6 +2513,31 @@
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/ymnow.py"
     },
     {
+        "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg&title=YMNow&description=Module%20for%20yandex%20music",
+        "pic": "https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg",
+        "description": "Module for yandex music. Based on SpotifyNow, YaNow and WakaTime. [BETA]",
+        "commands": [
+            {
+                "name": "ynow",
+                "inline": false,
+                "description": {
+                    "doc": "Get now playing track"
+                }
+            },
+            {
+                "name": "ybio",
+                "inline": false,
+                "description": {
+                    "doc": "Show now playing track in your bio"
+                }
+            }
+        ],
+        "name": "YmNowBeta",
+        "repo": "vsecoder/hikka_modules",
+        "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/ymnowbeta.py"
+    },
+    {
         "author": "@nalinormods",
         "description": "Simple @lavHost manager",
         "commands": [
