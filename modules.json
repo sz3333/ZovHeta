@@ -18333,6 +18333,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AuroraBull.py"
     },
     {
+        "description": "АвтоБан",
+        "commands": [
+            {
+                "name": "aban",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить/исключить юзера из автобана.\nИспользуй: .aban <@ или реплай> или <list>."
+                }
+            },
+            {
+                "name": "achat",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить чат в список для автобана.\nИспользуй: .achat."
+                }
+            }
+        ],
+        "name": "AutoBan",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoBan.py"
+    },
+    {
         "author": "@codrago_m, @ytkanelox",
         "description": "Модуль для автоматического нажатия на инлайн кнопки.",
         "commands": [
