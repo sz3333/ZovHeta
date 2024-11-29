@@ -18868,22 +18868,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Cikada.py"
     },
     {
-        "author": "@mqone",
-        "description": "округляет всё",
-        "commands": [
-            {
-                "name": "round",
-                "inline": false,
-                "description": {
-                    "doc": ".round <Reply to image/sticker or video/gif>"
-                }
-            }
-        ],
-        "name": "Circles",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Circles.py"
-    },
-    {
         "description": "🖼️ Копирует аватарку и информацию указанного пользователя на ваш аккаунт",
         "commands": [
             {
