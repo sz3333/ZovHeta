@@ -12751,7 +12751,7 @@
     },
     {
         "author": "@RemoveWoman",
-        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder. Если не работает то перепоставьте лайк на песню, работает только на лайкнутые песни! Создатель: @RemoveWoman [BETA]",
+        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder. Теперь работает со всеми треками! Создатель: @RemoveWoman [BETA]",
         "commands": [
             {
                 "name": "automsg",
