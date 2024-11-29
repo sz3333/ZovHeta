@@ -1,6 +1,6 @@
-__version__ = (8, 9, 2)
+__version__ = (8, 9, 3)
 # meta developer: @Foxy437
-# change-log: Ya pozinil vse bagi 🎉🎉🎉!
+# change-log: Bug fix.....
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -219,7 +219,7 @@ class FHeta(loader.Module):
                         }]              
                 ]              
 
-                if thumb_url:              
+                if len(result_text) <= 1020 and thumb_url:       
                         async with aiohttp.ClientSession() as session:              
                                 async with session.get(thumb_url) as response:              
                                         if response.status == 200:              
