@@ -16980,6 +16980,32 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/github.py"
     },
     {
+        "author": "@kmodules",
+        "banner": "https://i.ibb.co/gy5xbPd/d4be263e-63b5-42e1-ac2b-0dac067b0623.jpg",
+        "description": "Универсальный AFK модуль с поддержкой кастом сообщения и премиум статуса.",
+        "commands": [
+            {
+                "name": "afk",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[причина] [время] - Установить режим AFK",
+                    "doc": "[reason] [time] - Set AFK mode status"
+                }
+            },
+            {
+                "name": "unafk",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выйти из режима AFK",
+                    "doc": "Exit AFK mode"
+                }
+            }
+        ],
+        "name": "KsenonAFK",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenonafk.py"
+    },
+    {
         "author": "Ksenon | @MeKsenon",
         "description": "🤖 Модуль для работы с KsenonGPT и генерации изображений",
         "commands": [
