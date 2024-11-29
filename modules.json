@@ -44392,5 +44392,1056 @@
         "name": "ZIP",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/zip.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
+        "description": "Tired of people asking you questions? Let this module answer them for you!\nP.S. Author is not responsible for all your problems after using it.",
+        "commands": [
+            {
+                "name": "aga",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to answer the question."
+                }
+            }
+        ],
+        "name": "AGA!",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/AGA.py"
+    },
+    {
+        "pic": "https://img.icons8.com/fluency/344/color-palette.png",
+        "description": "Visualise colors by those formules.",
+        "commands": [
+            {
+                "name": "hpic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise HEX-coded color.\n.hpic <HEX-color>"
+                }
+            },
+            {
+                "name": "rpic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise RGB-coded color.\n.rpic <RGB-color>"
+                }
+            },
+            {
+                "name": "spic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise HSB-coded color.\n.spic <HSB-color>"
+                }
+            },
+            {
+                "name": "hdpic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise HEX-coded color with color code on it.\n.hdpic <HEX-color>"
+                }
+            },
+            {
+                "name": "rdpic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise RGB-coded color with color code on it.\n.rdpic (<RGB-color>)"
+                }
+            },
+            {
+                "name": "sdpic",
+                "inline": false,
+                "description": {
+                    "doc": "Visualise HSB-coded color with color code on it.\n.sdpic (<HSB-color>)"
+                }
+            }
+        ],
+        "name": "CoVis",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/CoVis.py"
+    },
+    {
+        "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
+        "description": "Keeps your chat clean from dices, darts and so on.",
+        "commands": [
+            {
+                "name": "deldice",
+                "inline": false,
+                "description": {
+                    "doc": "Set deleting dices in this chat on/off."
+                }
+            }
+        ],
+        "name": "Dicedestroyer",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Dicedestroyer.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/256/qr-code.png",
+        "description": "Decoding QR codes.",
+        "commands": [
+            {
+                "name": "scancode",
+                "inline": false,
+                "description": {
+                    "doc": "Scan a QR code."
+                }
+            }
+        ],
+        "name": "Entzifferer",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Entziferrer.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/256/musical-notes-emoji.png",
+        "description": "Get lyrics from Genius",
+        "commands": [
+            {
+                "name": "lyrics",
+                "inline": false,
+                "description": {
+                    "doc": "Search for lyrics"
+                }
+            }
+        ],
+        "name": "GLyrics",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/GLyrics.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
+        "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Google Translate,\nwith many useful features.",
+        "commands": [
+            {
+                "name": "autotranslate",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to add this chat to autotranslate list."
+                }
+            },
+            {
+                "name": "onboardh",
+                "inline": false,
+                "description": {
+                    "doc": "Syntax manual."
+                }
+            },
+            {
+                "name": "dllap",
+                "inline": false,
+                "description": {
+                    "doc": "Downloads languages name pack for entered language. Allows to search languages through .searchlang on your own language."
+                }
+            },
+            {
+                "name": "dellap",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes custom language pack."
+                }
+            },
+            {
+                "name": "deflang",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to switch basic translation language."
+                }
+            },
+            {
+                "name": "searchlang",
+                "inline": false,
+                "description": {
+                    "doc": "Searching language by code or name (RU and EN names avaliable — if you downloaded others, you may use them; first usage takes some time to configure database)."
+                }
+            },
+            {
+                "name": "silentmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between silent/unsilent mode."
+                }
+            },
+            {
+                "name": "subsmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch autotranslate subscription mode."
+                }
+            },
+            {
+                "name": "markmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between showing/unshowing «translated» mark."
+                }
+            },
+            {
+                "name": "atlist",
+                "inline": false,
+                "description": {
+                    "doc": "Sends a list of chats, in which autotranslate is turned on."
+                }
+            },
+            {
+                "name": "translate",
+                "inline": false,
+                "description": {
+                    "doc": "In fact, it translates. Use (start;final) to mark the start and end language of the translation.\nLeave the start language blank to define it automatically."
+                }
+            }
+        ],
+        "name": "GoogleTrans",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/GoogleTrans.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
+        "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Google Translate,\nwith many useful features.",
+        "commands": [
+            {
+                "name": "autotranslate",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to add this chat to autotranslate list."
+                }
+            },
+            {
+                "name": "onboardh",
+                "inline": false,
+                "description": {
+                    "doc": "Syntax manual."
+                }
+            },
+            {
+                "name": "dllap",
+                "inline": false,
+                "description": {
+                    "doc": "Downloads languages name pack for entered language. Allows to search languages through .searchlang on your own language."
+                }
+            },
+            {
+                "name": "dellap",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes custom language pack."
+                }
+            },
+            {
+                "name": "deflang",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to switch basic translation language."
+                }
+            },
+            {
+                "name": "searchlang",
+                "inline": false,
+                "description": {
+                    "doc": "Searching language by code or name (RU and EN names avaliable — if you downloaded others, you may use them; first usage takes some time to configure database)."
+                }
+            },
+            {
+                "name": "silentmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between silent/unsilent mode."
+                }
+            },
+            {
+                "name": "subsmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch autotranslate subscription mode."
+                }
+            },
+            {
+                "name": "markmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between showing/unshowing «translated» mark."
+                }
+            },
+            {
+                "name": "atlist",
+                "inline": false,
+                "description": {
+                    "doc": "Sends a list of chats, in which autotranslate is turned on."
+                }
+            },
+            {
+                "name": "translate",
+                "inline": false,
+                "description": {
+                    "doc": "In fact, it translates. Use (start;final) to mark the start and end language of the translation.\nLeave the start language blank to define it automatically."
+                }
+            }
+        ],
+        "name": "GoogleTrans",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/GoogleTransRR.py"
+    },
+    {
+        "author": "@mm_mods, original by Fl1yd",
+        "pic": "https://img.icons8.com/emoji/344/grapes-emoji.png",
+        "description": "Searching for random pic for your query. Original version/idea: Fl1yd.",
+        "commands": [
+            {
+                "name": "pic",
+                "inline": false,
+                "description": {
+                    "doc": "Searching for pics in Yandex."
+                }
+            },
+            {
+                "name": "dpic",
+                "inline": false,
+                "description": {
+                    "doc": "Searching for pics in DuckDuckGo."
+                }
+            }
+        ],
+        "name": "Grapes",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Grapes.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/calendar.png",
+        "description": "Holidays today.",
+        "commands": [
+            {
+                "name": "hollist",
+                "inline": false,
+                "description": {
+                    "doc": "Shows holiday list."
+                }
+            }
+        ],
+        "name": "Holidays",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Holidays.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "A little upgraded mod of module of @trololo_1.",
+        "commands": [
+            {
+                "name": "dobrp",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .dobrp (command) / (action) / (emoji) to add command. You can do it without emoji."
+                }
+            },
+            {
+                "name": "addrp",
+                "inline": false,
+                "description": {
+                    "doc": "dobrp alias."
+                }
+            },
+            {
+                "name": "delrp",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .delrp (command) to delete command.\nUse: .delrp all to delete all commands."
+                }
+            },
+            {
+                "name": "rptoggle",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rptoggle to turn on/off RP mode."
+                }
+            },
+            {
+                "name": "rplist",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rplist to see list of RP commands."
+                }
+            },
+            {
+                "name": "rpnick",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rpnick (nick) to change nick to user or yourself."
+                }
+            },
+            {
+                "name": "rpnicks",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rpnicks to see list of nicknames."
+                }
+            },
+            {
+                "name": "orpback",
+                "inline": false,
+                "description": {
+                    "doc": "Backup RP commands (old fashioned method).\nUse as reply to file with commands to load them or use without\narguments to back up them."
+                }
+            },
+            {
+                "name": "rpback",
+                "inline": false,
+                "description": {
+                    "doc": "New way to backup RP commands. Use as reply to file with commands to load them or use without arguments to back up them."
+                }
+            },
+            {
+                "name": "rpblock",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rpblock to add/remove exception (use in needed chat).\nUse: .rpblock list to see exceptions.\nUse .rpblock (id) to remove chat from exceptions."
+                }
+            },
+            {
+                "name": "useraccept",
+                "inline": false,
+                "description": {
+                    "doc": "Adding/removing users/chats, allowed to use your commands.\n.useraccept {id/reply}\nTo add chat use without reply and args. Use with -l (L) to see list of users/chats."
+                }
+            },
+            {
+                "name": "mmminfo",
+                "inline": false,
+                "description": {
+                    "doc": "Read mod information and updates."
+                }
+            },
+            {
+                "name": "rpchats",
+                "inline": false,
+                "description": {
+                    "doc": "Use: .rpchats to see list of chats where RP commands are allowed."
+                }
+            }
+        ],
+        "name": "LiMERPMod",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/LiMERPMod.py"
+    },
+    {
+        "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/scroll-emoji.png",
+        "description": "Helps to download mods to file and automaticaly make simple descriptions for your modules.",
+        "commands": [
+            {
+                "name": "setun",
+                "inline": false,
+                "description": {
+                    "doc": "Configurates GH username."
+                }
+            },
+            {
+                "name": "setrepo",
+                "inline": false,
+                "description": {
+                    "doc": "Configurates GH repo name."
+                }
+            },
+            {
+                "name": "descr",
+                "inline": false,
+                "description": {
+                    "doc": "Makes decription. Required format:\nemoji > name > description > base language code, language codes to translate automatocally, …"
+                }
+            },
+            {
+                "name": "topy",
+                "inline": false,
+                "description": {
+                    "doc": "Gets module from link."
+                }
+            }
+        ],
+        "name": "MHelp",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/MHelp.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
+        "description": "Protects your account from spam if anyone accessed your account/session.",
+        "commands": [
+            {
+                "name": "mmas",
+                "inline": false,
+                "description": {
+                    "doc": "Toggle the module."
+                }
+            },
+            {
+                "name": "mmaslimit",
+                "inline": false,
+                "description": {
+                    "doc": "Get or set the limit of same messages sent by you."
+                }
+            }
+        ],
+        "name": "MMAS",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/MMAS.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/sticker.png",
+        "description": "Send premium stickers without premium! Advanced version of Hikariatama's module.",
+        "commands": [
+            {
+                "name": "psa",
+                "inline": false,
+                "description": {
+                    "doc": "Sends from pack … sticker number … ."
+                }
+            },
+            {
+                "name": "psalist",
+                "inline": false,
+                "description": {
+                    "doc": "Packs list."
+                }
+            }
+        ],
+        "name": "PremiumStickers2",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/PremiumStickers.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/?size=512&id=17387&format=png",
+        "description": "Image generator based on Prodia API. No API key required.",
+        "commands": [
+            {
+                "name": "prodia",
+                "inline": false,
+                "description": {
+                    "doc": "Generate an image using Prodia API."
+                }
+            }
+        ],
+        "name": "Prodia IG",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Prodia.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/diamond-heart.png",
+        "description": "Reacts manager.",
+        "commands": [
+            {
+                "name": "rshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Add a shorthand for a reaction.\n/rshorthand <name> <emoji>"
+                }
+            },
+            {
+                "name": "dshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Delete a shorthand for a reaction.\n/dshorthand <name>"
+                }
+            },
+            {
+                "name": "shorthands",
+                "inline": false,
+                "description": {
+                    "doc": "Show all shorthands for reactions."
+                }
+            },
+            {
+                "name": "react",
+                "inline": false,
+                "description": {
+                    "doc": "React to a message.\n/react <name>/<emoji>"
+                }
+            }
+        ],
+        "name": "Reactor",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Reactor.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/344/mechanical-arm.png",
+        "description": "Group rights viewer and manager.",
+        "commands": [
+            {
+                "name": "switchib",
+                "inline": false,
+                "description": {
+                    "doc": "Switches inline bots using rights."
+                }
+            },
+            {
+                "name": "checkib",
+                "inline": false,
+                "description": {
+                    "doc": "Checks inline bots using rights."
+                }
+            },
+            {
+                "name": "switchsend",
+                "inline": false,
+                "description": {
+                    "doc": "Switches sending messages rights."
+                }
+            },
+            {
+                "name": "checksend",
+                "inline": false,
+                "description": {
+                    "doc": "Checks sending messages rights."
+                }
+            },
+            {
+                "name": "switchmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Switches media using rights."
+                }
+            },
+            {
+                "name": "checkmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Checks media using rights."
+                }
+            },
+            {
+                "name": "switchstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Switches stickers using rights."
+                }
+            },
+            {
+                "name": "checkstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Checks stickers using rights."
+                }
+            },
+            {
+                "name": "switchgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Switches gifs using rights."
+                }
+            },
+            {
+                "name": "checkgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Checks gifs using rights."
+                }
+            },
+            {
+                "name": "switchgames",
+                "inline": false,
+                "description": {
+                    "doc": "Switches games using rights."
+                }
+            },
+            {
+                "name": "checkgames",
+                "inline": false,
+                "description": {
+                    "doc": "Checks games using rights."
+                }
+            },
+            {
+                "name": "switchembed",
+                "inline": false,
+                "description": {
+                    "doc": "Switches links preview using rights."
+                }
+            },
+            {
+                "name": "checkembed",
+                "inline": false,
+                "description": {
+                    "doc": "Checks links preview using rights."
+                }
+            },
+            {
+                "name": "switchpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Switches polls using rights."
+                }
+            },
+            {
+                "name": "checkpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Checks polls using rights."
+                }
+            },
+            {
+                "name": "switchinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Switches info changing rights."
+                }
+            },
+            {
+                "name": "checkinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Checks info changing rights."
+                }
+            },
+            {
+                "name": "switchinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Switches invite rights."
+                }
+            },
+            {
+                "name": "checkinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Checks invite rights."
+                }
+            },
+            {
+                "name": "switchpin",
+                "inline": false,
+                "description": {
+                    "doc": "Switches pin message rights."
+                }
+            },
+            {
+                "name": "checkpin",
+                "inline": false,
+                "description": {
+                    "doc": "Checks pin message rights."
+                }
+            },
+            {
+                "name": "checkall",
+                "inline": false,
+                "description": {
+                    "doc": "Shows all rights."
+                }
+            },
+            {
+                "name": "checkadmins",
+                "inline": false,
+                "description": {
+                    "doc": "Shows admins."
+                }
+            }
+        ],
+        "name": "Rechte",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Rechte.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
+        "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Yandex Translate,\nwith many useful features (GoogleTrans, but rewritten). RR-version (Requirements Reduced).",
+        "commands": [
+            {
+                "name": "yautotranslate",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to add this chat to autotranslate list."
+                }
+            },
+            {
+                "name": "yonboardh",
+                "inline": false,
+                "description": {
+                    "doc": "Syntax manual."
+                }
+            },
+            {
+                "name": "ydllap",
+                "inline": false,
+                "description": {
+                    "doc": "Downloads languages name pack for entered language. Allows to search languages through .searchlang on your own language."
+                }
+            },
+            {
+                "name": "ydellap",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes custom language pack."
+                }
+            },
+            {
+                "name": "ydeflang",
+                "inline": false,
+                "description": {
+                    "doc": "Use language code with this command to switch basic translation language."
+                }
+            },
+            {
+                "name": "ysearchlang",
+                "inline": false,
+                "description": {
+                    "doc": "Searching language by code or name (RU and EN names avaliable — if you downloaded others, you may use them; first usage takes some time to configure database)."
+                }
+            },
+            {
+                "name": "ysilentmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between silent/unsilent mode."
+                }
+            },
+            {
+                "name": "ysubsmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch autotranslate subscription mode."
+                }
+            },
+            {
+                "name": "ymarkmode",
+                "inline": false,
+                "description": {
+                    "doc": "Use this command to switch between showing/unshowing «translated» mark."
+                }
+            },
+            {
+                "name": "yatlist",
+                "inline": false,
+                "description": {
+                    "doc": "Sends a list of chats, in which autotranslate is turned on."
+                }
+            },
+            {
+                "name": "ytranslate",
+                "inline": false,
+                "description": {
+                    "doc": "In fact, it translates. Use (start;final) to mark the start and end language of the translation.\nLeave the start language blank to define it automatically."
+                }
+            }
+        ],
+        "name": "YandexTrans",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/YandexTrans.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
+        "description": "Advanced Sending Automatisation Program",
+        "commands": [
+            {
+                "name": "ataskadd",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавить задачу в список задач.\nИспользование: .ataskadd <текст>\n[время]\n[адресат]",
+                    "de_doc": "Fügen Sie eine Aufgabe zur Aufgabenliste hinzu.\nVerwendung: .ataskadd <Text>\n[Zeit]\n[Empfänger]",
+                    "doc": "Add a task to the list of tasks.\nUsage: .ataskadd <text>\n[time]\n[target]"
+                }
+            },
+            {
+                "name": "ataskremove",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить задачу из списка задач.\nИспользование: .ataskremove <номер>",
+                    "de_doc": "Entfernen Sie eine Aufgabe aus der Aufgabenliste.\nVerwendung: .ataskremove <Nummer>",
+                    "doc": "Remove a task from the list of tasks.\nUsage: .ataskremove <number>"
+                }
+            },
+            {
+                "name": "atasklist",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать список задач.",
+                    "de_doc": "Zeigt die Liste der Aufgaben an.",
+                    "doc": "Show the list of tasks."
+                }
+            },
+            {
+                "name": "ataskclear",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очистить список задач.",
+                    "de_doc": "Löschen Sie die Liste der Aufgaben.",
+                    "doc": "Clear the list of tasks."
+                }
+            },
+            {
+                "name": "ataskpause",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Приостановить задачу.\nИспользование: .ataskpause <номер>\nБез аргументов — приостановить все задачи.",
+                    "de_doc": "Aufgabe pausieren.\nVerwendung: .ataskpause <Nummer>\nOhne Argumente - alle Aufgaben pausieren.",
+                    "doc": "Pause a task.\nUsage: .ataskpause <number>\nIf no arguments — pause all tasks."
+                }
+            },
+            {
+                "name": "ataskresume",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Возобновить задачу.\nИспользование: .ataskresume <номер>",
+                    "de_doc": "Aufgabe fortsetzen.\nVerwendung: .ataskresume <Nummer>",
+                    "doc": "Resume a task.\nUsage: .ataskresume <number>"
+                }
+            },
+            {
+                "name": "ataskexec",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выполнить задачу сейчас и перепланировать согласно интервалу.\nИспользование: .ataskexec <номер>",
+                    "de_doc": "Führen Sie die Aufgabe jetzt aus und planen Sie sie entsprechend dem Intervall neu.\nVerwendung: .ataskexec <Nummer>",
+                    "doc": "Execute a task right now and replan according to the interval.\nUsage: .ataskexec <number>"
+                }
+            },
+            {
+                "name": "ataskreplan",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Изменить интервал задачи.\nИспользование: .ataskreplan <номер> <время>",
+                    "de_doc": "Ändern Sie das Intervall der Aufgabe.\nVerwendung: .ataskreplan <Nummer> <Zeit>",
+                    "doc": "Change the interval of the task.\nUsage: .ataskreplan <number>"
+                }
+            },
+            {
+                "name": "adeftint",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить интервал по умолчанию.\nИспользование: .adeftint <время>",
+                    "de_doc": "Setzen Sie das Standardintervall.\nVerwendung: .adeftint <Zeit>",
+                    "doc": "Set the default interval.\nUsage: .ataskdeftint <time>"
+                }
+            },
+            {
+                "name": "atz",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Явно установить часовой пояс, если время отображается неверно.\nИспользование: .atz <часовой пояс>",
+                    "de_doc": "Legen Sie die Zeitzone explizit fest, wenn die Zeit falsch angezeigt wird.\nVerwendung: .atz <Zeitzone>",
+                    "doc": "Set the timezone explicitly if time displayed wrong.\nUsage: .atz <timezone>"
+                }
+            }
+        ],
+        "name": "ASAP",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/asap.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
+        "description": "Module to manage your miyahost.",
+        "commands": [
+            {
+                "name": "mhinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Get info about miyahost user."
+                }
+            },
+            {
+                "name": "mhstart",
+                "inline": false,
+                "description": {
+                    "doc": "Start miyahost container."
+                }
+            },
+            {
+                "name": "mhstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop miyahost container."
+                }
+            },
+            {
+                "name": "mhrestart",
+                "inline": false,
+                "description": {
+                    "doc": "Restart miyahost container."
+                }
+            }
+        ],
+        "name": "miyahost.manager",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/miyahost.py"
+    },
+    {
+        "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/256/locked-with-pen.png",
+        "description": "Work with VersteckAPI — download modules if you are common user, grant permissions for downloading if you are\ndeveloper!",
+        "commands": [
+            {
+                "name": "newv",
+                "inline": false,
+                "description": {
+                    "doc": "Create new Versteck."
+                }
+            },
+            {
+                "name": "delv",
+                "inline": false,
+                "description": {
+                    "doc": "Delete Versteck."
+                }
+            },
+            {
+                "name": "newi",
+                "inline": false,
+                "description": {
+                    "doc": "Create new in-token."
+                }
+            },
+            {
+                "name": "deli",
+                "inline": false,
+                "description": {
+                    "doc": "Delete in-token."
+                }
+            },
+            {
+                "name": "testvconn",
+                "inline": false,
+                "description": {
+                    "doc": "Test Versteck connection."
+                }
+            },
+            {
+                "name": "vml",
+                "inline": false,
+                "description": {
+                    "doc": "Download module from Versteck."
+                }
+            },
+            {
+                "name": "updateot",
+                "inline": false,
+                "description": {
+                    "doc": "Update out-token."
+                }
+            },
+            {
+                "name": "vcachefetch",
+                "inline": false,
+                "description": {
+                    "doc": "Fetch local cache and return a file if found."
+                }
+            },
+            {
+                "name": "vcacheclear",
+                "inline": false,
+                "description": {
+                    "doc": "Clear local cache."
+                }
+            }
+        ],
+        "name": "Versteck",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/versteck.py"
     }
 ]
