@@ -45458,5 +45458,214 @@
         "name": "Versteck",
         "repo": "GD-alt/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/versteck.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Модуль Хикки с искусственным интеллектом, основанный на Groq.com\n\nПодробная инструкция по установке и настройке:\nhttps://telegra.ph/II-Assistent-dlya-Hikki-08-07\n\nПо всем вопросам писать в ЛС @EPEMEN\nFor @mqone w/  ❤",
+        "commands": [
+            {
+                "name": "ask",
+                "inline": false,
+                "description": {
+                    "doc": "Задать вопрос ИИ"
+                }
+            }
+        ],
+        "name": "AI Hikka",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/AIHikka.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Модуль с анекдотами",
+        "commands": [
+            {
+                "name": "anek",
+                "inline": false,
+                "description": {
+                    "doc": "Получение рандомных шуток\n\nКакие типы шуток можно получить (использовать аргумент):\n1 - Анекдот\n2 - Рассказы\n3 - Стишки\n4 - Афоризмы\n5 - Цитаты\n6 - Тосты\n8 - Статусы\n11 - Анекдот (18+)\n12 - Рассказы (18+)\n13 - Стишки (18+)\n14 - Афоризмы (18+)\n15 - Цитаты (18+)\n16 - Тосты (18+)\n18 - Статусы (18+)"
+                }
+            }
+        ],
+        "name": "Anek",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/Aneki.py"
+    },
+    {
+        "author": "@eremod",
+        "commands": [
+            {
+                "name": "fmus",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[название] - Поиск трека по названию",
+                    "doc": "[name] - Search for a track by title"
+                }
+            },
+            {
+                "name": "lmus",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Отправить трек, что сейчас играет",
+                    "doc": "Send the track that's playing right now"
+                }
+            },
+            {
+                "name": "togglestatus",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Включение/Выключение трансляции музыки в БИО",
+                    "doc": "Enable/disable music broadcasting in BIO"
+                }
+            },
+            {
+                "name": "lstats",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Показать статистику прослушиваний",
+                    "doc": "Show listening statistics"
+                }
+            }
+        ],
+        "name": "BIOAudio",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/BIOAudio.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Скачивание видео из ТикТока",
+        "commands": [
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Скачивает ТикТок Видео",
+                    "doc": "Download TikTok video"
+                }
+            },
+            {
+                "name": "ttm",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Скачивает ТикТок Музыку",
+                    "doc": "Download TikTok music"
+                }
+            }
+        ],
+        "name": "LazyTikTok",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/LazyTikTok.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Advanced YouTube Media Downloader using @Gozilla_bot",
+        "commands": [
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "ytm",
+                "inline": false,
+                "description": {
+                    "doc": "[url] - Download audio from YouTube"
+                }
+            }
+        ],
+        "name": "LazyYouTube",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/LazyYouTube.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Генерирует пароли. Да.",
+        "commands": [
+            {
+                "name": "pgen",
+                "inline": false,
+                "description": {
+                    "doc": "длина — генерирует пароль на заданную длину символов. Например: .pgen 7"
+                }
+            }
+        ],
+        "name": "PassGenerator",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/Passgen.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "🤖 YaKeyGPT - автоматическое исправление сообщений",
+        "commands": [
+            {
+                "name": "qfix",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответ/текст> — Быстро исправляет текст",
+                    "doc": "<answer/text> — Quickly corrects text."
+                }
+            },
+            {
+                "name": "qrewrite",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответ/текст> — Быстро перепишет текст",
+                    "doc": "<answer/text> - Quikly rewrite text."
+                }
+            },
+            {
+                "name": "qemoji",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответ/текст> — Добавит эмодзи на твой текст😊",
+                    "doc": "<answer/text> — Quickly adds an emoji to text😊"
+                }
+            },
+            {
+                "name": "yaset",
+                "inline": false,
+                "description": {
+                    "ru_doc": " — Включает или выключает методы исправления.",
+                    "doc": "— Enables or disables correction methods."
+                }
+            }
+        ],
+        "name": "YaKeyGPT",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/YaKeyGPT.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Модуль для замены гласных на 'i'",
+        "commands": [
+            {
+                "name": "crib",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Меняет гласные на i (команда на вкл и выкл)",
+                    "doc": "Включает или выключает замену"
+                }
+            }
+        ],
+        "name": "Crib",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/crib.py"
+    },
+    {
+        "author": "@eremod",
+        "description": "Хуификатор телеграмма",
+        "commands": [
+            {
+                "name": "huify",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[текст/ответ] — Хуифицирует сообщение",
+                    "doc": "[text/reply] — huificate message"
+                }
+            }
+        ],
+        "name": "Huificinator",
+        "repo": "eremeyko/ne_Hikka",
+        "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/huificinator.py"
     }
 ]
