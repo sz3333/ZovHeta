@@ -11434,6 +11434,43 @@
     },
     {
         "author": "@shrimp_mod",
+        "description": "Модуль АФК который меняет эмодзи статус (онли Прем) и всякая другая всячина",
+        "commands": [
+            {
+                "name": "afklist",
+                "inline": false,
+                "description": {
+                    "doc": "Показать черный список чатов"
+                }
+            },
+            {
+                "name": "afkadd",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить текущий чат в черный список"
+                }
+            },
+            {
+                "name": "afkdel",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить текущий чат из черного списка"
+                }
+            },
+            {
+                "name": "afk",
+                "inline": false,
+                "description": {
+                    "doc": "[причина] [время] - включить/выключить АФК режим"
+                }
+            }
+        ],
+        "name": "UnknownAFK",
+        "repo": "Daniel1236n29/Modules_hikka",
+        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/unknownafk.py"
+    },
+    {
+        "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
             {
