@@ -17029,6 +17029,22 @@
                     "ru_doc": "Выйти из режима AFK",
                     "doc": "Exit AFK mode"
                 }
+            },
+            {
+                "name": "ignorusers",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<кол-во> <минуты> - Установить ограничение сообщений в чате",
+                    "doc": "<count> <minutes> - Set message limit per chat"
+                }
+            },
+            {
+                "name": "timeafk",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<минуты> <макс.сообщений> - Установить временной лимит сообщений",
+                    "doc": "<minutes> <max_msgs> - Set time-based message limits"
+                }
             }
         ],
         "name": "KsenonAFK",
