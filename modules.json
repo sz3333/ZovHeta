@@ -21966,29 +21966,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_ocr.py"
     },
     {
-        "author": "@yg_modules",
-        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
-        "commands": [
-            {
-                "name": "prem",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
-                }
-            },
-            {
-                "name": "folder",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл добавление каналов на которые подписался модуль в папку"
-                }
-            }
-        ],
-        "name": "yg_prem",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_prem.py"
-    },
-    {
         "commands": [
             {
                 "name": "zov",
