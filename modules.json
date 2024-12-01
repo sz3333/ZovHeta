@@ -10672,13 +10672,12 @@
     },
     {
         "author": "@biokezu",
-        "description": "Модуль для взаимодействия с @send",
         "commands": [
             {
                 "name": "wallet",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет команду /wallet в @send"
+                    "doc": "Отправляет ваш баланс в @send"
                 }
             }
         ],
