@@ -7537,6 +7537,37 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/evalaliases.png?raw=true",
+        "description": "Алиаси для eval",
+        "commands": [
+            {
+                "name": "addea",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить алиас"
+                }
+            },
+            {
+                "name": "removea",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить алиас"
+                }
+            },
+            {
+                "name": "getea",
+                "inline": false,
+                "description": {
+                    "doc": "Получить список алиасов для Eval"
+                }
+            }
+        ],
+        "name": "EvalAliases",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/evalaliases.py"
+    },
+    {
+        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/executor.png?raw=true",
         "description": "Выполнение python кода",
         "commands": [
