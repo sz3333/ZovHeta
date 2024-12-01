@@ -21840,13 +21840,27 @@
     },
     {
         "author": "@murpiz",
-        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder. Создатель: @murpiz [BETA]",
+        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
+            {
+                "name": "yafind",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для поиска трека на Яндекс.Музыке."
+                }
+            },
             {
                 "name": "yanow",
                 "inline": false,
                 "description": {
-                    "doc": "Показывает что вы сейчас слушаете на яндекс музыке."
+                    "doc": "Показывает что вы сейчас слушаете."
+                }
+            },
+            {
+                "name": "yalike",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить проигрываемый трек в плейлист 'Мне нравится"
                 }
             }
         ],
