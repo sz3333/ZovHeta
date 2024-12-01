@@ -21830,6 +21830,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xoxolski.py"
     },
     {
+        "author": "@murpiz",
+        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder. Создатель: @murpiz [BETA]",
+        "commands": [
+            {
+                "name": "yanow",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает что вы сейчас слушаете на яндекс музыке."
+                }
+            }
+        ],
+        "name": "YaMu",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yamu.py"
+    },
+    {
         "author": "@yg_modules",
         "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
         "commands": [
