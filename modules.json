@@ -2478,6 +2478,13 @@
                 "description": {
                     "doc": "Show now playing track in your bio"
                 }
+            },
+            {
+                "name": "automsg",
+                "inline": false,
+                "description": {
+                    "doc": "Toggle YandexMusic widgets' updates"
+                }
             }
         ],
         "name": "YmNow",
