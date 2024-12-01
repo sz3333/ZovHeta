@@ -175,6 +175,66 @@
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/CheckSpamBan.py"
     },
     {
+        "author": "@hikka_mods",
+        "description": "Module for reuploading files to envs.sh",
+        "commands": [
+            {
+                "name": "env",
+                "inline": false,
+                "description": {
+                    "doc": "Reupload to envs.sh."
+                }
+            }
+        ],
+        "name": "EnvsSH",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/EnvsSH.py"
+    },
+    {
+        "author": "@hikka_mods",
+        "description": "Module for simulating various actions in chat",
+        "commands": [
+            {
+                "name": "ft",
+                "inline": false,
+                "description": {
+                    "doc": "<seconds> - Simulates typing in chat for the specified number of seconds."
+                }
+            },
+            {
+                "name": "ff",
+                "inline": false,
+                "description": {
+                    "doc": "<seconds> - Simulates sending a file."
+                }
+            },
+            {
+                "name": "fg",
+                "inline": false,
+                "description": {
+                    "doc": "<seconds> - Simulates recording a voice message."
+                }
+            },
+            {
+                "name": "fvg",
+                "inline": false,
+                "description": {
+                    "doc": "<seconds> - Simulates recording a video message."
+                }
+            },
+            {
+                "name": "fpg",
+                "inline": false,
+                "description": {
+                    "doc": "<seconds> - Simulates playing a game."
+                }
+            }
+        ],
+        "name": "FakeActions",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/FakeActions.py"
+    },
+    {
         "author": "@hikka_mods, @nervousmods",
         "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
         "commands": [
