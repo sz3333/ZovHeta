@@ -48663,5 +48663,22 @@
         "name": "DevGPT",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
+    },
+    {
+        "author": "@djmodules",
+        "banner": "https://kappa.lol/--YNb",
+        "description": "Загрузка на аналог 0x.at",
+        "commands": [
+            {
+                "name": "Load",
+                "inline": false,
+                "description": {
+                    "doc": "upload file"
+                }
+            }
+        ],
+        "name": "Uploader",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/Uploader.py"
     }
 ]
