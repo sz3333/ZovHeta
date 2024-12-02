@@ -45796,5 +45796,28 @@
         "name": "Huificinator",
         "repo": "eremeyko/ne_Hikka",
         "install": "dlm https://raw.githubusercontent.com/eremeyko/ne_Hikka/master/huificinator.py"
+    },
+    {
+        "author": "@RUIS_VlP, @matubuntu",
+        "description": "Создает текстовый файл, отправляет его в Telegram, а затем удаляет.",
+        "commands": [
+            {
+                "name": "ttf",
+                "inline": false,
+                "description": {
+                    "doc": "Создает текстовый файл с заданным именем и расширением, \nзаписывает в него текст, отправляет его в Telegram и удаляет с диска.\n\nПример:\n.ttf название.txt\nТекст для файла/<reply>"
+                }
+            },
+            {
+                "name": "ttf_noreply",
+                "inline": false,
+                "description": {
+                    "doc": "Создает текстовый файл с заданным именем и расширением, \nзаписывает в него текст, отправляет его в Telegram и удаляет с диска.\n\nПример:\n.ttf название.txt\nТекст для файла"
+                }
+            }
+        ],
+        "name": "TTF",
+        "repo": "Neotele-Studio/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/Neotele-Studio/hikkamods/main/text_to_file.py"
     }
 ]
