@@ -17121,6 +17121,7 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenonafk.py"
     },
     {
+        "author": "Ksenon | @MeKsenon",
         "description": "🤖 Module for working with KsenonGPT and image generation",
         "commands": [
             {
