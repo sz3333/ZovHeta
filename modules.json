@@ -18566,29 +18566,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
-        "author": "@yg_modules",
-        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
-        "commands": [
-            {
-                "name": "prem",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
-                }
-            },
-            {
-                "name": "folder",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл добавление каналов на которые подписался модуль в папку"
-                }
-            }
-        ],
-        "name": "AutoPremium",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoPremium.py"
-    },
-    {
         "author": "@eremod",
         "commands": [
             {
@@ -21899,36 +21876,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xoxolski.py"
     },
     {
-        "author": "@murpiz",
-        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
-        "commands": [
-            {
-                "name": "yafind",
-                "inline": false,
-                "description": {
-                    "doc": "Команда для поиска трека на Яндекс.Музыке."
-                }
-            },
-            {
-                "name": "yanow",
-                "inline": false,
-                "description": {
-                    "doc": "Показывает что вы сейчас слушаете."
-                }
-            },
-            {
-                "name": "yalike",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить проигрываемый трек в плейлист 'Мне нравится"
-                }
-            }
-        ],
-        "name": "YaMu",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yamu.py"
-    },
-    {
         "author": "@yg_modules",
         "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
         "commands": [
@@ -21950,35 +21897,6 @@
         "name": "yg_balance",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_balance.py"
-    },
-    {
-        "description": "Активатор чеков @send (@CryptoBot)",
-        "commands": [
-            {
-                "name": "checks",
-                "inline": false,
-                "description": {
-                    "doc": "проверить работоспособность"
-                }
-            },
-            {
-                "name": "yglogs",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл отправку логов"
-                }
-            },
-            {
-                "name": "ygls",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл активацию чеков отправленных в личке"
-                }
-            }
-        ],
-        "name": "yg_checks",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/yg_checks.py"
     },
     {
         "description": "Модуль для конвертации видео в кружочек",
@@ -45819,5 +45737,2989 @@
         "name": "TTF",
         "repo": "Neotele-Studio/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/Neotele-Studio/hikkamods/main/text_to_file.py"
+    },
+    {
+        "author": "@RUIS_VlP",
+        "description": "Длинные слова лучше переносить на другую строчку. Пример:\n`.figlet Hello\nWorld!`\nЕсли написать в одну строчку, то слово не уместится в одно сообщение ",
+        "commands": [
+            {
+                "name": "figlet",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - делает текст большим"
+                }
+            }
+        ],
+        "name": "Figlet",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Figlet.py"
+    },
+    {
+        "author": "@RUIS_VlP",
+        "description": "Автофарм в ирисе",
+        "commands": [
+            {
+                "name": "блэкстарт",
+                "inline": false,
+                "description": {
+                    "doc": "Завести таймеры в Iris Black Diamond"
+                }
+            }
+        ],
+        "name": "IrisAutoFarm",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/IrisAutoFarm.py"
+    },
+    {
+        "author": "@RUIS_VlP",
+        "description": "Загрузка файлов на SFTP",
+        "commands": [
+            {
+                "name": "sftp",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> - загружает файл на SFPT"
+                }
+            }
+        ],
+        "name": "SFTPUploader",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/SFTPUploader.py"
+    },
+    {
+        "author": "@RUIS_VlP",
+        "description": "Саппорт для лс",
+        "commands": [
+            {
+                "name": "команды",
+                "inline": false,
+                "description": {
+                    "doc": "Команды Iris Support Bot"
+                }
+            },
+            {
+                "name": "перевод",
+                "inline": false,
+                "description": {
+                    "doc": "перевод текста с помощью Iris Support Bot"
+                }
+            },
+            {
+                "name": "раскладка",
+                "inline": false,
+                "description": {
+                    "doc": "меняет раскладку текста с помощью Iris Support Bot"
+                }
+            },
+            {
+                "name": "длина",
+                "inline": false,
+                "description": {
+                    "doc": "перевод текста с помощью Iris Support Bot"
+                }
+            },
+            {
+                "name": "сап",
+                "inline": false,
+                "description": {
+                    "doc": "передает введенную команду в Iris Support Bot"
+                }
+            }
+        ],
+        "name": "irissup",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/irissup%20(1).py"
+    },
+    {
+        "author": "@qShad0, @RUIS_VlP",
+        "description": "Модуль для поиска в интернете",
+        "commands": [
+            {
+                "name": "search",
+                "inline": false,
+                "description": {
+                    "doc": "<text> / <reply> - 🔍 Поиск в Интернете"
+                }
+            },
+            {
+                "name": "search",
+                "inline": true,
+                "description": {
+                    "doc": "<text> - 🔍 Поиск в Интернете"
+                }
+            }
+        ],
+        "name": "search",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/search.py"
+    },
+    {
+        "author": "@RUIS_VlP, @matubuntu",
+        "description": "Создает текстовый файл, отправляет его в Telegram, а затем удаляет.",
+        "commands": [
+            {
+                "name": "ttf",
+                "inline": false,
+                "description": {
+                    "doc": "Создает текстовый файл с заданным именем и расширением, \nзаписывает в него текст, отправляет его в Telegram и удаляет с диска.\n\nПример:\n.ttf название.txt\nТекст для файла/<reply>"
+                }
+            },
+            {
+                "name": "ttf_noreply",
+                "inline": false,
+                "description": {
+                    "doc": "Создает текстовый файл с заданным именем и расширением, \nзаписывает в него текст, отправляет его в Telegram и удаляет с диска.\n\nПример:\n.ttf название.txt\nТекст для файла"
+                }
+            }
+        ],
+        "name": "TTF",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/ttf.py"
+    },
+    {
+        "description": "Делает надстрочный текст",
+        "commands": [
+            {
+                "name": "up",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - сделать верхний шрифт"
+                }
+            }
+        ],
+        "name": "Надстрочка",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Надстрочка.py"
+    },
+    {
+        "author": "@yg_modules, @D4n13l3k00",
+        "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
+        "commands": [
+            {
+                "name": "cu",
+                "inline": false,
+                "description": {
+                    "doc": ".cu <s> <a> <reply/@username>\n<s> - Скрытый режим\n<a> - Удалить ваши аватарки\nАргументы после юзера не указывайте, не скушает\nПримеры:\n.cu s @user/reply\n.cu a @user/reply\n.cu s a @user/reply"
+                }
+            }
+        ],
+        "name": "CopyUser",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_CopyUser_fix.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для того чтобы узнавать информацию об цене токенов которые числятся в базе данных FCK Analytics",
+        "commands": [
+            {
+                "name": "price",
+                "inline": false,
+                "description": {
+                    "doc": "<name> получить информацию о токене"
+                }
+            }
+        ],
+        "name": "yg_TokensPrice",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_TokensPrice.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Генератор TON кошельков",
+        "commands": [
+            {
+                "name": "gen",
+                "inline": false,
+                "description": {
+                    "doc": "<count> генерирует один или несколько TON кошельков"
+                }
+            }
+        ],
+        "name": "yg_TonWalletGenerator",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_TonWalletGenerator.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для просмотра балансов в @CryptoBot и @wallet",
+        "commands": [
+            {
+                "name": "bc",
+                "inline": false,
+                "description": {
+                    "doc": "проверить баланс в @CryptoBot"
+                }
+            },
+            {
+                "name": "bw",
+                "inline": false,
+                "description": {
+                    "doc": "проверить баланс в @wallet"
+                }
+            }
+        ],
+        "name": "yg_balance",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_balance.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Encode and decode text using Base64",
+        "commands": [
+            {
+                "name": "encode",
+                "inline": false,
+                "description": {
+                    "doc": "<text> encode the provided text using Base64"
+                }
+            },
+            {
+                "name": "decode",
+                "inline": false,
+                "description": {
+                    "doc": "<text> decode the provided Base64 encoded text"
+                }
+            }
+        ],
+        "name": "yg_base64",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_base64.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Играет в игры @blum, автоматически забирает ежедневные награды и токены с рефки, а также автофарминг токенов",
+        "commands": [
+            {
+                "name": "play",
+                "inline": false,
+                "description": {
+                    "doc": "<кол-во> - играет на указанное кол-во игр или на все билеты, если кол-во не указано"
+                }
+            },
+            {
+                "name": "balance",
+                "inline": false,
+                "description": {
+                    "doc": "показывает баланс из @blum"
+                }
+            },
+            {
+                "name": "blum",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл скрипт"
+                }
+            },
+            {
+                "name": "autoplay",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматическую игру на все билеты"
+                }
+            },
+            {
+                "name": "autofarm",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматический фарм токенов"
+                }
+            },
+            {
+                "name": "autoclaim",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматический клейм ежедневной награды"
+                }
+            },
+            {
+                "name": "bref",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматический клейм токенов с рефки"
+                }
+            }
+        ],
+        "name": "yg_blum",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_blum.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Решает капчу криптобота (если вы не прем юзер)",
+        "commands": [
+            {
+                "name": "captcha",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл решалку капчи"
+                }
+            }
+        ],
+        "name": "yg_captcha",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_captcha.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для отображения ID чатов, каналов или пользователей",
+        "commands": [
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "<reply>/@username - узнать ID юзера (на сообщение которого вы ответили), указанного юзера или текущего чата"
+                }
+            }
+        ],
+        "name": "yg_chatid",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_chatid.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Посмотреть информацию о чате.",
+        "commands": [
+            {
+                "name": "chatinfo",
+                "inline": false,
+                "description": {
+                    "doc": "<юзернейм чата> или <айди чата> или просто команда в том чате где ты находишься"
+                }
+            }
+        ],
+        "name": "yg_chatinfo",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_chatinfo.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Активатор чеков @send (@CryptoBot)",
+        "commands": [
+            {
+                "name": "checks",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл активатор"
+                }
+            },
+            {
+                "name": "yglogs",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл отправку логов"
+                }
+            },
+            {
+                "name": "ygls",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл активацию чеков отправленных в личке"
+                }
+            },
+            {
+                "name": "subscribe",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл авто-подписку"
+                }
+            },
+            {
+                "name": "unsubscribe",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл авто-отписку"
+                }
+            }
+        ],
+        "name": "yg_checks",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_checks.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для конвертации видео в кружочек",
+        "commands": [
+            {
+                "name": "kr",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to video> конвертировать видео в кружочек"
+                }
+            }
+        ],
+        "name": "yg_circle",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_circle.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для того чтобы узнать курс крипты/фиата",
+        "commands": [
+            {
+                "name": "монета",
+                "inline": false,
+                "description": {
+                    "doc": "<название> выбрать крипту по умолчанию"
+                }
+            },
+            {
+                "name": "курс",
+                "inline": false,
+                "description": {
+                    "doc": "<кол-во> <название монеты> смотреть курс"
+                }
+            }
+        ],
+        "name": "yg_crypto",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_crypto.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для подкрутки эмодзи игр",
+        "commands": [
+            {
+                "name": "dice",
+                "inline": false,
+                "description": {
+                    "doc": "<айди чата> <эмодзи> <цифра> <кол-во>"
+                }
+            }
+        ],
+        "name": "yg_dice",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_dice.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Completes tasks and receives daily check-ins in @dogshouse_bot",
+        "commands": [
+            {
+                "name": "bdog",
+                "inline": false,
+                "description": {
+                    "doc": "show your balance, streak, and time remaining until the next check-in in @dogshouse_bot"
+                }
+            },
+            {
+                "name": "dogs",
+                "inline": false,
+                "description": {
+                    "doc": "on/off running script"
+                }
+            }
+        ],
+        "name": "yg_dogs",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_dogs.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для имитации загрузки",
+        "commands": [
+            {
+                "name": "fla",
+                "inline": false,
+                "description": {
+                    "doc": "<text> имитировать процесс загрузки (prem emoji on)"
+                }
+            },
+            {
+                "name": "fl",
+                "inline": false,
+                "description": {
+                    "doc": "<text> имитировать процесс загрузки (no emoji)"
+                }
+            }
+        ],
+        "name": "yg_fakeload",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_fakeload.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах @CryptoBot (неактуально)",
+        "commands": [
+            {
+                "name": "gws",
+                "inline": false,
+                "description": {
+                    "doc": "проверить работоспособность"
+                }
+            },
+            {
+                "name": "gwslogs",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл отправку логов"
+                }
+            }
+        ],
+        "name": "yg_giveaways",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_giveaways.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах @GiveShareBot",
+        "commands": [
+            {
+                "name": "giveshare",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматическое участие в розыгрышах"
+                }
+            }
+        ],
+        "name": "yg_giveshare",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_giveshare.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль заметок (для каждого чата отдельный список)",
+        "commands": [
+            {
+                "name": "note",
+                "inline": false,
+                "description": {
+                    "doc": "<текст> добавить новую заметку"
+                }
+            },
+            {
+                "name": "notes",
+                "inline": false,
+                "description": {
+                    "doc": "показать список заметок"
+                }
+            },
+            {
+                "name": "delnote",
+                "inline": false,
+                "description": {
+                    "doc": "<# заметки> удалить заметку"
+                }
+            },
+            {
+                "name": "clearnotes",
+                "inline": false,
+                "description": {
+                    "doc": "очистить все заметки"
+                }
+            }
+        ],
+        "name": "yg_notes",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_notes.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для распознавания текста на изображении и перевода",
+        "commands": [
+            {
+                "name": "ocr",
+                "inline": false,
+                "description": {
+                    "doc": "распознать текст на изображении"
+                }
+            },
+            {
+                "name": "trocr",
+                "inline": false,
+                "description": {
+                    "doc": "распознать и перевести текст на изображении"
+                }
+            }
+        ],
+        "name": "yg_ocr",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_ocr.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
+        "commands": [
+            {
+                "name": "prem",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
+                }
+            },
+            {
+                "name": "folder",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл добавление каналов на которые подписался модуль в папку"
+                }
+            }
+        ],
+        "name": "yg_prem",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_prem.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль чтобы проверить есть ли ссылка на рикролл в сообщении",
+        "commands": [
+            {
+                "name": "rick",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> - проверить есть ли ссылка на рикролл в сообщении"
+                }
+            }
+        ],
+        "name": "yg_rickroll",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_rickroll.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для отправки сообщений на указанный юзернейм",
+        "commands": [
+            {
+                "name": "sendmsg",
+                "inline": false,
+                "description": {
+                    "doc": "<username> <word> oтправляет сообщение на указанный юзернейм"
+                }
+            }
+        ],
+        "name": "yg_sendmsg",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_sendmsg.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для подкрутки игрового автомата (частое использование может вызвать FloodWait)",
+        "commands": [
+            {
+                "name": "yg_st",
+                "inline": false,
+                "description": {
+                    "doc": "подкрутить слот"
+                }
+            },
+            {
+                "name": "floodinfo",
+                "inline": false,
+                "description": {
+                    "doc": "что такое FloodWait?"
+                }
+            }
+        ],
+        "name": "yg_slot",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_slot.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Спам модуль",
+        "commands": [
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "<слово>"
+                }
+            },
+            {
+                "name": "stopspam",
+                "inline": false,
+                "description": {
+                    "doc": "остановить спам"
+                }
+            }
+        ],
+        "name": "yg_spam",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_spam.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для спама, в конфиге нужно все указать",
+        "commands": [
+            {
+                "name": "spm",
+                "inline": false,
+                "description": {
+                    "doc": "запустить спам"
+                }
+            }
+        ],
+        "name": "yg_spampon",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_spampon.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для обратного отсчета до начала лета",
+        "commands": [
+            {
+                "name": "summer",
+                "inline": false,
+                "description": {
+                    "doc": "отправить обратный отсчет до лета"
+                }
+            },
+            {
+                "name": "summerstop",
+                "inline": false,
+                "description": {
+                    "doc": "выключить обновление таймера"
+                }
+            }
+        ],
+        "name": "yg_summertimer",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_summertimer.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для установки и управления таймерами.",
+        "commands": [
+            {
+                "name": "timer",
+                "inline": false,
+                "description": {
+                    "doc": "<время> - устанавливает таймер"
+                }
+            },
+            {
+                "name": "stoptimer",
+                "inline": false,
+                "description": {
+                    "doc": "<номер таймера> - останавить указанный таймер"
+                }
+            }
+        ],
+        "name": "yg_timer",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_timer.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для графика курса TON",
+        "commands": [
+            {
+                "name": "ton",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить график курса TON/USD"
+                }
+            }
+        ],
+        "name": "yg_ton",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_ton.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для перевода текста на различные языки",
+        "commands": [
+            {
+                "name": "п",
+                "inline": false,
+                "description": {
+                    "doc": "перевести текст на несколько языков"
+                }
+            }
+        ],
+        "name": "yg_translate",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_translate.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Converts music and video (required ffmpeg)",
+        "commands": [
+            {
+                "name": "m2v",
+                "inline": false,
+                "description": {
+                    "doc": "Convert music to voice message"
+                }
+            },
+            {
+                "name": "v2a",
+                "inline": false,
+                "description": {
+                    "doc": "Convert video to audio"
+                }
+            }
+        ],
+        "name": "yg_vm",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_vm.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для отправки сообщения о том как можно пополнить твой кошелек (все настраивается в конфиге)",
+        "commands": [
+            {
+                "name": "w",
+                "inline": false,
+                "description": {
+                    "doc": "показать всю информацию для пополнения кошельков"
+                }
+            }
+        ],
+        "name": "yg_wallet",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_wallet.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "AutoTapper and receives daily check-ins in @WheelOfWhalesBot with proxy support!",
+        "commands": [
+            {
+                "name": "bwhales",
+                "inline": false,
+                "description": {
+                    "doc": "show your balance, current streak, next whalespin, and time remaining until the next check-in in @WheelOfWhalesBot"
+                }
+            },
+            {
+                "name": "whales",
+                "inline": false,
+                "description": {
+                    "doc": "on/off running script"
+                }
+            },
+            {
+                "name": "autotap",
+                "inline": false,
+                "description": {
+                    "doc": "on/off AutoTapper"
+                }
+            }
+        ],
+        "name": "yg_whales",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_whales.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для копирования сообщений и отправки их по указанному юзернейму (создавался для того, чтобы пиздить сообщения из каналов или чатов, где это запрещено). (@username можно указать в конфиге, и не указывать его каждый раз при вводе команды)",
+        "commands": [
+            {
+                "name": "xxx",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка на сообщение> <@username (без @)> - скопировать сообщение (текст или медиа) и отправить по указаному юзернейму"
+                }
+            }
+        ],
+        "name": "yg_xxx",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_xxx.py"
+    },
+    {
+        "description": "distorting images",
+        "commands": [
+            {
+                "name": "distort",
+                "inline": false,
+                "description": {
+                    "doc": ".distort <reply to photo>\n.distort im\n.distort 50\n.distort 50 im\n.distort im 50\nim => кидает стикеры как фото\n50 => (от 0 до дохуя) процент сжатия"
+                }
+            }
+        ],
+        "name": "DistortNoApi",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/DNA.py"
+    },
+    {
+        "description": "Загружает файлы на репозиторий GitHub",
+        "commands": [
+            {
+                "name": "gitadd",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "GitUploader",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/GitUploader.py"
+    },
+    {
+        "description": "Get info about user/chat",
+        "commands": [
+            {
+                "name": "userinfo",
+                "inline": false,
+                "description": {
+                    "doc": ".whois <@ or reply or id>; Northing"
+                }
+            },
+            {
+                "name": "chatinfo",
+                "inline": false,
+                "description": {
+                    "doc": ".message <@ or id>; Northing"
+                }
+            }
+        ],
+        "name": "Information",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/Information.py"
+    },
+    {
+        "description": "tracking in all PM chats.",
+        "commands": [
+            {
+                "name": "seechat",
+                "inline": false,
+                "description": {
+                    "doc": "use: .seechat | to enable tracking in all PM chats."
+                }
+            },
+            {
+                "name": "setchat",
+                "inline": false,
+                "description": {
+                    "doc": "use: .setchat | to set this chat as a track chat."
+                }
+            },
+            {
+                "name": "seechats",
+                "inline": false,
+                "description": {
+                    "doc": "use: .seechats | to see the list of tracking people."
+                }
+            },
+            {
+                "name": "gsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .gsee {id} | to get the tracked file."
+                }
+            },
+            {
+                "name": "delsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .delsee {id} | to delete the tracked file."
+                }
+            },
+            {
+                "name": "excsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .excsee {id} | to add / remove user from exclude tracking."
+                }
+            },
+            {
+                "name": "exclist",
+                "inline": false,
+                "description": {
+                    "doc": "use: .exclist | to see the list of exceptions."
+                }
+            }
+        ],
+        "name": "SeeChat",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/SeeChat.py"
+    },
+    {
+        "description": "Юникод арты",
+        "commands": [
+            {
+                "name": "vjuh",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .vjuh <текст>."
+                }
+            },
+            {
+                "name": "cowsay",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .cowsay <текст>."
+                }
+            },
+            {
+                "name": "padayu",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .padayu <текст>; ничего."
+                }
+            },
+            {
+                "name": "priletel",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .prilitel <текст>; ничего."
+                }
+            },
+            {
+                "name": "huytebe",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .huytebe <текст>; ничего."
+                }
+            },
+            {
+                "name": "lol",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .lol."
+                }
+            },
+            {
+                "name": "fuckyou",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .fuckyou."
+                }
+            },
+            {
+                "name": "house",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .house."
+                }
+            },
+            {
+                "name": "hello",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .hello."
+                }
+            },
+            {
+                "name": "coffee",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .coffee <текст>; ничего."
+                }
+            },
+            {
+                "name": "tv",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .tv <текст>; ничего."
+                }
+            },
+            {
+                "name": "gren",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .gren <текст>; ничего."
+                }
+            },
+            {
+                "name": "bruh",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .bruh."
+                }
+            },
+            {
+                "name": "uno",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .uno."
+                }
+            },
+            {
+                "name": "huy",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .huy <emoji>; ничего."
+                }
+            },
+            {
+                "name": "imps",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .imps <@ или реплай>."
+                }
+            },
+            {
+                "name": "f",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .f"
+                }
+            }
+        ],
+        "name": "Arts",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/arts.py"
+    },
+    {
+        "description": "Module for working with sound",
+        "commands": [
+            {
+                "name": "bass",
+                "inline": false,
+                "description": {
+                    "doc": "[level bass'а 2-100 (Default 2)] <reply to audio> - BassBoost"
+                }
+            },
+            {
+                "name": "fv",
+                "inline": false,
+                "description": {
+                    "doc": "[level 2-100 (Default 25)] <reply to audio> - Distort"
+                }
+            },
+            {
+                "name": "echos",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Echo effect"
+                }
+            },
+            {
+                "name": "volup",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - VolUp 10dB"
+                }
+            },
+            {
+                "name": "voldw",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - VolDw 10dB"
+                }
+            },
+            {
+                "name": "revs",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Reverse audio"
+                }
+            },
+            {
+                "name": "reps",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Repeat audio 2 times"
+                }
+            },
+            {
+                "name": "slows",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - SlowDown 0.5x"
+                }
+            },
+            {
+                "name": "fasts",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - SpeedUp 1.5x"
+                }
+            },
+            {
+                "name": "rights",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Push sound to right channel"
+                }
+            },
+            {
+                "name": "lefts",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Push sound to left channel"
+                }
+            },
+            {
+                "name": "norms",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Normalize sound (from quiet to normal)"
+                }
+            },
+            {
+                "name": "tovs",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Convert to voice message"
+                }
+            },
+            {
+                "name": "convs",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> [audio_format (ex. `mp3`)] - Convert audio to some format"
+                }
+            },
+            {
+                "name": "byroberts",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to audio> - Add at the end \"Directed by Robert B Weide\""
+                }
+            },
+            {
+                "name": "cuts",
+                "inline": false,
+                "description": {
+                    "doc": "<start(ms):end(ms)> <reply to audio> - Cut audio"
+                }
+            }
+        ],
+        "name": "AudioEditor",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/audio_editor.py"
+    },
+    {
+        "description": "Automatic stuff for your profile :P",
+        "commands": [
+            {
+                "name": "autopfp",
+                "inline": false,
+                "description": {
+                    "doc": "Rotates your profile picture every 60 seconds with x degrees, usage:\n.autopfp <degrees> <remove previous (last pfp)>\n\nDegrees - 60, -10, etc\nRemove last pfp - True/1/False/0, case sensitive"
+                }
+            },
+            {
+                "name": "stopautopfp",
+                "inline": false,
+                "description": {
+                    "doc": "Stop autobio cmd."
+                }
+            },
+            {
+                "name": "autobio",
+                "inline": false,
+                "description": {
+                    "doc": "Automatically changes your account's bio with current time, usage:\n.autobio '<message, time as {time}>'"
+                }
+            },
+            {
+                "name": "stopautobio",
+                "inline": false,
+                "description": {
+                    "doc": "Stop autobio cmd."
+                }
+            },
+            {
+                "name": "autoname",
+                "inline": false,
+                "description": {
+                    "doc": "Automatically changes your Telegram name with current time, usage:\n.autoname '<message, time as {time}>'"
+                }
+            },
+            {
+                "name": "stopautoname",
+                "inline": false,
+                "description": {
+                    "doc": "Stop autoname cmd."
+                }
+            },
+            {
+                "name": "delpfp",
+                "inline": false,
+                "description": {
+                    "doc": "Remove x profile pic(s) from your profile.\n.delpfp <pfps count/unlimited - remove all>"
+                }
+            }
+        ],
+        "name": "Automatic Profile",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/autoprofile.py"
+    },
+    {
+        "description": "Установка/удаление аватарок через команды",
+        "commands": [
+            {
+                "name": "ava",
+                "inline": false,
+                "description": {
+                    "doc": ".ava <reply_to_photo> - Установить аватар"
+                }
+            },
+            {
+                "name": "delava",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить текущую аватарку"
+                }
+            },
+            {
+                "name": "delavas",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить все аватарки"
+                }
+            }
+        ],
+        "name": "AvatarMod",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/avatarmod.py"
+    },
+    {
+        "description": "Плохие слова.",
+        "commands": [
+            {
+                "name": "addbw",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить слово в список \"Плохих слов\". Используй: .addbw <слово>."
+                }
+            },
+            {
+                "name": "rmbw",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить слово из список \"Плохих слов\". Используй: .rmbw <слово или all/clearall (по желанию)>.\nall - удаляет все слова из списка.\nclearall - удаляет все сохраненные данные модуля."
+                }
+            },
+            {
+                "name": "bws",
+                "inline": false,
+                "description": {
+                    "doc": "Посмотреть список \"Плохих слов\". Используй: .bws."
+                }
+            },
+            {
+                "name": "bwstats",
+                "inline": false,
+                "description": {
+                    "doc": "Статистика \"Плохих слов\". Используй: .bwstats <clear* (по желанию)>.\n* - сбросить настройки чата."
+                }
+            },
+            {
+                "name": "swbw",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить режим \"Плохих слов\". Используй: .swbw <режим(antimat/kick/ban/mute/none)>, или .swbw limit <кол-во:int>."
+                }
+            }
+        ],
+        "name": "DelTrigg",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/banwords.py"
+    },
+    {
+        "description": "Кодирование и декодирование base64",
+        "commands": [
+            {
+                "name": "b64encode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64encode <(text or media) or (reply to text or media)>"
+                }
+            },
+            {
+                "name": "b64decode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64decode <text or reply to text>"
+                }
+            }
+        ],
+        "name": "base64",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/base64.py"
+    },
+    {
+        "description": "Block Comments For Non Discussion Members",
+        "commands": [
+            {
+                "name": "bnd",
+                "inline": false,
+                "description": {
+                    "doc": "Available commands:\n.bnd\n  - Toggles the module for the current chat.\n.bnd notify <true/false>\n  - Toggles the notification message.\n.bnd mute <minutes/or 0>\n - Mutes the user for x minutes. 0 to disable.\n.bnd deltimer <seconds/or 0>\n - Deletes the notification message in seconds. 0 to disable.\n.bnd clearall\n - Clears the db of the module"
+                }
+            }
+        ],
+        "name": "Block Non Discussion",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/blocknondiscussion.py"
+    },
+    {
+        "description": "Captcha for chats",
+        "commands": [
+            {
+                "name": "swcaptcha",
+                "inline": false,
+                "description": {
+                    "doc": "Turn on/off captha in chat"
+                }
+            }
+        ],
+        "name": "Captcha",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/captcha.py"
+    },
+    {
+        "description": "Фильтр обсценной лексики на регуляр очке на каждый день",
+        "commands": [
+            {
+                "name": "censor",
+                "inline": false,
+                "description": {
+                    "doc": "Нулевой указатель, редирект на справку"
+                }
+            },
+            {
+                "name": "cens",
+                "inline": false,
+                "description": {
+                    "doc": ".cens <reply>|<text>\nПроверка фильтра обсценной лексики"
+                }
+            },
+            {
+                "name": "censlist",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список айди чатов, в которых работает фильтрация"
+                }
+            },
+            {
+                "name": "censon",
+                "inline": false,
+                "description": {
+                    "doc": ".censon [<id>|<username>|*]\nЗапуск фильтрации в том чате, куда отправлена команда\nМожно запустить в любом чате по id или username\n* запускает на все сообщения в текущем чате (по умолчанию на свои)"
+                }
+            },
+            {
+                "name": "censoff",
+                "inline": false,
+                "description": {
+                    "doc": ".censoff [<id>|<username>|all]\nОстановка фильтрации в том чате, куда отправлена команда\nМожно остановить в любом чате по id или username\nall останавливает фильтрацию во всех чатах"
+                }
+            },
+            {
+                "name": "censx",
+                "inline": false,
+                "description": {
+                    "doc": ".censx [+ <text>|-]\nДобавляет и удаляет кастомные исключения для фильтра\nИсключения в text записывать чеpез пробел\nКоманда без аргументов выводит список кастомных исключений"
+                }
+            }
+        ],
+        "name": "censor",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/censor.py"
+    },
+    {
+        "description": "Чат модуль",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .userid <@ или реплай> показывает ID выбранного пользователя."
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .chatid показывает ID чата."
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .invite <@ или реплай>, чтобы добавить пользователя в чат."
+                }
+            },
+            {
+                "name": "leave",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте команду .leave, чтобы кикнуть себя из чата."
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .users <имя>; ничего выводит список всех пользователей в чате."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .admins показывает список всех админов в чате."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .bots показывает список всех ботов в чате."
+                }
+            },
+            {
+                "name": "common",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .common <@ или реплай>, чтобы узнать общие чаты с\nпользователем."
+                }
+            },
+            {
+                "name": "chatdump",
+                "inline": false,
+                "description": {
+                    "doc": ".chatdump <n> <m> <s>\nДамп юзеров чата\n<n> - Получить только пользователей с открытыми номерами\n<m> - Отправить дамп в избранное\n<s> - Тихий дамп"
+                }
+            },
+            {
+                "name": "addusers",
+                "inline": false,
+                "description": {
+                    "doc": "Add members"
+                }
+            },
+            {
+                "name": "report",
+                "inline": false,
+                "description": {
+                    "doc": "Репорт пользователя за спам."
+                }
+            },
+            {
+                "name": "echo",
+                "inline": false,
+                "description": {
+                    "doc": "Активировать/деактивировать Echo."
+                }
+            }
+        ],
+        "name": "Chat Tools",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/chat_tools.py"
+    },
+    {
+        "description": "Module for working with voicechat",
+        "commands": [
+            {
+                "name": "cplayv",
+                "inline": false,
+                "description": {
+                    "doc": "<link/path/reply_to_video> - Play video in voice chat"
+                }
+            },
+            {
+                "name": "cplaya",
+                "inline": false,
+                "description": {
+                    "doc": "<link/path/reply_to_audio> - Play audio in voice chat"
+                }
+            },
+            {
+                "name": "cleave",
+                "inline": false,
+                "description": {
+                    "doc": "Leave"
+                }
+            },
+            {
+                "name": "cmute",
+                "inline": false,
+                "description": {
+                    "doc": "Mute"
+                }
+            },
+            {
+                "name": "cunmute",
+                "inline": false,
+                "description": {
+                    "doc": "Unmute"
+                }
+            },
+            {
+                "name": "cpause",
+                "inline": false,
+                "description": {
+                    "doc": "Pause"
+                }
+            },
+            {
+                "name": "cresume",
+                "inline": false,
+                "description": {
+                    "doc": "Resume"
+                }
+            }
+        ],
+        "name": "ChatVoiceMod",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/chat_voice_mod.py"
+    },
+    {
+        "description": "округляет всё",
+        "commands": [
+            {
+                "name": "round",
+                "inline": false,
+                "description": {
+                    "doc": ".round <Reply to image/sticker or video/gif>"
+                }
+            }
+        ],
+        "name": "Circles",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/circles.py"
+    },
+    {
+        "description": "CTF Toolkit.",
+        "commands": [
+            {
+                "name": "filetype",
+                "inline": false,
+                "description": {
+                    "doc": "Linux File command wrapper"
+                }
+            },
+            {
+                "name": "strings",
+                "inline": false,
+                "description": {
+                    "doc": "Linux Strings | grep . command wrapper"
+                }
+            }
+        ],
+        "name": "CTF Toolkit",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/ctftools.py"
+    },
+    {
+        "description": "Полное копирование юзера(ава, имя|фамилия, био)",
+        "commands": [
+            {
+                "name": "cu",
+                "inline": false,
+                "description": {
+                    "doc": ".cu <s> <a> <reply/@username>\n<s> - Скрытый режим\n<a> - Удалить ваши аватарки\nАргументы после юзера не указывайте, не скушает\nПримеры:\n.cu s @user/reply\n.cu a @user/reply\n.cu s a @user/reply"
+                }
+            }
+        ],
+        "name": "Cu",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/cu.py"
+    },
+    {
+        "description": "CheckerTG",
+        "commands": [
+            {
+                "name": "check",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить id на слитый номер\nЖуёт либо <reply> либо <uid>"
+                }
+            }
+        ],
+        "name": "CheckerTG",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/dekftg_checker.py"
+    },
+    {
+        "description": "Deotivators",
+        "commands": [
+            {
+                "name": "demoti",
+                "inline": false,
+                "description": {
+                    "doc": "Demotiving photo without compression"
+                }
+            },
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {
+                    "doc": "Demotiving photo"
+                }
+            },
+            {
+                "name": "bottom",
+                "inline": false,
+                "description": {
+                    "doc": "Imposes text in the photo from below"
+                }
+            },
+            {
+                "name": "top",
+                "inline": false,
+                "description": {
+                    "doc": "Imposes text on the photo at the top"
+                }
+            },
+            {
+                "name": "center",
+                "inline": false,
+                "description": {
+                    "doc": "Imposes text on the photo at the center"
+                }
+            },
+            {
+                "name": "demotirand",
+                "inline": false,
+                "description": {
+                    "doc": "Random demotiving photo without compression"
+                }
+            },
+            {
+                "name": "demotrand",
+                "inline": false,
+                "description": {
+                    "doc": "Random demotiving photo"
+                }
+            },
+            {
+                "name": "nq",
+                "inline": false,
+                "description": {
+                    "doc": "Quotes from the message"
+                }
+            },
+            {
+                "name": "mq",
+                "inline": false,
+                "description": {
+                    "doc": "Quotes from the message 2"
+                }
+            }
+        ],
+        "name": "Demotivator",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/demot.py"
+    },
+    {
+        "description": "Downloader module",
+        "commands": [
+            {
+                "name": "dlr",
+                "inline": false,
+                "description": {
+                    "doc": ".dlr <path/file_name> - download file to server"
+                }
+            },
+            {
+                "name": "ulf",
+                "inline": false,
+                "description": {
+                    "doc": ".ulf <file_name/path> send file from server\n<d> - Delete file after sending"
+                }
+            },
+            {
+                "name": "dltiktok",
+                "inline": false,
+                "description": {
+                    "doc": "TikTok video downloader"
+                }
+            },
+            {
+                "name": "dlfile",
+                "inline": false,
+                "description": {
+                    "doc": "File downloader (small files)"
+                }
+            },
+            {
+                "name": "dlbigfile",
+                "inline": false,
+                "description": {
+                    "doc": "File downloader (big files)"
+                }
+            }
+        ],
+        "name": "Downloader",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/downloader.py"
+    },
+    {
+        "description": "Imitates your actions",
+        "commands": [
+            {
+                "name": "type",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates typing"
+                }
+            },
+            {
+                "name": "voice",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates sending voices"
+                }
+            },
+            {
+                "name": "game",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates your game activity"
+                }
+            },
+            {
+                "name": "video",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates sending video"
+                }
+            },
+            {
+                "name": "photo",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates sending photo"
+                }
+            },
+            {
+                "name": "document",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates sending document"
+                }
+            },
+            {
+                "name": "location",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates sending location"
+                }
+            },
+            {
+                "name": "recordvideo",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates recording video"
+                }
+            },
+            {
+                "name": "recordvoice",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates recording voice"
+                }
+            },
+            {
+                "name": "recordround",
+                "inline": false,
+                "description": {
+                    "doc": "Imitates recording round video"
+                }
+            },
+            {
+                "name": "scrn",
+                "inline": false,
+                "description": {
+                    "doc": "Screenshot notification (Only PM)"
+                }
+            }
+        ],
+        "name": "Fake Actions",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/fake_actions.py"
+    },
+    {
+        "description": "Для автоматического фарминга коинов в ирисботе",
+        "commands": [
+            {
+                "name": "farmon",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить автофарминг"
+                }
+            },
+            {
+                "name": "farmoff",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить автофарминг"
+                }
+            },
+            {
+                "name": "farm",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод кол-ва коинов, добытых этим модулем"
+                }
+            }
+        ],
+        "name": "farmiris",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/farmiris.py"
+    },
+    {
+        "description": "Сокращение ссылок через сервис gg.gg",
+        "commands": [
+            {
+                "name": "gg",
+                "inline": false,
+                "description": {
+                    "doc": ".gg <длинная ссылка или реплай на ссылку>"
+                }
+            }
+        ],
+        "name": "gg.gg",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/gg.gg.py"
+    },
+    {
+        "description": "Модуль, который может изменять теги по ответу на аудио.\n\nby @zxcminimalized",
+        "commands": [
+            {
+                "name": "title",
+                "inline": false,
+                "description": {
+                    "doc": "Поменять тег названия трека"
+                }
+            },
+            {
+                "name": "artist",
+                "inline": false,
+                "description": {
+                    "doc": "Поменять артиста"
+                }
+            },
+            {
+                "name": "album",
+                "inline": false,
+                "description": {
+                    "doc": "Поменять тег альбома"
+                }
+            }
+        ],
+        "name": "ID3 Editor",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/id3_editor.py"
+    },
+    {
+        "description": "Image tools module",
+        "commands": [
+            {
+                "name": "ll",
+                "inline": false,
+                "description": {
+                    "doc": "Mirror the image"
+                }
+            },
+            {
+                "name": "rr",
+                "inline": false,
+                "description": {
+                    "doc": "Mirror the image"
+                }
+            },
+            {
+                "name": "uu",
+                "inline": false,
+                "description": {
+                    "doc": "Mirror the image"
+                }
+            },
+            {
+                "name": "dd",
+                "inline": false,
+                "description": {
+                    "doc": "Mirror the image"
+                }
+            },
+            {
+                "name": "dotify",
+                "inline": false,
+                "description": {
+                    "doc": "Image to RGB dots"
+                }
+            },
+            {
+                "name": "dotifi",
+                "inline": false,
+                "description": {
+                    "doc": "Image to BW dots"
+                }
+            },
+            {
+                "name": "soap",
+                "inline": false,
+                "description": {
+                    "doc": ".soap <reply to photo>"
+                }
+            },
+            {
+                "name": "pic2pack",
+                "inline": false,
+                "description": {
+                    "doc": "Create sticker pack with your photo"
+                }
+            },
+            {
+                "name": "deep",
+                "inline": false,
+                "description": {
+                    "doc": "Deep the image"
+                }
+            }
+        ],
+        "name": "Image Tools",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/image_tools.py"
+    },
+    {
+        "description": "ImageEditor - Simple tool for working with images",
+        "commands": [
+            {
+                "name": "resizei",
+                "inline": false,
+                "description": {
+                    "doc": ".resizei <w> <h> - Resize image"
+                }
+            },
+            {
+                "name": "rmbgi",
+                "inline": false,
+                "description": {
+                    "doc": ".rmbgi - Remove background via AI [Powered by Indian's AI]"
+                }
+            },
+            {
+                "name": "inverti",
+                "inline": false,
+                "description": {
+                    "doc": ".inverti - Invert colors"
+                }
+            },
+            {
+                "name": "bwi",
+                "inline": false,
+                "description": {
+                    "doc": ".bwi - BlackWhite"
+                }
+            },
+            {
+                "name": "convi",
+                "inline": false,
+                "description": {
+                    "doc": ".convi - Sticker to image | Image to sticker"
+                }
+            },
+            {
+                "name": "rotatei",
+                "inline": false,
+                "description": {
+                    "doc": ".rotatei <degrees> - Rotate image"
+                }
+            },
+            {
+                "name": "contrasti",
+                "inline": false,
+                "description": {
+                    "doc": ".contrasti <float> - Change contrast"
+                }
+            },
+            {
+                "name": "sharpnessi",
+                "inline": false,
+                "description": {
+                    "doc": ".sharpnessi <float> - Change sharpness"
+                }
+            },
+            {
+                "name": "brighti",
+                "inline": false,
+                "description": {
+                    "doc": ".brighti <float> - Change bright"
+                }
+            },
+            {
+                "name": "colori",
+                "inline": false,
+                "description": {
+                    "doc": ".colori <float> - Change color factor"
+                }
+            }
+        ],
+        "name": "ImageEditor",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/imageeditor.py"
+    },
+    {
+        "description": "Менеджер кастомных стикеров",
+        "commands": [
+            {
+                "name": "kang",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить стикер в пак\nUsage: .kang (reply) (optional: emoji)\nЕсли пак doesn't он будет создан автоматически."
+                }
+            }
+        ],
+        "name": "CustomSticks",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/kang.py"
+    },
+    {
+        "description": "Удаляет из чата последних Х зашедших",
+        "commands": [
+            {
+                "name": "botkicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".botkicklst <количество> <юзернейм, если канал> - Кикает при помощи тг бота"
+                }
+            },
+            {
+                "name": "kicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".kicklst <количество> <юзернейм, если канал> - Кикает юзерботом"
+                }
+            }
+        ],
+        "name": "KickLast",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/kicklast.py"
+    },
+    {
+        "description": "Famous TikTok hearts animation implemented in FTG",
+        "commands": [
+            {
+                "name": "ily",
+                "inline": false,
+                "description": {
+                    "doc": "This famous TikTok animation..."
+                }
+            }
+        ],
+        "name": "LoveMagic",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/lovemagic.py"
+    },
+    {
+        "description": "Модуль ловли подарков в True Mafia News.",
+        "commands": [
+            {
+                "name": "md",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .md чтобы включить/выключить ловлю подарков."
+                }
+            }
+        ],
+        "name": "MafiaDrawing",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/mafiadrawing.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "mozg",
+                "inline": false,
+                "description": {
+                    "doc": ".mozg <on/off/...> - Переключить режим дурачка в чате"
+                }
+            },
+            {
+                "name": "mozgchance",
+                "inline": false,
+                "description": {
+                    "doc": ".mozgchance <int> - Устанвоить шанс 1 к N.\n0 - всегда отвечать"
+                }
+            }
+        ],
+        "name": "MegaMozg",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/megamozg.py"
+    },
+    {
+        "description": "Quote a message using Mishase Quotes API",
+        "commands": [
+            {
+                "name": "quote",
+                "inline": false,
+                "description": {
+                    "doc": "Quote a message. Args: ?<count> ?file"
+                }
+            },
+            {
+                "name": "fquote",
+                "inline": false,
+                "description": {
+                    "doc": "Fake message quote. Args: @<username>/<id>/<reply> <text>"
+                }
+            }
+        ],
+        "name": "Quotes",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/mishase_quotes.py"
+    },
+    {
+        "description": "Hentai module 18+",
+        "commands": [
+            {
+                "name": "nhrandom",
+                "inline": false,
+                "description": {
+                    "doc": "Random hentai manga"
+                }
+            },
+            {
+                "name": "nhtag",
+                "inline": false,
+                "description": {
+                    "doc": "Search hentai manga by tag"
+                }
+            },
+            {
+                "name": "nhid",
+                "inline": false,
+                "description": {
+                    "doc": "Search hentai manga by id"
+                }
+            }
+        ],
+        "name": "NHentai",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/nhentai.py"
+    },
+    {
+        "description": "Stores global notes (aka snips)",
+        "commands": [
+            {
+                "name": "findnote",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            },
+            {
+                "name": "note",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            },
+            {
+                "name": "delallnotes",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes all the saved notes"
+                }
+            },
+            {
+                "name": "save",
+                "inline": false,
+                "description": {
+                    "doc": "Save a new note. Must be used in reply with one parameter (note name)"
+                }
+            },
+            {
+                "name": "delnote",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes a note, specified by note name"
+                }
+            },
+            {
+                "name": "notes",
+                "inline": false,
+                "description": {
+                    "doc": "List the saved notes"
+                }
+            }
+        ],
+        "name": "Notes",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/notes.py"
+    },
+    {
+        "pic": "https://img.icons8.com/fluency/48/000000/keep-away-from-children.png",
+        "description": "Кидает рандомную картинку NSFW содержания с scroller",
+        "commands": [
+            {
+                "name": "nsfw",
+                "inline": false,
+                "description": {
+                    "doc": ".nsfw <subreddit | default> [-n <quantity | 1 by default>] - Send random NSFW picture"
+                }
+            },
+            {
+                "name": "nsfwcat",
+                "inline": false,
+                "description": {
+                    "doc": ".nsfwcat <subreddit> - Set new default subreddit"
+                }
+            }
+        ],
+        "name": "NSFW",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/nsfw.py"
+    },
+    {
+        "description": "@faq lines",
+        "commands": [
+            {
+                "name": "omstart",
+                "inline": false,
+                "description": {
+                    "doc": "Start OneMessage mode"
+                }
+            },
+            {
+                "name": "omstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop OneMessage mode"
+                }
+            }
+        ],
+        "name": "OneMessage",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/onemessage.py"
+    },
+    {
+        "description": "Deletes your messages",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "Purge from the replied message"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Delete the replied message"
+                }
+            }
+        ],
+        "name": "Purge",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/purge.py"
+    },
+    {
+        "description": "Quotes by @sh1tchannel",
+        "commands": [
+            {
+                "name": "q",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> [quantity] [!file] [color] - Create nice quote from message(-s)"
+                }
+            },
+            {
+                "name": "fsq",
+                "inline": false,
+                "description": {
+                    "doc": "<@ / ID> + <text> + -r + <@ / ID> + <text>; <args> - Create fake quote"
+                }
+            },
+            {
+                "name": "sqset",
+                "inline": false,
+                "description": {
+                    "doc": "<bg_color/text_color> <value> - Configure SQuotes"
+                }
+            }
+        ],
+        "name": "SQuotes",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/quotes.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "зг",
+                "inline": false,
+                "description": {
+                    "doc": ".зг + реплай на самоуничтожающееся фото Чтобы сохранить"
+                }
+            }
+        ],
+        "name": "SavePic",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/savepic.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "hearts",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "moons",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "moons2",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "clocks",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "police",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "dick",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Magic of smiles",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/smiles.py"
+    },
+    {
+        "description": "Provides system information about the computer hosting this bot",
+        "commands": [
+            {
+                "name": "info",
+                "inline": false,
+                "description": {
+                    "doc": "Shows system information"
+                }
+            }
+        ],
+        "name": "System Info",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/sysinfo.py"
+    },
+    {
+        "description": "Runs commands",
+        "commands": [
+            {
+                "name": "terminal",
+                "inline": false,
+                "description": {
+                    "doc": ".terminal <command>"
+                }
+            },
+            {
+                "name": "apt",
+                "inline": false,
+                "description": {
+                    "doc": "Shorthand for '.terminal apt'"
+                }
+            },
+            {
+                "name": "terminate",
+                "inline": false,
+                "description": {
+                    "doc": "Use in reply to send SIGTERM to a process"
+                }
+            },
+            {
+                "name": "kill",
+                "inline": false,
+                "description": {
+                    "doc": "Use in reply to send SIGKILL to a process"
+                }
+            },
+            {
+                "name": "neofetch",
+                "inline": false,
+                "description": {
+                    "doc": "Show system stats via neofetch"
+                }
+            },
+            {
+                "name": "uptime",
+                "inline": false,
+                "description": {
+                    "doc": "Show system uptime"
+                }
+            }
+        ],
+        "name": "Terminal",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/terminal.py"
+    },
+    {
+        "description": "Text to speech module",
+        "commands": [
+            {
+                "name": "levitan",
+                "inline": false,
+                "description": {
+                    "doc": "Convert text to speech with levitan voice"
+                }
+            },
+            {
+                "name": "oksana",
+                "inline": false,
+                "description": {
+                    "doc": "Convert text to speech with oksana voice"
+                }
+            },
+            {
+                "name": "yandex",
+                "inline": false,
+                "description": {
+                    "doc": "Convert text to speech with yandex voice"
+                }
+            },
+            {
+                "name": "tts",
+                "inline": false,
+                "description": {
+                    "doc": "Convert text to speech with Google APIs"
+                }
+            }
+        ],
+        "name": "DTTS",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/text-to-speech.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "tts",
+                "inline": false,
+                "description": {
+                    "doc": "Convert text to speech with Google APIs"
+                }
+            },
+            {
+                "name": "speedvc",
+                "inline": false,
+                "description": {
+                    "doc": "Speed up voice by x"
+                }
+            },
+            {
+                "name": "ttsspeed",
+                "inline": false,
+                "description": {
+                    "doc": "Set the desired speech speed\n- Example: .ttsspeed 1.5 (Would be 1.5x speed)\n  Possible values between 0.25 and 3"
+                }
+            }
+        ],
+        "name": "Text to speech",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/texttospeech.py"
+    },
+    {
+        "description": "Google Translator",
+        "commands": [
+            {
+                "name": "gtranslate",
+                "inline": false,
+                "description": {
+                    "doc": ".gtranslate [from_lang->][->to_lang] <text>"
+                }
+            }
+        ],
+        "name": "Google Translator",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/translator.py"
+    },
+    {
+        "description": "Download TikTok videos",
+        "commands": [
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "doc": "<url> - Download TikTok video"
+                }
+            }
+        ],
+        "name": "TikTokDl",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/ttdl.py"
+    },
+    {
+        "description": "Valute Converter",
+        "commands": [
+            {
+                "name": "val",
+                "inline": false,
+                "description": {
+                    "doc": "<sum> <valute> - Get exchange"
+                }
+            }
+        ],
+        "name": "Valute",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/valutes.py"
+    },
+    {
+        "description": "Module for working with video",
+        "commands": [
+            {
+                "name": "xflipv",
+                "inline": false,
+                "description": {
+                    "doc": ".xflipv <reply_to_video> - Flip video by X"
+                }
+            },
+            {
+                "name": "yflipv",
+                "inline": false,
+                "description": {
+                    "doc": ".yflipv <reply_to_video> - Flip video by Y"
+                }
+            },
+            {
+                "name": "bwv",
+                "inline": false,
+                "description": {
+                    "doc": ".bwv <reply_to_video> - BlackWhite"
+                }
+            },
+            {
+                "name": "revv",
+                "inline": false,
+                "description": {
+                    "doc": ".revv <reply_to_video> - Reverse video"
+                }
+            },
+            {
+                "name": "paintv",
+                "inline": false,
+                "description": {
+                    "doc": ".paintv <reply_to_video> - Paint effect"
+                }
+            },
+            {
+                "name": "invertv",
+                "inline": false,
+                "description": {
+                    "doc": ".invertv <reply_to_video> - Invert colors"
+                }
+            },
+            {
+                "name": "rmsv",
+                "inline": false,
+                "description": {
+                    "doc": ".rmsv <reply_to_video> - Remove sound (to gif without compression)"
+                }
+            },
+            {
+                "name": "cutv",
+                "inline": false,
+                "description": {
+                    "doc": ".cutv <int [Default 30]> <reply_to_video> - Cut video"
+                }
+            },
+            {
+                "name": "audv",
+                "inline": false,
+                "description": {
+                    "doc": ".audv <link> <reply_to_video> - Add audio to video"
+                }
+            },
+            {
+                "name": "fpsv",
+                "inline": false,
+                "description": {
+                    "doc": ".fpsv <int [Default 30]> <reply_to_video> - Change fps"
+                }
+            },
+            {
+                "name": "marginv",
+                "inline": false,
+                "description": {
+                    "doc": ".marginv <int [Default 5]> <reply_to_video> - Add marging"
+                }
+            },
+            {
+                "name": "speedv",
+                "inline": false,
+                "description": {
+                    "doc": ".speedv <float [Default 1.5]> <reply_to_video> - Speed"
+                }
+            },
+            {
+                "name": "contrastv",
+                "inline": false,
+                "description": {
+                    "doc": ".contrastv <float [Default 1.5]> <reply_to_video> - Contrast"
+                }
+            },
+            {
+                "name": "lumv",
+                "inline": false,
+                "description": {
+                    "doc": ".lumv <float [Default 25]> <reply_to_video> - Lum"
+                }
+            },
+            {
+                "name": "scalev",
+                "inline": false,
+                "description": {
+                    "doc": ".scalev <float [Default 0.75]> <reply_to_video> - Scale(\"Resize\") video"
+                }
+            }
+        ],
+        "name": "VideoEditor",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/video_editor.py"
+    },
+    {
+        "description": "Add voice overlays over messages",
+        "commands": [
+            {
+                "name": "sf",
+                "inline": false,
+                "description": {
+                    "doc": "(in reply to voice) <pablo|kids|camry|gta|amogus|chill> [volume]"
+                }
+            }
+        ],
+        "name": "VoiceEffects",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voice_effects.py"
+    },
+    {
+        "description": "Module for working with voicechat",
+        "commands": [
+            {
+                "name": "vplay",
+                "inline": false,
+                "description": {
+                    "doc": ".vplay [chat (optional)] <link/reply_to_audio>\nPlay audio in VC"
+                }
+            },
+            {
+                "name": "vjoin",
+                "inline": false,
+                "description": {
+                    "doc": ".vjoin\nJoin to the VC"
+                }
+            },
+            {
+                "name": "vleave",
+                "inline": false,
+                "description": {
+                    "doc": ".vleave\nLeave from the VC"
+                }
+            },
+            {
+                "name": "vreplay",
+                "inline": false,
+                "description": {
+                    "doc": ".vreplay\nReplay audio in VC"
+                }
+            },
+            {
+                "name": "vstop",
+                "inline": false,
+                "description": {
+                    "doc": ".vstop\nStop play in VC"
+                }
+            },
+            {
+                "name": "vmute",
+                "inline": false,
+                "description": {
+                    "doc": ".vmute\nMute player in VC"
+                }
+            },
+            {
+                "name": "vunmute",
+                "inline": false,
+                "description": {
+                    "doc": ".vmute\nUnmute player in VC"
+                }
+            },
+            {
+                "name": "vpause",
+                "inline": false,
+                "description": {
+                    "doc": ".vpause\nPause player in VC"
+                }
+            },
+            {
+                "name": "vresume",
+                "inline": false,
+                "description": {
+                    "doc": ".vresume\nResume player in VC"
+                }
+            },
+            {
+                "name": "vdebug",
+                "inline": false,
+                "description": {
+                    "doc": ".vdebug\ndebug"
+                }
+            },
+            {
+                "name": "sm",
+                "inline": false,
+                "description": {
+                    "doc": ".sm\nto find music."
+                }
+            },
+            {
+                "name": "shazam",
+                "inline": false,
+                "description": {
+                    "doc": ".shazam <reply to audio> - recognize track"
+                }
+            }
+        ],
+        "name": "VoiceMod",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voicemod.py"
+    },
+    {
+        "description": "Change, pitch, enhance your Voice. Also includes optional automatic mode.",
+        "commands": [
+            {
+                "name": "vtvc",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to change the voice"
+                }
+            },
+            {
+                "name": "vtanon",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to change the voice into anonymous"
+                }
+            },
+            {
+                "name": "vtpitch",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to pitch voice\n- Example: .vtpitch 12\n  Possible values between -18 and 18"
+                }
+            },
+            {
+                "name": "vtenh",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to enhance voice quality with\n- Volume normalize\n- Background NoiseReduce (set your noisereduce level before)"
+                }
+            },
+            {
+                "name": "vtnorm",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to normalize volume"
+                }
+            },
+            {
+                "name": "vtmp3",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to convert it to mp3"
+                }
+            },
+            {
+                "name": "vtspeech",
+                "inline": false,
+                "description": {
+                    "doc": "reply to a file to convert it to speech"
+                }
+            },
+            {
+                "name": "vtnrlvl",
+                "inline": false,
+                "description": {
+                    "doc": "Set the desired noisereduce level\n- Example: .vtnrlvl 0.8 (Would be 80%)\n  Possible values between 0.01 and 1.0"
+                }
+            },
+            {
+                "name": "vtpitchlvl",
+                "inline": false,
+                "description": {
+                    "doc": "Set the desired pitch level\n- Example: .vtpitchlvl 12 (Would be 80%)\n  Possible values between -18 and 18"
+                }
+            },
+            {
+                "name": "vtautovc",
+                "inline": false,
+                "description": {
+                    "doc": "Turns on AutoVoiceChanger for your own Voicemessages in the chat"
+                }
+            },
+            {
+                "name": "vtautoanon",
+                "inline": false,
+                "description": {
+                    "doc": "Turns on AutoAnonVoice for your own Voicemessages in the chat"
+                }
+            },
+            {
+                "name": "vtautonr",
+                "inline": false,
+                "description": {
+                    "doc": "Turns on AutoNoiseReduce for your own Voicemessages in the chat"
+                }
+            },
+            {
+                "name": "vtautonorm",
+                "inline": false,
+                "description": {
+                    "doc": "Turns on AutoVoiceNormalizer for your own Voicemessages in the chat"
+                }
+            },
+            {
+                "name": "vtautopitch",
+                "inline": false,
+                "description": {
+                    "doc": "Turns on AutoVoiceNormalizer for your own Voicemessages in the chat"
+                }
+            },
+            {
+                "name": "vtautostop",
+                "inline": false,
+                "description": {
+                    "doc": "Turns off AutoVoice for your own Voicemessages in the chat"
+                }
+            }
+        ],
+        "name": "VoiceTools",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voicetools.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "vsh",
+                "inline": false,
+                "description": {
+                    "doc": ".vsh <реплай на видео> <уровень от 1 до 6 (по умолчанию 3)>        \nСшакалить видео"
+                }
+            }
+        ],
+        "name": "Video Shakal",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/vshakal.py"
+    },
+    {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "x0 Uploader",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/x0.py"
+    },
+    {
+        "description": "Reverse image search via Yandex (he is the best, imho)",
+        "commands": [
+            {
+                "name": "yars",
+                "inline": false,
+                "description": {
+                    "doc": ".yars <repy to image>"
+                }
+            }
+        ],
+        "name": "YandexReverseSearch",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/yandexrs.py"
     }
 ]
