@@ -48614,5 +48614,41 @@
         "name": "YandexReverseSearch",
         "repo": "hikariatama/host",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/yandexrs.py"
+    },
+    {
+        "author": "@djmodules",
+        "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
+        "commands": [
+            {
+                "name": "dgpt",
+                "inline": false,
+                "description": {
+                    "en_doc": "Ask gpt for something",
+                    "ru_doc": "Спросите gpt о чем-нибудь",
+                    "doc": "Ask gpt for something"
+                }
+            },
+            {
+                "name": "dimg",
+                "inline": false,
+                "description": {
+                    "en_doc": "Generate image",
+                    "ru_doc": "Сгенерировать изображение",
+                    "doc": "Generate image"
+                }
+            },
+            {
+                "name": "dgmodels",
+                "inline": false,
+                "description": {
+                    "en_doc": "Display models list",
+                    "ru_doc": "Показать список моделей",
+                    "doc": "Display models list"
+                }
+            }
+        ],
+        "name": "DevGPT",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
     }
 ]
