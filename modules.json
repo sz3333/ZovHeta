@@ -48645,6 +48645,14 @@
                     "ru_doc": "Показать список моделей",
                     "doc": "Display models list"
                 }
+            },
+            {
+                "name": "dgcheck",
+                "inline": false,
+                "description": {
+                    "en_doc": "Check for updates",
+                    "ru_doc": "Проверить обновления"
+                }
             }
         ],
         "name": "DevGPT",
