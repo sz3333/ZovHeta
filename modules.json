@@ -18975,21 +18975,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Cikada.py"
     },
     {
-        "description": "🖼️ Копирует аватарку и информацию указанного пользователя на ваш аккаунт",
-        "commands": [
-            {
-                "name": "copyuser",
-                "inline": false,
-                "description": {
-                    "doc": "🖼️ Скопировать пользователя. Использование: .copy <username>"
-                }
-            }
-        ],
-        "name": "CopyUser-Ksenon",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser-Ksenon.py"
-    },
-    {
         "author": "@D4n13l3k00, @yummy1gay",
         "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
         "commands": [
