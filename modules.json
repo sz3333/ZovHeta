@@ -48667,13 +48667,13 @@
     {
         "author": "@djmodules",
         "banner": "https://kappa.lol/--YNb",
-        "description": "Загрузка на аналог 0x.at",
+        "description": "Загрузка на зеркало 0x.at",
         "commands": [
             {
-                "name": "Load",
+                "name": "oxload",
                 "inline": false,
                 "description": {
-                    "doc": "upload file"
+                    "doc": "Upload file"
                 }
             }
         ],
