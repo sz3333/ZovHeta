@@ -48656,7 +48656,8 @@
                 "inline": false,
                 "description": {
                     "en_doc": "Check for updates",
-                    "ru_doc": "Проверить обновления"
+                    "ru_doc": "Проверить обновления",
+                    "doc": "Check for updates"
                 }
             }
         ],
