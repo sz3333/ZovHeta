@@ -48630,6 +48630,7 @@
                 "description": {
                     "en_doc": "Ask gpt for something",
                     "ru_doc": "Спросите gpt о чем-нибудь",
+                    "ua_doc": "Запитайте gpt про щось",
                     "doc": "Ask gpt for something"
                 }
             },
@@ -48639,6 +48640,7 @@
                 "description": {
                     "en_doc": "Generate image",
                     "ru_doc": "Сгенерировать изображение",
+                    "ua_doc": "Згенерувати зображення",
                     "doc": "Generate image"
                 }
             },
@@ -48648,6 +48650,7 @@
                 "description": {
                     "en_doc": "Display models list",
                     "ru_doc": "Показать список моделей",
+                    "ua_doc": "Показати список моделей",
                     "doc": "Display models list"
                 }
             },
@@ -48657,6 +48660,7 @@
                 "description": {
                     "en_doc": "Check for updates",
                     "ru_doc": "Проверить обновления",
+                    "ua_doc": "Перевірити оновлення",
                     "doc": "Check for updates"
                 }
             }
