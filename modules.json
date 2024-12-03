@@ -48678,6 +48678,9 @@
                 "name": "oxload",
                 "inline": false,
                 "description": {
+                    "en_doc": "Upload file",
+                    "ru_doc": "Загрузить файл",
+                    "ua_doc": "Завантажити файл",
                     "doc": "Upload file"
                 }
             }
