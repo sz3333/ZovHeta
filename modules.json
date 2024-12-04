@@ -68,6 +68,29 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Module to ban and delete incoming messages from spam bots.",
+        "commands": [
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "Display the configuration settings."
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Unblock a bot."
+                }
+            }
+        ],
+        "name": "AntiBotSpam",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/AntiBotSpam.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Displays your article Criminal Code of the Russian Federation",
         "commands": [
             {
@@ -176,6 +199,11 @@
     },
     {
         "author": "@hikka_mods",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/CryptoCurrency.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Module for reuploading files to envs.sh",
         "commands": [
             {
@@ -258,6 +286,11 @@
         "name": "FakeWallet",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/FakeWallet.py"
+    },
+    {
+        "author": "@hikka_mods",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/GigaChat.py"
     },
     {
         "author": "@hikka_mods",
