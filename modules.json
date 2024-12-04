@@ -14508,6 +14508,13 @@
                 }
             },
             {
+                "name": "setwidgetsteam",
+                "inline": false,
+                "description": {
+                    "doc": "- Reply to message what need to be widget (--reset to remove widget)"
+                }
+            },
+            {
                 "name": "execsteamcode",
                 "inline": false,
                 "description": {
