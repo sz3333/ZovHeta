@@ -1,4 +1,4 @@
-__version__ = (8, 9, 4)
+__version__ = (8, 9, 3)
 # meta developer: @Foxy437
 # change-log:😎😎🎉🎉😎🎉🙏🙏🎉🎉🔥🔥
 
