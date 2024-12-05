@@ -21540,6 +21540,196 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/okruglator.py"
     },
     {
+        "description": "Модуль Ragnarok",
+        "commands": [
+            {
+                "name": "ragnhelp",
+                "inline": false,
+                "description": {
+                    "doc": "Αϰμϻαҵμя"
+                }
+            },
+            {
+                "name": "chathelp",
+                "inline": false,
+                "description": {
+                    "doc": "🄼🄾🄳🅄🄻🄴 🄲🄷🄰🅃"
+                }
+            },
+            {
+                "name": "irishelp",
+                "inline": false,
+                "description": {
+                    "doc": "🄸🅁🄸🅂 🄷🄴🄻🄿"
+                }
+            },
+            {
+                "name": "afkhelp",
+                "inline": false,
+                "description": {
+                    "doc": "🄰🄵🄺 🄷🄴🄻🄿"
+                }
+            },
+            {
+                "name": "ragnping",
+                "inline": false,
+                "description": {
+                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʙᴀɯ ᴨинᴦ"
+                }
+            },
+            {
+                "name": "ragnprofile",
+                "inline": false,
+                "description": {
+                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʙᴀɯ ᴨᴩᴏɸиᴧь"
+                }
+            },
+            {
+                "name": "ragnafkon",
+                "inline": false,
+                "description": {
+                    "doc": "Вх᧐д ʙ ᥲɸκ ᥴᴛᥲᴛуᥴ"
+                }
+            },
+            {
+                "name": "ragnafkoff",
+                "inline": false,
+                "description": {
+                    "doc": "Вых᧐д ᥙɜ ᥲɸκ ᥴᴛᥲᴛуᥴᥲ"
+                }
+            },
+            {
+                "name": "irison",
+                "inline": false,
+                "description": {
+                    "doc": "ʙᴋᴧючᴀᴇᴛ ᴀʙᴛᴏ ɸᴀᴩʍ ʙ иᴩиᴄᴇ"
+                }
+            },
+            {
+                "name": "irisoff",
+                "inline": false,
+                "description": {
+                    "doc": "ʙыᴋᴧючᴀᴇᴛ ᴀʙᴛᴏ ɸᴀᴩʍ ʙ иᴩиᴄᴇ"
+                }
+            },
+            {
+                "name": "irisf",
+                "inline": false,
+                "description": {
+                    "doc": "ʙыʙᴏдиᴛ ɸᴀᴩʍ иɜ ʍᴏдуᴧя"
+                }
+            },
+            {
+                "name": "irismeh",
+                "inline": false,
+                "description": {
+                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʍᴇɯᴏᴋ ʙ иᴩиᴄᴇ"
+                }
+            },
+            {
+                "name": "ragnautoon",
+                "inline": false,
+                "description": {
+                    "doc": "ʙᴋᴧючиᴛь ʍᴏдуᴧь ᴄ ᴏᴛʙᴇᴛᴀʍи ⟨𝗋𝖾𝗉𝗅𝗒⟩"
+                }
+            },
+            {
+                "name": "ragnautooffall",
+                "inline": false,
+                "description": {
+                    "doc": "ᴨᴏᴧнᴀя ᴏᴄᴛᴀнᴏʙᴋᴀ ʍᴏдуᴧя ᴄ ᴏᴛʙᴇᴛᴀʍи"
+                }
+            },
+            {
+                "name": "ragnautooff",
+                "inline": false,
+                "description": {
+                    "doc": "ᴏᴄᴛᴀнᴏʙᴋᴀ ʍᴏдуᴧя ᴄ ᴏᴛʙᴇᴛᴀʍи нᴀ ʙыбᴩᴀнный ᴀᴋᴋᴀунᴛ  ⟨𝗋𝖾𝗉𝗅𝗒⟩"
+                }
+            },
+            {
+                "name": "ragline",
+                "inline": false,
+                "description": {
+                    "doc": "Вечный онлайн"
+                }
+            },
+            {
+                "name": "ragn1type",
+                "inline": false,
+                "description": {
+                    "doc": "Автотайп на 1 час"
+                }
+            },
+            {
+                "name": "ragn7",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 7"
+                }
+            },
+            {
+                "name": "ragn1",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 1"
+                }
+            },
+            {
+                "name": "ragn2",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 2"
+                }
+            },
+            {
+                "name": "ragnpht",
+                "inline": false,
+                "description": {
+                    "doc": "Οτɞετ ϲ ϕστσ/ɞμɠεσ/GIF"
+                }
+            },
+            {
+                "name": "ragn3",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 3"
+                }
+            },
+            {
+                "name": "ragn4",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 4"
+                }
+            },
+            {
+                "name": "ragn5",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 5"
+                }
+            },
+            {
+                "name": "ragn6",
+                "inline": false,
+                "description": {
+                    "doc": "Шᥲδ᧘᧐н 6"
+                }
+            },
+            {
+                "name": "ragninfo",
+                "inline": false,
+                "description": {
+                    "doc": "Կᥲᴛ ᥙнɸ᧐ρʍᥲцᥙя"
+                }
+            }
+        ],
+        "name": "<b>[ 🇹🇨 𝘙𝘢𝘨𝘯𝘢𝘳𝘰𝘬 𝘩𝘦𝘭𝘱𝘦𝘳 🇹🇨]</b>",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ragnarokhelper.py"
+    },
+    {
         "description": "Модуль для автоматизації дій з кнопками у @coloniZERObot з кількістю повторів",
         "commands": [
             {
