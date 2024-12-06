@@ -17741,6 +17741,21 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameactions.py"
     },
     {
+        "description": "Модуль для разрезания изображения на части.",
+        "commands": [
+            {
+                "name": "cut",
+                "inline": false,
+                "description": {
+                    "doc": "{кол-во по вертикали} {кол-во по горизонтали} — Разрезать изображение на части."
+                }
+            }
+        ],
+        "name": "AmeImageCut",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameimagecut.py"
+    },
+    {
         "author": "@amm1e & @AmeMods",
         "description": "Useless mod for useless sites.",
         "commands": [
