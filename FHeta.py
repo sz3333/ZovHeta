@@ -1,6 +1,6 @@
-__version__ = (8, 9, 5)
+__version__ = (8, 9, 6)
 # meta developer: @Foxy437
-# change-log:😎😎🎉🎉😎🎉🙏🙏🎉🎉🔥🔥
+# change-log: 😎😎😱🎉🤙🎉🤙🎉🙏🔥
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -202,7 +202,7 @@ class FHeta(loader.Module):
 
                 stats = await self.get_stats(module_name)
                 if stats is None:
-                    stats = {"likes": 0, "dislikes": 0, "average_rating": "0/5"}
+                    stats = {"likes": 0, "dislikes": 0}
 
                 likes_count = stats['likes']      
                 dislikes_count = stats['dislikes']
@@ -317,12 +317,12 @@ class FHeta(loader.Module):
             headers = {"Authorization": token}
 
             async with aiohttp.ClientSession(headers=headers) as session:
-                post_url = f"http://62.60.230.104/rate/{user_id}/{module_name}/{action}"
+                post_url = f"http://foxy437.xyz/rate/{user_id}/{module_name}/{action}"
                 async with session.post(post_url) as response:
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
-                        get_url = f"http://62.60.230.104/get/{module_name}"
+                        get_url = f"http://foxy437.xyz/get/{module_name}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -347,7 +347,7 @@ class FHeta(loader.Module):
                         return
 
                     elif "che" in result:
-                        get_url = f"http://62.60.230.104/get/{module_name}"
+                        get_url = f"http://foxy437.xyz/get/{module_name}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -381,7 +381,7 @@ class FHeta(loader.Module):
     async def get_stats(self, module_name):
         try:
             async with aiohttp.ClientSession() as session:
-                get_url = f"http://62.60.230.104/get/{module_name}"
+                get_url = f"http://foxy437.xyz/get/{module_name}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
                         return await response.json()
