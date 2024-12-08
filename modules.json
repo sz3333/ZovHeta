@@ -17406,6 +17406,22 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Модуль для получения информации о пользователе!",
+        "commands": [
+            {
+                "name": "uinfo",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай> или <юзернейм>"
+                }
+            }
+        ],
+        "name": "AngelInfo",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/AngelInfo.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Показывает текущую погоду в указанном городе.🍃",
         "commands": [
             {
