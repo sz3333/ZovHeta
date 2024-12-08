@@ -17406,22 +17406,6 @@
     },
     {
         "author": "@angellmodules",
-        "description": "Модуль для получения информации о пользователе!",
-        "commands": [
-            {
-                "name": "uinfo",
-                "inline": false,
-                "description": {
-                    "doc": "<реплай> или <юзернейм>"
-                }
-            }
-        ],
-        "name": "AngelInfo",
-        "repo": "sawwnapix/Hikka",
-        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/AngelInfo.py"
-    },
-    {
-        "author": "@angellmodules",
         "description": "Показывает текущую погоду в указанном городе.🍃",
         "commands": [
             {
@@ -17609,6 +17593,22 @@
         "name": "SpamBan",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/SpamBan.py"
+    },
+    {
+        "author": "@angellmodules",
+        "description": "Модуль для получения информации о пользователе!",
+        "commands": [
+            {
+                "name": "uinfo",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай> или <юзернейм>"
+                }
+            }
+        ],
+        "name": "UserInfo",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/UserInfo.py"
     },
     {
         "description": "Модуль для изменения текста загрузки хикки. Используйте осторожно!\nАккуратнее при использовании на Lavhost и подобных. Использовать крайне не рекомендуется. \nЕсли у вас форк, то, вероятно, все будет работать, но выдаст не критическую ошибку.",
