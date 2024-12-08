@@ -17544,7 +17544,7 @@
                 }
             }
         ],
-        "name": "UserInfo",
+        "name": "AngelInfo",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/UserInfo.py"
     },
