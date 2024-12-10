@@ -10716,6 +10716,22 @@
     },
     {
         "author": "@dummykezu",
+        "commands": [
+            {
+                "name": "ny",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Показывает время до Нового Года 🎉",
+                    "doc": "- Shows time until The New Year 🎉"
+                }
+            }
+        ],
+        "name": "NewYearCD",
+        "repo": "kezuhiro-web/modules",
+        "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/NewYearCD.py"
+    },
+    {
+        "author": "@dummykezu",
         "description": "Модуль для поиска в различных поисковых системах",
         "commands": [
             {
