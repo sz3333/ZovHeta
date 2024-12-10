@@ -48778,7 +48778,7 @@
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/yandexrs.py"
     },
     {
-        "author": "@djmodules",
+        "author": "@devjmodules",
         "banner": "https://kappa.lol/nfF_A",
         "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
         "commands": [
@@ -48828,7 +48828,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
     },
     {
-        "author": "@djmodules",
+        "author": "@devjmodules",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
         "commands": [
