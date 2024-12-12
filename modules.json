@@ -18648,7 +18648,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
-        "description": "Automatically translates your messages using Google Translate",
+        "author": "@moduleslist",
+        "banner": "https://envs.sh/Ult.jpg",
+        "description": "Faster version of auto-translator using Google Translate API",
         "commands": [
             {
                 "name": "tr_langs",
@@ -18656,7 +18658,7 @@
                 "description": {
                     "ru_doc": "Показать список доступных языков",
                     "en_doc": "Show list of available languages",
-                    "uk_doc": "Показати список доступних мов",
+                    "ua_doc": "Показати список доступних мов",
                     "doc": "Show list of available languages"
                 }
             },
@@ -18666,7 +18668,7 @@
                 "description": {
                     "ru_doc": "[язык] - Включить/выключить автоперевод в чате",
                     "en_doc": "[lang] - Enable/disable auto-translation in chat",
-                    "uk_doc": "[мова] - Увімкнути/вимкнути автопереклад у чаті",
+                    "ua_doc": "[мова] - Увімкнути/вимкнути автопереклад у чаті",
                     "doc": "[language_code] - Toggle auto-translation in current chat"
                 }
             }
