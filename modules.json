@@ -8155,6 +8155,65 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/spotify4ik.png?raw=true",
+        "description": "Слушай музыку в Spotify",
+        "commands": [
+            {
+                "name": "spauth",
+                "inline": false,
+                "description": {
+                    "doc": "Войти в свой аккаунт"
+                }
+            },
+            {
+                "name": "spcode",
+                "inline": false,
+                "description": {
+                    "doc": "Ввести код авторизации"
+                }
+            },
+            {
+                "name": "sppause",
+                "inline": false,
+                "description": {
+                    "doc": "Поставить на паузу текущий трек"
+                }
+            },
+            {
+                "name": "spplay",
+                "inline": false,
+                "description": {
+                    "doc": "Воспроизвести текущий трек"
+                }
+            },
+            {
+                "name": "spnext",
+                "inline": false,
+                "description": {
+                    "doc": "Включить следующий трек"
+                }
+            },
+            {
+                "name": "spbio",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить стрим текущего трека в био"
+                }
+            },
+            {
+                "name": "spnow",
+                "inline": false,
+                "description": {
+                    "doc": "Текущий трек"
+                }
+            }
+        ],
+        "name": "Spotify4ik",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/spotify4ik.py"
+    },
+    {
+        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/stats.png?raw=true",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
@@ -11284,6 +11343,43 @@
         "name": "FarmdMod",
         "repo": "Daniel1236n29/Modules_hikka",
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/FarmdMod.py"
+    },
+    {
+        "author": "@shrimp_mod",
+        "description": "Модуль для управления списком чатов для рассылки",
+        "commands": [
+            {
+                "name": "addchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить чат в список рассылки"
+                }
+            },
+            {
+                "name": "delchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить чат из списка рассылки"
+                }
+            },
+            {
+                "name": "listchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список чатов для рассылки"
+                }
+            },
+            {
+                "name": "mailall",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить сообщение во все чаты из списка"
+                }
+            }
+        ],
+        "name": "Mailing Chats",
+        "repo": "Daniel1236n29/Modules_hikka",
+        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/broafcast.py"
     },
     {
         "author": "@shrimp_mod",
@@ -18552,6 +18648,34 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
+        "description": "Automatically translates your messages using Google Translate",
+        "commands": [
+            {
+                "name": "tr_langs",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать список доступных языков",
+                    "en_doc": "Show list of available languages",
+                    "uk_doc": "Показати список доступних мов",
+                    "doc": "Show list of available languages"
+                }
+            },
+            {
+                "name": "autotr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[язык] - Включить/выключить автоперевод в чате",
+                    "en_doc": "[lang] - Enable/disable auto-translation in chat",
+                    "uk_doc": "[мова] - Увімкнути/вимкнути автопереклад у чаті",
+                    "doc": "[language_code] - Toggle auto-translation in current chat"
+                }
+            }
+        ],
+        "name": "AutoTranslator",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoTranslator.py"
+    },
+    {
         "author": "@eremod",
         "commands": [
             {
@@ -21744,6 +21868,65 @@
         "name": "Spam",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/spam_shadow_.py"
+    },
+    {
+        "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/spotify4ik.png?raw=true",
+        "description": "Слушай музыку в Spotify",
+        "commands": [
+            {
+                "name": "spauth",
+                "inline": false,
+                "description": {
+                    "doc": "Войти в свой аккаунт"
+                }
+            },
+            {
+                "name": "spcode",
+                "inline": false,
+                "description": {
+                    "doc": "Ввести код авторизации"
+                }
+            },
+            {
+                "name": "sppause",
+                "inline": false,
+                "description": {
+                    "doc": "Поставить на паузу текущий трек"
+                }
+            },
+            {
+                "name": "spplay",
+                "inline": false,
+                "description": {
+                    "doc": "Воспроизвести текущий трек"
+                }
+            },
+            {
+                "name": "spnext",
+                "inline": false,
+                "description": {
+                    "doc": "Включить следующий трек"
+                }
+            },
+            {
+                "name": "spbio",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить стрим текущего трека в био"
+                }
+            },
+            {
+                "name": "spnow",
+                "inline": false,
+                "description": {
+                    "doc": "Текущий трек"
+                }
+            }
+        ],
+        "name": "Spotify4ik",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/spotify4ik.py"
     },
     {
         "description": "Подпишись на канал @modwini",
@@ -48761,6 +48944,34 @@
         "name": "DevGPT",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
+    },
+    {
+        "author": "@devjmodules",
+        "banner": "http://ndpropave5.temp.swtest.ru/files/EJp.jpg",
+        "description": "Managing userbot on ToTHost",
+        "commands": [
+            {
+                "name": "totinfo",
+                "inline": false,
+                "description": {
+                    "en_doc": "Display info",
+                    "ru_doc": "Вывести инфо",
+                    "doc": "Display info"
+                }
+            },
+            {
+                "name": "totrestart",
+                "inline": false,
+                "description": {
+                    "en_doc": "Restart userbot",
+                    "ru_doc": "Перезагрузить юзербота",
+                    "doc": "Restart usebot"
+                }
+            }
+        ],
+        "name": "ToTHost",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ToTHost.py"
     },
     {
         "author": "@devjmodules",
