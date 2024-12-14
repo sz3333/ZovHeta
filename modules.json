@@ -10726,6 +10726,22 @@
     },
     {
         "author": "@dummykezu",
+        "commands": [
+            {
+                "name": "rapic",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить рандомное изображение.",
+                    "doc": "Fetch random pic."
+                }
+            }
+        ],
+        "name": "RandomAnimePic",
+        "repo": "kezuhiro-web/modules",
+        "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/RandomAnimePic.py"
+    },
+    {
+        "author": "@dummykezu",
         "description": "Модуль для поиска в различных поисковых системах",
         "commands": [
             {
