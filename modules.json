@@ -10655,29 +10655,6 @@
     },
     {
         "author": "@dummykezu",
-        "description": "Based on docs.onlysq.com",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": "Спросить нейросеть (GPT-3.5-Turbo)"
-                }
-            },
-            {
-                "name": "img",
-                "inline": false,
-                "description": {
-                    "doc": "Сгенерировать изображение (Kandinsky)"
-                }
-            }
-        ],
-        "name": "GPT3.5",
-        "repo": "kezuhiro-web/modules",
-        "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/GPT.py"
-    },
-    {
-        "author": "@dummykezu",
         "description": "Модуль для сокращения ссылок через TinyURL",
         "commands": [
             {
@@ -10755,6 +10732,22 @@
         "name": "Searcher",
         "repo": "kezuhiro-web/modules",
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/Searcher.py"
+    },
+    {
+        "author": "@dummykezu",
+        "commands": [
+            {
+                "name": "unbanall",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Разбанить всех забаненных пользователей",
+                    "doc": "- Unban all banned users"
+                }
+            }
+        ],
+        "name": "UnbanAll",
+        "repo": "kezuhiro-web/modules",
+        "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/UnbanAll.py"
     },
     {
         "author": "@dummykezu",
