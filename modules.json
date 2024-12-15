@@ -46236,6 +46236,13 @@
                 "description": {
                     "doc": "вкл/выкл автоматический клейм токенов с рефки"
                 }
+            },
+            {
+                "name": "update_useragent",
+                "inline": false,
+                "description": {
+                    "doc": "обновить User-Agent"
+                }
             }
         ],
         "name": "yg_blum",
