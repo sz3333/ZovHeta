@@ -17267,6 +17267,21 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
     },
     {
+        "description": "Обход в оффтопе хикки",
+        "commands": [
+            {
+                "name": "oft",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить сообщение"
+                }
+            }
+        ],
+        "name": "Обход",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/obxod.py"
+    },
+    {
         "author": "@kmodules",
         "banner": "https://i.ibb.co/NsMcJVJ/6116dddf-38f7-4bad-9b69-10c1e3c19fa5.jpg",
         "description": "Игра-викторина с разными темами и сложностями",
