@@ -48964,34 +48964,6 @@
     },
     {
         "author": "@devjmodules",
-        "banner": "http://ndpropave5.temp.swtest.ru/files/EJp.jpg",
-        "description": "Managing userbot on ToTHost",
-        "commands": [
-            {
-                "name": "totinfo",
-                "inline": false,
-                "description": {
-                    "en_doc": "Display info",
-                    "ru_doc": "Вывести инфо",
-                    "doc": "Display info"
-                }
-            },
-            {
-                "name": "totrestart",
-                "inline": false,
-                "description": {
-                    "en_doc": "Restart userbot",
-                    "ru_doc": "Перезагрузить юзербота",
-                    "doc": "Restart usebot"
-                }
-            }
-        ],
-        "name": "ToTHost",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ToTHost.py"
-    },
-    {
-        "author": "@devjmodules",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
         "commands": [
