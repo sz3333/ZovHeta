@@ -48981,5 +48981,316 @@
         "name": "Uploader",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/Uploader.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для создания текста из эмодзи букв",
+        "commands": [
+            {
+                "name": "at",
+                "inline": false,
+                "description": {
+                    "doc": ".at <номер> <текст> - Создает текст из эмодзи"
+                }
+            },
+            {
+                "name": "atxelp",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о модуле и его паках"
+                }
+            }
+        ],
+        "name": "AnimatedText",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/AnimatedText.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для фарма био опыта/ресурсов",
+        "commands": [
+            {
+                "name": "stopzar",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить фарм"
+                }
+            },
+            {
+                "name": "zar",
+                "inline": false,
+                "description": {
+                    "doc": "(@id/@user/t.me) Заражение по ID или юзернейму"
+                }
+            },
+            {
+                "name": "masszar",
+                "inline": false,
+                "description": {
+                    "doc": "(количество) Запуск автофарма"
+                }
+            }
+        ],
+        "name": "BioFarm",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/BioFarm.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Кастомный пинг с поддержкой премиум эмодзи",
+        "commands": [
+            {
+                "name": "cping",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - Узнать пинг вашего юзербота"
+                }
+            }
+        ],
+        "name": "Cping",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Cping.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для сравнения курсов",
+        "commands": [
+            {
+                "name": "cv",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .cv <число> <название валюты>."
+                }
+            },
+            {
+                "name": "cvi",
+                "inline": false,
+                "description": {
+                    "doc": "Список доступных валют"
+                }
+            }
+        ],
+        "name": "Currency",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/CurrencyViewer.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Module for Cleaning Up Deleted Accounts in Chat",
+        "commands": [
+            {
+                "name": "delete",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет удалённые аккаунты из чата"
+                }
+            }
+        ],
+        "name": "Del",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Del.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для настройки и отображения фейкового пинга",
+        "commands": [
+            {
+                "name": "fping",
+                "inline": false,
+                "description": {
+                    "doc": "Устанавливает и отображает фейковый пинг"
+                }
+            }
+        ],
+        "name": "Fping",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Fping.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для отображения статуса подписки Telegram Premium через @PremiumBot.",
+        "commands": [
+            {
+                "name": "ot",
+                "inline": false,
+                "description": {
+                    "doc": "Отображает информацию о подписке Telegram Premium. Используйте: .ot"
+                }
+            }
+        ],
+        "name": "PremiumStatus",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/PremiumStatus.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для спама",
+        "commands": [
+            {
+                "name": "si",
+                "inline": false,
+                "description": {
+                    "doc": "Справка по модулю"
+                }
+            },
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск спама"
+                }
+            },
+            {
+                "name": "stop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановка спама"
+                }
+            }
+        ],
+        "name": "Spam+",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Spam+.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для форматирования текста в чате",
+        "commands": [
+            {
+                "name": "tsxelp",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает инструкцию по использованию модуля"
+                }
+            }
+        ],
+        "name": "TextStyler",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/TextStyler.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Конвертер Медиафайлов",
+        "commands": [
+            {
+                "name": "savev",
+                "inline": false,
+                "description": {
+                    "doc": "Сохранить запись: <название>"
+                }
+            },
+            {
+                "name": "getv",
+                "inline": false,
+                "description": {
+                    "doc": "Получить запись: <название> или список"
+                }
+            },
+            {
+                "name": "delv",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить запись: <название> или все"
+                }
+            },
+            {
+                "name": "conv",
+                "inline": false,
+                "description": {
+                    "doc": "Конвертировать медиафайл"
+                }
+            }
+        ],
+        "name": "VoiceMP",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/VoiceMP.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для автохила при заражении или горячке в ЛС игрового бота",
+        "commands": [
+            {
+                "name": "show_bots",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать список игровых ботов",
+                    "doc": "Список разрешённых ботов и их id"
+                }
+            }
+        ],
+        "name": "AutoHeal",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/autoheal.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для фейк-доксинга пользователей чата.",
+        "commands": [
+            {
+                "name": "dox",
+                "inline": false,
+                "description": {
+                    "doc": "Пробить в базе"
+                }
+            }
+        ],
+        "name": "Doxer",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/doxer.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для поиска главной душнилы чата\n\nЭто шуточный модуль, автор ни в коем случае не пытался вас обидеть ",
+        "commands": [
+            {
+                "name": "dn",
+                "inline": false,
+                "description": {
+                    "doc": "- найти душнилу"
+                }
+            }
+        ],
+        "name": "dushnometr",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/dushnometr.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Генерация аккаунтов с временной почтой для регистрации без личных данных",
+        "commands": [
+            {
+                "name": "generate",
+                "inline": false,
+                "description": {
+                    "doc": "Генерация новых данных"
+                }
+            },
+            {
+                "name": "saves",
+                "inline": false,
+                "description": {
+                    "doc": "ник или вывести список"
+                }
+            }
+        ],
+        "name": "loginer",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/loginer.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для преобразования видео в видео-сообщение (кружок).",
+        "commands": [
+            {
+                "name": "okr",
+                "inline": false,
+                "description": {
+                    "doc": "Переделать (Видео, gif, sticker) в Кружок"
+                }
+            }
+        ],
+        "name": "okruglator",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/okruglator.py"
     }
 ]
