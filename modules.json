@@ -10735,13 +10735,13 @@
     },
     {
         "author": "@dummykezu",
-        "description": "Модуль для конвертации видео в аудио и сохранения в mp3",
         "commands": [
             {
                 "name": "mp3",
                 "inline": false,
                 "description": {
-                    "doc": "<reply_to_video> [название_файла] - Конвертировать видео в аудио и сохранить как MP3"
+                    "ru_doc": " <reply_to_video> [имя_файла] - Конвертировать видео в аудио",
+                    "doc": "<reply_to_video> [file_name] - Convert video to audio"
                 }
             }
         ],
