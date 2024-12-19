@@ -17605,6 +17605,17 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Модуль для отправки рандомного мемного кружочка",
+        "commands": [
+            {
+                "name": "rc",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет рандомный кружочек."
+                }
+            }
+        ],
+        "name": "RandomCircle",
         "repo": "sawwnapix/Hikka",
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/randomcircle.py"
     },
