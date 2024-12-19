@@ -21539,6 +21539,66 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/modgi.py"
     },
     {
+        "author": "@codrago_m",
+        "description": "ID of all!",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Get User ID"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Get your ID"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Get chat ID"
+                }
+            }
+        ],
+        "name": "ID",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_id.py"
+    },
+    {
+        "author": "@codrago_m",
+        "description": "ID of all!",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Get User ID"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Get your ID"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Get chat ID"
+                }
+            }
+        ],
+        "name": "ID",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_ipinfo.py"
+    },
+    {
         "author": "@mwmodules",
         "description": "🚀 Accurate internet speed measurement\n🚀 Точное измерение скорости интернета (для смены языка используйте .config SpeedTest language en/ru/uk)\n🚀 Точне вимірювання швидкості інтернету (для зміни мови використовуйте .config SpeedTest language en/ru/uk)",
         "commands": [
