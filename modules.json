@@ -17604,6 +17604,11 @@
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/UserInfo.py"
     },
     {
+        "author": "@angellmodules",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/randomcircle.py"
+    },
+    {
         "description": "Модуль для изменения текста загрузки хикки. Используйте осторожно!\nАккуратнее при использовании на Lavhost и подобных. Использовать крайне не рекомендуется. \nЕсли у вас форк, то, вероятно, все будет работать, но выдаст не критическую ошибку.",
         "commands": [
             {
