@@ -20772,6 +20772,71 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Telegraph.py"
     },
     {
+        "author": "@mwmodules & @Zeen17i & @mwoffice",
+        "description": "Модуль для создания и управления временными чатами\nРазработчики: @Zeen17i и @mwoffice",
+        "commands": [
+            {
+                "name": "tempchat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<название> <время_в_минутах> <@username> - создать временный чат",
+                    "doc": "Create temporary chat with specified lifetime"
+                }
+            },
+            {
+                "name": "tempinfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать информацию о временном чате",
+                    "doc": "Show information about temporary chat"
+                }
+            },
+            {
+                "name": "tempextend",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<минуты> - продлить время жизни чата",
+                    "doc": "Extend chat lifetime for specified minutes"
+                }
+            },
+            {
+                "name": "templock",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Закрыть чат (только админы могут писать)",
+                    "doc": "Lock chat (only admins can write)"
+                }
+            },
+            {
+                "name": "tempunlock",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Открыть чат (все могут писать)",
+                    "doc": "Unlock chat (everyone can write)"
+                }
+            },
+            {
+                "name": "temparchive",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавить чат в архив",
+                    "doc": "Archive temporary chat"
+                }
+            },
+            {
+                "name": "tempunarchive",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить чат из архива",
+                    "doc": "Unarchive temporary chat"
+                }
+            }
+        ],
+        "name": "TempChatsPlus",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/TempChatsPlus.py"
+    },
+    {
         "author": "большая часть кода @kepperok добавления и улучшения @tot_882",
         "commands": [
             {
@@ -21436,6 +21501,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/huhuhu.py"
     },
     {
+        "author": "@mwmodules",
+        "description": "Получает подробную информацию об IP-адресе, включая хост, дополнительные данные, ссылку на Google Maps и 20 полей.",
+        "commands": [
+            {
+                "name": "ip",
+                "inline": false,
+                "description": {
+                    "doc": "Получает подробную информацию об IP-адресе и определяет хост.\n.ip <ip_address>"
+                }
+            }
+        ],
+        "name": "IPInfo",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ipinfo_mw.py"
+    },
+    {
         "author": "@RUIS_VlP",
         "description": "Саппорт для лс",
         "commands": [
@@ -21626,6 +21707,22 @@
     },
     {
         "author": "@mwmodules",
+        "description": "Мониторинг системных ресурсов сервера/устройства",
+        "commands": [
+            {
+                "name": "serverinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает информацию о системе с интерактивными кнопками"
+                }
+            }
+        ],
+        "name": "ServerInfo",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_serverinfo.py"
+    },
+    {
+        "author": "@mwmodules",
         "description": "🚀 Accurate internet speed measurement\n🚀 Точное измерение скорости интернета (для смены языка используйте .config SpeedTest language en/ru/uk)\n🚀 Точне вимірювання швидкості інтернету (для зміни мови використовуйте .config SpeedTest language en/ru/uk)",
         "commands": [
             {
@@ -21642,6 +21739,37 @@
         "name": "SpeedTest",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_speedtest.py"
+    },
+    {
+        "author": "@mwmodules",
+        "commands": [
+            {
+                "name": "sping",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить интерактивный пинг"
+                }
+            }
+        ],
+        "name": "SuperPing",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_superping.py"
+    },
+    {
+        "author": "@mwmodules",
+        "description": "Управление временной почтой от @mwoffice",
+        "commands": [
+            {
+                "name": "tempmail",
+                "inline": false,
+                "description": {
+                    "doc": "Показать меню управления временной почтой"
+                }
+            }
+        ],
+        "name": "TempMail",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_tempmail.py"
     },
     {
         "author": "@HikkTutor",
