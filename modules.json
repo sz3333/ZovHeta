@@ -17701,6 +17701,21 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/DcTool.py"
     },
     {
+        "description": "Вместо репли вставляет цитату с содержимым из репли.",
+        "commands": [
+            {
+                "name": "qmsg",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - Отправить сообщение с цитированием содержимого из репли."
+                }
+            }
+        ],
+        "name": "QuoteMsg",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/QuoteMsg.py"
+    },
+    {
         "description": "AmeActions",
         "commands": [
             {
