@@ -21772,6 +21772,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_tempmail.py"
     },
     {
+        "author": "@mwmodules",
+        "description": "Модуль для получения погоды в любом городе мира",
+        "commands": [
+            {
+                "name": "weather",
+                "inline": false,
+                "description": {
+                    "doc": "<город> - Получить текущую погоду и прогноз на 5 дней\nПримеры:\n.weather Москва\n.weather Moscow \n.weather New York"
+                }
+            }
+        ],
+        "name": "Weather",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/mw_weather.py"
+    },
+    {
         "author": "@HikkTutor",
         "banner": "https://t.me/HikkTutor",
         "description": "Модуль для преобразования видео в видео-сообщение (кружок).",
