@@ -17415,6 +17415,22 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Конвертация изображений в ASCII-арт",
+        "commands": [
+            {
+                "name": "ascii",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай на изображение>"
+                }
+            }
+        ],
+        "name": "ASCIIArt",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/ASCIIArt.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Показывает текущую погоду в указанном городе.🍃",
         "commands": [
             {
