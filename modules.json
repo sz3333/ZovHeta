@@ -49540,5 +49540,42 @@
         "name": "okruglator",
         "repo": "HikkTutor/HT",
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/okruglator.py"
+    },
+    {
+        "author": "@HikkTutor",
+        "description": "Модуль для массового упоминания участников группы с возможностью исключения определенных пользователей",
+        "commands": [
+            {
+                "name": "all",
+                "inline": false,
+                "description": {
+                    "doc": "- Запустить/остановить созыв"
+                }
+            },
+            {
+                "name": "remove",
+                "inline": false,
+                "description": {
+                    "doc": "<chat_id> <user_id/username> - Исключить пользователя из упоминания"
+                }
+            },
+            {
+                "name": "unremove",
+                "inline": false,
+                "description": {
+                    "doc": "<chat_id> <user_id/username> - Вернуть исключенного пользователя в упоминания"
+                }
+            },
+            {
+                "name": "check",
+                "inline": false,
+                "description": {
+                    "doc": "<chat_id> - Показать пользователей, исключенных из упоминания в чате"
+                }
+            }
+        ],
+        "name": "sozivala",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/sozivala.py"
     }
 ]
