@@ -1,6 +1,6 @@
-__version__ = (8, 9, 7)
+__version__ = (8, 9, 8)
 # meta developer: @Foxy437
-# change-log: 🤙🤙😍😍🎉🔥🎉🎉😎😎😱😱😱😱😱😱
+# change-log: 🤙🤙😍😎😱😱😱😱😱😱
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -26,7 +26,6 @@ import io
 import inspect
 from hikkatl.types import Message
 import random
-from foxy437lib import fheta
 from ..types import InlineCall, InlineQuery
 import difflib
 
@@ -97,9 +96,7 @@ class FHeta(loader.Module):
         "che": " 👍 Оцінка змінена!"
     }
 
-    async def client_ready(self, client, db):
-        self.client = client
-        await fheta(client)
+    async def client_ready(self):
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
