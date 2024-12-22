@@ -10865,6 +10865,17 @@
     },
     {
         "author": "@codrago_m",
+        "description": "Random Ascii Face from utils",
+        "commands": [
+            {
+                "name": "ascii",
+                "inline": false,
+                "description": {
+                    "doc": "| Get random ascii face"
+                }
+            }
+        ],
+        "name": "Ascii_Face",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/ascii_face.py"
     },
