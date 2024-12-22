@@ -18340,28 +18340,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsciiArts.py"
     },
     {
-        "description": "Модуль для фарма в @astro_GameBot от @Apolon99",
-        "commands": [
-            {
-                "name": "astr",
-                "inline": false,
-                "description": {
-                    "doc": "- для начала авто фарминга в боте."
-                }
-            },
-            {
-                "name": "astrstop",
-                "inline": false,
-                "description": {
-                    "doc": "- для остановки фарма в боте."
-                }
-            }
-        ],
-        "name": "AstroKs",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AstroKs.py"
-    },
-    {
         "author": "@mm_mods",
         "description": "Atoll — it's like am Atool (Admin Tool) but sounds nicer. Some basic moderation features, just for me. Clean\ndocs, pure user experience.",
         "commands": [
