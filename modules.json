@@ -18927,47 +18927,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ChannelCheck.py"
     },
     {
-        "author": "@Deeeeeeeeeeeeff & @Foxy437",
-        "description": "ChatGPT for everyone!",
-        "commands": [
-            {
-                "name": "on_gpt",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включить ChatGPT для всех в этом чате!",
-                    "doc": "Enable ChatGPT for everyone in this chat!"
-                }
-            },
-            {
-                "name": "off_gpt",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Отключить ChatGPT для всех в этом чате!",
-                    "doc": "Disable ChatGPT for everyone in this chat!"
-                }
-            },
-            {
-                "name": "g",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Спросить что-то у ChatGPT.",
-                    "doc": "Ask ChatGPT something."
-                }
-            },
-            {
-                "name": "new",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сбросить личную историю ChatGPT.",
-                    "doc": "Reset personal mode history with ChatGPT."
-                }
-            }
-        ],
-        "name": "ChatGPT",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ChatGPT.py"
-    },
-    {
         "description": "Чат модуль",
         "commands": [
             {
@@ -19313,29 +19272,6 @@
         "name": "FinanceModule",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/FinanceModule.py"
-    },
-    {
-        "author": "@Foxy437",
-        "description": "dev: foxy437.t.me",
-        "commands": [
-            {
-                "name": "new",
-                "inline": false,
-                "description": {
-                    "doc": "- Сбросить историю"
-                }
-            },
-            {
-                "name": "g",
-                "inline": false,
-                "description": {
-                    "doc": "- Пример: .g привет как дела"
-                }
-            }
-        ],
-        "name": "FoGPT",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/FoGPT.py"
     },
     {
         "author": "@HikkTutor",
