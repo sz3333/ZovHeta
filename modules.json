@@ -11315,6 +11315,36 @@
         "install": "dlm https://raw.githubusercontent.com/Slaik78/ModulesHikkaFromSlaik/main/PetPet.py"
     },
     {
+        "author": "@Hicota",
+        "description": "Вам надоело скачивать сторонний пинг ради своего дизайна? тогда скачайте этот пинг чтоб изменить встроенный пинг😁",
+        "commands": [
+            {
+                "name": "rhint",
+                "inline": false,
+                "description": {
+                    "doc": "args - переименуйте хинт"
+                }
+            },
+            {
+                "name": "rping",
+                "inline": false,
+                "description": {
+                    "doc": "args - переименуйте пинг и аптайм (не забудьте про две фигурных скобок \"{}\", первая из которых ваш пинг, а вторая ваш аптайм)"
+                }
+            },
+            {
+                "name": "rupdate",
+                "inline": false,
+                "description": {
+                    "doc": "- обновить информацию о пинге и хинте в конфиге"
+                }
+            }
+        ],
+        "name": "ReNamePing",
+        "repo": "Slaik78/ModulesHikkaFromSlaik",
+        "install": "dlm https://raw.githubusercontent.com/Slaik78/ModulesHikkaFromSlaik/main/ReNamePing.py"
+    },
+    {
         "author": "@shrimp_mod",
         "description": "Модуль для отображения текущего курса криптовалют",
         "commands": [
