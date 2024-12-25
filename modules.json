@@ -17778,6 +17778,28 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/QuoteMsg.py"
     },
     {
+        "description": "🎵 Скачивает mp3 из видео и плейлистов YouTube",
+        "commands": [
+            {
+                "name": "ytmp3",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка> - скачивает mp3 с YouTube"
+                }
+            },
+            {
+                "name": "ytplmp3",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка> [число] - скачивает mp3 из плейлиста YouTube. Число - количество загружаетмых mp3"
+                }
+            }
+        ],
+        "name": "YouTubeToMP3",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/YouTubeToMP3.py"
+    },
+    {
         "description": "AmeActions",
         "commands": [
             {
