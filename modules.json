@@ -46718,20 +46718,13 @@
     },
     {
         "author": "@yg_modules",
-        "description": "Модуль для автоматического участия в розыгрышах @CryptoBot (неактуально)",
+        "description": "Модуль для автоматического участия в розыгрышах @CryptoBot",
         "commands": [
             {
-                "name": "gws",
+                "name": "giveaways",
                 "inline": false,
                 "description": {
-                    "doc": "проверить работоспособность"
-                }
-            },
-            {
-                "name": "gwslogs",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл отправку логов"
+                    "doc": "вкл/выкл активатор"
                 }
             }
         ],
