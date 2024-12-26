@@ -19105,6 +19105,44 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckSpamBan.py"
     },
     {
+        "description": "💡 Smart username checker with fast checking system",
+        "commands": [
+            {
+                "name": "checker",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить чекер юзернеймов",
+                    "ua_doc": "Увімкнути/вимкнути чекер юзернеймів",
+                    "en_doc": "Toggle username checker",
+                    "doc": "Toggle username checker"
+                }
+            },
+            {
+                "name": "interval",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<секунды> - Установить интервал проверки в секундах (≥10)",
+                    "ua_doc": "<секунди> - Встановити інтервал перевірки в секундах (≥10)",
+                    "en_doc": "<seconds> - Set check interval in seconds (≥10)",
+                    "doc": "<seconds> - Set check interval in seconds (≥10)"
+                }
+            },
+            {
+                "name": "timezones",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать все доступные таймзоны",
+                    "ua_doc": "Показати всі доступні часові пояси",
+                    "en_doc": "Show all available timezones",
+                    "doc": "Show all available timezones"
+                }
+            }
+        ],
+        "name": "CheckerUsernames",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckerTags.py"
+    },
+    {
         "commands": [
             {
                 "name": "clearbull",
