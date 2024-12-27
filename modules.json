@@ -46229,6 +46229,29 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "GigaChat без API ключа. Интеллект на уровне ChatGPT 3. Бот, который используется для запросов: @gigachat_bot. Модуль распространяется по лицензии MIT.",
+        "commands": [
+            {
+                "name": "gpt",
+                "inline": false,
+                "description": {
+                    "doc": "<текст> - запрос к нейросети GigaChat"
+                }
+            },
+            {
+                "name": "deletecontext",
+                "inline": false,
+                "description": {
+                    "doc": "- очищает историю переписки с нейросетью(контекст)"
+                }
+            }
+        ],
+        "name": "RUIS-GigaChat",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/RUIS-GigaChat.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Загрузка файлов на SFTP",
         "commands": [
             {
