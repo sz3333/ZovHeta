@@ -176,6 +176,18 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Module for displaying current cryptocurrency exchange rates.",
+        "commands": [
+            {
+                "name": "crypto",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Отображает текущий курс криптовалюты в рублях, долларах США и евро",
+                    "en_doc": "Displays the current cryptocurrency rate in RUB, USD, and EUR"
+                }
+            }
+        ],
+        "name": "CryptoCurrency",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/CryptoCurrency.py"
     },
@@ -266,6 +278,18 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Module for using GigaChat",
+        "commands": [
+            {
+                "name": "giga",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получите исчерпывающий ответ на свой вопрос",
+                    "en_doc": "Get GigaResponse to your question"
+                }
+            }
+        ],
+        "name": "GigaChat",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/GigaChat.py"
     },
