@@ -11064,6 +11064,29 @@
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/pinterest.py"
     },
     {
+        "author": "@codrago_m, @exttasy1",
+        "description": "Ban in pm for time",
+        "commands": [
+            {
+                "name": "pmban",
+                "inline": false,
+                "description": {
+                    "doc": "| ban in PM for time"
+                }
+            },
+            {
+                "name": "pmunban",
+                "inline": false,
+                "description": {
+                    "doc": "| unban in PM"
+                }
+            }
+        ],
+        "name": "PMBan",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/pmban.py"
+    },
+    {
         "author": "@codrago_m",
         "description": "Random - it's life!",
         "commands": [
