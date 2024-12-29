@@ -14715,33 +14715,22 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/s/h111E8AonLcGdpV5N8rx6A/XWiz.jpg",
-        "description": "Download youtube videos",
+        "description": "THIS IS A BETA! BUGS MAY OCCUR!",
         "commands": [
             {
-                "name": "ydownload",
+                "name": "videodl",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - [Ссылка] Скачать видео",
-                    "doc": "- [Link] Download video"
+                    "doc": "[link] - Download video"
                 }
             },
             {
-                "name": "addchannel",
+                "name": "potoken",
                 "inline": false,
-                "description": {
-                    "ru_doc": " - [Channel name (https://www.youtube.com/c/ChannelName/videos)] Add channel to subscriptions"
-                }
-            },
-            {
-                "name": "yupdate",
-                "inline": false,
-                "description": {
-                    "ru_doc": " - Обновить библиотеку (если модуль не качает видео)",
-                    "doc": "- [Link] Update libary (if module not download viceo)"
-                }
+                "description": {}
             }
         ],
-        "name": "YoutubeDL",
+        "name": "YoutubeDLB",
         "repo": "MuRuLOSE/HikkaModulesRepo",
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/YoutubeDL.py"
     },
@@ -18827,6 +18816,7 @@
     },
     {
         "author": "@Foxy437",
+        "banner": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg",
         "description": "Модуль для авто замены шрифтика на жирный.",
         "commands": [
             {
@@ -18844,7 +18834,7 @@
                 }
             }
         ],
-        "name": "Bol",
+        "name": "Bold",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BOLD.py"
     },
