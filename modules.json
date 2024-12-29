@@ -18415,7 +18415,7 @@
                 }
             }
         ],
-        "name": "AsciiArts",
+        "name": "AsciiArt",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsciiArts.py"
     },
@@ -18816,18 +18816,17 @@
     },
     {
         "author": "@Foxy437",
-        "banner": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg",
         "description": "Модуль для авто замены шрифтика на жирный.",
         "commands": [
             {
-                "name": "on_b",
+                "name": "on_bold",
                 "inline": false,
                 "description": {
                     "doc": "Включить авто замену шрифтика на жирный."
                 }
             },
             {
-                "name": "off_b",
+                "name": "off_bold",
                 "inline": false,
                 "description": {
                     "doc": "Выключить авто замену шрифтика на жирный."
