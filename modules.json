@@ -21560,6 +21560,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ipinfo_mw.py"
     },
     {
+        "description": "Модуль для просмотра мешка в Irise by @zhako_o7",
+        "commands": [
+            {
+                "name": "б",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .б как ответ на сообщение"
+                }
+            }
+        ],
+        "name": "IrisMesh",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irism.py"
+    },
+    {
         "author": "@RUIS_VlP",
         "description": "Саппорт для лс",
         "commands": [
