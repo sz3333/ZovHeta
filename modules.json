@@ -17674,6 +17674,11 @@
     },
     {
         "author": "@angellmodules",
+        "repo": "sawwnapix/Hikka",
+        "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/neskacuvaite.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Модуль для отправки рандомного мемного кружочка",
         "commands": [
             {
