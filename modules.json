@@ -17673,7 +17673,6 @@
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/UserInfo.py"
     },
     {
-        "author": "@angellmodules",
         "description": "Модуль для автоматической подписки на канал",
         "name": "AutoJoin",
         "repo": "sawwnapix/Hikka",
