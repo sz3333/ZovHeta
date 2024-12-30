@@ -8836,6 +8836,24 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/egsfreegames.png?raw=true",
+        "description": "Module for checking free games in Epic Games Store. Inline bot will send them every day in special chat",
+        "commands": [
+            {
+                "name": "egsgames",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить бесплатные игры доступные в Epic Games Store",
+                    "doc": "Get free games links available in Epic Games Store"
+                }
+            }
+        ],
+        "name": "EGSFreeGames",
+        "repo": "sqlmerr/hikka_mods",
+        "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/egsfreegames.py"
+    },
+    {
+        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_fakedata.png?raw=true",
         "description": "Just fake data of persons and credit cards",
         "commands": [
