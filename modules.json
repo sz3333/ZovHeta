@@ -11410,43 +11410,6 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Модуль для управления списком чатов для рассылки",
-        "commands": [
-            {
-                "name": "addchatr",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить чат в список рассылки"
-                }
-            },
-            {
-                "name": "delchatr",
-                "inline": false,
-                "description": {
-                    "doc": "Удалить чат из списка рассылки"
-                }
-            },
-            {
-                "name": "listchatr",
-                "inline": false,
-                "description": {
-                    "doc": "Показать список чатов для рассылки"
-                }
-            },
-            {
-                "name": "mailall",
-                "inline": false,
-                "description": {
-                    "doc": "Отправить сообщение во все чаты из списка"
-                }
-            }
-        ],
-        "name": "Mailing Chats",
-        "repo": "Daniel1236n29/Modules_hikka",
-        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/broafcast.py"
-    },
-    {
-        "author": "@shrimp_mod",
         "description": "Подсчет сообщений, медиа и статистики пользователей в чате",
         "commands": [
             {
@@ -11537,6 +11500,50 @@
         "name": "GigaChat",
         "repo": "Daniel1236n29/Modules_hikka",
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/gigamod.py"
+    },
+    {
+        "author": "@shrimp_mod",
+        "description": "Модуль для управления списком чатов для рассылки",
+        "commands": [
+            {
+                "name": "addchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить чат в список рассылки"
+                }
+            },
+            {
+                "name": "delchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить чат из списка рассылки"
+                }
+            },
+            {
+                "name": "setdelay",
+                "inline": false,
+                "description": {
+                    "doc": "Установить задержку между отправкой сообщений (в секундах)"
+                }
+            },
+            {
+                "name": "listchatr",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список чатов для рассылки"
+                }
+            },
+            {
+                "name": "mailall",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить сообщение во все чаты из списка"
+                }
+            }
+        ],
+        "name": "Mailing Chats",
+        "repo": "Daniel1236n29/Modules_hikka",
+        "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/mailingchats.py"
     },
     {
         "author": "@shrimp_mod",
