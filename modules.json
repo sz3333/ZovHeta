@@ -17419,6 +17419,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Поиск информации в Википедии",
+        "commands": [
+            {
+                "name": "wksearch",
+                "inline": false,
+                "description": {
+                    "doc": "Поиск в Википедии - .wksearch <запрос>"
+                }
+            }
+        ],
+        "name": "WikiSearch",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/wikisearch.py"
+    },
+    {
+        "author": "@kmodules",
         "banner": "https://i.ibb.co/84JDV0z/29a858b1-0c80-4c88-8042-9d7622ebc7f9.jpg",
         "description": "Module for searching videos on YouTube",
         "commands": [
