@@ -17777,21 +17777,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/DcTool.py"
     },
     {
-        "description": "Модуль для упоминания всех пользователей в чате.",
-        "commands": [
-            {
-                "name": "all",
-                "inline": false,
-                "description": {
-                    "doc": "<text> - Для упоминания всех участников чата"
-                }
-            }
-        ],
-        "name": "MentionAll",
-        "repo": "amm1edev/AmeMods",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/MentionAll.py"
-    },
-    {
         "description": "Вместо репли вставляет цитату с содержимым из репли.",
         "commands": [
             {
