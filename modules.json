@@ -11503,7 +11503,7 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Модуль для управления списком чатов для рассылки",
+        "description": "Модуль для рассылки по чатам",
         "commands": [
             {
                 "name": "addchatr",
