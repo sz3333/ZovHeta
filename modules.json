@@ -10753,7 +10753,6 @@
     },
     {
         "author": "@dummykezu",
-        "description": "Voice and video messages to text translation with auto-recognition",
         "commands": [
             {
                 "name": "vtt",
