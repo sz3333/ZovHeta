@@ -17216,6 +17216,50 @@
     },
     {
         "author": "@kmodules",
+        "description": "Модуль для отслеживания времени до разных событий, ВРЕМЯ может быть неправильное, потому что у вас на сервере такое время. На Termux время правильное...",
+        "commands": [
+            {
+                "name": "nytime",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает время до нового года"
+                }
+            },
+            {
+                "name": "wintertime",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает время до зимы"
+                }
+            },
+            {
+                "name": "springtime",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает время до весны"
+                }
+            },
+            {
+                "name": "summertime",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает время до лета"
+                }
+            },
+            {
+                "name": "autumntime",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает время до осени"
+                }
+            }
+        ],
+        "name": "CountTime",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/counttime.py"
+    },
+    {
+        "author": "@kmodules",
         "description": "Module for viewing GitHub profile information",
         "commands": [
             {
