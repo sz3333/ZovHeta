@@ -13125,14 +13125,14 @@
                 "name": "sauth",
                 "inline": false,
                 "description": {
-                    "doc": "Войти в свой аккаунт"
+                    "doc": "Authenticate your Spotify account."
                 }
             },
             {
                 "name": "scode",
                 "inline": false,
                 "description": {
-                    "doc": "Ввести код авторизации"
+                    "doc": "Enter the authorization code."
                 }
             },
             {
