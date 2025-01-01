@@ -13122,14 +13122,14 @@
         "description": "Слушай музыку в Spotify. Updated by @MiSidePlayer. Original module creator @FAmods",
         "commands": [
             {
-                "name": "spauth",
+                "name": "sauth",
                 "inline": false,
                 "description": {
                     "doc": "Войти в свой аккаунт"
                 }
             },
             {
-                "name": "spcode",
+                "name": "scode",
                 "inline": false,
                 "description": {
                     "doc": "Ввести код авторизации"
