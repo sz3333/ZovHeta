@@ -17350,6 +17350,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Рандомные факты",
+        "commands": [
+            {
+                "name": "randomfact",
+                "inline": false,
+                "description": {
+                    "doc": "Получить случайный факт"
+                }
+            }
+        ],
+        "name": "RandomFact",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/randomfact.py"
+    },
+    {
+        "author": "@kmodules",
         "banner": "https://i.ibb.co/hK4zxP7/6f8d18ef-53d2-42a5-94e5-c0abef97b1bb.jpg",
         "description": "2 mode random memes.",
         "commands": [
