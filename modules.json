@@ -46488,6 +46488,43 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/SFTPUploader.py"
     },
     {
+        "author": "@RUIS_VlP, @matubuntu",
+        "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
+        "commands": [
+            {
+                "name": "gptdel",
+                "inline": false,
+                "description": {
+                    "doc": "- очищает историю переписки с нейросетью(контекст)"
+                }
+            },
+            {
+                "name": "giga",
+                "inline": false,
+                "description": {
+                    "doc": "<текст> - запрос к нейросети GigaChat"
+                }
+            },
+            {
+                "name": "gigadel",
+                "inline": false,
+                "description": {
+                    "doc": "- очищает историю переписки с нейросетью(контекст)"
+                }
+            },
+            {
+                "name": "gpt",
+                "inline": false,
+                "description": {
+                    "doc": "<текст> - запрос к нейросети ChatGPT"
+                }
+            }
+        ],
+        "name": "RUIS-GigaGpt",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/gigagpt.py"
+    },
+    {
         "author": "@RUIS_VlP",
         "description": "Саппорт для лс",
         "commands": [
