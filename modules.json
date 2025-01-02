@@ -14785,7 +14785,7 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVT.jpg",
-        "description": "Module for VK Music",
+        "description": "Module for VK Music (Remember, if your server is outside of Russia, errors can happen because VK does not want to give out track information due to restrictions)",
         "commands": [
             {
                 "name": "vkmpnow",
