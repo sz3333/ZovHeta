@@ -13144,14 +13144,14 @@
                 "name": "sauth",
                 "inline": false,
                 "description": {
-                    "doc": "Authenticate your Spotify account."
+                    "doc": "Получить ссылку для входа в аккаунт"
                 }
             },
             {
                 "name": "scode",
                 "inline": false,
                 "description": {
-                    "doc": "Enter the authorization code."
+                    "doc": "Ввести код авторизации"
                 }
             },
             {
