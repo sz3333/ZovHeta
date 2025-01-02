@@ -18466,7 +18466,7 @@
                 }
             }
         ],
-        "name": "Account Tim",
+        "name": "Account Time",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AccountTime.py"
     },
@@ -18501,98 +18501,6 @@
         "name": "AniverseCard",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AniverseCard.py"
-    },
-    {
-        "description": "ASCII Arts | Различные прикольные арты 0_o",
-        "commands": [
-            {
-                "name": "ascat",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Cat"
-                }
-            },
-            {
-                "name": "asdevil",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Devil"
-                }
-            },
-            {
-                "name": "asfuck",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Fuck"
-                }
-            },
-            {
-                "name": "asgift",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Gift"
-                }
-            },
-            {
-                "name": "asflow",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Flower"
-                }
-            },
-            {
-                "name": "aspika",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Pikachu"
-                }
-            },
-            {
-                "name": "ascandle",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Candle"
-                }
-            },
-            {
-                "name": "asbat",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Bat"
-                }
-            },
-            {
-                "name": "asbeer",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Beer"
-                }
-            },
-            {
-                "name": "asic",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Ice Cream"
-                }
-            },
-            {
-                "name": "ascake",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Cake"
-                }
-            },
-            {
-                "name": "asimpo",
-                "inline": false,
-                "description": {
-                    "doc": "- ASCII Imposter"
-                }
-            }
-        ],
-        "name": "AsArts",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsArts.py"
     },
     {
         "author": "@codermasochist",
