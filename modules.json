@@ -47294,6 +47294,50 @@
     },
     {
         "author": "@yg_modules",
+        "description": "Триггер-модуль. Документация: ямме.рф/триггер",
+        "commands": [
+            {
+                "name": "trigger",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл вотчер"
+                }
+            },
+            {
+                "name": "list_triggers",
+                "inline": false,
+                "description": {
+                    "doc": "показать все существующие триггеры"
+                }
+            },
+            {
+                "name": "add_trigger",
+                "inline": false,
+                "description": {
+                    "doc": "<условия> | <ответ> - добавить новый триггер"
+                }
+            },
+            {
+                "name": "remove_trigger",
+                "inline": false,
+                "description": {
+                    "doc": "<номер> - удалить триггер"
+                }
+            },
+            {
+                "name": "clear_triggers",
+                "inline": false,
+                "description": {
+                    "doc": "удалить все триггеры"
+                }
+            }
+        ],
+        "name": "yg_trigger",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_trigger.py"
+    },
+    {
+        "author": "@yg_modules",
         "description": "Converts music and video (required ffmpeg)",
         "commands": [
             {
