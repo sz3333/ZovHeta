@@ -18958,6 +18958,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoFormatter.py"
     },
     {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
+                "name": "artoggle",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить автореакции в текущем чате"
+                }
+            },
+            {
+                "name": "setr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить реакцию (обычный эмодзи или ID для Premium)"
+                }
+            }
+        ],
+        "name": "AutoReact",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AutoReact_pu.py"
+    },
+    {
         "author": "@moduleslist",
         "banner": "https://envs.sh/Ult.jpg",
         "description": "Faster version of auto-translator using Google Translate API",
