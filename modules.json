@@ -21572,6 +21572,28 @@
         "author": "@mqone",
         "commands": [
             {
+                "name": "шрифт",
+                "inline": false,
+                "description": {
+                    "doc": "- активировать форматирование (ещё раз чтобы выключить)"
+                }
+            },
+            {
+                "name": "демон",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> - преобразить сообщение в шрифт"
+                }
+            }
+        ],
+        "name": "Demon_lang",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/demon_lang.py"
+    },
+    {
+        "author": "@mqone",
+        "commands": [
+            {
                 "name": "CBAT",
                 "inline": false,
                 "description": {
