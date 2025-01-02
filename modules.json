@@ -1,6 +1,23 @@
 [
     {
         "author": "@hikka_mods",
+        "description": "Converting images to ASCII art",
+        "commands": [
+            {
+                "name": "cascii",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай на изображение> сделать ascii art",
+                    "en_doc": "<replay on image> make ascii art"
+                }
+            }
+        ],
+        "name": "ASCIIArt",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/ASCIIArt.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Find out the approximate date of registration of the telegram account",
         "commands": [
             {
