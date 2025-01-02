@@ -1,4 +1,4 @@
-__version__ = (8, 9, 8)
+__version__ = (8, 9, 9)
 # meta developer: @Foxy437
 # change-log: 🤙🤙😍😎😱😱😱😱😱😱
 
@@ -175,13 +175,19 @@ class FHeta(loader.Module):
                 module_name = utils.escape_html(module['name'].replace('.py', ''))
                 module_namee = utils.escape_html(module['name'].replace('.py', '').lower())
                 module_key = f"{module_namee}_{author_info}"
-                banner_url = utils.escape_html(module.get("banner", None))
 
                 if module_key in seen_modules:
                     continue
                 seen_modules.add(module_key)
 
                 thumb_url = module.get("banner", None)
+                if thumb_url:
+                    try:
+                        response = requests.get(thumb_url, timeout=5)
+                        response.raise_for_status()
+                    except requests.exceptions.RequestException:
+                        thumb_url = None
+                        
                 result = self.strings["result"].format(
                     index=result_index,
                     query=args,
@@ -238,7 +244,7 @@ class FHeta(loader.Module):
                                                         message=message,              
                                                         text=closest_match_result,              
                                                         **(              
-                                                            {"photo": banner_url}              
+                                                            {"photo": thumb_url}              
                                                             if thumb_url              
                                                             else {}              
                                                         ),              
