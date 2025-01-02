@@ -22490,6 +22490,12 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ss.py"
     },
     {
+        "author": "@dummykezu",
+        "name": "UnknownStrings",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/unknown_strings.py"
+    },
+    {
         "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
