@@ -18981,6 +18981,38 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BOLD.py"
     },
     {
+        "author": "@H1kka_Mods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Bull.jpg",
+        "pic": "https://te.legra.ph/file/7772a7dae6290f0a612a6.png",
+        "description": "Bull пиз#а собеседнику, переписал @Bihorix1 за основу взял модуль BullMod",
+        "commands": [
+            {
+                "name": "bull",
+                "inline": true,
+                "description": {
+                    "doc": "Забулить кого-то жесткими матами про мать"
+                }
+            },
+            {
+                "name": "bull",
+                "inline": false,
+                "description": {
+                    "doc": "Забулить кого-то жесткими матами про мать"
+                }
+            },
+            {
+                "name": "bulli",
+                "inline": false,
+                "description": {
+                    "doc": "Забулить кого-то жесткими матами про мать (inline)"
+                }
+            }
+        ],
+        "name": "Bihorix Troll",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BihorixTroll.py"
+    },
+    {
         "description": "📡 Бот для био-войн Lapik Edition (beta)",
         "commands": [
             {
