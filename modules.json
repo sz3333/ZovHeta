@@ -10679,7 +10679,9 @@
                 "name": "neofetch",
                 "inline": false,
                 "description": {
-                    "doc": "Запустить команду neofetch"
+                    "ru_doc": "- запустить команду neofetch",
+                    "ua_doc": "- запустити команду neofetch",
+                    "doc": "- run neofetch command"
                 }
             }
         ],
