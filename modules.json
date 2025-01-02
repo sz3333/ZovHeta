@@ -18466,7 +18466,7 @@
                 }
             }
         ],
-        "name": "Account Tie",
+        "name": "Account Time",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AccountTime.py"
     },
