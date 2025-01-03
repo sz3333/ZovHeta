@@ -1,6 +1,6 @@
 __version__ = (8, 9, 9)
 # meta developer: @Foxy437
-# change-log: 🤙🤙😍😎😱😱😱😱😱😱
+# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates)
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -31,7 +31,7 @@ import difflib
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules!'''
+    '''Module for searching modules! 🔥 Watch all updates in fheta in @FHeta_updates!'''
     
     strings = {
         "name": "FHeta",
@@ -51,7 +51,8 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
-        "che": " 👍 Rating has been changed!"
+        "che": "👍 Rating has been changed!",
+        "reqj": "🔥 This is the channel with all updates in FHeta!"
     }
 
     strings_ru = {
@@ -72,7 +73,8 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
-        "che": " 👍 Оценка изменена!"
+        "che": "👍 Оценка изменена!",
+        "reqj": "🔥 Это канал со всеми обновлениями в FHeta!"
     }
 
     strings_ua = {
@@ -93,10 +95,18 @@ class FHeta(loader.Module):
         "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
-        "che": " 👍 Оцінка змінена!"
+        "che": "👍 Оцінка змінена!",
+        "reqj": "🔥 Це канал з усіма оновленнями в FHeta!"
     }
 
     async def client_ready(self):
+        async def client_ready(self):
+        await self.request_join(
+            "@fheta_updates",
+            (
+                self.strings['reqj']
+            ),
+        )
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
