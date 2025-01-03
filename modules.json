@@ -17622,6 +17622,15 @@
                     "ua_doc": "(запит) - шукати модулі.",
                     "doc": "(query) - search modules."
                 }
+            },
+            {
+                "name": "fupdate",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- проверить наличие обновления.",
+                    "ua_doc": "- перевірити наявність оновлення",
+                    "doc": "- check update."
+                }
             }
         ],
         "name": "FHeta",
