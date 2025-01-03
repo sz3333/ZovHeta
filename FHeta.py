@@ -283,6 +283,40 @@ class FHeta(loader.Module):
                 results = "".join([item[0] for item in formatted_modules])              
                 await utils.answer(search_message, results)
 
+    @loader.command(ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення')
+    async def fupdate(self, message: Message):
+        ''' - check update.'''
+        module_name = "FHeta"
+        module = self.lookup(module_name)
+        sys_module = inspect.getmodule(module)
+        local_file = io.BytesIO(sys_module.__loader__.data)
+        local_file.name = f"{module_name}.py"
+        local_file.seek(0)
+        local_first_line = local_file.readline().strip().decode("utf-8")
+        
+        correct_version = sys_module.__version__
+        correct_version_str = ".".join(map(str, correct_version))
+
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
+                if response.status == 200:
+                    remote_content = await response.text()
+                    remote_lines = remote_content.splitlines()
+                    new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
+                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
+                    
+                else:
+                    await utils.answer(message, self.strings("fetch_failed"))
+                    return
+        if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
+            await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
+        else:
+            update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
+            if what_new:
+                update_message += self.strings("update_whats_new").format(whats_new=what_new)
+            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
+            await utils.answer(message, update_message)
+            
     @loader.watcher("in", "only_messages", chat_id=2327758605, contains="URL: ")
     async def update_from_fheta(self, message: Message):
         url = message.raw_text.split("URL: ")[1].strip()
