@@ -1,6 +1,6 @@
-__version__ = (8, 9, 9)
+__version__ = (9, 0, 0)
 # meta developer: @Foxy437
-# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates)
+# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates), added auto update modules, delated fupdate command.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -20,7 +20,7 @@ __version__ = (8, 9, 9)
 import requests
 import asyncio
 import aiohttp
-from .. import loader, utils
+from .. import loader, utils, main
 import json
 import io
 import inspect
@@ -28,6 +28,7 @@ from hikkatl.types import Message
 import random
 from ..types import InlineCall, InlineQuery
 import difflib
+import re
 
 @loader.tds
 class FHeta(loader.Module):
@@ -52,7 +53,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
-        "reqj": "🔥 This is the channel with all updates in FHeta!"
+        "reqj": "🔥 This is the channel with all updates in FHeta! It is needed for automatic module updates!"
     }
 
     strings_ru = {
@@ -74,7 +75,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
-        "reqj": "🔥 Это канал со всеми обновлениями в FHeta!"
+        "reqj": "🔥 Это канал со всеми обновлениями в FHeta! И он нужен для авто обновления модулей!"
     }
 
     strings_ua = {
@@ -96,7 +97,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
-        "reqj": "🔥 Це канал з усіма оновленнями в FHeta!"
+        "reqj": "🔥 Це канал з усіма оновленнями в FHeta! І він потрібний для авто оновлення модулів!"
     }
 
     async def client_ready(self):
@@ -280,44 +281,21 @@ class FHeta(loader.Module):
       
         else:              
                 results = "".join([item[0] for item in formatted_modules])              
-                await utils.answer(search_message, results)              
+                await utils.answer(search_message, results)
 
-    @loader.command(ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення')
-    async def fupdate(self, message: Message):
-        ''' - check update.'''
-        module_name = "FHeta"
-        module = self.lookup(module_name)
-        sys_module = inspect.getmodule(module)
+    @loader.watcher("in", "only_messages", chat_id=2327758605, contains="URL: ")
+    async def update_from_fheta(self, message: Message):
+        url = message.raw_text.split("URL: ")[1].strip()
 
-        local_file = io.BytesIO(sys_module.__loader__.data)
-        local_file.name = f"{module_name}.py"
-        local_file.seek(0)
-        local_first_line = local_file.readline().strip().decode("utf-8")
-        
-        correct_version = sys_module.__version__
-        correct_version_str = ".".join(map(str, correct_version))
-
-        async with aiohttp.ClientSession() as session:
-            async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
-                if response.status == 200:
-                    remote_content = await response.text()
-                    remote_lines = remote_content.splitlines()
-
-                    new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
-                    what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
-                    
-                else:
-                    await utils.answer(message, self.strings("fetch_failed"))
-                    return
-
-        if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
-        else:
-            update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
-            if what_new:
-                update_message += self.strings("update_whats_new").format(whats_new=what_new)
-            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
-            await utils.answer(message, update_message)
+        if any(
+            getattr(module, "__origin__", "").lower().strip("/")
+            == url.lower().strip("/")
+            for module in self.allmodules.modules
+        ):
+            loader_m = self.lookup("loader")
+            await loader_m.download_and_install(url)
+            await asyncio.sleep(random.randint(1, 10))
+            return
 
     async def like_callback(self, call, module_name, action):
         await self.handle_rating(call, module_name, action)
@@ -440,7 +418,7 @@ class FHeta(loader.Module):
                         if closest_matches:
                             found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
-                    return found_modules
+                    return found_modules                       
 
     async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
@@ -494,4 +472,4 @@ class FHeta(loader.Module):
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
             commands=commands_section + inline_commands_section
-                                )
+            )
