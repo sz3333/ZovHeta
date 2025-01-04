@@ -21829,7 +21829,7 @@
         ],
         "name": "IrisMesh",
         "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irism.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/iris.py"
     },
     {
         "author": "@RUIS_VlP",
@@ -50026,6 +50026,7 @@
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/sozivala.py"
     },
     {
+        "author": "@procot1",
         "description": "AI - помощник по Hikka.\n🌘Version: 3.0 Models of thinking - FULL\n⚡Разработчик: @procot1\n💚Оригинальный модуль",
         "commands": [
             {
