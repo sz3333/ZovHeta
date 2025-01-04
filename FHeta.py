@@ -1,6 +1,6 @@
-__version__ = (9, 0, 0)
+__version__ = (9, 0, 1)
 # meta developer: @Foxy437
-# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates), added auto update modules.
+# change-log: <emoji document_id=5904692292324692386>🕳️</emoji> Redesigned design.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -32,72 +32,72 @@ import re
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules! 🔥 Watch all updates in fheta in @FHeta_updates!'''
+    '''Module for searching modules! 🖤 Watch all updates in fheta in @FHeta_updates!'''
     
     strings = {
         "name": "FHeta",
-        "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching...</b>",
-        "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Enter a query to search.</b>",
-        "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
-        "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
-        "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Error.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Inline commands:</b>\n{inline_list}",
+        "search": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Searching...</b>",
+        "no_query": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Enter a query to search.</b>",
+        "no_modules_found": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>No modules found.</b>",
+        "commands": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Commands:</b>\n{commands_list}",
+        "description": "\n<emoji document_id=5893255507380014983>🖤</emoji> <b>Description:</b> {description}",
+        "result": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Error.</b>",
+        "closest_match": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
-        "sub": "👍 Rating submitted!",
-        "nope": "❌ You have already given one grade for this module, you cannot give a second one, you can only change it!",
-        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
-        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
-        "che": "👍 Rating has been changed!",
-        "reqj": "🔥 This is the channel with all updates in FHeta! It is needed for automatic module updates!"
+        "sub": "🖤 Rating submitted!",
+        "nope": "🏴 You have already given one grade for this module, you cannot give a second one, you can only change it!",
+        "actual_version": "<emoji document_id=5895338626648117927>🖤</emoji> <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5895652322469482989>⚫</emoji> <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
+        "update_whats_new": "<emoji document_id=5893072412924187198>🏴</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5893185207355315979>♠️</emoji> <b>To update type: <code>{update_command}</code></b>",
+        "che": "🖤 Rating has been changed!",
+        "reqj": "⚫ This is the channel with all updates in FHeta! It is needed for automatic module updates!"
     }
 
     strings_ru = {
         "name": "FHeta",
-        "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Поиск...</b>",
-        "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Введите запрос для поиска.</b>",
-        "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
-        "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
-        "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Ошибка.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Инлайн команды:</b>\n{inline_list}",
+        "search": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Поиск...</b>",
+        "no_query": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Введите запрос для поиска.</b>",
+        "no_modules_found": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Модули не найдены.</b>",
+        "commands": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Команды:</b>\n{commands_list}",
+        "description": "\n<emoji document_id=5893255507380014983>🖤</emoji> <b>Описание:</b> {description}",
+        "result": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Ошибка.</b>",
+        "closest_match": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Инлайн команды:</b>\n{inline_list}",
         "language": "ru_doc",
-        "sub": "👍 Оценка отправлена!",
-        "nope": "❌ Вы уже поставили одну оценку на этот модуль, вы не можете поставить вторую, вы можете только изменить ее!",
-        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
-        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
-        "che": "👍 Оценка изменена!",
-        "reqj": "🔥 Это канал со всеми обновлениями в FHeta! И он нужен для авто обновления модулей!"
+        "sub": "🖤 Оценка отправлена!",
+        "nope": "🏴 Вы уже поставили одну оценку на этот модуль, вы не можете поставить вторую, вы можете только изменить ее!",
+        "actual_version": "<emoji document_id=5895338626648117927>🖤</emoji> <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5895652322469482989>⚫</emoji> <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "<emoji document_id=5893072412924187198>🏴</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5893185207355315979>♠️</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
+        "che": "🖤 Оценка изменена!",
+        "reqj": "⚫ Это канал со всеми обновлениями в FHeta! И он нужен для авто обновления модулей!"
     }
 
     strings_ua = {
         "name": "FHeta",
-        "search": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Пошук...</b>",
-        "no_query": "<emoji document_id=5348277823133999513>❌</emoji> <b>Введіть запит для пошуку.</b>",
-        "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модулі не знайдені.</b>",
-        "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команди:</b>\n{commands_list}",
-        "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Опис:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Помилка.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Інлайн команди:</b>\n{inline_list}",
+        "search": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Пошук...</b>",
+        "no_query": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Введіть запит для пошуку.</b>",
+        "no_modules_found": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Модулі не знайдені.</b>",
+        "commands": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Команди:</b>\n{commands_list}",
+        "description": "\n<emoji document_id=5893255507380014983>🖤</emoji> <b>Опис:</b> {description}",
+        "result": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Результат {index} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>Помилка.</b>",
+        "closest_match": "<emoji document_id=5893382531037794941>🏴</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=5893161718179173515>🕳️</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5893185207355315979>♠️</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n<emoji document_id=5895338626648117927>⚫</emoji> <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
-        "sub": "👍 Оцінка відправлена!",
-        "nope": "❌ Ви вже поставили одну оцінку на цей модуль, ви не можете поставити другу, ви можете лише змінити її!",
-        "actual_version": "<emoji document_id=5436040291507247633>🎉</emoji> <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>" ,
-        "old_version": "<emoji document_id=5260293700088511294>⛔️</emoji> <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5382357040008021292>🆕</emoji> <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
-        "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
-        "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
-        "che": "👍 Оцінка змінена!",
-        "reqj": "🔥 Це канал з усіма оновленнями в FHeta! І він потрібний для авто оновлення модулів!"
+        "sub": "🖤 Оцінка відправлена!",
+        "nope": "🏴 Ви вже поставили одну оцінку на цей модуль, ви не можете поставити другу, ви можете лише змінити її!",
+        "actual_version": "<emoji document_id=5895338626648117927>🖤</emoji> <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "<emoji document_id=5904692292324692386>🕳️</emoji> <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n<emoji document_id=5895652322469482989>⚫</emoji> <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "<emoji document_id=5893072412924187198>🏴</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
+        "update_command": "<emoji document_id=5893185207355315979>♠️</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
+        "che": "🖤 Оцінка змінена!",
+        "reqj": "⚫ Це канал з усіма оновленнями в FHeta! І він потрібний для авто оновлення модулів!"
     }
 
     async def client_ready(self):
@@ -225,11 +225,11 @@ class FHeta(loader.Module):
 
                 buttons = [              
                         [{              
-                                "text": f"👍 {likes_count}",              
+                                "text": f"🖤 {likes_count}",              
                                 "callback": self.like_callback,              
                                 "args": (module_name, "like")              
                         }, {              
-                                "text": f"👎 {dislikes_count}",              
+                                "text": f"🕳️ {dislikes_count}",              
                                 "callback": self.dislike_callback,              
                                 "args": (module_name, "dislike")              
                         }]              
@@ -316,7 +316,7 @@ class FHeta(loader.Module):
                 update_message += self.strings("update_whats_new").format(whats_new=what_new)
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
-            
+
     @loader.watcher("in", "only_messages", chat_id=2327758605, contains="URL: ")
     async def update_from_fheta(self, message: Message):
         url = message.raw_text.split("URL: ")[1].strip()
@@ -358,11 +358,11 @@ class FHeta(loader.Module):
 
                                 new_buttons = [
                                     [{
-                                        "text": f"👍 {likes_count}",
+                                        "text": f"🖤 {likes_count}",
                                         "callback": self.like_callback,
                                         "args": (module_name, "like")
                                     }, {
-                                        "text": f"👎 {dislikes_count}",
+                                        "text": f"🕳️ {dislikes_count}",
                                         "callback": self.dislike_callback,
                                         "args": (module_name, "dislike")
                                     }]
@@ -383,11 +383,11 @@ class FHeta(loader.Module):
 
                                 new_buttons = [
                                     [{
-                                        "text": f"👍 {likes_count}",
+                                        "text": f"🖤 {likes_count}",
                                         "callback": self.like_callback,
                                         "args": (module_name, "like")
                                     }, {
-                                        "text": f"👎 {dislikes_count}",
+                                        "text": f"🕳️ {dislikes_count}",
                                         "callback": self.dislike_callback,
                                         "args": (module_name, "dislike")
                                     }]
@@ -506,4 +506,4 @@ class FHeta(loader.Module):
             install_command=f"{self.get_prefix()}{install}",
             description=description_section,
             commands=commands_section + inline_commands_section
-            )
+        )
