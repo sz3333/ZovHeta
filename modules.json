@@ -17501,6 +17501,21 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
     },
     {
+        "description": "Модуль для просмотра погоды",
+        "commands": [
+            {
+                "name": "weather",
+                "inline": false,
+                "description": {
+                    "doc": "Использование: .weather <город>"
+                }
+            }
+        ],
+        "name": "K:Weather",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kweather.py"
+    },
+    {
         "description": "Обход в оффтопе хикки",
         "commands": [
             {
