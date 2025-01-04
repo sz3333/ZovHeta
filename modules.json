@@ -13138,76 +13138,118 @@
     },
     {
         "author": "@MiSidePlayer",
-        "description": "Слушай музыку в Spotify. Updated by @MiSidePlayer. Original module creator @FAmods",
+        "description": "Display beautiful spotify now bar. Idea: t.me/fuccsoc. Implementation: t.me/hikariatama. Fixed by @MiSidePlayer.",
         "commands": [
             {
-                "name": "sauth",
+                "name": "srepeat",
                 "inline": false,
                 "description": {
-                    "doc": "Authenticate your Spotify account."
+                    "doc": "💫 Повторять текущий трек"
                 }
             },
             {
-                "name": "scode",
+                "name": "sderepeat",
                 "inline": false,
                 "description": {
-                    "doc": "Enter the authorization code."
-                }
-            },
-            {
-                "name": "spause",
-                "inline": false,
-                "description": {
-                    "doc": "⏸️ Поставить на паузу текущий трек"
-                }
-            },
-            {
-                "name": "splay",
-                "inline": false,
-                "description": {
-                    "doc": "🎶 Воспроизвести текущий трек"
-                }
-            },
-            {
-                "name": "slike",
-                "inline": false,
-                "description": {
-                    "doc": "❤️ Добавить текущий трек в избранное"
+                    "doc": "✋ Прекратить повторять текущий трек"
                 }
             },
             {
                 "name": "snext",
                 "inline": false,
                 "description": {
-                    "doc": "➡️ Включить следующий трек"
+                    "doc": "👉 Включить следующий трек"
+                }
+            },
+            {
+                "name": "spause",
+                "inline": false,
+                "description": {
+                    "doc": "🤚 Поставить текущий трек на паузу"
+                }
+            },
+            {
+                "name": "splay",
+                "inline": false,
+                "description": {
+                    "doc": "▶️ Продолжить прослушивание текущего трека"
+                }
+            },
+            {
+                "name": "sfind",
+                "inline": false,
+                "description": {
+                    "doc": "🎧 Показать карточку трека, который вы сейчас слушаете."
+                }
+            },
+            {
+                "name": "sq",
+                "inline": false,
+                "description": {
+                    "doc": "🔎 Добавить в очередь трек."
                 }
             },
             {
                 "name": "sback",
                 "inline": false,
                 "description": {
-                    "doc": "⏮ Вернуться к предыдущему треку"
+                    "doc": "⏮ Включить предыдущий трек"
                 }
             },
             {
                 "name": "sbegin",
                 "inline": false,
                 "description": {
-                    "doc": "⏪ Включить текущий трек с начала"
+                    "doc": "⏪ Включить текущий трек заного"
+                }
+            },
+            {
+                "name": "slike",
+                "inline": false,
+                "description": {
+                    "doc": "❤️ Поставить лайк на текущий трек"
+                }
+            },
+            {
+                "name": "sauth",
+                "inline": false,
+                "description": {
+                    "doc": "Получить ссылку для авторизации"
+                }
+            },
+            {
+                "name": "scode",
+                "inline": false,
+                "description": {
+                    "doc": "Поставить код авторизации"
+                }
+            },
+            {
+                "name": "unauth",
+                "inline": false,
+                "description": {
+                    "doc": "Выйти из аккаунта"
                 }
             },
             {
                 "name": "sbio",
                 "inline": false,
                 "description": {
-                    "doc": "✏️ Включить/выключить стрим текущего трека в био"
+                    "doc": "✏️ Включить/выключить показ трека в био"
+                }
+            },
+            {
+                "name": "stokrefresh",
+                "inline": false,
+                "description": {
+                    "doc": "Сбросить токен авторизации"
                 }
             },
             {
                 "name": "snow",
                 "inline": false,
                 "description": {
-                    "doc": "🎧 Показывает что вы слушаете на Spotify"
+                    "doc": "🎧 Просмотреть карточку текущего трека."
                 }
             }
         ],
