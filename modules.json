@@ -19655,29 +19655,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GPT3.5.py"
     },
     {
-        "author": "@qShad0_bio",
-        "description": "Клонирует git репозиторий и отправляет его в виде zip-архива",
-        "commands": [
-            {
-                "name": "git",
-                "inline": false,
-                "description": {
-                    "doc": "Клонирует git репозиторий и отправляет его в виде zip-архива"
-                }
-            },
-            {
-                "name": "wget",
-                "inline": false,
-                "description": {
-                    "doc": "Сохраняет файл из интернета"
-                }
-            }
-        ],
-        "name": "GitRepo",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GitRepo.py"
-    },
-    {
         "author": "@Yaukais,@Shadow_red1",
         "description": "Модуль для запуска ботов через GitHub!",
         "commands": [
@@ -46626,6 +46603,29 @@
         "name": "RUIS-GigaGpt",
         "repo": "Ruslan-Isaev/modules",
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/gigagpt.py"
+    },
+    {
+        "author": "@qShad0_bio",
+        "description": "Клонирует git репозиторий и отправляет его в виде zip-архива",
+        "commands": [
+            {
+                "name": "git",
+                "inline": false,
+                "description": {
+                    "doc": "Клонирует git репозиторий и отправляет его в виде zip-архива"
+                }
+            },
+            {
+                "name": "wget",
+                "inline": false,
+                "description": {
+                    "doc": "Сохраняет файл из интернета"
+                }
+            }
+        ],
+        "name": "GitRepo",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/gitrepo.py"
     },
     {
         "author": "@RUIS_VlP",
