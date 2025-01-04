@@ -50146,36 +50146,5 @@
         "name": "Zetta - AI models",
         "repo": "Chaek1403/VAWEIRR",
         "install": "dlm https://raw.githubusercontent.com/Chaek1403/VAWEIRR/main/Zetta%20-%20AI%20models.py"
-    },
-    {
-        "description": "Модуль для обновления Премиум-статуса",
-        "commands": [
-            {
-                "name": "sem",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ> - Обновить Премиум-статус",
-                    "doc": "Set the emoji status"
-                }
-            }
-        ],
-        "name": "KSEMModule",
-        "repo": "K0valskii/MyModules",
-        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/KSEMModule.py"
-    },
-    {
-        "description": "Просто удаляет реплей",
-        "commands": [
-            {
-                "name": "d",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ> - удалить нахуй!"
-                }
-            }
-        ],
-        "name": "Kodel",
-        "repo": "K0valskii/MyModules",
-        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/Kodel.py"
     }
 ]
