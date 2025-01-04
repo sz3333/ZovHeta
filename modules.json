@@ -19016,20 +19016,20 @@
     },
     {
         "author": "@Foxy437",
-        "description": "Модуль для авто замены шрифта на жирный.",
+        "description": "Модуль для авто замены шрифтика на жирный.",
         "commands": [
             {
                 "name": "on_bold",
                 "inline": false,
                 "description": {
-                    "doc": "Включить авто замену шрифта на жирный."
+                    "doc": "Включить авто замену шрифтика на жирный."
                 }
             },
             {
                 "name": "off_bold",
                 "inline": false,
                 "description": {
-                    "doc": "Выключить авто замену шрифта на жирный."
+                    "doc": "Выключить авто замену шрифтика на жирный."
                 }
             }
         ],
@@ -21644,6 +21644,22 @@
         "name": "envs.sh Uploader",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/envs.py"
+    },
+    {
+        "author": "rf0x3d.su & @eremod",
+        "description": "envs.sh reuploader",
+        "commands": [
+            {
+                "name": "env",
+                "inline": false,
+                "description": {
+                    "doc": "Reupload to envs.sh."
+                }
+            }
+        ],
+        "name": "envs.sh Reuploader",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/envsmod.py"
     },
     {
         "description": "Универсальный файловый менеджер",
