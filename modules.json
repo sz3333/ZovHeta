@@ -19759,6 +19759,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Git_serverBot.py"
     },
     {
+        "description": "AI автоответчик с памятью для каждого чата и готовыми конфигами\n\nВ коде можно установить 2 конфига с загатовленными инструкциями",
+        "commands": [
+            {
+                "name": "lsbot",
+                "inline": false,
+                "description": {
+                    "doc": "Включает автоответчик для всех личных чатов с использованием конфигов или одноразовых инструкций."
+                }
+            },
+            {
+                "name": "offmonitoring",
+                "inline": false,
+                "description": {
+                    "doc": "Выключает автоответчик для всех личных чатов"
+                }
+            }
+        ],
+        "name": "GlobalAutoReplyGPT",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GlobalAutoReplyGPT.py"
+    },
+    {
         "author": "@skillzmeow",
         "commands": [
             {
