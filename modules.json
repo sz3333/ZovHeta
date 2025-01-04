@@ -19207,42 +19207,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ChatModule.py"
     },
     {
-        "description": "CheckBunker for @bfgbunker_bot",
-        "commands": [
-            {
-                "name": "Infa",
-                "inline": false,
-                "description": {
-                    "doc": "(nick or user_id) check bunker player"
-                }
-            },
-            {
-                "name": "add",
-                "inline": false,
-                "description": {
-                    "doc": "(id) (nick) add nick player"
-                }
-            },
-            {
-                "name": "list",
-                "inline": false,
-                "description": {
-                    "doc": "show all players (id:nick)"
-                }
-            },
-            {
-                "name": "dele",
-                "inline": false,
-                "description": {
-                    "doc": "(nick) remove player by nickname"
-                }
-            }
-        ],
-        "name": "CheckBunker",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckBunker.py"
-    },
-    {
         "author": "@mqone",
         "description": "Узнать сколько стоит юзер на Fragment.com",
         "commands": [
