@@ -19051,20 +19051,20 @@
     },
     {
         "author": "@Foxy437",
-        "description": "Модуль для авто замены шрифтика на жирный.",
+        "description": "Модуль для авто замены шрифта на жирный.",
         "commands": [
             {
                 "name": "on_bold",
                 "inline": false,
                 "description": {
-                    "doc": "Включить авто замену шрифтика на жирный."
+                    "doc": "Включить авто замену шрифта на жирный."
                 }
             },
             {
                 "name": "off_bold",
                 "inline": false,
                 "description": {
-                    "doc": "Выключить авто замену шрифтика на жирный."
+                    "doc": "Выключить авто замену шрифта на жирный."
                 }
             }
         ],
@@ -50475,6 +50475,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/PfpRepeater.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Модуль для пробива по IP.\nIP адреса отправяться в избранные после остановки Flask и ngrok.\nMade by Desai",
         "commands": [
             {
@@ -50548,6 +50549,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/URLModule.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Пишет ASCII шрифтом",
         "commands": [
             {
@@ -50563,6 +50565,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/ascii.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
@@ -50608,6 +50611,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/encmod.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Auto farm in iris bot",
         "commands": [
             {
@@ -50637,6 +50641,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/irisfarm.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Text to Speech Module",
         "commands": [
             {
