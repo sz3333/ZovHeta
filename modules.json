@@ -22120,6 +22120,36 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/okruglator.py"
     },
     {
+        "author": "@lorcyt",
+        "description": "отправка отложенных сообщений более простым и гибким способо. слито тут - @mqone",
+        "commands": [
+            {
+                "name": "t_",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .t_ <интервал в минутах>"
+                }
+            },
+            {
+                "name": "c_",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .c_ <количество> чтобы установить нужное количество сообщений"
+                }
+            },
+            {
+                "name": "te_",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .te_ <текст сообщения>"
+                }
+            }
+        ],
+        "name": "отложка",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/otlozka.py"
+    },
+    {
         "description": "Модуль Ragnarok",
         "commands": [
             {
