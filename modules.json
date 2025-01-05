@@ -525,6 +525,23 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Replaces vowel letters with ё",
+        "commands": [
+            {
+                "name": "vowelreplace",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить или отключить замену гласных на ё.",
+                    "en_doc": "Enable or disable vowel substitution for ё."
+                }
+            }
+        ],
+        "name": "Vowel Replacer",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/ReplaceVowels.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "generate random password",
         "commands": [
             {
