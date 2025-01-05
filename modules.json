@@ -3228,7 +3228,7 @@
         "description": "Convert file with api from https://convertio.co",
         "commands": [
             {
-                "name": "renewconverio",
+                "name": "renewconvertio",
                 "inline": false,
                 "description": {
                     "doc": "Renew convertio api key"
