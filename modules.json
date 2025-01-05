@@ -3224,6 +3224,31 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Convertio.jpg",
+        "description": "Convert file with api from https://convertio.co",
+        "commands": [
+            {
+                "name": "renewconverio",
+                "inline": false,
+                "description": {
+                    "doc": "Renew convertio api key"
+                }
+            },
+            {
+                "name": "convert",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<выходной формат> | Пример: png",
+                    "doc": "<output format> <!reply to file> | Example: png"
+                }
+            }
+        ],
+        "name": "Convertio",
+        "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
+        "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/convertio.py"
+    },
+    {
+        "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Demotivator.jpg",
         "description": "Demotivate picture with text, arguments and config.",
         "commands": [
