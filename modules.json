@@ -50590,6 +50590,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/ascii.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
         "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
