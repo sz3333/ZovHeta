@@ -49877,6 +49877,23 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/hikkavoicemod.py"
     },
     {
+        "author": "@devjmodules",
+        "description": "Module for install HikkaVoicemode(voicechat)",
+        "commands": [
+            {
+                "name": "install",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- установить voicechat(hikkavoicemode) на Хикку",
+                    "doc": "- install VoiceMod to Hikka."
+                }
+            }
+        ],
+        "name": "VoiceChatInstall",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/voicechatinstaller.py"
+    },
+    {
         "author": "@HikkTutor",
         "description": "Модуль для создания текста из эмодзи букв",
         "commands": [
