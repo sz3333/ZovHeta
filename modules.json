@@ -21600,6 +21600,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/autoclickermod.py"
     },
     {
+        "author": "@ScreamDev",
+        "description": "Модуль для авто замены ПОТУЖНО на жирный только если сообщение содержит 'потужно'. Переписанный модуль @Foxy437",
+        "commands": [
+            {
+                "name": "on_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Включить авто замену ПОТУЖНО на жирный."
+                }
+            },
+            {
+                "name": "off_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить авто замену ПОТУЖНО на жирный."
+                }
+            }
+        ],
+        "name": "PotuznoBold",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/boldpotuzno.py"
+    },
+    {
         "author": "@wilsonmods",
         "banner": "https://te.legra.ph/file/16c25a32943f74d7a47bf.jpg",
         "pic": "https://te.legra.ph/file/e534f736497cd1b3e711b.png",
