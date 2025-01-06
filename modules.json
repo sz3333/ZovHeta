@@ -20922,22 +20922,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Randomizer.py"
     },
     {
-        "author": "@RUIS_VlP",
-        "description": "Загрузка файлов на SFTP",
-        "commands": [
-            {
-                "name": "sftp",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> - загружает файл на SFPT"
-                }
-            }
-        ],
-        "name": "SFTPUploader",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/SFTPUploader.py"
-    },
-    {
         "description": "Quotes by @sh1tchannel",
         "commands": [
             {
@@ -21852,6 +21836,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/file_manager.py"
     },
     {
+        "description": "Это просто фурри порно, какого вообще хуя .",
+        "commands": [
+            {
+                "name": "furryp",
+                "inline": false,
+                "description": {
+                    "doc": "Фурри порно(wtf)\nИспользование: .furryp [photo|video] (можно не указывать для рандома)"
+                }
+            }
+        ],
+        "name": "FurryPorn",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/furryporn.py"
+    },
+    {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/grokai.png?raw=true",
         "description": "Взаимодействие с Grok AI",
@@ -22501,29 +22500,6 @@
         "name": "RocketFuel",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/rocket_fuel.py"
-    },
-    {
-        "author": "@matubuntu, @RUIS_VlP",
-        "description": "🌐 Internet search module",
-        "commands": [
-            {
-                "name": "search",
-                "inline": false,
-                "description": {
-                    "doc": "<text> / <reply> - 🌐 Search Internet"
-                }
-            },
-            {
-                "name": "search",
-                "inline": true,
-                "description": {
-                    "doc": "<text> - 🌐 Search Internet"
-                }
-            }
-        ],
-        "name": "search",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/search.py"
     },
     {
         "description": "Модуль для рассылки сообщений по заданным чатам от @Apostol_prince.",
