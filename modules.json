@@ -18218,14 +18218,13 @@
                 "name": "kill",
                 "inline": false,
                 "description": {
-                    "doc": "- hug [reply] Обнимает человека из репли"
+                    "doc": "- kill [reply] Убить человека из репли"
                 }
             },
             {
                 "name": "bite",
                 "inline": false,
                 "description": {
-                    "en_doc": "bite",
                     "doc": "- bite [reply] Кусать человека из репли"
                 }
             },
