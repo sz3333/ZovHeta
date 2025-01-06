@@ -49970,6 +49970,22 @@
     },
     {
         "author": "@HikkTutor",
+        "description": "Модуль для создания ASCII артов из фото, стикеров и текста",
+        "commands": [
+            {
+                "name": "ascii",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай на фото или текст> [количество] [\" * \" для арта из точек] - создать ASCII арт"
+                }
+            }
+        ],
+        "name": "ASCIIArt",
+        "repo": "HikkTutor/HT",
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/ASCIIArt.py"
+    },
+    {
+        "author": "@HikkTutor",
         "description": "Модуль для создания текста из эмодзи букв",
         "commands": [
             {
