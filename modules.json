@@ -46850,21 +46850,21 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/irissup%20(1).py"
     },
     {
-        "author": "@qShad0, @RUIS_VlP",
-        "description": "Модуль для поиска в интернете",
+        "author": "@matubuntu, @RUIS_VlP",
+        "description": "🌐 Internet search module",
         "commands": [
             {
                 "name": "search",
                 "inline": false,
                 "description": {
-                    "doc": "<text> / <reply> - 🔍 Поиск в Интернете"
+                    "doc": "<text> / <reply> - 🌐 Search Internet"
                 }
             },
             {
                 "name": "search",
                 "inline": true,
                 "description": {
-                    "doc": "<text> - 🔍 Поиск в Интернете"
+                    "doc": "<text> - 🌐 Search Internet"
                 }
             }
         ],
