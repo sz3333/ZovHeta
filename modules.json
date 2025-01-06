@@ -22232,6 +22232,41 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/otlozka.py"
     },
     {
+        "commands": [
+            {
+                "name": "makeplan",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет новый план"
+                }
+            },
+            {
+                "name": "show_plans",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает список планов"
+                }
+            },
+            {
+                "name": "cross_plan",
+                "inline": false,
+                "description": {
+                    "doc": "Вычеркивает план из списка"
+                }
+            },
+            {
+                "name": "del_plan",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет план из списка"
+                }
+            }
+        ],
+        "name": "PlanManager",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/plan.py"
+    },
+    {
         "description": "Модуль Ragnarok",
         "commands": [
             {
