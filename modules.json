@@ -50980,6 +50980,36 @@
     },
     {
         "author": "@xdesai & @devjmodules",
+        "description": "Module for sending private messages",
+        "commands": [
+            {
+                "name": "send",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .send <message>"
+                }
+            },
+            {
+                "name": "setpm",
+                "inline": false,
+                "description": {
+                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
+                }
+            },
+            {
+                "name": "stopchat",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
+                }
+            }
+        ],
+        "name": "SendPm",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/send.py"
+    },
+    {
+        "author": "@xdesai & @devjmodules",
         "description": "Text to Speech Module",
         "commands": [
             {
