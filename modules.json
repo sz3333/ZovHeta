@@ -17510,6 +17510,21 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/counttime.py"
     },
     {
+        "description": "Get current currency exchange rates",
+        "commands": [
+            {
+                "name": "rate",
+                "inline": false,
+                "description": {
+                    "doc": "<from> <to> - Get exchange rate"
+                }
+            }
+        ],
+        "name": "K:Currency",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/currency.py"
+    },
+    {
         "author": "@kmodules",
         "description": "Module for viewing GitHub profile information",
         "commands": [
