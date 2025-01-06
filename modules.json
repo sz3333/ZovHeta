@@ -50618,6 +50618,13 @@
                 }
             },
             {
+                "name": "rstbfg",
+                "inline": false,
+                "description": {
+                    "doc": "Перезапустить автоматическую фарму."
+                }
+            },
+            {
                 "name": "bfgstop",
                 "inline": false,
                 "description": {
