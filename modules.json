@@ -636,6 +636,23 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Converts video to GIF",
+        "commands": [
+            {
+                "name": "gifc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[reply | в одном сообщении с видео] — конвертирует видео в GIF.",
+                    "en_doc": "[reply | in one message with video] — Converts video to GIF."
+                }
+            }
+        ],
+        "name": "Video2GIF",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/Video2GIF.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Checks files for viruses using VirusTotal",
         "commands": [
             {
