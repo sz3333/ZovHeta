@@ -542,6 +542,23 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "unloads all messages from Favorites",
+        "commands": [
+            {
+                "name": "smdump",
+                "inline": false,
+                "description": {
+                    "ru_doc": "выгружает все сообщения из Избранного / Saved Messages и собирает их в одном архиве.",
+                    "en_doc": "downloads all messages from Favorites / Saved Messages and collects them in one archive."
+                }
+            }
+        ],
+        "name": "SMArchiver",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/SMAcrhiver.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "generate random password",
         "commands": [
             {
