@@ -50382,6 +50382,29 @@
     },
     {
         "author": "@K0vaIskii",
+        "description": "Скачивание видео из Tiktok",
+        "commands": [
+            {
+                "name": "tm",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Скачать Музыку"
+                }
+            },
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Скачать Видео"
+                }
+            }
+        ],
+        "name": "KoTik",
+        "repo": "K0valskii/MyModules",
+        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/KoTik.py"
+    },
+    {
+        "author": "@K0vaIskii",
         "description": "Просто удаляет реплей",
         "commands": [
             {
