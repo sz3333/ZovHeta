@@ -51058,35 +51058,5 @@
         "name": "TextToSpeech",
         "repo": "xdesai96/modules",
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/tts.py"
-    },
-    {
-        "description": "Автофарм с помощью автоотправки ",
-        "commands": [
-            {
-                "name": "autofarm",
-                "inline": false,
-                "description": {
-                    "doc": "Запускает автофарм"
-                }
-            }
-        ],
-        "name": "IrisFarm",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/irisautofarm.py"
-    },
-    {
-        "description": "Модуль для подсчёта сообщение пользователя а виде столбчатой диаграммы",
-        "commands": [
-            {
-                "name": "dstats",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчёт статистики сообщений пользователя.\n.dstats <@юзернейм или ID>"
-                }
-            }
-        ],
-        "name": "UserStats",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/stats.py"
     }
 ]
