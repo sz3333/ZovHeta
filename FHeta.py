@@ -1,6 +1,6 @@
 __version__ = (9, 0, 0)
 # meta developer: @Foxy437
-# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates), added auto update modules, delated fupdate command.
+# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates), added auto update modules.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
