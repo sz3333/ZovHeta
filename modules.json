@@ -21868,6 +21868,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/grokai.py"
     },
     {
+        "author": "@mqone",
+        "commands": [
+            {
+                "name": "hh",
+                "inline": false,
+                "description": {
+                    "doc": "задержка в секундах + текст"
+                }
+            }
+        ],
+        "name": "hh",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/hhtroll.py"
+    },
+    {
         "description": "был huhuhu стал hohoho",
         "commands": [
             {
