@@ -50559,7 +50559,7 @@
         ],
         "name": "YaranBotSync",
         "repo": "K0valskii/MyModules",
-        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/yaranbotsync.py"
+        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/YaranBotSync.py"
     },
     {
         "author": "@xdesai & @devjmodules",
