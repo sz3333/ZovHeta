@@ -50518,6 +50518,50 @@
         "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/Kodel.py"
     },
     {
+        "author": "@K0vaIskii",
+        "description": "Модуль для симбиоза Heroku и Yarangrad_bot",
+        "commands": [
+            {
+                "name": "sync",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Синхронизировать базу данных "
+                }
+            },
+            {
+                "name": "set",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Обновить значение"
+                }
+            },
+            {
+                "name": "bon",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Запустить бота"
+                }
+            },
+            {
+                "name": "boff",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Остановить бота"
+                }
+            },
+            {
+                "name": "brestart",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Перезагрузить бота"
+                }
+            }
+        ],
+        "name": "YaranBotSync",
+        "repo": "K0valskii/MyModules",
+        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/yaranbotsync.py"
+    },
+    {
         "author": "@xdesai & @devjmodules",
         "description": "Модуль для админов чатов\nMade by Desai",
         "commands": [
