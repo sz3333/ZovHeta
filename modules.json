@@ -51075,7 +51075,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/irisautofarm.py"
     },
     {
-        "description": "Модуль для подсчёта сообщение пользователя а виде столбчатой диаграммы",
+        "description": "Модуль для подсчёта сообщений пользователя в виде столбчатой диаграммы",
         "commands": [
             {
                 "name": "dstats",
