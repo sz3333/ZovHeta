@@ -51110,5 +51110,1565 @@
         "name": "UserStats",
         "repo": "Enceth/Modules",
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/stats.py"
+    },
+    {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "x0 Uploader",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/0x.py"
+    },
+    {
+        "description": "Draw line via @BlackLinesBot",
+        "commands": [
+            {
+                "name": "line",
+                "inline": false,
+                "description": {
+                    "doc": ".line <reply to photo>"
+                }
+            }
+        ],
+        "name": "BlackLines",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/BlackLines.py"
+    },
+    {
+        "description": "округляет всё",
+        "commands": [
+            {
+                "name": "round",
+                "inline": false,
+                "description": {
+                    "doc": ".round <Reply to image/sticker or video/gif>"
+                }
+            }
+        ],
+        "name": "Circles",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Circles.py"
+    },
+    {
+        "description": "distorting images",
+        "commands": [
+            {
+                "name": "distort",
+                "inline": false,
+                "description": {
+                    "doc": ".distort <reply to photo>\n.distort im\n.distort 50\n.distort 50 im\n.distort im 50\nim => кидает стикеры как фото\n50 => (от 0 до дохуя) процент сжатия"
+                }
+            }
+        ],
+        "name": "DistortNoApi",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/DNA.py"
+    },
+    {
+        "description": "Glitcher of anything",
+        "commands": [
+            {
+                "name": "glitch",
+                "inline": false,
+                "description": {
+                    "doc": ".glitch level: float or int <reply to anything>"
+                }
+            }
+        ],
+        "name": "Glitcher",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Glitcher.py"
+    },
+    {
+        "description": "Hashing text and files",
+        "commands": [
+            {
+                "name": "md5",
+                "inline": false,
+                "description": {
+                    "doc": ".md5 <(text or media) or (reply to text or media)>\nHashing to md5"
+                }
+            },
+            {
+                "name": "sha1",
+                "inline": false,
+                "description": {
+                    "doc": ".sha1 <(text or media) or (reply to text or media)\nHashing to sha1"
+                }
+            },
+            {
+                "name": "sha224",
+                "inline": false,
+                "description": {
+                    "doc": ".sha224 <(text or media) or (reply to text or media)\nHashing to sha224"
+                }
+            },
+            {
+                "name": "sha256",
+                "inline": false,
+                "description": {
+                    "doc": ".sha255 <(text or media) or (reply to text or media)\nHashing to sha256"
+                }
+            },
+            {
+                "name": "sha384",
+                "inline": false,
+                "description": {
+                    "doc": ".sha384 <(text or media) or (reply to text or media)\nHashing to sha384"
+                }
+            },
+            {
+                "name": "sha512",
+                "inline": false,
+                "description": {
+                    "doc": ".sha512 <(text or media) or (reply to text or media)\nHashing to sha512"
+                }
+            },
+            {
+                "name": "blake2b",
+                "inline": false,
+                "description": {
+                    "doc": ".blake2 <(text or media) or (reply to text or media)\nHashing to blake2"
+                }
+            },
+            {
+                "name": "blake2s",
+                "inline": false,
+                "description": {
+                    "doc": ".blake2s <(text or media) or (reply to text or media)\nHashing to blake2s"
+                }
+            }
+        ],
+        "name": "Hasher",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Hasher.py"
+    },
+    {
+        "description": "Draw photo with 50 lines via @Lines50Bot",
+        "commands": [
+            {
+                "name": "lines",
+                "inline": false,
+                "description": {
+                    "doc": ".lines <reply to photo>"
+                }
+            }
+        ],
+        "name": "Lines50",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Lines50.py"
+    },
+    {
+        "description": "Lorem Ipsum generation",
+        "commands": [
+            {
+                "name": "loremipsum",
+                "inline": false,
+                "description": {
+                    "doc": ".loremipsum <count: int> <length: str> <file?>\ncount - number of paragraphs| std: 1\nlength - s-short, m-medium, l-long, v-verylong|std: m(edium)\nfile - if nothing- send as message, if anything- send as file"
+                }
+            }
+        ],
+        "name": "LoermIpsum",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/LoremIpsum.py"
+    },
+    {
+        "description": "send Message as file",
+        "commands": [
+            {
+                "name": "mtf",
+                "inline": false,
+                "description": {
+                    "doc": ".mtf <reply to text>"
+                }
+            },
+            {
+                "name": "ftm",
+                "inline": false,
+                "description": {
+                    "doc": ".ftm <reply to file>"
+                }
+            }
+        ],
+        "name": "MessageToFile",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MTF.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "mac",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MacAshoT",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MacAshoT.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "mozg",
+                "inline": false,
+                "description": {
+                    "doc": ".mozg <on/off/...> - Переключить режим дурачка в чате"
+                }
+            },
+            {
+                "name": "mozgchance",
+                "inline": false,
+                "description": {
+                    "doc": ".mozgchance <int> - Устанвоить шанс 1 к N.\n0 - всегда отвечать"
+                }
+            }
+        ],
+        "name": "MegaMozg",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MegaMozg.py"
+    },
+    {
+        "description": "Микроцитаты",
+        "commands": [
+            {
+                "name": "mq",
+                "inline": false,
+                "description": {
+                    "doc": ".mq <реплай на текст>"
+                }
+            }
+        ],
+        "name": "MicroQuotes",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MicroQuotes.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "ll",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "rr",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "uu",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "dd",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MF",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MirrorFlip.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "ll",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "rr",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "uu",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "dd",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MirrorFlip",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MirrorFlipV2.py"
+    },
+    {
+        "description": "@faq lines",
+        "commands": [
+            {
+                "name": "omstart",
+                "inline": false,
+                "description": {
+                    "doc": "Start OneMessage mode"
+                }
+            },
+            {
+                "name": "omstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop OneMessage mode"
+                }
+            }
+        ],
+        "name": "OneMessage",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/OneMessage.py"
+    },
+    {
+        "description": "Generator and reader of QR codes",
+        "commands": [
+            {
+                "name": "makeqr",
+                "inline": false,
+                "description": {
+                    "doc": ".makeqr <text or reply>"
+                }
+            },
+            {
+                "name": "readqr",
+                "inline": false,
+                "description": {
+                    "doc": ".readqr <qrcode or reply to qrcode>"
+                }
+            }
+        ],
+        "name": "QR tool's",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/QRtools.py"
+    },
+    {
+        "description": "каждое слово раз в 100мс",
+        "commands": [
+            {
+                "name": "sr",
+                "inline": false,
+                "description": {
+                    "doc": ".sr <text or reply>"
+                }
+            }
+        ],
+        "name": "SpeedRead",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SpeedRead.py"
+    },
+    {
+        "description": "Make image 1:1 ratio",
+        "commands": [
+            {
+                "name": "squareblur",
+                "inline": false,
+                "description": {
+                    "doc": "make image 1:1 ratio"
+                }
+            }
+        ],
+        "name": "SquareBlur",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SquareBlur.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "stick2pic",
+                "inline": false,
+                "description": {
+                    "doc": "reply to Sticker\nsend stricker as image"
+                }
+            },
+            {
+                "name": "stick2file",
+                "inline": false,
+                "description": {
+                    "doc": "reply to Sticker\nsend stricker as image"
+                }
+            }
+        ],
+        "name": "StickTools",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/StickTools.py"
+    },
+    {
+        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
+        "commands": [
+            {
+                "name": "demoti",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
+                }
+            },
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
+                }
+            }
+        ],
+        "name": "SuperDemotivator",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SuperDemotivator.V2.py"
+    },
+    {
+        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
+        "commands": [
+            {
+                "name": "demoti",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
+                }
+            },
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
+                }
+            }
+        ],
+        "name": "SuperDemotivator",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SuperDemotivator.py"
+    },
+    {
+        "description": "Swiper",
+        "commands": [
+            {
+                "name": "sl2r",
+                "inline": false,
+                "description": {
+                    "doc": "swipe left to right"
+                }
+            },
+            {
+                "name": "sr2l",
+                "inline": false,
+                "description": {
+                    "doc": "swipe right to left"
+                }
+            },
+            {
+                "name": "su2d",
+                "inline": false,
+                "description": {
+                    "doc": "swipe up to down"
+                }
+            },
+            {
+                "name": "sd2u",
+                "inline": false,
+                "description": {
+                    "doc": "swipe down to up"
+                }
+            }
+        ],
+        "name": "Swiper",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Swiper.py"
+    },
+    {
+        "description": "Смена расскаладки клавиатуры у текста",
+        "commands": [
+            {
+                "name": "switch",
+                "inline": false,
+                "description": {
+                    "doc": "Если ты допустил ошибку и набрал текст не сменив раскладку клавиатуры\nто вернись в его начало и допиши `.switch` и твой текст станет читабельным.\nЕсли ты всё же отправил сообщение не в той расскладке, то просто ответь на него этой командой и он измениться.\nесли же твой собеседник допустил ошибку, то просто ответь на его сообщение и сообщение с командой измениться."
+                }
+            }
+        ],
+        "name": "KeyboardSwitcher",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Switcher.py"
+    },
+    {
+        "description": "Хуярит",
+        "commands": [
+            {
+                "name": "tgs",
+                "inline": false,
+                "description": {
+                    "doc": "хуярит стикеры"
+                }
+            }
+        ],
+        "name": "TgsKiller",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/TgsKiller.py"
+    },
+    {
+        "description": "Поиск видео на ютубе",
+        "commands": [
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {
+                    "doc": "текст или реплай"
+                }
+            }
+        ],
+        "name": "YTsearch",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/YTsearch.py"
+    },
+    {
+        "description": "Reverse image search via Yandex (he is the best, imho)",
+        "commands": [
+            {
+                "name": "yars",
+                "inline": false,
+                "description": {
+                    "doc": ".yars <repy to image>"
+                }
+            }
+        ],
+        "name": "YandexReverseSearch",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/YandexRS.py"
+    },
+    {
+        "description": "Кодирование и декодирование base64",
+        "commands": [
+            {
+                "name": "b64encode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64encode <(text or media) or (reply to text or media)>"
+                }
+            },
+            {
+                "name": "b64decode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64decode <text or reply to text>"
+                }
+            }
+        ],
+        "name": "base64",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/_base64.py"
+    },
+    {
+        "description": "Админтулс",
+        "commands": [
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "Бан в чате"
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Разбан в чате"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "Кикнуть из чата"
+                }
+            },
+            {
+                "name": "promote",
+                "inline": false,
+                "description": {
+                    "doc": "Дать админку"
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "doc": "Снять админку"
+                }
+            }
+        ],
+        "name": "AdminTools",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/admin_tools.py"
+    },
+    {
+        "description": "Биография",
+        "commands": [
+            {
+                "name": "biography",
+                "inline": false,
+                "description": {
+                    "doc": ".biography <reply to voice>\nНаложение реплайнутого войса на минус кровостока"
+                }
+            }
+        ],
+        "name": "Биография",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/biography.py"
+    },
+    {
+        "description": "Кукулирует вырожения",
+        "commands": [
+            {
+                "name": "calc",
+                "inline": false,
+                "description": {
+                    "doc": ".calc <выражение или реплай на то, что нужно посчитать>\nКстати:\n** - возвести в степень\n/ - деление\n% - деление по модулю"
+                }
+            }
+        ],
+        "name": "Кукулятор",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/calc.py"
+    },
+    {
+        "description": "Выполняет команду в канале",
+        "commands": [
+            {
+                "name": "cheval",
+                "inline": false,
+                "description": {
+                    "doc": ".channel <канал> <id сообщения реплая, или же выполнение команды из комментариев> <комманда в том виде, в котором бы ты отправил её в чат>"
+                }
+            }
+        ],
+        "name": "ChannelEval",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/cheval.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "code",
+                "inline": false,
+                "description": {
+                    "doc": ".code <text or reply>"
+                }
+            }
+        ],
+        "name": "Codefy",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/codefy.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "cbit",
+                "inline": false,
+                "description": {
+                    "doc": ".cbit <число от 0 до 255"
+                }
+            }
+        ],
+        "name": "colorBit",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/colorBit.py"
+    },
+    {
+        "description": "DataMosh effect to video",
+        "commands": [
+            {
+                "name": "datamosh",
+                "inline": false,
+                "description": {
+                    "doc": ". datamosh lvl: int <reply to video>"
+                }
+            }
+        ],
+        "name": "DataMosh",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/datamosh.py"
+    },
+    {
+        "description": "Удаляет все сообщения",
+        "commands": [
+            {
+                "name": "delme",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя"
+                }
+            },
+            {
+                "name": "delmenow",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя без вопросов"
+                }
+            }
+        ],
+        "name": "DelMe",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/delme.py"
+    },
+    {
+        "description": "Демотиваторы",
+        "commands": [
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Demoter",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/demot.py"
+    },
+    {
+        "description": "Image to dot\n.cmd <count> + reply to img\nthe bigger, the slower and bugger\nrecommended not more 1000",
+        "commands": [
+            {
+                "name": "dotify",
+                "inline": false,
+                "description": {
+                    "doc": "Image to RGB dots"
+                }
+            },
+            {
+                "name": "dotifi",
+                "inline": false,
+                "description": {
+                    "doc": "Image to BW dots"
+                }
+            }
+        ],
+        "name": "[PRIVATE]Dotify",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/dotify.py"
+    },
+    {
+        "description": "Quote a message",
+        "commands": [
+            {
+                "name": "family",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Family",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/family.py"
+    },
+    {
+        "description": "filename changer",
+        "commands": [
+            {
+                "name": "filename",
+                "inline": false,
+                "description": {
+                    "doc": ".filename <filename> + reply.file"
+                }
+            }
+        ],
+        "name": "filename",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/filename.py"
+    },
+    {
+        "description": "Сокращение ссылок через сервис gg.gg",
+        "commands": [
+            {
+                "name": "gg",
+                "inline": false,
+                "description": {
+                    "doc": ".gg <длинная ссылка или реплай на ссылку>"
+                }
+            }
+        ],
+        "name": "gg.gg",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/gg.gg.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "grid",
+                "inline": false,
+                "description": {
+                    "doc": ".gird <reply to photo>"
+                }
+            },
+            {
+                "name": "revgrid",
+                "inline": false,
+                "description": {
+                    "doc": ".gird <reply to photo>"
+                }
+            }
+        ],
+        "name": "Griding",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/gird.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "hearts",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Heart's",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/hearts.py"
+    },
+    {
+        "description": "Provides this help message",
+        "commands": [
+            {
+                "name": "help",
+                "inline": false,
+                "description": {
+                    "doc": ".help [module]"
+                }
+            },
+            {
+                "name": "KeyZenD",
+                "inline": false,
+                "description": {
+                    "doc": "ДА Я ЗНАЮ ЧТО Я ОХУЕЛ НО МНЕ ПОХУЙ, МОЙ ХЕЛП!"
+                }
+            }
+        ],
+        "name": "Help",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/help.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "хуй",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "хуйня",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Хуификатор",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/hyi.py"
+    },
+    {
+        "description": "Картинки в текст. что?",
+        "commands": [
+            {
+                "name": "bin",
+                "inline": false,
+                "description": {
+                    "doc": ".bin <картинка  или реплай> + слова (дефолт на рандоме) (не мешает слова)"
+                }
+            },
+            {
+                "name": "rbin",
+                "inline": false,
+                "description": {
+                    "doc": ".rbin <картинка  или реплай> + слова (дефолт на рандоме) (мешает слова)"
+                }
+            }
+        ],
+        "name": "Im2Bin",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/im2bin.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "keyboard",
+                "inline": false,
+                "description": {
+                    "doc": ".keyboard <text or reply>"
+                }
+            }
+        ],
+        "name": "Keyboard typer",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/keyboard_lagre.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "keyboard",
+                "inline": false,
+                "description": {
+                    "doc": ".keyboard <text or reply>"
+                }
+            }
+        ],
+        "name": "Keyboard typer",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/keyboard_small.py"
+    },
+    {
+        "description": "Удаляет из чата последних Х зашедших",
+        "commands": [
+            {
+                "name": "botkicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".botkicklst <количество> <юзернейм, если канал> - Кикает при помощи тг бота"
+                }
+            },
+            {
+                "name": "kicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".kicklst <количество> <юзернейм, если канал> - Кикает юзерботом"
+                }
+            }
+        ],
+        "name": "KickLast",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/kicklast.py"
+    },
+    {
+        "description": "kzdQuote a message",
+        "commands": [
+            {
+                "name": "qq",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "qqset",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "kzdQuotes",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/kzdQuotes.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "leave",
+                "inline": false,
+                "description": {
+                    "doc": ".leave"
+                }
+            }
+        ],
+        "name": "Just leave",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/leave.py"
+    },
+    {
+        "description": "Спаммер медиа(стикер/гиф/фото/видео/войс/видеовойс</code>",
+        "commands": [
+            {
+                "name": "mediaspam",
+                "inline": false,
+                "description": {
+                    "doc": ".mediaspam <количество> + реплай на медиа(стикер/гиф/фото/видео/войс/видеовойс)"
+                }
+            }
+        ],
+        "name": "МедиаСпам",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/mediaspam.py"
+    },
+    {
+        "description": "Modulate pitch of voice",
+        "commands": [
+            {
+                "name": "modulate",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Modulator",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/modulator.py"
+    },
+    {
+        "description": "Runs commands",
+        "commands": [
+            {
+                "name": "noterminal",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            },
+            {
+                "name": "noterminate",
+                "inline": false,
+                "description": {
+                    "doc": "Use in reply to send SIGTERM to a process"
+                }
+            },
+            {
+                "name": "nokill",
+                "inline": false,
+                "description": {
+                    "doc": "Use in reply to send SIGKILL to a process"
+                }
+            }
+        ],
+        "name": "noTerminal",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/noterminal.py"
+    },
+    {
+        "description": "Stores global notes (aka snips)",
+        "commands": [
+            {
+                "name": "findnote",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            },
+            {
+                "name": "note",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            },
+            {
+                "name": "delallnotes",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes all the saved notes"
+                }
+            },
+            {
+                "name": "save",
+                "inline": false,
+                "description": {
+                    "doc": "Save a new note. Must be used in reply with one parameter (note name)"
+                }
+            },
+            {
+                "name": "delnote",
+                "inline": false,
+                "description": {
+                    "doc": "Deletes a note, specified by note name"
+                }
+            },
+            {
+                "name": "notes",
+                "inline": false,
+                "description": {
+                    "doc": "List the saved notes"
+                }
+            }
+        ],
+        "name": "Notes",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/notes.py"
+    },
+    {
+        "description": "Stores global notes (aka snips)",
+        "commands": [
+            {
+                "name": "notexec",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            }
+        ],
+        "name": "Notexec",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/notexec.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "null",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "null",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/null.py"
+    },
+    {
+        "description": "Upload video and photo to telegra.ph",
+        "commands": [
+            {
+                "name": "ph",
+                "inline": false,
+                "description": {
+                    "doc": ".ph <reply photo or video>"
+                }
+            }
+        ],
+        "name": "UploadPH",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ph.py"
+    },
+    {
+        "description": "pic2pack",
+        "commands": [
+            {
+                "name": "pic2pack",
+                "inline": false,
+                "description": {
+                    "doc": ".pic2pack {packname} + <reply to photo>"
+                }
+            }
+        ],
+        "name": "pic2pack",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/pic2pack.py"
+    },
+    {
+        "description": "Аналог модуля typewriter",
+        "commands": [
+            {
+                "name": "print",
+                "inline": false,
+                "description": {
+                    "doc": ".print <text or reply>"
+                }
+            }
+        ],
+        "name": "print",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/print.py"
+    },
+    {
+        "description": "более точный пинг",
+        "commands": [
+            {
+                "name": "ping",
+                "inline": false,
+                "description": {
+                    "doc": "пингует"
+                }
+            }
+        ],
+        "name": "PingerХуингер",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/pung.py"
+    },
+    {
+        "description": "Deletes your messages",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "Purge from the replied message"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Delete the replied message"
+                }
+            }
+        ],
+        "name": "Purge",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/purge.py"
+    },
+    {
+        "description": "Выполняет выражение из черновиков (работает 10 минут)\nинструкция на канале @SomeScripts",
+        "commands": [
+            {
+                "name": "pydraft",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить/Остановить"
+                }
+            }
+        ],
+        "name": "PyDraft",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/pydraft.py"
+    },
+    {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "pypng",
+                "inline": false,
+                "description": {
+                    "doc": "reply to text code or py file"
+                }
+            }
+        ],
+        "name": "pypng",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/pypng.py"
+    },
+    {
+        "description": "Python stuff",
+        "commands": [
+            {
+                "name": "eval",
+                "inline": false,
+                "description": {
+                    "doc": ".eval <expression>\nEvaluates python code"
+                }
+            },
+            {
+                "name": "exec",
+                "inline": false,
+                "description": {
+                    "doc": ".exec <expression>\nExecutes python code"
+                }
+            }
+        ],
+        "name": "Python",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/python.py"
+    },
+    {
+        "description": "Perevodit rysskiy na rysianskiy yazyk",
+        "commands": [
+            {
+                "name": "rysianskiy",
+                "inline": false,
+                "description": {
+                    "doc": ".rysianskiy <tekst ili replay na tekst>"
+                }
+            }
+        ],
+        "name": "Rysianskiy yazyk",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/rysianskiy.py"
+    },
+    {
+        "description": "Соxранятель в избранное",
+        "commands": [
+            {
+                "name": "saved",
+                "inline": false,
+                "description": {
+                    "doc": ".saved реплай на медиа"
+                }
+            }
+        ],
+        "name": "SavedMessages",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/saved.py"
+    },
+    {
+        "description": "Screenshot Spammer by @KeyZenD",
+        "commands": [
+            {
+                "name": "scrs",
+                "inline": false,
+                "description": {
+                    "doc": ".scrs <amount>"
+                }
+            }
+        ],
+        "name": "ScrSpam",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/scrs.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "soap",
+                "inline": false,
+                "description": {
+                    "doc": ".soap <reply to photo>"
+                }
+            }
+        ],
+        "name": "Soaping",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/soaper.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "spin",
+                "inline": false,
+                "description": {
+                    "doc": "you spin me round..."
+                }
+            },
+            {
+                "name": "epilepsy",
+                "inline": false,
+                "description": {
+                    "doc": "ПРИВЕТ ЭПИЛЕТИКИ АХАХАХХА"
+                }
+            }
+        ],
+        "name": "Spinner",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/spinner.py"
+    },
+    {
+        "description": "Text to sticker",
+        "commands": [
+            {
+                "name": "stext",
+                "inline": false,
+                "description": {
+                    "doc": ".stext <reply to photo>"
+                }
+            }
+        ],
+        "name": "StickText",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/stext.py"
+    },
+    {
+        "description": "Tagall",
+        "commands": [
+            {
+                "name": "tagall",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "TagAll",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/tagall.py"
+    },
+    {
+        "description": "Self-tests",
+        "commands": [
+            {
+                "name": "ping",
+                "inline": false,
+                "description": {
+                    "doc": "Does nothing"
+                }
+            },
+            {
+                "name": "pung",
+                "inline": false,
+                "description": {
+                    "doc": "Useless pinger"
+                }
+            },
+            {
+                "name": "dump",
+                "inline": false,
+                "description": {
+                    "doc": "Use in reply to get a dump of a message"
+                }
+            },
+            {
+                "name": "logs",
+                "inline": false,
+                "description": {
+                    "doc": ".logs <level>\nDumps logs. Loglevels below WARNING may contain personal info."
+                }
+            },
+            {
+                "name": "suspend",
+                "inline": false,
+                "description": {
+                    "doc": ".suspend <time>\nSuspends the bot for N seconds"
+                }
+            }
+        ],
+        "name": "Tester",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/test.py"
+    },
+    {
+        "description": "Makes your messages type slower",
+        "commands": [
+            {
+                "name": "ticker",
+                "inline": false,
+                "description": {
+                    "doc": ".ticker <message>"
+                }
+            }
+        ],
+        "name": "Ticker",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ticker.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "TikTokDl",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ttdl.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "urldl",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "urldlbig",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "UrlDl",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/urldl.py"
+    },
+    {
+        "description": "Valute converter",
+        "commands": [
+            {
+                "name": "valute",
+                "inline": false,
+                "description": {
+                    "doc": ".valute <Valute char code (optional)>"
+                }
+            }
+        ],
+        "name": "Valutes",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/valute.py"
+    },
+    {
+        "description": "link to screen",
+        "commands": [
+            {
+                "name": "webshot",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "WebShot",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/webshot.py"
+    },
+    {
+        "description": "wow, what is it there?",
+        "commands": [
+            {
+                "name": "what",
+                "inline": false,
+                "description": {
+                    "doc": "Draw circle in random place"
+                }
+            }
+        ],
+        "name": "What?",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/what.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "words",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Words Counter",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/words.py"
+    },
+    {
+        "description": "Запаковывает/распаковывает файлы",
+        "commands": [
+            {
+                "name": "zipadd",
+                "inline": false,
+                "description": {
+                    "doc": ".zipadd <file/reply to file> - сохраняет файл во временную папку"
+                }
+            },
+            {
+                "name": "ziplist",
+                "inline": false,
+                "description": {
+                    "doc": "список сохраненных файлов"
+                }
+            },
+            {
+                "name": "zipshow",
+                "inline": false,
+                "description": {
+                    "doc": ".zipshow <name> - показывает сохранённый файл"
+                }
+            },
+            {
+                "name": "zipdel",
+                "inline": false,
+                "description": {
+                    "doc": ".zipdel <name> - удаляет сохранённый файл"
+                }
+            },
+            {
+                "name": "zip",
+                "inline": false,
+                "description": {
+                    "doc": ".zip <name> (-s) - пакует в архив name. если есть флаг -s то сохраняет папку с фацлами"
+                }
+            },
+            {
+                "name": "zipclean",
+                "inline": false,
+                "description": {
+                    "doc": ".zipclear - очищает папку с файлами"
+                }
+            }
+        ],
+        "name": "ZIP",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/zip.py"
+    },
+    {
+        "description": "Заебет любого",
+        "commands": [
+            {
+                "name": "заебу",
+                "inline": false,
+                "description": {
+                    "doc": ".заебу <колличество> <реплай на того, кого заебать>"
+                }
+            }
+        ],
+        "name": "Заёбушка",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/заёбушка.py"
+    },
+    {
+        "description": "Заебет любого",
+        "commands": [
+            {
+                "name": "заебу",
+                "inline": false,
+                "description": {
+                    "doc": ".заебу <колличество> <реплай на того, кого заебать>"
+                }
+            }
+        ],
+        "name": "Заёбушка",
+        "repo": "KeyZenD/modules",
+        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/заёбушка2.0.py"
     }
 ]
