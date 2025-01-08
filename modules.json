@@ -50371,7 +50371,7 @@
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/sozivala.py"
     },
     {
-        "description": "AI - помощник по Hikka.\n🌘Version: 4.4 | Оптимизированный код - Improved\n⚡Разработчик: @procot1\n💚Оригинальный модуль",
+        "description": "AI - помощник по Hikka.\n🌘Version: 4.3 | Оптимизированный код - Improved\n⚡Разработчик: @procot1\n💚Оригинальный модуль",
         "commands": [
             {
                 "name": "aisup",
