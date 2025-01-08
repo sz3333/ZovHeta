@@ -46667,6 +46667,22 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для разбана всех пользователей в чате (амнистия).",
+        "commands": [
+            {
+                "name": "amnesty",
+                "inline": false,
+                "description": {
+                    "doc": "- разблокирует всех"
+                }
+            }
+        ],
+        "name": "Amnesty",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Amnesty.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Длинные слова лучше переносить на другую строчку. Пример:\n`.figlet Hello\nWorld!`\nЕсли написать в одну строчку, то слово не уместится в одно сообщение ",
         "commands": [
             {
