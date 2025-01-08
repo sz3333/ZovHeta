@@ -687,6 +687,23 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Voice Downloader module",
+        "commands": [
+            {
+                "name": "voicedl",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [reply] — загружает выбранное голосовое сообщение в виде файла mp3 и кидает его в чат.",
+                    "en_doc": " [reply] — downloads the selected voice message as an MP3 file and sends it in the chat."
+                }
+            }
+        ],
+        "name": "VoiceDL",
+        "repo": "C0dwiz/H.Modules",
+        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/VoiceDL.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Random cats and dogs",
         "commands": [
             {
