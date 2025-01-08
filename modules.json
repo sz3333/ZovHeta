@@ -340,9 +340,20 @@
         "description": "Mini game heads or tails",
         "commands": [
             {
+                "name": "coin_inline_handler",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Подбросит монетку ",
+                    "en_doc": "Flip a coin"
+                }
+            },
+            {
                 "name": "coin",
                 "inline": true,
-                "description": {}
+                "description": {
+                    "ru_doc": "Подбросит монетку ",
+                    "en_doc": "Flip a coin"
+                }
             }
         ],
         "name": "InlineCoin",
