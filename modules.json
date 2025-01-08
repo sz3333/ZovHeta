@@ -50590,6 +50590,13 @@
         "description": "Модуль для симбиоза Heroku и Yarangrad_bot",
         "commands": [
             {
+                "name": "testm",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Перевести бота в тест режим"
+                }
+            },
+            {
                 "name": "sync",
                 "inline": false,
                 "description": {
