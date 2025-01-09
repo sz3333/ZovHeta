@@ -50527,6 +50527,43 @@
         "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/YaranBotSync.py"
     },
     {
+        "author": "@K0vaIskii",
+        "description": "Модуль для симбиоза Heroku и SuggBot",
+        "commands": [
+            {
+                "name": "set",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Обновить значение"
+                }
+            },
+            {
+                "name": "bon",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Запустить бота"
+                }
+            },
+            {
+                "name": "boff",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Остановить бота"
+                }
+            },
+            {
+                "name": "br",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Перезагрузить бота"
+                }
+            }
+        ],
+        "name": "SuggBotPanel",
+        "repo": "K0valskii/MyModules",
+        "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/suggbotpanel.py"
+    },
+    {
         "author": "@xdesai & @devjmodules",
         "description": "Модуль для админов чатов\nMade by Desai",
         "commands": [
