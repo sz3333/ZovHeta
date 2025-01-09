@@ -50301,7 +50301,7 @@
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/sozivala.py"
     },
     {
-        "description": "AI - помощник по Hikka.\n🌘Version: 5.0 | Два API на выбор\n⚡Разработчик: @procot1\n💚Оригинальный модуль",
+        "description": "AI - помощник по Hikka.\n🌘Version: 5.1 | Data set: 4\n⚡Разработчик: @procot1\n💚Оригинальный модуль",
         "commands": [
             {
                 "name": "aisup",
