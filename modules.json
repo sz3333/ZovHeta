@@ -17571,6 +17571,29 @@
     },
     {
         "author": "@kmodules",
+        "description": "Улучшенная информация о юзерботе - ping, и т.д.",
+        "commands": [
+            {
+                "name": "cinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Показать информацию о юзерботе"
+                }
+            },
+            {
+                "name": "setcinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Установить кастомный текст информации: .setcinfo <текст>"
+                }
+            }
+        ],
+        "name": "K:CustomInfo",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kcustominfo.py"
+    },
+    {
+        "author": "@kmodules",
         "banner": "https://i.ibb.co/gy5xbPd/d4be263e-63b5-42e1-ac2b-0dac067b0623.jpg",
         "description": "Универсальный AFK модуль с поддержкой кастом сообщения и премиум статуса.",
         "commands": [
@@ -51040,6 +51063,22 @@
         "name": "IrisFarm",
         "repo": "xdesai96/modules",
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/irisfarm.py"
+    },
+    {
+        "author": "@xdesai & @devjmodules",
+        "description": "Module to create a list of users.",
+        "commands": [
+            {
+                "name": "mlist",
+                "inline": false,
+                "description": {
+                    "doc": "Get the members list of multiple chats and send it as a txt file."
+                }
+            }
+        ],
+        "name": "MembersList",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/memberslist.py"
     },
     {
         "author": "@xdesai & @devjmodules",
