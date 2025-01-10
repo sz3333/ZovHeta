@@ -49774,6 +49774,23 @@
     },
     {
         "author": "@devjmodules",
+        "description": "Restart your LavHost without using a bot",
+        "commands": [
+            {
+                "name": "lhrestart",
+                "inline": false,
+                "description": {
+                    "en_doc": "Restart",
+                    "ru_doc": "Перезагрузить"
+                }
+            }
+        ],
+        "name": "LavReboot",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/LavReboot.py"
+    },
+    {
+        "author": "@devjmodules",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
         "commands": [
