@@ -17678,6 +17678,11 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
     },
     {
+        "author": "@kmodules",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kuploader.py"
+    },
+    {
         "description": "Модуль для просмотра погоды",
         "commands": [
             {
