@@ -50723,6 +50723,13 @@
                 }
             },
             {
+                "name": "banall",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить всех участников в группе/канале"
+                }
+            },
+            {
                 "name": "chatinfo",
                 "inline": false,
                 "description": {
