@@ -8157,6 +8157,23 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/picme.png?raw=true",
+        "description": "Будь пикми!!!",
+        "commands": [
+            {
+                "name": "picme",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить режим пикми"
+                }
+            }
+        ],
+        "name": "PicMe",
+        "repo": "FajoX1/FAmods",
+        "install": "dlm https://raw.githubusercontent.com/FajoX1/FAmods/main/picme.py"
+    },
+    {
+        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/pricefreedom.png?raw=true",
         "description": "Автоматизированная работа с @rabstvo_game_bot",
         "commands": [
