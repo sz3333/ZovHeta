@@ -8158,7 +8158,7 @@
     {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/picme.png?raw=true",
-        "description": "Будь пикми!!!",
+        "description": "Кринж модуль",
         "commands": [
             {
                 "name": "picme",
@@ -17696,6 +17696,45 @@
     },
     {
         "author": "@kmodules",
+        "description": "Module for uploading files to various file hosting services",
+        "commands": [
+            {
+                "name": "catbox",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to catbox.moe"
+                }
+            },
+            {
+                "name": "envs",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to envs.sh"
+                }
+            },
+            {
+                "name": "kappa",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to kappa.lol"
+                }
+            },
+            {
+                "name": "oxo",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to 0x0.st"
+                }
+            },
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to x0.at"
+                }
+            }
+        ],
+        "name": "K:Uploader",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kuploader.py"
     },
