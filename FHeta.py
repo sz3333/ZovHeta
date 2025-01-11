@@ -1,6 +1,6 @@
-__version__ = (9, 0, 0)
+__version__ = (9, 0, 1)
 # meta developer: @Foxy437
-# change-log: 🔥 Added channel with all updates in FHeta (@FHeta_updates), added auto update modules.
+# change-log: 😭 Deleted auto update....
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -53,7 +53,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
-        "reqj": "🔥 This is the channel with all updates in FHeta! It is needed for automatic module updates!"
+        "reqj": "This is the channel with all updates in FHeta!"
     }
 
     strings_ru = {
@@ -75,7 +75,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
-        "reqj": "🔥 Это канал со всеми обновлениями в FHeta! И он нужен для авто обновления модулей!"
+        "reqj": "Это канал со всеми обновлениями в FHeta!"
     }
 
     strings_ua = {
@@ -97,7 +97,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
-        "reqj": "🔥 Це канал з усіма оновленнями в FHeta! І він потрібний для авто оновлення модулів!"
+        "reqj": "Це канал з усіма оновленнями в FHeta!"
     }
 
     async def client_ready(self):
@@ -316,20 +316,6 @@ class FHeta(loader.Module):
                 update_message += self.strings("update_whats_new").format(whats_new=what_new)
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
-            
-    @loader.watcher("in", "only_messages", chat_id=2327758605, contains="URL: ")
-    async def update_from_fheta(self, message: Message):
-        url = message.raw_text.split("URL: ")[1].strip()
-
-        if any(
-            getattr(module, "__origin__", "").lower().strip("/")
-            == url.lower().strip("/")
-            for module in self.allmodules.modules
-        ):
-            loader_m = self.lookup("loader")
-            await loader_m.download_and_install(url)
-            await asyncio.sleep(random.randint(1, 10))
-            return
 
     async def like_callback(self, call, module_name, action):
         await self.handle_rating(call, module_name, action)
