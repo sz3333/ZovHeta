@@ -1,6 +1,6 @@
-__version__ = (9, 0, 1)
+__version__ = (9, 0, 2)
 # meta developer: @Foxy437
-# change-log: 😭 Deleted auto update....
+# change-log: venom
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -32,7 +32,7 @@ import re
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules! 🔥 Watch all updates in fheta in @FHeta_updates!'''
+    '''Module for searching modules! Watch all updates in fheta in @FHeta_updates!'''
     
     strings = {
         "name": "FHeta",
@@ -107,11 +107,14 @@ class FHeta(loader.Module):
                 self.strings['reqj']
             ),
         )
+        self.token = self.db.get("token_fheta_902", "token", None)
+            
+    async def on_dlmod(self):
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
                 response = await conv.get_response(timeout=1)
-                self.token = response.text.strip()
+                self.db.set("token_fheta_902", "token", response.text.strip())
         except Exception as e:
             pass
             
