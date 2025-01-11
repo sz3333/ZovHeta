@@ -11112,6 +11112,22 @@
     },
     {
         "author": "@codrago_m",
+        "description": "Download emoji from reply",
+        "commands": [
+            {
+                "name": "emojidown",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Download emoji from reply"
+                }
+            }
+        ],
+        "name": "EmojiDownload",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/emojidown.py"
+    },
+    {
+        "author": "@codrago_m",
         "description": "Send to you random hentai media!",
         "commands": [
             {
