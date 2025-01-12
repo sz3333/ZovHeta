@@ -21715,6 +21715,37 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/crib.py"
     },
     {
+        "author": "@ScreamDev, yg_modules",
+        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/CryptoNow.png",
+        "description": "Модуль для того чтобы узнать курс крипты/фиата и обновлять его (для каналов)",
+        "commands": [
+            {
+                "name": "coincn",
+                "inline": false,
+                "description": {
+                    "doc": "<название> выбрать крипту по умолчанию"
+                }
+            },
+            {
+                "name": "cnow",
+                "inline": false,
+                "description": {
+                    "doc": "<кол-во> <название монеты> смотреть курс"
+                }
+            },
+            {
+                "name": "cnstop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить обновления курса"
+                }
+            }
+        ],
+        "name": "CryptoNow",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/crypta.py"
+    },
+    {
         "author": "@mqone",
         "commands": [
             {
