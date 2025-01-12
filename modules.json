@@ -22711,6 +22711,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/unknown_strings.py"
     },
     {
+        "author": "@Foxy437 & venom",
+        "description": "venom",
+        "commands": [
+            {
+                "name": "venom",
+                "inline": false,
+                "description": {
+                    "doc": "venom"
+                }
+            }
+        ],
+        "name": "venom",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/venom.py"
+    },
+    {
         "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
