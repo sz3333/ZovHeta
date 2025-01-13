@@ -17475,6 +17475,437 @@
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/yoomoney.py"
     },
     {
+        "description": "Модуль для проверки на флуд-вейты",
+        "commands": [
+            {
+                "name": "fl",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить флуд-вейты"
+                }
+            }
+        ],
+        "name": "KOTFLMod",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTFLMod.py"
+    },
+    {
+        "description": "Модуль для автоматической торговли на Ирис-бирже",
+        "commands": [
+            {
+                "name": "трд",
+                "inline": false,
+                "description": {
+                    "doc": "Запускает торговый процесс"
+                }
+            },
+            {
+                "name": "стрд",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает торговый процесс"
+                }
+            }
+        ],
+        "name": "KOTIrisTrade",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTIrisTrade.py"
+    },
+    {
+        "description": "модуль, который выводит сколько осталось дней до нг.",
+        "commands": [
+            {
+                "name": "зима",
+                "inline": false,
+                "description": {
+                    "doc": "- вывести сообщение сколько осталось до нг."
+                }
+            }
+        ],
+        "name": "KOTNewYear",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTNewYear.py"
+    },
+    {
+        "description": "модуль, который отправляет рандом видио с зимой",
+        "commands": [
+            {
+                "name": "win",
+                "inline": false,
+                "description": {
+                    "doc": "- вывести медиа с зимним вайбом."
+                }
+            }
+        ],
+        "name": "KotWinter",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTWinter.py"
+    },
+    {
+        "description": "каждый час отправляю дик в чат",
+        "commands": [
+            {
+                "name": "dick",
+                "inline": false,
+                "description": {
+                    "doc": "запустить дик"
+                }
+            },
+            {
+                "name": "stopdick",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает отправку /dick"
+                }
+            }
+        ],
+        "name": "KOTdick",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTdick.py"
+    },
+    {
+        "description": "автофармит коины в ирисе, самый простой код.",
+        "commands": [
+            {
+                "name": "rfarm",
+                "inline": false,
+                "description": {
+                    "doc": "запустить автофарм"
+                }
+            },
+            {
+                "name": "rsfarm",
+                "inline": false,
+                "description": {
+                    "doc": "останавливает автофарм"
+                }
+            }
+        ],
+        "name": "KOTfarm",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTfarm.py"
+    },
+    {
+        "description": "Модуль для поиска музыки.",
+        "commands": [
+            {
+                "name": "трек",
+                "inline": false,
+                "description": {
+                    "doc": "Ищет песни по названию."
+                }
+            }
+        ],
+        "name": "KOTmusic",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTmusic.py"
+    },
+    {
+        "description": "модуль который крадет гифки",
+        "commands": [
+            {
+                "name": "г",
+                "inline": false,
+                "description": {
+                    "doc": "- украсть гифку"
+                }
+            }
+        ],
+        "name": "KOTStealGif",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTstealGif.py"
+    },
+    {
+        "description": "модуль который отправляет боту @KOTBioWarsBot запрос и получает ответ.",
+        "commands": [
+            {
+                "name": "к",
+                "inline": false,
+                "description": {
+                    "doc": "- отправить запрос боту"
+                }
+            }
+        ],
+        "name": "KotBioWars",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KotBioWars.py"
+    },
+    {
+        "description": "Отправляет случайное видео из Тиктока!",
+        "commands": [
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное видео"
+                }
+            }
+        ],
+        "name": "RandomTT",
+        "repo": "kotenochekk/codeer_kot",
+        "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/RandomTT.py"
+    },
+    {
+        "description": "сохраняет текст в файл и читает содержимое файлов. by @codermasochist",
+        "commands": [
+            {
+                "name": "asc",
+                "inline": false,
+                "description": {
+                    "doc": "— сохраняет в файл."
+                }
+            },
+            {
+                "name": "readf",
+                "inline": false,
+                "description": {
+                    "doc": "— достает содержимое файла."
+                }
+            }
+        ],
+        "name": "As Code",
+        "repo": "codermasochist/AsModules",
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsCode.py"
+    },
+    {
+        "description": "кидает ахуенные эдиты. by @codermasochist",
+        "commands": [
+            {
+                "name": "asedit",
+                "inline": false,
+                "description": {
+                    "doc": "кидает эдиты с канала разработчика. @makimalove"
+                }
+            },
+            {
+                "name": "edit",
+                "inline": false,
+                "description": {
+                    "doc": "кидает рандомное видео с указанного в кфг"
+                }
+            }
+        ],
+        "name": "As Edit`s",
+        "repo": "codermasochist/AsModules",
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsEdit.py"
+    },
+    {
+        "description": "качает видео с тт/инст & ютуб/пин через ботов",
+        "commands": [
+            {
+                "name": "vdl",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка> — скачать видео с тт/инст"
+                }
+            },
+            {
+                "name": "mdl",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка> — скачать видео с ютуб/пинтерест"
+                }
+            }
+        ],
+        "name": "As dl bot",
+        "repo": "codermasochist/AsModules",
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asdlbot.py"
+    },
+    {
+        "description": "получает ID по реплаю. by @codermasochist",
+        "commands": [
+            {
+                "name": "ид",
+                "inline": false,
+                "description": {
+                    "doc": "— работает без префа, просто \"ид\"."
+                }
+            }
+        ],
+        "name": "As ID",
+        "repo": "codermasochist/AsModules",
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asid.py"
+    },
+    {
+        "description": "Приветствие с ID. by @codermasochist",
+        "commands": [
+            {
+                "name": "onid",
+                "inline": false,
+                "description": {
+                    "doc": "— включает приветствие с ID."
+                }
+            },
+            {
+                "name": "offid",
+                "inline": false,
+                "description": {
+                    "doc": "— отключает приветствие с ID"
+                }
+            }
+        ],
+        "name": "As welcome ID",
+        "repo": "codermasochist/AsModules",
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asidh.py"
+    },
+    {
+        "description": "Automatically comments under any channels you want",
+        "commands": [
+            {
+                "name": "comment",
+                "inline": false,
+                "description": {
+                    "doc": "Toggle Module <on/off>"
+                }
+            }
+        ],
+        "name": "AutoFheta",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/AutoFheta.py"
+    },
+    {
+        "author": "@ScreamDev",
+        "description": "Модуль для авто замены ПОТУЖНО на жирный только если сообщение содержит 'потужно'. Переписанный модуль @Foxy437",
+        "commands": [
+            {
+                "name": "on_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Включить авто замену ПОТУЖНО на жирный."
+                }
+            },
+            {
+                "name": "off_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить авто замену ПОТУЖНО на жирный."
+                }
+            }
+        ],
+        "name": "PotuznoBold",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/BoldPotuzno.py"
+    },
+    {
+        "description": "Module for using GigaChat",
+        "commands": [
+            {
+                "name": "gen",
+                "inline": false,
+                "description": {
+                    "doc": "Генерирует посты для блога"
+                }
+            },
+            {
+                "name": "planning",
+                "inline": false,
+                "description": {
+                    "doc": "Создает план на неделю"
+                }
+            },
+            {
+                "name": "gen_",
+                "inline": false,
+                "description": {
+                    "doc": "Генерирует посты за день"
+                }
+            },
+            {
+                "name": "help",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить помощь по командам",
+                    "doc": "Показывает список доступных команд"
+                }
+            }
+        ],
+        "name": "GigaChat Channel",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/ChannelAI.py"
+    },
+    {
+        "author": "@ScreamDev, yg_modules",
+        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/CryptoNow.png",
+        "description": "Модуль для того чтобы узнать курс крипты/фиата и обновлять его (для каналов)",
+        "commands": [
+            {
+                "name": "coincn",
+                "inline": false,
+                "description": {
+                    "doc": "<название> выбрать крипту по умолчанию"
+                }
+            },
+            {
+                "name": "cnow",
+                "inline": false,
+                "description": {
+                    "doc": "<кол-во> <название монеты> смотреть курс"
+                }
+            },
+            {
+                "name": "cnstop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить обновления курса"
+                }
+            }
+        ],
+        "name": "CryptoNow",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/CryptoNow.py"
+    },
+    {
+        "author": "@ScreamDev",
+        "commands": [
+            {
+                "name": "makeplan",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет новый план"
+                }
+            },
+            {
+                "name": "show_plans",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает список планов"
+                }
+            },
+            {
+                "name": "cross_plan",
+                "inline": false,
+                "description": {
+                    "doc": "Вычеркивает план из списка"
+                }
+            },
+            {
+                "name": "del_plan",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет план из списка"
+                }
+            }
+        ],
+        "name": "PlanManager",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/Plan.py"
+    },
+    {
+        "description": "Downloader YT module",
+        "commands": [
+            {
+                "name": "dlyt",
+                "inline": false,
+                "description": {
+                    "doc": "YouTubeDownload"
+                }
+            }
+        ],
+        "name": "YTDL",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/YTDL.py"
+    },
+    {
         "author": "@kmodules",
         "banner": "https://i.ibb.co/7k4sJRR/5ad271ae-ec1b-4803-a714-5d6628ee8f50.jpg",
         "description": "Module for speech-to-text conversion",
