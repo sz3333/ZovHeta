@@ -51031,43 +51031,6 @@
     },
     {
         "author": "@xdesai & @devjmodules",
-        "description": "Модуль для пробива по IP.\nIP адреса отправяться в избранные после остановки Flask и ngrok.\nMade by Desai",
-        "commands": [
-            {
-                "name": "start",
-                "inline": false,
-                "description": {
-                    "doc": "Сгенерировать ссылку"
-                }
-            },
-            {
-                "name": "stop",
-                "inline": false,
-                "description": {
-                    "doc": "Остановка Flask и ngrok."
-                }
-            },
-            {
-                "name": "probiv",
-                "inline": false,
-                "description": {
-                    "doc": "Пробить по айпи. Использование .probiv <ip>"
-                }
-            },
-            {
-                "name": "ngrok",
-                "inline": false,
-                "description": {
-                    "doc": "Вставьте токен ngrok. Использование ngrok (token)."
-                }
-            }
-        ],
-        "name": "ProbivModule",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/ProbivModule.py"
-    },
-    {
-        "author": "@xdesai & @devjmodules",
         "description": "A module for parsing URLs.",
         "commands": [
             {
