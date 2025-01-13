@@ -51250,6 +51250,22 @@
     },
     {
         "author": "@xdesai & @devjmodules",
+        "description": "Показывает статистику твоего аккаунта",
+        "commands": [
+            {
+                "name": "stats",
+                "inline": false,
+                "description": {
+                    "doc": "Получить статистику"
+                }
+            }
+        ],
+        "name": "Stats",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/stats.py"
+    },
+    {
+        "author": "@xdesai & @devjmodules",
         "description": "Text to Speech Module",
         "commands": [
             {
