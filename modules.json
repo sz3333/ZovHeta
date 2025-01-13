@@ -17749,21 +17749,6 @@
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asidh.py"
     },
     {
-        "description": "Automatically comments under any channels you want",
-        "commands": [
-            {
-                "name": "comment",
-                "inline": false,
-                "description": {
-                    "doc": "Toggle Module <on/off>"
-                }
-            }
-        ],
-        "name": "AutoFheta",
-        "repo": "scream-dev/Modules",
-        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/AutoFheta.py"
-    },
-    {
         "author": "@ScreamDev",
         "description": "Модуль для авто замены ПОТУЖНО на жирный только если сообщение содержит 'потужно'. Переписанный модуль @Foxy437",
         "commands": [
