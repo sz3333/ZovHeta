@@ -17646,6 +17646,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/RandomTT.py"
     },
     {
+        "author": "@codermasochist",
         "description": "сохраняет текст в файл и читает содержимое файлов. by @codermasochist",
         "commands": [
             {
@@ -17668,6 +17669,7 @@
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsCode.py"
     },
     {
+        "author": "@codermasochist & @makimalove",
         "description": "кидает ахуенные эдиты. by @codermasochist",
         "commands": [
             {
@@ -17690,6 +17692,7 @@
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsEdit.py"
     },
     {
+        "author": "@codermasochist",
         "description": "качает видео с тт/инст & ютуб/пин через ботов",
         "commands": [
             {
@@ -17712,6 +17715,7 @@
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asdlbot.py"
     },
     {
+        "author": "@codermasochist",
         "description": "получает ID по реплаю. by @codermasochist",
         "commands": [
             {
@@ -17727,6 +17731,7 @@
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asid.py"
     },
     {
+        "author": "@codermasochist",
         "description": "Приветствие с ID. by @codermasochist",
         "commands": [
             {
@@ -18184,12 +18189,6 @@
         "name": "K:Weather",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kweather.py"
-    },
-    {
-        "description": "анти аюграм режим включен, бомбардировка. фьюю, сервер 1 отключен. начинаю вторую бомбардировку. фшуююю. отключен 2 сервер",
-        "name": "анти аюграм режим включен, бомбардировка. фьюю, сервер 1 отключен. начинаю вторую бомбардировку. фшуююю. отключен 2 сервер",
-        "repo": "TheKsenon/MyHikkaModules",
-        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/module.py"
     },
     {
         "description": "Обход в оффтопе хикки",
@@ -18939,6 +18938,22 @@
         "name": "Virus Total URL",
         "repo": "xuduk/modules",
         "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/VirusTotalUrl.py"
+    },
+    {
+        "author": "@xuduk",
+        "description": "Анимация кончи, используйте осторожно. Идея @aki_user.",
+        "commands": [
+            {
+                "name": "cum",
+                "inline": false,
+                "description": {
+                    "doc": "- проиграть анимацию кончи"
+                }
+            }
+        ],
+        "name": "Конча",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/cum.py"
     },
     {
         "description": "Модуль для рассылок",
@@ -23385,6 +23400,49 @@
         "name": "Xoxolski",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/xoxolski.py"
+    },
+    {
+        "author": "@azotikfantazysbop",
+        "commands": [
+            {
+                "name": "clearb",
+                "inline": false,
+                "description": {
+                    "doc": "Никого не трахать"
+                }
+            },
+            {
+                "name": "badd",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить фразу | .bulla <фраза>"
+                }
+            },
+            {
+                "name": "bullr",
+                "inline": false,
+                "description": {
+                    "doc": "Вкинуть рандомное оскорбление"
+                }
+            },
+            {
+                "name": "addb",
+                "inline": false,
+                "description": {
+                    "doc": "Буллить чела. <reply>"
+                }
+            },
+            {
+                "name": "removeb",
+                "inline": false,
+                "description": {
+                    "doc": "Не буллить спермасоса. <reply>"
+                }
+            }
+        ],
+        "name": "Унижатор Premium",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ynizatorprem.py"
     },
     {
         "commands": [
@@ -50594,7 +50652,7 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Кастомный пинг с поддержкой премиум эмодзи",
+        "description": "Кастомный пинг с поддержкой премиум эмодзи и медиа",
         "commands": [
             {
                 "name": "cping",
@@ -51635,7 +51693,7 @@
                 "name": "stats",
                 "inline": false,
                 "description": {
-                    "doc": "Показать статистику аккаунта"
+                    "doc": "Получить статистику"
                 }
             }
         ],
@@ -51658,6 +51716,23 @@
         "name": "TextToSpeech",
         "repo": "xdesai96/modules",
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/tts.py"
+    },
+    {
+        "author": "@xdesai && @devjmodules",
+        "commands": [
+            {
+                "name": "weather",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Посмотрите погоду в указанном городе.",
+                    "en_doc": "Check the weather in the specified city.",
+                    "doc": "Check the weather in the specified city."
+                }
+            }
+        ],
+        "name": "Weather",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/weather.py"
     },
     {
         "description": "Автофарм с помощью автоотправки ",
