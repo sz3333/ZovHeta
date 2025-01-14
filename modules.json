@@ -17664,7 +17664,7 @@
                 }
             }
         ],
-        "name": "As Code",
+        "name": "AsCode",
         "repo": "codermasochist/AsModules",
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsCode.py"
     },
@@ -17687,7 +17687,7 @@
                 }
             }
         ],
-        "name": "As Edit`s",
+        "name": "AsEdits",
         "repo": "codermasochist/AsModules",
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsEdit.py"
     },
@@ -17710,7 +17710,7 @@
                 }
             }
         ],
-        "name": "As dl bot",
+        "name": "Asdlbot",
         "repo": "codermasochist/AsModules",
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asdlbot.py"
     },
@@ -17726,7 +17726,7 @@
                 }
             }
         ],
-        "name": "As ID",
+        "name": "AsID",
         "repo": "codermasochist/AsModules",
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asid.py"
     },
@@ -21988,29 +21988,6 @@
         "name": "AI Hikka",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ai_hikka.py"
-    },
-    {
-        "author": "@codermasochist,@Yaukais",
-        "description": "Модуль кидает ахуенные эдиты. by @codermasochist,@Yaukais",
-        "commands": [
-            {
-                "name": "asedit",
-                "inline": false,
-                "description": {
-                    "doc": "кидает эдиты с канала разработчика. @makimalove"
-                }
-            },
-            {
-                "name": "edit",
-                "inline": false,
-                "description": {
-                    "doc": "отправляет случайное видео с указанного в кфг канала"
-                }
-            }
-        ],
-        "name": "AsEdits",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/asedits.py"
     },
     {
         "author": "@codrago_m, @ytkanelox",
