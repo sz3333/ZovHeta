@@ -11128,6 +11128,22 @@
     },
     {
         "author": "@codrago_m",
+        "description": "Tool for work with figlet",
+        "commands": [
+            {
+                "name": "figlet",
+                "inline": false,
+                "description": {
+                    "doc": "[args] | run figlet command"
+                }
+            }
+        ],
+        "name": "Figlet",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/figlet.py"
+    },
+    {
+        "author": "@codrago_m",
         "description": "Send to you random hentai media!",
         "commands": [
             {
@@ -11172,6 +11188,31 @@
     },
     {
         "author": "@codrago_m",
+        "description": "ID of all!",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Get User ID"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Get your ID"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Get chat ID"
+                }
+            }
+        ],
+        "name": "ID",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/id.py"
     },
