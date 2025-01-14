@@ -19250,29 +19250,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AniverseCard.py"
     },
     {
-        "author": "@codermasochist",
-        "description": "Модуль кидает ахуенные эдиты. by @codermasochist",
-        "commands": [
-            {
-                "name": "asedit",
-                "inline": false,
-                "description": {
-                    "doc": "кидает эдиты с канала разработчика. @makimalove"
-                }
-            },
-            {
-                "name": "edit",
-                "inline": false,
-                "description": {
-                    "doc": "отправляет случайное видео с указанного в кфг канала"
-                }
-            }
-        ],
-        "name": "AsEdits",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/AsEdits.py"
-    },
-    {
         "description": "Создает ASCII арт баннеры",
         "commands": [
             {
