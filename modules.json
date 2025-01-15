@@ -47430,6 +47430,22 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Надстрочка.py"
     },
     {
+        "author": "@yg_modules",
+        "description": "Auto switch from Hikka-TL to Telethon",
+        "commands": [
+            {
+                "name": "switch",
+                "inline": false,
+                "description": {
+                    "doc": "Automatically switch to Telethon"
+                }
+            }
+        ],
+        "name": "SwitchToTelethon",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/SwitchToTelethon.py"
+    },
+    {
         "author": "@yg_modules, @D4n13l3k00",
         "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
         "commands": [
