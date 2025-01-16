@@ -18148,7 +18148,8 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
     },
     {
-        "description": "Модуль для укорочения ссылок.",
+        "author": "@kmodules",
+        "description": "Модуль для сокращения ссылок.",
         "commands": [
             {
                 "name": "shortlink",
