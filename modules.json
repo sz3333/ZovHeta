@@ -50404,6 +50404,87 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/LavReboot.py"
     },
     {
+        "author": "@kotcheat & @devjmodules",
+        "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
+        "commands": [
+            {
+                "name": "gen",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Генерирует случайный пароль и логин",
+                    "doc": "Генерирует случайный пароль и логин"
+                }
+            },
+            {
+                "name": "save",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сохраняет последние сгенерированные данные",
+                    "doc": "Сохраняет последние сгенерированные данные"
+                }
+            },
+            {
+                "name": "show",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показывает сохраненные данные",
+                    "doc": "Показывает сохраненные данные"
+                }
+            },
+            {
+                "name": "gensave",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Генерирует новые данные и сохраняет их",
+                    "doc": "Генерирует новые  данные и сохраняет их"
+                }
+            },
+            {
+                "name": "clear",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очищает все сохраненные данные",
+                    "doc": "Очищает все сохраненные  данные"
+                }
+            },
+            {
+                "name": "note",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавляет примечание к сохраненным данным",
+                    "doc": "Добавляет примечание к сохраненным данным"
+                }
+            },
+            {
+                "name": "delcred",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удаляет сохраненные данные по номеру",
+                    "doc": "Удаляет сохраненные  данные по номеру"
+                }
+            },
+            {
+                "name": "createprivatechat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создает приватный чат",
+                    "doc": "Создает приватный чат"
+                }
+            },
+            {
+                "name": "saveprivatedata",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сохраняет данные в приватный чат по номеру",
+                    "doc": "Сохраняет данные с примечанием в приватный чат по номеру"
+                }
+            }
+        ],
+        "name": "PasswordManager",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PassManager.py"
+    },
+    {
         "author": "@devjmodules",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
