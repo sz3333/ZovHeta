@@ -18148,6 +18148,21 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenongpt.py"
     },
     {
+        "description": "Модуль для укорочения ссылок.",
+        "commands": [
+            {
+                "name": "shortlink",
+                "inline": false,
+                "description": {
+                    "doc": "Использование: .shortlink <url>"
+                }
+            }
+        ],
+        "name": "K:ShortLinker",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kshortlinker.py"
+    },
+    {
         "author": "@kmodules",
         "description": "Module for uploading files to various file hosting services",
         "commands": [
