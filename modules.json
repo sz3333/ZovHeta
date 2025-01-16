@@ -50353,7 +50353,7 @@
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/yandexrs.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Модуль для админов чатов\nMade by Desai",
         "commands": [
             {
@@ -50632,7 +50632,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/LavReboot.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Notifies you when you are mentioned in groups and channels",
         "commands": [
             {
@@ -50750,7 +50750,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PassManager.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Profile Photo Repeater Module",
         "commands": [
             {
@@ -50773,7 +50773,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PfpRepeater.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "A module for parsing URLs.",
         "commands": [
             {
@@ -50957,7 +50957,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/VoiceChat.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Пишет ASCII шрифтом",
         "commands": [
             {
@@ -50973,7 +50973,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ascii.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
@@ -51003,7 +51003,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/bfg.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Encryption Module",
         "commands": [
             {
@@ -51026,7 +51026,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/encmod.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Auto farm in iris bot",
         "commands": [
             {
@@ -51056,7 +51056,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/irisfarm.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Module to create a list of users.",
         "commands": [
             {
@@ -51072,7 +51072,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/memberslist.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
             {
@@ -51088,7 +51088,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/stats.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Text to Speech Module",
         "commands": [
             {
@@ -51121,7 +51121,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/voicechatinstaller.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "commands": [
             {
                 "name": "weather",
