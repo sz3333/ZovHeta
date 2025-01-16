@@ -50354,6 +50354,218 @@
     },
     {
         "author": "@devjmodules",
+        "description": "Модуль для админов чатов\nMade by Desai",
+        "commands": [
+            {
+                "name": "fullrights",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
+                }
+            },
+            {
+                "name": "promote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (префикс)] — Повышение пользователя до администратора."
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> — Снятие прав администратора с пользователя."
+                }
+            },
+            {
+                "name": "create",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
+                }
+            },
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Get User ID"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Get your ID"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Get chat ID"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет сообщение. Использование: ?del <reply>"
+                }
+            },
+            {
+                "name": "dgc",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет группу/канал по ссылке или ID. Использование: .dgc <ID или ссылка>"
+                }
+            },
+            {
+                "name": "join",
+                "inline": false,
+                "description": {
+                    "doc": "Вступает в группу или канал по ссылке."
+                }
+            },
+            {
+                "name": "whoisowner",
+                "inline": false,
+                "description": {
+                    "doc": "Определяет владельца группы или канала."
+                }
+            },
+            {
+                "name": "rename",
+                "inline": false,
+                "description": {
+                    "doc": ".rename <new_name> — Меняет название группы/канала на <new_name>"
+                }
+            },
+            {
+                "name": "members",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает кол-во участников канала/группы"
+                }
+            },
+            {
+                "name": "banall",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить всех участников в группе/канале"
+                }
+            },
+            {
+                "name": "chatinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .chatinfo <айди чата>; ничего"
+                }
+            },
+            {
+                "name": "own",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список чатов, каналов и групп где вы владелец."
+                }
+            },
+            {
+                "name": "unmute",
+                "inline": false,
+                "description": {
+                    "doc": "Размучивает пользователя. Использование: .unmute <id>"
+                }
+            },
+            {
+                "name": "mute",
+                "inline": false,
+                "description": {
+                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время (в минутах)."
+                }
+            },
+            {
+                "name": "kickall",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет всех пользователей из чата."
+                }
+            },
+            {
+                "name": "steal",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет людей и ботов с чата в чат. Если дописать аргумент nobot то без ботов"
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список участников."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех админов в чате (без учёта ботов)."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех ботов в чате."
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Разбанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "Кикнуть участника из чата. Использование: .kick <reply/id>"
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Пригласить пользователя/бота в чат. Использование: .invite <id/reply>."
+                }
+            },
+            {
+                "name": "flush",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет удалённые аккаунты из чата"
+                }
+            },
+            {
+                "name": "wipe",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя"
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ChatModule.py"
+    },
+    {
+        "author": "@devjmodules",
         "banner": "https://kappa.lol/nfF_A",
         "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
         "commands": [
@@ -50762,6 +50974,59 @@
     },
     {
         "author": "@devjmodules",
+        "description": "Автоматическая фарма в боте BFG.",
+        "commands": [
+            {
+                "name": "bfg",
+                "inline": false,
+                "description": {
+                    "doc": "Начать автоматическую фарму."
+                }
+            },
+            {
+                "name": "rstbfg",
+                "inline": false,
+                "description": {
+                    "doc": "Перезапустить автоматическую фарму."
+                }
+            },
+            {
+                "name": "bfgstop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить автоматическую фарму."
+                }
+            }
+        ],
+        "name": "BFG",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/bfg.py"
+    },
+    {
+        "author": "@devjmodules",
+        "description": "Encryption Module",
+        "commands": [
+            {
+                "name": "enc",
+                "inline": false,
+                "description": {
+                    "doc": "{text} - Encrypts the given text"
+                }
+            },
+            {
+                "name": "dec",
+                "inline": false,
+                "description": {
+                    "doc": "{encrypted text}, {key1}, {key2}, {indices}, {noise length} or <reply> - Decrypts the given text"
+                }
+            }
+        ],
+        "name": "EncDec",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/encmod.py"
+    },
+    {
+        "author": "@devjmodules",
         "description": "Auto farm in iris bot",
         "commands": [
             {
@@ -50824,6 +51089,22 @@
     },
     {
         "author": "@devjmodules",
+        "description": "Text to Speech Module",
+        "commands": [
+            {
+                "name": "speak",
+                "inline": false,
+                "description": {
+                    "doc": "Текст в речь. Использование: .speak <текст>"
+                }
+            }
+        ],
+        "name": "TextToSpeech",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/tts.py"
+    },
+    {
+        "author": "@devjmodules",
         "description": "Module for install HikkaVoicemode(voicechat)",
         "commands": [
             {
@@ -50838,6 +51119,23 @@
         "name": "VoiceChatInstall",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/voicechatinstaller.py"
+    },
+    {
+        "author": "@devjmodules",
+        "commands": [
+            {
+                "name": "weather",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Посмотрите погоду в указанном городе.",
+                    "en_doc": "Check the weather in the specified city.",
+                    "doc": "Check the weather in the specified city."
+                }
+            }
+        ],
+        "name": "Weather",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/weather.py"
     },
     {
         "author": "@HikkTutor",
