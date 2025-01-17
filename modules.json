@@ -51869,7 +51869,7 @@
         "install": "dlm https://raw.githubusercontent.com/K0valskii/MyModules/main/suggbotpanel.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Модуль для админов чатов\nMade by Desai",
         "commands": [
             {
