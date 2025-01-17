@@ -7473,8 +7473,8 @@
                 "name": "whisper",
                 "inline": false,
                 "description": {
-                    "ru_doc": "распознать речь из голосового/видео сообщения в реплае",
-                    "doc": "Transcribe speech from a voice/video message in reply"
+                    "ru_doc": "распознать речь из голосового/видео сообщения в реплае, используя openai api",
+                    "doc": "Transcribe speech from a voice/video message in reply using openai api"
                 }
             },
             {
@@ -7483,6 +7483,22 @@
                 "description": {
                     "ru_doc": "включить/выключить автораспознавание голосовых и видео сообщений в чате где введена команда",
                     "doc": "Enable/disable auto-speech recognition for voice and video messages"
+                }
+            },
+            {
+                "name": "hfwhisper",
+                "inline": false,
+                "description": {
+                    "ru_doc": "распознать речь из голосового/видео сообщения в реплае, используя hugging face api",
+                    "doc": "Transcribe speech from a voice/video message in reply using hugging face api"
+                }
+            },
+            {
+                "name": "hfguide",
+                "inline": false,
+                "description": {
+                    "ru_doc": "гайд как получить hugging face токен",
+                    "en_doc": "guide how to get hugging face token"
                 }
             }
         ],
@@ -10922,7 +10938,7 @@
                 }
             }
         ],
-        "name": "📷 VideoToMP3",
+        "name": "VideoToMP3",
         "repo": "kezuhiro-web/modules",
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/VideoToMP3.py"
     },
@@ -52353,6 +52369,23 @@
         "name": "Weather",
         "repo": "xdesai96/modules",
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/weather.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "gresti",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "grest",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Gresti",
+        "repo": "Enceth/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/gresti.py"
     },
     {
         "description": "Автофарм с помощью автоотправки ",
