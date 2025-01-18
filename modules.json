@@ -17735,7 +17735,7 @@
                 }
             },
             {
-                "name": "mdl",
+                "name": "ypdl",
                 "inline": false,
                 "description": {
                     "doc": "<ссылка> — скачать видео с ютуб/пинтерест"
