@@ -17682,23 +17682,23 @@
         "description": "сохраняет текст в файл и читает содержимое файлов. by @codermasochist",
         "commands": [
             {
-                "name": "asc",
+                "name": "sf",
                 "inline": false,
                 "description": {
                     "doc": "— сохраняет в файл."
                 }
             },
             {
-                "name": "readf",
+                "name": "rf",
                 "inline": false,
                 "description": {
                     "doc": "— достает содержимое файла."
                 }
             }
         ],
-        "name": "AsCode",
+        "name": "AsC",
         "repo": "codermasochist/AsModules",
-        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsCode.py"
+        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsC.py"
     },
     {
         "author": "@codermasochist & @makimalove",
