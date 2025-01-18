@@ -52126,6 +52126,47 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/CMDDJModule.py"
     },
     {
+        "author": "@xdesai",
+        "description": "Create inline buttons easily",
+        "commands": [
+            {
+                "name": "cinline",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinephoto",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на изображение] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Image link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinevideo",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на видео] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Video link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinegif",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на GIF] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[GIF link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            }
+        ],
+        "name": "InlineButtons",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/InlineButtons.py"
+    },
+    {
         "author": "@xdesai & @devjmodules",
         "description": "Notifies you when you are mentioned in groups and channels",
         "commands": [
