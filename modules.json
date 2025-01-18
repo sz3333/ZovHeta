@@ -10885,8 +10885,8 @@
                 "name": "rapic",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Получить рандомное изображение.",
-                    "doc": "Fetch random pic."
+                    "ru_doc": "- получить рандомную аниме-картинку 👀",
+                    "doc": "- fetch random anime-pic 👀"
                 }
             }
         ],
@@ -51149,7 +51149,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/tts.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Module for install HikkaVoicemode(voicechat)",
         "commands": [
             {
