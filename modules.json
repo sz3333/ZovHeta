@@ -18656,6 +18656,35 @@
         "install": "dlm https://raw.githubusercontent.com/sawwnapix/Hikka/main/randomcircle.py"
     },
     {
+        "description": "Модуль автоответчик.",
+        "commands": [
+            {
+                "name": "enable",
+                "inline": false,
+                "description": {
+                    "doc": "Включить автоответчик."
+                }
+            },
+            {
+                "name": "disable",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить автоответчик."
+                }
+            },
+            {
+                "name": "reset",
+                "inline": false,
+                "description": {
+                    "doc": "Сбросить список пользователей с сработавшим автоответчиком."
+                }
+            }
+        ],
+        "name": "AmeAutoReply",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/AmeAutoReply.py"
+    },
+    {
         "description": "Модуль для изменения текста загрузки хикки. Используйте осторожно!\nАккуратнее при использовании на Lavhost и подобных. Использовать крайне не рекомендуется. \nЕсли у вас форк, то, вероятно, все будет работать, но выдаст не критическую ошибку.",
         "commands": [
             {
