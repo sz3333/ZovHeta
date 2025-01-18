@@ -50871,6 +50871,24 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/URLModule.py"
     },
     {
+        "author": "@kshmods",
+        "description": "Upgraded neofetch",
+        "commands": [
+            {
+                "name": "neofetch",
+                "inline": false,
+                "description": {
+                    "en_doc": " - Run Neofetch cmd",
+                    "ru_doc": " - Запустить команду Neofetch",
+                    "doc": "Run Neofetch cmd"
+                }
+            }
+        ],
+        "name": "Upgraded Neofetch",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/UpgradedNeofetch.py"
+    },
+    {
         "author": "@devjmodules",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
