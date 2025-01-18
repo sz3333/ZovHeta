@@ -47256,6 +47256,22 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для фотографий с милыми собачками",
+        "commands": [
+            {
+                "name": "dogpic",
+                "inline": false,
+                "description": {
+                    "doc": "картинка с собачкой"
+                }
+            }
+        ],
+        "name": "DogPic",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/DogPic.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Длинные слова лучше переносить на другую строчку. Пример:\n`.figlet Hello\nWorld!`\nЕсли написать в одну строчку, то слово не уместится в одно сообщение ",
         "commands": [
             {
