@@ -52400,16 +52400,21 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/weather.py"
     },
     {
+        "description": "Дает возможность грести эти гребаные деньги лопатой",
         "commands": [
             {
                 "name": "gresti",
                 "inline": false,
-                "description": {}
+                "description": {
+                    "doc": "Включить/выключить модуль в чате."
+                }
             },
             {
                 "name": "grest",
                 "inline": false,
-                "description": {}
+                "description": {
+                    "doc": "Установить вероятность ответа (от 0 до 100)."
+                }
             }
         ],
         "name": "Gresti",
