@@ -14643,6 +14643,23 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "link",
+        "description": "Facts about numbers, dates, years, etc",
+        "commands": [
+            {
+                "name": "randomfact",
+                "inline": false,
+                "description": {
+                    "doc": "- [Type of random facts (year, trivia, math, date)] Random fact about something"
+                }
+            }
+        ],
+        "name": "INumber",
+        "repo": "MuRuLOSE/HikkaModulesRepo",
+        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/INumber.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Create inline buttons easily",
         "commands": [
             {
