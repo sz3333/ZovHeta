@@ -21321,6 +21321,11 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/OnlineStatus.py"
     },
     {
+        "author": "@xensidemod",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/PENIS.py"
+    },
+    {
         "description": "Permalink to user",
         "commands": [
             {
