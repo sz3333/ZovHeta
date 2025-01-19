@@ -52179,7 +52179,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/InlineButtons.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Notifies you when you are mentioned in groups and channels",
         "commands": [
             {
@@ -52238,7 +52238,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/PfpRepeater.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "A module for parsing URLs.",
         "commands": [
             {
@@ -52275,7 +52275,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/URLModule.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Пишет ASCII шрифтом",
         "commands": [
             {
@@ -52291,7 +52291,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/ascii.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
@@ -52344,7 +52344,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/encmod.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Auto farm in iris bot",
         "commands": [
             {
@@ -52374,7 +52374,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/irisfarm.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Module to create a list of users.",
         "commands": [
             {
@@ -52390,7 +52390,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/memberslist.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Module for sending private messages",
         "commands": [
             {
@@ -52420,7 +52420,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/send.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
             {
@@ -52436,7 +52436,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/stats.py"
     },
     {
-        "author": "@xdesai & @devjmodules",
+        "author": "@xdesai",
         "description": "Text to Speech Module",
         "commands": [
             {
@@ -52452,7 +52452,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/tts.py"
     },
     {
-        "author": "@xdesai && @devjmodules",
+        "author": "@xdesai",
         "commands": [
             {
                 "name": "weather",
