@@ -47337,6 +47337,22 @@
     },
     {
         "author": "@RUIS_VlP, @matubuntu",
+        "description": "Модуль для получения ветки",
+        "commands": [
+            {
+                "name": "threadlink",
+                "inline": false,
+                "description": {
+                    "doc": "Получает ссылку на ветку сообщений."
+                }
+            }
+        ],
+        "name": "Thread",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/ThreadLink.py"
+    },
+    {
+        "author": "@RUIS_VlP, @matubuntu",
         "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
         "commands": [
             {
