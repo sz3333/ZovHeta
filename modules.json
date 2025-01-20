@@ -304,6 +304,14 @@
                     "ru_doc": "Получите исчерпывающий ответ на свой вопрос",
                     "en_doc": "Get GigaResponse to your question"
                 }
+            },
+            {
+                "name": "gigamodel",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получите исчерпывающий ответ на свой вопрос",
+                    "en_doc": "Get GigaResponse to your question"
+                }
             }
         ],
         "name": "GigaChat",
@@ -467,23 +475,6 @@
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/KBSwapper.py"
     },
     {
-        "author": "@nervousmods, @hikka_mods",
-        "description": "Module for search cutie kitties from @catslovemeow",
-        "commands": [
-            {
-                "name": "kit",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Чтобы завести милую кошечку",
-                    "en_doc": "To get a cute kitty"
-                }
-            }
-        ],
-        "name": "Kittens",
-        "repo": "C0dwiz/H.Modules",
-        "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/Kittens.py"
-    },
-    {
         "author": "@hikka_mods",
         "description": "Random memes",
         "commands": [
@@ -612,7 +603,7 @@
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/TelegramStatusCodes.py"
     },
     {
-        "author": "@nervousmods, @hikka_mods",
+        "author": "@hikka_mods",
         "description": "Module for convertation your text to file",
         "commands": [
             {
@@ -647,14 +638,14 @@
     },
     {
         "author": "@hikka_mods",
-        "description": "A module for downloading videos from TikTok without a watermark",
+        "description": "TikTok Downloader module",
         "commands": [
             {
-                "name": "ttdl",
+                "name": "tt",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Скачивает видео с TikTok по ссылке",
-                    "en_doc": "Downloads videos from TikTok via the link"
+                    "ru_doc": "Скачать видео или фото с TikTok",
+                    "en_doc": "Download videos or photos from TikTok"
                 }
             }
         ],
@@ -914,23 +905,11 @@
     },
     {
         "author": "@hikka_mods",
-        "description": "Many interesting facts about numbers. idea @FurryMods",
-        "commands": [
-            {
-                "name": "num",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Дает интересный факт про число или дату\nНапример: .num 10 math или .num 01.01 date",
-                    "en_doc": "Gives an interesting fact about a number or date\nexample: .num 10 math or .num 01.01 date"
-                }
-            }
-        ],
-        "name": "NumbersAPI",
         "repo": "C0dwiz/H.Modules",
         "install": "dlm https://raw.githubusercontent.com/C0dwiz/H.Modules/main/numbersapi.py"
     },
     {
-        "author": "@nervousmods, @hikka_mods",
+        "author": "@hikka_mods",
         "description": "This module can change your Telegram profile.",
         "commands": [
             {
