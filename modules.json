@@ -18339,6 +18339,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Русская рулетка. Немного безопаснее.",
+        "commands": [
+            {
+                "name": "roulette",
+                "inline": false,
+                "description": {
+                    "doc": "Начать игру в русскую рулетку"
+                }
+            }
+        ],
+        "name": "RussianRoulette",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/russianroulette.py"
+    },
+    {
+        "author": "@kmodules",
         "description": "Create article using telegra.ph",
         "commands": [
             {
