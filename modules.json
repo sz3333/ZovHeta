@@ -21322,6 +21322,8 @@
     },
     {
         "author": "@xensidemod",
+        "description": "Just Penis",
+        "name": "Penis",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/PENIS.py"
     },
