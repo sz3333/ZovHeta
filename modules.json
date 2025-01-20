@@ -22576,6 +22576,27 @@
     {
         "commands": [
             {
+                "name": "ii",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить режим дурачка в чате"
+                }
+            },
+            {
+                "name": "randomi",
+                "inline": false,
+                "description": {
+                    "doc": "Устанвоить шанс 1 к N.\n0 - всегда отвечать.      (https://t.me/+rEud5y3FfxA3Mzli)"
+                }
+            }
+        ],
+        "name": "iibot",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/libot.py"
+    },
+    {
+        "commands": [
+            {
                 "name": "atak",
                 "inline": false,
                 "description": {
