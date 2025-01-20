@@ -50691,7 +50691,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "description": "Restart your LavHost without using a bot",
         "commands": [
             {
@@ -50904,7 +50904,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/UpgradedNeofetch.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
         "commands": [
@@ -50924,7 +50924,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/Uploader.py"
     },
     {
-        "author": "@frost_shard & @devjmodules",
+        "author": "@kshmods",
         "banner": "https://mods.hikariatama.ru/badges/voicechat.jpg",
         "pic": "https://static.dan.tatar/voicechat_icon.png",
         "commands": [
