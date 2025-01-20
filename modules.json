@@ -50672,7 +50672,7 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ChatModule.py"
     },
     {
-        "author": "@devjmodules",
+        "author": "@kshmods",
         "banner": "https://kappa.lol/nfF_A",
         "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
         "commands": [
