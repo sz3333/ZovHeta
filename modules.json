@@ -7494,6 +7494,14 @@
                 }
             },
             {
+                "name": "hfautowhspr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "включить/выключить автораспознавание через Hugging Face API в текущем чате",
+                    "doc": "Enable/disable auto-speech recognition using Hugging Face API"
+                }
+            },
+            {
                 "name": "hfguide",
                 "inline": false,
                 "description": {
