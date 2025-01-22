@@ -47556,6 +47556,22 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/ttf.py"
     },
     {
+        "author": "@RUIS_VlP",
+        "description": "Помогает скачивать видео с YouTube",
+        "commands": [
+            {
+                "name": "dlvideo",
+                "inline": false,
+                "description": {
+                    "doc": "<link> - скачивает видео с ютуба"
+                }
+            }
+        ],
+        "name": "YouTube-DLD",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/youtube-loader.py"
+    },
+    {
         "description": "Делает надстрочный текст",
         "commands": [
             {
