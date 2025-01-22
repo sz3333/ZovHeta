@@ -166,7 +166,10 @@ class FHeta(loader.Module):
             try:
                 repo_url = f"https://github.com/{mod['repo']}"
                 install = mod['install']
-                desc = utils.escape_html(mod["description"] if "description" in mod else "")
+                if "description" in mod and mod["description"]:
+                    desc = utils.escape_html(mod["description"])
+                else:
+                    desc = ""
                 author = utils.escape_html(mod.get("author", "???"))
                 mod_name = utils.escape_html(mod["name"].replace(".py", ""))
                 mod_key = f"{mod_name.lower()}_{author}"
