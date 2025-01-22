@@ -41,9 +41,9 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>No modules found.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Error.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
         "sub": "👍 Rating submitted!",
@@ -56,7 +56,7 @@ class FHeta(loader.Module):
         "reqj": "This is the channel with all updates in FHeta!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
-        "closest_matchh": "<code>{module_name}</code> by {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "<code>{module_name}</code> <b>by</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     strings_ru = {
@@ -66,9 +66,9 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модули не найдены.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команды:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Описание:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code><b> от</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Ошибка.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> <b>от</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Инлайн команды:</b>\n{inline_list}",
         "language": "ru_doc",
         "sub": "👍 Оценка отправлена!",
@@ -81,7 +81,7 @@ class FHeta(loader.Module):
         "reqj": "Это канал со всеми обновлениями в FHeta!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
-        "closest_matchh": "<code>{module_name}</code> от {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "<code>{module_name}</code><b> от </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     strings_ua = {
@@ -91,9 +91,9 @@ class FHeta(loader.Module):
         "no_modules_found": "<emoji document_id=5348277823133999513>❌</emoji> <b>Модулі не знайдені.</b>",
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Команди:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Опис:</b> {description}",
-        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат {index} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> <b>від</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Помилка.</b>",
-        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> <b>від </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
         "sub": "👍 Оцінка відправлена!",
@@ -106,7 +106,7 @@ class FHeta(loader.Module):
         "reqj": "Це канал з усіма оновленнями в FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
-        "closest_match": "<code>{module_name}</code> від {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_match": "<code>{module_name}</code> <b>від </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     async def client_ready(self):
