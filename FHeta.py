@@ -53,7 +53,9 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
-        "reqj": "This is the channel with all updates in FHeta!"
+        "reqj": "This is the channel with all updates in FHeta!",
+        "noo_query": "Name, command, description, author.",
+        "no_modules_foound": "Try another request."
     }
 
     strings_ru = {
@@ -75,7 +77,9 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
-        "reqj": "Это канал со всеми обновлениями в FHeta!"
+        "reqj": "Это канал со всеми обновлениями в FHeta!",
+        "noo_query": "Название, команда, описание, автор.",
+        "no_modules_foound": "Попробуйте другой запрос."
     }
 
     strings_ua = {
@@ -97,7 +101,9 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
-        "reqj": "Це канал з усіма оновленнями в FHeta!"
+        "reqj": "Це канал з усіма оновленнями в FHeta!",
+        "noo_query": "Назва, команда, опис, автор.",
+        "no_modules_foound": "Спробуйте інший запит."
     }
 
     async def client_ready(self):
