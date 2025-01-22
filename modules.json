@@ -18172,7 +18172,7 @@
                 "name": "setmodel",
                 "inline": false,
                 "description": {
-                    "doc": "Поставить default модель."
+                    "doc": "Set default AI model for text generation"
                 }
             },
             {
