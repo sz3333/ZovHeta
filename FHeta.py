@@ -126,7 +126,7 @@ class FHeta(loader.Module):
                 self.db.set("token_fheta_902", "token", response.text.strip())
         except Exception as e:
             pass
-
+            
     @loader.inline_handler(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fheta(self, query):
         '''(query) - search modules.'''
@@ -138,8 +138,8 @@ class FHeta(loader.Module):
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
             }
 
-        modules = await self.search_modules(query.args)
-        if not modules:
+        mods = await self.search_moduless(query.args)
+        if not mods:
             return {
                 "title": utils.remove_html(self.strings["no_modules_found"]),
                 "description": utils.remove_html(self.strings["no_modules_foound"]),
@@ -147,116 +147,85 @@ class FHeta(loader.Module):
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
             }
 
-        results = []
-        seen_modules = set()
-        current_language = self.strings.get("language", "doc")
-    
-        for module in modules[:10]:
+        res = []
+        seen = set()
+        lang = self.strings.get("language", "doc")
+
+        async def fetch_thumb(thumb):
+            if thumb:
+                try:
+                    async with aiohttp.ClientSession() as session:
+                        async with session.get(thumb, timeout=1) as resp:
+                            if resp.status == 200:
+                                return str(resp.url)
+                except:
+                    return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+            return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+
+        async def proc_mod(mod):
             try:
-                repo_url = f"https://github.com/{module['repo']}"
-                install = module['install']
+                repo_url = f"https://github.com/{mod['repo']}"
+                install = mod['install']
+                desc = utils.escape_html(mod["description"] if "description" in mod else "")
+                author = utils.escape_html(mod.get("author", "???"))
+                mod_name = utils.escape_html(mod["name"].replace(".py", ""))
+                mod_key = f"{mod_name.lower()}_{author}"
 
-                descriptioni = ""
-                if "description" in module and module["description"]:
-                    descriptioni = utils.escape_html(module["description"])
+                if mod_key in seen:
+                    return None
+                seen.add(mod_key)
 
-                description_section = ""
-                if "description" in module and module["description"]:
-                    description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
-
-                author_info = utils.escape_html(module.get("author", "???"))
-                module_name = utils.escape_html(module["name"].replace(".py", ""))
-                module_key = f"{module_name.lower()}_{author_info}"
-
-                if module_key in seen_modules:
-                    continue
-                seen_modules.add(module_key)
-
-                normal_commands = []
-                inline_commands = []
-
-                for cmd in module.get("commands", []):
-                    description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get('doc'))
+                cmds, inline_cmds = [], []
+                for cmd in mod.get("commands", []):
+                    cmd_desc = cmd.get('description', {}).get(lang, cmd.get('description', {}).get('doc'))
                     if cmd.get("inline", False):
-                        inline_commands.append(
-                            f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
-                        )
+                        inline_cmds.append(f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(cmd_desc)}")
                     else:
-                        normal_commands.append(
-                            f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
-                        )
+                        cmds.append(f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(cmd_desc)}")
 
-                commands_section = (
-                    self.strings["commands"].format(
-                        commands_list="\n".join(normal_commands)
-                    )
-                    if normal_commands
-                    else ""
-                )
-                inline_commands_section = (
-                    self.strings["inline_commandss"].format(
-                        inline_list="\n".join(inline_commands)
-                    )
-                    if inline_commands
-                    else ""
-                )
+                cmd_sec = self.strings["commands"].format(commands_list="\n".join(cmds)) if cmds else ""
+                inline_cmd_sec = self.strings["inline_commandss"].format(inline_list="\n".join(inline_cmds)) if inline_cmds else ""
 
-                result_message = self.strings["closest_matchh"].format(
-                    module_name=module_name,
-                    author=author_info,
+                msg = self.strings["closest_matchh"].format(
+                    module_name=mod_name,
+                    author=author,
                     repo_url=repo_url,
                     install_command=f"{self.get_prefix()}{install}",
-                    description=description_section,
-                    commands=commands_section + inline_commands_section,
+                    description=desc,
+                    commands=cmd_sec + inline_cmd_sec,
                 )
 
-                thumb_p = module.get("pic") 
-                
-                if thumb_p == None:
-                	thumb_p = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
-                	
-                if thumb_p:
-                    try:
-                        response = requests.get(thumb_p, timeout=1)
-                        response.raise_for_status()
-                    except requests.exceptions.RequestException:
-                        thumb_p = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
-                        
-                stats = await self.get_stats(module_name)
-                if stats is None:
-                    stats = {"likes": 0, "dislikes": 0}
-
-                likes_count = stats['likes']     
-                dislikes_count = stats['dislikes']
-                buttons = [              
-                        [{              
-                                "text": f"👍 {likes_count}",              
-                                "callback": self.like_callback,              
-                                "args": (module_name, "like")              
-                        }, {              
-                                "text": f"👎 {dislikes_count}",              
-                                "callback": self.dislike_callback,              
-                                "args": (module_name, "dislike")              
-                        }]              
-                ]              
-                if len(result_message) <= 1020:
-                    results.append(
-                        {
-                            "title": module_name,
-                            "description": descriptioni,
-                            "photo": "https://i.imgur.com/hZIyI7v.jpeg",
-                            "thumb": thumb_p,
-                            "message": result_message,
-                            "reply_markup": buttons,
-                        }
-                    )
-                else:
-                    continue
-
+                thumb = await fetch_thumb(mod.get("pic"))
+                stats = await self.get_stats(mod_name)
+                stats = stats or {"likes": 0, "dislikes": 0}
+                likes, dislikes = stats['likes'], stats['dislikes']
+                buttons = [
+                    [{
+                        "text": f"👍 {likes}",
+                        "callback": self.like_callback,
+                        "args": (mod_name, "like")
+                    }, {
+                        "text": f"👎 {dislikes}",
+                        "callback": self.dislike_callback,
+                        "args": (mod_name, "dislike")
+                    }]
+                ]
+                if len(msg) <= 1020:
+                    return {
+                        "title": mod_name,
+                        "description": desc,
+                        "photo": "https://i.imgur.com/hZIyI7v.jpeg",
+                        "thumb": str(thumb),
+                        "message": msg,
+                        "reply_markup": buttons,
+                    }
+                return None
             except Exception:
-                continue
+                return None
 
-        return results
+        tasks = [proc_mod(mod) for mod in mods[:50]]
+        res = await asyncio.gather(*tasks)
+        return [r for r in res if r]
         
     @loader.command(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fhetacmd(self, message):
