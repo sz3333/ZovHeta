@@ -15034,6 +15034,30 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
+        "description": "Module for interaction with ToTHosting API (obviously) ",
+        "commands": [
+            {
+                "name": "tinfo",
+                "inline": false,
+                "description": {
+                    "doc": "[id] - Get info about your userbot"
+                }
+            },
+            {
+                "name": "tlogs",
+                "inline": false,
+                "description": {
+                    "doc": "[id] - Get logs of your userbot"
+                }
+            }
+        ],
+        "name": "ToTHosting",
+        "repo": "MuRuLOSE/HikkaModulesRepo",
+        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/ToTHosting.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVT.jpg",
         "description": "Module for VK Music (Remember, if your server is outside of Russia, errors can happen because VK does not want to give out track information due to restrictions)",
         "commands": [
@@ -18058,6 +18082,22 @@
         "name": "GitHubInfo",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/github.py"
+    },
+    {
+        "author": "@kmodules",
+        "description": "Получить информацию об аккаунте, дц, регистрации(нестабильно). \n\nФункционал как у AyuGram.",
+        "commands": [
+            {
+                "name": "aboutacc",
+                "inline": false,
+                "description": {
+                    "doc": "Получить информацию об аккаунте | .aboutacc <username/reply>"
+                }
+            }
+        ],
+        "name": "K:AccountData",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/kaccountdata.py"
     },
     {
         "author": "@kmodules",
