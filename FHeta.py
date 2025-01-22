@@ -165,11 +165,10 @@ class FHeta(loader.Module):
         async def proc_mod(mod):
             try:
                 repo_url = f"https://github.com/{mod['repo']}"
-                install = mod['install']
-                desc = utils.escape_html(mod["description"] if "description" in mod else "")
-                description_section = ""
+                install = mod['install']        
+                desc = ""
                 if "description" in mod and mod["description"]:
-                    description_section = self.strings["description"].format(description=utils.escape_html(mod["description"]))
+                    desc = self.strings["description"].format(description=utils.escape_html(mod["description"]))
                 author = utils.escape_html(mod.get("author", "???"))
                 mod_name = utils.escape_html(mod["name"].replace(".py", ""))
                 mod_key = f"{mod_name.lower()}_{author}"
@@ -194,7 +193,7 @@ class FHeta(loader.Module):
                     author=author,
                     repo_url=repo_url,
                     install_command=f"{self.get_prefix()}{install}",
-                    description=description_section,
+                    description=desc,
                     commands=cmd_sec + inline_cmd_sec,
                 )
 
