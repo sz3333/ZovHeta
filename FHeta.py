@@ -142,9 +142,9 @@ class FHeta(loader.Module):
         modules = await self.search_modules(query.args)
         if not modules:
             return {
-                "title": utils.remove_html(self.strings["no_results"]),
+                "title": utils.remove_html(self.strings["no_modules_found"]),
                 "description": utils.remove_html(self.strings["no_modules_foound"]),
-                "message": self.strings["no_results"],
+                "message": self.strings["no_modules_found"],
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
             }
 
