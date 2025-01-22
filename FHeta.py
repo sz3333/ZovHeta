@@ -149,7 +149,7 @@ class FHeta(loader.Module):
 
         results = []
         seen_modules = set()
-        for module in modules[:50]:
+        for module in modules[:25]:
             try:
                 repo_url = f"https://github.com/{module['repo']}"
                 install = module['install']
