@@ -18165,41 +18165,49 @@
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/ksenonafk.py"
     },
     {
+        "author": "@kmodules",
         "description": "KsenonGPT module for text and image generation using KsenonAPI",
         "commands": [
+            {
+                "name": "setmodel",
+                "inline": false,
+                "description": {
+                    "doc": "Поставить default модель."
+                }
+            },
             {
                 "name": "gentext",
                 "inline": false,
                 "description": {
-                    "doc": "Генерировать текст - .gentext <prompt> <model>"
+                    "doc": "Generate text - .gentext <prompt>"
                 }
             },
             {
                 "name": "genimg",
                 "inline": false,
                 "description": {
-                    "doc": "Генерировать изображение - .genimg <prompt> <model>"
+                    "doc": "Generate image - .genimg <prompt> <model>"
                 }
             },
             {
                 "name": "txtmodels",
                 "inline": false,
                 "description": {
-                    "doc": "Лист текстовых моделей"
+                    "doc": "List of text models"
                 }
             },
             {
                 "name": "imgmodels",
                 "inline": false,
                 "description": {
-                    "doc": "Лист моделей для изображений"
+                    "doc": "List of image models"
                 }
             },
             {
                 "name": "kupdate",
                 "inline": false,
                 "description": {
-                    "doc": "Проверить обновления"
+                    "doc": "Check for updates"
                 }
             }
         ],
