@@ -52559,6 +52559,22 @@
     },
     {
         "author": "@xdesai",
+        "description": "Модуль для преобразования изображения в GIF",
+        "commands": [
+            {
+                "name": "p2g",
+                "inline": false,
+                "description": {
+                    "doc": "Creates a GIF from an image. Usage: .gif (response to the image)"
+                }
+            }
+        ],
+        "name": "P2G",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/p2g.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Module for sending private messages",
         "commands": [
             {
