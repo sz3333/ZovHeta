@@ -52710,6 +52710,21 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/lolicom.py"
     },
     {
+        "description": "Модуль для генерации ссыллки track24",
+        "commands": [
+            {
+                "name": "ssearch",
+                "inline": false,
+                "description": {
+                    "doc": "Генерация поисковой ссылки.\nИспользование: .ssearch <текст для поиска>"
+                }
+            }
+        ],
+        "name": "Search for U",
+        "repo": "Enceth/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/search24.py"
+    },
+    {
         "author": "@Enceth",
         "description": "Модуль для подсчёта сообщений пользователя в виде столбчатой диаграммы",
         "commands": [
