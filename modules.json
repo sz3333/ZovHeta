@@ -52129,21 +52129,21 @@
                 "name": "userid",
                 "inline": false,
                 "description": {
-                    "doc": "[reply] | Get User ID"
+                    "doc": "[reply] | Получить айди пользователя"
                 }
             },
             {
                 "name": "id",
                 "inline": false,
                 "description": {
-                    "doc": "| Get your ID"
+                    "doc": "| Получить свой айди"
                 }
             },
             {
                 "name": "chatid",
                 "inline": false,
                 "description": {
-                    "doc": "| Get chat ID"
+                    "doc": "| Получить айди чата"
                 }
             },
             {
