@@ -10936,8 +10936,8 @@
                 "name": "vtt",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Распознает текст из голосового или видеосообщения.",
-                    "doc": "Recognizes text from voice or video messages."
+                    "ru_doc": "- распознает текст из голосового или видеосообщения.",
+                    "doc": "- recognizes text from voice or video messages."
                 }
             }
         ],
