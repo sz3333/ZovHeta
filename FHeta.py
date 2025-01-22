@@ -56,7 +56,7 @@ class FHeta(loader.Module):
         "reqj": "This is the channel with all updates in FHeta!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
-        "closest_matchh": "<code>{module_name}</code> <b>by</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> {author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     strings_ru = {
@@ -81,7 +81,7 @@ class FHeta(loader.Module):
         "reqj": "Это канал со всеми обновлениями в FHeta!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
-        "closest_matchh": "<code>{module_name}</code><b> от </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "📑 <code>{module_name}</code><b> от </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     strings_ua = {
@@ -106,7 +106,7 @@ class FHeta(loader.Module):
         "reqj": "Це канал з усіма оновленнями в FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
-        "closest_match": "<code>{module_name}</code> <b>від </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_match": "📑 <code>{module_name}</code> <b>від </b>{author}\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
     }
 
     async def client_ready(self):
