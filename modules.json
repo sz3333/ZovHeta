@@ -52580,6 +52580,7 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/weather.py"
     },
     {
+        "author": "@Enceth",
         "description": "Дает возможность грести эти гребаные деньги лопатой",
         "commands": [
             {
@@ -52602,6 +52603,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/gresti.py"
     },
     {
+        "author": "@Enceth",
         "description": "Автофарм Iris с помощью автоотправки ",
         "commands": [
             {
@@ -52617,6 +52619,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/irisautofarm.py"
     },
     {
+        "author": "@Enceth",
         "description": "Абсолютно рандомные лоли комиксы ",
         "commands": [
             {
@@ -52634,6 +52637,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/lolicom.py"
     },
     {
+        "author": "@Enceth",
         "description": "Модуль для подсчёта сообщений пользователя в виде столбчатой диаграммы",
         "commands": [
             {
