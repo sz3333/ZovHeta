@@ -215,7 +215,7 @@ class FHeta(loader.Module):
                 	
                 if thumb_p:
                     try:
-                        response = requests.get(thumb_p, timeout=5)
+                        response = requests.get(thumb_p, timeout=1)
                         response.raise_for_status()
                     except requests.exceptions.RequestException:
                         thumb_p = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
