@@ -1,6 +1,6 @@
 __version__ = (9, 0, 2)
 # meta developer: @Foxy437
-# change-log: venom
+# change-log: INLINE SEARCH 🔥🔥🔥🔥🔥🔥💥💥💥🤯💥🤯💥💥🤯💥🤙👍👍
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -123,7 +123,136 @@ class FHeta(loader.Module):
                 self.db.set("token_fheta_902", "token", response.text.strip())
         except Exception as e:
             pass
-            
+
+
+    @loader.inline_handler(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
+    async def fheta(self, query):
+        '''(query) - search modules.'''
+        if not query.args:
+            return {
+                "title": utils.remove_html(self.strings["no_query"]),
+                "description": utils.remove_html(self.strings["noo_query"]),
+                "message": self.strings["no_query"],
+                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
+            }
+
+        modules = await self.search_modules(query.args)
+        if not modules:
+            return {
+                "title": utils.remove_html(self.strings["no_results"]),
+                "description": utils.remove_html(self.strings["no_modules_foound"]),
+                "message": self.strings["no_results"],
+                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
+            }
+
+        results = []
+        seen_modules = set()
+        for module in modules[:50]:
+            try:
+                repo_url = f"https://github.com/{module['repo']}"
+                install = module['install']
+
+                descriptioni = ""
+                if "description" in module and module["description"]:
+                    descriptioni = utils.escape_html(module["description"])
+
+                description_section = ""
+                if "description" in module and module["description"]:
+                    description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
+
+                author_info = utils.escape_html(module.get("author", "???"))
+                module_name = utils.escape_html(module["name"].replace(".py", ""))
+                module_key = f"{module_name.lower()}_{author_info}"
+
+                if module_key in seen_modules:
+                    continue
+                seen_modules.add(module_key)
+
+                normal_commands = []
+                inline_commands = []
+
+                for cmd in module.get("commands", []):
+                    description = cmd.get("description", {}).get("doc", "")
+                    if cmd.get("inline", False):
+                        inline_commands.append(
+                            f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
+                        )
+                    else:
+                        normal_commands.append(
+                            f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
+                        )
+
+                commands_section = (
+                    self.strings["commands"].format(
+                        commands_list="\n".join(normal_commands)
+                    )
+                    if normal_commands
+                    else ""
+                )
+                inline_commands_section = (
+                    self.strings["inline_commandss"].format(
+                        inline_list="\n".join(inline_commands)
+                    )
+                    if inline_commands
+                    else ""
+                )
+
+                result_message = self.strings["closest_matchh"].format(
+                    module_name=module_name,
+                    author=author_info,
+                    repo_url=repo_url,
+                    install_command=f"{self.get_prefix()}{install}",
+                    description=description_section,
+                    commands=commands_section + inline_commands_section,
+                )
+
+                thumb_p = module.get("pic") 
+                
+                if thumb_p == None:
+                	thumb_p = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+                	
+                if thumb_p:
+                    try:
+                        response = requests.get(thumb_p, timeout=5)
+                        response.raise_for_status()
+                    except requests.exceptions.RequestException:
+                        thumb_p = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+                        
+                stats = await self.get_stats(module_name)
+                if stats is None:
+                    stats = {"likes": 0, "dislikes": 0}
+
+                likes_count = stats['likes']     
+                dislikes_count = stats['dislikes']
+                buttons = [              
+                        [{              
+                                "text": f"🖤 {likes_count}",              
+                                "callback": self.like_callback,              
+                                "args": (module_name, "like")              
+                        }, {              
+                                "text": f"🕳️ {dislikes_count}",              
+                                "callback": self.dislike_callback,              
+                                "args": (module_name, "dislike")              
+                        }]              
+                ]              
+                if len(result_message) <= 1020:
+                    results.append(
+                        {
+                            "title": module_name,
+                            "description": descriptioni,
+                            "thumb": thumb_p,
+                            "message": result_message,
+                            "reply_markup": buttons,
+                        }
+                    )
+                else:
+                    continue
+
+            except Exception:
+                continue
+
+        return results
+        
     @loader.command(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fhetacmd(self, message):
         '''(query) - search modules.'''
