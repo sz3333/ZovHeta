@@ -127,7 +127,6 @@ class FHeta(loader.Module):
         except Exception as e:
             pass
 
-
     @loader.inline_handler(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fheta(self, query):
         '''(query) - search modules.'''
@@ -145,7 +144,7 @@ class FHeta(loader.Module):
                 "title": utils.remove_html(self.strings["no_modules_found"]),
                 "description": utils.remove_html(self.strings["no_modules_foound"]),
                 "message": self.strings["no_modules_found"],
-                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
+                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
             }
 
         results = []
