@@ -550,8 +550,52 @@ class FHeta(loader.Module):
                         if closest_matches:
                             found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
-                    return found_modules                       
+                    return found_modules 
+                    
+    async def search_moduless(self, query: str):
+        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url) as resp:
+                if resp.status == 200:
+                    data = await resp.text()
+                    mods = json.loads(data)
 
+                    found = []
+
+                    async def search_field(field: str):
+                        return [
+                            mod for mod in mods
+                            if isinstance(mod.get(field), str) and query.lower() in mod.get(field, "").lower()
+                        ]
+
+                    async def search_cmds():
+                        return [
+                            mod for mod in mods
+                            if any(query.lower() in cmd.get("name", "").lower() for cmd in mod.get("commands", []))
+                        ]
+
+                    tasks = [
+                        search_field("name"),
+                        search_field("author"),
+                        search_field("description"),
+                        search_cmds()
+                    ]
+
+                    res = await asyncio.gather(*tasks)
+                    found = [mod for result in res for mod in result]
+
+                    if len(found) < 50:
+                        names = {mod['name'] for mod in mods if 'name' in mod}
+                        close_matches = difflib.get_close_matches(query, list(names), n=50, cutoff=0.5)
+                        for match in close_matches:
+                            mod = next((m for m in mods if m.get('name') == match), None)
+                            if mod and mod not in found:
+                                found.append(mod)
+                                if len(found) >= 50:
+                                    break
+
+                    return found[:50]
+                    
     async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
