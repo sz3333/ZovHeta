@@ -174,7 +174,7 @@ class FHeta(loader.Module):
                 inline_commands = []
 
                 for cmd in module.get("commands", []):
-                    description = cmd.get("description", {}).get("doc", "")
+                    description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))  
                     if cmd.get("inline", False):
                         inline_commands.append(
                             f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
