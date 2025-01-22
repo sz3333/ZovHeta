@@ -244,6 +244,7 @@ class FHeta(loader.Module):
                         {
                             "title": module_name,
                             "description": descriptioni,
+                            "photo": "https://i.imgur.com/hZIyI7v.jpeg",
                             "thumb": thumb_p,
                             "message": result_message,
                             "reply_markup": buttons,
