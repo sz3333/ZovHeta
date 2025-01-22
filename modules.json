@@ -18416,6 +18416,15 @@
         "commands": [
             {
                 "name": "fheta",
+                "inline": true,
+                "description": {
+                    "ru_doc": "(запрос) - искать модули.",
+                    "ua_doc": "(запит) - шукати модулі.",
+                    "doc": "(query) - search modules."
+                }
+            },
+            {
+                "name": "fheta",
                 "inline": false,
                 "description": {
                     "ru_doc": "(запрос) - искать модули.",
