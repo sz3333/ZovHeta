@@ -149,6 +149,8 @@ class FHeta(loader.Module):
 
         results = []
         seen_modules = set()
+        current_language = self.strings.get("language", "doc")
+    
         for module in modules[:10]:
             try:
                 repo_url = f"https://github.com/{module['repo']}"
