@@ -52586,7 +52586,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/gresti.py"
     },
     {
-        "description": "Автофарм с помощью автоотправки ",
+        "description": "Автофарм Iris с помощью автоотправки ",
         "commands": [
             {
                 "name": "autofarm",
@@ -52601,7 +52601,7 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/irisautofarm.py"
     },
     {
-        "description": "Рандомные лоли комиксы (даже внутри)",
+        "description": "Абсолютно рандомные лоли комиксы ",
         "commands": [
             {
                 "name": "lolicom",
