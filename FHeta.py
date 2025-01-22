@@ -228,11 +228,11 @@ class FHeta(loader.Module):
                 dislikes_count = stats['dislikes']
                 buttons = [              
                         [{              
-                                "text": f"🖤 {likes_count}",              
+                                "text": f"👍 {likes_count}",              
                                 "callback": self.like_callback,              
                                 "args": (module_name, "like")              
                         }, {              
-                                "text": f"🕳️ {dislikes_count}",              
+                                "text": f"👎 {dislikes_count}",              
                                 "callback": self.dislike_callback,              
                                 "args": (module_name, "dislike")              
                         }]              
