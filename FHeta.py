@@ -194,7 +194,7 @@ class FHeta(loader.Module):
                     author=author,
                     repo_url=repo_url,
                     install_command=f"{self.get_prefix()}{install}",
-                    description=desc,
+                    description=description_section,
                     commands=cmd_sec + inline_cmd_sec,
                 )
 
