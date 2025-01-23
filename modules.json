@@ -11275,6 +11275,11 @@
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/modlist.py"
     },
     {
+        "name": "Нерсик лучший @nercymods подписываемся",
+        "repo": "coddrago/modules",
+        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/module.py"
+    },
+    {
         "author": "@codrago_m",
         "description": "Gives a link to download a file from Pinterest",
         "commands": [
