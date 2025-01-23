@@ -17829,6 +17829,24 @@
     },
     {
         "author": "@ScreamDev",
+        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
+        "pic": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
+        "description": "Добавляет к сообщению канала ватемарку",
+        "commands": [
+            {
+                "name": "autoedit",
+                "inline": false,
+                "description": {
+                    "doc": "- включить/выключить AutoAdd-On."
+                }
+            }
+        ],
+        "name": "AutoAdd-On",
+        "repo": "scream-dev/Modules",
+        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/AutoAdd-on.py"
+    },
+    {
+        "author": "@ScreamDev",
         "description": "Модуль для авто замены ПОТУЖНО на жирный только если сообщение содержит 'потужно'. Переписанный модуль @Foxy437",
         "commands": [
             {
