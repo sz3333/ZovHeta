@@ -52200,7 +52200,7 @@
                 "name": "mute",
                 "inline": false,
                 "description": {
-                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время (в минутах)."
+                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
                 }
             },
             {
