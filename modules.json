@@ -17837,43 +17837,6 @@
         "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/BoldPotuzno.py"
     },
     {
-        "description": "Module for using GigaChat",
-        "commands": [
-            {
-                "name": "gen",
-                "inline": false,
-                "description": {
-                    "doc": "Генерирует посты для блога"
-                }
-            },
-            {
-                "name": "planning",
-                "inline": false,
-                "description": {
-                    "doc": "Создает план на неделю"
-                }
-            },
-            {
-                "name": "gen_",
-                "inline": false,
-                "description": {
-                    "doc": "Генерирует посты за день"
-                }
-            },
-            {
-                "name": "help",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Получить помощь по командам",
-                    "doc": "Показывает список доступных команд"
-                }
-            }
-        ],
-        "name": "GigaChat Channel",
-        "repo": "scream-dev/Modules",
-        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/ChannelAI.py"
-    },
-    {
         "author": "@ScreamDev, yg_modules",
         "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/CryptoNow.png",
         "description": "Модуль для того чтобы узнать курс крипты/фиата и обновлять его (для каналов)",
@@ -17939,21 +17902,6 @@
         "name": "PlanManager",
         "repo": "scream-dev/Modules",
         "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/Plan.py"
-    },
-    {
-        "description": "Downloader YT module",
-        "commands": [
-            {
-                "name": "dlyt",
-                "inline": false,
-                "description": {
-                    "doc": "YouTubeDownload"
-                }
-            }
-        ],
-        "name": "YTDL",
-        "repo": "scream-dev/Modules",
-        "install": "dlm https://raw.githubusercontent.com/scream-dev/Modules/main/YTDL.py"
     },
     {
         "author": "@kmodules",
