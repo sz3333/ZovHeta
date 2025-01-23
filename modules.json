@@ -13126,63 +13126,77 @@
         "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/help.py"
     },
     {
-        "author": "@RemoveWoman",
-        "description": "Задавайте вопросы с помощью разных моделей GPT, а также генерируйте изображения by @RemoveWoman, основанный на OnlySq api.",
+        "author": "@OnlySq",
+        "description": "Задавайте вопросы с помощью разных моделей GPT, а также генерируйте изображения by @MiSidePlayer, основанный на OnlySq api. Пока в onlysq не работает генерация изображений, и она была временно удалена из модуля. Пишите об идеях MiSidePlayer",
         "commands": [
-            {
-                "name": "ai",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте ai <вопрос> или ответьте на сообщение, чтобы спросить вопрос у выбранной модели"
-                }
-            },
-            {
-                "name": "imgai",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте imgai <запрос> чтобы сгенерировать изображение."
-                }
-            },
-            {
-                "name": "imaginensfw",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте imaginensfw <запрос> чтобы сгенерировать изображение. Только 18+, вам надо подтвердить что вам 18+"
-                }
-            },
             {
                 "name": "gpt",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте gpt <вопрос> или ответьте на сообщение чтобы спросить вопрос у chatgpt"
+                    "doc": "Используйте gpt <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-4o-mini"
                 }
             },
             {
                 "name": "gemini",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте gemini <вопрос> или ответьте на сообщение, чтобы спросить вопрос у Gemini"
+                    "doc": "Используйте gemini <вопрос> или ответьте на сообщение чтобы спросить вопрос у gemini"
                 }
             },
             {
-                "name": "bb",
+                "name": "searchgpt",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте bb <вопрос> или ответьте на сообщение, чтобы спросить вопрос у Blackbox"
+                    "doc": "Используйте .searchgpt <вопрос> или ответьте на сообщение чтобы спросить вопрос у searchgpt"
                 }
             },
             {
-                "name": "flux",
+                "name": "claude3",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте flux <запрос> чтобы сгенерировать изображение."
+                    "doc": "Используйте .claude3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у claude-3.5-haiku"
                 }
             },
             {
-                "name": "kandinsky",
+                "name": "gpt4",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте kandinsky <запрос> чтобы сгенерировать изображение."
+                    "doc": "Используйте .gpt4 <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-4"
+                }
+            },
+            {
+                "name": "geminiflash",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .geminiflash <вопрос> или ответьте на сообщение чтобы спросить вопрос у gemini-flash"
+                }
+            },
+            {
+                "name": "gpt3",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gpt3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-3.5-turbo"
+                }
+            },
+            {
+                "name": "llama3",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .llama3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у llama-3.1"
+                }
+            },
+            {
+                "name": "mixtral8",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .mixtral8 <вопрос> или ответьте на сообщение чтобы спросить вопрос у Mixtral-8x7B"
+                }
+            },
+            {
+                "name": "qwen",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .qwen <вопрос> или ответьте на сообщение чтобы спросить вопрос у qwen"
                 }
             }
         ],
