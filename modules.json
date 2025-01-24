@@ -15282,14 +15282,21 @@
                 "name": "tinfo",
                 "inline": false,
                 "description": {
-                    "doc": "[id] - Get info about your userbot"
+                    "doc": "[id/None] - Get info about your userbot"
                 }
             },
             {
                 "name": "tlogs",
                 "inline": false,
                 "description": {
-                    "doc": "[id] - Get logs of your userbot"
+                    "doc": "[id/None] - Get logs of your userbot"
+                }
+            },
+            {
+                "name": "trestart",
+                "inline": false,
+                "description": {
+                    "doc": "[id/None] - Restart the userbot"
                 }
             }
         ],
