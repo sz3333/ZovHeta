@@ -23839,13 +23839,14 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/кругляш.py"
     },
     {
-        "description": "Модуль чтобы стать настоящим мэйном кіта.",
+        "author": "@QzKat",
+        "description": "Модуль чтобы стать настоящим мэйном кіта(упрощенная версия чтобы юзать на постоянку).",
         "commands": [
             {
                 "name": "кит",
                 "inline": false,
                 "description": {
-                    "doc": "Команда для включения или выключения модуля."
+                    "doc": "Команда для включения или Bыключения модуля."
                 }
             }
         ],
