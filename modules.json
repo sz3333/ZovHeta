@@ -52841,22 +52841,6 @@
     },
     {
         "author": "@Enceth",
-        "description": "Тесты для изучения хариганы",
-        "commands": [
-            {
-                "name": "quiz",
-                "inline": false,
-                "description": {
-                    "doc": "Начать тест по хирагане"
-                }
-            }
-        ],
-        "name": "HiraganaQuiz",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/harigana.py"
-    },
-    {
-        "author": "@Enceth",
         "description": "Автофарм Iris с помощью автоотправки ",
         "commands": [
             {
