@@ -3899,7 +3899,7 @@
         ],
         "name": "😼Анимки @XenSide",
         "repo": "XenSideNBTS/HikkaModules",
-        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/😼Анимки XenSide.py"
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/xenanims.py"
     },
     {
         "author": "@hikarimods",
