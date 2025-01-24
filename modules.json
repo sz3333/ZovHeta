@@ -3764,6 +3764,70 @@
         "author": "@XenSideMOD",
         "commands": [
             {
+                "name": "artoggle",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить автореакции в текущем чате"
+                }
+            },
+            {
+                "name": "setr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить реакцию (обычный эмодзи или ID для Premium)"
+                }
+            }
+        ],
+        "name": "AutoReact",
+        "repo": "XenSideNBTS/HikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/AutoReact.py"
+    },
+    {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
+                "name": "neofetch",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Neofetch",
+        "repo": "XenSideNBTS/HikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/Neofetch.py"
+    },
+    {
+        "author": "@XenSideMOD",
+        "description": "Создает ASCII-арт из текста",
+        "commands": [
+            {
+                "name": "tas",
+                "inline": false,
+                "description": {
+                    "doc": "Использование: .tas <текст>"
+                }
+            }
+        ],
+        "name": "Figlet",
+        "repo": "XenSideNBTS/HikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/TextToASCII.py"
+    },
+    {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "YouTubeDL",
+        "repo": "XenSideNBTS/HikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/YouTubeDL.py"
+    },
+    {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
                 "name": "podkat",
                 "inline": false,
                 "description": {
