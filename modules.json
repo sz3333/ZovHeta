@@ -52840,7 +52840,8 @@
         "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/gresti.py"
     },
     {
-        "description": "Тесты для изучения хираганы",
+        "author": "@Enceth",
+        "description": "Тесты для изучения хираганы.",
         "commands": [
             {
                 "name": "quiz",
