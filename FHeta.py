@@ -226,7 +226,7 @@ class FHeta(loader.Module):
             except Exception:
                 return None
 
-        tasks = [proc_mod(mod) for mod in mods[:50]]
+        tasks = [proc_mod(mod) for mod in mods[:25]]
         res = await asyncio.gather(*tasks)
         return [r for r in res if r]
         
@@ -594,10 +594,10 @@ class FHeta(loader.Module):
                             mod = next((m for m in mods if m.get('name') == match), None)
                             if mod and mod not in found:
                                 found.append(mod)
-                                if len(found) >= 50:
+                                if len(found) >= 25:
                                     break
 
-                    return found[:50]
+                    return found[:25]
                     
     async def format_module(self, module, query):
         repo_url = f"https://github.com/{module['repo']}"
