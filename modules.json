@@ -18483,6 +18483,27 @@
                 "description": {
                     "doc": "Upload file to x0.at"
                 }
+            },
+            {
+                "name": "tmpfiles",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to tmpfiles.org"
+                }
+            },
+            {
+                "name": "pomf",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to pomf.lain.la"
+                }
+            },
+            {
+                "name": "bash",
+                "inline": false,
+                "description": {
+                    "doc": "Upload file to bashupload.com"
+                }
             }
         ],
         "name": "K:Uploader",
@@ -22784,6 +22805,22 @@
         "name": "IrisMesh",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/iris.py"
+    },
+    {
+        "author": "@Gydro4ka & @mertv_ya_naxyi",
+        "description": "накрутка сообщений в стате ириса, использовать только в чате где есть ирис!!",
+        "commands": [
+            {
+                "name": "инн",
+                "inline": false,
+                "description": {
+                    "doc": "[количество] - включить накрутку сообщений"
+                }
+            }
+        ],
+        "name": "irisStat",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/irisStat.py"
     },
     {
         "author": "@RUIS_VlP",
@@ -48348,6 +48385,22 @@
         "name": "yg_ocr",
         "repo": "yummy1gay/modules",
         "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_ocr.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Получить информацию о владельце стикер/эмодзи пака",
+        "commands": [
+            {
+                "name": "owner",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to sticker/premium emoji> - узнать овнера пака"
+                }
+            }
+        ],
+        "name": "yg_owner",
+        "repo": "yummy1gay/modules",
+        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_owner.py"
     },
     {
         "author": "@yg_modules",
