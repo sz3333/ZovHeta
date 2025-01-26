@@ -564,7 +564,7 @@ class FHeta(loader.Module):
                             found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
                     return found_modules
-                    
+
     async def search_moduless(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
         async with aiohttp.ClientSession() as session:
@@ -587,17 +587,28 @@ class FHeta(loader.Module):
                             if any(query.lower() in cmd.get("name", "").lower() for cmd in mod.get("commands", []))
                         ]
 
+                    async def search_cmd_desc():
+                        return [
+                            mod for mod in mods
+                            if any(
+                                query.lower() in desc.lower()
+                                for cmd in mod.get("commands", [])
+                                for desc in cmd.get("description", {}).values()
+                            )
+                        ]
+
                     tasks = [
                         search_field("name"),
                         search_field("author"),
                         search_field("description"),
-                        search_cmds()
+                        search_cmds(),
+                        search_cmd_desc()
                     ]
 
                     res = await asyncio.gather(*tasks)
                     found = [mod for result in res for mod in result]
 
-                    if len(found) < 50:
+                    if len(found) < 25:
                         names = {mod['name'] for mod in mods if 'name' in mod}
                         close_matches = difflib.get_close_matches(query, list(names), n=50, cutoff=0.5)
                         for match in close_matches:
