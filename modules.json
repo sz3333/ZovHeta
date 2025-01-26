@@ -11043,8 +11043,8 @@
                 "name": "bdgreet",
                 "inline": false,
                 "description": {
-                    "ru_doc": "[имя] - поздравить человека с Днём Рождения",
-                    "doc": "[name] - congratulate a person on Birthday"
+                    "ru_doc": "[имя (необязательно)] - поздравить человека с Днём Рождения",
+                    "doc": "[name (optional)] - congratulate a person on Birthday"
                 }
             }
         ],
