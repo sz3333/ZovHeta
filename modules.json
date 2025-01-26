@@ -52409,6 +52409,13 @@
                 }
             },
             {
+                "name": "myrights",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить ваши права в текущем чате"
+                }
+            },
+            {
                 "name": "promote",
                 "inline": false,
                 "description": {
