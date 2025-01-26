@@ -528,13 +528,13 @@ class FHeta(loader.Module):
                         module for module in modules
                         if query.lower() in module.get("name", "").lower()
                     ]
-                    
+
                     if not found_modules:
                         found_modules = [
                             module for module in modules
                             if any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
                         ]
-                    
+
                     if not found_modules:
                         found_modules = [
                             module for module in modules
@@ -548,12 +548,22 @@ class FHeta(loader.Module):
                         ]
 
                     if not found_modules:
+                        found_modules = [
+                            module for module in modules
+                            if any(
+                                query.lower() in desc.lower()
+                                for cmd in module.get("commands", [])
+                                for desc in cmd.get("description", {}).values()
+                            )
+                        ]
+
+                    if not found_modules:
                         module_names = [module['name'] for module in modules if 'name' in module]
                         closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
                         if closest_matches:
                             found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
-                    return found_modules 
+                    return found_modules
                     
     async def search_moduless(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
