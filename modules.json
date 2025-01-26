@@ -11037,7 +11037,23 @@
         "install": "dlm https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/WhataWord%3F.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
+        "commands": [
+            {
+                "name": "bdgreet",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[имя] - поздравить человека с Днём Рождения",
+                    "doc": "[name] - congratulate a person on Birthday"
+                }
+            }
+        ],
+        "name": "BirthdayGreeting",
+        "repo": "kezuhiro-web/modules",
+        "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/BirthdayGreeting.py"
+    },
+    {
+        "author": "@aki_user",
         "description": "Модуль для сокращения ссылок через TinyURL",
         "commands": [
             {
@@ -11054,7 +11070,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/LinkShortener.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "neofetch",
@@ -11071,7 +11087,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/Neofetch.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "rapic",
@@ -11087,7 +11103,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/RandomAnimePic.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "description": "Модуль для поиска в различных поисковых системах",
         "commands": [
             {
@@ -11103,7 +11119,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/Searcher.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "unbanall",
@@ -11119,7 +11135,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/UnbanAll.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "mp3",
@@ -11135,7 +11151,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/VideoToMP3.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "vtt",
@@ -11151,7 +11167,7 @@
         "install": "dlm https://raw.githubusercontent.com/kezuhiro-web/modules/main/VoiceToText.py"
     },
     {
-        "author": "@dummykezu",
+        "author": "@aki_user",
         "commands": [
             {
                 "name": "wallet",
