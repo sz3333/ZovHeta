@@ -47324,6 +47324,204 @@
     },
     {
         "author": "@mm_mods",
+        "description": "Atoll — it's like am Atool (Admin Tool) but sounds nicer. Some basic moderation features, just for me. Clean\ndocs, pure user experience.",
+        "commands": [
+            {
+                "name": "mute",
+                "inline": false,
+                "description": {
+                    "doc": "/mute [username | ID | reply] [time]\n[reason]\nMute a user for a specified time (sr Abbr:. `r1`). Add `del`, `delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "/kick [username | ID | reply]\n[reason]\nKick a user from the chat so he can return later.  Add `del`, `delete` after command to delete the\nmessage."
+                }
+            },
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "/ban [username | ID | reply] [time]\n[reason]\nBan a user from the chat (sr Abbr.: `r0`. The user won't be able to return until you unban him.  Add `del`,\n`delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "warn",
+                "inline": false,
+                "description": {
+                    "doc": "/warn [username | ID | reply]\n[reason]\nWarn a user. If the user has too many warns, he will be restricted (you can set settings in config). Add `del`,\n`delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "sr",
+                "inline": false,
+                "description": {
+                    "doc": "/sr [username | ID | reply] [rights] [time]\n[reason]\nSet rights for a user for a specified time.\nRights are a sequence of numbers from 0 to b:\n0 - view_messages; 1 - send_messages; 2 - send_media; 3 - send_stickers; 4 - send_gifs; 5 - send_games;\n6 - send_inline; 7 - embed_link_previews; 8 - send_polls; 9 - change_info; a - invite_users; b - pin_messages.\nPrepend rights with `r` to restrict user from using such media. Add `del`, `delete` after time to\ndelete the message."
+                }
+            },
+            {
+                "name": "unmute",
+                "inline": false,
+                "description": {
+                    "doc": "/unmute [username | ID | reply]\nUnmute a user, so he'll be able to send messages again."
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "/unban [username | ID | reply]\nUnban a user, so he'll be able to return to the chat."
+                }
+            },
+            {
+                "name": "unwarn",
+                "inline": false,
+                "description": {
+                    "doc": "/unwarn [username | ID | reply] ['all']\nRemove a warn from a user. If 'all' is specified, all warns will be removed."
+                }
+            },
+            {
+                "name": "nomedia",
+                "inline": false,
+                "description": {
+                    "doc": "/nomedia [username | ID | reply] [time]\n[reason]\nRestrict a user from sending all media types (sr Abbr.: `r234567`) for a specified time. Add `del`, `delete` or\n`d` after time to delete the message."
+                }
+            },
+            {
+                "name": "allowmedia",
+                "inline": false,
+                "description": {
+                    "doc": "/allowmedia [username | ID | reply]\nAllow a user to send media again."
+                }
+            },
+            {
+                "name": "newnet",
+                "inline": false,
+                "description": {
+                    "doc": "/newnet [name]\nCreate a new chat network."
+                }
+            },
+            {
+                "name": "delnet",
+                "inline": false,
+                "description": {
+                    "doc": "/delnet [name]\nDelete a chat network."
+                }
+            },
+            {
+                "name": "addchat",
+                "inline": false,
+                "description": {
+                    "doc": "/addchat [name]\nAdd a chat to a network."
+                }
+            },
+            {
+                "name": "rmchat",
+                "inline": false,
+                "description": {
+                    "doc": "/rmchat\nRemove a chat from a network."
+                }
+            },
+            {
+                "name": "netlist",
+                "inline": false,
+                "description": {
+                    "doc": "/netlist\nList all chat networks."
+                }
+            },
+            {
+                "name": "nban",
+                "inline": false,
+                "description": {
+                    "doc": "/nban [username | ID | reply] [time]\n[reason]\nBan a user from all chats in a network. Add `del`, `delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "nunban",
+                "inline": false,
+                "description": {
+                    "doc": "/nunban [username | ID | reply]\nUnban a user from all chats in a network."
+                }
+            },
+            {
+                "name": "nmute",
+                "inline": false,
+                "description": {
+                    "doc": "/nmute [username | ID | reply] [time]\n[reason]\nMute a user in all chats in a network Add `del`, `delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "nunmute",
+                "inline": false,
+                "description": {
+                    "doc": "/nunmute [username | ID | reply]\nUnmute a user in all chats in a network."
+                }
+            },
+            {
+                "name": "nsr",
+                "inline": false,
+                "description": {
+                    "doc": "/nsr [username | ID | reply] [rights] [time]\n[reason]\nSet rights for a user in all chats in a network. Add `del`, `delete` after time to delete the message."
+                }
+            },
+            {
+                "name": "d",
+                "inline": false,
+                "description": {
+                    "doc": "/d [a[1-100] b[1-100]] | [reply]\nDelete messages in a chat. You can specify the amount of messages to delete (`a` — after, `b` — before)."
+                }
+            },
+            {
+                "name": "flushda",
+                "inline": false,
+                "description": {
+                    "doc": "/flushda\nFlush all deleted accounts from the chat or channel."
+                }
+            },
+            {
+                "name": "nflushda",
+                "inline": false,
+                "description": {
+                    "doc": "/nflushda\nFlush all deleted accounts from all chats in a network."
+                }
+            },
+            {
+                "name": "pin",
+                "inline": false,
+                "description": {
+                    "doc": "/pin [reply]\nPin a message in a chat."
+                }
+            },
+            {
+                "name": "unpin",
+                "inline": false,
+                "description": {
+                    "doc": "/unpin\nUnpin a message in a chat."
+                }
+            },
+            {
+                "name": "nochannel",
+                "inline": false,
+                "description": {
+                    "doc": "/nochannel\nSwitch module to ban or not all channels from this chat when they appear."
+                }
+            },
+            {
+                "name": "cid",
+                "inline": false,
+                "description": {
+                    "doc": "/cid\nGet the chat ID. If a reply is specified, gets the id of person who sent the message."
+                }
+            }
+        ],
+        "name": "Atoll",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/atoll.py"
+    },
+    {
+        "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Module to manage your miyahost.",
         "commands": [
