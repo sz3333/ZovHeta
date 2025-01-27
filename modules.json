@@ -47873,6 +47873,29 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/search.py"
     },
     {
+        "author": "@matubuntu",
+        "description": "Получает список мостов для сети Tor",
+        "commands": [
+            {
+                "name": "bridge",
+                "inline": false,
+                "description": {
+                    "doc": "obfs4 / webtunnel - получить мосты для сети Tor"
+                }
+            },
+            {
+                "name": "tncfg",
+                "inline": false,
+                "description": {
+                    "doc": "- открыть конфигурацию модуля"
+                }
+            }
+        ],
+        "name": "TorNodes",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/tornodes.py"
+    },
+    {
         "author": "@RUIS_VlP, @matubuntu",
         "description": "Создает текстовый файл, отправляет его в Telegram, а затем удаляет.",
         "commands": [
