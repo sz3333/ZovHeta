@@ -19275,6 +19275,22 @@
     },
     {
         "author": "@xuduk",
+        "description": "Кастомный фейк пинг",
+        "commands": [
+            {
+                "name": "cpinj",
+                "inline": false,
+                "description": {
+                    "doc": "<ping> - Узнать фейковый пинг вашего юзербота"
+                }
+            }
+        ],
+        "name": "Custom Fake Ping",
+        "repo": "xuduk/modules",
+        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/CustomFakePing.py"
+    },
+    {
+        "author": "@xuduk",
         "description": "Гуглит что-то вместо тебя.",
         "commands": [
             {
