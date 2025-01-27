@@ -15314,6 +15314,13 @@
                 "description": {
                     "doc": "[id/None] - Restart the userbot"
                 }
+            },
+            {
+                "name": "tuserinfo",
+                "inline": false,
+                "description": {
+                    "doc": "- Info about user"
+                }
             }
         ],
         "name": "ToTHosting",
