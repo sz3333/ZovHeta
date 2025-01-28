@@ -19282,7 +19282,7 @@
     },
     {
         "author": "@xuduk",
-        "description": "Кастомный фейк пинг",
+        "description": "Кастомный фейк пинг, советую заглянуть в конфиг.",
         "commands": [
             {
                 "name": "cpinj",
@@ -47965,6 +47965,22 @@
         "name": "Thread",
         "repo": "Ruslan-Isaev/modules",
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/ThreadLink.py"
+    },
+    {
+        "author": "@username",
+        "description": "Генерирует штрих код (code128) ",
+        "commands": [
+            {
+                "name": "barcode",
+                "inline": false,
+                "description": {
+                    "doc": "<код> - генерирует штрих-код"
+                }
+            }
+        ],
+        "name": "BarcodeGenerator",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/barcode.py"
     },
     {
         "author": "@RUIS_VlP, @matubuntu",
