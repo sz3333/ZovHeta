@@ -11352,24 +11352,6 @@
     },
     {
         "author": "@codrago_m",
-        "description": "Tool for work with figlet",
-        "commands": [
-            {
-                "name": "figlet",
-                "inline": false,
-                "description": {
-                    "doc": "[args] | run figlet command"
-                }
-            },
-            {
-                "name": "figlist",
-                "inline": false,
-                "description": {
-                    "doc": "| see list of all fonts"
-                }
-            }
-        ],
-        "name": "Figlet",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/figlet.py"
     },
@@ -17829,6 +17811,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTFLMod.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "Модуль для автоматической торговли на Ирис-бирже",
         "commands": [
             {
@@ -17851,6 +17834,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTIrisTrade.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "модуль, который выводит сколько осталось дней до нг.",
         "commands": [
             {
@@ -17866,6 +17850,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTNewYear.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "модуль, который отправляет рандом видио с зимой",
         "commands": [
             {
@@ -17881,6 +17866,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTWinter.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "каждый час отправляю дик в чат",
         "commands": [
             {
@@ -17903,6 +17889,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTdick.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "автофармит коины в ирисе, самый простой код.",
         "commands": [
             {
@@ -17925,6 +17912,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTfarm.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "Модуль для поиска музыки.",
         "commands": [
             {
@@ -17940,6 +17928,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTmusic.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "модуль который крадет гифки",
         "commands": [
             {
@@ -17955,6 +17944,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KOTstealGif.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "модуль который отправляет боту @KOTBioWarsBot запрос и получает ответ.",
         "commands": [
             {
@@ -17970,6 +17960,7 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/KotBioWars.py"
     },
     {
+        "author": "@codeer_kot, @angellmodules",
         "description": "Отправляет случайное видео из Тиктока!",
         "commands": [
             {
