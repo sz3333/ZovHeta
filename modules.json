@@ -11360,6 +11360,13 @@
                 "description": {
                     "doc": "[args] | run figlet command"
                 }
+            },
+            {
+                "name": "figlist",
+                "inline": false,
+                "description": {
+                    "doc": "| see list of all fonts"
+                }
             }
         ],
         "name": "Figlet",
