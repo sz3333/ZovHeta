@@ -17813,6 +17813,7 @@
         "install": "dlm https://raw.githubusercontent.com/idiotcoders/idiotmodules/main/yoomoney.py"
     },
     {
+        "author": "@codeer_kot",
         "description": "Модуль для проверки на флуд-вейты",
         "commands": [
             {
