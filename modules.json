@@ -11352,6 +11352,24 @@
     },
     {
         "author": "@codrago_m",
+        "description": "Tool for work with figlet",
+        "commands": [
+            {
+                "name": "figlet",
+                "inline": false,
+                "description": {
+                    "doc": "[args] | run figlet command"
+                }
+            },
+            {
+                "name": "figlist",
+                "inline": false,
+                "description": {
+                    "doc": "| see list of all fonts"
+                }
+            }
+        ],
+        "name": "Figlet",
         "repo": "coddrago/modules",
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/figlet.py"
     },
