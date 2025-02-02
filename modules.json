@@ -3815,6 +3815,21 @@
         "author": "@XenSideMOD",
         "commands": [
             {
+                "name": "keyb",
+                "inline": false,
+                "description": {
+                    "ru_doc": ".keyb - Показать виртуальную клавиатуру"
+                }
+            }
+        ],
+        "name": "VirtualKeyboard",
+        "repo": "XenSideNBTS/HikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/XenSideNBTS/HikkaModules/main/VirtualKeybard.py"
+    },
+    {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
                 "name": "yt",
                 "inline": false,
                 "description": {}
