@@ -2387,7 +2387,7 @@
         "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cute-clipart/64/minecraft-logo.png&title=Hypixel&description=Module%20for%20getting%20information%20about%20minecraft%20Hypixel%20player",
         "pic": "https://img.icons8.com/cute-clipart/64/minecraft-logo.png",
-        "description": "Module for getting information about minecraft Hypixel player",
+        "description": "Module for getting information about minecraft Hypixel player (beta)",
         "commands": [
             {
                 "name": "stat",
@@ -11199,6 +11199,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/DelMessTools.png",
+        "pic": "https://0x0.st/s/JjNl2wBorRA1dLagHgUBvQ/8KK5.webp",
         "description": "Module to manage and delete your messages in the current chat",
         "commands": [
             {
@@ -11236,6 +11238,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/DoxTool.png",
+        "pic": "https://0x0.st/s/QeZGoQSDvJ2RILRMUOjzfg/8KPc.webp",
         "description": "Maybe... doxing tool?",
         "commands": [
             {
@@ -11281,6 +11285,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/ascii_face.png",
+        "pic": "https://0x0.st/s/TGT42nesnQ5TwvixG8nFEQ/8KPa.webp",
         "description": "Random Ascii Face from utils",
         "commands": [
             {
@@ -11297,6 +11303,8 @@
     },
     {
         "author": "@codrago_m, @ytkanelox",
+        "banner": "https://mods.codrago.top/banners/clicon.png",
+        "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
         "description": "Модуль для автоматического нажатия на инлайн кнопки.",
         "commands": [
             {
@@ -11320,6 +11328,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/compliments.png",
+        "pic": "https://0x0.st/s/i1wijQ_XEUpGaHPXHUdjHQ/8KPS.webp",
         "description": "Compliments for your partner",
         "commands": [
             {
@@ -11336,6 +11346,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/dice.png",
+        "pic": "https://0x0.st/s/4xg5IubxTkikjI6JG2AU8w/8KP_.webp",
         "description": "Развлекательный модуль",
         "commands": [
             {
@@ -11352,6 +11364,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/xMv47XPyGMimCREVC6vfXA/8KPp.webp",
         "description": "Download emoji from reply",
         "commands": [
             {
@@ -11368,6 +11382,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/P0iSUm3VUe-mY3Soc7qRAQ/8KPV.webp",
         "description": "Tool for work with figlet",
         "commands": [
             {
@@ -11391,6 +11407,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/MqdHp2_yaHlLXdmaXTJ9lQ/8KPW.webp",
         "description": "Send to you random hentai media!",
         "commands": [
             {
@@ -11435,6 +11453,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/id.png",
+        "pic": "https://0x0.st/s/08-gkYETpY6T2EfdVLbjcw/8KPt.webp",
         "description": "ID of all!",
         "commands": [
             {
@@ -11465,6 +11485,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/uGDXu48zQjT7vFTRcl2nAA/8KP3.png",
         "description": "Your the best friend in loli hentai",
         "commands": [
             {
@@ -11488,6 +11510,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/ZgHZlSLgzAG9WPUQy__BVQ/8KPJ.webp",
         "description": "Модуль для быстрого доступа к каналам с модулями",
         "commands": [
             {
@@ -11519,12 +11543,9 @@
         "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/modlist.py"
     },
     {
-        "name": "Нерсик лучший @nercymods подписываемся",
-        "repo": "coddrago/modules",
-        "install": "dlm https://raw.githubusercontent.com/coddrago/modules/main/module.py"
-    },
-    {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/pinterest.png",
+        "pic": "https://0x0.st/s/PRHLZJFYjFlRZEOaVcaopw/8KP6.webp",
         "description": "Gives a link to download a file from Pinterest",
         "commands": [
             {
@@ -11541,6 +11562,8 @@
     },
     {
         "author": "@codrago_m, @exttasy1",
+        "banner": "https://mods.codrago.top/banners/pmban.png",
+        "pic": "https://0x0.st/s/J_m06i5v4gJFtziGmqnjuw/8KPl.webp",
         "description": "Ban in pm for time",
         "commands": [
             {
@@ -11564,6 +11587,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/promoclaimer.png",
+        "pic": "https://0x0.st/s/rb3ABc1QP3OIMXnQEBiIcA/8KPn.webp",
         "description": "Automatically claim https://t.me/StableWaifuBot promo from any chat",
         "commands": [
             {
@@ -11581,6 +11606,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/randomizer.png",
+        "pic": "https://0x0.st/s/de32M5VljJzzSJxSUjrqtA/8KPR.webp",
         "description": "Random - it's life!",
         "commands": [
             {
@@ -11618,6 +11645,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/speedtest.png",
+        "pic": "https://0x0.st/s/de32M5VljJzzSJxSUjrqtA/8KPR.webp",
         "description": "Module to run speedtest using speedtest library",
         "commands": [
             {
@@ -11634,6 +11663,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/whoyou.png",
+        "pic": "https://0x0.st/s/1Ygc1jQQyLJJ2f0Z1vyJ6w/8KPF.webp",
         "description": "Who you? Who i'm? Who all in this world?",
         "commands": [
             {
@@ -18010,29 +18041,6 @@
         "install": "dlm https://raw.githubusercontent.com/kotenochekk/codeer_kot/main/RandomTT.py"
     },
     {
-        "author": "@codermasochist",
-        "description": "сохраняет текст в файл и читает содержимое файлов. by @codermasochist",
-        "commands": [
-            {
-                "name": "sf",
-                "inline": false,
-                "description": {
-                    "doc": "— сохраняет в файл."
-                }
-            },
-            {
-                "name": "rf",
-                "inline": false,
-                "description": {
-                    "doc": "— достает содержимое файла."
-                }
-            }
-        ],
-        "name": "AsC",
-        "repo": "codermasochist/AsModules",
-        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/AsC.py"
-    },
-    {
         "author": "@codermasochist & @makimalove",
         "description": "кидает ахуенные эдиты. by @codermasochist",
         "commands": [
@@ -18077,45 +18085,6 @@
         "name": "Asdlbot",
         "repo": "codermasochist/AsModules",
         "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asdlbot.py"
-    },
-    {
-        "author": "@codermasochist",
-        "description": "получает ID по реплаю. by @codermasochist",
-        "commands": [
-            {
-                "name": "ид",
-                "inline": false,
-                "description": {
-                    "doc": "— работает без префа, просто \"ид\"."
-                }
-            }
-        ],
-        "name": "AsID",
-        "repo": "codermasochist/AsModules",
-        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asid.py"
-    },
-    {
-        "author": "@codermasochist",
-        "description": "Приветствие с ID. by @codermasochist",
-        "commands": [
-            {
-                "name": "onid",
-                "inline": false,
-                "description": {
-                    "doc": "— включает приветствие с ID."
-                }
-            },
-            {
-                "name": "offid",
-                "inline": false,
-                "description": {
-                    "doc": "— отключает приветствие с ID"
-                }
-            }
-        ],
-        "name": "As welcome ID",
-        "repo": "codermasochist/AsModules",
-        "install": "dlm https://raw.githubusercontent.com/codermasochist/AsModules/main/Asidh.py"
     },
     {
         "author": "@ScreamDev",
@@ -19474,26 +19443,41 @@
         "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/MassSMS.py"
     },
     {
-        "description": "Отправляет пользователю вашу биографию, которую вы сами напишете(.cfg)",
+        "author": "@VahueykoMod",
+        "description": "накручивает аптайм",
         "commands": [
             {
-                "name": "mbio1",
+                "name": "addum",
                 "inline": false,
                 "description": {
-                    "doc": "Используй, чтобы прислать свою  первую биографию"
+                    "doc": ".addum <минуты>"
                 }
             },
             {
-                "name": "mbio2",
+                "name": "adduh",
                 "inline": false,
                 "description": {
-                    "doc": "Используй, чтобы прислать свою  вторую биографию"
+                    "doc": ".adduh <часы>"
+                }
+            },
+            {
+                "name": "delum",
+                "inline": false,
+                "description": {
+                    "doc": ".delum <минуты>"
+                }
+            },
+            {
+                "name": "deluh",
+                "inline": false,
+                "description": {
+                    "doc": ".deluh <часы>"
                 }
             }
         ],
-        "name": "MyBio",
+        "name": "CheatingUptime",
         "repo": "Vahueyko/HikkaMods",
-        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/MyBio.py"
+        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/cheatinguptime.py"
     },
     {
         "author": "@VahueykoMod",
@@ -19538,28 +19522,6 @@
         "name": "File Manager",
         "repo": "Vahueyko/HikkaMods",
         "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/filemanager.py"
-    },
-    {
-        "description": "Поможет вам в нужной ситуации😘",
-        "commands": [
-            {
-                "name": "logstart",
-                "inline": false,
-                "description": {
-                    "doc": "Используй, чтобы включить отслеживание сообщений в этом чате"
-                }
-            },
-            {
-                "name": "logstop",
-                "inline": false,
-                "description": {
-                    "doc": "Используй, чтобы выключить отслеживание сообщений в этом чате"
-                }
-            }
-        ],
-        "name": "LoggerMod",
-        "repo": "Vahueyko/HikkaMods",
-        "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/loggermod.py"
     },
     {
         "author": "@hikarimods",
@@ -23232,6 +23194,196 @@
         "name": "отложка",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/otlozka.py"
+    },
+    {
+        "author": "𐍛𐌴𐍂𐌽𐌏",
+        "commands": [
+            {
+                "name": "кровь",
+                "inline": false,
+                "description": {
+                    "doc": ".кровь <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "кантевери",
+                "inline": false,
+                "description": {
+                    "doc": "анимка хелпа"
+                }
+            },
+            {
+                "name": "взаходит",
+                "inline": false,
+                "description": {
+                    "doc": ".взаходит <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "неспать",
+                "inline": false,
+                "description": {
+                    "doc": "Не спящий режим"
+                }
+            },
+            {
+                "name": "геймбот",
+                "inline": false,
+                "description": {
+                    "doc": "делает вид что вы играете в гейм в тг"
+                }
+            },
+            {
+                "name": "кружок",
+                "inline": false,
+                "description": {
+                    "doc": "делает вид что вы записываете кружок"
+                }
+            },
+            {
+                "name": "реши",
+                "inline": false,
+                "description": {
+                    "doc": ".реши 2 + 2"
+                }
+            },
+            {
+                "name": "тайп",
+                "inline": false,
+                "description": {
+                    "doc": "ложный тайп на час"
+                }
+            },
+            {
+                "name": "гинфо",
+                "inline": false,
+                "description": {
+                    "doc": "дает инфу человека"
+                }
+            },
+            {
+                "name": "кантпинг",
+                "inline": false,
+                "description": {
+                    "doc": "пинг"
+                }
+            },
+            {
+                "name": "нпрем",
+                "inline": false,
+                "description": {
+                    "doc": "нон-прем модуль по 1 шаблону"
+                }
+            },
+            {
+                "name": "лис",
+                "inline": false,
+                "description": {
+                    "doc": ".лис и текст"
+                }
+            },
+            {
+                "name": "пх",
+                "inline": false,
+                "description": {
+                    "doc": ".пх айди задержка и ссылка на фотку"
+                }
+            },
+            {
+                "name": "стоппх",
+                "inline": false,
+                "description": {
+                    "doc": "стопает работу"
+                }
+            },
+            {
+                "name": "шапка",
+                "inline": false,
+                "description": {
+                    "doc": "устанавливает шапку к пх"
+                }
+            },
+            {
+                "name": "тайп5",
+                "inline": false,
+                "description": {
+                    "doc": "ложный тайп на 5 мин"
+                }
+            },
+            {
+                "name": "тайп10",
+                "inline": false,
+                "description": {
+                    "doc": "ложный тайп на 10 мин"
+                }
+            },
+            {
+                "name": "тайп30",
+                "inline": false,
+                "description": {
+                    "doc": "ложный тайп на 30 мин"
+                }
+            },
+            {
+                "name": "кантевери1",
+                "inline": false,
+                "description": {
+                    "doc": "анимка хелпа 2"
+                }
+            },
+            {
+                "name": "кантдеф",
+                "inline": false,
+                "description": {
+                    "doc": "анимка хелпа 3"
+                }
+            },
+            {
+                "name": "анархия",
+                "inline": false,
+                "description": {
+                    "doc": ".анархия <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "пиздец",
+                "inline": false,
+                "description": {
+                    "doc": ".пиздец <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "летальность",
+                "inline": false,
+                "description": {
+                    "doc": ".летальность <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "нереал",
+                "inline": false,
+                "description": {
+                    "doc": ".нереал <Зᥲдᥱρжκᥲ ʙ ᥴᥱκундᥲ᥊> <ɯᥲᥰκᥲ>"
+                }
+            },
+            {
+                "name": "сосатель",
+                "inline": false,
+                "description": {
+                    "doc": ".сосатель айди задержка и ссылка на фотку"
+                }
+            },
+            {
+                "name": "инфо",
+                "inline": false,
+                "description": {
+                    "doc": "инфо"
+                }
+            }
+        ],
+        "name": "ꤍ𐌳𐌽ተꤕ𐌖ꤕ𐍂𐍅 ໒ລ౿ภคหഠ 𐍛𐌴𐍂𐌽𐌏",
+        "repo": "Fixyres/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/pizdeznaxyi284738.py"
     },
     {
         "commands": [
@@ -51367,43 +51519,6 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/LavReboot.py"
     },
     {
-        "author": "@kshmods",
-        "description": "Notifies you when you are mentioned in groups and channels",
-        "commands": [
-            {
-                "name": "mnblock",
-                "inline": false,
-                "description": {
-                    "doc": "Adds a user to the blacklist"
-                }
-            },
-            {
-                "name": "mnwl",
-                "inline": false,
-                "description": {
-                    "doc": "Adds a chat to the whitelist"
-                }
-            },
-            {
-                "name": "mnunblock",
-                "inline": false,
-                "description": {
-                    "doc": "Removes a user from the blacklist"
-                }
-            },
-            {
-                "name": "mnlist",
-                "inline": false,
-                "description": {
-                    "doc": "Lists the users to ignore mentions from and chats to notify mentions from"
-                }
-            }
-        ],
-        "name": "MentionNotifier",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/MentionNotifier.py"
-    },
-    {
         "author": "@kotcheat & @devjmodules",
         "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
         "commands": [
@@ -51506,31 +51621,6 @@
         "name": "PfpRepeater",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PfpRepeater.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module for making screenshots",
-        "commands": [
-            {
-                "name": "webs",
-                "inline": false,
-                "description": {
-                    "en_doc": "Takes screenshot of website",
-                    "ru_doc": "Делает скриншот сайта"
-                }
-            },
-            {
-                "name": "files",
-                "inline": false,
-                "description": {
-                    "en_doc": "Takes screenshot of website",
-                    "ru_doc": "Делает скриншот файла"
-                }
-            }
-        ],
-        "name": "ShotModule",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ShotModule.py"
     },
     {
         "author": "@kshmods",
@@ -54919,7 +55009,7 @@
         "author": "@unneyon_hmods",
         "banner": "https://mods.unneyon.ru/banners/tidal.png",
         "pic": "https://static.unneyon.ru/get/tidal_icon.png",
-        "description": "API wrapper over TIDAL Hi-Fi music streaming service",
+        "description": "API wrapper over TIDAL Hi-Fi music streaming service\nThanks @hikarimods for original module: t.me/hikarimods/764",
         "commands": [
             {
                 "name": "tlogin",
