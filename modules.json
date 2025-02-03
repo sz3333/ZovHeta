@@ -55308,6 +55308,7 @@
     },
     {
         "author": "@werpyock0",
+        "description": "веном",
         "commands": [
             {
                 "name": "watcher",
@@ -55315,14 +55316,23 @@
                 "description": {}
             },
             {
-                "name": "togglevenom",
+                "name": "addvenomchat",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Включить/выключить модуль"
+                    "ru_doc": "Добавить чат в список активных",
+                    "doc": "Добавить текущий чат в список активных"
+                }
+            },
+            {
+                "name": "removevenomchat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить чат из списка активных",
+                    "doc": "Удалить текущий чат из списка активных"
                 }
             }
         ],
-        "name": "Venomod",
+        "name": "VenomModule",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/vemom.py"
     }
