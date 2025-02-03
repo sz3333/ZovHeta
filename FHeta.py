@@ -542,7 +542,7 @@ class FHeta(loader.Module):
                     if instalik:
                         found_modules = [
                             module for module in modules
-                            if instalik in module.get("install", "").lower()
+                            if instalik.strip() in module.get("install", "").strip()
                         ]
                         return found_modules
                         
