@@ -1,5 +1,5 @@
 __version__ = (9, 0, 5)
-# meta developer: @Foxy437
+#meta developer: @Foxy437
 # change-log: 🌹 Added search using AI (works not stably), you can enable in cfg (works only when searching via command)!
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
@@ -8,7 +8,7 @@ __version__ = (9, 0, 5)
 #             ██╔══╝  ██╔══██║██╔══╝     ██║   ██╔══██║
 #             ██║     ██║  ██║███████╗   ██║   ██║  ██║
 
-# meta banner: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg
+#meta banner: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg
 # meta pic: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg
 # ©️ Fixyres, 2024
 # 🌐 https://github.com/Fixyres/FHeta
