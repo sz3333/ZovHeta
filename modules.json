@@ -55305,5 +55305,42 @@
         "name": "FunstatMod",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/funstat.py"
+    },
+    {
+        "author": "@werpyock0",
+        "description": "Гибкий спам-модуль (посмотри в кфг).",
+        "commands": [
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск спама. Использование: .spam \"текст\" [кол-во сообщений] [задержка]"
+                }
+            },
+            {
+                "name": "dspam",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск спама с удалением сообщений. Использование: .dspam \"текст\" [кол-во сообщений] [задержка]"
+                }
+            },
+            {
+                "name": "stopspam",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает все активные задачи .spam"
+                }
+            },
+            {
+                "name": "stopdspam",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает все активные задачи .dspam"
+                }
+            }
+        ],
+        "name": "WSpamMod",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/spam.py"
     }
 ]
