@@ -55289,5 +55289,21 @@
         "name": "ZIP",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/zip.py"
+    },
+    {
+        "author": "@werpyock0",
+        "description": "Модуль на фанстат, использует бота @fanstarttt_bot чтобы получить ответ.",
+        "commands": [
+            {
+                "name": "funstat",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет команду фанстату."
+                }
+            }
+        ],
+        "name": "FunstatMod",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/funstat.py"
     }
 ]
