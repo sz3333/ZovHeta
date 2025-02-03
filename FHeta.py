@@ -1,6 +1,6 @@
-__version__ = (9, 0, 4)
+__version__ = (9, 0, 5)
 # meta developer: @Foxy437
-# change-log: Added search by command description!!! 😱😱😱🤯🤯🤯😱😱😱
+# change-log: 🌹 Added search using AI (works not stably), you can enable in cfg (works only when searching via command)!
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -56,7 +56,8 @@ class FHeta(loader.Module):
         "reqj": "This is the channel with all updates in FHeta!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
-        "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Repository:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Smart search via AI (search speed ±10 seconds, works only for search via command)"        
     }
 
     strings_ru = {
@@ -81,7 +82,8 @@ class FHeta(loader.Module):
         "reqj": "Это канал со всеми обновлениями в FHeta!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
-        "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторий:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Умный поиск через ИИ (скорость поиска ±10 секунд, работает только на поиск через команду)"        
     }
 
     strings_ua = {
@@ -106,7 +108,8 @@ class FHeta(loader.Module):
         "reqj": "Це канал з усіма оновленнями в FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
-        "closest_match": "📑 <code>{module_name}</code> <b>від </b><code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n"
+        "closest_match": "📑 <code>{module_name}</code> <b>від </b><code>{author}</code>\n<emoji document_id=4985961065012527769>🖥</emoji> <b>Репозиторій:</b> {repo_url}\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Розумний пошук через ШІ (швидкість пошуку ±10 секунд, працює тільки на пошук через команду)"
     }
 
     async def client_ready(self):
@@ -126,7 +129,19 @@ class FHeta(loader.Module):
                 self.db.set("token_fheta_902", "token", response.text.strip())
         except Exception as e:
             pass
-            
+
+    def __init__(self):
+        self.config = loader.ModuleConfig(
+            loader.ConfigValue(
+                "GSearch",
+                False,
+                (
+                    self.strings["gsf"]
+                ),
+                validator=loader.validators.Boolean(),
+            )
+        )
+        
     @loader.inline_handler(ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
     async def fheta(self, query):
         '''(query) - search modules.'''
@@ -241,7 +256,7 @@ class FHeta(loader.Module):
         search_message = await utils.answer(message, self.strings["search"])
         modules = await self.search_modules(args)
 
-        if not modules:
+        if not modules and not self.config["GSearch"]:
             modules = await self.search_modules(args.replace(" ", ""))
 
         if not modules:
@@ -518,12 +533,19 @@ class FHeta(loader.Module):
 
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp.ClientSession() as session:         
+            instalik = (await (await session.post("http://foxy437.xyz/OnlySKThx", json={"q": query})).json()).get("OnlySKThx") if self.config["GSearch"] else False
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.text()
                     modules = json.loads(data)
-
+                    if instalik:
+                        found_modules = [
+                            module for module in modules
+                            if instalik in module.get("install", "").lower()
+                        ]
+                        return found_modules
+                        
                     found_modules = [
                         module for module in modules
                         if query.lower() in module.get("name", "").lower()
