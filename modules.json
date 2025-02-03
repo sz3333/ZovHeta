@@ -55305,35 +55305,5 @@
         "name": "FunstatMod",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/funstat.py"
-    },
-    {
-        "author": "@werpyock0",
-        "description": "веном",
-        "commands": [
-            {
-                "name": "watcher",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "addvenomchat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Добавить чат в список активных",
-                    "doc": "Добавить текущий чат в список активных"
-                }
-            },
-            {
-                "name": "removevenomchat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Удалить чат из списка активных",
-                    "doc": "Удалить текущий чат из списка активных"
-                }
-            }
-        ],
-        "name": "VenomModule",
-        "repo": "werpyock/hikkamods",
-        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/vemom.py"
     }
 ]
