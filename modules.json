@@ -13610,26 +13610,6 @@
     },
     {
         "author": "@BruhHikkaModules",
-        "banner": "link",
-        "description": "My module",
-        "commands": [
-            {
-                "name": "helloworld",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Привет мир!",
-                    "es_doc": "¡Hola mundo!",
-                    "de_doc": "Hallo Welt!",
-                    "doc": "Hello world"
-                }
-            }
-        ],
-        "name": "MyModule",
-        "repo": "MuRuLOSE/HikkaModulesRepo",
-        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/!example.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
         "description": "Auto leaving from channels and chats (maybe pm's)",
         "commands": [
             {
@@ -14341,6 +14321,23 @@
         "name": "YoutubeDLB",
         "repo": "MuRuLOSE/HikkaModulesRepo",
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/YoutubeDL.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVa.jpg",
+        "description": "Авто присоеденение к розыгрышам в @mine_evo_bot",
+        "commands": [
+            {
+                "name": "giveawayjoin",
+                "inline": false,
+                "description": {
+                    "doc": "- Вкл / Выкл присоеденение к розыгрышам"
+                }
+            }
+        ],
+        "name": "MyModule",
+        "repo": "MuRuLOSE/HikkaModulesRepo",
+        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/autogiveawayjoin.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -15074,8 +15071,6 @@
     },
     {
         "author": "@morisummermods",
-        "banner": "https://i.imgur.com/3joMFwC.jpg",
-        "pic": "https://i.imgur.com/nmAXM3k.png",
         "description": "Magic Text generator",
         "commands": [
             {
@@ -15086,30 +15081,16 @@
                 }
             },
             {
-                "name": "mtiset",
-                "inline": false,
-                "description": {
-                    "doc": "Set the text for inline message (Example: .mtiset ❤️‍🔥 I want to tell you something...)"
-                }
-            },
-            {
                 "name": "mt",
                 "inline": false,
                 "description": {
                     "doc": "Send message with animating text"
                 }
-            },
-            {
-                "name": "mti",
-                "inline": false,
-                "description": {
-                    "doc": "Send inline message with animating text"
-                }
             }
         ],
         "name": "MagicText",
         "repo": "MoriSummerz/ftg-mods",
-        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext.py"
+        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext-ftg.py"
     },
     {
         "author": "@morisummermods",
@@ -15364,7 +15345,7 @@
         ],
         "name": "GoogleTrans",
         "repo": "dekkusudev/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/GoogleTrans.py"
+        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/GoogleTransRR.py"
     },
     {
         "author": "@mm_mods,originalbyFl1yd",
@@ -22109,6 +22090,31 @@
         "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/yamusic.py"
     },
     {
+        "author": "@zolotarevxc",
+        "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
+        "pic": "https://static.whypodg.me/mods!irisfarm.png",
+        "description": "Модуль для фарма колец в @MarriedGroupBot 🌘 ʕ·ᴥ· ʔ",
+        "commands": [
+            {
+                "name": "farmdon",
+                "inline": false,
+                "description": {
+                    "doc": "Включить автоматическую отправку /job 🚀"
+                }
+            },
+            {
+                "name": "farmdoff",
+                "inline": false,
+                "description": {
+                    "doc": "Отключить автоматическую отправку /job ⚡️"
+                }
+            }
+        ],
+        "name": "FarmdMod",
+        "repo": "zolotarevinc/modules",
+        "install": "dlm https://raw.githubusercontent.com/zolotarevinc/modules/main/married.py"
+    },
+    {
         "author": "@hikarimods&@sngscamer",
         "banner": "https://mods.hikariatama.ru/badges/aniquotes.jpg",
         "pic": "https://static.hikari.gay/aniquotes_icon.png",
@@ -22499,18 +22505,11 @@
                 "description": {
                     "doc": "Показывает задержку бота"
                 }
-            },
-            {
-                "name": "clear_data",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет все данные с сервера"
-                }
             }
         ],
         "name": "GitServerBot",
         "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Git_serverBot.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GitServerBot.py"
     },
     {
         "author": "@skillzmeow",
@@ -25056,8 +25055,8 @@
     },
     {
         "author": "@shitmodules",
-        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/GamesForAndroid.jpg",
-        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/GamesForAndroid.jpeg",
+        "banner": "https://x0.at/0H0-.gif",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/GameForAndroid.jpg",
         "description": "Hacked android games (All in categories, choose what you like and download.)",
         "commands": [
             {
@@ -25071,7 +25070,7 @@
         ],
         "name": "GamesForAndroid",
         "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GamesForAndroid.py"
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GameForAndroid.py"
     },
     {
         "author": "@smeowcodes",
@@ -26376,24 +26375,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Num.py"
     },
     {
-        "author": "@dziru",
-        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/PinSaver.png",
-        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
-        "description": "Pinterest saver via @TopSaverBot",
-        "commands": [
-            {
-                "name": "pin",
-                "inline": false,
-                "description": {
-                    "doc": "LINK from Pinterest"
-                }
-            }
-        ],
-        "name": "Pin saver",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/PinSaver.py"
-    },
-    {
         "author": "@skillzmeow",
         "description": "Узнай свой пинг",
         "commands": [
@@ -26408,6 +26389,24 @@
         "name": "Pinger",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Pinger.py"
+    },
+    {
+        "author": "@dziru",
+        "banner": "https://te.legra.ph/file/6f0a48747b8c0bc45f2e7.jpg",
+        "pic": "https://te.legra.ph/file/6f0a48747b8c0bc45f2e7.jpg",
+        "description": "Pinterest saver via @TopSaverBot",
+        "commands": [
+            {
+                "name": "pin",
+                "inline": false,
+                "description": {
+                    "doc": "LINK from Pinterest"
+                }
+            }
+        ],
+        "name": "Pin saver",
+        "repo": "amm1edev/ame_repo",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Pinsaver.py"
     },
     {
         "author": "@trololo_1",
@@ -26690,24 +26689,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Raspi.py"
     },
     {
-        "author": "@dziru",
-        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/RepoSaver.png",
-        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
-        "description": "GitHub Repository saver via @githubrepo_download_bot",
-        "commands": [
-            {
-                "name": "repo",
-                "inline": false,
-                "description": {
-                    "doc": "enter Repository link from GitHub"
-                }
-            }
-        ],
-        "name": "Reposaver",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RepoSaver.py"
-    },
-    {
         "author": "@AuroraModules",
         "banner": "https://te.legra.ph/file/5131a980bd2f80ad463ad.jpg",
         "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
@@ -26761,6 +26742,22 @@
         "name": "Reports",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reports.py"
+    },
+    {
+        "author": "@dziru",
+        "description": "GitHub Repository saver via @githubrepo_download_bot",
+        "commands": [
+            {
+                "name": "repo",
+                "inline": false,
+                "description": {
+                    "doc": "enter Repository link from GitHub"
+                }
+            }
+        ],
+        "name": "Reposaver",
+        "repo": "amm1edev/ame_repo",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reposaver.py"
     },
     {
         "author": "@hikkaftgmods",
