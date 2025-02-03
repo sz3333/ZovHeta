@@ -55305,5 +55305,25 @@
         "name": "FunstatMod",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/funstat.py"
+    },
+    {
+        "author": "@werpyock0",
+        "commands": [
+            {
+                "name": "watcher",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "togglevenom",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить модуль"
+                }
+            }
+        ],
+        "name": "Venomod",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/vemom.py"
     }
 ]
