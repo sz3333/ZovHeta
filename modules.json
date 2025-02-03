@@ -14860,22 +14860,6 @@
     },
     {
         "author": "@mm_mods",
-        "description": "Holidays today.",
-        "commands": [
-            {
-                "name": "hollist",
-                "inline": false,
-                "description": {
-                    "doc": "Shows holiday list."
-                }
-            }
-        ],
-        "name": "Holidays",
-        "repo": "dekkusudev/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Holidays.py"
-    },
-    {
-        "author": "@mm_mods",
         "description": "A little upgraded mod of module of @trololo_1.",
         "commands": [
             {
@@ -15072,220 +15056,6 @@
         "name": "Prodia IG",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Prodia.py"
-    },
-    {
-        "author": "@mm_mods",
-        "description": "Reacts manager.",
-        "commands": [
-            {
-                "name": "rshorthand",
-                "inline": false,
-                "description": {
-                    "doc": "Add a shorthand for a reaction.\n/rshorthand <name> <emoji>"
-                }
-            },
-            {
-                "name": "dshorthand",
-                "inline": false,
-                "description": {
-                    "doc": "Delete a shorthand for a reaction.\n/dshorthand <name>"
-                }
-            },
-            {
-                "name": "shorthands",
-                "inline": false,
-                "description": {
-                    "doc": "Show all shorthands for reactions."
-                }
-            },
-            {
-                "name": "react",
-                "inline": false,
-                "description": {
-                    "doc": "React to a message.\n/react <name>/<emoji>"
-                }
-            }
-        ],
-        "name": "Reactor",
-        "repo": "dekkusudev/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Reactor.py"
-    },
-    {
-        "author": "@mm_mods",
-        "description": "Group rights viewer and manager.",
-        "commands": [
-            {
-                "name": "switchib",
-                "inline": false,
-                "description": {
-                    "doc": "Switches inline bots using rights."
-                }
-            },
-            {
-                "name": "checkib",
-                "inline": false,
-                "description": {
-                    "doc": "Checks inline bots using rights."
-                }
-            },
-            {
-                "name": "switchsend",
-                "inline": false,
-                "description": {
-                    "doc": "Switches sending messages rights."
-                }
-            },
-            {
-                "name": "checksend",
-                "inline": false,
-                "description": {
-                    "doc": "Checks sending messages rights."
-                }
-            },
-            {
-                "name": "switchmedia",
-                "inline": false,
-                "description": {
-                    "doc": "Switches media using rights."
-                }
-            },
-            {
-                "name": "checkmedia",
-                "inline": false,
-                "description": {
-                    "doc": "Checks media using rights."
-                }
-            },
-            {
-                "name": "switchstickers",
-                "inline": false,
-                "description": {
-                    "doc": "Switches stickers using rights."
-                }
-            },
-            {
-                "name": "checkstickers",
-                "inline": false,
-                "description": {
-                    "doc": "Checks stickers using rights."
-                }
-            },
-            {
-                "name": "switchgifs",
-                "inline": false,
-                "description": {
-                    "doc": "Switches gifs using rights."
-                }
-            },
-            {
-                "name": "checkgifs",
-                "inline": false,
-                "description": {
-                    "doc": "Checks gifs using rights."
-                }
-            },
-            {
-                "name": "switchgames",
-                "inline": false,
-                "description": {
-                    "doc": "Switches games using rights."
-                }
-            },
-            {
-                "name": "checkgames",
-                "inline": false,
-                "description": {
-                    "doc": "Checks games using rights."
-                }
-            },
-            {
-                "name": "switchembed",
-                "inline": false,
-                "description": {
-                    "doc": "Switches links preview using rights."
-                }
-            },
-            {
-                "name": "checkembed",
-                "inline": false,
-                "description": {
-                    "doc": "Checks links preview using rights."
-                }
-            },
-            {
-                "name": "switchpolls",
-                "inline": false,
-                "description": {
-                    "doc": "Switches polls using rights."
-                }
-            },
-            {
-                "name": "checkpolls",
-                "inline": false,
-                "description": {
-                    "doc": "Checks polls using rights."
-                }
-            },
-            {
-                "name": "switchinfo",
-                "inline": false,
-                "description": {
-                    "doc": "Switches info changing rights."
-                }
-            },
-            {
-                "name": "checkinfo",
-                "inline": false,
-                "description": {
-                    "doc": "Checks info changing rights."
-                }
-            },
-            {
-                "name": "switchinvite",
-                "inline": false,
-                "description": {
-                    "doc": "Switches invite rights."
-                }
-            },
-            {
-                "name": "checkinvite",
-                "inline": false,
-                "description": {
-                    "doc": "Checks invite rights."
-                }
-            },
-            {
-                "name": "switchpin",
-                "inline": false,
-                "description": {
-                    "doc": "Switches pin message rights."
-                }
-            },
-            {
-                "name": "checkpin",
-                "inline": false,
-                "description": {
-                    "doc": "Checks pin message rights."
-                }
-            },
-            {
-                "name": "checkall",
-                "inline": false,
-                "description": {
-                    "doc": "Shows all rights."
-                }
-            },
-            {
-                "name": "checkadmins",
-                "inline": false,
-                "description": {
-                    "doc": "Shows admins."
-                }
-            }
-        ],
-        "name": "Rechte",
-        "repo": "dekkusudev/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Rechte.py"
     },
     {
         "author": "@mm_mods",
@@ -17744,6 +17514,236 @@
         "name": "File Manager",
         "repo": "Vahueyko/HikkaMods",
         "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/filemanager.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "Holidays today.",
+        "commands": [
+            {
+                "name": "hollist",
+                "inline": false,
+                "description": {
+                    "doc": "Shows holiday list."
+                }
+            }
+        ],
+        "name": "Holidays",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Holidays.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "Reacts manager.",
+        "commands": [
+            {
+                "name": "rshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Add a shorthand for a reaction.\n/rshorthand <name> <emoji>"
+                }
+            },
+            {
+                "name": "dshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Delete a shorthand for a reaction.\n/dshorthand <name>"
+                }
+            },
+            {
+                "name": "shorthands",
+                "inline": false,
+                "description": {
+                    "doc": "Show all shorthands for reactions."
+                }
+            },
+            {
+                "name": "react",
+                "inline": false,
+                "description": {
+                    "doc": "React to a message.\n/react <name>/<emoji>"
+                }
+            }
+        ],
+        "name": "Reactor",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Reactor.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "Group rights viewer and manager.",
+        "commands": [
+            {
+                "name": "switchib",
+                "inline": false,
+                "description": {
+                    "doc": "Switches inline bots using rights."
+                }
+            },
+            {
+                "name": "checkib",
+                "inline": false,
+                "description": {
+                    "doc": "Checks inline bots using rights."
+                }
+            },
+            {
+                "name": "switchsend",
+                "inline": false,
+                "description": {
+                    "doc": "Switches sending messages rights."
+                }
+            },
+            {
+                "name": "checksend",
+                "inline": false,
+                "description": {
+                    "doc": "Checks sending messages rights."
+                }
+            },
+            {
+                "name": "switchmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Switches media using rights."
+                }
+            },
+            {
+                "name": "checkmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Checks media using rights."
+                }
+            },
+            {
+                "name": "switchstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Switches stickers using rights."
+                }
+            },
+            {
+                "name": "checkstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Checks stickers using rights."
+                }
+            },
+            {
+                "name": "switchgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Switches gifs using rights."
+                }
+            },
+            {
+                "name": "checkgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Checks gifs using rights."
+                }
+            },
+            {
+                "name": "switchgames",
+                "inline": false,
+                "description": {
+                    "doc": "Switches games using rights."
+                }
+            },
+            {
+                "name": "checkgames",
+                "inline": false,
+                "description": {
+                    "doc": "Checks games using rights."
+                }
+            },
+            {
+                "name": "switchembed",
+                "inline": false,
+                "description": {
+                    "doc": "Switches links preview using rights."
+                }
+            },
+            {
+                "name": "checkembed",
+                "inline": false,
+                "description": {
+                    "doc": "Checks links preview using rights."
+                }
+            },
+            {
+                "name": "switchpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Switches polls using rights."
+                }
+            },
+            {
+                "name": "checkpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Checks polls using rights."
+                }
+            },
+            {
+                "name": "switchinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Switches info changing rights."
+                }
+            },
+            {
+                "name": "checkinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Checks info changing rights."
+                }
+            },
+            {
+                "name": "switchinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Switches invite rights."
+                }
+            },
+            {
+                "name": "checkinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Checks invite rights."
+                }
+            },
+            {
+                "name": "switchpin",
+                "inline": false,
+                "description": {
+                    "doc": "Switches pin message rights."
+                }
+            },
+            {
+                "name": "checkpin",
+                "inline": false,
+                "description": {
+                    "doc": "Checks pin message rights."
+                }
+            },
+            {
+                "name": "checkall",
+                "inline": false,
+                "description": {
+                    "doc": "Shows all rights."
+                }
+            },
+            {
+                "name": "checkadmins",
+                "inline": false,
+                "description": {
+                    "doc": "Shows admins."
+                }
+            }
+        ],
+        "name": "Rechte",
+        "repo": "GD-alt/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Rechte.py"
     },
     {
         "author": "@mm_mods",
@@ -25972,6 +25972,22 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Raspi.py"
     },
     {
+        "author": "@dziru",
+        "description": "GitHub Repository saver via @githubrepo_download_bot",
+        "commands": [
+            {
+                "name": "repo",
+                "inline": false,
+                "description": {
+                    "doc": "enter Repository link from GitHub"
+                }
+            }
+        ],
+        "name": "Reposaver",
+        "repo": "amm1edev/ame_repo",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/RepoSaver.py"
+    },
+    {
         "author": "@AuroraModules",
         "description": "Module for sending reports to the administration.",
         "commands": [
@@ -26023,22 +26039,6 @@
         "name": "Reports",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reports.py"
-    },
-    {
-        "author": "@dziru",
-        "description": "GitHub Repository saver via @githubrepo_download_bot",
-        "commands": [
-            {
-                "name": "repo",
-                "inline": false,
-                "description": {
-                    "doc": "enter Repository link from GitHub"
-                }
-            }
-        ],
-        "name": "Reposaver",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/Reposaver.py"
     },
     {
         "author": "@hikkaftgmods",
