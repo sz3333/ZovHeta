@@ -28155,6 +28155,31 @@
         "author": "@zolotarevxc",
         "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
         "pic": "https://static.whypodg.me/mods!irisfarm.png",
+        "description": "Модуль для автоматического приветствия новых участников чата",
+        "commands": [
+            {
+                "name": "welon",
+                "inline": false,
+                "description": {
+                    "doc": "Включить автоматическое приветствие новых участников"
+                }
+            },
+            {
+                "name": "weloff",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить автоматическое приветствие новых участников"
+                }
+            }
+        ],
+        "name": "WelcomeModule",
+        "repo": "zolotarevinc/modules",
+        "install": "dlm https://raw.githubusercontent.com/zolotarevinc/modules/main/WelcomeMod.py"
+    },
+    {
+        "author": "@zolotarevxc",
+        "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
+        "pic": "https://static.whypodg.me/mods!irisfarm.png",
         "description": "Модуль для фарма колец в @MarriedGroupBot 🌘 ʕ·ᴥ· ʔ",
         "commands": [
             {
