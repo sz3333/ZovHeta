@@ -1053,6 +1053,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Abstract.jpg",
+        "pic": "https://te.legra.ph/file/868a280910e7f61f6ab0e.png",
         "description": "Write a beautiful summary on a notebook",
         "commands": [
             {
@@ -1070,6 +1072,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Activity.jpg",
         "description": "Generate activity if you're bored",
         "commands": [
             {
@@ -1088,6 +1091,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/Aeconv.jpg?raw=true",
+        "pic": "https://cdn-icons-png.flaticon.com/512/5670/5670084.png",
         "description": "Easy and fast valute converter",
         "commands": [
             {
@@ -1113,6 +1118,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Alarm.jpg",
         "description": "Alarm module for remind you about something",
         "commands": [
             {
@@ -1154,6 +1160,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/Amethyste.jpg?raw=true",
         "description": "Generate memes image",
         "commands": [
             {
@@ -1177,6 +1184,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/AmoreInfo.jpg",
         "description": "Show userbot info",
         "commands": [
             {
@@ -1193,6 +1201,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/AnimeVoices.jpg",
         "description": "🎤 Popular Anime Voices",
         "commands": [
             {
@@ -1503,6 +1512,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/besafe.jpg?raw=true",
         "description": "Check module before loading",
         "commands": [
             {
@@ -1535,6 +1545,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Bull.jpg",
+        "pic": "https://te.legra.ph/file/7772a7dae6290f0a612a6.png",
         "description": "Bull пиз#а собеседнику",
         "commands": [
             {
@@ -1565,6 +1577,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Createlinks.jpg",
+        "pic": "https://te.legra.ph/file/388e1b26a46a8c439e479.png",
         "description": "Create links",
         "commands": [
             {
@@ -1616,6 +1630,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/DTWR.jpg",
         "description": "Module Don't tag wihout reason",
         "commands": [
             {
@@ -1632,6 +1647,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Facts.jpg",
         "description": "More Interesting Facts",
         "commands": [
             {
@@ -1648,6 +1664,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/Figlet.jpg?raw=true",
         "description": "Creates Figlet Text",
         "commands": [
             {
@@ -1671,6 +1688,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/fileext.jpg",
         "description": "Get file extention details",
         "commands": [
             {
@@ -1687,6 +1705,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/fragment_checker.jpg?raw=true",
         "description": "Show how much is the username in the Fragment.com",
         "commands": [
             {
@@ -1703,6 +1722,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Funquotes.jpg",
         "description": "Create Fun quotes",
         "commands": [
             {
@@ -1733,6 +1753,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Hacker.jpg",
         "description": "Create hacker message stickers",
         "commands": [
             {
@@ -1749,6 +1770,7 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Imgbb.jpg",
         "description": "Upload you photo/video/gif to https://ibb.co",
         "commands": [
             {
@@ -1765,6 +1787,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Inlineping.jpg",
         "description": "Inline Pinger For Test",
         "commands": [
             {
@@ -1789,6 +1812,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Instsave.jpg",
+        "pic": "https://te.legra.ph/file/0251f5d602a8f32cd7368.png",
         "description": "Download video from instagram without watermark",
         "commands": [
             {
@@ -1822,6 +1847,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/leta.jpg",
         "description": "Customizable nightmode [Leta] for your group",
         "commands": [
             {
@@ -1889,6 +1915,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/my_usernames.jpg?raw=true",
         "description": "The usernames I own",
         "commands": [
             {
@@ -1905,6 +1932,8 @@
     },
     {
         "author": "@hikamoru&@wilsonmods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Mydiary.jpg",
+        "pic": "https://te.legra.ph/file/4c1b4581de961df145a70.png",
         "description": "Diary page",
         "commands": [
             {
@@ -1935,6 +1964,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Nytimer.jpg",
         "description": "Check how much is left until the new year",
         "commands": [
             {
@@ -1951,6 +1981,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/phstiker.jpg",
         "description": "Make Pornhub logo sticker",
         "commands": [
             {
@@ -1967,6 +1998,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/poststeal.jpg",
         "description": "Steal post from another channel to your channel",
         "commands": [
             {
@@ -1983,6 +2015,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/recognition.jpg",
         "description": "Recognition from photo",
         "commands": [
             {
@@ -1999,6 +2032,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Searchpic.jpg",
         "commands": [
             {
                 "name": "spic",
@@ -2014,6 +2048,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/assets/blob/master/Speech.jpg?raw=true",
         "description": "Simple speech recognition module.",
         "commands": [
             {
@@ -2030,6 +2065,8 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "hhttps://raw.githubusercontent.com/AmoreForever/assets/master/Telegraphup.jpg",
+        "pic": "https://te.legra.ph/file/5ef64ee0466032d8a4687.png",
         "description": "Upload video and photo to telegraph",
         "commands": [
             {
@@ -2046,6 +2083,7 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Universaltime.jpg",
         "description": "See the time of other countries",
         "commands": [
             {
@@ -2092,6 +2130,7 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://github.com/AmoreForever/shizuassets/blob/master/wakatime.jpg?raw=true",
         "description": "Show your Wakatime stats",
         "commands": [
             {
@@ -2108,6 +2147,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/344/antivirus-scanner--v1.png&title=Check%20module&description=Module%20for%20check%20modules",
+        "pic": "https://img.icons8.com/color/344/antivirus-scanner--v1.png",
         "description": "Module for check modules",
         "commands": [
             {
@@ -2124,12 +2165,16 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/256/kakashi-hatake.png&title=MangaSlider&description=Read%20manga%20in%20Telegram%20%F0%9F%91%8D",
+        "pic": "https://img.icons8.com/color/256/kakashi-hatake.png",
         "name": "MangaSlider",
         "repo": "vsecoder/hikka_modules",
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/MangaSlider.py"
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-roulette-casino-flaticons-lineal-color-flat-icons-3.png&title=Russian%20roulette&description=Telegram%20Russian%20roulette%20game",
+        "pic": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-roulette-casino-flaticons-lineal-color-flat-icons-3.png",
         "description": "Module for \"Russian roulette\" game",
         "commands": [
             {
@@ -2146,6 +2191,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/timer.png&title=Account%20Time&description=Get%20the%20account%20registration%20date%20and%20time!",
+        "pic": "https://img.icons8.com/fluency/344/timer.png",
         "description": "Module for get account time",
         "commands": [
             {
@@ -2162,6 +2209,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/344/asc.png&title=AsciiMod&description=Module%20for%20convert%20image%20to%20ascii",
+        "pic": "https://img.icons8.com/color/344/asc.png",
         "description": "Module for convert image to ascii",
         "commands": [
             {
@@ -2178,6 +2227,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/external-filled-outline-wichaiwi/344/external-page-uxui-design-filled-outline-wichaiwi.png&title=BioPage&description=Module%20for%20create%20bio%20page",
+        "pic": "https://img.icons8.com/external-filled-outline-wichaiwi/344/external-page-uxui-design-filled-outline-wichaiwi.png",
         "description": "Module for create bio page",
         "commands": [
             {
@@ -2194,6 +2245,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/344/calculate.png&title=Calc&description=Module%20for%20inline%20calc",
+        "pic": "https://img.icons8.com/color/344/calculate.png",
         "description": "Module for inline calc",
         "commands": [
             {
@@ -2233,6 +2286,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/feedback.png&title=Feedback&description=Feedback%20bot%20for%20Hikka%20modules",
+        "pic": "https://img.icons8.com/fluency/344/feedback.png",
         "description": "FeedbackBot",
         "name": "📥 Feedback",
         "repo": "vsecoder/hikka_modules",
@@ -2240,6 +2295,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/fluency/344/pen-1.png&title=FormatterMod&description=Module%20for%20prettifying%20the%20formatting%20of%20messages",
+        "pic": "https://img.icons8.com/fluency/344/pen-1.png",
         "description": "Module for prettifying the formatting of messages 🪛\n\n📌 For example write:\n--------------------\nHi, now is {now}, today is {today}, yesterday is {yesterday}, my id is {id}, username is @{username}...\n\n⌨️ Keyboard:\n~\n📥 Modules $ https://t.me/vsecoder_m\n👨‍💻 Dev $ https://t.me/vsecoder\n--------------------\n\nP.S. \"~\" is a separator for keyboard and message.\n     \"$\" is a separator for button and link.",
         "name": "Formatter",
         "repo": "vsecoder/hikka_modules",
@@ -2247,6 +2304,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/bubbles/344/google-logo.png&title=GoogleIT&description=Google%20search%20module%20for%20userbot",
+        "pic": "https://img.icons8.com/bubbles/344/google-logo.png",
         "description": "Module for google search",
         "commands": [
             {
@@ -2263,6 +2322,7 @@
     },
     {
         "author": "@shadow_modules,@toxicuse,@vsecoder",
+        "banner": "https://i.imgur.com/8UYznku.jpeg",
         "commands": [
             {
                 "name": "rnd_hentai_manga",
@@ -2285,6 +2345,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://avatars.githubusercontent.com/u/128410002&title=HH&description=Hikkahost%20userbot%20manager%20module",
+        "pic": "https://avatars.githubusercontent.com/u/128410002",
         "description": "@hikkahost userbot manager module",
         "commands": [
             {
@@ -2318,6 +2380,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cute-clipart/64/minecraft-logo.png&title=Hypixel&description=Module%20for%20getting%20information%20about%20minecraft%20Hypixel%20player",
+        "pic": "https://img.icons8.com/cute-clipart/64/minecraft-logo.png",
         "description": "Module for getting information about minecraft Hypixel player (beta)",
         "commands": [
             {
@@ -2334,6 +2398,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/bubbles/344/google-logo.png&title=LMFIFY&description=Let%20me%20find%20it%20for%20you%20in%20Google%20/%20Yandex",
+        "pic": "https://img.icons8.com/bubbles/344/google-logo.png",
         "description": "Let me find it for you in Google / Yandex",
         "commands": [
             {
@@ -2350,6 +2416,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-maze-game-development-icongeek26-linear-colour-icongeek26.png&title=MazeMod&description=Telegram%20Maze%20Game",
+        "pic": "https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-maze-game-development-icongeek26-linear-colour-icongeek26.png",
         "description": "Module for play maze",
         "commands": [
             {
@@ -2366,6 +2434,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/stickers/100/keyboard.png&title=MonkeyType&description=Module%20for%20getting%20information%20about%20monkeytype.com%20stats",
+        "pic": "https://img.icons8.com/stickers/100/keyboard.png",
         "description": "Module for getting information about monkeytype.com stats\n\n{15/30/60/120:times} - dividing tests by time (default: 15)\nNeed only account username (not full link)!",
         "commands": [
             {
@@ -2382,6 +2452,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cotton/344/code.png&title=OctoCode&description=OctoCode%20is%20a%20module%20for%20octopussed%20code%20in%20Telegram",
+        "pic": "https://img.icons8.com/cotton/344/code.png",
         "description": "Module for octopussed code\n\nhttps://github.com/charmbracelet/freeze based\n\nTo use, run this in .terminal:\n\nwget https://github.com/charmbracelet/freeze/releases/download/v0.1.6/freeze_0.1.6_amd64.deb\nsudo dpkg -i freeze_0.1.6_amd64.deb",
         "commands": [
             {
@@ -2398,6 +2470,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/office/344/administrator-male--v1.png&title=Profilemod&description=Telegram%20Profile%20Statistic",
+        "pic": "https://img.icons8.com/office/344/administrator-male--v1.png",
         "description": "Module for get beautiful picture profile statistic",
         "commands": [
             {
@@ -2414,6 +2488,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/sf-black-filled/64/quote.png&title=Quotes&description=Quote%20a%20message%20using%20vsecoder%20API",
+        "pic": "https://img.icons8.com/sf-black-filled/64/quote.png",
         "description": "Quotes by @vsecoder [beta]\n\nNow doesn't work stickers, gifs, video.\n(Fake stories later)\n\nThk t.me/Fl1yd, based on his SQuotes module\nThk t.me/hikariatama, recognize from VTT module",
         "commands": [
             {
@@ -2444,6 +2520,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCO9v08B8wLGwL4UMxZzlf7tNOvsRvWQjMypjq5uyvxhAa03NbOO40DY1m-Rr4aYeK7WE&usqp=CAU&title=SearX&description=Telegram%20SearX%20Engine",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCO9v08B8wLGwL4UMxZzlf7tNOvsRvWQjMypjq5uyvxhAa03NbOO40DY1m-Rr4aYeK7WE&usqp=CAU",
         "description": "Module for multi search",
         "commands": [
             {
@@ -2476,6 +2554,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/3d-fluency/94/steam.png&title=Steam&description=Module%20for%20get%20Steam%20account%20information",
+        "pic": "https://img.icons8.com/3d-fluency/94/steam.png",
         "description": "Module for get Steam account information\n\nLater (TODO):\n- achivments list\n- {STEAM} widget",
         "commands": [
             {
@@ -2492,6 +2572,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-translate-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png&title=VsecoderTranlate&description=Telegram%20Translate%20Bot",
+        "pic": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-translate-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
         "description": "Traslate text",
         "commands": [
             {
@@ -2508,6 +2590,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cute-clipart/344/wikipedia.png&title=Wikipedia&description=Module%20for%20wikipedia%20search",
+        "pic": "https://img.icons8.com/cute-clipart/344/wikipedia.png",
         "description": "Module for wikipedia search",
         "commands": [
             {
@@ -2524,6 +2608,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg&title=YMNow&description=Module%20for%20yandex%20music",
+        "pic": "https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg",
         "description": "Module for yandex music. Based on SpotifyNow, YaNow and WakaTime. [BETA]\n\nNow on Ynison API.",
         "commands": [
             {
@@ -2554,6 +2640,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg&title=YMNow&description=Module%20for%20yandex%20music",
+        "pic": "https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg",
         "description": "Module for yandex music. Based on SpotifyNow, YaNow and WakaTime. [BETA]",
         "commands": [
             {
@@ -2720,6 +2808,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AntiMat.jpg",
         "description": "Будьте культурным человеком, не материтесь",
         "commands": [
             {
@@ -2750,6 +2839,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Compliments.jpg",
         "description": "Покажи девушке какая она прекрасная (ну или им, какие они прекрасные)",
         "commands": [
             {
@@ -2773,6 +2863,7 @@
     },
     {
         "author": "@AstroModules,@HikariMods",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Emotions.jpg",
         "description": "Выражение эмоций в чате",
         "commands": [
             {
@@ -2810,6 +2901,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/PasswordGenerator.jpg",
         "description": "Random password/pincode generator",
         "commands": [
             {
@@ -2835,6 +2927,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/RandomStatuses.jpg",
         "description": "Рандомные статусы для описания аккаунта в ТГ/Вацап/ВК и т.д.",
         "commands": [
             {
@@ -2851,6 +2944,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/RandomTrack.jpg",
         "description": "Получить рандомный трек. \nИспользуйте категории чтобы сгенерировать трек на свой вкус",
         "commands": [
             {
@@ -2867,6 +2961,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/RandomUser.jpg",
         "description": "choose a random user in chat\nAutors: @AstroModules & @smeowcodes",
         "commands": [
             {
@@ -2925,6 +3020,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/TwinkManager.jpg",
         "description": "Управление твинками через основной аккаунт.",
         "commands": [
             {
@@ -3013,6 +3109,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/YaMusic.jpg",
         "description": "Поиск музыки через музыкального бота от Яндекса",
         "commands": [
             {
@@ -3029,6 +3126,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Achievements.jpg",
         "description": "Create the achievement from https://minecraft-inside.ru/achievements/\n\nIdea from @Den4ikSOP & @boyhao",
         "commands": [
             {
@@ -3046,6 +3144,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Akinator.jpg",
         "description": "Akinator will guess any character you have in mind,\nYou just need to answer a couple of questions)",
         "commands": [
             {
@@ -3063,6 +3162,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AstroAFK.jpg",
         "description": "Полностью настраиваемый модуль для ухода в АФК режим! Обновление TxAFK!",
         "commands": [
             {
@@ -3093,6 +3193,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AstroWeather.jpg",
         "description": "Модуль для получения информации о погоде в Вашем городе, в красивом формате",
         "commands": [
             {
@@ -3109,6 +3210,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/BrawlStats.jpg",
         "description": "Brawl Stars Players/Clubs information :)",
         "commands": [
             {
@@ -3160,6 +3262,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/HikkaCommandsLogger.jpg",
         "description": "Hikka Commands Logger",
         "commands": [
             {
@@ -3174,6 +3277,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Convertio.jpg",
         "description": "Convert file with api from https://convertio.co",
         "commands": [
             {
@@ -3198,6 +3302,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Demotivator.jpg",
         "description": "Demotivate picture with text, arguments and config.",
         "commands": [
             {
@@ -3215,6 +3320,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/DialogsManager.jpg",
         "description": "Check your all info for dialogs, chats, PMs\nDelete definite dialog,\ndelete all dialogs by arguments,\nleave the chats, ids/usernames which you specify\nDialogs Manager!",
         "commands": [
             {
@@ -3264,6 +3370,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/YouTubePreviews.jpg",
         "description": "Скачивает превью с ютуба",
         "commands": [
             {
@@ -3281,6 +3388,7 @@
     },
     {
         "author": "@astromodules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/GameeCheat.jpg",
         "description": "Читы для игр в @gamee",
         "commands": [
             {
@@ -3297,6 +3405,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/iOSAppsForAndroid.jpg",
         "description": "iOS Applications for Android, or more simply, Android applications with an interface like on iOS",
         "commands": [
             {
@@ -3314,6 +3423,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/InlineBotManager.jpg",
         "description": "Control over your Inline bot!",
         "commands": [
             {
@@ -3371,6 +3481,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Komaru.jpg",
         "description": "Random picture/video/gif from the @komarueveryday",
         "commands": [
             {
@@ -3388,6 +3499,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/MindTalk.jpg",
         "description": "Your little psychologist Based on MindTalk by Hikamoru",
         "commands": [
             {
@@ -3418,6 +3530,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/MineSwepper.png",
         "description": "Minesweeper game",
         "commands": [
             {
@@ -3435,6 +3548,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/PCManager.jpg",
         "description": "Управление вашим компьютером через юзербота",
         "commands": [
             {
@@ -3528,6 +3642,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AstroShazam.png",
         "description": "Use <reply to voice> to search for a song using audio.",
         "commands": [
             {
@@ -3545,6 +3660,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Summer.jpg",
         "description": "Сколько осталось дней до лета?)",
         "commands": [
             {
@@ -3561,6 +3677,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/VideoToVoice.jpg",
         "description": "Convert Video to voice",
         "commands": [
             {
@@ -3577,6 +3694,7 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/WordlyHelper.jpg",
         "description": "Помощник для игры \"Вордли на Русском\"",
         "commands": [
             {
@@ -3639,6 +3757,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/account_switcher.jpg",
+        "pic": "https://static.dan.tatar/account_switcher_icon.png",
         "description": "Allows you to easily switch between different profiles",
         "commands": [
             {
@@ -3655,6 +3775,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/activists.jpg",
+        "pic": "https://static.dan.tatar/activists_icon.png",
         "description": "Looks for the most active users in chat",
         "commands": [
             {
@@ -3671,6 +3793,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/alphabet.jpg",
+        "pic": "https://img.icons8.com/plasticine/344/hiragana-ma.png",
         "description": "Replaces your text with custom emojis. Telegram Premium only",
         "commands": [
             {
@@ -3687,6 +3811,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/aniquotes.jpg",
+        "pic": "https://static.dan.tatar/aniquotes_icon.png",
         "description": "Simple module to create animated stickers via bot",
         "commands": [
             {
@@ -3703,6 +3829,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/anisearch.jpg",
+        "pic": "https://static.dan.tatar/anisearch_icon.png",
         "description": "Searches for anime exact moment by only frame screenshot",
         "commands": [
             {
@@ -3719,6 +3847,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/anything.jpg",
+        "pic": "https://img.icons8.com/fluency/512/artificial-intelligence.png",
         "description": "Draws ANYTHING using artificial intelligence. No API key required. 18+ only.",
         "commands": [
             {
@@ -3735,6 +3865,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/artai.jpg",
+        "pic": "https://static.dan.tatar/artai_icon.png",
         "description": "Ultimate module, which uses AI to draw ppl",
         "commands": [
             {
@@ -3751,6 +3883,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/backuper.jpg",
+        "pic": "https://static.dan.tatar/backuper_icon.png",
         "description": "Create the backup of all modules or the whole database",
         "commands": [
             {
@@ -3788,6 +3922,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/banstickers.jpg",
+        "pic": "https://img.icons8.com/fluency/344/cancel-2.png",
         "description": "Bans stickerpacks, stickers and gifs in chat",
         "commands": [
             {
@@ -3877,6 +4013,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/bfg.jpg",
+        "pic": "https://static.dan.tatar/bfg_icon.png",
         "description": "Tasks automation for @bforgame_bot",
         "commands": [
             {
@@ -3902,6 +4040,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/bigtext.jpg",
+        "pic": "https://img.icons8.com/external-soft-fill-juicy-fish/480/000000/external-big-cute-monsters-soft-fill-soft-fill-juicy-fish-4.png",
         "description": "Creates big ASCII Text",
         "commands": [
             {
@@ -3918,6 +4058,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/bincheck.jpg",
+        "pic": "https://static.dan.tatar/bincheck_icon.png",
         "description": "Show bin info about card",
         "commands": [
             {
@@ -3934,6 +4076,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/bulkcheck.jpg",
+        "pic": "https://static.dan.tatar/bulkcheck_icon.png",
         "description": "Check all members of chat for leaked numbers",
         "commands": [
             {
@@ -3950,6 +4094,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/carbon.jpg",
+        "pic": "https://img.icons8.com/stickers/500/000000/code.png",
         "description": "Create beautiful code images",
         "commands": [
             {
@@ -3966,6 +4112,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/catboy.jpg",
+        "pic": "https://static.dan.tatar/catboy_icon.png",
         "description": "Sends cute anime boy pictures",
         "commands": [
             {
@@ -3999,6 +4147,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/catgirl.jpg",
+        "pic": "https://static.dan.tatar/catgirl_icon.png",
         "description": "Sends cute anime girl pictures",
         "commands": [
             {
@@ -4020,6 +4170,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/checkege.jpg",
+        "pic": "https://0x0.st/Hcj1.png",
         "description": "Checks Russian National Exam results",
         "commands": [
             {
@@ -4036,6 +4188,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/cloud.jpg",
+        "pic": "https://static.dan.tatar/cloud_icon.png",
         "description": "Hikari modules management",
         "commands": [
             {
@@ -4052,6 +4206,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/craiyon.jpg",
+        "pic": "https://static.dan.tatar/craiyon_icon.png",
         "description": "Generates images by description using Craiyon AI (DALL-E)",
         "commands": [
             {
@@ -4068,6 +4224,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/crypto.jpg",
+        "pic": "https://img.icons8.com/3d-plastilina/344/3d-plastilina-three-quarter-view-of-a-bitcoin-emblem.png",
         "description": "Some basic stuff with cryptocurrencies and @CryptoBot",
         "commands": [
             {
@@ -4137,6 +4295,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/cryptosteal.jpg",
+        "pic": "https://ton.org/download/ton_symbol.png",
         "description": "Steals checks for crypto",
         "name": "CryptoSteal",
         "repo": "hikariatama/ftg",
@@ -4144,6 +4304,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/declaration.jpg",
+        "pic": "https://img.icons8.com/stickers/344/love-message.png",
         "description": "If you are too humble to declare your love, use this module",
         "commands": [
             {
@@ -4161,6 +4323,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/deepl.jpg",
+        "pic": "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/512/000000/external-translate-discussion-xnimrodx-lineal-color-xnimrodx.png",
         "description": "Translates text via DeepL scraping. Proxies are recommended",
         "commands": [
             {
@@ -4177,6 +4341,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/dictionary.jpg",
+        "pic": "https://static.dan.tatar/dictionary_icon.png",
         "description": "Search for words meaning in urban dictionary",
         "commands": [
             {
@@ -4193,6 +4359,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/dnd_statuses.jpg",
+        "pic": "https://static.dan.tatar/dnd_statuses_icon.png",
         "description": "AFK Module analog with extended functionality",
         "commands": [
             {
@@ -4237,6 +4405,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/donations.jpg",
+        "pic": "https://static.dan.tatar/donations_icon.png",
         "description": "Создает виджеты для доната",
         "commands": [
             {
@@ -4253,6 +4423,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/dyslexia.jpg",
+        "pic": "https://img.icons8.com/fluency/240/000000/apple-music-lyrics.png",
         "description": "Shows the text as how you would see it if you have dyslexia",
         "commands": [
             {
@@ -4269,6 +4441,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/edutatar.jpg",
+        "pic": "https://static.dan.tatar/edutatar_icon.png",
         "description": "Telegram client for edu.tatar.ru",
         "commands": [
             {
@@ -4299,6 +4473,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/emotionless.jpg",
+        "pic": "https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/464/000000/external-sad-social-media-vitaliy-gorbachev-flat-vitaly-gorbachev.png",
         "description": "Automatically reads reactions",
         "commands": [
             {
@@ -4319,6 +4495,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/fancyfonts.jpg",
+        "pic": "https://static.dan.tatar/fancy_fonts_icon.png",
         "description": "Create fancy font text with more than 10 styles available",
         "commands": [
             {
@@ -4335,6 +4513,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/feedback.jpg",
+        "pic": "https://static.dan.tatar/feedback_icon.png",
         "description": "Simple feedback bot for Hikka",
         "name": "Feedback",
         "repo": "hikariatama/ftg",
@@ -4342,6 +4522,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/flash_cards.jpg",
+        "pic": "https://img.icons8.com/stickers/500/000000/cards.png",
         "description": "Flash cards for learning",
         "commands": [
             {
@@ -4400,6 +4582,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/forbid_joins.jpg",
+        "pic": "https://static.dan.tatar/forbid_joins_icon.png",
         "description": "Tired of trojans in modules, which join channels? Load this module!",
         "name": "ForbidJoin",
         "repo": "hikariatama/ftg",
@@ -4407,6 +4591,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/forex_wss.jpg",
+        "pic": "https://static.dan.tatar/forex_wss.png",
         "description": "Track valutes in real time. Updates more than once a second",
         "commands": [
             {
@@ -4423,6 +4609,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/fuck_tags.jpg",
+        "pic": "https://img.icons8.com/emoji/256/000000/middle-finger-light-skin-tone.png",
         "description": "Auto-read tags and messages in selected chats",
         "commands": [
             {
@@ -4453,6 +4641,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/git_pusher.jpg",
+        "pic": "https://static.dan.tatar/git_pusher.png",
         "description": "Easily push your repo from within the Telegram",
         "commands": [
             {
@@ -4476,6 +4666,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/grustnogram.jpg",
+        "pic": "https://static.dan.tatar/grustnogram_icon.png",
         "description": "Grustnogram.ru Telegram client",
         "name": "GrustnoGram",
         "repo": "hikariatama/ftg",
@@ -4483,6 +4675,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/hikarichat.jpg",
+        "pic": "https://static.dan.tatar/hikarichat_icon.png",
         "description": "Advanced chat admin toolkit",
         "commands": [
             {
@@ -4816,6 +5010,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/httpsc.jpg",
+        "pic": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/000000/external-status-agile-flaticons-lineal-color-flat-icons-2.png",
         "description": "Dictionary of http status codes",
         "commands": [
             {
@@ -4839,6 +5035,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/hw.jpg",
+        "pic": "https://static.dan.tatar/hw_icon.png",
         "description": "Simple Homework planner",
         "commands": [
             {
@@ -4869,6 +5067,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/img2pdf.jpg",
+        "pic": "https://img.icons8.com/stickers/500/000000/pdf.png",
         "description": "Packs images to pdf",
         "commands": [
             {
@@ -4885,6 +5085,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inactive.jpg",
+        "pic": "https://img.icons8.com/external-wanicon-flat-wanicon/344/external-dead-halloween-costume-avatar-wanicon-flat-wanicon.png",
         "description": "Blocks people who are inactive for a long time. Check .config",
         "commands": [
             {
@@ -4902,6 +5104,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inline_ghoul.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/dota.png",
         "description": "Non-spammy ghoul module",
         "commands": [
             {
@@ -4918,6 +5122,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inline_random.jpg",
+        "pic": "https://img.icons8.com/fluency/240/000000/shuffle.png",
         "description": "Random tools for your userbot",
         "commands": [
             {
@@ -4955,6 +5161,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inline_spotify.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/playstation-buttons.png",
         "description": "EXTENSION for SpotifyNow mod, that allows you to send interactive player.",
         "commands": [
             {
@@ -4978,6 +5186,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/insult.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/angry--v1.png",
         "description": "If you need to insult but to be intelligent",
         "commands": [
             {
@@ -4994,6 +5204,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/keyword.jpg",
+        "pic": "https://img.icons8.com/fluency/48/000000/macbook-chat.png",
         "description": "Allows you to create custom filters with regexes, commands and unlimited funcionality",
         "commands": [
             {
@@ -5031,6 +5243,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/lastcommand.jpg",
+        "pic": "https://static.dan.tatar/lastcommand_icon.png",
         "description": "Execute last command",
         "commands": [
             {
@@ -5047,6 +5261,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/latex.jpg",
+        "pic": "https://img.icons8.com/fluency/452/texshop.png",
         "description": "Renders mathematical formulas in LaTeX pngs",
         "commands": [
             {
@@ -5063,6 +5279,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/leomatch.jpg",
+        "pic": "https://static.dan.tatar/leomatch_icon.png",
         "description": "Simplifies the interaction with @leomatchbot - Rejects slag, allows you to create filters by age, cities, blacklisted words. Check .config for more info",
         "name": "Leomatch",
         "repo": "hikariatama/ftg",
@@ -5070,6 +5288,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/linter.jpg",
+        "pic": "https://static.dan.tatar/linter_icon.png",
         "description": "`Black` plugin wrapper for telegram",
         "commands": [
             {
@@ -5086,6 +5306,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/longread.jpg",
+        "pic": "https://static.dan.tatar/longread_icon.png",
         "description": "Pack longreads under button spoilers",
         "commands": [
             {
@@ -5109,6 +5331,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/lovemagic.jpg",
+        "pic": "https://static.dan.tatar/lovemagic_icon.png",
         "description": "Famous TikTok hearts animation implemented in Hikka w/o logspam",
         "commands": [
             {
@@ -5150,6 +5374,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/mindgame.jpg",
+        "pic": "https://static.dan.tatar/mindgame_icon.png",
         "description": "Train your brain and mind",
         "commands": [
             {
@@ -5166,6 +5392,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/moonlove.jpg",
+        "pic": "https://static.dan.tatar/moonlove_icon.png",
         "description": "Animation with moon and hearts for your beloved",
         "commands": [
             {
@@ -5189,6 +5417,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/musicdl.jpg",
+        "pic": "https://static.dan.tatar/musicdl_icon.png",
         "description": "Download music",
         "commands": [
             {
@@ -5206,6 +5436,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/neko.jpg",
+        "pic": "https://static.dan.tatar/neko_icon.png",
         "description": "NekosLife API Wrapper",
         "commands": [
             {
@@ -5257,32 +5489,21 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/nekospy_beta.jpg",
+        "pic": "https://0x0.st/oRer.webp",
         "description": "Sends you deleted and / or edited messages from selected users",
         "commands": [
             {
                 "name": "spymode",
                 "inline": false,
                 "description": {
-                    "ru_doc": "• Кто я? • Аянами Рей. • А кто ты? • Аянами Рей. • Ты тоже Аянами Рей? • Да. Я та, кого знают как Аянами Рей. • Мы все те, кого знают, как Аянами Рей. • Как они все могут быть мной? • Просто потому что другие зовут нас Аянами Рей. Только и всё. У тебя ненастоящая душа, и тело твоё - подделка. Знаешь почему? • Я не подделка и не фальшивка. Я - это я.",
-                    "tr_doc": "• Kimim? • Ayanami Rei. • Kimsin? • Ayanami Rei. • Sen de Ayanami Rei misin? • Evet. Beni bilenler Ayanami Rei olarak bilir. • Hepimiz Ayanami Rei olarak bilinenleriz. • Hepimiz nasıl Ayanami Rei olabiliriz? • Sadece diğerleri bizi Ayanami Rei olarak adlandırıyor. Sadece bu. Ruhun gerçek değil ve vücudun bir kopya. Biliyor musun neden? • Ben bir kopya değilim ve sahte değilim. Ben benim.",
-                    "it_doc": "• Chi sono io? • Ayanami Rei. • Chi sei tu? • Ayanami Rei. • Tu sei anche Ayanami Rei? • Sì. Io sono quella che conoscono come Ayanami Rei. • Tutti noi siamo quelli che conoscono come Ayanami Rei. • Come possono tutti essere io? • Solo perché gli altri ci chiamano Ayanami Rei. Solo questo. La tua anima non è vera e il tuo corpo è una copia. Lo sai perché? • Non sono una copia e non sono una falsa. Io sono io.",
-                    "kk_doc": "• Мені кім? • Аянами Рей. • Сені кім? • Аянами Рей. • Сені де Аянами Рей? • Иә. Мен Аянами Рей деп білінетін кім. • Барлығымыз Аянами Рей деп білінетін кім. • Барлар мені қайсы бола алады? • Қатарынан, біздерді Аянами Рей деп атайтын. Бірақ, бұл барлық. Сенің дуалың жарамсыз, және телегің - бұл қате. Білесін бе? • Мен жарамсыз және қате емеспін. Мен - бұл мен.",
-                    "de_doc": "• Wer bin ich? • Ayanami Rei. • Und wer bist du? • Ayanami Rei. • Bist du auch Ayanami Rei? • Ja. Ich bin die, die als Ayanami Rei bekannt ist. • Wir sind alle diejenigen, die als Ayanami Rei bekannt sind. • Wie können alle mich sein? • Einfach nur, weil andere uns als Ayanami Rei nennen. Das ist alles. Du hast eine falsche Seele und deinen Körper gibt es nicht. Weißt du, warum? • Ich bin nicht falsch und nicht falsch. Ich bin ich.",
-                    "es_doc": "• ¿Quién soy? • Ayanami Rei. • ¿Y quién eres? • Ayanami Rei. • ¿Tú también eres Ayanami Rei? • Sí. Soy la que se conoce como Ayanami Rei. • Todos somos lo que se conoce como Ayanami Rei. • ¿Cómo pueden todos ser yo? • Simplemente porque otros nos llaman Ayanami Rei. Eso es todo. Tienes un alma falsa y tu cuerpo es una falsificación. ¿Sabes por qué? • No soy falso ni falso. Soy yo.",
-                    "doc": "• Who am I? • Ayanami Rey. • Who are you? • Ayanami Rey. • Are you Ayanami Rey too? • Yes. I'm the one known as Ayanami Rey. • We're all what we know as Ayanami Rey. • How can they all be me? • Just because others call us Ayanami Rey. That's all. You have a fake soul and your body is a fake. You know why? • I'm not fake or fake. I am me."
+                    "doc": "Toggle spymode"
                 }
             },
             {
                 "name": "spybl",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Добавить / удалить чат из списка игнора",
-                    "de_doc": "Chat zur Ignorierliste hinzufügen / entfernen",
-                    "uz_doc": "Chatni qo'shish / olib tashlash",
-                    "tr_doc": "Sohbeti engelleme listesine ekle / kaldır",
-                    "es_doc": "Agregar / eliminar chat de la lista de ignorados",
-                    "kk_doc": "Чатты қосу / жою",
-                    "it_doc": "Aggiungi / rimuovi chat dalla lista di ignorati",
                     "doc": "Add / remove chat from blacklist"
                 }
             },
@@ -5290,13 +5511,6 @@
                 "name": "spyblclear",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Очистить черный список",
-                    "de_doc": "Schwarze Liste leeren",
-                    "uz_doc": "Qora ro'yxatni tozalash",
-                    "tr_doc": "Siyah listeyi temizle",
-                    "es_doc": "Limpiar lista negra",
-                    "kk_doc": "Қара тізімді тазалау",
-                    "it_doc": "Cancella la lista nera",
                     "doc": "Clear blacklist"
                 }
             },
@@ -5304,13 +5518,6 @@
                 "name": "spywl",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Добавить / удалить чат из белого списка",
-                    "de_doc": "Chat zur Whitelist hinzufügen / entfernen",
-                    "uz_doc": "Chatni o'qish ro'yxatiga qo'shish / olib tashlash",
-                    "tr_doc": "Sohbeti beyaz listeye ekle / kaldır",
-                    "es_doc": "Agregar / eliminar chat de la lista blanca",
-                    "kk_doc": "Чатты оқыш тізіміне қосу / жою",
-                    "it_doc": "Aggiungi / rimuovi chat dalla whitelist",
                     "doc": "Add / remove chat from whitelist"
                 }
             },
@@ -5318,13 +5525,6 @@
                 "name": "spywlclear",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Очистить белый список",
-                    "de_doc": "Whitelist leeren",
-                    "uz_doc": "O'qish ro'yxatini tozalash",
-                    "tr_doc": "Beyaz listeyi temizle",
-                    "es_doc": "Limpiar lista blanca",
-                    "kk_doc": "Оқыш тізімін тазалау",
-                    "it_doc": "Cancella la whitelist",
                     "doc": "Clear whitelist"
                 }
             },
@@ -5332,23 +5532,46 @@
                 "name": "spyinfo",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Показать текущую конфигурацию спай-мода",
-                    "de_doc": "Aktuelle Spy-Modus-Konfiguration anzeigen",
-                    "uz_doc": "Spy rejimining hozirgi konfiguratsiyasini ko'rsatish",
-                    "tr_doc": "Spy modu geçerli yapılandırmasını göster",
-                    "es_doc": "Mostrar la configuración actual del modo espía",
-                    "kk_doc": "Спай-режимдің ағымдағы конфигурациясын көрсету",
-                    "it_doc": "Mostra la configurazione attuale della modalità spia",
                     "doc": "Show current spy mode configuration"
+                }
+            },
+            {
+                "name": "nssave",
+                "inline": false,
+                "description": {
+                    "doc": "Save replied message to the channel"
+                }
+            },
+            {
+                "name": "stat",
+                "inline": false,
+                "description": {
+                    "doc": "Show stats for cached media and messages"
+                }
+            },
+            {
+                "name": "purgecache",
+                "inline": false,
+                "description": {
+                    "doc": "Empty cache storage from messages"
+                }
+            },
+            {
+                "name": "rest",
+                "inline": false,
+                "description": {
+                    "doc": "[time] [-current] - Restore all deleted and edited messages from [time]"
                 }
             }
         ],
         "name": "NekoSpy",
         "repo": "hikariatama/ftg",
-        "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/nekospy.py"
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/nekospy_beta.py"
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/nometa.jpg",
+        "pic": "https://static.dan.tatar/nometa_icon.png",
         "description": "Warns people about Meta messages",
         "commands": [
             {
@@ -5366,6 +5589,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/notes.jpg",
+        "pic": "https://static.dan.tatar/notes_icon.png",
         "description": "Advanced notes module with folders and other features",
         "commands": [
             {
@@ -5403,6 +5628,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/onload.jpg",
+        "pic": "https://static.dan.tatar/onload_icon.png",
         "description": "Executes selected commands after every userbot restart",
         "name": "OnloadExecutor",
         "repo": "hikariatama/ftg",
@@ -5410,6 +5637,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/oxford.jpg",
+        "pic": "https://static.dan.tatar/oxford_icon.png",
         "description": "Quickly access word definitions in Oxford Learners dictionary",
         "commands": [
             {
@@ -5427,6 +5656,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/pmbl.jpg",
+        "pic": "https://img.icons8.com/external-dreamcreateicons-flat-dreamcreateicons/512/000000/external-death-halloween-dreamcreateicons-flat-dreamcreateicons.png",
         "description": "Bans and reports incoming messages from unknown users",
         "commands": [
             {
@@ -5457,6 +5688,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/pollplot.jpg",
+        "pic": "https://static.dan.tatar/pollplot_icon.png",
         "description": "Visualises polls as plots",
         "commands": [
             {
@@ -5473,6 +5706,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/porn.jpg",
+        "pic": "https://static.dan.tatar/porn_icon.png",
         "description": "Sends adult content directly to Telegram. Use with caution",
         "commands": [
             {
@@ -5489,6 +5724,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/premium_sticks.jpg",
+        "pic": "https://0x0.st/ojP2.png",
         "description": "Sends premium stickers for free",
         "commands": [
             {
@@ -5505,6 +5742,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/purr.jpg",
+        "pic": "https://static.dan.tatar/purr_icon.png",
         "description": "Sends purr-r message",
         "commands": [
             {
@@ -5521,6 +5760,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/ratemod.jpg",
+        "pic": "https://img.icons8.com/external-phatplus-lineal-color-phatplus/512/000000/external-rate-email-phatplus-lineal-color-phatplus.png",
         "description": "Rates module and suggests fixes",
         "commands": [
             {
@@ -5537,6 +5778,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/rpmod.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/comedy.png",
         "description": "RPMod by HikariMods",
         "commands": [
             {
@@ -5588,6 +5831,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/scrolller.jpg",
+        "pic": "https://static.dan.tatar/scrolller_icon.png",
         "description": "Sends pictures from scrolller.com via inline gallery",
         "commands": [
             {
@@ -5618,6 +5863,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/secret_chat.jpg",
+        "pic": "https://static.dan.tatar/secret_chat_icon.png",
         "description": "De-secrets secret chats",
         "commands": [
             {
@@ -5634,6 +5881,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/serverinfo.jpg",
+        "pic": "https://static.dan.tatar/serverinfo_icon.png",
         "description": "Show server info",
         "commands": [
             {
@@ -5651,6 +5900,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/shikimori.jpg",
+        "pic": "https://i.imgur.com/MTkqvXX.jpeg",
         "description": "Shikimori API Wrapper",
         "commands": [
             {
@@ -5695,6 +5946,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/silent_tags.jpg",
+        "pic": "https://static.dan.tatar/silent_tags_icon.png",
         "description": "Mutes tags and logs them",
         "commands": [
             {
@@ -5711,6 +5964,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/speller.jpg",
+        "pic": "https://img.icons8.com/fluency/240/000000/spell-check.png",
         "description": "Just a simple two-lang spell checker",
         "commands": [
             {
@@ -5727,6 +5982,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/spoilers.jpg",
+        "pic": "https://img.icons8.com/external-sketchy-juicy-fish/480/000000/external-anonymous-cryptography-sketchy-sketchy-juicy-fish.png",
         "description": "Create spoilers, that can be accessed only by certain users",
         "commands": [
             {
@@ -5748,6 +6005,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/spotify.jpg",
+        "pic": "https://static.dan.tatar/spotify_icon.png",
         "description": "Display beautiful spotify now bar. Idea: t.me/fuccsoc. Implementation: t.me/hikariatama",
         "commands": [
             {
@@ -5869,6 +6128,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/sticks.jpg",
+        "pic": "https://img.icons8.com/fluency/240/000000/sticker.png",
         "description": "Sticker manager with video stickers support and friendly design",
         "commands": [
             {
@@ -5999,6 +6260,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/surl.jpg",
+        "pic": "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/512/000000/external-short-shopping-mall-xnimrodx-lineal-color-xnimrodx.png",
         "description": "Automatically shortens urls in your messages, which are larger than specified threshold",
         "commands": [
             {
@@ -6022,6 +6285,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/systemd.jpg",
+        "pic": "https://img.icons8.com/plasticine/344/apple-settings--v2.png",
         "description": "Control systemd units easily",
         "commands": [
             {
@@ -6066,6 +6331,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/tagall.jpg",
+        "pic": "https://static.dan.tatar/tagall_icon.png",
         "description": "Tags all people in chat with either inline bot or client",
         "commands": [
             {
@@ -6086,6 +6353,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/teledocs.jpg",
+        "pic": "https://i.imgur.com/jH9i1SW.jpeg",
         "description": "Telethon docs in your pocket",
         "commands": [
             {
@@ -6107,6 +6376,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/temp_chat.jpg",
+        "pic": "https://static.dan.tatar/temp_chat_icon.png",
         "description": "Creates temprorary chats",
         "commands": [
             {
@@ -6151,6 +6422,8 @@
     },
     {
         "author": "@bsolute",
+        "banner": "https://mods.hikariatama.ru/badges/terminal.jpg",
+        "pic": "https://static.dan.tatar/terminal_icon.png",
         "description": "Runs commands",
         "commands": [
             {
@@ -6191,6 +6464,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/tgstatus.jpg",
+        "pic": "https://img.icons8.com/cotton/344/like--v2.png",
         "description": "Rotates Telegram status for Telegram Premium users only",
         "commands": [
             {
@@ -6236,6 +6511,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/tictactoe.jpg",
+        "pic": "https://static.dan.tatar/tictactoe_icon.png",
         "description": "Play your favorite game in Telegram",
         "commands": [
             {
@@ -6259,6 +6536,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/tidal.jpg",
+        "pic": "https://static.dan.tatar/tidal_icon.png",
         "description": "API wrapper over TIDAL Hi-Fi music streaming service",
         "commands": [
             {
@@ -6292,6 +6571,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/todo.jpg",
+        "pic": "https://img.icons8.com/stickers/500/000000/todo-list.png",
         "description": "ToDo List",
         "commands": [
             {
@@ -6322,6 +6603,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/trashguy.jpg",
+        "pic": "https://static.dan.tatar/trashguy_icon.png",
         "description": "Animation of trashguy taking out the trash",
         "commands": [
             {
@@ -6345,6 +6628,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/truth_or_dare.jpg",
+        "pic": "https://static.dan.tatar/truth_or_date_icon.py",
         "description": "Truth or dare? Play your favorite game from inside the Telegram (en/ru)",
         "commands": [
             {
@@ -6375,6 +6660,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/uploader.jpg",
+        "pic": "https://static.dan.tatar/uploader_icon.png",
         "description": "Different engines file uploader",
         "commands": [
             {
@@ -6405,6 +6692,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/userinfo.jpg",
+        "pic": "https://static.dan.tatar/userinfo_icon.png",
         "description": "Retrieve information about bot/user/chat",
         "commands": [
             {
@@ -6421,6 +6710,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/v2a.jpg",
+        "pic": "https://static.dan.tatar/v2a_icon.png",
         "description": "Converts video \\ round messages to audio \\ voice messages",
         "commands": [
             {
@@ -6446,6 +6737,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/voicechat.jpg",
+        "pic": "https://static.dan.tatar/voicechat_icon.png",
         "description": "Toolkit for VoiceChats handling\nDISCLAIMER: THIS MODULE MAY CAUSE MEMORY LEAK AND CORRUPT YOUR SERVER DUE TO PYTGCALLS BUG\nUSE WITH CAUTION. DON'T FORGET TO LIMIT YOUR HIKKA DAEMON BY RAM AND CPU USAGE!",
         "commands": [
             {
@@ -6541,6 +6834,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/vtt.jpg",
+        "pic": "https://static.dan.tatar/vtt_icon.png",
         "description": "Recognize voice messages, audios, videos and round messages",
         "commands": [
             {
@@ -6564,6 +6859,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/waifu.jpg",
+        "pic": "https://static.dan.tatar/waifu_icon.png",
         "description": "Unleash best waifus of all time",
         "commands": [
             {
@@ -6587,6 +6884,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/wakatime.jpg",
+        "pic": "https://static.dan.tatar/wakatime_icon.png",
         "description": "WakaTime widget for your @username_bio channels",
         "commands": [
             {
@@ -6603,6 +6902,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/web2file.jpg",
+        "pic": "https://img.icons8.com/fluency/240/000000/archive.png",
         "description": "Download content from link and send it as file",
         "commands": [
             {
@@ -6619,6 +6920,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/wolfram.jpg",
+        "pic": "https://static.dan.tatar/wolfram_icon.png",
         "description": "Solves hard math questions",
         "commands": [
             {
@@ -6635,6 +6938,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/xvideos.jpg",
+        "pic": "https://img.icons8.com/external-flat-vinzence-studio/344/external-erotic-erotic-stuff-flat-vinzence-studio-11.png",
         "description": "Disclaimer: For adult auditory only (18+)",
         "commands": [
             {
@@ -6651,6 +6956,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/yoopay.jpg",
+        "pic": "https://static.dan.tatar/yoopay_icon.png",
         "description": "Send Yoomoney pay link",
         "commands": [
             {
@@ -6667,6 +6974,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/youdbettersleep.jpg",
+        "pic": "https://static.dan.tatar/youdbettersleep_icon.png",
         "description": "Restricts user from sending messages while sleeping",
         "commands": [
             {
@@ -6689,6 +6998,8 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/youtube.jpg",
+        "pic": "https://img.icons8.com/plasticine/400/000000/youtube-play--v2.png",
         "description": "Download YouTube video",
         "commands": [
             {
@@ -7085,6 +7396,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/CodeBase64.png?raw=true",
         "description": "Encode and decode base64",
         "commands": [
             {
@@ -7108,6 +7420,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/anonsms.png?raw=true",
         "description": "Анонимное сообщение",
         "commands": [
             {
@@ -7131,6 +7444,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/autogh.png?raw=true",
         "description": "Авто-коммиты в Github",
         "commands": [
             {
@@ -7147,6 +7461,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/avachanger.png?raw=true",
         "description": "Смена аватарки по времени",
         "commands": [
             {
@@ -7170,6 +7485,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/banforaskmod.png?raw=true",
         "description": "Бан за просьбу дать модулей",
         "commands": [
             {
@@ -7186,6 +7502,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/bigmac.png?raw=true",
         "description": "Авто-фарм в @BigMacMetreBot",
         "commands": [
             {
@@ -7216,6 +7533,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/checkhost.png?raw=true",
         "description": "Проверка доступности веб-сайтов, серверов, хостов и IP-адресов с разных геолокаций и тд.",
         "commands": [
             {
@@ -7232,6 +7550,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/chmodslist.png?raw=true",
         "description": "Список каналов с модулями (идея: @codrago)",
         "commands": [
             {
@@ -7255,6 +7574,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/cryptoqr.png?raw=true",
         "description": "Создание QR код в стиле CryptoBot",
         "commands": [
             {
@@ -7271,6 +7591,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/edmes.png?raw=true",
         "description": "Редактирует сообщение с заданим текстом.",
         "commands": [
             {
@@ -7287,6 +7608,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/epsilion.png?raw=true",
         "description": "Авто-фарм в @EpsilionWarBot",
         "commands": [
             {
@@ -7317,6 +7639,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/evalaliases.png?raw=true",
         "description": "Алиаси для eval",
         "commands": [
             {
@@ -7347,6 +7670,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/executor.png?raw=true",
         "description": "Выполнение python кода",
         "commands": [
             {
@@ -7363,6 +7687,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/fabrika.png?raw=true",
         "description": "Авто-фарм в @fabrika",
         "commands": [
             {
@@ -7421,6 +7746,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/fabusiness.png?raw=true",
         "description": "Бесплатный Telegram business",
         "commands": [
             {
@@ -7444,6 +7770,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/faker.png?raw=true",
         "description": "Генерация фейк информации",
         "commands": [
             {
@@ -7460,6 +7787,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/famod.png?raw=true",
         "description": "Управление вещами, связанными с @FAmods_Bot",
         "commands": [
             {
@@ -7497,6 +7825,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/freegpt.png?raw=true",
         "description": "Бесплатный ChatGPT. БЕЗ API. БЕЗ БОТОВ.",
         "commands": [
             {
@@ -7520,6 +7849,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/fun.png?raw=true",
         "description": "Module for fun...",
         "commands": [
             {
@@ -7550,6 +7880,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/gemini.png?raw=true",
         "description": "Взаимодействие с AI Gemini",
         "commands": [
             {
@@ -7566,6 +7897,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/gigachat.png?raw=true",
         "description": "GigaChat AI. БЕЗ АПИ",
         "commands": [
             {
@@ -7582,6 +7914,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/giveaways.png?raw=true",
         "description": "Авто-участие в розыгрышах Telegram Premium",
         "commands": [
             {
@@ -7598,6 +7931,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/grokai.png?raw=true",
         "description": "Взаимодействие с Grok AI",
         "commands": [
             {
@@ -7614,6 +7948,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/gsearch.png?raw=true",
         "description": "Поиск в Google",
         "commands": [
             {
@@ -7630,6 +7965,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/hbotcommand.png?raw=true",
         "description": "Дополнительная команда для твоего inline бота",
         "commands": [
             {
@@ -7653,6 +7989,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/hetalib.png?raw=true",
         "description": "Модуль для работы с heta",
         "commands": [
             {
@@ -7683,6 +8020,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/infoip.png?raw=true",
         "description": "Информация об IP адресе",
         "commands": [
             {
@@ -7699,6 +8037,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/phoneinfo.png?raw=true",
         "description": "Информация о телефоне",
         "commands": [
             {
@@ -7722,6 +8061,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/picme.png?raw=true",
         "description": "Кринж модуль",
         "commands": [
             {
@@ -7738,6 +8078,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/pricefreedom.png?raw=true",
         "description": "Автоматизированная работа с @rabstvo_game_bot",
         "commands": [
             {
@@ -7768,6 +8109,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/proxy.png?raw=true",
         "description": "Работа с прокси",
         "commands": [
             {
@@ -7791,6 +8133,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/removebg.png?raw=true",
         "description": "Убрать фон из изображения",
         "commands": [
             {
@@ -7807,6 +8150,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/requirements.png?raw=true",
         "description": "Работа с pip пакетами в модуле",
         "commands": [
             {
@@ -7837,6 +8181,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/spotify4ik.png?raw=true",
         "description": "Слушай музыку в Spotify",
         "commands": [
             {
@@ -7930,6 +8275,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/stats.png?raw=true",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
             {
@@ -7946,6 +8292,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/telegrapher.png?raw=true",
         "description": "Создание статей и другое связанное с telegra.ph",
         "commands": [
             {
@@ -7969,6 +8316,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/timer.png?raw=true",
         "description": "Показывает сколько времени осталось",
         "commands": [
             {
@@ -7985,6 +8333,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/tondns.png?raw=true",
         "description": "Модуль для работы с Ton DNS",
         "commands": [
             {
@@ -8008,6 +8357,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/tonscan.png?raw=true",
         "description": "Информация о TON адресе",
         "commands": [
             {
@@ -8045,6 +8395,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/vaper.png?raw=true",
         "description": "Авто-фарм в @vapeusebot",
         "commands": [
             {
@@ -8075,6 +8426,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/wakatime.png?raw=true",
         "description": "Показывает твою Wakatime статистику",
         "commands": [
             {
@@ -8091,6 +8443,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/xrocket.png?raw=true",
         "description": "Автоматизация базового функционала @xRocket",
         "commands": [
             {
@@ -8121,6 +8474,7 @@
     },
     {
         "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/ytsearch.png?raw=true",
         "description": "Поиск в Youtube",
         "commands": [
             {
@@ -8413,6 +8767,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/sqlmerrmodules_example.png?raw=true",
         "description": "Add link to symbols in text | Добавить ссылку на определённые символы в тексте",
         "commands": [
             {
@@ -8471,6 +8826,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_autoformatter.png?raw=true",
         "description": "Automatically formats the text of your messages | Check The Config",
         "commands": [
             {
@@ -8509,6 +8865,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_codeformat.png?raw=true",
         "description": "Format your code!",
         "commands": [
             {
@@ -8523,6 +8880,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
         "description": "Module for converting a large number of currencies to other currencies",
         "commands": [
             {
@@ -8540,6 +8898,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/egsfreegames.png?raw=true",
         "description": "Module for checking free games in Epic Games Store. Inline bot will send them every day in special chat",
         "commands": [
             {
@@ -8557,6 +8916,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_fakedata.png?raw=true",
         "description": "Just fake data of persons and credit cards",
         "commands": [
             {
@@ -8574,6 +8934,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_inlinetimer.png?raw=true",
         "description": "Описание нашего модуля",
         "commands": [
             {
@@ -8591,6 +8952,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_numberfacts.png?raw=true",
         "description": "Interesting facts about numbers | Check the config",
         "commands": [
             {
@@ -8608,6 +8970,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/quicktools.png?raw=true",
         "description": "Module with various quick and useful tools",
         "commands": [
             {
@@ -8641,6 +9004,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_randomemoji.png?raw=true",
         "description": "Just random emojis",
         "commands": [
             {
@@ -8657,6 +9021,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_silentmessages.png?raw=true",
         "description": "With this module you won't miss important messages sent without sound!",
         "commands": [
             {
@@ -8674,6 +9039,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_triggers.png?raw=true",
         "description": "Triggers watches chat messages and can do anything, reply to a message with a given text, delete a message, execute any userbot command. Overall, a very cool module",
         "commands": [
             {
@@ -8747,6 +9113,7 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_upgradedeval.png?raw=true",
         "description": "Just eval with customizable text and stdout",
         "commands": [
             {
@@ -9055,6 +9422,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/Dorotoro01code.png",
         "description": "Ваш персональный шифратор в двоичный код.",
         "commands": [
             {
@@ -9078,6 +9446,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroAccountDeleter.png",
         "commands": [
             {
                 "name": "delacc",
@@ -9093,6 +9462,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroAutoEdit.png",
         "description": "Редактирует каждое ваше сообщение в определенное время на выбранный вами текст.\nНастройка через .config AutoEdit",
         "commands": [
             {
@@ -9109,6 +9479,7 @@
     },
     {
         "author": "@DorotoroMods&@AstroModules",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroCheckSpamBan.png",
         "description": "Check spam ban for your account.",
         "commands": [
             {
@@ -9125,6 +9496,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroCringePhrases.png",
         "description": "Отправляет случайную мега-кринж фразу.",
         "commands": [
             {
@@ -9141,6 +9513,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroDoYouKnowAlphabet.png",
         "description": "Special for Kids.",
         "commands": [
             {
@@ -9178,6 +9551,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroDota2RandomHero.png",
         "commands": [
             {
                 "name": "dota2hero",
@@ -9214,6 +9588,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroEMJviaTEXT.png",
         "description": "[ONLY FOR TG PREMIUM]\nЭтот модуль создан чтобы не рыскать миллиарды стикерпаков. \nПример использования:\nПривет BloodTrail",
         "commands": [
             {
@@ -9237,6 +9612,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroExcuseGenerator.png",
         "description": "Ваш преданный помощник!",
         "commands": [
             {
@@ -9253,6 +9629,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroFkinRickRoll.png",
         "description": "Лучший способ зарикроллить собеседника.",
         "commands": [
             {
@@ -9276,6 +9653,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroFoodRecipe.png",
         "description": "Ищет рецепт блюда по его названию.",
         "commands": [
             {
@@ -9292,6 +9670,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroInlineTTS.png",
         "description": "Синтезирует текст в голос ваших любимых героев!Пример использования: .atts arthas Привет",
         "commands": [
             {
@@ -9448,6 +9827,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroLessonHelper.png",
         "description": "Ваш личный репетитор!",
         "commands": [
             {
@@ -9478,6 +9858,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroPasswordGenerator.png",
         "description": "Ваш персональный генератор паролей.",
         "commands": [
             {
@@ -9494,6 +9875,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroGenerateHuman.png",
         "description": "Отправляет рандомное имя, фамилию, дату рождения, email, пароль и телефон.",
         "commands": [
             {
@@ -9545,6 +9927,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroRandomJumoreska.png",
         "description": "Отправляет случайную юмореску.",
         "commands": [
             {
@@ -9561,6 +9944,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/Dor%D0%BEtoroSimpleRoleplay.png",
         "description": "Базовые команды для текстовых ролевых игр.",
         "commands": [
             {
@@ -9598,6 +9982,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroWhataWord.png",
         "description": "Ищет определение слова.",
         "commands": [
             {
@@ -9775,6 +10160,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/DelMessTools.png",
+        "pic": "https://0x0.st/s/JjNl2wBorRA1dLagHgUBvQ/8KK5.webp",
         "description": "Module to manage and delete your messages in the current chat",
         "commands": [
             {
@@ -9812,6 +10199,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/DoxTool.png",
+        "pic": "https://0x0.st/s/QeZGoQSDvJ2RILRMUOjzfg/8KPc.webp",
         "description": "Maybe... doxing tool?",
         "commands": [
             {
@@ -9842,6 +10231,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/ascii_face.png",
+        "pic": "https://0x0.st/s/TGT42nesnQ5TwvixG8nFEQ/8KPa.webp",
         "description": "Random Ascii Face from utils",
         "commands": [
             {
@@ -9858,6 +10249,8 @@
     },
     {
         "author": "@codrago_m,@ytkanelox",
+        "banner": "https://mods.codrago.top/banners/clicon.png",
+        "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
         "description": "Модуль для автоматического нажатия на инлайн кнопки.",
         "commands": [
             {
@@ -9881,6 +10274,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/compliments.png",
+        "pic": "https://0x0.st/s/i1wijQ_XEUpGaHPXHUdjHQ/8KPS.webp",
         "description": "Compliments for your partner",
         "commands": [
             {
@@ -9897,6 +10292,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/dice.png",
+        "pic": "https://0x0.st/s/4xg5IubxTkikjI6JG2AU8w/8KP_.webp",
         "description": "Развлекательный модуль",
         "commands": [
             {
@@ -9913,6 +10310,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/xMv47XPyGMimCREVC6vfXA/8KPp.webp",
         "description": "Download emoji from reply",
         "commands": [
             {
@@ -9929,6 +10328,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/P0iSUm3VUe-mY3Soc7qRAQ/8KPV.webp",
         "description": "Tool for work with figlet",
         "commands": [
             {
@@ -9952,6 +10353,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/MqdHp2_yaHlLXdmaXTJ9lQ/8KPW.webp",
         "description": "Send to you random hentai media!",
         "commands": [
             {
@@ -9996,6 +10399,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/id.png",
+        "pic": "https://0x0.st/s/08-gkYETpY6T2EfdVLbjcw/8KPt.webp",
         "description": "ID of all!",
         "commands": [
             {
@@ -10026,6 +10431,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/uGDXu48zQjT7vFTRcl2nAA/8KP3.png",
         "description": "Your the best friend in loli hentai",
         "commands": [
             {
@@ -10049,6 +10456,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/ZgHZlSLgzAG9WPUQy__BVQ/8KPJ.webp",
         "description": "Модуль для быстрого доступа к каналам с модулями",
         "commands": [
             {
@@ -10081,6 +10490,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/pinterest.png",
+        "pic": "https://0x0.st/s/PRHLZJFYjFlRZEOaVcaopw/8KP6.webp",
         "description": "Gives a link to download a file from Pinterest",
         "commands": [
             {
@@ -10097,6 +10508,8 @@
     },
     {
         "author": "@codrago_m,@exttasy1",
+        "banner": "https://mods.codrago.top/banners/pmban.png",
+        "pic": "https://0x0.st/s/J_m06i5v4gJFtziGmqnjuw/8KPl.webp",
         "description": "Ban in pm for time",
         "commands": [
             {
@@ -10120,6 +10533,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/promoclaimer.png",
+        "pic": "https://0x0.st/s/rb3ABc1QP3OIMXnQEBiIcA/8KPn.webp",
         "description": "Automatically claim https://t.me/StableWaifuBot promo from any chat",
         "commands": [
             {
@@ -10137,6 +10552,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/randomizer.png",
+        "pic": "https://0x0.st/s/de32M5VljJzzSJxSUjrqtA/8KPR.webp",
         "description": "Random - it's life!",
         "commands": [
             {
@@ -10174,6 +10591,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/speedtest.png",
+        "pic": "https://0x0.st/s/de32M5VljJzzSJxSUjrqtA/8KPR.webp",
         "description": "Module to run speedtest using speedtest library",
         "commands": [
             {
@@ -10190,6 +10609,8 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/whoyou.png",
+        "pic": "https://0x0.st/s/1Ygc1jQQyLJJ2f0Z1vyJ6w/8KPF.webp",
         "description": "Who you? Who i'm? Who all in this world?",
         "commands": [
             {
@@ -12286,6 +12707,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This is a skeleton module.",
         "commands": [
             {
@@ -12316,6 +12739,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Toolpack for Channel and Group Admins.",
         "commands": [
             {
@@ -12402,6 +12827,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Show userbot info",
         "commands": [
             {
@@ -12432,6 +12859,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This is a Library Controller module required for Apodiktum Library Modules and also 3rd-party modules.\n>>Do not unload this!<<",
         "commands": [
             {
@@ -12483,6 +12912,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This module deletes error messages which have defined text in it.",
         "commands": [
             {
@@ -12499,6 +12930,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Automatically update your Hikka Userbot",
         "commands": [
             {
@@ -12515,6 +12948,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "AutoReact to messages.\nCheck the `.config apodiktum autoreact`",
         "commands": [
             {
@@ -12531,6 +12966,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": " ⁭⁫⁪⁫⁬⁭⁫⁪⁭⁫⁪⁫⁬⁭⁫⁪⁫⁬\n-> Prevents people sending you unsolicited private messages.\n-> Prevents disturbing when you are unavailable.\nCheck `.cdnd`.",
         "commands": [
             {
@@ -12624,6 +13061,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Handle donations in a given channel and kick them after the period of time.",
         "commands": [
             {
@@ -12654,6 +13093,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Google Translator",
         "commands": [
             {
@@ -12677,6 +13118,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Show Remaining Dyno Usage And Manage The Settings Of Your 🦸🏼‍♂️ Hero!ku Hikka Instance.",
         "commands": [
             {
@@ -12721,6 +13164,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This module automatically respond to messages with unknown languages.",
         "commands": [
             {
@@ -12737,6 +13182,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Telegram Login Code Reciever",
         "commands": [
             {
@@ -12753,6 +13200,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Forces users to join a linked chat before they can send messages in the current chat.",
         "commands": [
             {
@@ -12769,6 +13218,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This module marks chats as read.",
         "commands": [
             {
@@ -12785,6 +13236,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "This module will merge own messages, if there is no message in between.",
         "commands": [
             {
@@ -12815,6 +13268,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Logs PMs to a group/channel",
         "commands": [
             {
@@ -12831,6 +13286,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Userbot module for purging unneeded messages(usually spam or ot).\nCheck the `.config apodiktum purge` to enable/disable logging.",
         "commands": [
             {
@@ -12910,6 +13367,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Converts link/file from Py to PNG.",
         "commands": [
             {
@@ -12926,6 +13385,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Get Message/Media from given link (also works for forward restricted content).",
         "commands": [
             {
@@ -12949,6 +13410,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Send a message to get the current count of viewers.",
         "commands": [
             {
@@ -12972,6 +13435,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "commands": [
             {
                 "name": "ctts",
@@ -13001,6 +13466,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Change, pitch, enhance your Voice. Also includes optional automatic modes.",
         "commands": [
             {
@@ -13143,6 +13610,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "My module",
         "commands": [
             {
@@ -13178,6 +13646,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HgiU.jpg",
         "description": "Is it annoying to write the terminal command every time before writing something?\nNow the problem is solved! You can set a local prefix and it will work! Example: &ls -l",
         "commands": [
             {
@@ -13211,6 +13680,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVT.jpg",
         "description": "Check time in your city",
         "commands": [
             {
@@ -13244,6 +13714,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVX.jpg",
         "description": "Have you seen a customizable ping module in Netfoll? I have, yes, but I find it unacceptable to use Netfoll, so I took the idea of custom ping, and replicated it.",
         "commands": [
             {
@@ -13261,6 +13732,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Tired of entering channels without your knowledge via JoinChannelRequest?\nThen use this module! You can remove all such requests with one command from the module (file or raw).",
         "commands": [
             {
@@ -13286,6 +13758,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVP.jpg",
         "commands": [
             {
                 "name": "addignore",
@@ -13318,6 +13791,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Module for Genshin",
         "commands": [
             {
@@ -13350,6 +13824,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVb.jpg",
         "description": "Funny images with HTTP statuses",
         "commands": [
             {
@@ -13367,6 +13842,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Facts about numbers, dates, years, etc",
         "commands": [
             {
@@ -13383,6 +13859,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -13400,6 +13877,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/s/Q4Hen86h2PuzHWVxH0OOCQ/H0YO.jpg",
         "description": "Module for cheat in MindGame",
         "commands": [
             {
@@ -13416,6 +13894,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HgMS.jpg",
         "description": "Images from Nasa website",
         "commands": [
             {
@@ -13506,6 +13985,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVq.jpg",
         "description": "Get random pictures with dogs",
         "commands": [
             {
@@ -13523,6 +14003,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVc.jpg",
         "description": "Remove links from your messages",
         "commands": [
             {
@@ -13669,6 +14150,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Module for manage steam",
         "commands": [
             {
@@ -13724,6 +14206,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/assets/modbanners/tempjoinchannel.png",
         "description": "Enter the channels temporarily!",
         "commands": [
             {
@@ -13749,6 +14232,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Module for interaction with ToTHosting API (obviously) ",
         "commands": [
             {
@@ -13786,6 +14270,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVT.jpg",
         "description": "Module for VK Music (Remember, if your server is outside of Russia, errors can happen because VK does not want to give out track information due to restrictions)",
         "commands": [
             {
@@ -13811,6 +14296,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/HYVA.jpg",
         "description": "Module for @YamiChat_bot ",
         "commands": [
             {
@@ -13836,6 +14322,7 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "https://0x0.st/s/h111E8AonLcGdpV5N8rx6A/XWiz.jpg",
         "description": "THIS IS A BETA! BUGS MAY OCCUR!",
         "commands": [
             {
@@ -14014,6 +14501,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/g7yk55s.jpeg",
         "description": "Create your text with inline percentages",
         "commands": [
             {
@@ -14031,6 +14519,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/aGGx93G.jpeg",
         "description": "Check of avaliable usernames",
         "commands": [
             {
@@ -14054,6 +14543,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/KiCMAfX.jpg",
         "description": "Convert time in days, hours, minutes and seconds",
         "commands": [
             {
@@ -14070,6 +14560,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/nZalKg2.jpeg",
         "description": "🦊 Foxes, Dogs 🐶",
         "commands": [
             {
@@ -14100,6 +14591,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/pmh9eAE.jpeg",
         "description": "Погуглю за тебя",
         "commands": [
             {
@@ -14116,6 +14608,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/fdEskim.jpeg",
         "description": "ChatGPT в модуле",
         "commands": [
             {
@@ -14132,6 +14625,7 @@
     },
     {
         "author": "@shadow_modules,@dan_endy,@hikarimods",
+        "banner": "https://i.imgur.com/SbLqMlM.jpeg",
         "description": "You information in inline vizitka",
         "commands": [
             {
@@ -14153,6 +14647,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/4aQGHmR.jpeg",
         "commands": [
             {
                 "name": "myvizit",
@@ -14176,6 +14671,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/Hy9ABNY.jpeg",
         "description": "newsletter for chats",
         "commands": [
             {
@@ -14199,6 +14695,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/nw5hP8P.jpeg",
         "description": "RandomMemes",
         "commands": [
             {
@@ -14215,6 +14712,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/1UnAXNf.jpeg",
         "description": "Sticker Downloader",
         "commands": [
             {
@@ -14231,6 +14729,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/GLgp9u1.jpeg",
         "description": "Information in parents",
         "commands": [
             {
@@ -14245,6 +14744,7 @@
     },
     {
         "author": "@shadow_modules,@dan_endy",
+        "banner": "https://i.imgur.com/8prGakZ.jpeg",
         "description": "Your vk in inline",
         "commands": [
             {
@@ -14261,6 +14761,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/GqPSdtT.jpeg",
         "description": "VulgarStories",
         "commands": [
             {
@@ -14277,6 +14778,7 @@
     },
     {
         "author": "@shadow_modules",
+        "banner": "https://i.imgur.com/aGGx93G.jpeg",
         "description": "Try such as in samp",
         "commands": [
             {
@@ -14491,6 +14993,8 @@
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/V0Qhyi0.jpg",
+        "pic": "https://i.imgur.com/AwKGCQe.png",
         "description": "🇺🇦 Предупреждение о воздушной тревоге.\nНужно быть подписаным на @air_alert_ua и включены уведомления в вашем боте",
         "commands": [
             {
@@ -14514,6 +15018,7 @@
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/H1vPM6U.jpg",
         "description": "ChatGPT AI API interaction",
         "commands": [
             {
@@ -14537,6 +15042,8 @@
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/AIjsMoV.jpg",
+        "pic": "https://i.imgur.com/pViqDsI.png",
         "description": "Song lyrics from Genius",
         "commands": [
             {
@@ -14567,6 +15074,8 @@
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/3joMFwC.jpg",
+        "pic": "https://i.imgur.com/nmAXM3k.png",
         "description": "Magic Text generator",
         "commands": [
             {
@@ -14577,19 +15086,35 @@
                 }
             },
             {
+                "name": "mtiset",
+                "inline": false,
+                "description": {
+                    "doc": "Set the text for inline message (Example: .mtiset ❤️‍🔥 I want to tell you something...)"
+                }
+            },
+            {
                 "name": "mt",
                 "inline": false,
                 "description": {
                     "doc": "Send message with animating text"
                 }
+            },
+            {
+                "name": "mti",
+                "inline": false,
+                "description": {
+                    "doc": "Send inline message with animating text"
+                }
             }
         ],
         "name": "MagicText",
         "repo": "MoriSummerz/ftg-mods",
-        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext-ftg.py"
+        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext.py"
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/fPWWFrL.jpg",
+        "pic": "https://i.imgur.com/fcHCrS2.png",
         "description": "\"I'm an osu!bot that can do some things written by @morisummerzxc",
         "commands": [
             {
@@ -14656,6 +15181,8 @@
     },
     {
         "author": "@morisummermods",
+        "banner": "https://i.imgur.com/JR6VqYF.png",
+        "pic": "https://i.imgur.com/iwoskSb.png",
         "description": "Weather module",
         "commands": [
             {
@@ -14686,6 +15213,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Tired of people asking you questions? Let this module answer them for you!\nP.S. Author is not responsible for all your problems after using it.",
         "commands": [
             {
@@ -14702,6 +15230,7 @@
     },
     {
         "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
         "description": "Keeps your chat clean from dices, darts and so on.",
         "commands": [
             {
@@ -14718,6 +15247,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/256/qr-code.png",
         "description": "Decoding QR codes.",
         "commands": [
             {
@@ -14734,6 +15264,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/256/musical-notes-emoji.png",
         "description": "Get lyrics from Genius",
         "commands": [
             {
@@ -14750,6 +15281,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
         "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Google Translate,\nwith many useful features.",
         "commands": [
             {
@@ -14836,6 +15368,7 @@
     },
     {
         "author": "@mm_mods,originalbyFl1yd",
+        "pic": "https://img.icons8.com/emoji/344/grapes-emoji.png",
         "description": "Searching for random pic for your query. Original version/idea: Fl1yd.",
         "commands": [
             {
@@ -14859,6 +15392,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/calendar.png",
         "description": "Holidays today.",
         "commands": [
             {
@@ -14975,6 +15509,7 @@
     },
     {
         "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/scroll-emoji.png",
         "description": "Helps to download mods to file and automaticaly make simple descriptions for your modules.",
         "commands": [
             {
@@ -15012,6 +15547,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Protects your account from spam if anyone accessed your account/session.",
         "commands": [
             {
@@ -15035,6 +15571,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/sticker.png",
         "description": "Send premium stickers without premium! Advanced version of Hikariatama's module.",
         "commands": [
             {
@@ -15058,6 +15595,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/?size=512&id=17387&format=png",
         "description": "Image generator based on Prodia API. No API key required.",
         "commands": [
             {
@@ -15074,6 +15612,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/diamond-heart.png",
         "description": "Reacts manager.",
         "commands": [
             {
@@ -15111,6 +15650,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/344/mechanical-arm.png",
         "description": "Group rights viewer and manager.",
         "commands": [
             {
@@ -15288,6 +15828,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
         "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Yandex Translate,\nwith many useful features (GoogleTrans, but rewritten). RR-version (Requirements Reduced).",
         "commands": [
             {
@@ -15374,6 +15915,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Advanced Sending Automatisation Program",
         "commands": [
             {
@@ -15473,6 +16015,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Module to manage your miyahost.",
         "commands": [
             {
@@ -15510,6 +16053,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/256/locked-with-pen.png",
         "description": "Work with VersteckAPI — download modules if you are common user, grant permissions for downloading if you are\ndeveloper!",
         "commands": [
             {
@@ -15802,6 +16346,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/animearts.jpg",
+        "pic": "https://static.whypodg.me/mods!animearts.png",
         "description": "Sends cute anime art",
         "commands": [
             {
@@ -15827,6 +16373,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/animetools.jpg",
+        "pic": "https://static.whypodg.me/mods!animetools.png",
         "description": "AnimeTools",
         "commands": [
             {
@@ -15878,6 +16426,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/bio.jpg",
+        "pic": "https://static.whypodg.me/mods!bio.png",
         "description": "💘\n    ",
         "commands": [
             {
@@ -15964,6 +16514,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
+        "pic": "https://static.whypodg.me/mods!irisfarm.png",
         "description": "Автоматизирует работу с Iris Chat Manager (автоматическая ферма)",
         "commands": [
             {
@@ -15987,6 +16539,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/lastfm.jpg",
+        "pic": "https://static.whypodg.me/mods!lastfm.png",
         "description": "LastFM Now (based on SpotifyNow)",
         "commands": [
             {
@@ -16028,6 +16582,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/loliart.jpg",
+        "pic": "https://static.whypodg.me/mods!loliart.png",
         "description": "Sends cute anime loli-art ☺",
         "commands": [
             {
@@ -16078,6 +16634,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/stablediffusion.jpg",
+        "pic": "https://static.whypodg.me/mods!stablediffusion.png",
         "description": "Some mod for work with StableDiffusion. API KEY required!",
         "commands": [
             {
@@ -16103,6 +16661,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/timer.jpg",
+        "pic": "https://static.whypodg.me/mods!timer.png",
         "description": "Module that shows the time before an event",
         "commands": [
             {
@@ -16120,6 +16680,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/toadbot.jpg",
+        "pic": "https://static.whypodg.me/mods!toadbot.png",
         "description": "Модуль для ухода за вашей жабой, когда вам лень или же когда у вас нет на это времени\n    ",
         "commands": [
             {
@@ -16143,6 +16705,8 @@
     },
     {
         "author": "@idiotcoders",
+        "banner": "https://mods.whypodg.me/badges/yoomoney.jpg",
+        "pic": "https://static.whypodg.me/mods!yoomoney.png",
         "description": "Yoomoney Module.",
         "commands": [
             {
@@ -16411,6 +16975,8 @@
     },
     {
         "author": "@ScreamDev",
+        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
+        "pic": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
         "description": "Добавляет к сообщению канала ватемарку",
         "commands": [
             {
@@ -16450,6 +17016,7 @@
     },
     {
         "author": "@ScreamDev,yg_modules",
+        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/CryptoNow.png",
         "description": "Модуль для того чтобы узнать курс крипты/фиата и обновлять его (для каналов)",
         "commands": [
             {
@@ -16516,6 +17083,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/7k4sJRR/5ad271ae-ec1b-4803-a714-5d6628ee8f50.jpg",
         "description": "Module for speech-to-text conversion",
         "commands": [
             {
@@ -16533,6 +17101,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/515XxY1/e3583b3c-434a-49fc-b532-cc70a3b5eccc.jpg",
         "description": "Copy profile data from any user",
         "commands": [
             {
@@ -16666,6 +17235,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/gy5xbPd/d4be263e-63b5-42e1-ac2b-0dac067b0623.jpg",
         "description": "Универсальный AFK модуль с поддержкой кастом сообщения и премиум статуса.",
         "commands": [
             {
@@ -16839,6 +17409,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/NsMcJVJ/6116dddf-38f7-4bad-9b69-10c1e3c19fa5.jpg",
         "description": "Игра-викторина с разными темами и сложностями",
         "commands": [
             {
@@ -16871,6 +17442,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/hK4zxP7/6f8d18ef-53d2-42a5-94e5-c0abef97b1bb.jpg",
         "description": "2 mode random memes.",
         "commands": [
             {
@@ -16928,6 +17500,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/Q6syvcG/5da73c45-b14f-4fe5-a8b6-85fc32a4b6c0.jpg",
         "description": "Module for converting text to speech",
         "commands": [
             {
@@ -16969,6 +17542,7 @@
     },
     {
         "author": "@kmodules",
+        "banner": "https://i.ibb.co/84JDV0z/29a858b1-0c80-4c88-8042-9d7622ebc7f9.jpg",
         "description": "Module for searching videos on YouTube",
         "commands": [
             {
@@ -16986,6 +17560,8 @@
     },
     {
         "author": "@Foxy437",
+        "banner": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg",
+        "pic": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg",
         "description": "Module for searching modules! Watch all updates in fheta in @FHeta_updates!",
         "commands": [
             {
@@ -19434,6 +20010,7 @@
     },
     {
         "author": "@kshmods",
+        "banner": "https://kappa.lol/nfF_A",
         "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
         "commands": [
             {
@@ -19659,6 +20236,7 @@
     },
     {
         "author": "@kshmods",
+        "banner": "https://kappa.lol/--YNb",
         "description": "Загрузка на зеркало 0x.at",
         "commands": [
             {
@@ -19678,6 +20256,8 @@
     },
     {
         "author": "@kshmods",
+        "banner": "https://mods.hikariatama.ru/badges/voicechat.jpg",
+        "pic": "https://static.dan.tatar/voicechat_icon.png",
         "commands": [
             {
                 "name": "addm",
@@ -21371,6 +21951,8 @@
     },
     {
         "author": "@unneyon_hmods",
+        "banner": "https://mods.unneyon.ru/banners/caliases.png",
+        "pic": "https://static.unneyon.ru/get/caliases_icon.png",
         "description": "Module for custom aliases",
         "commands": [
             {
@@ -21404,6 +21986,8 @@
     },
     {
         "author": "@unneyon_hmods",
+        "banner": "https://mods.unneyon.ru/banners/deleter.png",
+        "pic": "https://static.unneyon.ru/get/deleter_icon.png",
         "description": "Module for delete your messages",
         "commands": [
             {
@@ -21421,6 +22005,8 @@
     },
     {
         "author": "@unneyon_hmods",
+        "banner": "https://mods.unneyon.ru/banners/tidal.png",
+        "pic": "https://static.unneyon.ru/get/tidal_icon.png",
         "description": "API wrapper over TIDAL Hi-Fi music streaming service\nThanks @hikarimods for original module: t.me/hikarimods/764",
         "commands": [
             {
@@ -21454,6 +22040,8 @@
     },
     {
         "author": "@unneyon_hmods",
+        "banner": "https://mods.unneyon.ru/banners/warpigs.png",
+        "pic": "https://static.unneyon.ru/get/warpigs_icon.png",
         "description": "Some auto-functions for your pig in @warpigs_bot",
         "commands": [
             {
@@ -21487,16 +22075,10 @@
     },
     {
         "author": "@unneyon_hmods",
-        "description": "The module for Yandex.Music streaming service [BETA]",
+        "banner": "https://mods.unneyon.ru/banners/yamusic.png",
+        "pic": "https://static.unneyon.ru/get/yamusic_icon.png",
+        "description": "The module for Yandex.Music streaming service",
         "commands": [
-            {
-                "name": "ybio",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Включить/выключить автобио",
-                    "doc": "- Enable/disable autobio"
-                }
-            },
             {
                 "name": "yguide",
                 "inline": false,
@@ -21520,30 +22102,16 @@
                     "ru_doc": "<запрос> - Поиск трека в Яндекс.Музыке",
                     "doc": "<query> - Search track in Yandex.Music"
                 }
-            },
-            {
-                "name": "yautomsg",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Включить все виджеты",
-                    "doc": "- Enable all widgets"
-                }
-            },
-            {
-                "name": "ywidget",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ссылка на сообщение/пост> - Сделать сообщение/пост виджетом",
-                    "doc": "<link to message/post> - Make a message/post a widget"
-                }
             }
         ],
         "name": "YaMusic",
         "repo": "unneyon/hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/yamusic_beta.py"
+        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/yamusic.py"
     },
     {
         "author": "@hikarimods&@sngscamer",
+        "banner": "https://mods.hikariatama.ru/badges/aniquotes.jpg",
+        "pic": "https://static.hikari.gay/aniquotes_icon.png",
         "description": "Simple module to create animated stickers via bot",
         "commands": [
             {
@@ -21574,6 +22142,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/7612b5506856c1eb34c56.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for insults, make the interlocutor depressed.",
         "commands": [
             {
@@ -21616,6 +22186,7 @@
     },
     {
         "author": "@moduleslist",
+        "banner": "https://envs.sh/Ult.jpg",
         "description": "Faster version of auto-translator using Google Translate API",
         "commands": [
             {
@@ -21668,6 +22239,8 @@
     },
     {
         "author": "@H1kka_Mods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Bull.jpg",
+        "pic": "https://te.legra.ph/file/7772a7dae6290f0a612a6.png",
         "description": "Bull пиз#а собеседнику, переписал @Bihorix1 за основу взял модуль BullMod",
         "commands": [
             {
@@ -21698,6 +22271,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/c8577322bd5ce031efdca.jpg",
+        "pic": "https://te.legra.ph/file/029eb6160b704b826c34a.png",
         "description": "Модуль идентификации пользователей\n\n> Надеюсь вам понравятся...\n> И другие модули: @wilsonmods",
         "commands": [
             {
@@ -21986,6 +22561,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/388d6138470f2036d08ed.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Get a random historical fact",
         "commands": [
             {
@@ -22100,6 +22677,7 @@
     },
     {
         "author": "@moduleslist",
+        "banner": "https://envs.sh/gQg.jpg",
         "description": "Модуль для создания и удаления отложенных сообщений",
         "commands": [
             {
@@ -22280,6 +22858,7 @@
     },
     {
         "author": "Ksenon",
+        "banner": "https://i.ibb.co/wNDp6Sb/b3be3f0c-cb6a-4443-afaf-b569bb369401.jpg",
         "description": "Just upgraded custom ping.",
         "commands": [
             {
@@ -22330,6 +22909,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/16c25a32943f74d7a47bf.jpg",
+        "pic": "https://te.legra.ph/file/e534f736497cd1b3e711b.png",
         "description": "Manager bot for working on modules (all Python files in general).",
         "commands": [
             {
@@ -22841,6 +23422,7 @@
     },
     {
         "author": "@Foxy437&venom",
+        "banner": "https://raw.githubusercontent.com/Fixyres/Modules/refs/heads/main/IMG_20250112_185329_901.jpg",
         "description": "venom",
         "commands": [
             {
@@ -23265,6 +23847,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/Among.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Create AmongUs stickers",
         "commands": [
             {
@@ -23281,6 +23865,7 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/AnecdoteGenerator.jpg",
         "description": "Anecdote generator by @shitmodules",
         "commands": [
             {
@@ -23305,6 +23890,8 @@
     },
     {
         "author": "@amoremods@hikkaftgmods",
+        "banner": "https://ibb.co/3NjJHvv",
+        "pic": "https://ibb.co/zX25RNd",
         "description": "🎤 Popular Anime Voices",
         "commands": [
             {
@@ -23482,6 +24069,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://te.legra.ph/file/bd8f3c2ab680d49df918b.mp4",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/AnonUploader.jpg",
         "description": "Anonymous file upload anonfiles.com",
         "commands": [
             {
@@ -23498,6 +24087,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/AnonymUploader.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/AnonUploader.jpg",
         "description": "Anonymous files upload via anonfiles.com",
         "commands": [
             {
@@ -23552,6 +24143,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/f35de08579b3bd2235bc4.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Your personal assistant to while you are in AFK mode",
         "commands": [
             {
@@ -23605,6 +24198,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/d3f0f14e90ce2f82d8f1f.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for creating a message with your details for donations",
         "commands": [
             {
@@ -23625,6 +24220,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/903b12da5af31a1947ca8.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Automatic progress farm at @kynimeister_bot",
         "commands": [
             {
@@ -23645,6 +24242,8 @@
     },
     {
         "author": "@AuroraModules&@nercymods",
+        "banner": "https://te.legra.ph/file/05a519da50f993b950260.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Multifunctional feedback bot.",
         "commands": [
             {
@@ -23687,6 +24286,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/e5b219dd459e4cf8b0b11.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for mailings message",
         "commands": [
             {
@@ -23707,6 +24308,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/AutoComment.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Automatically comments under any channels you want",
         "commands": [
             {
@@ -23723,6 +24326,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/b3e9c4bef7348c0fda21e.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Automatically deletes all your messages in the specified chats.",
         "commands": [
             {
@@ -23743,6 +24348,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/77e64e3d33263a669125f.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Universal auto farmer with settings in the config",
         "commands": [
             {
@@ -23814,6 +24421,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/926b74bc3235fb03433ea.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Модуль для управления запрещёнными словами в чате.",
         "commands": [
             {
@@ -23889,6 +24498,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/cute-clipart/512/futurama-bender.png",
         "description": "Module for create bot commands handlers",
         "commands": [
             {
@@ -23919,6 +24529,7 @@
     },
     {
         "author": "@shitmodules",
+        "pic": "https://github.com/kamolgks/assets/raw/main/BotsDeleter.png",
         "description": "Instant stop or removal of all running Telegram bots",
         "commands": [
             {
@@ -23967,6 +24578,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/CDZ-Searcher%20.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/CDZ-Searcher.jpg",
         "description": "Module for searching for answers from CDZ, you just need to enter a link to the tests.",
         "commands": [
             {
@@ -23984,6 +24597,8 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/kDshq0N.jpeg",
+        "pic": "https://i.imgur.com/xC4oVi6.jpeg",
         "description": "Модуль который дарит комплементы девушке/парню",
         "commands": [
             {
@@ -24023,6 +24638,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/CryptoBalance.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Check your balance in many Crypto Wallet Bots",
         "commands": [
             {
@@ -24088,6 +24705,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/9bf5a040f3fcab0caf689.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "commands": [
             {
                 "name": "deanon",
@@ -24107,6 +24726,7 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/awltLuz.jpeg",
         "description": "Автоматизирует работу с @DrochBot (автоматическая дрочка и др.)",
         "commands": [
             {
@@ -24137,6 +24757,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/DziShazam.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Module for searching music's. Works through @lybot",
         "commands": [
             {
@@ -24154,6 +24776,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/Facts.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/Facts.jpeg",
         "description": "interesting facts by @shitmodules",
         "commands": [
             {
@@ -24171,6 +24795,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/FarmPA.jpeg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/FarmPA.jpg",
         "description": "Module for automatic farming sm in Pipisa bot | PA -> PipisaBot by shitmodules.t.me",
         "commands": [
             {
@@ -24338,6 +24964,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/FunnyText.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Get funny text for chat",
         "commands": [
             {
@@ -24410,6 +25038,7 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/GachiGallery.jpg",
         "description": "random gachimuchi photos and memes",
         "commands": [
             {
@@ -24427,6 +25056,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/GamesForAndroid.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/GamesForAndroid.jpeg",
         "description": "Hacked android games (All in categories, choose what you like and download.)",
         "commands": [
             {
@@ -24440,10 +25071,12 @@
         ],
         "name": "GamesForAndroid",
         "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GameForAndroid.py"
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GamesForAndroid.py"
     },
     {
         "author": "@smeowcodes",
+        "banner": "https://siasky.net/fAMzBfMaahm2JTF3ULfrNQHu9R_V5MDP9tiZa-nrVPsqMQ",
+        "pic": "https://siasky.net/XAArZx4f9mnJtcZpS1M8HSmPgK7xDTDC9NGLCwH9k0mJcQ",
         "description": "Gasoline price viewer taken from https://auto.ria.com/uk/toplivo/",
         "commands": [
             {
@@ -24467,6 +25100,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/GitInfo.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Get Github user info, simply type username",
         "commands": [
             {
@@ -24576,6 +25211,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/GoodWishes.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Good wishes for the day",
         "commands": [
             {
@@ -24613,6 +25250,8 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/BtmS5QF.jpeg",
+        "pic": "https://i.imgur.com/wB0SFBi.jpeg",
         "description": "Show userbot info",
         "commands": [
             {
@@ -24629,6 +25268,7 @@
     },
     {
         "author": "@shadow_modules,@toxicuse",
+        "banner": "https://i.imgur.com/8UYznku.jpeg",
         "commands": [
             {
                 "name": "manga",
@@ -24644,6 +25284,8 @@
     },
     {
         "author": "@smeowcodes",
+        "banner": "https://i.imgur.com/gwScaJj.jpeg",
+        "pic": "https://i.imgur.com/Q6TkhP2.jpeg",
         "description": "search a modules in @hikkamods_bot",
         "commands": [
             {
@@ -24660,6 +25302,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/Holiday.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/Holiday.png",
         "description": "The module checks whether today is a holiday in your region.",
         "commands": [
             {
@@ -24689,6 +25333,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/Hw_age_ur.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/Hw_age_ur.png",
         "description": "Using this module, you can find out the age of a person on the date of his birth.",
         "commands": [
             {
@@ -24705,6 +25351,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
         "description": "Auto-posting art to your channels",
         "commands": [
             {
@@ -24742,6 +25389,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/Imgbb.jpeg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/Imgbb.jpg",
         "description": "Upload media to imgbb.com",
         "commands": [
             {
@@ -24759,6 +25408,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://te.legra.ph/file/b15eed35d5ec0dd3a4716.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/IndividualLinks.jpg",
         "description": "> Links to individual content in telegram.",
         "commands": [
             {
@@ -24775,6 +25426,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://cdn-icons-png.flaticon.com/512/2111/2111624.png",
         "description": "Module for downloading music from Spotify",
         "commands": [
             {
@@ -24791,6 +25443,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/512/000000/external-pc-computer-xnimrodx-lineal-color-xnimrodx.png",
         "description": "🖥 Get detailed information about your server",
         "commands": [
             {
@@ -24807,6 +25460,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://b.thumbs.redditmedia.com/-cDkj6PuQHqdLEhPh1JYsYplTArOOUuBnKs5FC8sgKs.png",
         "description": "A module for displaying player information on the WynnCraft rpg server",
         "commands": [
             {
@@ -24830,6 +25484,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/bubbles/512/000000/youtube-play.png",
         "description": "Download YouTube videos with video and audio quality selection",
         "commands": [
             {
@@ -24846,6 +25501,8 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://te.legra.ph/file/a428776824470e0bdccb6.jpg",
+        "pic": "https://te.legra.ph/file/98192f1f7953275baead5.jpg",
         "description": "Для автоматического фарминга коинов в ирисботе",
         "commands": [
             {
@@ -24904,6 +25561,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/1d547b05f967c9681b90a.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Auto farm in iris bot",
         "commands": [
             {
@@ -24931,6 +25590,8 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/2KZ38Pv.jpeg",
+        "pic": "https://i.imgur.com/QntqxyH.jpeg",
         "description": "Показывает лаб/жертв. Возможны задержки на получение инф-ции",
         "commands": [
             {
@@ -25231,6 +25892,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/787faf75b8a094553336f.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for playing various songs in a chat",
         "commands": [
             {
@@ -25273,6 +25936,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/21c1c48baffc8c6236c0f.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Start meowing in different languages",
         "commands": [
             {
@@ -25356,6 +26021,8 @@
     },
     {
         "author": "@smeowcodes",
+        "banner": "https://siasky.net/fAMEML097T4v2x8Zh27F2vzFI2SXs7ezO48tQxoTfodxfA",
+        "pic": "https://siasky.net/XACW0K6mdI6W6tUiG4lEhxfy49KpLHAN-tRPmCsWcAOCnw",
         "description": "big updated news sender. idea by @shadow_modules",
         "commands": [
             {
@@ -25460,6 +26127,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/MultiSaver.jpg",
+        "pic": "https://te.legra.ph/file/9fbbf3676de7a1e844e56.jpg",
         "description": "Download video, photo from instagram, TikTok and Pinterest",
         "commands": [
             {
@@ -25479,6 +26148,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/7d7a4c3ff3711e0e1ee88.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for managing, adding, and deleting your debtors.",
         "commands": [
             {
@@ -25554,6 +26225,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/MyModules.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "List of all of the modules currently installed, without all of that annoying crap. In just one simple message!",
         "commands": [
             {
@@ -25592,6 +26265,7 @@
     },
     {
         "author": "@shadow_modules,@hikarimods",
+        "banner": "https://i.imgur.com/Hy9ABNY.jpeg",
         "commands": [
             {
                 "name": "sendnews",
@@ -25605,6 +26279,7 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/emoji/344/mechanical-arm.png",
         "description": "Turns on/off inline bots using ability.",
         "commands": [
             {
@@ -25702,6 +26377,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/PinSaver.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "Pinterest saver via @TopSaverBot",
         "commands": [
             {
@@ -25836,6 +26513,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/64b1e88536b3ba59c94da.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "commands": [
             {
                 "name": "rpavatars",
@@ -25855,6 +26534,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/RandomChats.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/RandomChats.jpg",
         "description": "The module throws off a random chat",
         "commands": [
             {
@@ -25875,6 +26556,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/f35de08579b3bd2235bc4.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Random numbers generator",
         "commands": [
             {
@@ -25895,6 +26578,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://www.pngall.com/wp-content/uploads/12/Avatar-Transparent.png",
         "description": "Create your new identity",
         "commands": [
             {
@@ -25911,6 +26595,8 @@
     },
     {
         "author": "@AstroModules|@smeowcodes",
+        "banner": "https://0x0.st/oeMY.jpg",
+        "pic": "https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-random-interface-kiranshastry-gradient-kiranshastry.png",
         "description": "choose a random user in chat\nAutors: @AstroModules & @smeowcodes",
         "commands": [
             {
@@ -25928,6 +26614,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/201288f407537011ce0ed.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for playing with dice, heads/tails and other games.",
         "commands": [
             {
@@ -26003,6 +26691,8 @@
     },
     {
         "author": "@dziru",
+        "banner": "https://raw.githubusercontent.com/DziruModules/assets/master/RepoSaver.png",
+        "pic": "https://raw.githubusercontent.com/DziruModules/assets/master/DziruModules.jpg",
         "description": "GitHub Repository saver via @githubrepo_download_bot",
         "commands": [
             {
@@ -26019,6 +26709,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/5131a980bd2f80ad463ad.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for sending reports to the administration.",
         "commands": [
             {
@@ -26072,6 +26764,7 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/P3fguXK.jpeg",
         "description": "Module to save self-destructing media",
         "commands": [
             {
@@ -26174,6 +26867,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-screen-edutainment-flaticons-lineal-color-flat-icons-2.png",
         "description": "Module for screenshot web site",
         "commands": [
             {
@@ -26190,6 +26884,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/55fa6eebae860a359ac27.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Assistant for sending messages",
         "commands": [
             {
@@ -26259,6 +26955,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://cdn.pixabay.com/photo/2017/07/09/20/48/speaker-2488096_1280.png",
         "description": "Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple",
         "commands": [
             {
@@ -26303,6 +27000,7 @@
     },
     {
         "author": "@DorotoroMods",
+        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroSimpleMe.png",
         "description": "Сообщает об исполнителе команды от третьего лица.",
         "commands": [
             {
@@ -26319,6 +27017,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/officel/16/000000/broken-link.png",
         "description": "A simple link cleaner from your chats",
         "commands": [
             {
@@ -26335,6 +27034,8 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/SpellChecking.jpg",
+        "pic": "https://raw.githubusercontent.com/kamolgks/assets/main/SpellChecking.png",
         "description": "Check text for spelling errors by @shitmodules",
         "commands": [
             {
@@ -26466,6 +27167,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/bubbles/512/surgical-scissors.png",
         "description": "Module for short url as API",
         "commands": [
             {
@@ -26496,6 +27198,7 @@
     },
     {
         "author": "@shitmodules",
+        "banner": "https://raw.githubusercontent.com/kamolgks/assets/main/UsernameChecker.jpg",
         "description": "A module for checking the user for availability.\nAccepted characters: A-z (case-insensitive), 0-9 and underscores.\nLength: 6-32 characters.",
         "commands": [
             {
@@ -26536,6 +27239,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/a37fb86b3a00c03dee661.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Automates work with @warpigs_bot",
         "commands": [
             {
@@ -26600,6 +27305,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/ee1bb476a643bb85b5723.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Search for information on Wikipedia",
         "commands": [
             {
@@ -26631,6 +27338,8 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/c34c0a11aabd6a1fb6210.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Universal module for searching for certain words in the text.",
         "commands": [
             {
@@ -26673,6 +27382,8 @@
     },
     {
         "author": "@sngscamer|@hikariatama",
+        "banner": "https://imgur.com/OGkmhtc",
+        "pic": "https://te.legra.ph/file/27beb1ee8f321aa28a970.png",
         "description": "Help module, made specifically for Hikka with <3",
         "commands": [
             {
@@ -26689,6 +27400,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://image.winudf.com/v2/image/cnUucmFkaWF0aW9ueC5hbmlsaWJyaWEuYXBwX2ljb25fMTUyODYyNzQ2NV8wMjY/icon.png?w=&fakeurl=1",
         "description": "A non-profit project for the dubbing and adaptation of foreign TV series, cartoons and anime",
         "commands": [
             {
@@ -26719,6 +27431,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://i.ibb.co/N7c0Ks2/cat.jpg",
+        "pic": "https://i.ibb.co/4jLTywZ/apo-modules.jpg",
         "description": "Migrate old names with new ones.",
         "commands": [
             {
@@ -26779,6 +27493,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://i.ibb.co/N7c0Ks2/cat.jpg",
+        "pic": "https://i.ibb.co/4jLTywZ/apo-modules.jpg",
         "description": "This is a skeleton module.",
         "commands": [
             {
@@ -26814,6 +27530,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/71b59ef7904a7742c8109.jpg",
+        "pic": "https://te.legra.ph/file/c0292154a0e8bbe2ba654.png",
         "description": "Uploading a photo/gif/picture to actuall telegraph",
         "commands": [
             {
@@ -26837,6 +27555,7 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Cartoon.jpg",
         "description": "Make Cartoon image",
         "commands": [
             {
@@ -26853,6 +27572,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/d50815f35c08b9c3dcc90.jpg",
+        "pic": "https://te.legra.ph/file/fb9f08e6256915a729a12.png",
         "description": "Anyone can be deanoned, just enter your Telegram username",
         "commands": [
             {
@@ -26870,6 +27591,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://i.imgur.com/ccA9WkZ.jpeg",
+        "pic": "https://te.legra.ph/file/386e8b541bb93f1537d1d.png",
         "description": "Просмотр лучших фильмов, отсортированных по жанрам",
         "commands": [
             {
@@ -26893,6 +27616,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://www.freeiconspng.com/uploads/facebook-circle-heart-love-png-4.png",
         "description": "Send a compliment to a person",
         "commands": [
             {
@@ -26909,6 +27633,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/9adde024646b7662f12fe.jpg",
+        "pic": "https://te.legra.ph/file/a2c350d63b964fa70903c.png",
         "description": "Rename file name",
         "commands": [
             {
@@ -26925,6 +27651,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/f61d5478f5aeead963421.jpg",
+        "pic": "https://te.legra.ph/file/546396354d6a3161e71bb.png",
         "description": "Random cringe generate",
         "commands": [
             {
@@ -26950,6 +27678,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/d53309369305946062a89.jpg",
+        "pic": "https://te.legra.ph/file/0f3118686c0f6f371d58b.png",
         "description": "Upload video via TikTok link «Optimized»",
         "commands": [
             {
@@ -26966,6 +27696,8 @@
     },
     {
         "author": "@wilsonmods|@hikarimods",
+        "banner": "https://te.legra.ph/file/407a0817f59ec861d031b.jpg",
+        "pic": "https://te.legra.ph/file/12605828ab1dc52569739.png",
         "description": "Хостинг-провайдеры «skynet», «imgur», «oxo»",
         "commands": [
             {
@@ -26996,6 +27728,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://styles.redditmedia.com/t5_3htpk/styles/communityIcon_vlbulj1gn8l11.png",
         "description": "Miscellaneous stuff for custom ROMs",
         "commands": [
             {
@@ -27054,6 +27787,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://styles.redditmedia.com/t5_3htpk/styles/communityIcon_vlbulj1gn8l11.png",
         "description": "Miscellaneous stuff for custom ROMs",
         "commands": [
             {
@@ -27133,6 +27867,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://forum.f-droid.org/uploads/default/original/2X/c/cfb2c14973c28415b0e5b5f7adef9c8288cd8609.png",
         "description": "Search for android apps from FDroid",
         "commands": [
             {
@@ -27156,6 +27891,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://allvpn.ru/assets/upload/t-200x200-7439447981535195421.png",
         "description": "Get books from flibusta",
         "commands": [
             {
@@ -27179,6 +27915,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/bubbles/344/cat.png",
         "description": "Sends cats gifs and gallerys",
         "commands": [
             {
@@ -27232,43 +27969,39 @@
     },
     {
         "author": "@cakestwix_mods",
-        "description": "🍓 Hentai doujin module 18+",
+        "pic": "https://seeklogo.com/images/H/hentai-haven-logo-B9D8C4B3B8-seeklogo.com.png",
+        "description": "Hentai module 18+ Legacy",
         "commands": [
             {
                 "name": "nhrandom",
                 "inline": false,
                 "description": {
-                    "doc": "🎲 Random hentai doujin"
+                    "doc": "Random hentai manga"
                 }
             },
             {
-                "name": "nhlast",
+                "name": "nhtag",
                 "inline": false,
                 "description": {
-                    "doc": "⌚️ Latest hentai doujin"
+                    "doc": "Search hentai manga by tag"
                 }
             },
             {
                 "name": "nhid",
                 "inline": false,
                 "description": {
-                    "doc": "1️⃣ Hentai doujin by id"
-                }
-            },
-            {
-                "name": "nhsearch",
-                "inline": false,
-                "description": {
-                    "doc": "🔎 Search hentai doujin"
+                    "doc": "Search hentai manga by id"
                 }
             }
         ],
         "name": "NHentai",
         "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hentai.py"
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hentai_ftg.py"
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inline_lovemagic.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/filled-like.png",
         "description": "Famous TikTok hearts animation implemented in Hikka w/o logspam",
         "commands": [
             {
@@ -27292,6 +28025,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/0191e8de52db3100da5b8.jpg",
+        "pic": "https://te.legra.ph/file/9bc7500413b399da7298b.png",
         "description": "Information about course currency [optimization fully provided]",
         "commands": [
             {
@@ -27308,6 +28043,7 @@
     },
     {
         "author": "@KiwiNicer",
+        "pic": "https://img.icons8.com/clouds/512/000000/linux-client.png",
         "description": "Search package for Linux by name",
         "commands": [
             {
@@ -27331,6 +28067,7 @@
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/Xzi8UL0.jpeg",
         "description": "Красивые слова для второй половинки",
         "commands": [
             {
@@ -27360,6 +28097,8 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/ios/344/angry-face-meme.png&title=MemsGalery&description=Sends%20meme%20pictures",
+        "pic": "https://img.icons8.com/ios/344/angry-face-meme.png",
         "description": "Sends meme pictures",
         "commands": [
             {
@@ -27383,6 +28122,8 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/MeowVoices.jpg",
+        "pic": "https://te.legra.ph/file/440d432d2977354e9b13a.png",
         "description": "🥷 Top 9 cute meow voices\n\n📚 Documentation: ...\n📝 Dev: @sngscamer\n📥 Source: ...\n📦 Version: 1.0.1",
         "commands": [
             {
@@ -27406,6 +28147,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://icons.iconarchive.com/icons/blackvariant/button-ui-requests-2/1024/Minecraft-2-icon.png",
         "description": "Information about players and server status",
         "commands": [
             {
@@ -27429,6 +28171,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/cotton/344/musical-notes.png",
         "description": "🎵 Module for generate AI music",
         "commands": [
             {
@@ -27452,6 +28195,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/0254e03843074fa879d2f.jpg",
+        "pic": "https://te.legra.ph/file/c13bda4dc3eaa8c3f0f4e.png",
         "description": "Find music quickly and the quality is very high",
         "commands": [
             {
@@ -27477,6 +28222,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/5e285dfcd5521028e4edf.jpg",
+        "pic": "https://te.legra.ph/file/c2a2e80babba6113cbf60.png",
         "description": "> This is the module in which my pictures are collected",
         "commands": [
             {
@@ -27527,6 +28274,7 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Premiuminfo.jpg",
         "description": "Premium emoji info by amore <3",
         "commands": [
             {
@@ -27577,6 +28325,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/qr-code-circle-blue-512.png",
         "description": "Module for creating Qr codes",
         "commands": [
             {
@@ -27593,6 +28342,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://i0.wp.com/alliancestake.org/wp-content/uploads/2017/09/icon-circle-tools-blue-1.png?fit=300%2C300&ssl=1",
         "description": "Random tools",
         "commands": [
             {
@@ -27623,6 +28373,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/000000/external-anime-addiction-flaticons-lineal-color-flat-icons.png",
         "description": "🔎 SauceNao - image source locator",
         "commands": [
             {
@@ -27655,12 +28406,14 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/external-itim2101-lineal-color-itim2101/344/external-bot-education-and-learning-itim2101-lineal-color-itim2101.png",
         "name": "SmartBot",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/smartbot.py"
     },
     {
         "author": "@hikkaftgmods",
+        "banner": "https://i.imgur.com/qfHTxhs.jpeg",
         "commands": [
             {
                 "name": "hearts",
@@ -27683,6 +28436,7 @@
     },
     {
         "author": "@vsecoder_m",
+        "pic": "https://img.icons8.com/external-flat-andi-nur-abdillah/344/external-Tamagochi-retro-gadget-(flat)-flat-andi-nur-abdillah.png",
         "description": "🤳 Module for add Tamogochi to your Telegram[BETA]\n\nThis is beta version, please, report bugs and send ideas to t.me/vsecoder\n\n📝 Commands:",
         "commands": [
             {
@@ -27706,6 +28460,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "http://assets.stickpng.com/images/5cb78671a7c7755bf004c14b.png",
         "description": "Yet Another TikTok Downloader",
         "commands": [
             {
@@ -27722,6 +28477,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-others-iconmarket/512/000000/external-national-flags-others-iconmarket-5.png",
         "description": "Український торрент трекер",
         "commands": [
             {
@@ -27768,6 +28524,8 @@
     },
     {
         "author": "@apodiktum_modules",
+        "banner": "https://t.me/file_dumbster/11",
+        "pic": "https://t.me/file_dumbster/13",
         "description": "This module handles the db for supported modules to force languages in chats.\n\nFor Devs:\nIf you want to implement it into your modules or want to have more languages, you can ask me at @apodiktum_modules",
         "commands": [
             {
@@ -27784,6 +28542,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/ios-filled/512/40C057/torrent.png",
         "description": "Simple torrent client for Transmission",
         "commands": [
             {
@@ -27814,6 +28573,7 @@
     },
     {
         "author": "@amoremods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Trigger.jpg",
         "description": "Make trigger",
         "commands": [
             {
@@ -27831,6 +28591,8 @@
     },
     {
         "author": "@wilsonmods",
+        "banner": "https://te.legra.ph/file/1a095e49fb817f622c722.jpg",
+        "pic": "https://te.legra.ph/file/302a4cff5a0d14fb3cfd0.png",
         "description": "The module will tell you if it's true or false",
         "commands": [
             {
@@ -27848,6 +28610,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
         "description": "Module for obtaining art from the ImageBoard yande.re",
         "commands": [
             {
@@ -27878,6 +28641,7 @@
     },
     {
         "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
         "description": "Module for obtaining art from the ImageBoard yande.re",
         "commands": [
             {
