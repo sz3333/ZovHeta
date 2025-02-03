@@ -5263,13 +5263,26 @@
                 "name": "spymode",
                 "inline": false,
                 "description": {
-                    "doc": "Toggle spymode"
+                    "ru_doc": "• Кто я? • Аянами Рей. • А кто ты? • Аянами Рей. • Ты тоже Аянами Рей? • Да. Я та, кого знают как Аянами Рей. • Мы все те, кого знают, как Аянами Рей. • Как они все могут быть мной? • Просто потому что другие зовут нас Аянами Рей. Только и всё. У тебя ненастоящая душа, и тело твоё - подделка. Знаешь почему? • Я не подделка и не фальшивка. Я - это я.",
+                    "tr_doc": "• Kimim? • Ayanami Rei. • Kimsin? • Ayanami Rei. • Sen de Ayanami Rei misin? • Evet. Beni bilenler Ayanami Rei olarak bilir. • Hepimiz Ayanami Rei olarak bilinenleriz. • Hepimiz nasıl Ayanami Rei olabiliriz? • Sadece diğerleri bizi Ayanami Rei olarak adlandırıyor. Sadece bu. Ruhun gerçek değil ve vücudun bir kopya. Biliyor musun neden? • Ben bir kopya değilim ve sahte değilim. Ben benim.",
+                    "it_doc": "• Chi sono io? • Ayanami Rei. • Chi sei tu? • Ayanami Rei. • Tu sei anche Ayanami Rei? • Sì. Io sono quella che conoscono come Ayanami Rei. • Tutti noi siamo quelli che conoscono come Ayanami Rei. • Come possono tutti essere io? • Solo perché gli altri ci chiamano Ayanami Rei. Solo questo. La tua anima non è vera e il tuo corpo è una copia. Lo sai perché? • Non sono una copia e non sono una falsa. Io sono io.",
+                    "kk_doc": "• Мені кім? • Аянами Рей. • Сені кім? • Аянами Рей. • Сені де Аянами Рей? • Иә. Мен Аянами Рей деп білінетін кім. • Барлығымыз Аянами Рей деп білінетін кім. • Барлар мені қайсы бола алады? • Қатарынан, біздерді Аянами Рей деп атайтын. Бірақ, бұл барлық. Сенің дуалың жарамсыз, және телегің - бұл қате. Білесін бе? • Мен жарамсыз және қате емеспін. Мен - бұл мен.",
+                    "de_doc": "• Wer bin ich? • Ayanami Rei. • Und wer bist du? • Ayanami Rei. • Bist du auch Ayanami Rei? • Ja. Ich bin die, die als Ayanami Rei bekannt ist. • Wir sind alle diejenigen, die als Ayanami Rei bekannt sind. • Wie können alle mich sein? • Einfach nur, weil andere uns als Ayanami Rei nennen. Das ist alles. Du hast eine falsche Seele und deinen Körper gibt es nicht. Weißt du, warum? • Ich bin nicht falsch und nicht falsch. Ich bin ich.",
+                    "es_doc": "• ¿Quién soy? • Ayanami Rei. • ¿Y quién eres? • Ayanami Rei. • ¿Tú también eres Ayanami Rei? • Sí. Soy la que se conoce como Ayanami Rei. • Todos somos lo que se conoce como Ayanami Rei. • ¿Cómo pueden todos ser yo? • Simplemente porque otros nos llaman Ayanami Rei. Eso es todo. Tienes un alma falsa y tu cuerpo es una falsificación. ¿Sabes por qué? • No soy falso ni falso. Soy yo.",
+                    "doc": "• Who am I? • Ayanami Rey. • Who are you? • Ayanami Rey. • Are you Ayanami Rey too? • Yes. I'm the one known as Ayanami Rey. • We're all what we know as Ayanami Rey. • How can they all be me? • Just because others call us Ayanami Rey. That's all. You have a fake soul and your body is a fake. You know why? • I'm not fake or fake. I am me."
                 }
             },
             {
                 "name": "spybl",
                 "inline": false,
                 "description": {
+                    "ru_doc": "Добавить / удалить чат из списка игнора",
+                    "de_doc": "Chat zur Ignorierliste hinzufügen / entfernen",
+                    "uz_doc": "Chatni qo'shish / olib tashlash",
+                    "tr_doc": "Sohbeti engelleme listesine ekle / kaldır",
+                    "es_doc": "Agregar / eliminar chat de la lista de ignorados",
+                    "kk_doc": "Чатты қосу / жою",
+                    "it_doc": "Aggiungi / rimuovi chat dalla lista di ignorati",
                     "doc": "Add / remove chat from blacklist"
                 }
             },
@@ -5277,6 +5290,13 @@
                 "name": "spyblclear",
                 "inline": false,
                 "description": {
+                    "ru_doc": "Очистить черный список",
+                    "de_doc": "Schwarze Liste leeren",
+                    "uz_doc": "Qora ro'yxatni tozalash",
+                    "tr_doc": "Siyah listeyi temizle",
+                    "es_doc": "Limpiar lista negra",
+                    "kk_doc": "Қара тізімді тазалау",
+                    "it_doc": "Cancella la lista nera",
                     "doc": "Clear blacklist"
                 }
             },
@@ -5284,6 +5304,13 @@
                 "name": "spywl",
                 "inline": false,
                 "description": {
+                    "ru_doc": "Добавить / удалить чат из белого списка",
+                    "de_doc": "Chat zur Whitelist hinzufügen / entfernen",
+                    "uz_doc": "Chatni o'qish ro'yxatiga qo'shish / olib tashlash",
+                    "tr_doc": "Sohbeti beyaz listeye ekle / kaldır",
+                    "es_doc": "Agregar / eliminar chat de la lista blanca",
+                    "kk_doc": "Чатты оқыш тізіміне қосу / жою",
+                    "it_doc": "Aggiungi / rimuovi chat dalla whitelist",
                     "doc": "Add / remove chat from whitelist"
                 }
             },
@@ -5291,6 +5318,13 @@
                 "name": "spywlclear",
                 "inline": false,
                 "description": {
+                    "ru_doc": "Очистить белый список",
+                    "de_doc": "Whitelist leeren",
+                    "uz_doc": "O'qish ro'yxatini tozalash",
+                    "tr_doc": "Beyaz listeyi temizle",
+                    "es_doc": "Limpiar lista blanca",
+                    "kk_doc": "Оқыш тізімін тазалау",
+                    "it_doc": "Cancella la whitelist",
                     "doc": "Clear whitelist"
                 }
             },
@@ -5298,41 +5332,20 @@
                 "name": "spyinfo",
                 "inline": false,
                 "description": {
+                    "ru_doc": "Показать текущую конфигурацию спай-мода",
+                    "de_doc": "Aktuelle Spy-Modus-Konfiguration anzeigen",
+                    "uz_doc": "Spy rejimining hozirgi konfiguratsiyasini ko'rsatish",
+                    "tr_doc": "Spy modu geçerli yapılandırmasını göster",
+                    "es_doc": "Mostrar la configuración actual del modo espía",
+                    "kk_doc": "Спай-режимдің ағымдағы конфигурациясын көрсету",
+                    "it_doc": "Mostra la configurazione attuale della modalità spia",
                     "doc": "Show current spy mode configuration"
-                }
-            },
-            {
-                "name": "nssave",
-                "inline": false,
-                "description": {
-                    "doc": "Save replied message to the channel"
-                }
-            },
-            {
-                "name": "stat",
-                "inline": false,
-                "description": {
-                    "doc": "Show stats for cached media and messages"
-                }
-            },
-            {
-                "name": "purgecache",
-                "inline": false,
-                "description": {
-                    "doc": "Empty cache storage from messages"
-                }
-            },
-            {
-                "name": "rest",
-                "inline": false,
-                "description": {
-                    "doc": "[time] [-current] - Restore all deleted and edited messages from [time]"
                 }
             }
         ],
         "name": "NekoSpy",
         "repo": "hikariatama/ftg",
-        "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/nekospy_beta.py"
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/ftg/master/nekospy.py"
     },
     {
         "author": "@hikarimods",
@@ -14564,30 +14577,16 @@
                 }
             },
             {
-                "name": "mtiset",
-                "inline": false,
-                "description": {
-                    "doc": "Set the text for inline message (Example: .mtiset ❤️‍🔥 I want to tell you something...)"
-                }
-            },
-            {
                 "name": "mt",
                 "inline": false,
                 "description": {
                     "doc": "Send message with animating text"
                 }
-            },
-            {
-                "name": "mti",
-                "inline": false,
-                "description": {
-                    "doc": "Send inline message with animating text"
-                }
             }
         ],
         "name": "MagicText",
         "repo": "MoriSummerz/ftg-mods",
-        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext.py"
+        "install": "dlm https://raw.githubusercontent.com/MoriSummerz/ftg-mods/main/magictext-ftg.py"
     },
     {
         "author": "@morisummermods",
@@ -14860,6 +14859,22 @@
     },
     {
         "author": "@mm_mods",
+        "description": "Holidays today.",
+        "commands": [
+            {
+                "name": "hollist",
+                "inline": false,
+                "description": {
+                    "doc": "Shows holiday list."
+                }
+            }
+        ],
+        "name": "Holidays",
+        "repo": "dekkusudev/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Holidays.py"
+    },
+    {
+        "author": "@mm_mods",
         "description": "A little upgraded mod of module of @trololo_1.",
         "commands": [
             {
@@ -15056,6 +15071,220 @@
         "name": "Prodia IG",
         "repo": "dekkusudev/mm-hikka-mods",
         "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Prodia.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "Reacts manager.",
+        "commands": [
+            {
+                "name": "rshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Add a shorthand for a reaction.\n/rshorthand <name> <emoji>"
+                }
+            },
+            {
+                "name": "dshorthand",
+                "inline": false,
+                "description": {
+                    "doc": "Delete a shorthand for a reaction.\n/dshorthand <name>"
+                }
+            },
+            {
+                "name": "shorthands",
+                "inline": false,
+                "description": {
+                    "doc": "Show all shorthands for reactions."
+                }
+            },
+            {
+                "name": "react",
+                "inline": false,
+                "description": {
+                    "doc": "React to a message.\n/react <name>/<emoji>"
+                }
+            }
+        ],
+        "name": "Reactor",
+        "repo": "dekkusudev/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Reactor.py"
+    },
+    {
+        "author": "@mm_mods",
+        "description": "Group rights viewer and manager.",
+        "commands": [
+            {
+                "name": "switchib",
+                "inline": false,
+                "description": {
+                    "doc": "Switches inline bots using rights."
+                }
+            },
+            {
+                "name": "checkib",
+                "inline": false,
+                "description": {
+                    "doc": "Checks inline bots using rights."
+                }
+            },
+            {
+                "name": "switchsend",
+                "inline": false,
+                "description": {
+                    "doc": "Switches sending messages rights."
+                }
+            },
+            {
+                "name": "checksend",
+                "inline": false,
+                "description": {
+                    "doc": "Checks sending messages rights."
+                }
+            },
+            {
+                "name": "switchmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Switches media using rights."
+                }
+            },
+            {
+                "name": "checkmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Checks media using rights."
+                }
+            },
+            {
+                "name": "switchstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Switches stickers using rights."
+                }
+            },
+            {
+                "name": "checkstickers",
+                "inline": false,
+                "description": {
+                    "doc": "Checks stickers using rights."
+                }
+            },
+            {
+                "name": "switchgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Switches gifs using rights."
+                }
+            },
+            {
+                "name": "checkgifs",
+                "inline": false,
+                "description": {
+                    "doc": "Checks gifs using rights."
+                }
+            },
+            {
+                "name": "switchgames",
+                "inline": false,
+                "description": {
+                    "doc": "Switches games using rights."
+                }
+            },
+            {
+                "name": "checkgames",
+                "inline": false,
+                "description": {
+                    "doc": "Checks games using rights."
+                }
+            },
+            {
+                "name": "switchembed",
+                "inline": false,
+                "description": {
+                    "doc": "Switches links preview using rights."
+                }
+            },
+            {
+                "name": "checkembed",
+                "inline": false,
+                "description": {
+                    "doc": "Checks links preview using rights."
+                }
+            },
+            {
+                "name": "switchpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Switches polls using rights."
+                }
+            },
+            {
+                "name": "checkpolls",
+                "inline": false,
+                "description": {
+                    "doc": "Checks polls using rights."
+                }
+            },
+            {
+                "name": "switchinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Switches info changing rights."
+                }
+            },
+            {
+                "name": "checkinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Checks info changing rights."
+                }
+            },
+            {
+                "name": "switchinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Switches invite rights."
+                }
+            },
+            {
+                "name": "checkinvite",
+                "inline": false,
+                "description": {
+                    "doc": "Checks invite rights."
+                }
+            },
+            {
+                "name": "switchpin",
+                "inline": false,
+                "description": {
+                    "doc": "Switches pin message rights."
+                }
+            },
+            {
+                "name": "checkpin",
+                "inline": false,
+                "description": {
+                    "doc": "Checks pin message rights."
+                }
+            },
+            {
+                "name": "checkall",
+                "inline": false,
+                "description": {
+                    "doc": "Shows all rights."
+                }
+            },
+            {
+                "name": "checkadmins",
+                "inline": false,
+                "description": {
+                    "doc": "Shows admins."
+                }
+            }
+        ],
+        "name": "Rechte",
+        "repo": "dekkusudev/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Rechte.py"
     },
     {
         "author": "@mm_mods",
@@ -17514,236 +17743,6 @@
         "name": "File Manager",
         "repo": "Vahueyko/HikkaMods",
         "install": "dlm https://raw.githubusercontent.com/Vahueyko/HikkaMods/main/filemanager.py"
-    },
-    {
-        "author": "@mm_mods",
-        "description": "Holidays today.",
-        "commands": [
-            {
-                "name": "hollist",
-                "inline": false,
-                "description": {
-                    "doc": "Shows holiday list."
-                }
-            }
-        ],
-        "name": "Holidays",
-        "repo": "GD-alt/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Holidays.py"
-    },
-    {
-        "author": "@mm_mods",
-        "description": "Reacts manager.",
-        "commands": [
-            {
-                "name": "rshorthand",
-                "inline": false,
-                "description": {
-                    "doc": "Add a shorthand for a reaction.\n/rshorthand <name> <emoji>"
-                }
-            },
-            {
-                "name": "dshorthand",
-                "inline": false,
-                "description": {
-                    "doc": "Delete a shorthand for a reaction.\n/dshorthand <name>"
-                }
-            },
-            {
-                "name": "shorthands",
-                "inline": false,
-                "description": {
-                    "doc": "Show all shorthands for reactions."
-                }
-            },
-            {
-                "name": "react",
-                "inline": false,
-                "description": {
-                    "doc": "React to a message.\n/react <name>/<emoji>"
-                }
-            }
-        ],
-        "name": "Reactor",
-        "repo": "GD-alt/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Reactor.py"
-    },
-    {
-        "author": "@mm_mods",
-        "description": "Group rights viewer and manager.",
-        "commands": [
-            {
-                "name": "switchib",
-                "inline": false,
-                "description": {
-                    "doc": "Switches inline bots using rights."
-                }
-            },
-            {
-                "name": "checkib",
-                "inline": false,
-                "description": {
-                    "doc": "Checks inline bots using rights."
-                }
-            },
-            {
-                "name": "switchsend",
-                "inline": false,
-                "description": {
-                    "doc": "Switches sending messages rights."
-                }
-            },
-            {
-                "name": "checksend",
-                "inline": false,
-                "description": {
-                    "doc": "Checks sending messages rights."
-                }
-            },
-            {
-                "name": "switchmedia",
-                "inline": false,
-                "description": {
-                    "doc": "Switches media using rights."
-                }
-            },
-            {
-                "name": "checkmedia",
-                "inline": false,
-                "description": {
-                    "doc": "Checks media using rights."
-                }
-            },
-            {
-                "name": "switchstickers",
-                "inline": false,
-                "description": {
-                    "doc": "Switches stickers using rights."
-                }
-            },
-            {
-                "name": "checkstickers",
-                "inline": false,
-                "description": {
-                    "doc": "Checks stickers using rights."
-                }
-            },
-            {
-                "name": "switchgifs",
-                "inline": false,
-                "description": {
-                    "doc": "Switches gifs using rights."
-                }
-            },
-            {
-                "name": "checkgifs",
-                "inline": false,
-                "description": {
-                    "doc": "Checks gifs using rights."
-                }
-            },
-            {
-                "name": "switchgames",
-                "inline": false,
-                "description": {
-                    "doc": "Switches games using rights."
-                }
-            },
-            {
-                "name": "checkgames",
-                "inline": false,
-                "description": {
-                    "doc": "Checks games using rights."
-                }
-            },
-            {
-                "name": "switchembed",
-                "inline": false,
-                "description": {
-                    "doc": "Switches links preview using rights."
-                }
-            },
-            {
-                "name": "checkembed",
-                "inline": false,
-                "description": {
-                    "doc": "Checks links preview using rights."
-                }
-            },
-            {
-                "name": "switchpolls",
-                "inline": false,
-                "description": {
-                    "doc": "Switches polls using rights."
-                }
-            },
-            {
-                "name": "checkpolls",
-                "inline": false,
-                "description": {
-                    "doc": "Checks polls using rights."
-                }
-            },
-            {
-                "name": "switchinfo",
-                "inline": false,
-                "description": {
-                    "doc": "Switches info changing rights."
-                }
-            },
-            {
-                "name": "checkinfo",
-                "inline": false,
-                "description": {
-                    "doc": "Checks info changing rights."
-                }
-            },
-            {
-                "name": "switchinvite",
-                "inline": false,
-                "description": {
-                    "doc": "Switches invite rights."
-                }
-            },
-            {
-                "name": "checkinvite",
-                "inline": false,
-                "description": {
-                    "doc": "Checks invite rights."
-                }
-            },
-            {
-                "name": "switchpin",
-                "inline": false,
-                "description": {
-                    "doc": "Switches pin message rights."
-                }
-            },
-            {
-                "name": "checkpin",
-                "inline": false,
-                "description": {
-                    "doc": "Checks pin message rights."
-                }
-            },
-            {
-                "name": "checkall",
-                "inline": false,
-                "description": {
-                    "doc": "Shows all rights."
-                }
-            },
-            {
-                "name": "checkadmins",
-                "inline": false,
-                "description": {
-                    "doc": "Shows admins."
-                }
-            }
-        ],
-        "name": "Rechte",
-        "repo": "GD-alt/mm-hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/GD-alt/mm-hikka-mods/main/Rechte.py"
     },
     {
         "author": "@mm_mods",
@@ -21488,8 +21487,16 @@
     },
     {
         "author": "@unneyon_hmods",
-        "description": "The module for Yandex.Music streaming service",
+        "description": "The module for Yandex.Music streaming service [BETA]",
         "commands": [
+            {
+                "name": "ybio",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Включить/выключить автобио",
+                    "doc": "- Enable/disable autobio"
+                }
+            },
             {
                 "name": "yguide",
                 "inline": false,
@@ -21513,11 +21520,27 @@
                     "ru_doc": "<запрос> - Поиск трека в Яндекс.Музыке",
                     "doc": "<query> - Search track in Yandex.Music"
                 }
+            },
+            {
+                "name": "yautomsg",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Включить все виджеты",
+                    "doc": "- Enable all widgets"
+                }
+            },
+            {
+                "name": "ywidget",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ссылка на сообщение/пост> - Сделать сообщение/пост виджетом",
+                    "doc": "<link to message/post> - Make a message/post a widget"
+                }
             }
         ],
         "name": "YaMusic",
         "repo": "unneyon/hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/yamusic.py"
+        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/yamusic_beta.py"
     },
     {
         "author": "@hikarimods&@sngscamer",
@@ -21901,11 +21924,18 @@
                 "description": {
                     "doc": "Показывает задержку бота"
                 }
+            },
+            {
+                "name": "clear_data",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все данные с сервера"
+                }
             }
         ],
         "name": "GitServerBot",
         "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/GitServerBot.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Git_serverBot.py"
     },
     {
         "author": "@skillzmeow",
@@ -24410,7 +24440,7 @@
         ],
         "name": "GamesForAndroid",
         "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GamesForAndroid.py"
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/GameForAndroid.py"
     },
     {
         "author": "@smeowcodes",
@@ -27202,33 +27232,40 @@
     },
     {
         "author": "@cakestwix_mods",
-        "description": "Hentai module 18+ Legacy",
+        "description": "🍓 Hentai doujin module 18+",
         "commands": [
             {
                 "name": "nhrandom",
                 "inline": false,
                 "description": {
-                    "doc": "Random hentai manga"
+                    "doc": "🎲 Random hentai doujin"
                 }
             },
             {
-                "name": "nhtag",
+                "name": "nhlast",
                 "inline": false,
                 "description": {
-                    "doc": "Search hentai manga by tag"
+                    "doc": "⌚️ Latest hentai doujin"
                 }
             },
             {
                 "name": "nhid",
                 "inline": false,
                 "description": {
-                    "doc": "Search hentai manga by id"
+                    "doc": "1️⃣ Hentai doujin by id"
+                }
+            },
+            {
+                "name": "nhsearch",
+                "inline": false,
+                "description": {
+                    "doc": "🔎 Search hentai doujin"
                 }
             }
         ],
         "name": "NHentai",
         "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hentai_ftg.py"
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/hentai.py"
     },
     {
         "author": "@hikarimods",
