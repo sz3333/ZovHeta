@@ -1,4 +1,4 @@
-__version__ = (9, 0, 4)
+__version__ = (9, 0, 5)
 #meta developer: @Foxy437
 # change-log: 🌹 Added search using AI (works not stably), you can enable in cfg (works only when searching via command)!
 
