@@ -12129,6 +12129,36 @@
         "install": "dlm https://raw.githubusercontent.com/Daniel1236n29/Modules_hikka/main/videovgs.py"
     },
     {
+        "author": "@murpiz",
+        "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
+        "commands": [
+            {
+                "name": "yafind",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для поиска трека на Яндекс.Музыке."
+                }
+            },
+            {
+                "name": "yanow",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает что вы сейчас слушаете."
+                }
+            },
+            {
+                "name": "yalike",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить проигрываемый трек в плейлист 'Мне нравится"
+                }
+            }
+        ],
+        "name": "YaMu",
+        "repo": "murpiz/YaMu",
+        "install": "dlm https://raw.githubusercontent.com/murpiz/YaMu/main/YaMu.py"
+    },
+    {
         "author": "@D4n13l3k00",
         "description": "Module for working with sound",
         "commands": [
