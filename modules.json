@@ -55950,12 +55950,12 @@
                 "name": "iris",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет команду @iris_cm_bot."
+                    "doc": "Отправляет команду @iris_black_bot."
                 }
             }
         ],
         "name": "IrisMod",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/iris.py"
     },
