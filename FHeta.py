@@ -449,7 +449,10 @@ class FHeta(loader.Module):
 
     @loader.watcher()
     async def venom(self, message):
-        if message.sender_id == (await message.client.get_entity("@FHeta_robot")).id:
+        sender = await message.get_sender()
+        sender_id = sender.id if sender else None
+
+        if sender_id == (await message.client.get_entity("@FHeta_robot")).id:
             link = message.raw_text.strip()
             loader_m = self.lookup("loader")
             try:
@@ -460,7 +463,7 @@ class FHeta(loader.Module):
                     await rose.delete()
                     await message.delete()           
             except:
-                await message.delete()
+                None
                 
     async def like_callback(self, call, module_name, action):
         await self.handle_rating(call, module_name, action)
