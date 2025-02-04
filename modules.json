@@ -56286,7 +56286,7 @@
     },
     {
         "author": "@werpyock0",
-        "description": "Гибкий спам-модуль.",
+        "description": "Гибкий спам-модуль (посмотри конфиг).",
         "commands": [
             {
                 "name": "spam",
@@ -56318,7 +56318,7 @@
             }
         ],
         "name": "WSpamMod",
-        "version": "1.3.2",
+        "version": "1.3.4",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/spam.py"
     }
