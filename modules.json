@@ -14955,6 +14955,22 @@
         "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/K.py"
     },
     {
+        "author": "@limokanews",
+        "description": "Hikka modules are now in one place with easy searching!",
+        "commands": [
+            {
+                "name": "limoka",
+                "inline": false,
+                "description": {
+                    "doc": "[query] - Search module"
+                }
+            }
+        ],
+        "name": "Limoka",
+        "repo": "MuRuLOSE/HikkaModulesRepo",
+        "install": "dlm https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/Limoka.py"
+    },
+    {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/s/Q4Hen86h2PuzHWVxH0OOCQ/H0YO.jpg",
         "description": "Module for cheat in MindGame",
@@ -18484,6 +18500,30 @@
         "name": "K:Currency",
         "repo": "TheKsenon/MyHikkaModules",
         "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/currency.py"
+    },
+    {
+        "author": "@kmodules",
+        "description": "Узнать примерный гендеор пользователя",
+        "commands": [
+            {
+                "name": "gender",
+                "inline": false,
+                "description": {
+                    "doc": "Примерный гендер по username/reply\nПример: .gender @username or reply"
+                }
+            },
+            {
+                "name": "gendername",
+                "inline": false,
+                "description": {
+                    "doc": "Примерный гендер по имени.\nПример: .gendername Максим"
+                }
+            }
+        ],
+        "name": "GenderGuesser",
+        "version": "1.0.0",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/genderguesser.py"
     },
     {
         "author": "@kmodules",
