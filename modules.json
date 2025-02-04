@@ -24867,6 +24867,32 @@
     },
     {
         "author": "@kshmods",
+        "description": "Module for making screenshots",
+        "commands": [
+            {
+                "name": "webs",
+                "inline": false,
+                "description": {
+                    "en_doc": "Takes screenshot of website",
+                    "ru_doc": "Делает скриншот сайта"
+                }
+            },
+            {
+                "name": "files",
+                "inline": false,
+                "description": {
+                    "en_doc": "Takes screenshot of website",
+                    "ru_doc": "Делает скриншот файла"
+                }
+            }
+        ],
+        "name": "ShotModule",
+        "version": "0.0.4",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ShotModule.py"
+    },
+    {
+        "author": "@kshmods",
         "description": "A module for parsing URLs.",
         "commands": [
             {
@@ -55975,6 +56001,23 @@
         "version": "1.9.0",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/komarumod.py"
+    },
+    {
+        "author": "@werpyock0",
+        "description": "Модуль для генерации случайного числа",
+        "commands": [
+            {
+                "name": "rnd",
+                "inline": false,
+                "description": {
+                    "doc": "Генерирует случайное число. Использование: .rnd <минимальное число> <максимальное число> (если не будет аргументов буду использовать значения из конфига)"
+                }
+            }
+        ],
+        "name": "RandomizerMod",
+        "version": "1.0.0",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/randomizer.py"
     },
     {
         "author": "@werpyock0",
