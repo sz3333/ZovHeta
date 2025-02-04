@@ -2174,6 +2174,22 @@
         "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/CheckMods.py"
     },
     {
+        "author": "@limokanews",
+        "description": "Hikka modules are now in one place with easy searching!",
+        "commands": [
+            {
+                "name": "limoka",
+                "inline": false,
+                "description": {
+                    "doc": "[query] - Search module"
+                }
+            }
+        ],
+        "name": "Limoka",
+        "repo": "vsecoder/hikka_modules",
+        "install": "dlm https://raw.githubusercontent.com/vsecoder/hikka_modules/main/Limoka.py"
+    },
+    {
         "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/256/kakashi-hatake.png&title=MangaSlider&description=Read%20manga%20in%20Telegram%20%F0%9F%91%8D",
         "pic": "https://img.icons8.com/color/256/kakashi-hatake.png",
