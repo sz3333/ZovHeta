@@ -55944,6 +55944,23 @@
     },
     {
         "author": "@werpyock0",
+        "description": "Модуль для отправки сообщения ирису и получения ответа.",
+        "commands": [
+            {
+                "name": "iris",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет команду @iris_cm_bot."
+                }
+            }
+        ],
+        "name": "IrisMod",
+        "version": "1.0.1",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/iris.py"
+    },
+    {
+        "author": "@werpyock0",
         "description": "Достает рандомную гифку из @komarumod",
         "commands": [
             {
