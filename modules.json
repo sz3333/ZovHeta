@@ -28179,6 +28179,73 @@
         "install": "dlm https://raw.githubusercontent.com/zolotarevinc/modules/main/WelcomeMod.py"
     },
     {
+        "author": "@zolotarevxc🌟",
+        "banner": "https://mods.whypodg.me/badges/chatmod.jpg",
+        "pic": "https://static.whypodg.me/mods!chatmod.png",
+        "description": "Модуль для управления чатом с красивыми эмодзи!",
+        "commands": [
+            {
+                "name": "helpmodule",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .helpmodule для отображения помощи по модулю."
+                }
+            },
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .userid <@ или реплай> для отображения ID пользователя."
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .chatid показывает ID чата."
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .invite <@ или реплай> для приглашения пользователя в чат."
+                }
+            },
+            {
+                "name": "kickme",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .kickme для выхода из чата."
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .users для вывода списка пользователей чата 👥"
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .admins для вывода списка администраторов чата 👑"
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .bots для вывода списка ботов чата 🤖"
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "repo": "zolotarevinc/modules",
+        "install": "dlm https://raw.githubusercontent.com/zolotarevinc/modules/main/chatmodule.py"
+    },
+    {
         "author": "@zolotarevxc",
         "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
         "pic": "https://static.whypodg.me/mods!irisfarm.png",
