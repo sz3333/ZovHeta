@@ -15948,6 +15948,185 @@
         "install": "dlm https://raw.githubusercontent.com/ssshdev/sh.modules/main/trysamp.py"
     },
     {
+        "author": "@kotcheat",
+        "description": "Этот модуль позволяет вам легко получать изображения waifu из различных источников ( @kotcheat )",
+        "commands": [
+            {
+                "name": "waf",
+                "inline": false,
+                "description": {
+                    "doc": "Send anime pic"
+                }
+            }
+        ],
+        "name": "KOTaiwaifu",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTaiwaifu.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Модуль для получения информации о странах (by @kotcheat)",
+        "commands": [
+            {
+                "name": "страна",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить информацию о стране",
+                    "doc": "Получить информацию о стране"
+                }
+            },
+            {
+                "name": "всестраны",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить список всех стран",
+                    "doc": "Получить список всех стран"
+                }
+            },
+            {
+                "name": "случайнаястрана",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить информацию о случайной стране",
+                    "doc": "Получить информацию о случайной стране"
+                }
+            }
+        ],
+        "name": "CountriesMod",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTcountry.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
+        "commands": [
+            {
+                "name": "gen",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Генерирует случайный пароль и логин",
+                    "doc": "Генерирует случайный пароль и логин"
+                }
+            },
+            {
+                "name": "save",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сохраняет последние сгенерированные данные",
+                    "doc": "Сохраняет последние сгенерированные данные"
+                }
+            },
+            {
+                "name": "show",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показывает сохраненные данные",
+                    "doc": "Показывает сохраненные данные"
+                }
+            },
+            {
+                "name": "gensave",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Генерирует новые данные и сохраняет их",
+                    "doc": "Генерирует новые  данные и сохраняет их"
+                }
+            },
+            {
+                "name": "clear",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очищает все сохраненные данные",
+                    "doc": "Очищает все сохраненные  данные"
+                }
+            },
+            {
+                "name": "note",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавляет примечание к сохраненным данным",
+                    "doc": "Добавляет примечание к сохраненным данным"
+                }
+            },
+            {
+                "name": "delcred",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удаляет сохраненные данные по номеру",
+                    "doc": "Удаляет сохраненные  данные по номеру"
+                }
+            },
+            {
+                "name": "createprivatechat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создает приватный чат",
+                    "doc": "Создает приватный чат"
+                }
+            },
+            {
+                "name": "saveprivatedata",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сохраняет данные в приватный чат по номеру",
+                    "doc": "Сохраняет данные с примечанием в приватный чат по номеру"
+                }
+            }
+        ],
+        "name": "KOTpassfolder",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTpassfolder.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Модуль для определения праздников в России (by @kotcheat)",
+        "commands": [
+            {
+                "name": "holiday",
+                "inline": false,
+                "description": {
+                    "doc": "Узнать, какой праздник сегодня в России и сколько дней до ближайшего праздника"
+                }
+            }
+        ],
+        "name": "RussianHolidays",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTruholiday.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Модуль для быстрого и безопастного сокращения URL (by @kotcheat)",
+        "commands": [
+            {
+                "name": "urlsoc",
+                "inline": false,
+                "description": {
+                    "doc": "Сокращает URL"
+                }
+            }
+        ],
+        "name": "KOTURLShortener",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTurl.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Модуль преобразования голосовых сообщений в текст (by @kotcheat)",
+        "commands": [
+            {
+                "name": "tex",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply> to voice",
+                    "doc": "Преобразовать голосовое сообщение в текст"
+                }
+            }
+        ],
+        "name": "KOTvoicetotext",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTvoicetotext.py"
+    },
+    {
         "author": "@shiro_hikka",
         "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
         "description": "Automatic stuff for your profile",
@@ -56107,7 +56286,7 @@
     },
     {
         "author": "@werpyock0",
-        "description": "Гибкий спам-модуль (посмотри в кфг).",
+        "description": "Гибкий спам-модуль.",
         "commands": [
             {
                 "name": "spam",
@@ -56139,7 +56318,7 @@
             }
         ],
         "name": "WSpamMod",
-        "version": "1.3.0",
+        "version": "1.3.2",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/spam.py"
     }
