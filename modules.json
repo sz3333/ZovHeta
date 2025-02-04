@@ -15746,27 +15746,28 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Automatic stuff for your profile",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Automatic stuff for your profile",
         "commands": [
             {
                 "name": "cfgset",
                 "inline": false,
                 "description": {
-                    "doc": "<number> - to specify a timezone\nregarding to UTC+0"
+                    "doc": "<number> - specify a timezone\nRegarding to UTC+0"
                 }
             },
             {
                 "name": "autoname",
                 "inline": false,
                 "description": {
-                    "doc": "<text> - autotime in nickname | {time} must be specified in the text\nWrite without argument to disable"
+                    "doc": "<text> - autotime in nickname | {time} must be placed in the text\nWrite without argument to disable"
                 }
             },
             {
                 "name": "autobio",
                 "inline": false,
                 "description": {
-                    "doc": "<text> - autotime in bio | {time} must be specified in the text\nWrite without argument to disable"
+                    "doc": "<text> - autotime in bio | {time} must be placed in the text\nWrite without argument to disable"
                 }
             }
         ],
@@ -15776,52 +15777,21 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Imitates someone else's channel with your one\nMake sure your channel doesn't include photos before using a module otherwise others will be overlayed with them",
-        "commands": [
-            {
-                "name": "imitate",
-                "inline": false,
-                "description": {
-                    "doc": "[limit: int] - save all the media and messages from specified channel"
-                }
-            }
-        ],
-        "name": "ChannelImitator",
-        "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/ChannelImitator.py"
-    },
-    {
-        "author": "@shiro_hikka",
-        "description": "猫ちゃん | Saves messages and media from private channels where it's forbidden",
-        "commands": [
-            {
-                "name": "psave",
-                "inline": false,
-                "description": {
-                    "doc": "[limit: int] - save all the media and messages from specified channel"
-                }
-            }
-        ],
-        "name": "ChannelSaver",
-        "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/ChannelSaver.py"
-    },
-    {
-        "author": "@shiro_hikka",
-        "description": "猫ちゃん | InlineCounter",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Inline Clicks Counter",
         "commands": [
             {
                 "name": "creset",
                 "inline": false,
                 "description": {
-                    "doc": "[-u] [-c] - reset counter\n-u (users list) -c (counts list)"
+                    "doc": "[-u] [-c] - reset the counter\n-u (users list) -c (counts list)"
                 }
             },
             {
                 "name": "count",
                 "inline": false,
                 "description": {
-                    "doc": "- creates an inline button for counting a presses"
+                    "doc": "Creates an inline button for counting a presses"
                 }
             }
         ],
@@ -15831,23 +15801,32 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Delete all your messages in current chat",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Delete all your messages in the current chat",
         "commands": [
+            {
+                "name": "stoppurge",
+                "inline": false,
+                "description": {
+                    "doc": "Interupt the process of deletion"
+                }
+            },
             {
                 "name": "purge",
                 "inline": false,
                 "description": {
-                    "doc": "[reply] [10s / 10m / 10h / 10d] - delete all your messages in current chat or only ones up to message you replyed to\nExample: 10h 3d"
+                    "doc": "[reply] [10s / 10m / 10h / 10d] - delete all your messages in the current chat or only ones up to the message you replied to\nPosible to do in a specific time\nExample: 10h 3d"
                 }
             }
         ],
-        "name": "DelMyMsgs",
+        "name": "MessageEraser",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/DelMyMsgs.py"
+        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/MessageEraser.py"
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Counting how many messages did you and your chat partner write",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Defines how many messages did you and your chat partner write",
         "commands": [
             {
                 "name": "stat",
@@ -15857,35 +15836,20 @@
                 }
             }
         ],
-        "name": "PMstat",
+        "name": "PMStat",
         "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/PMstat.py"
+        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/PMStat.py"
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Massively sending message to some kind of chat",
-        "commands": [
-            {
-                "name": "send",
-                "inline": false,
-                "description": {
-                    "doc": "[pm / group / channel] <message> - start massive sending"
-                }
-            }
-        ],
-        "name": "Sender",
-        "repo": "1jpshiro/hikka-modules",
-        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/Sender.py"
-    },
-    {
-        "author": "@shiro_hikka",
-        "description": "猫ちゃん | Emoji/sticker stealer",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Emoji / Sticker pickpocket",
         "commands": [
             {
                 "name": "steal",
                 "inline": false,
                 "description": {
-                    "doc": "<reply / quote reply> - add an emoji or sticker to your pack\nEmoji: only one type of emoji at time is available"
+                    "doc": "<reply / quote reply> - add an emoji or sticker to your pack\nEmoji: one type of emoji only is possible to be used at time"
                 }
             }
         ],
@@ -15895,13 +15859,14 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | Timer",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Creates fine adorned timer",
         "commands": [
             {
                 "name": "timer",
                 "inline": false,
                 "description": {
-                    "doc": "[5h 5m 5s] - turn on the timer"
+                    "doc": "[5h 5m 5s] - launch the timer"
                 }
             }
         ],
@@ -15911,30 +15876,35 @@
     },
     {
         "author": "@shiro_hikka",
-        "description": "猫ちゃん | This module tracks the change history of an usernames and nicknames of the users you added to the track list",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Tracks the change history of usernames and nicknames of users",
         "commands": [
             {
                 "name": "track",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - включить / выключить слежку",
-                    "doc": "- enable / disable the tracking"
+                    "doc": "Enable / Disable the tracking"
                 }
             },
             {
                 "name": "addtrack",
                 "inline": false,
                 "description": {
-                    "ru_doc": " <ID / Имя пользователя> - добавить нового пользователя в слежку",
                     "doc": "<ID / Username> - add a new user to track"
+                }
+            },
+            {
+                "name": "deltrack",
+                "inline": false,
+                "description": {
+                    "doc": "Remove user from the track list"
                 }
             },
             {
                 "name": "trackstat",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - посмотреть статистику по пользователям",
-                    "doc": "- view the statistic about users you tracks"
+                    "doc": "View the statistic about users you're tracking"
                 }
             }
         ],
@@ -55305,6 +55275,22 @@
         "name": "FunstatMod",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/funstat.py"
+    },
+    {
+        "author": "@werpyock0",
+        "description": "Достает рандомную гифку из @komarumod",
+        "commands": [
+            {
+                "name": "komarugif",
+                "inline": false,
+                "description": {
+                    "doc": "Рандомная гифка"
+                }
+            }
+        ],
+        "name": "KomaruMod",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/komarumod.py"
     },
     {
         "author": "@werpyock0",
