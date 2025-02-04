@@ -19007,7 +19007,7 @@
             }
         ],
         "name": "FHeta",
-        "version": "9.0.5",
+        "version": "9.0.6",
         "repo": "Fixyres/FHeta",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/FHeta/main/FHeta.py"
     },
