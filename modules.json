@@ -34416,37 +34416,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DownloadYT.py"
     },
     {
-        "author": "@codrago_m",
-        "description": "Maybe... doxing tool?",
-        "commands": [
-            {
-                "name": "gb",
-                "inline": false,
-                "description": {
-                    "doc": "search in databases eye of god!"
-                }
-            },
-            {
-                "name": "deanon",
-                "inline": false,
-                "description": {
-                    "doc": "Full information of user in global database"
-                }
-            },
-            {
-                "name": "dinfo",
-                "inline": false,
-                "description": {
-                    "doc": "info of module"
-                }
-            }
-        ],
-        "name": "DoxTool",
-        "version": "1.0.0",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DoxTool.py"
-    },
-    {
         "author": "@hikkaftgmods",
         "banner": "https://i.imgur.com/awltLuz.jpeg",
         "description": "Автоматизирует работу с @DrochBot (автоматическая дрочка и др.)",
@@ -43798,29 +43767,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/cheval.py"
     },
     {
-        "author": "@codrago_m, @ytkanelox",
-        "description": "Модуль для автоматического нажатия на инлайн кнопки.",
-        "commands": [
-            {
-                "name": "clickon",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .clickon <интервал в секундах> для начала кликов."
-                }
-            },
-            {
-                "name": "clickoff",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .clickoff для остановки кликера."
-                }
-            }
-        ],
-        "name": "AutoClicker",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/clickon.py"
-    },
-    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/cloud.jpg",
         "pic": "https://static.dan.tatar/cloud_icon.png",
@@ -44688,22 +44634,6 @@
         "name": "DialogsManager",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/dialogs_manager.py"
-    },
-    {
-        "author": "@codrago_m",
-        "description": "Развлекательный модуль",
-        "commands": [
-            {
-                "name": "rnum",
-                "inline": false,
-                "description": {
-                    "doc": "Угадывайте рандомные числа!"
-                }
-            }
-        ],
-        "name": "RandomNumbers",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/dice.py"
     },
     {
         "author": "@hikarimods",
@@ -46987,37 +46917,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/iOSAppsForAndroid.py"
     },
     {
-        "author": "@codrago_m",
-        "description": "ID of all!",
-        "commands": [
-            {
-                "name": "userid",
-                "inline": false,
-                "description": {
-                    "doc": "[reply] | Get User ID"
-                }
-            },
-            {
-                "name": "id",
-                "inline": false,
-                "description": {
-                    "doc": "| Get your ID"
-                }
-            },
-            {
-                "name": "chatid",
-                "inline": false,
-                "description": {
-                    "doc": "| Get chat ID"
-                }
-            }
-        ],
-        "name": "ID",
-        "version": "1.0.0",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/id.py"
-    },
-    {
         "description": "Картинки в текст. что?",
         "commands": [
             {
@@ -48094,30 +47993,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/lmgtfy.py"
     },
     {
-        "author": "@codrago_m",
-        "description": "Your the best friend in loli hentai",
-        "commands": [
-            {
-                "name": "loli",
-                "inline": false,
-                "description": {
-                    "doc": "-> random loli photo"
-                }
-            },
-            {
-                "name": "lolic",
-                "inline": false,
-                "description": {
-                    "doc": "-> to get your loli"
-                }
-            }
-        ],
-        "name": "LoliHentai",
-        "version": "1.6.0",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/loli.py"
-    },
-    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/longread.jpg",
         "pic": "https://static.dan.tatar/longread_icon.png",
@@ -48618,38 +48493,6 @@
         "name": "Miscellaneous",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/misc.py"
-    },
-    {
-        "author": "@codrago_m",
-        "description": "Модуль для быстрого доступа к каналам с модулями",
-        "commands": [
-            {
-                "name": "modlist",
-                "inline": false,
-                "description": {
-                    "ru_doc": " | Быстрый доступ к каналам с модулями ",
-                    "doc": "| Quick access to channels with modules"
-                }
-            },
-            {
-                "name": "offmodlist",
-                "inline": false,
-                "description": {
-                    "ru_doc": " | Оффициальные каналы с модулями ",
-                    "doc": "| Official channel with modules"
-                }
-            },
-            {
-                "name": "addchat",
-                "inline": false,
-                "description": {
-                    "doc": "[BOT API ID] | add chat"
-                }
-            }
-        ],
-        "name": "ModList",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/modlist.py"
     },
     {
         "description": "Modulate pitch of voice",
@@ -49839,23 +49682,6 @@
         "name": "Pinger",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/pinger.py"
-    },
-    {
-        "author": "@codrago_m",
-        "description": "Gives a link to download a file from Pinterest",
-        "commands": [
-            {
-                "name": "pinterest",
-                "inline": false,
-                "description": {
-                    "doc": "Gives a link to download"
-                }
-            }
-        ],
-        "name": "PinterestDownloader",
-        "version": "1.0.0",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/pinterest.py"
     },
     {
         "author": "@hikarimods",
@@ -54017,22 +53843,6 @@
         "name": "WhoIs",
         "repo": "amm1edev/ame_repo",
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/whois.py"
-    },
-    {
-        "author": "@codrago_m",
-        "description": "Who you? Who i'm? Who all in this world?",
-        "commands": [
-            {
-                "name": "question",
-                "inline": false,
-                "description": {
-                    "doc": "Answer the question asked in the config!"
-                }
-            }
-        ],
-        "name": "WhoYou",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/whoyou.py"
     },
     {
         "author": "@vsecoder_m",
