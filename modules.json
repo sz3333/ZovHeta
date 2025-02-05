@@ -34278,44 +34278,6 @@
         "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DeepAI.py"
     },
     {
-        "author": "@codrago_m",
-        "description": "Module to manage and delete your messages in the current chat",
-        "commands": [
-            {
-                "name": "purge",
-                "inline": false,
-                "description": {
-                    "doc": "[reply] [-img] [-voice] [-file] - delete all your messages in current chat or only ones up to the message you replied to"
-                }
-            },
-            {
-                "name": "purgekeyword",
-                "inline": false,
-                "description": {
-                    "doc": "<keyword> [-img] [-voice] [-file] - delete all your messages containing the specified keyword in the current chat"
-                }
-            },
-            {
-                "name": "purgetime",
-                "inline": false,
-                "description": {
-                    "doc": "<start_time> <end_time> [-img] [-voice] [-file] - delete all your messages within the specified time range in the current chat\nTime format: YYYY-MM-DD HH:MM:SS"
-                }
-            },
-            {
-                "name": "purgelength",
-                "inline": false,
-                "description": {
-                    "doc": "<length> [-img] [-voice] [-file] - delete all your messages with the specified length in the current chat"
-                }
-            }
-        ],
-        "name": "DelMessTools",
-        "version": "1.0.0",
-        "repo": "amm1edev/ame_repo",
-        "install": "dlm https://raw.githubusercontent.com/amm1edev/ame_repo/main/DelMessTools.py"
-    },
-    {
         "author": "@D4n13l3k00",
         "commands": [
             {
