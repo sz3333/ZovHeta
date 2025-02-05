@@ -452,12 +452,14 @@ class FHeta(loader.Module):
         link = message.raw_text.strip()
         loader_m = self.lookup("loader")
         try:
-            result = await loader_m.download_and_install(link)
-            if result == 1:
-                rose = await message.respond("🌹")
-                await asyncio.sleep(1)
-                await rose.delete()
-                await message.delete()               
+            for _ in range(5):
+                result = await loader_m.download_and_install(link)
+                if result == 1:
+                    rose = await message.respond("🌹")
+                    await asyncio.sleep(1)
+                    await rose.delete()
+                    await message.delete()            
+                    break   
         except:
         	None
                 
