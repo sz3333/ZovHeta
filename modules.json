@@ -14572,7 +14572,7 @@
     {
         "author": "@shiro_hikka",
         "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
-        "description": "Delete all your messages in the current chat",
+        "description": "Delete your messages in the current chat",
         "commands": [
             {
                 "name": "stoppurge",
