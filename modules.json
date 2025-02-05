@@ -23088,13 +23088,27 @@
     },
     {
         "author": "@kshmods",
-        "description": "Модуль для админов чатов\nMade by Desai",
+        "description": "Модуль для админов чатов",
         "commands": [
+            {
+                "name": "leave",
+                "inline": false,
+                "description": {
+                    "doc": "Покинуть чат"
+                }
+            },
             {
                 "name": "fullrights",
                 "inline": false,
                 "description": {
                     "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
+                }
+            },
+            {
+                "name": "myrights",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить ваши права в текущем чате"
                 }
             },
             {
@@ -23115,35 +23129,35 @@
                 "name": "create",
                 "inline": false,
                 "description": {
-                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
+                    "doc": "<g|s|c> <название> <tag: OPTIONAL> | чтобы создать группу, супергруппу или канал."
                 }
             },
             {
                 "name": "userid",
                 "inline": false,
                 "description": {
-                    "doc": "[reply] | Get User ID"
+                    "doc": "[reply] | Получить айди пользователя"
                 }
             },
             {
                 "name": "id",
                 "inline": false,
                 "description": {
-                    "doc": "| Get your ID"
+                    "doc": "| Получить свой айди"
                 }
             },
             {
                 "name": "chatid",
                 "inline": false,
                 "description": {
-                    "doc": "| Get chat ID"
+                    "doc": "| Получить айди чата"
                 }
             },
             {
                 "name": "del",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет сообщение. Использование: ?del <reply>"
+                    "doc": "<reply/count> | Удаляет сообщения."
                 }
             },
             {
@@ -23192,14 +23206,14 @@
                 "name": "chatinfo",
                 "inline": false,
                 "description": {
-                    "doc": "Используй .chatinfo <айди чата>; ничего"
+                    "doc": "<айди чата>"
                 }
             },
             {
                 "name": "own",
                 "inline": false,
                 "description": {
-                    "doc": "Выводит список чатов, каналов и групп где вы владелец."
+                    "doc": "Выводит список чатов, каналов и групп где вы владелец/админ."
                 }
             },
             {
@@ -23213,7 +23227,7 @@
                 "name": "mute",
                 "inline": false,
                 "description": {
-                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время (в минутах)."
+                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
                 }
             },
             {
@@ -23348,6 +23362,47 @@
         "version": "8.0.0",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Create inline buttons easily",
+        "commands": [
+            {
+                "name": "cinline",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinephoto",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на изображение] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Image link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinevideo",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на видео] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[Video link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            },
+            {
+                "name": "cinlinegif",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Ссылка на GIF] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
+                    "doc": "[GIF link] [Button text] [Button link] [Text] - Create inline button"
+                }
+            }
+        ],
+        "name": "InlineButtons",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/InlineButtons.py"
     },
     {
         "author": "@kshmods",
@@ -23542,7 +23597,7 @@
                 "name": "scrape",
                 "inline": false,
                 "description": {
-                    "doc": "Parses the given URL."
+                    "doc": "Extracts and processes data from the specified URL."
                 }
             },
             {
@@ -23853,6 +23908,68 @@
         "name": "MembersList",
         "repo": "Plovchikdeval/dev_modules",
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/memberslist.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Модуль для преобразования изображения в GIF",
+        "commands": [
+            {
+                "name": "p2g",
+                "inline": false,
+                "description": {
+                    "doc": "Creates a GIF from an image. Usage: .gif (response to the image)"
+                }
+            }
+        ],
+        "name": "ImageToGif",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/p2g.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Screenshot Spammer",
+        "commands": [
+            {
+                "name": "scrs",
+                "inline": false,
+                "description": {
+                    "doc": ".scrs <amount>"
+                }
+            }
+        ],
+        "name": "ScrSpam",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/screenspam.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Module for sending private messages",
+        "commands": [
+            {
+                "name": "send",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .send <message>"
+                }
+            },
+            {
+                "name": "setpm",
+                "inline": false,
+                "description": {
+                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
+                }
+            },
+            {
+                "name": "stopchat",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
+                }
+            }
+        ],
+        "name": "SendPm",
+        "repo": "Plovchikdeval/dev_modules",
+        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/send.py"
     },
     {
         "author": "@kshmods",
