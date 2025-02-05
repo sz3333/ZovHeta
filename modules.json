@@ -29469,29 +29469,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BIOAudio.py"
     },
     {
-        "author": "@Foxy437",
-        "description": "Модуль для авто замены шрифта на жирный.",
-        "commands": [
-            {
-                "name": "on_bold",
-                "inline": false,
-                "description": {
-                    "doc": "Включить авто замену шрифта на жирный."
-                }
-            },
-            {
-                "name": "off_bold",
-                "inline": false,
-                "description": {
-                    "doc": "Выключить авто замену шрифта на жирный."
-                }
-            }
-        ],
-        "name": "Bold",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/BOLDD.py"
-    },
-    {
         "author": "@H1kka_Mods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Bull.jpg",
         "pic": "https://te.legra.ph/file/7772a7dae6290f0a612a6.png",
