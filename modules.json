@@ -25250,6 +25250,36 @@
     },
     {
         "author": "@Enceth",
+        "description": "\"\"Модуль для автоматической рассылки сообщений",
+        "commands": [
+            {
+                "name": "addaf",
+                "inline": false,
+                "description": {
+                    "doc": "<название> <интервал> <список чатов через запятую> <сообщение> - добавить авторассылку"
+                }
+            },
+            {
+                "name": "rmaf",
+                "inline": false,
+                "description": {
+                    "doc": "<название> - удалить задачу"
+                }
+            },
+            {
+                "name": "listafs",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список активных задач."
+                }
+            }
+        ],
+        "name": "AutoSend",
+        "repo": "Enceth/Modules",
+        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/AutoSend.py"
+    },
+    {
+        "author": "@Enceth",
         "description": "Дает возможность грести эти гребаные деньги лопатой",
         "commands": [
             {
