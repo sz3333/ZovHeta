@@ -29245,7 +29245,7 @@
         ],
         "name": "Atoll",
         "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Atolll.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Atoll.py"
     },
     {
         "description": "Модуль для отправки аудиосообщений с визуальной длительностью",
