@@ -21532,6 +21532,22 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для создания стикеров по сообщению через @QuotLyBot",
+        "commands": [
+            {
+                "name": "quotly",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> - создать стикер по сообщению"
+                }
+            }
+        ],
+        "name": "Quotly",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Quotly.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Загрузка файлов на SFTP",
         "commands": [
             {
