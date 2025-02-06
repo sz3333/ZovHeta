@@ -17176,6 +17176,23 @@
     },
     {
         "author": "@kmodules",
+        "description": "Генератор случайных пользовательских данных.",
+        "commands": [
+            {
+                "name": "randuser",
+                "inline": false,
+                "description": {
+                    "doc": "Сгенерировать случайные данные"
+                }
+            }
+        ],
+        "name": "K:RandomUser",
+        "version": "1.0.0",
+        "repo": "TheKsenon/MyHikkaModules",
+        "install": "dlm https://raw.githubusercontent.com/TheKsenon/MyHikkaModules/main/krandomuser.py"
+    },
+    {
+        "author": "@kmodules",
         "banner": "https://i.ibb.co/gy5xbPd/d4be263e-63b5-42e1-ac2b-0dac067b0623.jpg",
         "description": "Универсальный AFK модуль с поддержкой кастом сообщения и премиум статуса.",
         "commands": [
