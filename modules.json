@@ -20007,6 +20007,22 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/barcode.py"
     },
     {
+        "author": "@vsecoder_m && @matubuntu",
+        "description": "Module for check modules",
+        "commands": [
+            {
+                "name": "checkmod",
+                "inline": false,
+                "description": {
+                    "doc": "<module_link> or \"reply file\" or \"send file\" - perform module check"
+                }
+            }
+        ],
+        "name": "Check module",
+        "repo": "Ruslan-Isaev/modules",
+        "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/checkmod.py"
+    },
+    {
         "author": "@RUIS_VlP, @matubuntu",
         "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
         "commands": [
