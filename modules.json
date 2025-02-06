@@ -54611,7 +54611,7 @@
             }
         ],
         "name": "RandomizerMod",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "repo": "werpyock/hikkamods",
         "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/randomizer.py"
     },
