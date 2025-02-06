@@ -23121,223 +23121,253 @@
     },
     {
         "author": "@kshmods",
-        "description": "Модуль для админов чатов",
         "commands": [
             {
                 "name": "leave",
                 "inline": false,
                 "description": {
-                    "doc": "Покинуть чат"
+                    "ru_doc": "| Покинуть чат",
+                    "doc": "| Leave chat"
                 }
             },
             {
                 "name": "fullrights",
                 "inline": false,
                 "description": {
-                    "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
+                    "ru_doc": "<реплай> [роль] | Повышение пользователя до администратора с полными правами.",
+                    "doc": "<reply> [role] |  Upgrade the user to an administrator with full rights."
                 }
             },
             {
                 "name": "myrights",
                 "inline": false,
                 "description": {
-                    "doc": "Проверить ваши права в текущем чате"
+                    "ru_doc": "| Проверить ваши права в текущем чате.",
+                    "doc": "| Check your rights in the current chat."
                 }
             },
             {
                 "name": "promote",
                 "inline": false,
                 "description": {
-                    "doc": "<пользователь> [роль (префикс)] — Повышение пользователя до администратора."
+                    "ru_doc": "<reply> [role] | Повышение пользователя до администратора.",
+                    "doc": "<reply> [role] | Promote the user to administrator."
                 }
             },
             {
                 "name": "demote",
                 "inline": false,
                 "description": {
-                    "doc": "<пользователь> — Снятие прав администратора с пользователя."
+                    "ru_doc": "<реплай> | Снятие прав администратора с пользователя.",
+                    "doc": "<reply> | Demote the user."
                 }
             },
             {
                 "name": "create",
                 "inline": false,
                 "description": {
-                    "doc": "<g|s|c> <название> <tag: OPTIONAL> | чтобы создать группу, супергруппу или канал."
+                    "ru_doc": "<g|s|c> <название> <тег: OPTIONAL> | создать группу, супергруппу или канал.",
+                    "doc": "<g|s|c> <название> <tag: OPTIONAL> | create a group, supergroup, or channel."
                 }
             },
             {
                 "name": "userid",
                 "inline": false,
                 "description": {
-                    "doc": "[reply] | Получить айди пользователя"
+                    "ru_doc": "<реплай> | Получить айди пользователя.",
+                    "doc": "<reply> | Get user's id."
                 }
             },
             {
                 "name": "id",
                 "inline": false,
                 "description": {
-                    "doc": "| Получить свой айди"
+                    "ru_doc": "| Получить свой айди",
+                    "doc": "| Get your id."
                 }
             },
             {
                 "name": "chatid",
                 "inline": false,
                 "description": {
-                    "doc": "| Получить айди чата"
+                    "ru_doc": "| Получить айди чата.",
+                    "doc": "| Get chat id."
                 }
             },
             {
                 "name": "del",
                 "inline": false,
                 "description": {
-                    "doc": "<reply/count> | Удаляет сообщения."
+                    "ru_doc": "<реплай/кол-во> | Удаляет сообщения.",
+                    "doc": "<reply/count> | Deletes messages."
                 }
             },
             {
                 "name": "dgc",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет группу/канал по ссылке или ID. Использование: .dgc <ID или ссылка>"
+                    "ru_doc": "<ID или ссылка> | Удаляет группу/канал.",
+                    "doc": "<ID or link> | Deletes group/channel."
                 }
             },
             {
                 "name": "join",
                 "inline": false,
                 "description": {
-                    "doc": "Вступает в группу или канал по ссылке."
+                    "ru_doc": "<ссылка> | Вступает в группу или канал по ссылке.",
+                    "doc": "<link> | Join group or channel via link."
                 }
             },
             {
                 "name": "whoisowner",
                 "inline": false,
                 "description": {
-                    "doc": "Определяет владельца группы или канала."
+                    "ru_doc": "| Определяет владельца группы или канала.",
+                    "doc": "| Shows the owner of the group or channel."
                 }
             },
             {
                 "name": "rename",
                 "inline": false,
                 "description": {
-                    "doc": ".rename <new_name> — Меняет название группы/канала на <new_name>"
+                    "ru_doc": "<new_name> | Меняет название группы/канала на <new_name>",
+                    "doc": "<new_name> | Changes the group/channel name to <new_name>"
                 }
             },
             {
                 "name": "members",
                 "inline": false,
                 "description": {
-                    "doc": "Показывает кол-во участников канала/группы"
+                    "ru_doc": "| Показывает кол-во участников канала/группы",
+                    "doc": "| Shows the number of members in the channel/group"
                 }
             },
             {
                 "name": "banall",
                 "inline": false,
                 "description": {
-                    "doc": "Забанить всех участников в группе/канале"
+                    "ru_doc": "| Забанить всех участников в группе/канале",
+                    "doc": "| Ban all members in the group/channel"
                 }
             },
             {
                 "name": "chatinfo",
                 "inline": false,
                 "description": {
-                    "doc": "<айди чата>"
+                    "ru_doc": "| Показывает информацию о чате.",
+                    "doc": "| Shows information about the chat."
                 }
             },
             {
                 "name": "own",
                 "inline": false,
                 "description": {
-                    "doc": "Выводит список чатов, каналов и групп где вы владелец/админ."
+                    "ru_doc": "| Показывает список чатов, каналов и групп где вы админ/владелец.",
+                    "doc": "| Shows the list of chats, channels and groups where you are an admin/owner."
                 }
             },
             {
                 "name": "unmute",
                 "inline": false,
                 "description": {
-                    "doc": "Размучивает пользователя. Использование: .unmute <id>"
+                    "ru_doc": "<id/reply> | Размучивает пользователя.",
+                    "doc": "<id/reply> | Unmutes the user."
                 }
             },
             {
                 "name": "mute",
                 "inline": false,
                 "description": {
-                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
+                    "ru_doc": "<reply/ID/username> <time> | Мутит пользователя на определенное время.",
+                    "doc": "<reply/ID/username> <time> | Mutes the user for a certain time."
                 }
             },
             {
                 "name": "kickall",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет всех пользователей из чата."
+                    "ru_doc": "| Кикает всех пользователей из чата.",
+                    "doc": "| Kicks all users from the chat."
                 }
             },
             {
                 "name": "steal",
                 "inline": false,
                 "description": {
-                    "doc": "Добавляет людей и ботов с чата в чат. Если дописать аргумент nobot то без ботов"
+                    "ru_doc": "<nobot: OPTIONAL> | Добавляет людей и ботов с чата в чат.",
+                    "doc": "<nobot: OPTIONAL> | Adds people from the chat to the chat."
                 }
             },
             {
                 "name": "users",
                 "inline": false,
                 "description": {
-                    "doc": "Выводит список участников."
+                    "ru_doc": "| Выводит список участников в чате.",
+                    "doc": "| Shows the list of members in the chat."
                 }
             },
             {
                 "name": "admins",
                 "inline": false,
                 "description": {
-                    "doc": "Выводит список всех админов в чате (без учёта ботов)."
+                    "ru_doc": "| Выводит список всех админов в чате (без учёта ботов).",
+                    "doc": "| Shows the list of all admins in the chat (excluding bots)."
                 }
             },
             {
                 "name": "bots",
                 "inline": false,
                 "description": {
-                    "doc": "Выводит список всех ботов в чате."
+                    "ru_doc": "| Выводит список всех ботов в чате.",
+                    "doc": "| Shows the list of all bots in the chat."
                 }
             },
             {
                 "name": "unban",
                 "inline": false,
                 "description": {
-                    "doc": "Разбанить участника. Использование: .ban <reply/id>"
+                    "ru_doc": "<reply/ID/username> | Разбанивает участника.",
+                    "doc": "<reply/ID/username> | Unbans the user."
                 }
             },
             {
                 "name": "ban",
                 "inline": false,
                 "description": {
-                    "doc": "Забанить участника. Использование: .ban <reply/id>"
+                    "ru_doc": "<reply/ID/username> | Банит участника.",
+                    "doc": "<reply/id/username> | Bans the user."
                 }
             },
             {
                 "name": "kick",
                 "inline": false,
                 "description": {
-                    "doc": "Кикнуть участника из чата. Использование: .kick <reply/id>"
+                    "ru_doc": "<reply/ID/username> | Кикает участника.",
+                    "doc": "<reply/id/username> | Kicks the user."
                 }
             },
             {
                 "name": "invite",
                 "inline": false,
                 "description": {
-                    "doc": "Пригласить пользователя/бота в чат. Использование: .invite <id/reply>."
+                    "ru_doc": "<reply/ID/username> | Приглашает участника/бота в чат.",
+                    "doc": "<reply/id/username> | Invites the user/bot to the chat."
                 }
             },
             {
                 "name": "flush",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет удалённые аккаунты из чата"
+                    "ru_doc": "| Удаляет удалённые аккаунты из чата.",
+                    "doc": "| Removes deleted accounts from the chat."
                 }
             },
             {
                 "name": "wipe",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет все сообщения от тебя"
+                    "ru_doc": "| Удаляет все сообщения от тебя.",
+                    "doc": "| Deletes all your messages."
                 }
             }
         ],
