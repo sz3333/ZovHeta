@@ -14597,6 +14597,15 @@
     {
         "author": "@shiro_hikka",
         "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
+        "description": "Suggest to get updated if your version isn't up-to-date",
+        "name": "ModulesUpdater",
+        "version": "1.0.0",
+        "repo": "1jpshiro/hikka-modules",
+        "install": "dlm https://raw.githubusercontent.com/1jpshiro/hikka-modules/main/ModulesUpdater.py"
+    },
+    {
+        "author": "@shiro_hikka",
+        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
         "description": "Defines how many messages did you and your chat partner write",
         "commands": [
             {
