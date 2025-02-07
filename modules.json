@@ -54562,6 +54562,23 @@
     },
     {
         "author": "@werpyock0",
+        "description": "Модуль для удаления твоих сообщений.",
+        "commands": [
+            {
+                "name": "deleter",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<количество> - Удаляет указанное количество твоих сообщений в текущем чате."
+                }
+            }
+        ],
+        "name": "DeleterMod",
+        "version": "1.0.0",
+        "repo": "werpyock/hikkamods",
+        "install": "dlm https://raw.githubusercontent.com/werpyock/hikkamods/main/deleter.py"
+    },
+    {
+        "author": "@werpyock0",
         "description": "Модуль на фанстат, использует бота @fanstarttt_bot чтобы получить ответ.",
         "commands": [
             {
