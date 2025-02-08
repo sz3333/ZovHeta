@@ -31781,23 +31781,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/unknown_strings.py"
     },
     {
-        "author": "@Foxy437 & venom",
-        "banner": "https://raw.githubusercontent.com/Fixyres/Modules/refs/heads/main/IMG_20250112_185329_901.jpg",
-        "description": "venom",
-        "commands": [
-            {
-                "name": "venom",
-                "inline": false,
-                "description": {
-                    "doc": "venom"
-                }
-            }
-        ],
-        "name": "venom",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/venom.py"
-    },
-    {
         "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
@@ -32052,20 +32035,6 @@
         "name": "Унижатор Premium",
         "repo": "Fixyres/Modules",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/ynizatorprem.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "zov",
-                "inline": false,
-                "description": {
-                    "doc": "Включить или отключить режим ZOV с опциональным аргументом vivo"
-                }
-            }
-        ],
-        "name": "ZOV Text Modifier",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/zovmod.py"
     },
     {
         "author": "@xuduk",
