@@ -23903,44 +23903,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/e4578e9e940e83416df34aea400da0191e6bd412922e443521a541c1426fc53d.py"
     },
     {
-        "author": "@Foxy437",
-        "description": "Module for searching modules! Watch all updates in fheta in @FHeta_updates!",
-        "banner": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg",
-        "pic": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg",
-        "commands": [
-            {
-                "name": "fheta",
-                "inline": true,
-                "description": {
-                    "ru_doc": "(запрос) - искать модули.",
-                    "ua_doc": "(запит) - шукати модулі.",
-                    "doc": "(query) - search modules."
-                }
-            },
-            {
-                "name": "fheta",
-                "inline": false,
-                "description": {
-                    "ru_doc": "(запрос) - искать модули.",
-                    "ua_doc": "(запит) - шукати модулі.",
-                    "doc": "(query) - search modules."
-                }
-            },
-            {
-                "name": "fupdate",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- проверить наличие обновления.",
-                    "ua_doc": "- перевірити наявність оновлення",
-                    "doc": "- check update."
-                }
-            }
-        ],
-        "name": "FHeta",
-        "version": "9.0.6",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/0dea41f04072a63c8bb8498679d602f31c81fdd30454a45b4137ece6c40c1245.py"
-    },
-    {
         "description": "Испралвкный модуль CendPing от @zxcendi, испправлял @userbotik",
         "commands": [
             {
