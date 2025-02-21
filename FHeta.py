@@ -42,7 +42,7 @@ class FHeta(loader.Module):
         "commands": "\n<emoji document_id=5190498849440931467>👨‍💻</emoji> <b>Commands:</b>\n{commands_list}",
         "description": "\n<emoji document_id=5433653135799228968>📁</emoji> <b>Description:</b> {description}",
         "result": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b><code>{author} </code><code>{version}</code>\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Error...</b>",
+        "fetch_failed": "<emoji document_id=5348277823133999513>❌</emoji> <b>Error.</b>",
         "closest_match": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b><code>{author} </code><code>{version}</code>\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n<emoji document_id=5372981976804366741>🤖</emoji> <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
