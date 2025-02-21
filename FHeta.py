@@ -179,7 +179,6 @@ class FHeta(loader.Module):
 
         async def proc_mod(mod):
             try:
-                repo_url = f"https://github.com/{mod['repo']}"
                 install = mod['install']        
                 desc = utils.escape_html(mod["description"] if "description" in mod else "")
                 descr = ""
@@ -273,7 +272,6 @@ class FHeta(loader.Module):
         
         for module in modules[:50]:
             try:
-                repo_url = f"https://github.com/{module['repo']}"
                 install = module['install']
 
                 commands_section = ""
@@ -663,7 +661,6 @@ class FHeta(loader.Module):
                     return found[:10]
                     
     async def format_module(self, module, query):
-        repo_url = f"https://github.com/{module['repo']}"
         install = module['install']
         current_language = self.strings.get("language", "doc")
         commands_section = ""
