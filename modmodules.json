@@ -1642,6 +1642,24 @@
     },
     {
         "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AstroWeather.jpg",
+        "description": "Модуль для получения информации о погоде в Вашем городе, в красивом формате",
+        "commands": [
+            {
+                "name": "aw",
+                "inline": false,
+                "description": {
+                    "doc": "<город> - узнать погоду в указанном городе"
+                }
+            }
+        ],
+        "name": "AstroWeather",
+        "version": "1.0.6",
+        "repo": "Den4ikSuperOstryyPer4ik/Astro-modules",
+        "install": "dlm https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/astroweather.py"
+    },
+    {
+        "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/BrawlStats.jpg",
         "description": "Brawl Stars Players/Clubs information :)",
         "commands": [
@@ -7421,29 +7439,6 @@
     },
     {
         "author": "@sqlmerr_m",
-        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_autoformatter.png?raw=true",
-        "description": "Automatically formats the text of your messages | Check The Config",
-        "commands": [
-            {
-                "name": "watcher",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "textformat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включить/выключить модуль",
-                    "doc": "Turn on/off The Module"
-                }
-            }
-        ],
-        "name": "AutoFormatter",
-        "repo": "sqlmerr/hikka_mods",
-        "install": "dlm https://raw.githubusercontent.com/sqlmerr/hikka_mods/main/autoformatter.py"
-    },
-    {
-        "author": "@sqlmerr_m",
         "description": "Автоматически пересылает сообщения из каналов в один",
         "commands": [
             {
@@ -11699,6 +11694,22 @@
     },
     {
         "author": "@D4n13l3k00",
+        "description": "Распознавание речи через Google Recognition API",
+        "commands": [
+            {
+                "name": "recv",
+                "inline": false,
+                "description": {
+                    "doc": ".recv <reply to voice/audio> - распознать речь"
+                }
+            }
+        ],
+        "name": "VoiceRecognition",
+        "repo": "D4n13l3k00/FTG-Modules",
+        "install": "dlm https://raw.githubusercontent.com/D4n13l3k00/FTG-Modules/master/VoiceRecognize.py"
+    },
+    {
+        "author": "@D4n13l3k00",
         "description": "WttrIn",
         "commands": [
             {
@@ -14482,6 +14493,23 @@
         "name": "KOTURLShortener",
         "repo": "KOTmodules/FREEmodules",
         "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTurl.py"
+    },
+    {
+        "author": "@kotcheat",
+        "description": "Модуль преобразования голосовых сообщений в текст (by @kotcheat)",
+        "commands": [
+            {
+                "name": "tex",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply> to voice",
+                    "doc": "Преобразовать голосовое сообщение в текст"
+                }
+            }
+        ],
+        "name": "KOTvoicetotext",
+        "repo": "KOTmodules/FREEmodules",
+        "install": "dlm https://raw.githubusercontent.com/KOTmodules/FREEmodules/main/KOTvoicetotext.py"
     },
     {
         "author": "@shiro_hikka",
@@ -18173,6 +18201,71 @@
     },
     {
         "author": "@thisLyomi & @AmekaMods",
+        "description": "AmeActions",
+        "commands": [
+            {
+                "name": "kiss",
+                "inline": false,
+                "description": {
+                    "doc": "- kiss [reply] Целовать человека из репли"
+                }
+            },
+            {
+                "name": "hug",
+                "inline": false,
+                "description": {
+                    "doc": "- hug [reply] Обнимать человека из репли"
+                }
+            },
+            {
+                "name": "push",
+                "inline": false,
+                "description": {
+                    "doc": "- push [reply] Толкать человека из репли"
+                }
+            },
+            {
+                "name": "hit",
+                "inline": false,
+                "description": {
+                    "doc": "- hit [reply] Ударить человека из репли"
+                }
+            },
+            {
+                "name": "scold",
+                "inline": false,
+                "description": {
+                    "doc": "- scold [reply] Ругать человека из репли"
+                }
+            },
+            {
+                "name": "kill",
+                "inline": false,
+                "description": {
+                    "doc": "- kill [reply] Убить человека из репли"
+                }
+            },
+            {
+                "name": "bite",
+                "inline": false,
+                "description": {
+                    "doc": "- bite [reply] Кусать человека из репли"
+                }
+            },
+            {
+                "name": "caction",
+                "inline": false,
+                "description": {
+                    "doc": "- caction (args) [reply] Кастомное действие"
+                }
+            }
+        ],
+        "name": "AmeActions — Действия",
+        "repo": "amm1edev/AmeMods",
+        "install": "dlm https://raw.githubusercontent.com/amm1edev/AmeMods/main/ameactions.py"
+    },
+    {
+        "author": "@thisLyomi & @AmekaMods",
         "description": "Модуль для разрезания изображения на части.",
         "commands": [
             {
@@ -18236,22 +18329,6 @@
         "name": "Lorem Picsum",
         "repo": "xuduk/modules",
         "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/%20LoremPicsum.py"
-    },
-    {
-        "author": "@xuduk",
-        "description": "Кастомный фейк пинг, советую заглянуть в конфиг.",
-        "commands": [
-            {
-                "name": "cpinj",
-                "inline": false,
-                "description": {
-                    "doc": "<ping> - Узнать фейковый пинг вашего юзербота"
-                }
-            }
-        ],
-        "name": "Custom Fake Ping",
-        "repo": "xuduk/modules",
-        "install": "dlm https://raw.githubusercontent.com/xuduk/modules/main/CustomFakePing.py"
     },
     {
         "author": "@xuduk",
@@ -20389,23 +20466,6 @@
         "install": "dlm https://raw.githubusercontent.com/Ruslan-Isaev/modules/main/Надстрочка.py"
     },
     {
-        "author": "@yg_modules",
-        "description": "Auto switch from Hikka-TL to Telethon",
-        "commands": [
-            {
-                "name": "switch",
-                "inline": false,
-                "description": {
-                    "doc": "Automatically switch to Telethon"
-                }
-            }
-        ],
-        "name": "SwitchToTelethon",
-        "version": "1.0.0.1",
-        "repo": "yummy1gay/modules",
-        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/SwitchToTelethon.py"
-    },
-    {
         "author": "@yg_modules, @D4n13l3k00",
         "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
         "commands": [
@@ -20747,47 +20807,6 @@
         "version": "1.4.8.8",
         "repo": "yummy1gay/modules",
         "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_dogs.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Модуль для имитации загрузки",
-        "commands": [
-            {
-                "name": "fla",
-                "inline": false,
-                "description": {
-                    "doc": "<text> имитировать процесс загрузки (prem emoji on)"
-                }
-            },
-            {
-                "name": "fl",
-                "inline": false,
-                "description": {
-                    "doc": "<text> имитировать процесс загрузки (no emoji)"
-                }
-            }
-        ],
-        "name": "yg_fakeload",
-        "version": "1.4.8.8",
-        "repo": "yummy1gay/modules",
-        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_fakeload.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Модуль для автоматического участия в розыгрышах @CryptoBot",
-        "commands": [
-            {
-                "name": "giveaways",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл активатор"
-                }
-            }
-        ],
-        "name": "yg_giveaways",
-        "version": "1.4.9.0",
-        "repo": "yummy1gay/modules",
-        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_giveaways.py"
     },
     {
         "author": "@yg_modules",
@@ -21167,37 +21186,6 @@
         "version": "1.4.8.8",
         "repo": "yummy1gay/modules",
         "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_wallet.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "AutoTapper and receives daily check-ins in @WheelOfWhalesBot with proxy support!",
-        "commands": [
-            {
-                "name": "bwhales",
-                "inline": false,
-                "description": {
-                    "doc": "show your balance, current streak, next whalespin, and time remaining until the next check-in in @WheelOfWhalesBot"
-                }
-            },
-            {
-                "name": "whales",
-                "inline": false,
-                "description": {
-                    "doc": "on/off running script"
-                }
-            },
-            {
-                "name": "autotap",
-                "inline": false,
-                "description": {
-                    "doc": "on/off AutoTapper"
-                }
-            }
-        ],
-        "name": "yg_whales",
-        "version": "1.4.8.8",
-        "repo": "yummy1gay/modules",
-        "install": "dlm https://raw.githubusercontent.com/yummy1gay/modules/main/yg_whales.py"
     },
     {
         "author": "@yg_modules",
@@ -21750,56 +21738,6 @@
         "name": "Captcha",
         "repo": "hikariatama/host",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/captcha.py"
-    },
-    {
-        "description": "Фильтр обсценной лексики на регуляр очке на каждый день",
-        "commands": [
-            {
-                "name": "censor",
-                "inline": false,
-                "description": {
-                    "doc": "Нулевой указатель, редирект на справку"
-                }
-            },
-            {
-                "name": "cens",
-                "inline": false,
-                "description": {
-                    "doc": ".cens <reply>|<text>\nПроверка фильтра обсценной лексики"
-                }
-            },
-            {
-                "name": "censlist",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список айди чатов, в которых работает фильтрация"
-                }
-            },
-            {
-                "name": "censon",
-                "inline": false,
-                "description": {
-                    "doc": ".censon [<id>|<username>|*]\nЗапуск фильтрации в том чате, куда отправлена команда\nМожно запустить в любом чате по id или username\n* запускает на все сообщения в текущем чате (по умолчанию на свои)"
-                }
-            },
-            {
-                "name": "censoff",
-                "inline": false,
-                "description": {
-                    "doc": ".censoff [<id>|<username>|all]\nОстановка фильтрации в том чате, куда отправлена команда\nМожно остановить в любом чате по id или username\nall останавливает фильтрацию во всех чатах"
-                }
-            },
-            {
-                "name": "censx",
-                "inline": false,
-                "description": {
-                    "doc": ".censx [+ <text>|-]\nДобавляет и удаляет кастомные исключения для фильтра\nИсключения в text записывать чеpез пробел\nКоманда без аргументов выводит список кастомных исключений"
-                }
-            }
-        ],
-        "name": "censor",
-        "repo": "hikariatama/host",
-        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/censor.py"
     },
     {
         "description": "Чат модуль",
@@ -22506,6 +22444,27 @@
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/mafiadrawing.py"
     },
     {
+        "commands": [
+            {
+                "name": "mozg",
+                "inline": false,
+                "description": {
+                    "doc": ".mozg <on/off/...> - Переключить режим дурачка в чате"
+                }
+            },
+            {
+                "name": "mozgchance",
+                "inline": false,
+                "description": {
+                    "doc": ".mozgchance <int> - Устанвоить шанс 1 к N.\n0 - всегда отвечать"
+                }
+            }
+        ],
+        "name": "MegaMozg",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/megamozg.py"
+    },
+    {
         "description": "Quote a message using Mishase Quotes API",
         "commands": [
             {
@@ -22628,6 +22587,28 @@
         "name": "NSFW",
         "repo": "hikariatama/host",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/nsfw.py"
+    },
+    {
+        "description": "@faq lines",
+        "commands": [
+            {
+                "name": "omstart",
+                "inline": false,
+                "description": {
+                    "doc": "Start OneMessage mode"
+                }
+            },
+            {
+                "name": "omstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop OneMessage mode"
+                }
+            }
+        ],
+        "name": "OneMessage",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/onemessage.py"
     },
     {
         "description": "Deletes your messages",
@@ -22861,6 +22842,21 @@
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/texttospeech.py"
     },
     {
+        "description": "Google Translator",
+        "commands": [
+            {
+                "name": "gtranslate",
+                "inline": false,
+                "description": {
+                    "doc": ".gtranslate [from_lang->][->to_lang] <text>"
+                }
+            }
+        ],
+        "name": "Google Translator",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/translator.py"
+    },
+    {
         "description": "Download TikTok videos",
         "commands": [
             {
@@ -22874,6 +22870,21 @@
         "name": "TikTokDl",
         "repo": "hikariatama/host",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/ttdl.py"
+    },
+    {
+        "description": "Valute Converter",
+        "commands": [
+            {
+                "name": "val",
+                "inline": false,
+                "description": {
+                    "doc": "<sum> <valute> - Get exchange"
+                }
+            }
+        ],
+        "name": "Valute",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/valutes.py"
     },
     {
         "description": "Module for working with video",
@@ -22987,6 +22998,21 @@
         "name": "VideoEditor",
         "repo": "hikariatama/host",
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/video_editor.py"
+    },
+    {
+        "description": "Add voice overlays over messages",
+        "commands": [
+            {
+                "name": "sf",
+                "inline": false,
+                "description": {
+                    "doc": "(in reply to voice) <pablo|kids|camry|gta|amogus|chill> [volume]"
+                }
+            }
+        ],
+        "name": "VoiceEffects",
+        "repo": "hikariatama/host",
+        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voice_effects.py"
     },
     {
         "description": "Module for working with voicechat",
@@ -23493,57 +23519,6 @@
     },
     {
         "author": "@kshmods",
-        "banner": "https://kappa.lol/nfF_A",
-        "description": "DevGPT - позволяет вам общаться с chatgpt и генерировать фото.",
-        "commands": [
-            {
-                "name": "dgpt",
-                "inline": false,
-                "description": {
-                    "en_doc": "Ask gpt for something",
-                    "ru_doc": "Спросите gpt о чем-нибудь",
-                    "ua_doc": "Запитайте gpt про щось",
-                    "doc": "Ask gpt for something"
-                }
-            },
-            {
-                "name": "dimg",
-                "inline": false,
-                "description": {
-                    "en_doc": "Generate image",
-                    "ru_doc": "Сгенерировать изображение",
-                    "ua_doc": "Згенерувати зображення",
-                    "doc": "Generate image"
-                }
-            },
-            {
-                "name": "dgmodels",
-                "inline": false,
-                "description": {
-                    "en_doc": "Display models list",
-                    "ru_doc": "Показать список моделей",
-                    "ua_doc": "Показати список моделей",
-                    "doc": "Display models list"
-                }
-            },
-            {
-                "name": "dgcheck",
-                "inline": false,
-                "description": {
-                    "en_doc": "Check for updates",
-                    "ru_doc": "Проверить обновления",
-                    "ua_doc": "Перевірити оновлення",
-                    "doc": "Check for updates"
-                }
-            }
-        ],
-        "name": "DevGPT",
-        "version": "12.0.0",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/DevGPT.py"
-    },
-    {
-        "author": "@kshmods",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -23584,506 +23559,6 @@
         "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/InlineButtons.py"
     },
     {
-        "author": "@kshmods",
-        "description": "Restart your LavHost without using a bot",
-        "commands": [
-            {
-                "name": "lhrestart",
-                "inline": false,
-                "description": {
-                    "en_doc": "Restart",
-                    "ru_doc": "Перезагрузить"
-                }
-            }
-        ],
-        "name": "LavReboot",
-        "version": "0.1.0",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/LavReboot.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Notifies you when you are mentioned in groups and channels",
-        "commands": [
-            {
-                "name": "mnblock",
-                "inline": false,
-                "description": {
-                    "doc": "Adds a user to the blacklist"
-                }
-            },
-            {
-                "name": "mnwl",
-                "inline": false,
-                "description": {
-                    "doc": "Adds a chat to the whitelist"
-                }
-            },
-            {
-                "name": "mnunblock",
-                "inline": false,
-                "description": {
-                    "doc": "Removes a user from the blacklist"
-                }
-            },
-            {
-                "name": "mnlist",
-                "inline": false,
-                "description": {
-                    "doc": "Lists the users to ignore mentions from and chats to notify mentions from"
-                }
-            }
-        ],
-        "name": "MentionNotifier",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/MentionNotifier.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
-        "commands": [
-            {
-                "name": "gen",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Генерирует случайный пароль и логин",
-                    "doc": "Генерирует случайный пароль и логин"
-                }
-            },
-            {
-                "name": "save",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сохраняет последние сгенерированные данные",
-                    "doc": "Сохраняет последние сгенерированные данные"
-                }
-            },
-            {
-                "name": "show",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Показывает сохраненные данные",
-                    "doc": "Показывает сохраненные данные"
-                }
-            },
-            {
-                "name": "gensave",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Генерирует новые данные и сохраняет их",
-                    "doc": "Генерирует новые  данные и сохраняет их"
-                }
-            },
-            {
-                "name": "clear",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Очищает все сохраненные данные",
-                    "doc": "Очищает все сохраненные  данные"
-                }
-            },
-            {
-                "name": "note",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Добавляет примечание к сохраненным данным",
-                    "doc": "Добавляет примечание к сохраненным данным"
-                }
-            },
-            {
-                "name": "delcred",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Удаляет сохраненные данные по номеру",
-                    "doc": "Удаляет сохраненные  данные по номеру"
-                }
-            },
-            {
-                "name": "createprivatechat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Создает приватный чат",
-                    "doc": "Создает приватный чат"
-                }
-            },
-            {
-                "name": "saveprivatedata",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сохраняет данные в приватный чат по номеру",
-                    "doc": "Сохраняет данные с примечанием в приватный чат по номеру"
-                }
-            }
-        ],
-        "name": "PasswordManager",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PassManager.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Profile Photo Repeater Module",
-        "commands": [
-            {
-                "name": "pfp",
-                "inline": false,
-                "description": {
-                    "doc": "Start repeating profile photo"
-                }
-            },
-            {
-                "name": "pfpstop",
-                "inline": false,
-                "description": {
-                    "doc": "Stop repeating profile photo"
-                }
-            }
-        ],
-        "name": "PfpRepeater",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/PfpRepeater.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module for making screenshots",
-        "commands": [
-            {
-                "name": "webs",
-                "inline": false,
-                "description": {
-                    "en_doc": "Takes screenshot of website",
-                    "ru_doc": "Делает скриншот сайта"
-                }
-            },
-            {
-                "name": "files",
-                "inline": false,
-                "description": {
-                    "en_doc": "Takes screenshot of website",
-                    "ru_doc": "Делает скриншот файла"
-                }
-            }
-        ],
-        "name": "ShotModule",
-        "version": "0.0.4",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ShotModule.py"
-    },
-    {
-        "author": "@kshmods",
-        "banner": "https://mods.hikariatama.ru/badges/voicechat.jpg",
-        "pic": "https://static.dan.tatar/voicechat_icon.png",
-        "commands": [
-            {
-                "name": "addm",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ на песню или ее имя> - Добавить песню в очередь прослушивания чата",
-                    "ua_doc": "<відповідь на пісню або її ім'я> - Додати пісню до черги прослуховування чату",
-                    "doc": "<reply to song or its name> - Add song to chat's voicechat queue"
-                }
-            },
-            {
-                "name": "addv",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответить на видео или ссылку> - Добавить видео в очередь голосового чата",
-                    "ua_doc": "<відповісти на відео або посилання> - додайте відео до черги голосового чату",
-                    "doc": "<reply to video or link> - Add video to chat's voicechat queue"
-                }
-            },
-            {
-                "name": "next",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Пропускает текущую композицию в очереди",
-                    "ua_doc": "Пропускає поточну композицію в черзі",
-                    "doc": "Skips current sound in queue"
-                }
-            },
-            {
-                "name": "list",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Получить текущую очередь чата",
-                    "ua_doc": "Отримати поточну чергу чату",
-                    "doc": "Get current chat's queue"
-                }
-            },
-            {
-                "name": "list_save",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сохранить очередь",
-                    "ua_doc": "Зберегти чергу",
-                    "doc": "Save the queue"
-                }
-            },
-            {
-                "name": "list_load",
-                "inline": false,
-                "description": {
-                    "ua_doc": "Завантажте збережену чергу",
-                    "ru_doc": "Загрузить сохраненную очередь",
-                    "doc": "Load the saved queue"
-                }
-            },
-            {
-                "name": "replay",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включите функцию «повторять эту очередь вечно»",
-                    "ua_doc": "Перемкніть «повторювати цю чергу назавжди».",
-                    "doc": "Switch the 'repeat this queue forever'"
-                }
-            },
-            {
-                "name": "rem",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Удалить песню из очереди",
-                    "ua_doc": "Видалити пісню з черги",
-                    "doc": "Remove song from queue"
-                }
-            },
-            {
-                "name": "rst",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Повторно присоединитесь к звонку.",
-                    "ua_doc": "Повторно приєднайтеся до дзвінка.",
-                    "doc": "Rejoin the call"
-                }
-            },
-            {
-                "name": "resume",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Возобновить очередь текущего чата",
-                    "ua_doc": "Відновити поточну чергу чату",
-                    "doc": "Resume current chat's queue"
-                }
-            },
-            {
-                "name": "pause",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Приостановить очередь текущего чата",
-                    "ua_doc": "Призупинити поточну чергу чату",
-                    "doc": "Pause current chat's queue"
-                }
-            },
-            {
-                "name": "stop",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Остановить очередь текущего чата",
-                    "ua_doc": "Зупинити поточну чергу чату",
-                    "doc": "Stop current chat's queue"
-                }
-            },
-            {
-                "name": "panel",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Показать панель управления",
-                    "ua_doc": "Показати панель керування",
-                    "doc": "Show control panel"
-                }
-            }
-        ],
-        "name": "HikkaVoiceMod",
-        "version": "3.0.1",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/VoiceChat.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Пишет ASCII шрифтом",
-        "commands": [
-            {
-                "name": "ascii",
-                "inline": false,
-                "description": {
-                    "doc": "Пишет ASCII шрифтом. Использование: .ascii <текст>"
-                }
-            }
-        ],
-        "name": "Ascii",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/ascii.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module to create a list of users.",
-        "commands": [
-            {
-                "name": "mlist",
-                "inline": false,
-                "description": {
-                    "doc": "Get the members list of multiple chats and send it as a txt file."
-                }
-            }
-        ],
-        "name": "MembersList",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/memberslist.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Модуль для преобразования изображения в GIF",
-        "commands": [
-            {
-                "name": "p2g",
-                "inline": false,
-                "description": {
-                    "doc": "Creates a GIF from an image. Usage: .gif (response to the image)"
-                }
-            }
-        ],
-        "name": "ImageToGif",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/p2g.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Screenshot Spammer",
-        "commands": [
-            {
-                "name": "scrs",
-                "inline": false,
-                "description": {
-                    "doc": ".scrs <amount>"
-                }
-            }
-        ],
-        "name": "ScrSpam",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/screenspam.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module for sending private messages",
-        "commands": [
-            {
-                "name": "send",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .send <message>"
-                }
-            },
-            {
-                "name": "setpm",
-                "inline": false,
-                "description": {
-                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
-                }
-            },
-            {
-                "name": "stopchat",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
-                }
-            }
-        ],
-        "name": "SendPm",
-        "version": "1.0.0",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/send.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Text to Speech Module",
-        "commands": [
-            {
-                "name": "speak",
-                "inline": false,
-                "description": {
-                    "doc": "Текст в речь. Использование: .speak <текст>"
-                }
-            }
-        ],
-        "name": "TextToSpeech",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/tts.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module for install HikkaVoicemode(voicechat)",
-        "commands": [
-            {
-                "name": "install",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- установить voicechat(hikkavoicemode) на Хикку",
-                    "doc": "- install VoiceMod to Hikka."
-                }
-            }
-        ],
-        "name": "VoiceChatInstall",
-        "version": "0.1.3",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/voicechatinstaller.py"
-    },
-    {
-        "author": "@kshmods",
-        "commands": [
-            {
-                "name": "weather",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Посмотрите погоду в указанном городе.",
-                    "en_doc": "Check the weather in the specified city.",
-                    "doc": "Check the weather in the specified city."
-                }
-            }
-        ],
-        "name": "Weather",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/weather.py"
-    },
-    {
-        "author": "@HikkTutor",
-        "description": "Модуль для создания ASCII артов из фото, стикеров и текста",
-        "commands": [
-            {
-                "name": "ascii",
-                "inline": false,
-                "description": {
-                    "doc": "<реплай на фото или текст> [количество] [\" * \" для арта из точек] - создать ASCII арт"
-                }
-            }
-        ],
-        "name": "ASCIIArt",
-        "version": "1.0.0",
-        "repo": "HikkTutor/HT",
-        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/ASCIIArt.py"
-    },
-    {
-        "author": "@HikkTutor",
-        "description": "Модуль для создания текста из эмодзи букв",
-        "commands": [
-            {
-                "name": "at",
-                "inline": false,
-                "description": {
-                    "doc": ".at <номер> <текст> - Создает текст из эмодзи"
-                }
-            },
-            {
-                "name": "atxelp",
-                "inline": false,
-                "description": {
-                    "doc": "Информация о модуле и его паках"
-                }
-            }
-        ],
-        "name": "AnimatedText",
-        "version": "1.0.2",
-        "repo": "HikkTutor/HT",
-        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/AnimatedText.py"
-    },
-    {
         "author": "@HikkTutor",
         "description": "Модуль для фарма био опыта/ресурсов",
         "commands": [
@@ -24116,30 +23591,6 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для сравнения курсов",
-        "commands": [
-            {
-                "name": "cv",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .cv <число> <название валюты>."
-                }
-            },
-            {
-                "name": "cvi",
-                "inline": false,
-                "description": {
-                    "doc": "Список доступных валют"
-                }
-            }
-        ],
-        "name": "Currency",
-        "version": "1.0.4",
-        "repo": "HikkTutor/HT",
-        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/CurrencyViewer.py"
-    },
-    {
-        "author": "@HikkTutor",
         "description": "Module for Cleaning Up Deleted Accounts in Chat",
         "commands": [
             {
@@ -24157,20 +23608,20 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для настройки и отображения фейкового пинга",
+        "description": "Модуль для отображения статуса подписки Telegram Premium через @PremiumBot.",
         "commands": [
             {
-                "name": "fping",
+                "name": "ot",
                 "inline": false,
                 "description": {
-                    "doc": "Устанавливает и отображает фейковый пинг"
+                    "doc": "Отображает информацию о подписке Telegram Premium. Используйте: .ot"
                 }
             }
         ],
-        "name": "Fping",
-        "version": "1.2.8",
+        "name": "PremiumStatus",
+        "version": "1.0.0",
         "repo": "HikkTutor/HT",
-        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/Fping.py"
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/PremiumStatus.py"
     },
     {
         "author": "@HikkTutor",
@@ -24205,503 +23656,19 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для автохила при заражении или горячке в ЛС игрового бота",
+        "description": "Модуль для форматирования текста в чате",
         "commands": [
             {
-                "name": "show_bots",
+                "name": "tsxelp",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Показать список игровых ботов",
-                    "doc": "Список разрешённых ботов и их id"
+                    "doc": "Показывает инструкцию по использованию модуля"
                 }
             }
         ],
-        "name": "AutoHeal",
+        "name": "TextStyler",
         "version": "1.0.4",
         "repo": "HikkTutor/HT",
-        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/autoheal.py"
-    },
-    {
-        "author": "@procot1 & @devjmodules",
-        "description": "AI - помощник по Hikka.\n🌘Version: 5.1 | Data set: 4\n⚡Разработчик: @procot1\n💚Оригинальный модуль\nВНИМАНИЕ! \nподдержка этого модуля завершена. Этот модуль теперь часть функционала другого крупного модуля.\nУстановить: .dlmod https://raw.githubusercontent.com/Chaek1403/VAWEIRR/refs/heads/main/Zetta%20-%20AI%20models.py\nпросьба перейти на современное решение что бы получать обновления и улучшенный функционал.",
-        "commands": [
-            {
-                "name": "aisup",
-                "inline": false,
-                "description": {
-                    "doc": "Спросить у AI помощника.\nИспользование: `.aisup <запрос>` или ответить на сообщение с `.aisup`\n\n🧠Скормлены знания: \n• Установки | команды встроенных модулей | Внешние модули(40 модулей) | чаты Хикки | нюнсы Хикки | официальные тгк с модулями | меры безопасности | Список советов по устранению ошибок | Данные о хикке"
-                }
-            },
-            {
-                "name": "aierror",
-                "inline": false,
-                "description": {
-                    "doc": "Спросить у AI помощника об ошибке модуля.\nИспользование: `.aierror <запрос>` или ответить на сообщение с `.aierror`\n\n🧠Скормлены знания(old data set):\n• команды встроенных модулей | чаты Хикки | больше нюансов и принципов работы Хикки | примеры ошибок и их решений | большой список советов по устранению ошибок"
-                }
-            },
-            {
-                "name": "aiinfo",
-                "inline": false,
-                "description": {
-                    "doc": "- Информация об обновлении✅"
-                }
-            },
-            {
-                "name": "aiprov",
-                "inline": false,
-                "description": {
-                    "doc": "- Информация о провайдерах🔆"
-                }
-            },
-            {
-                "name": "apiswitch",
-                "inline": false,
-                "description": {
-                    "doc": "Поменять API для запросов\nИспользование: `.apiswitch <провайдер>\nдоступные: onlysq и devj."
-                }
-            },
-            {
-                "name": "aicreate",
-                "inline": false,
-                "description": {
-                    "doc": "Попросить AI помощника написать модуль.\nИспользование: `.aicreate <запрос>` или ответить на сообщение с `.aicreate`\n\n🧠Скормлены знания:\n• Вся документация по написанию модулей Hikka (кроме Hikka only) | мелкие наводящие инструкции"
-                }
-            },
-            {
-                "name": "ultramode",
-                "inline": false,
-                "description": {
-                    "doc": "Вкл/выкл качественного ответа\nИспользование: `.ultramode <on/off>`"
-                }
-            }
-        ],
-        "name": "AI-sup Hikka",
-        "repo": "Chaek1403/VAWEIRR",
-        "install": "dlm https://raw.githubusercontent.com/Chaek1403/VAWEIRR/main/AI-support-Hikka.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Модуль для админов чатов\nMade by Desai",
-        "commands": [
-            {
-                "name": "fullrights",
-                "inline": false,
-                "description": {
-                    "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
-                }
-            },
-            {
-                "name": "myrights",
-                "inline": false,
-                "description": {
-                    "doc": "Проверить ваши права в текущем чате"
-                }
-            },
-            {
-                "name": "promote",
-                "inline": false,
-                "description": {
-                    "doc": "<пользователь> [роль (префикс)] — Повышение пользователя до администратора."
-                }
-            },
-            {
-                "name": "demote",
-                "inline": false,
-                "description": {
-                    "doc": "<пользователь> — Снятие прав администратора с пользователя."
-                }
-            },
-            {
-                "name": "create",
-                "inline": false,
-                "description": {
-                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
-                }
-            },
-            {
-                "name": "userid",
-                "inline": false,
-                "description": {
-                    "doc": "[reply] | Получить айди пользователя"
-                }
-            },
-            {
-                "name": "id",
-                "inline": false,
-                "description": {
-                    "doc": "| Получить свой айди"
-                }
-            },
-            {
-                "name": "chatid",
-                "inline": false,
-                "description": {
-                    "doc": "| Получить айди чата"
-                }
-            },
-            {
-                "name": "del",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет сообщение. Использование: ?del <reply>"
-                }
-            },
-            {
-                "name": "dgc",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет группу/канал по ссылке или ID. Использование: .dgc <ID или ссылка>"
-                }
-            },
-            {
-                "name": "join",
-                "inline": false,
-                "description": {
-                    "doc": "Вступает в группу или канал по ссылке."
-                }
-            },
-            {
-                "name": "whoisowner",
-                "inline": false,
-                "description": {
-                    "doc": "Определяет владельца группы или канала."
-                }
-            },
-            {
-                "name": "rename",
-                "inline": false,
-                "description": {
-                    "doc": ".rename <new_name> — Меняет название группы/канала на <new_name>"
-                }
-            },
-            {
-                "name": "members",
-                "inline": false,
-                "description": {
-                    "doc": "Показывает кол-во участников канала/группы"
-                }
-            },
-            {
-                "name": "banall",
-                "inline": false,
-                "description": {
-                    "doc": "Забанить всех участников в группе/канале"
-                }
-            },
-            {
-                "name": "chatinfo",
-                "inline": false,
-                "description": {
-                    "doc": "<айди чата>"
-                }
-            },
-            {
-                "name": "own",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список чатов, каналов и групп где вы владелец/админ."
-                }
-            },
-            {
-                "name": "unmute",
-                "inline": false,
-                "description": {
-                    "doc": "Размучивает пользователя. Использование: .unmute <id>"
-                }
-            },
-            {
-                "name": "mute",
-                "inline": false,
-                "description": {
-                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
-                }
-            },
-            {
-                "name": "kickall",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет всех пользователей из чата."
-                }
-            },
-            {
-                "name": "steal",
-                "inline": false,
-                "description": {
-                    "doc": "Добавляет людей и ботов с чата в чат. Если дописать аргумент nobot то без ботов"
-                }
-            },
-            {
-                "name": "users",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список участников."
-                }
-            },
-            {
-                "name": "admins",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список всех админов в чате (без учёта ботов)."
-                }
-            },
-            {
-                "name": "bots",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список всех ботов в чате."
-                }
-            },
-            {
-                "name": "unban",
-                "inline": false,
-                "description": {
-                    "doc": "Разбанить участника. Использование: .ban <reply/id>"
-                }
-            },
-            {
-                "name": "ban",
-                "inline": false,
-                "description": {
-                    "doc": "Забанить участника. Использование: .ban <reply/id>"
-                }
-            },
-            {
-                "name": "kick",
-                "inline": false,
-                "description": {
-                    "doc": "Кикнуть участника из чата. Использование: .kick <reply/id>"
-                }
-            },
-            {
-                "name": "invite",
-                "inline": false,
-                "description": {
-                    "doc": "Пригласить пользователя/бота в чат. Использование: .invite <id/reply>."
-                }
-            },
-            {
-                "name": "flush",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет удалённые аккаунты из чата"
-                }
-            },
-            {
-                "name": "wipe",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет все сообщения от тебя"
-                }
-            }
-        ],
-        "name": "ChatModule",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/CMDDJModule.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Create inline buttons easily",
-        "commands": [
-            {
-                "name": "cinline",
-                "inline": false,
-                "description": {
-                    "ru_doc": " [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
-                    "doc": "[Button text] [Button link] [Text] - Create inline button"
-                }
-            },
-            {
-                "name": "cinlinephoto",
-                "inline": false,
-                "description": {
-                    "ru_doc": " [Ссылка на изображение] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
-                    "doc": "[Image link] [Button text] [Button link] [Text] - Create inline button"
-                }
-            },
-            {
-                "name": "cinlinevideo",
-                "inline": false,
-                "description": {
-                    "ru_doc": " [Ссылка на видео] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
-                    "doc": "[Video link] [Button text] [Button link] [Text] - Create inline button"
-                }
-            },
-            {
-                "name": "cinlinegif",
-                "inline": false,
-                "description": {
-                    "ru_doc": " [Ссылка на GIF] [Текст кнопки] [Ссылка в кнопке] [Текст] - Создать инлайн кнопку",
-                    "doc": "[GIF link] [Button text] [Button link] [Text] - Create inline button"
-                }
-            }
-        ],
-        "name": "InlineButtons",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/InlineButtons.py"
-    },
-    {
-        "author": "@xdesai & @devjmodules",
-        "description": "Encryption Module",
-        "commands": [
-            {
-                "name": "enc",
-                "inline": false,
-                "description": {
-                    "doc": "{text} - Encrypts the given text"
-                }
-            },
-            {
-                "name": "dec",
-                "inline": false,
-                "description": {
-                    "doc": "{encrypted text}, {key1}, {key2}, {indices}, {noise length} or <reply> - Decrypts the given text"
-                }
-            }
-        ],
-        "name": "EncDec",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/encmod.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Auto farm in iris bot",
-        "commands": [
-            {
-                "name": "rstirfarm",
-                "inline": false,
-                "description": {
-                    "doc": "restart auto farm"
-                }
-            },
-            {
-                "name": "irfarm",
-                "inline": false,
-                "description": {
-                    "doc": "turn on auto farm"
-                }
-            },
-            {
-                "name": "irfarmstop",
-                "inline": false,
-                "description": {
-                    "doc": "turn off auto farm"
-                }
-            }
-        ],
-        "name": "IrisFarm",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/irisfarm.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Модуль для преобразования изображения в GIF",
-        "commands": [
-            {
-                "name": "p2g",
-                "inline": false,
-                "description": {
-                    "doc": "Creates a GIF from an image. Usage: .gif (response to the image)"
-                }
-            }
-        ],
-        "name": "ImageToGif",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/p2g.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Показывает статистику твоего аккаунта",
-        "commands": [
-            {
-                "name": "stats",
-                "inline": false,
-                "description": {
-                    "doc": "Получить статистику"
-                }
-            }
-        ],
-        "name": "Stats",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/stats.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Модуль для автоматической рассылки сообщений",
-        "commands": [
-            {
-                "name": "addaf",
-                "inline": false,
-                "description": {
-                    "doc": "<название> <интервал> <список чатов через запятую без пробелов> <сообщение> - добавить авторассылку"
-                }
-            },
-            {
-                "name": "rmaf",
-                "inline": false,
-                "description": {
-                    "doc": "<название> - удалить задачу"
-                }
-            },
-            {
-                "name": "listafs",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список активных задач."
-                }
-            }
-        ],
-        "name": "AutoSend",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/AutoSend.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Тесты для изучения хираганы.",
-        "commands": [
-            {
-                "name": "quiz",
-                "inline": false,
-                "description": {
-                    "doc": "Начать тест по хирагане"
-                }
-            }
-        ],
-        "name": "HiraganaQuiz",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/harigana.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Абсолютно рандомные лоли комиксы ",
-        "commands": [
-            {
-                "name": "lolicom",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Рандом лоли-комиксы",
-                    "en_doc": "Randrom loli comics ",
-                    "doc": "Рандомный лоли-комикс (NSFW)"
-                }
-            }
-        ],
-        "name": "Lolicom",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/lolicom.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Модуль для подсчёта сообщений пользователя в виде столбчатой диаграммы",
-        "commands": [
-            {
-                "name": "dstats",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчёт статистики сообщений пользователя.\n.dstats <@юзернейм или ID>"
-                }
-            }
-        ],
-        "name": "UserStats",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/stats.py"
+        "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/TextStyler.py"
     }
 ]
