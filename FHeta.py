@@ -186,7 +186,7 @@ class FHeta(loader.Module):
                 if "description" in mod and mod["description"]:
                     descr = self.strings["description"].format(description=utils.escape_html(mod["description"]))
                 author = utils.escape_html(mod.get("author", "???"))
-                version = utils.escape_html(module.get("version", "?.?.?"))
+                version = utils.escape_html(mod.get("version", "?.?.?"))
                 versionn = f"(v{version})"
                 mod_name = utils.escape_html(mod["name"].replace(".py", ""))
                 mod_key = f"{mod_name}_{author}_{versionn}"
