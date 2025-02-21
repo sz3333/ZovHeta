@@ -1,5 +1,5 @@
 __version__ = (9, 0, 6)
-#meta developer: @Foxy437
+# meta developer: @Foxy437
 # change-log: 🌹 Added install via FHeta! https://t.me/fheta_updates/849
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
