@@ -15499,6 +15499,23 @@
     },
     {
         "author": "@mm_mods",
+        "pic": "https://img.icons8.com/?size=512&id=17387&format=png",
+        "description": "Image generator based on Prodia API. No API key required.",
+        "commands": [
+            {
+                "name": "prodia",
+                "inline": false,
+                "description": {
+                    "doc": "Generate an image using Prodia API."
+                }
+            }
+        ],
+        "name": "Prodia IG",
+        "repo": "dekkusudev/mm-hikka-mods",
+        "install": "dlm https://raw.githubusercontent.com/archquise/mm-hikka-mods/main/Prodia.py"
+    },
+    {
+        "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/344/diamond-heart.png",
         "description": "Reacts manager.",
         "commands": [
@@ -23193,98 +23210,6 @@
         "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voice_effects.py"
     },
     {
-        "description": "Module for working with voicechat",
-        "commands": [
-            {
-                "name": "vplay",
-                "inline": false,
-                "description": {
-                    "doc": ".vplay [chat (optional)] <link/reply_to_audio>\nPlay audio in VC"
-                }
-            },
-            {
-                "name": "vjoin",
-                "inline": false,
-                "description": {
-                    "doc": ".vjoin\nJoin to the VC"
-                }
-            },
-            {
-                "name": "vleave",
-                "inline": false,
-                "description": {
-                    "doc": ".vleave\nLeave from the VC"
-                }
-            },
-            {
-                "name": "vreplay",
-                "inline": false,
-                "description": {
-                    "doc": ".vreplay\nReplay audio in VC"
-                }
-            },
-            {
-                "name": "vstop",
-                "inline": false,
-                "description": {
-                    "doc": ".vstop\nStop play in VC"
-                }
-            },
-            {
-                "name": "vmute",
-                "inline": false,
-                "description": {
-                    "doc": ".vmute\nMute player in VC"
-                }
-            },
-            {
-                "name": "vunmute",
-                "inline": false,
-                "description": {
-                    "doc": ".vmute\nUnmute player in VC"
-                }
-            },
-            {
-                "name": "vpause",
-                "inline": false,
-                "description": {
-                    "doc": ".vpause\nPause player in VC"
-                }
-            },
-            {
-                "name": "vresume",
-                "inline": false,
-                "description": {
-                    "doc": ".vresume\nResume player in VC"
-                }
-            },
-            {
-                "name": "vdebug",
-                "inline": false,
-                "description": {
-                    "doc": ".vdebug\ndebug"
-                }
-            },
-            {
-                "name": "sm",
-                "inline": false,
-                "description": {
-                    "doc": ".sm\nto find music."
-                }
-            },
-            {
-                "name": "shazam",
-                "inline": false,
-                "description": {
-                    "doc": ".shazam <reply to audio> - recognize track"
-                }
-            }
-        ],
-        "name": "VoiceMod",
-        "repo": "hikariatama/host",
-        "install": "dlm https://raw.githubusercontent.com/hikariatama/host/master/voicemod.py"
-    },
-    {
         "description": "Change, pitch, enhance your Voice. Also includes optional automatic mode.",
         "commands": [
             {
@@ -24310,22 +24235,6 @@
     },
     {
         "author": "@kshmods",
-        "description": "Screenshot Spammer",
-        "commands": [
-            {
-                "name": "scrs",
-                "inline": false,
-                "description": {
-                    "doc": ".scrs <amount>"
-                }
-            }
-        ],
-        "name": "ScrSpam",
-        "repo": "Plovchikdeval/dev_modules",
-        "install": "dlm https://raw.githubusercontent.com/Plovchikdeval/dev_modules/main/screenspam.py"
-    },
-    {
-        "author": "@kshmods",
         "description": "Module for sending private messages",
         "commands": [
             {
@@ -24804,64 +24713,6 @@
         "install": "dlm https://raw.githubusercontent.com/HikkTutor/HT/main/sozivala.py"
     },
     {
-        "author": "@procot1 & @devjmodules",
-        "description": "AI - помощник по Hikka.\n🌘Version: 5.1 | Data set: 4\n⚡Разработчик: @procot1\n💚Оригинальный модуль\nВНИМАНИЕ! \nподдержка этого модуля завершена. Этот модуль теперь часть функционала другого крупного модуля.\nУстановить: .dlmod https://raw.githubusercontent.com/Chaek1403/VAWEIRR/refs/heads/main/Zetta%20-%20AI%20models.py\nпросьба перейти на современное решение что бы получать обновления и улучшенный функционал.",
-        "commands": [
-            {
-                "name": "aisup",
-                "inline": false,
-                "description": {
-                    "doc": "Спросить у AI помощника.\nИспользование: `.aisup <запрос>` или ответить на сообщение с `.aisup`\n\n🧠Скормлены знания: \n• Установки | команды встроенных модулей | Внешние модули(40 модулей) | чаты Хикки | нюнсы Хикки | официальные тгк с модулями | меры безопасности | Список советов по устранению ошибок | Данные о хикке"
-                }
-            },
-            {
-                "name": "aierror",
-                "inline": false,
-                "description": {
-                    "doc": "Спросить у AI помощника об ошибке модуля.\nИспользование: `.aierror <запрос>` или ответить на сообщение с `.aierror`\n\n🧠Скормлены знания(old data set):\n• команды встроенных модулей | чаты Хикки | больше нюансов и принципов работы Хикки | примеры ошибок и их решений | большой список советов по устранению ошибок"
-                }
-            },
-            {
-                "name": "aiinfo",
-                "inline": false,
-                "description": {
-                    "doc": "- Информация об обновлении✅"
-                }
-            },
-            {
-                "name": "aiprov",
-                "inline": false,
-                "description": {
-                    "doc": "- Информация о провайдерах🔆"
-                }
-            },
-            {
-                "name": "apiswitch",
-                "inline": false,
-                "description": {
-                    "doc": "Поменять API для запросов\nИспользование: `.apiswitch <провайдер>\nдоступные: onlysq и devj."
-                }
-            },
-            {
-                "name": "aicreate",
-                "inline": false,
-                "description": {
-                    "doc": "Попросить AI помощника написать модуль.\nИспользование: `.aicreate <запрос>` или ответить на сообщение с `.aicreate`\n\n🧠Скормлены знания:\n• Вся документация по написанию модулей Hikka (кроме Hikka only) | мелкие наводящие инструкции"
-                }
-            },
-            {
-                "name": "ultramode",
-                "inline": false,
-                "description": {
-                    "doc": "Вкл/выкл качественного ответа\nИспользование: `.ultramode <on/off>`"
-                }
-            }
-        ],
-        "name": "AI-sup Hikka",
-        "repo": "Chaek1403/VAWEIRR",
-        "install": "dlm https://raw.githubusercontent.com/Chaek1403/VAWEIRR/main/AI-support-Hikka.py"
-    },
-    {
         "author": "@hikkagpt",
         "description": "🧠 Модуль Zetta - AI Models\n>> Часть экосистемы Zetta - AI models << \n🌒 Version: 8.3 | MoDeLs\n\n**Описание:**\nМодуль объединяет несколько мощных инструментов для работы с ИИ, делая общение и взаимодействие максимально удобным. Подходит как для быстрых запросов, так и для создания глубоких диалогов с контекстом.  \n\n**Режимы работы:**\n  - **Одиночный запрос:**\n    .ai **запрос** - мгновенный ответ без сохранения истории диалога.  \n\n  - **Чат:**\n    **.chat** - ведите диалог с ИИ, который запоминает контекст беседы.  \n\n  - **Создание личностей:**\n    Создавайте роли для ИИ, чтобы он мог выполнять уникальные задачи. Сохранение ролей и их переключение через **.switchpersona.**\n\n  - **Переписывание текстов:**\n    Используйте .rewrite для перевода, стилизации или упрощения сложных формулировок.  \n\n  - **Работа с Hikka Userbot:**\n    Команды aisup, aicreate, aierror помогут в создании, улучшении и отладке модулей.  \n\n**Особенности:**\n- Поддержка до 21 моделей ИИ.  \n- Полная интеграция с Telegram.  \n- Универсальность и практичность для любых задач.\n    ",
         "commands": [
@@ -25168,6 +25019,225 @@
     },
     {
         "author": "@xdesai",
+        "description": "Модуль для админов чатов\nMade by Desai",
+        "commands": [
+            {
+                "name": "fullrights",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
+                }
+            },
+            {
+                "name": "myrights",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить ваши права в текущем чате"
+                }
+            },
+            {
+                "name": "promote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (префикс)] — Повышение пользователя до администратора."
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> — Снятие прав администратора с пользователя."
+                }
+            },
+            {
+                "name": "create",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
+                }
+            },
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Получить айди пользователя"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Получить свой айди"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Получить айди чата"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет сообщение. Использование: ?del <reply>"
+                }
+            },
+            {
+                "name": "dgc",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет группу/канал по ссылке или ID. Использование: .dgc <ID или ссылка>"
+                }
+            },
+            {
+                "name": "join",
+                "inline": false,
+                "description": {
+                    "doc": "Вступает в группу или канал по ссылке."
+                }
+            },
+            {
+                "name": "whoisowner",
+                "inline": false,
+                "description": {
+                    "doc": "Определяет владельца группы или канала."
+                }
+            },
+            {
+                "name": "rename",
+                "inline": false,
+                "description": {
+                    "doc": ".rename <new_name> — Меняет название группы/канала на <new_name>"
+                }
+            },
+            {
+                "name": "members",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает кол-во участников канала/группы"
+                }
+            },
+            {
+                "name": "banall",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить всех участников в группе/канале"
+                }
+            },
+            {
+                "name": "chatinfo",
+                "inline": false,
+                "description": {
+                    "doc": "<айди чата>"
+                }
+            },
+            {
+                "name": "own",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список чатов, каналов и групп где вы владелец/админ."
+                }
+            },
+            {
+                "name": "unmute",
+                "inline": false,
+                "description": {
+                    "doc": "Размучивает пользователя. Использование: .unmute <id>"
+                }
+            },
+            {
+                "name": "mute",
+                "inline": false,
+                "description": {
+                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
+                }
+            },
+            {
+                "name": "kickall",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет всех пользователей из чата."
+                }
+            },
+            {
+                "name": "steal",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет людей и ботов с чата в чат. Если дописать аргумент nobot то без ботов"
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список участников."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех админов в чате (без учёта ботов)."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех ботов в чате."
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Разбанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "Кикнуть участника из чата. Использование: .kick <reply/id>"
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Пригласить пользователя/бота в чат. Использование: .invite <id/reply>."
+                }
+            },
+            {
+                "name": "flush",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет удалённые аккаунты из чата"
+                }
+            },
+            {
+                "name": "wipe",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя"
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/CMDDJModule.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -25351,6 +25421,29 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/bfg.py"
     },
     {
+        "author": "@xdesai & @devjmodules",
+        "description": "Encryption Module",
+        "commands": [
+            {
+                "name": "enc",
+                "inline": false,
+                "description": {
+                    "doc": "{text} - Encrypts the given text"
+                }
+            },
+            {
+                "name": "dec",
+                "inline": false,
+                "description": {
+                    "doc": "{encrypted text}, {key1}, {key2}, {indices}, {noise length} or <reply> - Decrypts the given text"
+                }
+            }
+        ],
+        "name": "EncDec",
+        "repo": "xdesai96/modules",
+        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/encmod.py"
+    },
+    {
         "author": "@xdesai",
         "description": "Auto farm in iris bot",
         "commands": [
@@ -25475,216 +25568,6 @@
         "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/stats.py"
     },
     {
-        "author": "@xdesai",
-        "description": "Text to Speech Module",
-        "commands": [
-            {
-                "name": "speak",
-                "inline": false,
-                "description": {
-                    "doc": "Текст в речь. Использование: .speak <текст>"
-                }
-            }
-        ],
-        "name": "TextToSpeech",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/tts.py"
-    },
-    {
-        "author": "@xdesai",
-        "commands": [
-            {
-                "name": "weather",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Посмотрите погоду в указанном городе.",
-                    "en_doc": "Check the weather in the specified city.",
-                    "doc": "Check the weather in the specified city."
-                }
-            }
-        ],
-        "name": "Weather",
-        "repo": "xdesai96/modules",
-        "install": "dlm https://raw.githubusercontent.com/xdesai96/modules/main/weather.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Модуль для автоматической рассылки сообщений",
-        "commands": [
-            {
-                "name": "addaf",
-                "inline": false,
-                "description": {
-                    "doc": "<название> <интервал> <список чатов через запятую без пробелов> <сообщение> - добавить авторассылку"
-                }
-            },
-            {
-                "name": "rmaf",
-                "inline": false,
-                "description": {
-                    "doc": "<название> - удалить задачу"
-                }
-            },
-            {
-                "name": "listafs",
-                "inline": false,
-                "description": {
-                    "doc": "Выводит список активных задач."
-                }
-            }
-        ],
-        "name": "AutoSend",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/AutoSend.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Дает возможность грести эти гребаные деньги лопатой",
-        "commands": [
-            {
-                "name": "gresti",
-                "inline": false,
-                "description": {
-                    "doc": "Включить/выключить модуль в чате."
-                }
-            },
-            {
-                "name": "grest",
-                "inline": false,
-                "description": {
-                    "doc": "Установить вероятность ответа (от 0 до 100)."
-                }
-            }
-        ],
-        "name": "Gresti",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/gresti.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Тесты для изучения хираганы.",
-        "commands": [
-            {
-                "name": "quiz",
-                "inline": false,
-                "description": {
-                    "doc": "Начать тест по хирагане"
-                }
-            }
-        ],
-        "name": "HiraganaQuiz",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/harigana.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Автофарм Iris с помощью автоотправки ",
-        "commands": [
-            {
-                "name": "autofarm",
-                "inline": false,
-                "description": {
-                    "doc": "Запускает автофарм"
-                }
-            }
-        ],
-        "name": "IrisFarm",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/irisautofarm.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Абсолютно рандомные лоли комиксы ",
-        "commands": [
-            {
-                "name": "lolicom",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Рандом лоли-комиксы",
-                    "en_doc": "Randrom loli comics ",
-                    "doc": "Рандомный лоли-комикс (NSFW)"
-                }
-            }
-        ],
-        "name": "Lolicom",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/lolicom.py"
-    },
-    {
-        "author": "@Enceth",
-        "description": "Модуль для подсчёта сообщений пользователя в виде столбчатой диаграммы",
-        "commands": [
-            {
-                "name": "dstats",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчёт статистики сообщений пользователя.\n.dstats <@юзернейм или ID>"
-                }
-            }
-        ],
-        "name": "UserStats",
-        "repo": "Enceth/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Enceth/Modules/main/stats.py"
-    },
-    {
-        "description": "Uploader",
-        "commands": [
-            {
-                "name": "x0",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "x0 Uploader",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/0x.py"
-    },
-    {
-        "description": "Draw line via @BlackLinesBot",
-        "commands": [
-            {
-                "name": "line",
-                "inline": false,
-                "description": {
-                    "doc": ".line <reply to photo>"
-                }
-            }
-        ],
-        "name": "BlackLines",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/BlackLines.py"
-    },
-    {
-        "description": "округляет всё",
-        "commands": [
-            {
-                "name": "round",
-                "inline": false,
-                "description": {
-                    "doc": ".round <Reply to image/sticker or video/gif>"
-                }
-            }
-        ],
-        "name": "Circles",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Circles.py"
-    },
-    {
-        "description": "distorting images",
-        "commands": [
-            {
-                "name": "distort",
-                "inline": false,
-                "description": {
-                    "doc": ".distort <reply to photo>\n.distort im\n.distort 50\n.distort 50 im\n.distort im 50\nim => кидает стикеры как фото\n50 => (от 0 до дохуя) процент сжатия"
-                }
-            }
-        ],
-        "name": "DistortNoApi",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/DNA.py"
-    },
-    {
         "description": "Glitcher of anything",
         "commands": [
             {
@@ -25698,85 +25581,6 @@
         "name": "Glitcher",
         "repo": "KeyZenD/modules",
         "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Glitcher.py"
-    },
-    {
-        "description": "Hashing text and files",
-        "commands": [
-            {
-                "name": "md5",
-                "inline": false,
-                "description": {
-                    "doc": ".md5 <(text or media) or (reply to text or media)>\nHashing to md5"
-                }
-            },
-            {
-                "name": "sha1",
-                "inline": false,
-                "description": {
-                    "doc": ".sha1 <(text or media) or (reply to text or media)\nHashing to sha1"
-                }
-            },
-            {
-                "name": "sha224",
-                "inline": false,
-                "description": {
-                    "doc": ".sha224 <(text or media) or (reply to text or media)\nHashing to sha224"
-                }
-            },
-            {
-                "name": "sha256",
-                "inline": false,
-                "description": {
-                    "doc": ".sha255 <(text or media) or (reply to text or media)\nHashing to sha256"
-                }
-            },
-            {
-                "name": "sha384",
-                "inline": false,
-                "description": {
-                    "doc": ".sha384 <(text or media) or (reply to text or media)\nHashing to sha384"
-                }
-            },
-            {
-                "name": "sha512",
-                "inline": false,
-                "description": {
-                    "doc": ".sha512 <(text or media) or (reply to text or media)\nHashing to sha512"
-                }
-            },
-            {
-                "name": "blake2b",
-                "inline": false,
-                "description": {
-                    "doc": ".blake2 <(text or media) or (reply to text or media)\nHashing to blake2"
-                }
-            },
-            {
-                "name": "blake2s",
-                "inline": false,
-                "description": {
-                    "doc": ".blake2s <(text or media) or (reply to text or media)\nHashing to blake2s"
-                }
-            }
-        ],
-        "name": "Hasher",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Hasher.py"
-    },
-    {
-        "description": "Lorem Ipsum generation",
-        "commands": [
-            {
-                "name": "loremipsum",
-                "inline": false,
-                "description": {
-                    "doc": ".loremipsum <count: int> <length: str> <file?>\ncount - number of paragraphs| std: 1\nlength - s-short, m-medium, l-long, v-verylong|std: m(edium)\nfile - if nothing- send as message, if anything- send as file"
-                }
-            }
-        ],
-        "name": "LoermIpsum",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/LoremIpsum.py"
     },
     {
         "description": "send Message as file",
@@ -25799,1443 +25603,5 @@
         "name": "MessageToFile",
         "repo": "KeyZenD/modules",
         "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MTF.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "mac",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "MacAshoT",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MacAshoT.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "mozg",
-                "inline": false,
-                "description": {
-                    "doc": ".mozg <on/off/...> - Переключить режим дурачка в чате"
-                }
-            },
-            {
-                "name": "mozgchance",
-                "inline": false,
-                "description": {
-                    "doc": ".mozgchance <int> - Устанвоить шанс 1 к N.\n0 - всегда отвечать"
-                }
-            }
-        ],
-        "name": "MegaMozg",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MegaMozg.py"
-    },
-    {
-        "description": "Микроцитаты",
-        "commands": [
-            {
-                "name": "mq",
-                "inline": false,
-                "description": {
-                    "doc": ".mq <реплай на текст>"
-                }
-            }
-        ],
-        "name": "MicroQuotes",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MicroQuotes.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "ll",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "rr",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "uu",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "dd",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "MF",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MirrorFlip.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "ll",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "rr",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "uu",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "dd",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "MirrorFlip",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/MirrorFlipV2.py"
-    },
-    {
-        "description": "@faq lines",
-        "commands": [
-            {
-                "name": "omstart",
-                "inline": false,
-                "description": {
-                    "doc": "Start OneMessage mode"
-                }
-            },
-            {
-                "name": "omstop",
-                "inline": false,
-                "description": {
-                    "doc": "Stop OneMessage mode"
-                }
-            }
-        ],
-        "name": "OneMessage",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/OneMessage.py"
-    },
-    {
-        "description": "Generator and reader of QR codes",
-        "commands": [
-            {
-                "name": "makeqr",
-                "inline": false,
-                "description": {
-                    "doc": ".makeqr <text or reply>"
-                }
-            },
-            {
-                "name": "readqr",
-                "inline": false,
-                "description": {
-                    "doc": ".readqr <qrcode or reply to qrcode>"
-                }
-            }
-        ],
-        "name": "QR tool's",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/QRtools.py"
-    },
-    {
-        "description": "каждое слово раз в 100мс",
-        "commands": [
-            {
-                "name": "sr",
-                "inline": false,
-                "description": {
-                    "doc": ".sr <text or reply>"
-                }
-            }
-        ],
-        "name": "SpeedRead",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SpeedRead.py"
-    },
-    {
-        "description": "Make image 1:1 ratio",
-        "commands": [
-            {
-                "name": "squareblur",
-                "inline": false,
-                "description": {
-                    "doc": "make image 1:1 ratio"
-                }
-            }
-        ],
-        "name": "SquareBlur",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SquareBlur.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "stick2pic",
-                "inline": false,
-                "description": {
-                    "doc": "reply to Sticker\nsend stricker as image"
-                }
-            },
-            {
-                "name": "stick2file",
-                "inline": false,
-                "description": {
-                    "doc": "reply to Sticker\nsend stricker as image"
-                }
-            }
-        ],
-        "name": "StickTools",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/StickTools.py"
-    },
-    {
-        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
-        "commands": [
-            {
-                "name": "demoti",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
-                }
-            },
-            {
-                "name": "demot",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
-                }
-            }
-        ],
-        "name": "SuperDemotivator",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SuperDemotivator.V2.py"
-    },
-    {
-        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
-        "commands": [
-            {
-                "name": "demoti",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
-                }
-            },
-            {
-                "name": "demot",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
-                }
-            }
-        ],
-        "name": "SuperDemotivator",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/SuperDemotivator.py"
-    },
-    {
-        "description": "Swiper",
-        "commands": [
-            {
-                "name": "sl2r",
-                "inline": false,
-                "description": {
-                    "doc": "swipe left to right"
-                }
-            },
-            {
-                "name": "sr2l",
-                "inline": false,
-                "description": {
-                    "doc": "swipe right to left"
-                }
-            },
-            {
-                "name": "su2d",
-                "inline": false,
-                "description": {
-                    "doc": "swipe up to down"
-                }
-            },
-            {
-                "name": "sd2u",
-                "inline": false,
-                "description": {
-                    "doc": "swipe down to up"
-                }
-            }
-        ],
-        "name": "Swiper",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Swiper.py"
-    },
-    {
-        "description": "Смена расскаладки клавиатуры у текста",
-        "commands": [
-            {
-                "name": "switch",
-                "inline": false,
-                "description": {
-                    "doc": "Если ты допустил ошибку и набрал текст не сменив раскладку клавиатуры\nто вернись в его начало и допиши `.switch` и твой текст станет читабельным.\nЕсли ты всё же отправил сообщение не в той расскладке, то просто ответь на него этой командой и он измениться.\nесли же твой собеседник допустил ошибку, то просто ответь на его сообщение и сообщение с командой измениться."
-                }
-            }
-        ],
-        "name": "KeyboardSwitcher",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/Switcher.py"
-    },
-    {
-        "description": "Хуярит",
-        "commands": [
-            {
-                "name": "tgs",
-                "inline": false,
-                "description": {
-                    "doc": "хуярит стикеры"
-                }
-            }
-        ],
-        "name": "TgsKiller",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/TgsKiller.py"
-    },
-    {
-        "description": "Поиск видео на ютубе",
-        "commands": [
-            {
-                "name": "yt",
-                "inline": false,
-                "description": {
-                    "doc": "текст или реплай"
-                }
-            }
-        ],
-        "name": "YTsearch",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/YTsearch.py"
-    },
-    {
-        "description": "Reverse image search via Yandex (he is the best, imho)",
-        "commands": [
-            {
-                "name": "yars",
-                "inline": false,
-                "description": {
-                    "doc": ".yars <repy to image>"
-                }
-            }
-        ],
-        "name": "YandexReverseSearch",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/YandexRS.py"
-    },
-    {
-        "description": "Кодирование и декодирование base64",
-        "commands": [
-            {
-                "name": "b64encode",
-                "inline": false,
-                "description": {
-                    "doc": ".b64encode <(text or media) or (reply to text or media)>"
-                }
-            },
-            {
-                "name": "b64decode",
-                "inline": false,
-                "description": {
-                    "doc": ".b64decode <text or reply to text>"
-                }
-            }
-        ],
-        "name": "base64",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/_base64.py"
-    },
-    {
-        "description": "Админтулс",
-        "commands": [
-            {
-                "name": "ban",
-                "inline": false,
-                "description": {
-                    "doc": "Бан в чате"
-                }
-            },
-            {
-                "name": "unban",
-                "inline": false,
-                "description": {
-                    "doc": "Разбан в чате"
-                }
-            },
-            {
-                "name": "kick",
-                "inline": false,
-                "description": {
-                    "doc": "Кикнуть из чата"
-                }
-            },
-            {
-                "name": "promote",
-                "inline": false,
-                "description": {
-                    "doc": "Дать админку"
-                }
-            },
-            {
-                "name": "demote",
-                "inline": false,
-                "description": {
-                    "doc": "Снять админку"
-                }
-            }
-        ],
-        "name": "AdminTools",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/admin_tools.py"
-    },
-    {
-        "description": "Биография",
-        "commands": [
-            {
-                "name": "biography",
-                "inline": false,
-                "description": {
-                    "doc": ".biography <reply to voice>\nНаложение реплайнутого войса на минус кровостока"
-                }
-            }
-        ],
-        "name": "Биография",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/biography.py"
-    },
-    {
-        "description": "Кукулирует вырожения",
-        "commands": [
-            {
-                "name": "calc",
-                "inline": false,
-                "description": {
-                    "doc": ".calc <выражение или реплай на то, что нужно посчитать>\nКстати:\n** - возвести в степень\n/ - деление\n% - деление по модулю"
-                }
-            }
-        ],
-        "name": "Кукулятор",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/calc.py"
-    },
-    {
-        "description": "Выполняет команду в канале",
-        "commands": [
-            {
-                "name": "cheval",
-                "inline": false,
-                "description": {
-                    "doc": ".channel <канал> <id сообщения реплая, или же выполнение команды из комментариев> <комманда в том виде, в котором бы ты отправил её в чат>"
-                }
-            }
-        ],
-        "name": "ChannelEval",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/cheval.py"
-    },
-    {
-        "description": "Makes message monospace",
-        "commands": [
-            {
-                "name": "code",
-                "inline": false,
-                "description": {
-                    "doc": ".code <text or reply>"
-                }
-            }
-        ],
-        "name": "Codefy",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/codefy.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "cbit",
-                "inline": false,
-                "description": {
-                    "doc": ".cbit <число от 0 до 255"
-                }
-            }
-        ],
-        "name": "colorBit",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/colorBit.py"
-    },
-    {
-        "description": "DataMosh effect to video",
-        "commands": [
-            {
-                "name": "datamosh",
-                "inline": false,
-                "description": {
-                    "doc": ". datamosh lvl: int <reply to video>"
-                }
-            }
-        ],
-        "name": "DataMosh",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/datamosh.py"
-    },
-    {
-        "description": "Удаляет все сообщения",
-        "commands": [
-            {
-                "name": "delme",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет все сообщения от тебя"
-                }
-            },
-            {
-                "name": "delmenow",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет все сообщения от тебя без вопросов"
-                }
-            }
-        ],
-        "name": "DelMe",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/delme.py"
-    },
-    {
-        "description": "Quote a message",
-        "commands": [
-            {
-                "name": "family",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Family",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/family.py"
-    },
-    {
-        "description": "Гавно залупное",
-        "commands": [
-            {
-                "name": "grid",
-                "inline": false,
-                "description": {
-                    "doc": ".gird <reply to photo>"
-                }
-            },
-            {
-                "name": "revgrid",
-                "inline": false,
-                "description": {
-                    "doc": ".gird <reply to photo>"
-                }
-            }
-        ],
-        "name": "Griding",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/gird.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "hearts",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Heart's",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/hearts.py"
-    },
-    {
-        "description": "Provides this help message",
-        "commands": [
-            {
-                "name": "help",
-                "inline": false,
-                "description": {
-                    "doc": ".help [module]"
-                }
-            },
-            {
-                "name": "KeyZenD",
-                "inline": false,
-                "description": {
-                    "doc": "ДА Я ЗНАЮ ЧТО Я ОХУЕЛ НО МНЕ ПОХУЙ, МОЙ ХЕЛП!"
-                }
-            }
-        ],
-        "name": "Help",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/help.py"
-    },
-    {
-        "description": "Гавно залупное",
-        "commands": [
-            {
-                "name": "хуй",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "хуйня",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Хуификатор",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/hyi.py"
-    },
-    {
-        "description": "Картинки в текст. что?",
-        "commands": [
-            {
-                "name": "bin",
-                "inline": false,
-                "description": {
-                    "doc": ".bin <картинка  или реплай> + слова (дефолт на рандоме) (не мешает слова)"
-                }
-            },
-            {
-                "name": "rbin",
-                "inline": false,
-                "description": {
-                    "doc": ".rbin <картинка  или реплай> + слова (дефолт на рандоме) (мешает слова)"
-                }
-            }
-        ],
-        "name": "Im2Bin",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/im2bin.py"
-    },
-    {
-        "description": "Makes message monospace",
-        "commands": [
-            {
-                "name": "keyboard",
-                "inline": false,
-                "description": {
-                    "doc": ".keyboard <text or reply>"
-                }
-            }
-        ],
-        "name": "Keyboard typer",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/keyboard_lagre.py"
-    },
-    {
-        "description": "Makes message monospace",
-        "commands": [
-            {
-                "name": "keyboard",
-                "inline": false,
-                "description": {
-                    "doc": ".keyboard <text or reply>"
-                }
-            }
-        ],
-        "name": "Keyboard typer",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/keyboard_small.py"
-    },
-    {
-        "description": "Удаляет из чата последних Х зашедших",
-        "commands": [
-            {
-                "name": "botkicklast",
-                "inline": false,
-                "description": {
-                    "doc": ".botkicklst <количество> <юзернейм, если канал> - Кикает при помощи тг бота"
-                }
-            },
-            {
-                "name": "kicklast",
-                "inline": false,
-                "description": {
-                    "doc": ".kicklst <количество> <юзернейм, если канал> - Кикает юзерботом"
-                }
-            }
-        ],
-        "name": "KickLast",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/kicklast.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "leave",
-                "inline": false,
-                "description": {
-                    "doc": ".leave"
-                }
-            }
-        ],
-        "name": "Just leave",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/leave.py"
-    },
-    {
-        "description": "Stores global notes (aka snips)",
-        "commands": [
-            {
-                "name": "findnote",
-                "inline": false,
-                "description": {
-                    "doc": "Gets the note specified"
-                }
-            },
-            {
-                "name": "note",
-                "inline": false,
-                "description": {
-                    "doc": "Gets the note specified"
-                }
-            },
-            {
-                "name": "delallnotes",
-                "inline": false,
-                "description": {
-                    "doc": "Deletes all the saved notes"
-                }
-            },
-            {
-                "name": "save",
-                "inline": false,
-                "description": {
-                    "doc": "Save a new note. Must be used in reply with one parameter (note name)"
-                }
-            },
-            {
-                "name": "delnote",
-                "inline": false,
-                "description": {
-                    "doc": "Deletes a note, specified by note name"
-                }
-            },
-            {
-                "name": "notes",
-                "inline": false,
-                "description": {
-                    "doc": "List the saved notes"
-                }
-            }
-        ],
-        "name": "Notes",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/notes.py"
-    },
-    {
-        "description": "Stores global notes (aka snips)",
-        "commands": [
-            {
-                "name": "notexec",
-                "inline": false,
-                "description": {
-                    "doc": "Gets the note specified"
-                }
-            }
-        ],
-        "name": "Notexec",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/notexec.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "null",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "null",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/null.py"
-    },
-    {
-        "description": "Upload video and photo to telegra.ph",
-        "commands": [
-            {
-                "name": "ph",
-                "inline": false,
-                "description": {
-                    "doc": ".ph <reply photo or video>"
-                }
-            }
-        ],
-        "name": "UploadPH",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ph.py"
-    },
-    {
-        "description": "Perevodit rysskiy na rysianskiy yazyk",
-        "commands": [
-            {
-                "name": "rysianskiy",
-                "inline": false,
-                "description": {
-                    "doc": ".rysianskiy <tekst ili replay na tekst>"
-                }
-            }
-        ],
-        "name": "Rysianskiy yazyk",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/rysianskiy.py"
-    },
-    {
-        "description": "Соxранятель в избранное",
-        "commands": [
-            {
-                "name": "saved",
-                "inline": false,
-                "description": {
-                    "doc": ".saved реплай на медиа"
-                }
-            }
-        ],
-        "name": "SavedMessages",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/saved.py"
-    },
-    {
-        "description": "Screenshot Spammer by @KeyZenD",
-        "commands": [
-            {
-                "name": "scrs",
-                "inline": false,
-                "description": {
-                    "doc": ".scrs <amount>"
-                }
-            }
-        ],
-        "name": "ScrSpam",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/scrs.py"
-    },
-    {
-        "description": "Гавно залупное",
-        "commands": [
-            {
-                "name": "soap",
-                "inline": false,
-                "description": {
-                    "doc": ".soap <reply to photo>"
-                }
-            }
-        ],
-        "name": "Soaping",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/soaper.py"
-    },
-    {
-        "description": "Гавно залупное",
-        "commands": [
-            {
-                "name": "spin",
-                "inline": false,
-                "description": {
-                    "doc": "you spin me round..."
-                }
-            },
-            {
-                "name": "epilepsy",
-                "inline": false,
-                "description": {
-                    "doc": "ПРИВЕТ ЭПИЛЕТИКИ АХАХАХХА"
-                }
-            }
-        ],
-        "name": "Spinner",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/spinner.py"
-    },
-    {
-        "description": "Text to sticker",
-        "commands": [
-            {
-                "name": "stext",
-                "inline": false,
-                "description": {
-                    "doc": ".stext <reply to photo>"
-                }
-            }
-        ],
-        "name": "StickText",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/stext.py"
-    },
-    {
-        "description": "Tagall",
-        "commands": [
-            {
-                "name": "tagall",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "TagAll",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/tagall.py"
-    },
-    {
-        "description": "Self-tests",
-        "commands": [
-            {
-                "name": "ping",
-                "inline": false,
-                "description": {
-                    "doc": "Does nothing"
-                }
-            },
-            {
-                "name": "pung",
-                "inline": false,
-                "description": {
-                    "doc": "Useless pinger"
-                }
-            },
-            {
-                "name": "dump",
-                "inline": false,
-                "description": {
-                    "doc": "Use in reply to get a dump of a message"
-                }
-            },
-            {
-                "name": "logs",
-                "inline": false,
-                "description": {
-                    "doc": ".logs <level>\nDumps logs. Loglevels below WARNING may contain personal info."
-                }
-            },
-            {
-                "name": "suspend",
-                "inline": false,
-                "description": {
-                    "doc": ".suspend <time>\nSuspends the bot for N seconds"
-                }
-            }
-        ],
-        "name": "Tester",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/test.py"
-    },
-    {
-        "description": "Makes your messages type slower",
-        "commands": [
-            {
-                "name": "ticker",
-                "inline": false,
-                "description": {
-                    "doc": ".ticker <message>"
-                }
-            }
-        ],
-        "name": "Ticker",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ticker.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "tt",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "TikTokDl",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/ttdl.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "urldl",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "urldlbig",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "UrlDl",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/urldl.py"
-    },
-    {
-        "description": "Valute converter",
-        "commands": [
-            {
-                "name": "valute",
-                "inline": false,
-                "description": {
-                    "doc": ".valute <Valute char code (optional)>"
-                }
-            }
-        ],
-        "name": "Valutes",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/valute.py"
-    },
-    {
-        "description": "link to screen",
-        "commands": [
-            {
-                "name": "webshot",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "WebShot",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/webshot.py"
-    },
-    {
-        "description": "wow, what is it there?",
-        "commands": [
-            {
-                "name": "what",
-                "inline": false,
-                "description": {
-                    "doc": "Draw circle in random place"
-                }
-            }
-        ],
-        "name": "What?",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/what.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "words",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Words Counter",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/words.py"
-    },
-    {
-        "description": "Запаковывает/распаковывает файлы",
-        "commands": [
-            {
-                "name": "zipadd",
-                "inline": false,
-                "description": {
-                    "doc": ".zipadd <file/reply to file> - сохраняет файл во временную папку"
-                }
-            },
-            {
-                "name": "ziplist",
-                "inline": false,
-                "description": {
-                    "doc": "список сохраненных файлов"
-                }
-            },
-            {
-                "name": "zipshow",
-                "inline": false,
-                "description": {
-                    "doc": ".zipshow <name> - показывает сохранённый файл"
-                }
-            },
-            {
-                "name": "zipdel",
-                "inline": false,
-                "description": {
-                    "doc": ".zipdel <name> - удаляет сохранённый файл"
-                }
-            },
-            {
-                "name": "zip",
-                "inline": false,
-                "description": {
-                    "doc": ".zip <name> (-s) - пакует в архив name. если есть флаг -s то сохраняет папку с фацлами"
-                }
-            },
-            {
-                "name": "zipclean",
-                "inline": false,
-                "description": {
-                    "doc": ".zipclear - очищает папку с файлами"
-                }
-            }
-        ],
-        "name": "ZIP",
-        "repo": "KeyZenD/modules",
-        "install": "dlm https://raw.githubusercontent.com/KeyZenD/modules/master/zip.py"
-    },
-    {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/caliases.png",
-        "pic": "https://static.unneyon.ru/mods/caliases_icon.png",
-        "description": "Module for custom aliases",
-        "commands": [
-            {
-                "name": "caliases",
-                "inline": false,
-                "description": {
-                    "ru_doc": "👉 Получить список всех алиасов",
-                    "doc": "👉 Get all aliases"
-                }
-            },
-            {
-                "name": "rmcalias",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> 👉 Удалить алиас",
-                    "doc": "<name> 👉 Remove alias"
-                }
-            },
-            {
-                "name": "calias",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> <команда>\n[аргументы] 👉 Добавить новый алиас (может содержать ключевое слово {args})",
-                    "doc": "<name> <command>\n[args] 👉 Add new alias (may contain {args} keyword)"
-                }
-            }
-        ],
-        "name": "CAliases",
-        "version": "1.0.0",
-        "repo": "unneyon/hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/caliases.py"
-    },
-    {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/deleter.png",
-        "pic": "https://static.unneyon.ru/mods/deleter_icon.png",
-        "description": "Module for delete your messages",
-        "commands": [
-            {
-                "name": "delmsg",
-                "inline": false,
-                "description": {
-                    "ru_doc": "[число] — Удалить сообщения (можно использовать значение из конфига: «{значение}{число}», без пробела!)",
-                    "doc": "[count] — Delete messages (you can use your trigger from config: «{value}{count}» and write them only together!)"
-                }
-            }
-        ],
-        "name": "Deleter",
-        "version": "1.0.0",
-        "repo": "unneyon/hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/deleter.py"
-    },
-    {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/warpigs.png",
-        "pic": "https://static.unneyon.ru/mods/warpigs_icon.png",
-        "description": "Some auto-functions for your pig in @warpigs_bot",
-        "commands": [
-            {
-                "name": "afight",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Включить/отключить автобой",
-                    "doc": "- Enable/disable autofight"
-                }
-            },
-            {
-                "name": "agrow",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Включить/отключить автокормёжку",
-                    "doc": "- Enable/disable autogrow"
-                }
-            },
-            {
-                "name": "setname",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> - Меняет имя вашего хряка",
-                    "doc": "<name> - Changes your pig's name"
-                }
-            }
-        ],
-        "name": "WarPigs",
-        "version": "1.0.0",
-        "repo": "unneyon/hikka-mods",
-        "install": "dlm https://raw.githubusercontent.com/unneyon/hikka-mods/main/warpigs.py"
-    },
-    {
-        "author": "@zolotarevxc",
-        "banner": "https://mods.whypodg.me/badges/faqmodule.jpg",
-        "pic": "https://static.whypodg.me/mods!faqmodule.png",
-        "description": "Модуль FAQ для удобного общения с участниками",
-        "commands": [
-            {
-                "name": "setfaq",
-                "inline": false,
-                "description": {
-                    "doc": "Добавление или обновление вопроса и ответа в FAQ."
-                }
-            },
-            {
-                "name": "faq",
-                "inline": false,
-                "description": {
-                    "doc": "Получение ответа на вопрос из FAQ."
-                }
-            },
-            {
-                "name": "helpfaq",
-                "inline": false,
-                "description": {
-                    "doc": "Показать информацию о том, как пользоваться FAQ модулем."
-                }
-            }
-        ],
-        "name": "FAQModule",
-        "repo": "zolotarevinc/modules",
-        "install": "dlm https://raw.githubusercontent.com/zolotarevxc/modules/main/FAQModule.py"
-    },
-    {
-        "author": "@zolotarevxc",
-        "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
-        "pic": "https://static.whypodg.me/mods!irisfarm.png",
-        "description": "Модуль для автоматического приветствия новых участников чата",
-        "commands": [
-            {
-                "name": "welon",
-                "inline": false,
-                "description": {
-                    "doc": "Включить автоматическое приветствие новых участников"
-                }
-            },
-            {
-                "name": "weloff",
-                "inline": false,
-                "description": {
-                    "doc": "Выключить автоматическое приветствие новых участников"
-                }
-            }
-        ],
-        "name": "WelcomeModule",
-        "repo": "zolotarevinc/modules",
-        "install": "dlm https://raw.githubusercontent.com/zolotarevxc/modules/main/WelcomeMod.py"
-    },
-    {
-        "author": "@zolotarevxc 🌟",
-        "banner": "https://mods.whypodg.me/badges/chatmod.jpg",
-        "pic": "https://static.whypodg.me/mods!chatmod.png",
-        "description": "Модуль для управления чатом с красивыми эмодзи!",
-        "commands": [
-            {
-                "name": "helpmodule",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .helpmodule для отображения помощи по модулю."
-                }
-            },
-            {
-                "name": "userid",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .userid <@ или реплай> для отображения ID пользователя."
-                }
-            },
-            {
-                "name": "chatid",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .chatid показывает ID чата."
-                }
-            },
-            {
-                "name": "invite",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .invite <@ или реплай> для приглашения пользователя в чат."
-                }
-            },
-            {
-                "name": "kickme",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .kickme для выхода из чата."
-                }
-            },
-            {
-                "name": "users",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .users для вывода списка пользователей чата 👥"
-                }
-            },
-            {
-                "name": "admins",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .admins для вывода списка администраторов чата 👑"
-                }
-            },
-            {
-                "name": "bots",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .bots для вывода списка ботов чата 🤖"
-                }
-            }
-        ],
-        "name": "ChatModule",
-        "repo": "zolotarevinc/modules",
-        "install": "dlm https://raw.githubusercontent.com/zolotarevxc/modules/main/chatmodule.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Check spam ban for your account.",
-        "commands": [
-            {
-                "name": "spamban",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
-                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
-                }
-            }
-        ],
-        "name": "CheckSpamBan",
-        "version": "1.0.0",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CheckSpamBan.py"
-    },
-    {
-        "author": "@moduleslist",
-        "commands": [
-            {
-                "name": "clearbull",
-                "inline": false,
-                "description": {
-                    "doc": "Никого не буллить"
-                }
-            },
-            {
-                "name": "cikadat",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить фразу | .cikadat <фраза>"
-                }
-            },
-            {
-                "name": "cikadar",
-                "inline": false,
-                "description": {
-                    "doc": "Вкинуть рандомное оскорбление"
-                }
-            },
-            {
-                "name": "cikada",
-                "inline": false,
-                "description": {
-                    "doc": "Буллить человека. <reply>"
-                }
-            },
-            {
-                "name": "cikadarm",
-                "inline": false,
-                "description": {
-                    "doc": "Не буллить человека. <reply>"
-                }
-            }
-        ],
-        "name": "☠️ Cikada",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Cikada.py"
-    },
-    {
-        "author": "@D4n13l3k00, @yummy1gay",
-        "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
-        "commands": [
-            {
-                "name": "cu",
-                "inline": false,
-                "description": {
-                    "doc": ".cu <s> <a> <reply/@username>\n<s> - Скрытый режим\n<a> - Удалить ваши аватарки\nАргументы после юзера не указывайте, не скушает\nПримеры:\n.cu s @user/reply\n.cu a @user/reply\n.cu s a @user/reply"
-                }
-            }
-        ],
-        "name": "CopyUser",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CopyUser.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "https://0x0.st/HYVX.jpg",
-        "description": "Have you seen a customizable ping module in Netfoll? I have, yes, but I find it unacceptable to use Netfoll, so I took the idea of custom ping, and replicated it.",
-        "commands": [
-            {
-                "name": "cping",
-                "inline": false,
-                "description": {
-                    "ru_doc": " - Узнать пинг вашего юзербота",
-                    "doc": "- Find out your userbot ping"
-                }
-            }
-        ],
-        "name": "CustomPing",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/CustomPing.py"
-    },
-    {
-        "description": "Модуль для получения информации о дате",
-        "commands": [
-            {
-                "name": "bd",
-                "inline": false,
-                "description": {
-                    "doc": "[день] [месяц] - установить свой день рождения"
-                }
-            },
-            {
-                "name": "di",
-                "inline": false,
-                "description": {
-                    "doc": "- показать информацию о сегодня"
-                }
-            },
-            {
-                "name": "mi",
-                "inline": false,
-                "description": {
-                    "doc": "- показать все месяца по индексам"
-                }
-            }
-        ],
-        "name": "DateInfo",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/DateInfo.py"
-    },
-    {
-        "author": "@mqone",
-        "description": "докс модуль 😈",
-        "commands": [
-            {
-                "name": "dox",
-                "inline": false,
-                "description": {
-                    "doc": "[реплай] - пробить человека"
-                }
-            }
-        ],
-        "name": "Dox",
-        "repo": "Fixyres/Modules",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/Dox.py"
     }
 ]
