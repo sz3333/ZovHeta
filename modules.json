@@ -4,6 +4,7 @@
         "description": "Module for searching modules! Watch all updates in fheta in @FHeta_updates!",
         "banner": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg",
         "pic": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg",
+        "repo": "Fixyres/FHeta",
         "commands": [
             {
                 "name": "fheta",
