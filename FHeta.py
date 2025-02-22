@@ -648,17 +648,17 @@ class FHeta(loader.Module):
                     res = await asyncio.gather(*tasks)
                     found = [mod for result in res for mod in result]
 
-                    if len(found) < 10:
+                    if len(found) < 25:
                         names = {mod['name'] for mod in mods if 'name' in mod}
                         close_matches = difflib.get_close_matches(query, list(names), n=50, cutoff=0.5)
                         for match in close_matches:
                             mod = next((m for m in mods if m.get('name') == match), None)
                             if mod and mod not in found:
                                 found.append(mod)
-                                if len(found) >= 10:
+                                if len(found) >= 25:
                                     break
 
-                    return found[:10]
+                    return found[:25]
                     
     async def format_module(self, module, query):
         install = module['install']
