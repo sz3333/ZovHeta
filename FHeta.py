@@ -32,7 +32,7 @@ import re
 
 @loader.tds
 class FHeta(loader.Module):
-    '''Module for searching modules! Watch all updates in fheta in @FHeta_updates!'''
+    '''Module for searching modules! Watch all news FHeta in @FHeta_updates!'''
     
     strings = {
         "name": "FHeta",
@@ -53,7 +53,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
-        "reqj": "This is the channel with all updates in FHeta!",
+        "reqj": "This is the channel with all news FHeta!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author} </code><code>{version}</code>\n<emoji document_id=5307585292926984338>💾</emoji> <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -79,7 +79,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
-        "reqj": "Это канал со всеми обновлениями в FHeta!",
+        "reqj": "Это канал со всеми новостями FHeta!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
         "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author} </code><code>{version}</code>\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -105,7 +105,7 @@ class FHeta(loader.Module):
         "update_whats_new": "<emoji document_id=5307761176132720417>⁉️</emoji> <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "<emoji document_id=5298820832338915986>🔄</emoji> <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
-        "reqj": "Це канал з усіма оновленнями в FHeta!",
+        "reqj": "Це канал з усіма новинами FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
         "closest_match": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n<emoji document_id=5307585292926984338>💾</emoji> <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
