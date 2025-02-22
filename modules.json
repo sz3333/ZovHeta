@@ -25662,21 +25662,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/FuckJoins.py"
     },
     {
-        "author": "@limokanews",
-        "description": "Hikka modules are now in one place with easy searching!",
-        "commands": [
-            {
-                "name": "limoka",
-                "inline": false,
-                "description": {
-                    "doc": "[query] - Search module"
-                }
-            }
-        ],
-        "name": "Limoka",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/Limoka.py"
-    },
-    {
         "author": "@BruhHikkaModules",
         "description": "- Module for filter text",
         "commands": [
