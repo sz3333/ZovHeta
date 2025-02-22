@@ -7671,27 +7671,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/038fdf5f0a2e0660129bc4b5afa86e8dde750fb07558476f53b75f501aece8da.py"
     },
     {
-        "author": "@mqone",
-        "commands": [
-            {
-                "name": "CBAT",
-                "inline": false,
-                "description": {
-                    "doc": "Включить или отключить"
-                }
-            },
-            {
-                "name": "DOX",
-                "inline": false,
-                "description": {
-                    "doc": "Завуалировать сообщение. <reply>"
-                }
-            }
-        ],
-        "name": "Vatnik",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dox_language.py"
-    },
-    {
         "author": "@AstroModules",
         "description": "Рандомные статусы для описания аккаунта в ТГ/Вацап/ВК и т.д.",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/RandomStatuses.jpg",
@@ -23737,6 +23716,27 @@
         ],
         "name": "VoiceRecognition",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/71d2e6ad4559f18f656bfb695ef6deb4caad22e7ca3a876c6069f31d3e6eb8bf.py"
+    },
+    {
+        "author": "@mqone",
+        "commands": [
+            {
+                "name": "CBAT",
+                "inline": false,
+                "description": {
+                    "doc": "Включить или отключить"
+                }
+            },
+            {
+                "name": "DOX",
+                "inline": false,
+                "description": {
+                    "doc": "Завуалировать сообщение. <reply>"
+                }
+            }
+        ],
+        "name": "Vatnik",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/Modules/main/dox_languagee.py"
     },
     {
         "author": "@AuroraModules",
