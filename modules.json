@@ -19127,6 +19127,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/kicklast.py"
     },
     {
+        "description": "CTF Toolkit.",
+        "commands": [
+            {
+                "name": "filetype",
+                "inline": false,
+                "description": {
+                    "doc": "Linux File command wrapper"
+                }
+            },
+            {
+                "name": "strings",
+                "inline": false,
+                "description": {
+                    "doc": "Linux Strings | grep . command wrapper"
+                }
+            }
+        ],
+        "name": "CTFTools",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/ctftools.py"
+    },
+    {
         "description": "Плохие слова.",
         "commands": [
             {
