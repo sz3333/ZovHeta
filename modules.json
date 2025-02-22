@@ -19,7 +19,7 @@
         ],
         "name": "AuroraFarm",
         "version": "3.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraFrm.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraFarm.py"
     },
     {
         "author": "@AuroraModules",
