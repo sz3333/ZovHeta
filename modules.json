@@ -16477,6 +16477,21 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Помогает расшифовать сокращенную ссылку\n\nМодуль не поддерживает ссылки от vk.cc\n\nВсе остальное (bit.ly, clck.ru и тд) поддерживается.",
+        "commands": [
+            {
+                "name": "deschort",
+                "inline": false,
+                "description": {
+                    "doc": "<url> - расшифрует ссылку."
+                }
+            }
+        ],
+        "name": "DeShorter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/DeShorter.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Модуль для фотографий с милыми собачками",
         "commands": [
             {
@@ -29164,6 +29179,47 @@
     },
     {
         "author": "@psyho_Kuznetsov",
+        "description": "❤️ Анимация сердца и эффект печати текста",
+        "commands": [
+            {
+                "name": "h",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создает анимированное сердце",
+                    "doc": "Создает анимированное сердце"
+                }
+            },
+            {
+                "name": "p",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Печатает текст с эффектом появления",
+                    "doc": "Печатает текст с эффектом появления"
+                }
+            }
+        ],
+        "name": "Animation",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Animation.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "Модуль для массового удаления сообщений в чате",
+        "commands": [
+            {
+                "name": "delchatme",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить все ваши сообщения в чате.  \nИспользование: <code>.delchatme [ID чата]</code>  \nЕсли ID чата не указан, удаление происходит в текущем чате."
+                }
+            }
+        ],
+        "name": "DeleteMessages",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/DeleteMessages.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
         "description": "Сохраняет сообщения, видео, файлы и т.д в избранное",
         "commands": [
             {
@@ -29177,6 +29233,22 @@
         "name": "SaveFav",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SaveFav.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "Поиск скриптов для Roblox",
+        "commands": [
+            {
+                "name": "search",
+                "inline": false,
+                "description": {
+                    "doc": "Поиск скриптов для Roblox"
+                }
+            }
+        ],
+        "name": "ScriptSearchRbx",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/ScriptSearchRbx.py"
     },
     {
         "author": "@psyho_Kuznetsov",
