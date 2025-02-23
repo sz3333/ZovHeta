@@ -387,9 +387,12 @@ class FHeta(loader.Module):
             except Exception:
                 continue
 
-        if len(formatted_modules) == 1:              
-            result_text, thumb_url, install = formatted_modules[0]              
-
+        if len(formatted_modules) == 1:  
+            result_text, thumb_url, install = formatted_modules[0] 
+            
+            if thumb_url:
+                result_text[:1024]
+                
             stats = await self.get_stats(install)
             if stats is None:
                 stats = {"likes": 0, "dislikes": 0}
