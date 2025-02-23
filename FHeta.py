@@ -1,6 +1,6 @@
 __version__ = (9, 0, 8)
 #  meta developer: @Foxy437
-# change-log: ◀️▶️ The search output has been reworked, German language has been added, the rating logic has been redone and as a result, they had to be reset, banners have been removed.
+# change-log: ◀️▶️ The search output has been reworked, 🇩🇪 German language has been added, the rating logic has been redone and as a result, they had to be reset.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
