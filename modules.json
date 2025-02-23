@@ -16814,6 +16814,670 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/Надстрочка.py"
     },
     {
+        "commands": [
+            {
+                "name": "pm",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .pm : чтобы включить/отключить авто ответ на личные сообщения."
+                }
+            },
+            {
+                "name": "allow",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .allow чтобы разрешить этому пользователю писать вам в личку."
+                }
+            },
+            {
+                "name": "deny",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .deny чтобы запретить этому пользователю писать вам в личку."
+                }
+            },
+            {
+                "name": "allowed",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .allowed : чтобы посмотреть список пользователей которым вы разрешили писать в личку."
+                }
+            },
+            {
+                "name": "block",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .block чтобы заблокировать этого пользователя."
+                }
+            },
+            {
+                "name": "unblock",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .unblock чтобы разблокировать этого пользователя."
+                }
+            },
+            {
+                "name": "addcont",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .addcont чтобы добавить пользователя в свои контакты."
+                }
+            },
+            {
+                "name": "delcont",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .delcont чтобы удалить пользователя из своих контактов."
+                }
+            },
+            {
+                "name": "rename",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Anti-PM",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Anti-PM.py"
+    },
+    {
+        "description": "Конвертирование в разные форматы",
+        "commands": [
+            {
+                "name": "tovoice",
+                "inline": false,
+                "description": {
+                    "doc": ".tovoice <reply to audio> \nСконвертировать аудио в войс"
+                }
+            },
+            {
+                "name": "toformat",
+                "inline": false,
+                "description": {
+                    "doc": ".toformat [format] <reply to audio> \n   Сконвертировать аудио/видео/войс в нужный формат \nПоддерживаются mp3, m4a, ogg, mpeg, wav, oga"
+                }
+            }
+        ],
+        "name": "AudioConverter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/AudioConverter.py"
+    },
+    {
+        "description": "Модуль для работы со звуком(???)",
+        "commands": [
+            {
+                "name": "bass",
+                "inline": false,
+                "description": {
+                    "doc": ".bass [уровень bass'а 2-100 (Default 2)] <reply to audio>\nBassBoost"
+                }
+            },
+            {
+                "name": "fv",
+                "inline": false,
+                "description": {
+                    "doc": ".fv [уровень шакала 2-100 (Default 25)] <reply to audio>\nШакалинг"
+                }
+            },
+            {
+                "name": "echos",
+                "inline": false,
+                "description": {
+                    "doc": ".echos <reply to audio>\nЭхо эффект"
+                }
+            },
+            {
+                "name": "volup",
+                "inline": false,
+                "description": {
+                    "doc": ".volup <reply to audio>\nУвеличить громкость на 10dB"
+                }
+            },
+            {
+                "name": "voldw",
+                "inline": false,
+                "description": {
+                    "doc": ".voldw <reply to audio>\nУменьшить громкость на 10dB"
+                }
+            },
+            {
+                "name": "revs",
+                "inline": false,
+                "description": {
+                    "doc": ".revs <reply to audio>\nРазвернуть аудио"
+                }
+            },
+            {
+                "name": "reps",
+                "inline": false,
+                "description": {
+                    "doc": ".reps <reply to audio>\nПовторить аудио 2 раза подряд"
+                }
+            },
+            {
+                "name": "slows",
+                "inline": false,
+                "description": {
+                    "doc": ".slows <reply to audio>\nЗамедлить аудио 0.5x"
+                }
+            },
+            {
+                "name": "fasts",
+                "inline": false,
+                "description": {
+                    "doc": ".fasts <reply to audio>\nУскорить аудио 1.5x"
+                }
+            },
+            {
+                "name": "rights",
+                "inline": false,
+                "description": {
+                    "doc": ".rights <reply to audio>\nВесь звук в правый канал"
+                }
+            },
+            {
+                "name": "lefts",
+                "inline": false,
+                "description": {
+                    "doc": ".lefts <reply to audio>\nВесь звук в левый канал"
+                }
+            },
+            {
+                "name": "norms",
+                "inline": false,
+                "description": {
+                    "doc": ".norms <reply to audio>\nНормализовать звук (Из тихого - нормальный)"
+                }
+            },
+            {
+                "name": "byroberts",
+                "inline": false,
+                "description": {
+                    "doc": ".byroberts <reply to audio>\nДобавить в конец аудио \"Directed by Robert B Weide\""
+                }
+            }
+        ],
+        "name": "AudioEditor",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/AudioEditor.py"
+    },
+    {
+        "description": "Кидает всех неконтактов в ЧС.",
+        "commands": [
+            {
+                "name": "autobl",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить режим"
+                }
+            },
+            {
+                "name": "autoblstatus",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить статус AutoBlackList"
+                }
+            },
+            {
+                "name": "autodelchat",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически удаляет диалог после того, как кинет в ЧС"
+                }
+            }
+        ],
+        "name": "AutoBlackList",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/AutoBlackList.py"
+    },
+    {
+        "description": "Модуль блокировки стикеров или гифок в чатах.",
+        "commands": [
+            {
+                "name": "banmedia",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .banmedia чтобы заблокировать стикер или гифку в чате. | аргументы «clear или clearall» (по желанию)"
+                }
+            }
+        ],
+        "name": "BanMedia",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/BanMedia.py"
+    },
+    {
+        "description": "Чат модули",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .userid <@ или реплай> показывает ID выбранного пользователя."
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .chatid показывает ID чата."
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .invite <@ или реплай>, чтобы добавить пользователя в чат."
+                }
+            },
+            {
+                "name": "leave",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте команду .leave, чтобы выйти из чата."
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .users <имя>; ничего выводит список всех пользователей в чате."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .admins показывает список всех админов в чате."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .bots показывает список всех ботов в чате."
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/ChatModule.py"
+    },
+    {
+        "description": "Статистика чата",
+        "commands": [
+            {
+                "name": "stata",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "ChatStatistic",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/ChatStats.py"
+    },
+    {
+        "description": "Госу, пикапы, подкаты.",
+        "commands": [
+            {
+                "name": "gosu",
+                "inline": false,
+                "description": {
+                    "doc": "Выебать чью-то мамку"
+                }
+            },
+            {
+                "name": "pikap",
+                "inline": false,
+                "description": {
+                    "doc": "Пикап"
+                }
+            },
+            {
+                "name": "podkat",
+                "inline": false,
+                "description": {
+                    "doc": "Подкат"
+                }
+            },
+            {
+                "name": "ayf",
+                "inline": false,
+                "description": {
+                    "doc": "АУФ!!!"
+                }
+            }
+        ],
+        "name": "Фразы",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Frazes.py"
+    },
+    {
+        "description": "Создать чат или канал.",
+        "commands": [
+            {
+                "name": "create",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
+                }
+            }
+        ],
+        "name": "GroupCreator",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/GroupCreator.py"
+    },
+    {
+        "description": "Леонардо Дайвинчик",
+        "commands": [
+            {
+                "name": "diz",
+                "inline": false,
+                "description": {
+                    "doc": "Дизлайкнуть пользователь."
+                }
+            },
+            {
+                "name": "like",
+                "inline": false,
+                "description": {
+                    "doc": "Лайкнуть пользователь."
+                }
+            },
+            {
+                "name": "spack",
+                "inline": false,
+                "description": {
+                    "doc": "Не нужен мне ваш стикерпак."
+                }
+            },
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "doc": "Не нужен мне ваш тик ток."
+                }
+            },
+            {
+                "name": "unafk",
+                "inline": false,
+                "description": {
+                    "doc": "Выйти из АФК и смотреть анкеты."
+                }
+            }
+        ],
+        "name": "Leo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Leo.py"
+    },
+    {
+        "description": "Модуль с вашей репутацией",
+        "commands": [
+            {
+                "name": "rep",
+                "inline": false,
+                "description": {
+                    "doc": "Включить режим репутаций."
+                }
+            },
+            {
+                "name": "myrep",
+                "inline": false,
+                "description": {
+                    "doc": "Посмотреть свою репутацию. Используй: .myrep clear (очистка репутации)."
+                }
+            }
+        ],
+        "name": "Репутация",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/MyRep.py"
+    },
+    {
+        "description": "Вечный онлайн, который будет читать сообщения в чатах.",
+        "commands": [
+            {
+                "name": "online",
+                "inline": false,
+                "description": {
+                    "doc": "Включить вечный онлайн"
+                }
+            }
+        ],
+        "name": "Online",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Online.py"
+    },
+    {
+        "description": "Фотографии из @pic.",
+        "commands": [
+            {
+                "name": "gow",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Pic",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Pic.py"
+    },
+    {
+        "description": "более точный пинг",
+        "commands": [
+            {
+                "name": "ping",
+                "inline": false,
+                "description": {
+                    "doc": "пингует"
+                }
+            }
+        ],
+        "name": "Pinger",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Pinger.py"
+    },
+    {
+        "description": "Quotes a message",
+        "commands": [
+            {
+                "name": "mquote",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "quote",
+                "inline": false,
+                "description": {
+                    "doc": ".quote <reply> - quote a message"
+                }
+            },
+            {
+                "name": "fquote",
+                "inline": false,
+                "description": {
+                    "doc": ".fquote @<username> <text> or <reply> <text> - fake quote"
+                }
+            }
+        ],
+        "name": "Quotes",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Quotes.py"
+    },
+    {
+        "description": "Переиминовать или добавить в контакт.",
+        "commands": [
+            {
+                "name": "rename",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Rename",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/RenameCont.py"
+    },
+    {
+        "description": "Модуль SearchMusic - поиск музыки \nРаботает через бота @lybot ",
+        "commands": [
+            {
+                "name": "sm",
+                "inline": false,
+                "description": {
+                    "doc": "Используй: .sm «название» чтобы найти музыку по названию."
+                }
+            }
+        ],
+        "name": "SearchMusic",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/SearchMusic.py"
+    },
+    {
+        "description": "Description for module",
+        "commands": [
+            {
+                "name": "poto",
+                "inline": false,
+                "description": {
+                    "doc": "Кинуть фоточки"
+                }
+            }
+        ],
+        "name": "SendPhotos",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/SendPhotos.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "snd",
+                "inline": false,
+                "description": {
+                    "doc": ".snd <канал/чат/id> <reply>\nОтправить сообщение в чат/канал(без авторства)"
+                }
+            }
+        ],
+        "name": "Sender",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Sender.py"
+    },
+    {
+        "description": "Показывает ваши ограничения.",
+        "commands": [
+            {
+                "name": "spambot",
+                "inline": false,
+                "description": {
+                    "doc": "Смотреть статус ограничений."
+                }
+            },
+            {
+                "name": "thankbot",
+                "inline": false,
+                "description": {
+                    "doc": "Написать 'хорошо, спасибо', когда есть инлайн."
+                }
+            },
+            {
+                "name": "okbot",
+                "inline": false,
+                "description": {
+                    "doc": "Написать 'Ок', когда есть инлайн."
+                }
+            },
+            {
+                "name": "whatbot",
+                "inline": false,
+                "description": {
+                    "doc": "Спросить, почему на Вас могли жаловаться, когда есть инлайн."
+                }
+            },
+            {
+                "name": "plsbot",
+                "inline": false,
+                "description": {
+                    "doc": "Попросить снять Вам ограничения, когда есть инлайн."
+                }
+            },
+            {
+                "name": "ponspsbot",
+                "inline": false,
+                "description": {
+                    "doc": "Написать 'Понятно, спасибо', когда есть инлайн."
+                }
+            },
+            {
+                "name": "infobot",
+                "inline": false,
+                "description": {
+                    "doc": "Узнать больше о спаме, когда есть инлайн."
+                }
+            }
+        ],
+        "name": "SpamBot",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/SpamBot.py"
+    },
+    {
+        "description": "Вход и выход пользователей в чате.",
+        "commands": [
+            {
+                "name": "welcome",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить приветствие новых пользователей в чате. Используй: .welcome <clearall (по желанию)>."
+                }
+            },
+            {
+                "name": "setwelcome",
+                "inline": false,
+                "description": {
+                    "doc": "Установить приветствие новых пользователей в чате.\nИспользуй: .setwelcome <текст (можно использовать {name}; {chat})>; ничего."
+                }
+            },
+            {
+                "name": "left",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить выход пользователей из чата. Используй: .left <clearall (по желанию)>."
+                }
+            },
+            {
+                "name": "setleft",
+                "inline": false,
+                "description": {
+                    "doc": "Установить новое сообщение при выходе из чата пользователей.\nИспользуй: .setleft <текст (можно использовать {name}; {chat})>; ничего."
+                }
+            }
+        ],
+        "name": "Welcome & Left",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/WelcomeLeft.py"
+    },
+    {
+        "description": "Получает информацию о пользователе.",
+        "commands": [
+            {
+                "name": "whois",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .whois <@ или реплай>; ничего"
+                }
+            }
+        ],
+        "name": "Whois",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Whois.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "addusers",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет людей с чата в чат."
+                }
+            },
+            {
+                "name": "kickall",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет всех пользователей из чата."
+                }
+            }
+        ],
+        "name": "kickall & addusers",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/kickall-addusers.py"
+    },
+    {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "x0 Uploader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/x0-Uploader.py"
+    },
+    {
         "author": "@Hicota",
         "description": "ASCII Arts | Различные прикольные арты 0_o",
         "commands": [
@@ -28483,6 +29147,152 @@
         ],
         "name": "YaMu",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/murpiz/YaMu/YaMu.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "Сохраняет сообщения, видео, файлы и т.д в избранное",
+        "commands": [
+            {
+                "name": "fav",
+                "inline": false,
+                "description": {
+                    "doc": "Сохраняет в избранное. Использование: .fav"
+                }
+            }
+        ],
+        "name": "SaveFav",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SaveFav.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "Автоматический отправщик сообщений",
+        "commands": [
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "Настройка: .spam [ID чата]|[текст]|[задержка]"
+                }
+            },
+            {
+                "name": "start",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить отправку"
+                }
+            },
+            {
+                "name": "stop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить отправку"
+                }
+            },
+            {
+                "name": "getid",
+                "inline": false,
+                "description": {
+                    "doc": "Получить ID чата или пользователя"
+                }
+            }
+        ],
+        "name": "Spammer",
+        "version": "1.7.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Spammer.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "🚀 Модуль для спама стикерами",
+        "commands": [
+            {
+                "name": "stickspam",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🚀 Начать спам стикерами"
+                }
+            },
+            {
+                "name": "stopspam",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🛑 Остановить спам принудительно"
+                }
+            },
+            {
+                "name": "idstick",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🔍 Получить ID стикера"
+                }
+            }
+        ],
+        "name": "StickSpam",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "Универсальный модуль для загрузки файлов на различные сервисы.",
+        "commands": [
+            {
+                "name": "updatepro",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "catbox",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на Catbox.moe. Используй: .catbox (ответ на медиа)."
+                }
+            },
+            {
+                "name": "envs",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на Envs.sh. Используй: .envs (ответ на медиа)."
+                }
+            },
+            {
+                "name": "oxo",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на 0x0.st. Используй: .oxo (ответ на медиа)."
+                }
+            },
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на x0.at. Используй: .x0 (ответ на медиа)."
+                }
+            },
+            {
+                "name": "tmpfiles",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на tmpfiles.org. Используй: .tmpfiles (ответ на медиа)."
+                }
+            },
+            {
+                "name": "pomf",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на pomf.lain.la. Используй: .pomf (ответ на медиа)."
+                }
+            },
+            {
+                "name": "bash",
+                "inline": false,
+                "description": {
+                    "doc": "Загружает файл на bashupload.com. Используй: .bash (ответ на медиа)."
+                }
+            }
+        ],
+        "name": "UploaderPro",
+        "version": "1.2.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/UploaderPro.py"
     },
     {
         "author": "@angellmodules",
