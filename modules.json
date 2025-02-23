@@ -11751,6 +11751,16 @@
                 }
             },
             {
+                "name": "setmodel",
+                "inline": false,
+                "description": {
+                    "en_doc": "Set default model",
+                    "ru_doc": "Установить модель по умолчанию",
+                    "ua_doc": "Встановити модель за замовчуванням",
+                    "doc": "Set default model"
+                }
+            },
+            {
                 "name": "dimg",
                 "inline": false,
                 "description": {
@@ -11782,7 +11792,7 @@
             }
         ],
         "name": "DevGPT",
-        "version": "12.0.0",
+        "version": "13.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/DevGPT.py"
     },
     {
