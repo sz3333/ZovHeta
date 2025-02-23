@@ -2268,6 +2268,839 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/shortener.py"
     },
     {
+        "author": "@shadow_geektg, @cakestwix_mods",
+        "pic": "https://cdn-icons-png.flaticon.com/512/1005/1005340.png",
+        "description": "🦊 Foxes, Dogs 🐶 and cats 🐱",
+        "commands": [
+            {
+                "name": "foxes",
+                "inline": false,
+                "description": {
+                    "doc": "🦊 Sending photos with foxes"
+                }
+            },
+            {
+                "name": "dogs",
+                "inline": false,
+                "description": {
+                    "doc": "🐶 Sending photos with dogs"
+                }
+            },
+            {
+                "name": "randomcdf",
+                "inline": false,
+                "description": {
+                    "doc": "Photos of dogs 🐶 and foxes 🦊"
+                }
+            }
+        ],
+        "name": "FoxGallery",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/FoxAndDogsGallery.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
+        "description": "Auto-posting art to your channels",
+        "commands": [
+            {
+                "name": "channelmenu",
+                "inline": false,
+                "description": {
+                    "doc": "🗒 Simple Menu and status"
+                }
+            },
+            {
+                "name": "artsource",
+                "inline": false,
+                "description": {
+                    "doc": "🧑‍🎤 Change the source of art"
+                }
+            },
+            {
+                "name": "latestart",
+                "inline": false,
+                "description": {
+                    "doc": "⌚️ Sending the last art for now"
+                }
+            },
+            {
+                "name": "randomart",
+                "inline": false,
+                "description": {
+                    "doc": "🎲 Sending a random art"
+                }
+            }
+        ],
+        "name": "ImageBoardSender",
+        "version": "2.1.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/ImageBoardSender.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://cdn-icons-png.flaticon.com/512/2111/2111624.png",
+        "description": "Module for downloading music from Spotify",
+        "commands": [
+            {
+                "name": "spotdl",
+                "inline": false,
+                "description": {
+                    "doc": "Download music from Spotify (Only tracks)"
+                }
+            }
+        ],
+        "name": "InlineSpotifyDownloader",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineSpotifyDownloader.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/512/000000/external-pc-computer-xnimrodx-lineal-color-xnimrodx.png",
+        "description": "🖥 Get detailed information about your server",
+        "commands": [
+            {
+                "name": "systeminfo",
+                "inline": false,
+                "description": {
+                    "doc": "Get information about your server"
+                }
+            }
+        ],
+        "name": "🖥 InlineSystemInfo",
+        "version": "1.4.5",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineSystemInfo.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://b.thumbs.redditmedia.com/-cDkj6PuQHqdLEhPh1JYsYplTArOOUuBnKs5FC8sgKs.png",
+        "description": "A module for displaying player information on the WynnCraft rpg server",
+        "commands": [
+            {
+                "name": "wucheck",
+                "inline": false,
+                "description": {
+                    "doc": "Check user by username"
+                }
+            },
+            {
+                "name": "wplayertop",
+                "inline": false,
+                "description": {
+                    "doc": "Top players"
+                }
+            }
+        ],
+        "name": "InlineWynnCraft",
+        "version": "1.2.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineWynnCraft.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/bubbles/512/000000/youtube-play.png",
+        "description": "Download YouTube videos with video and audio quality selection",
+        "commands": [
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {
+                    "doc": "[quality(144p/720p/etc)] <link> - Download video from youtube"
+                }
+            }
+        ],
+        "name": "InlineYouTube",
+        "version": "1.2.3",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineYouTube.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://www.pngall.com/wp-content/uploads/12/Avatar-Transparent.png",
+        "description": "Create your new identity",
+        "commands": [
+            {
+                "name": "prandom",
+                "inline": false,
+                "description": {
+                    "doc": "Get random people"
+                }
+            }
+        ],
+        "name": "RandomPeople",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/RandomPeople.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://cdn.pixabay.com/photo/2017/07/09/20/48/speaker-2488096_1280.png",
+        "description": "Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple",
+        "commands": [
+            {
+                "name": "sxenia",
+                "inline": false,
+                "description": {
+                    "doc": "From text to sound (xenia)"
+                }
+            },
+            {
+                "name": "saidar",
+                "inline": false,
+                "description": {
+                    "doc": "From text to sound (aidar)"
+                }
+            },
+            {
+                "name": "sbaya",
+                "inline": false,
+                "description": {
+                    "doc": "From text to sound (baya)"
+                }
+            },
+            {
+                "name": "skseniya",
+                "inline": false,
+                "description": {
+                    "doc": "From text to sound (kseniya)"
+                }
+            },
+            {
+                "name": "srandom",
+                "inline": false,
+                "description": {
+                    "doc": "From text to sound (random)"
+                }
+            }
+        ],
+        "name": "Silero",
+        "version": "1.1.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/Silero.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/officel/16/000000/broken-link.png",
+        "description": "A simple link cleaner from your chats",
+        "commands": [
+            {
+                "name": "link",
+                "inline": false,
+                "description": {
+                    "doc": "Configuration for chat"
+                }
+            }
+        ],
+        "name": "SimpleNoLinks",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/SimpleNoLink.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://image.winudf.com/v2/image/cnUucmFkaWF0aW9ueC5hbmlsaWJyaWEuYXBwX2ljb25fMTUyODYyNzQ2NV8wMjY/icon.png?w=&fakeurl=1",
+        "description": "A non-profit project for the dubbing and adaptation of foreign TV series, cartoons and anime",
+        "commands": [
+            {
+                "name": "arandom",
+                "inline": false,
+                "description": {
+                    "doc": "Возвращает случайный тайтл из базы"
+                }
+            },
+            {
+                "name": "aschedule",
+                "inline": false,
+                "description": {
+                    "doc": "Получить список последних обновлений тайтлов"
+                }
+            },
+            {
+                "name": "asearch",
+                "inline": true,
+                "description": {
+                    "doc": "Возвращает список найденных по названию тайтлов"
+                }
+            }
+        ],
+        "name": "AniLibria",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/anilibria.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://www.freeiconspng.com/uploads/facebook-circle-heart-love-png-4.png",
+        "description": "Send a compliment to a person",
+        "commands": [
+            {
+                "name": "compli",
+                "inline": false,
+                "description": {
+                    "doc": "Send a person compliments\n.compli [delay] [man/women]"
+                }
+            }
+        ],
+        "name": "Compliments",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/compli.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://styles.redditmedia.com/t5_3htpk/styles/communityIcon_vlbulj1gn8l11.png",
+        "description": "Miscellaneous stuff for custom ROMs",
+        "commands": [
+            {
+                "name": "sakura",
+                "inline": false,
+                "description": {
+                    "doc": "Project Sakura"
+                }
+            },
+            {
+                "name": "dotos",
+                "inline": false,
+                "description": {
+                    "doc": "DotOS"
+                }
+            },
+            {
+                "name": "aex",
+                "inline": false,
+                "description": {
+                    "doc": "AOSP Extended"
+                }
+            },
+            {
+                "name": "twrp",
+                "inline": false,
+                "description": {
+                    "doc": "TWRP Devices"
+                }
+            },
+            {
+                "name": "shrp",
+                "inline": false,
+                "description": {
+                    "doc": "SHRP Devices"
+                }
+            },
+            {
+                "name": "pbrp",
+                "inline": false,
+                "description": {
+                    "doc": "PBRP Devices"
+                }
+            },
+            {
+                "name": "magisk",
+                "inline": false,
+                "description": {
+                    "doc": "Magisk by topjohnwu"
+                }
+            }
+        ],
+        "name": "ROMs",
+        "version": "1.2.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/customroms.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://styles.redditmedia.com/t5_3htpk/styles/communityIcon_vlbulj1gn8l11.png",
+        "description": "Miscellaneous stuff for custom ROMs",
+        "commands": [
+            {
+                "name": "sakura",
+                "inline": false,
+                "description": {
+                    "doc": "Project Sakura"
+                }
+            },
+            {
+                "name": "dotos",
+                "inline": false,
+                "description": {
+                    "doc": "DotOS"
+                }
+            },
+            {
+                "name": "twrp",
+                "inline": false,
+                "description": {
+                    "doc": "TWRP Devices"
+                }
+            },
+            {
+                "name": "shrp",
+                "inline": false,
+                "description": {
+                    "doc": "SHRP Devices"
+                }
+            },
+            {
+                "name": "pbrp",
+                "inline": false,
+                "description": {
+                    "doc": "PBRP Devices"
+                }
+            },
+            {
+                "name": "magisk",
+                "inline": false,
+                "description": {
+                    "doc": "Magisk by topjohnwu"
+                }
+            },
+            {
+                "name": "opengapps",
+                "inline": true,
+                "description": {
+                    "doc": "OpenGApps (Inline)\n@allow: all"
+                }
+            },
+            {
+                "name": "aex",
+                "inline": true,
+                "description": {
+                    "doc": "AOSP Extended (Inline)\n@allow: all"
+                }
+            },
+            {
+                "name": "dotos",
+                "inline": true,
+                "description": {
+                    "doc": "DotOS (Inline)\n@allow: all"
+                }
+            },
+            {
+                "name": "magisk",
+                "inline": true,
+                "description": {
+                    "doc": "Magisk (Inline)\n@allow: all"
+                }
+            }
+        ],
+        "name": "InlineROMs",
+        "version": "1.4.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/customroms_geek.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://forum.f-droid.org/uploads/default/original/2X/c/cfb2c14973c28415b0e5b5f7adef9c8288cd8609.png",
+        "description": "Search for android apps from FDroid",
+        "commands": [
+            {
+                "name": "fdroid",
+                "inline": false,
+                "description": {
+                    "doc": "Find the app in the FDroid catalog"
+                }
+            },
+            {
+                "name": "fdroid",
+                "inline": true,
+                "description": {
+                    "doc": "Find the app in the FDroid catalog (Inline)"
+                }
+            }
+        ],
+        "name": "FDroid",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/fdroid.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://allvpn.ru/assets/upload/t-200x200-7439447981535195421.png",
+        "description": "Get books from flibusta",
+        "commands": [
+            {
+                "name": "book",
+                "inline": false,
+                "description": {
+                    "doc": "🔎 Sending the form with the books. Send message with args if you want to find a book by title"
+                }
+            },
+            {
+                "name": "book",
+                "inline": true,
+                "description": {
+                    "doc": "🔎 Sending the form with the books. Send message with args if you want to find a book by title (Inline)"
+                }
+            }
+        ],
+        "name": "Flibusta",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/flibusta.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://seeklogo.com/images/H/hentai-haven-logo-B9D8C4B3B8-seeklogo.com.png",
+        "description": "🍓 Hentai doujin module 18+",
+        "commands": [
+            {
+                "name": "nhrandom",
+                "inline": false,
+                "description": {
+                    "doc": "🎲 Random hentai doujin"
+                }
+            },
+            {
+                "name": "nhlast",
+                "inline": false,
+                "description": {
+                    "doc": "⌚️ Latest hentai doujin"
+                }
+            },
+            {
+                "name": "nhid",
+                "inline": false,
+                "description": {
+                    "doc": "1️⃣ Hentai doujin by id"
+                }
+            },
+            {
+                "name": "nhsearch",
+                "inline": false,
+                "description": {
+                    "doc": "🔎 Search hentai doujin"
+                }
+            }
+        ],
+        "name": "NHentai",
+        "version": "2.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/hentai.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://seeklogo.com/images/H/hentai-haven-logo-B9D8C4B3B8-seeklogo.com.png",
+        "description": "Hentai module 18+ Legacy",
+        "commands": [
+            {
+                "name": "nhrandom",
+                "inline": false,
+                "description": {
+                    "doc": "Random hentai manga"
+                }
+            },
+            {
+                "name": "nhtag",
+                "inline": false,
+                "description": {
+                    "doc": "Search hentai manga by tag"
+                }
+            },
+            {
+                "name": "nhid",
+                "inline": false,
+                "description": {
+                    "doc": "Search hentai manga by id"
+                }
+            }
+        ],
+        "name": "NHentai",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/hentai_ftg.py"
+    },
+    {
+        "author": "@KiwiNicer",
+        "pic": "https://img.icons8.com/clouds/512/000000/linux-client.png",
+        "description": "Search package for Linux by name",
+        "commands": [
+            {
+                "name": "aur",
+                "inline": false,
+                "description": {
+                    "doc": "Arch User Repository"
+                }
+            },
+            {
+                "name": "pacman",
+                "inline": false,
+                "description": {
+                    "doc": "Pacman"
+                }
+            }
+        ],
+        "name": "Packages",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/linux_packages.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://icons.iconarchive.com/icons/blackvariant/button-ui-requests-2/1024/Minecraft-2-icon.png",
+        "description": "Information about players and server status",
+        "commands": [
+            {
+                "name": "mucheck",
+                "inline": false,
+                "description": {
+                    "doc": "Check user by username"
+                }
+            },
+            {
+                "name": "mping",
+                "inline": false,
+                "description": {
+                    "doc": "Ping minecraft server"
+                }
+            }
+        ],
+        "name": "MinecraftInfo",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/minecraft.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/qr-code-circle-blue-512.png",
+        "description": "Module for creating Qr codes",
+        "commands": [
+            {
+                "name": "qr",
+                "inline": false,
+                "description": {
+                    "doc": "Create QrCode"
+                }
+            }
+        ],
+        "name": "QrCode",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/qrcode.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://i0.wp.com/alliancestake.org/wp-content/uploads/2017/09/icon-circle-tools-blue-1.png?fit=300%2C300&ssl=1",
+        "description": "Random tools",
+        "commands": [
+            {
+                "name": "mac2vendor",
+                "inline": false,
+                "description": {
+                    "doc": "Get vendor name by mac"
+                }
+            },
+            {
+                "name": "onept",
+                "inline": false,
+                "description": {
+                    "doc": "A simple URL shortener (1pt.co)"
+                }
+            },
+            {
+                "name": "np",
+                "inline": false,
+                "description": {
+                    "doc": "Нова Пошта"
+                }
+            }
+        ],
+        "name": "Tools",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/random_tools.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/000000/external-anime-addiction-flaticons-lineal-color-flat-icons.png",
+        "description": "🔎 SauceNao - image source locator",
+        "commands": [
+            {
+                "name": "sauce",
+                "inline": false,
+                "description": {
+                    "doc": "🔗 Search for the source by link/photo"
+                }
+            }
+        ],
+        "name": "SauceNao",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/saucenao.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "http://assets.stickpng.com/images/5cb78671a7c7755bf004c14b.png",
+        "description": "Yet Another TikTok Downloader",
+        "commands": [
+            {
+                "name": "ttdl",
+                "inline": false,
+                "description": {
+                    "doc": "Download video/music from tiktok"
+                }
+            }
+        ],
+        "name": "YATikTok-DL",
+        "version": "2.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/tikcock.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/external-others-iconmarket/512/000000/external-national-flags-others-iconmarket-5.png",
+        "description": "Український торрент трекер",
+        "commands": [
+            {
+                "name": "hsearch",
+                "inline": false,
+                "description": {
+                    "doc": "Пошук по трекеру toloka.to (повертає перший елемент)"
+                }
+            },
+            {
+                "name": "hsearch",
+                "inline": true,
+                "description": {
+                    "doc": "Пошук по трекеру toloka.to (Inline)\n@allow: all"
+                }
+            }
+        ],
+        "name": "InlineHurtom",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/toloka_geek.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/color/512/40C057/translate-text.png",
+        "description": "🔡 Module for text translation\n➡️ .tr en ru | Hello World\n➡️ .tr ru | Hello World\n➡️ .tr ru + reply to message",
+        "commands": [
+            {
+                "name": "atr",
+                "inline": false,
+                "description": {
+                    "doc": "Based on Argos (LibreTranslate)"
+                }
+            },
+            {
+                "name": "itr",
+                "inline": false,
+                "description": {
+                    "doc": "Based on Iciba"
+                }
+            },
+            {
+                "name": "gtr",
+                "inline": false,
+                "description": {
+                    "doc": "Based on Google Translate"
+                }
+            },
+            {
+                "name": "ltr",
+                "inline": false,
+                "description": {
+                    "doc": "Based on lingva.ml (Google Translate)"
+                }
+            }
+        ],
+        "name": "🔡 Translator",
+        "version": "2.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/translate.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://img.icons8.com/ios-filled/512/40C057/torrent.png",
+        "description": "Simple torrent client for Transmission",
+        "commands": [
+            {
+                "name": "tinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Useful information about transmission server"
+                }
+            },
+            {
+                "name": "tdownload",
+                "inline": false,
+                "description": {
+                    "doc": "Download Torrent file"
+                }
+            },
+            {
+                "name": "transmission",
+                "inline": true,
+                "description": {
+                    "doc": "General info (Inline)"
+                }
+            }
+        ],
+        "name": "Transmission",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/transmission.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
+        "description": "Module for obtaining art from the ImageBoard yande.re",
+        "commands": [
+            {
+                "name": "ylast",
+                "inline": false,
+                "description": {
+                    "doc": "The last posted art"
+                }
+            },
+            {
+                "name": "yrandom",
+                "inline": false,
+                "description": {
+                    "doc": "Random posted art"
+                }
+            },
+            {
+                "name": "yvote",
+                "inline": false,
+                "description": {
+                    "doc": "Vote for art\n\nBad = -1, None = 0, Good = 1, Great = 2, Favorite = 3"
+                }
+            }
+        ],
+        "name": "Yandere",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/yandere.py"
+    },
+    {
+        "author": "@cakestwix_mods",
+        "pic": "https://www.seekpng.com/png/full/824-8246338_yandere-sticker-yandere-simulator-ayano-bloody.png",
+        "description": "Module for obtaining art from the ImageBoard yande.re",
+        "commands": [
+            {
+                "name": "ylast",
+                "inline": false,
+                "description": {
+                    "doc": "The last posted art"
+                }
+            },
+            {
+                "name": "yrandom",
+                "inline": false,
+                "description": {
+                    "doc": "The random posted art"
+                }
+            },
+            {
+                "name": "yvote",
+                "inline": false,
+                "description": {
+                    "doc": "Vote for art\n\nBad = -1, None = 0, Good = 1, Great = 2, Favorite = 3"
+                }
+            },
+            {
+                "name": "ylast",
+                "inline": true,
+                "description": {
+                    "doc": "The last posted art (Inline)\n@allow: all"
+                }
+            },
+            {
+                "name": "yrandom",
+                "inline": true,
+                "description": {
+                    "doc": "The random posted art (Inline)\n@allow: all"
+                }
+            },
+            {
+                "name": "ysearch",
+                "inline": true,
+                "description": {
+                    "doc": "Search art by tags.  (https://yande.re/help)\n@allow: all"
+                }
+            }
+        ],
+        "name": "InlineYandere",
+        "version": "1.2.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/yandere_geek.py"
+    },
+    {
         "author": "@procot1 & @devjmodules",
         "description": "AI - помощник по Hikka.\n🌘Version: 5.1 | Data set: 4\n⚡Разработчик: @procot1\n💚Оригинальный модуль\nВНИМАНИЕ! \nподдержка этого модуля завершена. Этот модуль теперь часть функционала другого крупного модуля.\nУстановить: .dlmod https://raw.githubusercontent.com/Chaek1403/VAWEIRR/refs/heads/main/Zetta%20-%20AI%20models.py\nпросьба перейти на современное решение что бы получать обновления и улучшенный функционал.",
         "commands": [
@@ -8896,6 +9729,20 @@
         ],
         "name": "Хуификатор",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Хуификатор.py"
+    },
+    {
+        "description": "Подпишись на канал @modwini",
+        "commands": [
+            {
+                "name": "kr",
+                "inline": false,
+                "description": {
+                    "doc": "Кидает рандом видео сообщение из канала @kruglishik"
+                }
+            }
+        ],
+        "name": "кругляш",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/кругляш.py"
     },
     {
         "author": "@QzKat",
