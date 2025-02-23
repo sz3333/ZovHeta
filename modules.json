@@ -5858,6 +5858,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/stats.py"
     },
     {
+        "author": "@Enceth",
+        "description": "Переводчик",
+        "commands": [
+            {
+                "name": "translate",
+                "inline": false,
+                "description": {
+                    "doc": "Репли на сообщение"
+                }
+            }
+        ],
+        "name": "ETranslate",
+        "version": "1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/translater.py"
+    },
+    {
         "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/CodeBase64.png?raw=true",
         "description": "Encode and decode base64",
