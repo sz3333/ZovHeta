@@ -29179,6 +29179,63 @@
     },
     {
         "author": "@psyho_Kuznetsov",
+        "commands": [
+            {
+                "name": "bold",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует жирный текст."
+                }
+            },
+            {
+                "name": "italic",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует курсив."
+                }
+            },
+            {
+                "name": "mono",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует моноширинный текст."
+                }
+            },
+            {
+                "name": "underline",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует подчеркивание."
+                }
+            },
+            {
+                "name": "strikethrough",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует зачеркивание."
+                }
+            },
+            {
+                "name": "off",
+                "inline": false,
+                "description": {
+                    "doc": "Отключает все стили."
+                }
+            },
+            {
+                "name": "on",
+                "inline": false,
+                "description": {
+                    "doc": "Включает стиль по умолчанию (жирный текст)."
+                }
+            }
+        ],
+        "name": "AdvancedText",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/AdvancedText.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
         "description": "❤️ Анимация сердца и эффект печати текста",
         "commands": [
             {
