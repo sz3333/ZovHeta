@@ -29232,69 +29232,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
     },
     {
-        "author": "@psyho_Kuznetsov",
-        "description": "Универсальный модуль для загрузки файлов на различные сервисы.",
-        "commands": [
-            {
-                "name": "updatepro",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "catbox",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на Catbox.moe. Используй: .catbox (ответ на медиа)."
-                }
-            },
-            {
-                "name": "envs",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на Envs.sh. Используй: .envs (ответ на медиа)."
-                }
-            },
-            {
-                "name": "oxo",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на 0x0.st. Используй: .oxo (ответ на медиа)."
-                }
-            },
-            {
-                "name": "x0",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на x0.at. Используй: .x0 (ответ на медиа)."
-                }
-            },
-            {
-                "name": "tmpfiles",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на tmpfiles.org. Используй: .tmpfiles (ответ на медиа)."
-                }
-            },
-            {
-                "name": "pomf",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на pomf.lain.la. Используй: .pomf (ответ на медиа)."
-                }
-            },
-            {
-                "name": "bash",
-                "inline": false,
-                "description": {
-                    "doc": "Загружает файл на bashupload.com. Используй: .bash (ответ на медиа)."
-                }
-            }
-        ],
-        "name": "UploaderPro",
-        "version": "1.2.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/UploaderPro.py"
-    },
-    {
         "author": "@angellmodules",
         "description": "Конвертация изображений в ASCII-арт",
         "commands": [
