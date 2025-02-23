@@ -15787,6 +15787,20 @@
     },
     {
         "author": "@kshmods",
+        "commands": [
+            {
+                "name": "ipi",
+                "inline": false,
+                "description": {
+                    "doc": "<ip> | Information about IP."
+                }
+            }
+        ],
+        "name": "InfoIP",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/InfoIP.py"
+    },
+    {
+        "author": "@kshmods",
         "description": "Create inline buttons easily",
         "commands": [
             {
