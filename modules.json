@@ -16627,6 +16627,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/checkmod.py"
     },
     {
+        "author": "@matubuntu",
+        "description": "Модуль для проверки модулей",
+        "commands": [
+            {
+                "name": "checkmod",
+                "inline": false,
+                "description": {
+                    "doc": "<url/reply file> - проверяет модули"
+                }
+            }
+        ],
+        "name": "Check module",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/checkmodule.py"
+    },
+    {
         "author": "@RUIS_VlP, @matubuntu",
         "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
         "commands": [
@@ -16762,6 +16777,20 @@
         ],
         "name": "Speller",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/spellchecker.py"
+    },
+    {
+        "author": "Пидорас",
+        "commands": [
+            {
+                "name": "spellcheck",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить орфографию текста.\nИспользование:\n.spellcheck [текст] - проверка указанного текста.\n.spellcheck -r - проверка текста из реплая."
+                }
+            }
+        ],
+        "name": "SpellChecker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/speller.py"
     },
     {
         "author": "@RUIS_VlP",
