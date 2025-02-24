@@ -29525,6 +29525,22 @@
     },
     {
         "author": "@psyho_Kuznetsov",
+        "description": "Удаление всех сообщений чата/канала/лс",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить ВСЕ сообщения в текущем чате также работает и в каналах просто напиши ету команду"
+                }
+            }
+        ],
+        "name": "Purge",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Purge.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
         "description": "Сохраняет сообщения, видео, файлы и т.д в избранное",
         "commands": [
             {
@@ -29630,7 +29646,7 @@
                 "name": "banall",
                 "inline": false,
                 "description": {
-                    "doc": "[ID канала/чата] - Бан всех пользователей в канале/чате"
+                    "doc": "[тег без @!! канала/чата] - Бан всех пользователей в канале/чате"
                 }
             },
             {
