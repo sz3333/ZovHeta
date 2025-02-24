@@ -29623,6 +29623,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
     },
     {
+        "author": "@psyho_Kuznetsov",
+        "description": "Модуль для массового бана пользователей в канале/чате, кроме админов и ботов.",
+        "commands": [
+            {
+                "name": "banall",
+                "inline": false,
+                "description": {
+                    "doc": "[ID канала/чата] - Бан всех пользователей в канале/чате"
+                }
+            },
+            {
+                "name": "banallstop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить текущую операцию бана"
+                }
+            }
+        ],
+        "name": "BanAllModule",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/banall.py"
+    },
+    {
         "author": "@angellmodules",
         "description": "Конвертация изображений в ASCII-арт",
         "commands": [
