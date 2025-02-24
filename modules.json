@@ -20517,6 +20517,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DoxTool.py"
     },
     {
+        "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/banner.png",
+        "pic": "https://kappa.lol/2Z_Q-",
         "description": "Auto switching from Hikka to Heroku",
         "commands": [
             {
