@@ -17944,18 +17944,20 @@
     },
     {
         "author": "@kmodules",
-        "description": "Получить информацию об аккаунте, дц, регистрации(нестабильно). \n\nФункционал как у AyuGram.",
+        "description": "Получить информацию об аккаунте, дц, дату регистрации.",
         "commands": [
             {
                 "name": "aboutacc",
                 "inline": false,
                 "description": {
-                    "doc": "Получить информацию об аккаунте | .aboutacc <username/reply>"
+                    "ru_doc": "<юзернейм/реплай> - Получить информацию об аккаунте",
+                    "en_doc": "<username/reply> - Get account information",
+                    "doc": "<username/reply> - Получить информацию об аккаунте"
                 }
             }
         ],
         "name": "K:AccountData",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kaccountdata.py"
     },
     {
