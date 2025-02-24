@@ -30736,19 +30736,6 @@
     {
         "commands": [
             {
-                "name": "ptj",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Показати рівень потужності"
-                }
-            }
-        ],
-        "name": "PotyjNomer",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ssstafff07/HikkaMods/potyjnomer.py"
-    },
-    {
-        "commands": [
-            {
                 "name": "sfr",
                 "inline": false,
                 "description": {
