@@ -18706,6 +18706,204 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/XenSideNBTS/HikkaModules/xenanims.py"
     },
     {
+        "author": "@YA_ManuI",
+        "description": "Ирис чат менеджер для пользования в лс",
+        "commands": [
+            {
+                "name": "Кубик",
+                "inline": false,
+                "description": {
+                    "doc": "Выкидывает рандом сторону кубика"
+                }
+            },
+            {
+                "name": "передать",
+                "inline": false,
+                "description": {
+                    "doc": "Передать {что} {колво} {кому} - передает ириски/голд или од"
+                }
+            },
+            {
+                "name": "ГМИ",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о путешествии ваших ирисок"
+                }
+            },
+            {
+                "name": "ГМЗ",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о путешествии ваших голд"
+                }
+            },
+            {
+                "name": "бот",
+                "inline": false,
+                "description": {
+                    "doc": "Проверка работоспособности бота"
+                }
+            },
+            {
+                "name": "укрф",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает вашу суточную статью по ирису"
+                }
+            },
+            {
+                "name": "ГМП",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о путешествии ваших од"
+                }
+            },
+            {
+                "name": "мешок",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает содержимое вашего мешка"
+                }
+            },
+            {
+                "name": "биржа",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о текущем состоянии биржи"
+                }
+            },
+            {
+                "name": "график",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод графика цен голды"
+                }
+            },
+            {
+                "name": "хелп",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод помощи по ирису"
+                }
+            },
+            {
+                "name": "итоп",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод топа дня"
+                }
+            },
+            {
+                "name": "ипинг",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод активности ириса"
+                }
+            },
+            {
+                "name": "ф",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск фармы"
+                }
+            },
+            {
+                "name": "голд",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод топа хранителей голды"
+                }
+            },
+            {
+                "name": "ком",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод команд ириса"
+                }
+            },
+            {
+                "name": "ач",
+                "inline": false,
+                "description": {
+                    "doc": "{та/анк} {@/реплай} Вывод анкеты или ачивок пользователя"
+                }
+            },
+            {
+                "name": "лс",
+                "inline": false,
+                "description": {
+                    "doc": "Быстрый доступ к лс ириса"
+                }
+            },
+            {
+                "name": "саб",
+                "inline": false,
+                "description": {
+                    "doc": "Подписка/отписка на аккаунт: саб {+/-} {@/реплай}"
+                }
+            },
+            {
+                "name": "ибраки",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод первой страницы топа браков"
+                }
+            },
+            {
+                "name": "мсаб",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод списка ваших подписчиков"
+                }
+            },
+            {
+                "name": "мпдп",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод списка ваших подписок"
+                }
+            },
+            {
+                "name": "сабы",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод топа по подписчикам"
+                }
+            },
+            {
+                "name": "погода",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод погоды: погода {город}"
+                }
+            },
+            {
+                "name": "испам",
+                "inline": false,
+                "description": {
+                    "doc": "Вывод ваших банов во вселенной ирис"
+                }
+            },
+            {
+                "name": "хелпирис",
+                "inline": false,
+                "description": {
+                    "doc": "Помощь по модулю Ирис для лс"
+                }
+            },
+            {
+                "name": "оси",
+                "inline": false,
+                "description": {
+                    "doc": "Официальная сетка ириса"
+                }
+            }
+        ],
+        "name": "IrisPM",
+        "version": "2.2.8",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/IrisPM/IrisPM.py"
+    },
+    {
         "author": "@thisLyomi & @AmekaMods",
         "description": "Модуль автоответчик.",
         "commands": [
@@ -30521,6 +30719,52 @@
         ],
         "name": "UpgradedEval",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/upgradedeval.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "ld",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<число> - Сохранить указанное количество сообщений в файл"
+                }
+            }
+        ],
+        "name": "LogDon",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ssstafff07/HikkaMods/LogDon.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "ptj",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показати рівень потужності"
+                }
+            }
+        ],
+        "name": "PotyjNomer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ssstafff07/HikkaMods/potyjnomer.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "sfr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<текст> - Зашифровать текст"
+                }
+            },
+            {
+                "name": "unsfr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<текст> - Расшифровать текст"
+                }
+            }
+        ],
+        "name": "ShifraXOR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ssstafff07/HikkaMods/shifrator.py"
     },
     {
         "author": "@unneyon_hmods",
