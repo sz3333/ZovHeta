@@ -16568,6 +16568,49 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для работы с S3 хранилищами",
+        "commands": [
+            {
+                "name": "S3upload",
+                "inline": false,
+                "description": {
+                    "doc": "<path> <reply> - сохраняет файл в S3 хранилище"
+                }
+            },
+            {
+                "name": "S3LS",
+                "inline": false,
+                "description": {
+                    "doc": "<path> - список файлов в S3 хранилище"
+                }
+            },
+            {
+                "name": "S3delete",
+                "inline": false,
+                "description": {
+                    "doc": "<path> - удаляет файл из S3 хрпнилища"
+                }
+            },
+            {
+                "name": "S3download",
+                "inline": false,
+                "description": {
+                    "doc": "<path> - скачивает файл из S3 хрпнилища и отправляет в Telegram"
+                }
+            },
+            {
+                "name": "s3config",
+                "inline": false,
+                "description": {
+                    "doc": "- открыть конфигурацию модуля"
+                }
+            }
+        ],
+        "name": "S3",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/S3.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Загрузка файлов на SFTP",
         "commands": [
             {
