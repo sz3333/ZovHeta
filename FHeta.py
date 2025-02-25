@@ -182,7 +182,7 @@ class FHeta(loader.Module):
         if not query.args:
             return {
                 "title": utils.escape_html(self.strings["no_queryy"]),
-                "description": utils.escape_html(self.strings["noo_query"]),
+                "description": self.strings["noo_query"],
                 "message": self.strings["no_query"],
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
             }
