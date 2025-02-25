@@ -39,6 +39,8 @@ class FHeta(loader.Module):
         "search": "🔎 <b>Searching...</b>",
         "no_query": "❌ <b>Enter a query to search.</b>",
         "no_modules_found": "❌ <b>No modules found.</b>",
+        "no_query": "❌ Enter a query to search.",
+        "no_modules_found": "❌ No modules found.",
         "commands": "\n👨‍💻 <b>Commands:</b>\n{commands_list}",
         "description": "\n📁 <b>Description:</b> {description}",
         "result": "🔎 <b>Result {index} by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b><code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -65,6 +67,8 @@ class FHeta(loader.Module):
         "search": "🔎 <b>Поиск...</b>",
         "no_query": "❌ <b>Введите запрос для поиска.</b>",
         "no_modules_found": "❌ <b>Модули не найдены.</b>",
+        "no_query": "❌ Введите запрос для поиска.",
+        "no_modules_found": "❌ Модули не найдены.",
         "commands": "\n👨‍💻 <b>Команды:</b>\n{commands_list}",
         "description": "\n📁 <b>Описание:</b> {description}",
         "result": "🔎 <b>Результат {index} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code><b> от</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -91,6 +95,8 @@ class FHeta(loader.Module):
         "search": "🔎 <b>Пошук...</b>",
         "no_query": "❌ <b>Введіть запит для пошуку.</b>",
         "no_modules_found": "❌ <b>Модулі не знайдені.</b>",
+        "no_query": "❌ Введіть запит для пошуку.",
+        "no_modules_found": "❌ Модулі не знайдені.",
         "commands": "\n👨‍💻 <b>Команди:</b>\n{commands_list}",
         "description": "\n📁 <b>Опис:</b> {description}",
         "result": "🔎 <b>Результат {index} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> <b>від</b> <code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -117,6 +123,8 @@ class FHeta(loader.Module):
         "search": "🔎 <b>Suche...</b>",
         "no_query": "❌ <b>Bitte geben Sie eine Suchanfrage ein.</b>",
         "no_modules_found": "❌ <b>Keine Module gefunden.</b>",
+        "no_queryy": "❌ Bitte geben Sie eine Suchanfrage ein.",
+        "no_modules_foundd": "❌ Keine Module gefunden.",
         "commands": "\n👨‍💻 <b>Befehle:</b>\n{commands_list}",
         "description": "\n📁 <b>Beschreibung:</b> {description}",
         "result": "🔎 <b>Ergebnis {index} für die Anfrage:</b> <code>{query}</code>\n<code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -173,7 +181,7 @@ class FHeta(loader.Module):
         '''(query) - search modules.'''
         if not query.args:
             return {
-                "title": utils.escape_html(self.strings["no_query"]),
+                "title": utils.escape_html(self.strings["no_queryy"]),
                 "description": utils.escape_html(self.strings["noo_query"]),
                 "message": self.strings["no_query"],
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
@@ -182,7 +190,7 @@ class FHeta(loader.Module):
         mods = await self.search_moduless(query.args)
         if not mods:
             return {
-                "title": utils.escape_html(self.strings["no_modules_found"]),
+                "title": utils.escape_html(self.strings["no_modules_foundd"]),
                 "description": utils.escape_html(self.strings["no_modules_foound"]),
                 "message": self.strings["no_modules_found"],
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
