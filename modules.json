@@ -32513,19 +32513,32 @@
                 "name": "bc",
                 "inline": false,
                 "description": {
-                    "doc": "проверить баланс в @CryptoBot"
+                    "ru_doc": "проверить баланс в @CryptoBot",
+                    "ua_doc": "перевірити баланс у @CryptoBot",
+                    "doc": "check balance in @CryptoBot"
                 }
             },
             {
                 "name": "bw",
                 "inline": false,
                 "description": {
-                    "doc": "проверить баланс в @wallet"
+                    "ru_doc": "проверить баланс в @wallet",
+                    "ua_doc": "перевірити баланс у @wallet",
+                    "doc": "check balance in @wallet"
+                }
+            },
+            {
+                "name": "hide0",
+                "inline": false,
+                "description": {
+                    "ru_doc": "вкл/выкл скрытие нулевых балансов",
+                    "ua_doc": "увімк/вимк приховування нульових балансів",
+                    "doc": "on/off hiding zero balances"
                 }
             }
         ],
         "name": "yg_balance",
-        "version": "1.4.8.8",
+        "version": "1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_balance.py"
     },
     {
