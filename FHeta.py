@@ -366,7 +366,7 @@ class FHeta(loader.Module):
             await asyncio.sleep(10)
             
     async def on_dlmod(self):       
-        await client.edit_folder("@FHeta_robot", folder_id=1)
+        await utils.dnd(self._client, "@fheta_robot", archive=True)
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
