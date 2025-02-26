@@ -16823,9 +16823,16 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/irissup%20(1).py"
     },
     {
-        "author": "@matubuntu, @RUIS_VlP",
+        "author": "@RUIS_VlP",
         "description": "🌐 Internet search module",
         "commands": [
+            {
+                "name": "picsearch",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to image> - 🔍 Reverse image search"
+                }
+            },
             {
                 "name": "search",
                 "inline": false,
@@ -29602,6 +29609,57 @@
         "name": "DeleteMessages",
         "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/DeleteMessages.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
+        "description": "+18 модуль!!!!!!!",
+        "commands": [
+            {
+                "name": "гей",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное гей видео"
+                }
+            },
+            {
+                "name": "рандом",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайный контент 18+"
+                }
+            },
+            {
+                "name": "хентайв",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное хентай видео"
+                }
+            },
+            {
+                "name": "хентай",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное хентай фото"
+                }
+            },
+            {
+                "name": "порно",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное порно видео"
+                }
+            },
+            {
+                "name": "лесби",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет случайное лесбийское видео"
+                }
+            }
+        ],
+        "name": "MPorn",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/MPorn.py"
     },
     {
         "author": "@psyho_Kuznetsov",
