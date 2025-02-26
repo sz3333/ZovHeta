@@ -478,7 +478,7 @@ class FHeta(loader.Module):
         res = await asyncio.gather(*tasks)
         return [r for r in res if r]
         
-    @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
+    @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fhetacmd(self, message):
         '''(query) - search modules.'''
         args = utils.get_args_raw(message)
