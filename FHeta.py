@@ -1,6 +1,6 @@
-__version__ = (9, 0, 9)
+__version__ = (9, 1, 0)
 # meta developer: @Foxy437
-# change-log: Added 🇪🇸 es, 🇫🇷 fr, 🇮🇹 it, 🇰🇿 kk, 🇹🇷 tr, 🇺🇿 yz languages.
+# change-log: Added sync hikka data (prefix, hikka bot username, lang) with fheta server for next update.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -345,18 +345,32 @@ class FHeta(loader.Module):
     async def client_ready(self):
         await self.request_join(
             "@fheta_updates",
-            (
-                self.strings['reqj']
-            ),
+            self.strings['reqj'],
         )
-        self.token = self.db.get("token_fheta_902", "token", None)
+        self.token = self.db.get("FHeta", "token")
+        asyncio.create_task(self.sdata())
+        
+    async def sdata(self):
+        myfid = self.db.get("fheta", "id")
+        if myfid == None:
+            user = await self.client.get_me()
+            myfid = user.id
+            self.db.set("FHeta", "id", myfid)
+        pref = self.get_prefix()
+        while True:
+            url = f"http://138.124.34.91:777/dataset/{myfid}/{pref}picun_f6/@{self.inline.bot_username}/{self.strings['language'][:-4]}"
+            headers = {
+                "Authorization": self.token
+            }
+            requests.post(url, headers=headers)
+            await asyncio.sleep(10)
             
     async def on_dlmod(self):
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
                 response = await conv.get_response(timeout=1)
-                self.db.set("token_fheta_902", "token", response.text.strip())
+                self.db.set("FHeta", "token", response.text.strip())
         except Exception as e:
             pass
 
@@ -754,12 +768,12 @@ class FHeta(loader.Module):
             headers = {"Authorization": token}
 
             async with aiohttp.ClientSession(headers=headers) as session:
-                post_url = f"http://foxy437.xyz/rate/{user_id}/{install}/{action}"
+                post_url = f"http://138.124.34.91:777/rate/{user_id}/{install}/{action}"
                 async with session.post(post_url) as response:
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
-                        get_url = f"http://foxy437.xyz/get/{install}"
+                        get_url = f"http://138.124.34.91:777/get/{install}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -785,7 +799,7 @@ class FHeta(loader.Module):
                         return
 
                     elif "che" in result:
-                        get_url = f"http://foxy437.xyz/get/{install}"
+                        get_url = f"http://138.124.34.91:777/get/{install}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -870,7 +884,7 @@ class FHeta(loader.Module):
     async def get_stats(self, install):
         try:
             async with aiohttp.ClientSession() as session:
-                get_url = f"http://foxy437.xyz/get/{install}"
+                get_url = f"http://138.124.34.91:777/get/{install}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
                         return await response.json()
@@ -880,7 +894,7 @@ class FHeta(loader.Module):
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
         async with aiohttp.ClientSession() as session:         
-            instalik = (await (await session.post("http://foxy437.xyz/OnlySKThx", json={"q": query})).json()).get("OnlySKThx") if self.config["GSearch"] else False
+            instalik = (await (await session.post("http://138.124.34.91:777/OnlySKThx", json={"q": query})).json()).get("OnlySKThx") if self.config["GSearch"] else False
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.text()
