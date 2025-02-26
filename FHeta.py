@@ -346,6 +346,8 @@ class FHeta(loader.Module):
     async def client_ready(self):
         try:
             await client(UnblockRequest("@FHeta_robot"))
+        except:
+            None
         await self.request_join(
             "@fheta_updates",
             self.strings['reqj'],
@@ -370,7 +372,10 @@ class FHeta(loader.Module):
             
     async def on_dlmod(self):    
         try:            
+            await client(UnblockRequest("@FHeta_robot"))
             await utils.dnd(self._client, "@fheta_robot", archive=True)
+        except: 
+            None
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
