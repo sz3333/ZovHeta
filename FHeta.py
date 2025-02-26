@@ -343,7 +343,7 @@ class FHeta(loader.Module):
         "gsf": "♥️ AI ярдәмендә акыллы эзләү (якынча 10 секунд, тик команда эзләве белән эшли)"
     }
     
-    async def client_ready(self):
+    async def client_ready(self, client, db):
         await client(UnblockRequest("@FHeta_robot"))
         await self.request_join(
             "@fheta_updates",
@@ -367,7 +367,7 @@ class FHeta(loader.Module):
             requests.post(url, headers=headers)
             await asyncio.sleep(10)
             
-    async def on_dlmod(self):    
+    async def on_dlmod(self, client, db):    
         try:            
             await client(UnblockRequest("@FHeta_robot"))
             await utils.dnd(self._client, "@fheta_robot", archive=True)
