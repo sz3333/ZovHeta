@@ -29,6 +29,7 @@ import random
 from ..types import InlineCall, InlineQuery
 import difflib
 import re
+from telethon.tl.functions.contacts import UnblockRequest
 
 @loader.tds
 class FHeta(loader.Module):
@@ -343,6 +344,8 @@ class FHeta(loader.Module):
     }
     
     async def client_ready(self):
+        try:
+            await client(UnblockRequest("@FHeta_robot"))
         await self.request_join(
             "@fheta_updates",
             self.strings['reqj'],
@@ -365,8 +368,9 @@ class FHeta(loader.Module):
             requests.post(url, headers=headers)
             await asyncio.sleep(10)
             
-    async def on_dlmod(self):       
-        await utils.dnd(self._client, "@fheta_robot", archive=True)
+    async def on_dlmod(self):    
+        try:            
+            await utils.dnd(self._client, "@fheta_robot", archive=True)
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
