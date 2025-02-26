@@ -5812,6 +5812,43 @@
     },
     {
         "author": "@Enceth",
+        "description": "Ода хентай",
+        "commands": [
+            {
+                "name": "hentai",
+                "inline": false,
+                "description": {
+                    "doc": "Рандом"
+                }
+            },
+            {
+                "name": "hentaip",
+                "inline": false,
+                "description": {
+                    "doc": "Картинка"
+                }
+            },
+            {
+                "name": "hentaiv",
+                "inline": false,
+                "description": {
+                    "doc": "Видео"
+                }
+            },
+            {
+                "name": "hentaig",
+                "inline": false,
+                "description": {
+                    "doc": "Гиф"
+                }
+            }
+        ],
+        "name": "EHentai",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/hentai.py"
+    },
+    {
+        "author": "@Enceth",
         "description": "Автофарм Iris с помощью автоотправки ",
         "commands": [
             {
