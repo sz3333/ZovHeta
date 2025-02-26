@@ -344,10 +344,7 @@ class FHeta(loader.Module):
     }
     
     async def client_ready(self):
-        try:
-            await client(UnblockRequest("@FHeta_robot"))
-        except:
-            None
+        await client(UnblockRequest("@FHeta_robot"))
         await self.request_join(
             "@fheta_updates",
             self.strings['reqj'],
