@@ -1,6 +1,6 @@
-__version__ = (9, 0, 8)
-#  meta developer: @Foxy437
-# change-log: ◀️▶️ The search output has been reworked, 🇩🇪 German language has been added, the rating logic has been redone and as a result, they had to be reset.
+__version__ = (9, 0, 9)
+# meta developer: @Foxy437
+# change-log: Added 🇪🇸 es, 🇫🇷 fr, 🇮🇹 it, 🇰🇿 kk, 🇹🇷 tr, 🇺🇿 yz languages.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -145,6 +145,202 @@ class FHeta(loader.Module):
         "closest_matchh": "📑 <code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "gsf": "❤️ Intelligente KI-Suche (Suchgeschwindigkeit ±10 Sekunden, funktioniert nur bei der Befehlsuche)."
     }
+
+    strings_tr = {
+        "name": "FHeta",
+        "search": "🔎 <b>Arama...</b>",
+        "no_query": "❌ <b>Arama yapmak için sorgu girin.</b>",
+        "no_modules_found": "❌ <b>Modül bulunamadı.</b>",
+        "no_queryy": "❌ Arama yapmak için sorgu girin.",
+        "no_modules_foundd": "❌ Modül bulunamadı.",
+        "commands": "\n👨‍💻 <b>Komutlar:</b>\n{commands_list}",
+        "description": "\n📁 <b>Açıklama:</b> {description}",
+        "result": "🔎 <b>{index}. Sonuç:</b> <code>{query}</code>\n<code>{module_name}</code><b> tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Hata.</b>",
+        "closest_match": "🔎 <b>Sorguya en yakın eşleşme:</b> <code>{query}</code>\n<code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>İnline komutlar:</b>\n{inline_list}",
+        "language": "tr_doc",
+        "sub": "👍 Oy gönderildi!",
+        "nope": "❌ Bu modüle zaten oy verdiniz, yalnızca değiştirebilirsiniz!",
+        "actual_version": "🎉 <b>Güncel sürümünüz var</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Eski sürümünüz var</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Yeni sürüm mevcut</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Değişiklikler:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Güncellemek için şunu yazın: <code>{update_command}</code></b>",
+        "che": "👍 Oy değiştirildi!",
+        "reqj": "Bu, FHeta ile ilgili tüm haberlerin bulunduğu kanaldır!",
+        "noo_query": "Ad, komut, açıklama, yazar.",
+        "no_modules_foound": "Başka bir sorgu deneyin.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> tarafından </b><code>{author} </code><code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ AI destekli akıllı arama (±10 saniye sürebilir, yalnızca komut aramalarında çalışır)"
+    }
+
+    strings_yz = {
+        "name": "FHeta",
+        "search": "🔎 <b>Кыттаан...</b>",
+        "no_query": "❌ <b>Кыттаан аатын эн сөргүт.</b>",
+        "no_modules_found": "❌ <b>Модуоллара тапталлыбата.</b>",
+        "no_queryy": "❌ Кыттаан аатын эн сөргүт.",
+        "no_modules_foundd": "❌ Модуоллара тапталлыбата.",
+        "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
+        "description": "\n📁 <b>Тууллар:</b> {description}",
+        "result": "🔎 <b>{index}. Тууллар:</b> <code>{query}</code>\n<code>{module_name}</code><b> от</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Туттуут команда:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Алҕас.</b>",
+        "closest_match": "🔎 <b>Кыттаан аатын тууллар:</b> <code>{query}</code>\n<code>{module_name}</code> <b>от</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Туттуут команда:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Инлайн командалар:</b>\n{inline_list}",
+        "language": "yz_doc",
+        "sub": "👍 Баалалар барыллыбыт!",
+        "nope": "❌ Эн манна баалаҕын тахсан буолбут, саҥаҕын!",
+        "actual_version": "🎉 <b>Саҥа версияһын туттубун</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Эски версияһын туттубун</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Саҥа версия бар</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Саҥалары:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Саҥардыырга маны быраҕан: <code>{update_command}</code></b>",
+        "che": "👍 Баала саҥардыыллыбыт!",
+        "reqj": "FHeta-га хобойор ыраастарата!",
+        "noo_query": "Аат, команда, туулара, автор.",
+        "no_modules_foound": "Башка кыттаан аатын эн сөргүт.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author} </code><code>{version}</code>\n💾 <b>Туттуут команда:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ AI-хам ааннааҕы кыттаан (±10 сиккуна, команда кыттаанга туһуллубат)"
+    }
+
+    strings_es = {
+        "name": "FHeta",
+        "search": "🔎 <b>Búsqueda...</b>",
+        "no_query": "❌ <b>Introduce una consulta para buscar.</b>",
+        "no_modules_found": "<b>❌ No se encontraron módulos.</b>",
+        "no_queryy": "❌ Introduce una consulta para buscar.",
+        "no_modules_foundd": "❌ No se encontraron módulos.",
+        "commands": "\n👨‍💻 <b>Comandos:</b>\n{commands_list}",
+        "description": "\n📁 <b>Descripción:</b> {description}",
+        "result": "🔎 <b>Resultado {index} para la consulta:</b> <code>{query}</code>\n<code>{module_name}</code><b> por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Error.</b>",
+        "closest_match": "🔎 <b>Mejor coincidencia:</b> <code>{query}</code>\n<code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Comandos en línea:</b>\n{inline_list}",
+        "language": "es_doc",
+        "sub": "👍 ¡Valoración enviada!",
+        "nope": "❌ ¡Ya has valorado este módulo, solo puedes cambiar tu voto!",
+        "actual_version": "🎉 <b>Tienes la última versión</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Tienes una versión antigua</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Hay una nueva versión disponible</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Cambios:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Para actualizar, escribe: <code>{update_command}</code></b>",
+        "che": "👍 ¡Valoración cambiada!",
+        "reqj": "¡Este es el canal con todas las noticias de FHeta!",
+        "noo_query": "Nombre, comando, descripción, autor.",
+        "no_modules_foound": "Prueba otra consulta.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> por </b><code>{author} </code><code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Búsqueda inteligente con IA (tarda ±10 segundos, solo funciona con búsqueda por comando)"
+    }
+
+    strings_fr = {
+        "name": "FHeta",
+        "search": "🔎 <b>Recherche...</b>",
+        "no_query": "❌ <b>Entrez une requête pour rechercher.</b>",
+        "no_modules_found": "❌ <b>Aucun module trouvé.</b>",
+        "no_queryy": "❌ Entrez une requête pour rechercher.",
+        "no_modules_foundd": "❌ Aucun module trouvé.",
+        "commands": "\n👨‍💻 <b>Commandes :</b>\n{commands_list}",
+        "description": "\n📁 <b>Description :</b> {description}",
+        "result": "🔎 <b>Résultat {index} pour la requête :</b> <code>{query}</code>\n<code>{module_name}</code><b> par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation :</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Erreur.</b>",
+        "closest_match": "🔎 <b>Résultat le plus proche :</b> <code>{query}</code>\n<code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation :</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Commandes en ligne :</b>\n{inline_list}",
+        "language": "fr_doc",
+        "sub": "👍 Évaluation envoyée !",
+        "nope": "❌ Vous avez déjà voté pour ce module, vous ne pouvez que modifier votre vote !",
+        "actual_version": "🎉 <b>Vous avez la version actuelle</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Vous avez une version obsolète</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Une nouvelle version est disponible</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Modifications :</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Pour mettre à jour, tapez : <code>{update_command}</code></b>",
+        "che": "👍 Évaluation modifiée !",
+        "reqj": "Ceci est le canal avec toutes les actualités de FHeta !",
+        "noo_query": "Nom, commande, description, auteur.",
+        "no_modules_foound": "Essayez une autre requête.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> par </b><code>{author} </code><code>{version}</code>\n💾 <b>Commande d'installation :</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Recherche intelligente avec IA (prend ±10 secondes, fonctionne uniquement avec la recherche par commande)"
+    }
+
+    strings_kk = {
+        "name": "FHeta",
+        "search": "🔎 <b>Іздеу...</b>",
+        "no_query": "❌ <b>Іздеу үшін сұраныс енгізіңіз.</b>",
+        "no_modules_found": "❌ <b>Модульдер табылмады.</b>",
+        "no_queryy": "❌ Іздеу үшін сұраныс енгізіңіз.",
+        "no_modules_foundd": "❌ Модульдер табылмады.",
+        "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
+        "description": "\n📁 <b>Сипаттама:</b> {description}",
+        "result": "🔎 <b>{query} сұранысы үшін нәтиже {index}:</b>\n<code>{module_name}</code><b> авторы</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Қате.</b>",
+        "closest_match": "🔎 <b>Ең жақын нәтиже:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Инлайн командалар:</b>\n{inline_list}",
+        "language": "kk_doc",
+        "sub": "👍 Баға берілді!",
+        "nope": "❌ Сіз бұл модульге бұрын дауыс бергенсіз, тек өзгерте аласыз!",
+        "actual_version": "🎉 <b>Сізде соңғы нұсқа бар</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Сізде ескі нұсқа бар</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа қолжетімді</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Өзгерістер:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Жаңарту үшін жазыңыз: <code>{update_command}</code></b>",
+        "che": "👍 Баға өзгертілді!",
+        "reqj": "Бұл FHeta жаңалықтар арнасы!",
+        "noo_query": "Аты, командасы, сипаттамасы, авторы.",
+        "no_modules_foound": "Басқа сұранысты қолданып көріңіз.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> авторы </b><code>{author} </code><code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ AI арқылы ақылды іздеу (шамамен 10 секунд, тек командамен іздеу кезінде жұмыс істейді)"
+    }
+
+    strings_it = {
+        "name": "FHeta",
+        "search": "🔎 <b>Ricerca...</b>",
+        "no_query": "❌ <b>Inserisci una query per la ricerca.</b>",
+        "no_modules_found": "❌ <b>Nessun modulo trovato.</b>",
+        "no_queryy": "❌ Inserisci una query per la ricerca.",
+        "no_modules_foundd": "❌ Nessun modulo trovato.",
+        "commands": "\n👨‍💻 <b>Comandi:</b>\n{commands_list}",
+        "description": "\n📁 <b>Descrizione:</b> {description}",
+        "result": "🔎 <b>Risultato {index} per la query:</b> <code>{query}</code>\n<code>{module_name}</code><b> di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Errore.</b>",
+        "closest_match": "🔎 <b>Risultato più vicino:</b> <code>{query}</code>\n<code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Comandi inline:</b>\n{inline_list}",
+        "language": "it_doc",
+        "sub": "👍 Valutazione inviata!",
+        "nope": "❌ Hai già valutato questo modulo, puoi solo modificarla!",
+        "actual_version": "🎉 <b>Hai l'ultima versione</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Hai una versione vecchia</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>È disponibile una nuova versione</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Novità:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Per aggiornare, scrivi: <code>{update_command}</code></b>",
+        "che": "👍 Valutazione modificata!",
+        "reqj": "Questo è il canale con tutte le notizie su FHeta!",
+        "noo_query": "Nome, comando, descrizione, autore.",
+        "no_modules_foound": "Prova un'altra ricerca.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> di </b><code>{author} </code><code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ Ricerca intelligente con AI (circa 10 secondi, funziona solo con la ricerca tramite comando)"
+    }
+
+    strings_tt = {
+        "name": "FHeta",
+        "search": "🔎 <b>Эзләү...</b>",
+        "no_query": "❌ <b>Эзләү өчен сорау кертегез.</b>",
+        "no_modules_found": "❌ <b>Модульләр табылмады.</b>",
+        "no_queryy": "❌ Эзләү өчен сорау кертегез.",
+        "no_modules_foundd": "❌ Модульләр табылмады.",
+        "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
+        "description": "\n📁 <b>Тасвирлама:</b> {description}",
+        "result": "🔎 <b>{query} соравы өчен нәтиҗә {index}:</b>\n<code>{module_name}</code><b> авторы</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "fetch_failed": "❌ <b>Хата.</b>",
+        "closest_match": "🔎 <b>Иң якын нәтиҗә:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Эчке командалар:</b>\n{inline_list}",
+        "language": "tt_doc",
+        "sub": "👍 Бәя бирелде!",
+        "nope": "❌ Сез бу модульгә инде бәя бирдегез, сез аны үзгәртә аласыз гына!",
+        "actual_version": "🎉 <b>Сездә соңгы версия бар</b> <code>FHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Сездә иске версия бар</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Яңа версия бар</b> <code>v{new_version}</code><b>!</b>\n",
+        "update_whats_new": "⁉️ <b>Үзгәрешләр:</b><code> {whats_new}</code>\n\n",
+        "update_command": "🔄 <b>Яңарту өчен языгыз: <code>{update_command}</code></b>",
+        "che": "👍 Бәя үзгәртелде!",
+        "reqj": "Бу FHeta яңалыклары каналы!",
+        "noo_query": "Исеме, командасы, тасвирламасы, авторы.",
+        "no_modules_foound": "Башка сорау белән карагыз.",
+        "closest_matchh": "📑 <code>{module_name}</code><b> авторы </b><code>{author} </code><code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "gsf": "♥️ AI ярдәмендә акыллы эзләү (якынча 10 секунд, тик команда эзләве белән эшли)"
+    }
     
     async def client_ready(self):
         await self.request_join(
@@ -176,7 +372,7 @@ class FHeta(loader.Module):
             )
         )
         
-    @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
+    @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fheta(self, query):
         '''(query) - search modules.'''
         if not query.args:
@@ -282,7 +478,7 @@ class FHeta(loader.Module):
         res = await asyncio.gather(*tasks)
         return [r for r in res if r]
         
-    @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.")
+    @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fhetacmd(self, message):
         '''(query) - search modules.'''
         args = utils.get_args_raw(message)
@@ -621,7 +817,7 @@ class FHeta(loader.Module):
         except Exception as e:
             await call.answer(f"{e}", show_alert=True)
 
-    @loader.command(de_doc='- überprüfen auf updates.', ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення')
+    @loader.command(de_doc='- überprüfen auf updates.', ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення.', es_doc='- comprobar actualizaciones.', fr_doc='- vérifier les mises à jour.', it_doc='- verificare aggiornamenti.', kk_doc='- жаңартуларды тексеру.', tt_doc='- яңартуларны тикшерү.', tr_doc='- güncellemeleri kontrol et.', yz_doc='- жаңыртылыларды тексэр.')
     async def fupdate(self, message: Message):
         ''' - check update.'''
         module_name = "FHeta"
