@@ -7730,62 +7730,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Magic_Ball.py"
     },
     {
-        "description": "Модуль для рассылок",
-        "commands": [
-            {
-                "name": "addchat",
-                "inline": false,
-                "description": {
-                    "doc": "Добавь чат в список дял рассылки. Использование: .addchat <ссылка или @username>"
-                }
-            },
-            {
-                "name": "delchat",
-                "inline": false,
-                "description": {
-                    "doc": "Удалить чат из списка. Использование: .delchat <название>"
-                }
-            },
-            {
-                "name": "setint",
-                "inline": false,
-                "description": {
-                    "doc": "Установи интервал рассылки. Использование: .setint <секунды>"
-                }
-            },
-            {
-                "name": "chatlist",
-                "inline": false,
-                "description": {
-                    "doc": "Показать список чатов для рассылки"
-                }
-            },
-            {
-                "name": "stopmass",
-                "inline": false,
-                "description": {
-                    "doc": "Остановить рассылку"
-                }
-            },
-            {
-                "name": "startmass",
-                "inline": false,
-                "description": {
-                    "doc": "Запустить рассылку"
-                }
-            },
-            {
-                "name": "setsms",
-                "inline": false,
-                "description": {
-                    "doc": "Установи сообщение для рассылки! Использование: .setsms <текст>"
-                }
-            }
-        ],
-        "name": "MassSMS",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/MassSMS.py"
-    },
-    {
         "author": "@BruhHikkaModules",
         "description": "- Decode and Encode morse code",
         "commands": [
