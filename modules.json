@@ -18993,6 +18993,57 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/IrisPM/IrisPM.py"
     },
     {
+        "author": "@nullmod",
+        "description": "Automatization module for @Horny_GaremBot",
+        "commands": [
+            {
+                "name": "catchW",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить режим ловли. Вывод арта украденной вайфу в лс бота"
+                }
+            },
+            {
+                "name": "catchW_output",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить вывод арта украденной вайфу."
+                }
+            },
+            {
+                "name": "autobonusW",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически собирает бонус каждые 4 часа"
+                }
+            },
+            {
+                "name": "lightsoutW",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на соо с полем] Автоматически решает Lights Out"
+                }
+            }
+        ],
+        "name": "HornyHarem",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
+    },
+    {
+        "author": "@nullmod",
+        "description": "Планирование периодичных сообщений",
+        "commands": [
+            {
+                "name": "sch",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .sch <периодичность в секундах> <количество отправок> <текст>\n\nПроф. режим: .sch 15 3 test{x=1;x*2}/{x=0;x+1}\nЗапланирует три сообщения: test2/1, test4/2, test8/3"
+                }
+            }
+        ],
+        "name": "ScheduledMessagesPlus",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/SchedulePlus.py"
+    },
+    {
         "author": "@thisLyomi & @AmekaMods",
         "description": "Модуль автоответчик.",
         "commands": [
@@ -29482,6 +29533,20 @@
         ],
         "name": "RandomTT",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/RandomTT.py"
+    },
+    {
+        "description": "Модуль для работы с GPT",
+        "commands": [
+            {
+                "name": "gpt",
+                "inline": false,
+                "description": {
+                    "doc": "Модуль для работы с ChatGPT прямо в Telegram. \nАвтор: @maximtrous"
+                }
+            }
+        ],
+        "name": "CablyAI",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
     },
     {
         "author": "@murpiz",
