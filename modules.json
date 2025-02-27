@@ -13065,6 +13065,48 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/0x.py"
     },
     {
+        "description": "Draw line via @BlackLinesBot",
+        "commands": [
+            {
+                "name": "line",
+                "inline": false,
+                "description": {
+                    "doc": ".line <reply to photo>"
+                }
+            }
+        ],
+        "name": "BlackLines",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/BlackLines.py"
+    },
+    {
+        "description": "округляет всё",
+        "commands": [
+            {
+                "name": "round",
+                "inline": false,
+                "description": {
+                    "doc": ".round <Reply to image/sticker or video/gif>"
+                }
+            }
+        ],
+        "name": "Circles",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Circles.py"
+    },
+    {
+        "description": "distorting images",
+        "commands": [
+            {
+                "name": "distort",
+                "inline": false,
+                "description": {
+                    "doc": ".distort <reply to photo>\n.distort im\n.distort 50\n.distort 50 im\n.distort im 50\nim => кидает стикеры как фото\n50 => (от 0 до дохуя) процент сжатия"
+                }
+            }
+        ],
+        "name": "DistortNoApi",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/DNA.py"
+    },
+    {
         "description": "Glitcher of anything",
         "commands": [
             {
@@ -13142,6 +13184,80 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Hasher.py"
     },
     {
+        "description": "Draw photo with 50 lines via @Lines50Bot",
+        "commands": [
+            {
+                "name": "lines",
+                "inline": false,
+                "description": {
+                    "doc": ".lines <reply to photo>"
+                }
+            }
+        ],
+        "name": "Lines50",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Lines50.py"
+    },
+    {
+        "description": "Lorem Ipsum generation",
+        "commands": [
+            {
+                "name": "loremipsum",
+                "inline": false,
+                "description": {
+                    "doc": ".loremipsum <count: int> <length: str> <file?>\ncount - number of paragraphs| std: 1\nlength - s-short, m-medium, l-long, v-verylong|std: m(edium)\nfile - if nothing- send as message, if anything- send as file"
+                }
+            }
+        ],
+        "name": "LoermIpsum",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/LoremIpsum.py"
+    },
+    {
+        "description": "send Message as file",
+        "commands": [
+            {
+                "name": "mtf",
+                "inline": false,
+                "description": {
+                    "doc": ".mtf <reply to text>"
+                }
+            },
+            {
+                "name": "ftm",
+                "inline": false,
+                "description": {
+                    "doc": ".ftm <reply to file>"
+                }
+            }
+        ],
+        "name": "MessageToFile",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MTF.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "mac",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MacAshoT",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MacAshoT.py"
+    },
+    {
+        "description": "Микроцитаты",
+        "commands": [
+            {
+                "name": "mq",
+                "inline": false,
+                "description": {
+                    "doc": ".mq <реплай на текст>"
+                }
+            }
+        ],
+        "name": "MicroQuotes",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MicroQuotes.py"
+    },
+    {
         "commands": [
             {
                 "name": "ll",
@@ -13168,6 +13284,32 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MirrorFlip.py"
     },
     {
+        "commands": [
+            {
+                "name": "ll",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "rr",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "uu",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "dd",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MirrorFlip",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MirrorFlipV2.py"
+    },
+    {
         "description": "@faq lines",
         "commands": [
             {
@@ -13187,6 +13329,27 @@
         ],
         "name": "OneMessage",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/OneMessage.py"
+    },
+    {
+        "description": "Generator and reader of QR codes",
+        "commands": [
+            {
+                "name": "makeqr",
+                "inline": false,
+                "description": {
+                    "doc": ".makeqr <text or reply>"
+                }
+            },
+            {
+                "name": "readqr",
+                "inline": false,
+                "description": {
+                    "doc": ".readqr <qrcode or reply to qrcode>"
+                }
+            }
+        ],
+        "name": "QR tool's",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/QRtools.py"
     },
     {
         "description": "каждое слово раз в 100мс",
@@ -13237,6 +13400,48 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/StickTools.py"
     },
     {
+        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
+        "commands": [
+            {
+                "name": "demoti",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
+                }
+            },
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
+                }
+            }
+        ],
+        "name": "SuperDemotivator",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SuperDemotivator.V2.py"
+    },
+    {
+        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
+        "commands": [
+            {
+                "name": "demoti",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
+                }
+            },
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {
+                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
+                }
+            }
+        ],
+        "name": "SuperDemotivator",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SuperDemotivator.py"
+    },
+    {
         "description": "Swiper",
         "commands": [
             {
@@ -13272,6 +13477,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Swiper.py"
     },
     {
+        "description": "Смена расскаладки клавиатуры у текста",
+        "commands": [
+            {
+                "name": "switch",
+                "inline": false,
+                "description": {
+                    "doc": "Если ты допустил ошибку и набрал текст не сменив раскладку клавиатуры\nто вернись в его начало и допиши `.switch` и твой текст станет читабельным.\nЕсли ты всё же отправил сообщение не в той расскладке, то просто ответь на него этой командой и он измениться.\nесли же твой собеседник допустил ошибку, то просто ответь на его сообщение и сообщение с командой измениться."
+                }
+            }
+        ],
+        "name": "KeyboardSwitcher",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Switcher.py"
+    },
+    {
         "description": "Хуярит",
         "commands": [
             {
@@ -13284,6 +13503,20 @@
         ],
         "name": "TgsKiller",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/TgsKiller.py"
+    },
+    {
+        "description": "Поиск видео на ютубе",
+        "commands": [
+            {
+                "name": "yt",
+                "inline": false,
+                "description": {
+                    "doc": "текст или реплай"
+                }
+            }
+        ],
+        "name": "YTsearch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/YTsearch.py"
     },
     {
         "description": "Reverse image search via Yandex (he is the best, imho)",
@@ -13321,6 +13554,48 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/_base64.py"
     },
     {
+        "description": "Админтулс",
+        "commands": [
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "Бан в чате"
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Разбан в чате"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "Кикнуть из чата"
+                }
+            },
+            {
+                "name": "promote",
+                "inline": false,
+                "description": {
+                    "doc": "Дать админку"
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "doc": "Снять админку"
+                }
+            }
+        ],
+        "name": "AdminTools",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/admin_tools.py"
+    },
+    {
         "description": "Кукулирует вырожения",
         "commands": [
             {
@@ -13349,6 +13624,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/cheval.py"
     },
     {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "code",
+                "inline": false,
+                "description": {
+                    "doc": ".code <text or reply>"
+                }
+            }
+        ],
+        "name": "Codefy",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/codefy.py"
+    },
+    {
         "commands": [
             {
                 "name": "cbit",
@@ -13360,6 +13649,32 @@
         ],
         "name": "colorBit",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/colorBit.py"
+    },
+    {
+        "description": "DataMosh effect to video",
+        "commands": [
+            {
+                "name": "datamosh",
+                "inline": false,
+                "description": {
+                    "doc": ". datamosh lvl: int <reply to video>"
+                }
+            }
+        ],
+        "name": "DataMosh",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/datamosh.py"
+    },
+    {
+        "description": "Демотиваторы",
+        "commands": [
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Demoter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/demot.py"
     },
     {
         "description": "Image to dot\n.cmd <count> + reply to img\nthe bigger, the slower and bugger\nrecommended not more 1000",
@@ -13381,6 +13696,64 @@
         ],
         "name": "[PRIVATE]Dotify",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/dotify.py"
+    },
+    {
+        "description": "Quote a message",
+        "commands": [
+            {
+                "name": "family",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Family",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/family.py"
+    },
+    {
+        "description": "filename changer",
+        "commands": [
+            {
+                "name": "filename",
+                "inline": false,
+                "description": {
+                    "doc": ".filename <filename> + reply.file"
+                }
+            }
+        ],
+        "name": "filename",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/filename.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "grid",
+                "inline": false,
+                "description": {
+                    "doc": ".gird <reply to photo>"
+                }
+            },
+            {
+                "name": "revgrid",
+                "inline": false,
+                "description": {
+                    "doc": ".gird <reply to photo>"
+                }
+            }
+        ],
+        "name": "Griding",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/gird.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "hearts",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Heart's",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/hearts.py"
     },
     {
         "description": "Provides this help message",
@@ -13421,6 +13794,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/hyi.py"
     },
     {
+        "description": "Картинки в текст. что?",
+        "commands": [
+            {
+                "name": "bin",
+                "inline": false,
+                "description": {
+                    "doc": ".bin <картинка  или реплай> + слова (дефолт на рандоме) (не мешает слова)"
+                }
+            },
+            {
+                "name": "rbin",
+                "inline": false,
+                "description": {
+                    "doc": ".rbin <картинка  или реплай> + слова (дефолт на рандоме) (мешает слова)"
+                }
+            }
+        ],
+        "name": "Im2Bin",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/im2bin.py"
+    },
+    {
         "description": "Makes message monospace",
         "commands": [
             {
@@ -13449,6 +13843,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/keyboard_small.py"
     },
     {
+        "description": "Удаляет из чата последних Х зашедших",
+        "commands": [
+            {
+                "name": "botkicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".botkicklst <количество> <юзернейм, если канал> - Кикает при помощи тг бота"
+                }
+            },
+            {
+                "name": "kicklast",
+                "inline": false,
+                "description": {
+                    "doc": ".kicklst <количество> <юзернейм, если канал> - Кикает юзерботом"
+                }
+            }
+        ],
+        "name": "KickLast",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/kicklast.py"
+    },
+    {
         "description": "kzdQuote a message",
         "commands": [
             {
@@ -13466,6 +13881,19 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/kzdQuotes.py"
     },
     {
+        "commands": [
+            {
+                "name": "leave",
+                "inline": false,
+                "description": {
+                    "doc": ".leave"
+                }
+            }
+        ],
+        "name": "Just leave",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/leave.py"
+    },
+    {
         "description": "Спаммер медиа(стикер/гиф/фото/видео/войс/видеовойс</code>",
         "commands": [
             {
@@ -13478,6 +13906,32 @@
         ],
         "name": "МедиаСпам",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/mediaspam.py"
+    },
+    {
+        "description": "Modulate pitch of voice",
+        "commands": [
+            {
+                "name": "modulate",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Modulator",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/modulator.py"
+    },
+    {
+        "description": "Stores global notes (aka snips)",
+        "commands": [
+            {
+                "name": "notexec",
+                "inline": false,
+                "description": {
+                    "doc": "Gets the note specified"
+                }
+            }
+        ],
+        "name": "Notexec",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/notexec.py"
     },
     {
         "commands": [
@@ -13517,6 +13971,104 @@
         ],
         "name": "pic2pack",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pic2pack.py"
+    },
+    {
+        "description": "Аналог модуля typewriter",
+        "commands": [
+            {
+                "name": "print",
+                "inline": false,
+                "description": {
+                    "doc": ".print <text or reply>"
+                }
+            }
+        ],
+        "name": "print",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/print.py"
+    },
+    {
+        "description": "более точный пинг",
+        "commands": [
+            {
+                "name": "ping",
+                "inline": false,
+                "description": {
+                    "doc": "пингует"
+                }
+            }
+        ],
+        "name": "PingerХуингер",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pung.py"
+    },
+    {
+        "description": "Deletes your messages",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "Purge from the replied message"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Delete the replied message"
+                }
+            }
+        ],
+        "name": "Purge",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/purge.py"
+    },
+    {
+        "description": "Выполняет выражение из черновиков (работает 10 минут)\nинструкция на канале @SomeScripts",
+        "commands": [
+            {
+                "name": "pydraft",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить/Остановить"
+                }
+            }
+        ],
+        "name": "PyDraft",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pydraft.py"
+    },
+    {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "pypng",
+                "inline": false,
+                "description": {
+                    "doc": "reply to text code or py file"
+                }
+            }
+        ],
+        "name": "pypng",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pypng.py"
+    },
+    {
+        "description": "Python stuff",
+        "commands": [
+            {
+                "name": "eval",
+                "inline": false,
+                "description": {
+                    "doc": ".eval <expression>\nEvaluates python code"
+                }
+            },
+            {
+                "name": "exec",
+                "inline": false,
+                "description": {
+                    "doc": ".exec <expression>\nExecutes python code"
+                }
+            }
+        ],
+        "name": "Python",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/python.py"
     },
     {
         "description": "Perevodit rysskiy na rysianskiy yazyk",
@@ -13610,6 +14162,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/stext.py"
     },
     {
+        "description": "Makes your messages type slower",
+        "commands": [
+            {
+                "name": "ticker",
+                "inline": false,
+                "description": {
+                    "doc": ".ticker <message>"
+                }
+            }
+        ],
+        "name": "Ticker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/ticker.py"
+    },
+    {
         "commands": [
             {
                 "name": "urldl",
@@ -13638,6 +14204,32 @@
         ],
         "name": "Valutes",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/valute.py"
+    },
+    {
+        "description": "link to screen",
+        "commands": [
+            {
+                "name": "webshot",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "WebShot",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/webshot.py"
+    },
+    {
+        "description": "wow, what is it there?",
+        "commands": [
+            {
+                "name": "what",
+                "inline": false,
+                "description": {
+                    "doc": "Draw circle in random place"
+                }
+            }
+        ],
+        "name": "What?",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/what.py"
     },
     {
         "commands": [
@@ -13712,6 +14304,20 @@
         ],
         "name": "Заёбушка",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/заёбушка.py"
+    },
+    {
+        "description": "Заебет любого",
+        "commands": [
+            {
+                "name": "заебу",
+                "inline": false,
+                "description": {
+                    "doc": ".заебу <колличество> <реплай на того, кого заебать>"
+                }
+            }
+        ],
+        "name": "Заёбушка",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/заёбушка2.0.py"
     },
     {
         "author": "@AuroraModules",
@@ -23036,6 +23642,27 @@
         ],
         "name": "Versteck",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/versteck.py"
+    },
+    {
+        "description": "Удаляет все сообщения",
+        "commands": [
+            {
+                "name": "delme",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя"
+                }
+            },
+            {
+                "name": "delmenow",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя без вопросов"
+                }
+            }
+        ],
+        "name": "DelMe",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/delme.py"
     },
     {
         "author": "@DorotoroMods",
