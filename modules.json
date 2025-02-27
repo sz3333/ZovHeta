@@ -14921,7 +14921,7 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVA.jpg",
-        "description": "Module for @YamiChat_bot ",
+        "description": "Module for @YamiChat_bot",
         "commands": [
             {
                 "name": "scmmnd",
