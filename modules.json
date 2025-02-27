@@ -19881,6 +19881,31 @@
         "author": "@apodiktum_modules",
         "banner": "https://t.me/apodiktum_dumpster/11",
         "pic": "https://t.me/apodiktum_dumpster/13",
+        "description": "Send messages without TTL.",
+        "commands": [
+            {
+                "name": "cnottl",
+                "inline": false,
+                "description": {
+                    "doc": "This will open the config for the module."
+                }
+            },
+            {
+                "name": "nottl",
+                "inline": false,
+                "description": {
+                    "doc": "Command to send a message without TTL."
+                }
+            }
+        ],
+        "name": "Apo-NoTTL",
+        "version": "0.0.2",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/no_ttl.py"
+    },
+    {
+        "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Logs PMs to a group/channel",
         "commands": [
             {
