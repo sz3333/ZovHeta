@@ -529,7 +529,7 @@ class FHeta(loader.Module):
 
         current_language = self.strings.get("language", "doc")
         
-        for module in modules[:50]:
+        for module in modules:
             try:
                 install = module['install']
 
@@ -610,7 +610,7 @@ class FHeta(loader.Module):
                         install_command=f"{self.get_prefix()}{utils.escape_html(install)}",
                         description=description_section,
                         commands=commands_section + inline_commands_section
-                    )[:4096]
+                    )[:1024]
 
                 formatted_modules.append((result, thumb_url, install))
                 result_index += 1
