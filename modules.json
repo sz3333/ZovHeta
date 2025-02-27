@@ -3498,6 +3498,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/BackupMan.py"
     },
     {
+        "author": "@D4n13l3k00",
         "description": "Captcha for chats",
         "commands": [
             {
@@ -4169,6 +4170,19 @@
         ],
         "name": "RndNsfw",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/RndNsfw.py"
+    },
+    {
+        "author": "@D4n13l3k00",
+        "description": "S3 file manager",
+        "commands": [
+            {
+                "name": "s3up",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "S3 file manager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/S3.py"
     },
     {
         "author": "@D4n13l3k00",
@@ -13039,6 +13053,667 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KOTmodules/FREEmodules/KOTvoicetotext.py"
     },
     {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "x0 Uploader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/0x.py"
+    },
+    {
+        "description": "Glitcher of anything",
+        "commands": [
+            {
+                "name": "glitch",
+                "inline": false,
+                "description": {
+                    "doc": ".glitch level: float or int <reply to anything>"
+                }
+            }
+        ],
+        "name": "Glitcher",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Glitcher.py"
+    },
+    {
+        "description": "Hashing text and files",
+        "commands": [
+            {
+                "name": "md5",
+                "inline": false,
+                "description": {
+                    "doc": ".md5 <(text or media) or (reply to text or media)>\nHashing to md5"
+                }
+            },
+            {
+                "name": "sha1",
+                "inline": false,
+                "description": {
+                    "doc": ".sha1 <(text or media) or (reply to text or media)\nHashing to sha1"
+                }
+            },
+            {
+                "name": "sha224",
+                "inline": false,
+                "description": {
+                    "doc": ".sha224 <(text or media) or (reply to text or media)\nHashing to sha224"
+                }
+            },
+            {
+                "name": "sha256",
+                "inline": false,
+                "description": {
+                    "doc": ".sha255 <(text or media) or (reply to text or media)\nHashing to sha256"
+                }
+            },
+            {
+                "name": "sha384",
+                "inline": false,
+                "description": {
+                    "doc": ".sha384 <(text or media) or (reply to text or media)\nHashing to sha384"
+                }
+            },
+            {
+                "name": "sha512",
+                "inline": false,
+                "description": {
+                    "doc": ".sha512 <(text or media) or (reply to text or media)\nHashing to sha512"
+                }
+            },
+            {
+                "name": "blake2b",
+                "inline": false,
+                "description": {
+                    "doc": ".blake2 <(text or media) or (reply to text or media)\nHashing to blake2"
+                }
+            },
+            {
+                "name": "blake2s",
+                "inline": false,
+                "description": {
+                    "doc": ".blake2s <(text or media) or (reply to text or media)\nHashing to blake2s"
+                }
+            }
+        ],
+        "name": "Hasher",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Hasher.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "ll",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "rr",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "uu",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "dd",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "MF",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MirrorFlip.py"
+    },
+    {
+        "description": "@faq lines",
+        "commands": [
+            {
+                "name": "omstart",
+                "inline": false,
+                "description": {
+                    "doc": "Start OneMessage mode"
+                }
+            },
+            {
+                "name": "omstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop OneMessage mode"
+                }
+            }
+        ],
+        "name": "OneMessage",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/OneMessage.py"
+    },
+    {
+        "description": "каждое слово раз в 100мс",
+        "commands": [
+            {
+                "name": "sr",
+                "inline": false,
+                "description": {
+                    "doc": ".sr <text or reply>"
+                }
+            }
+        ],
+        "name": "SpeedRead",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SpeedRead.py"
+    },
+    {
+        "description": "Make image 1:1 ratio",
+        "commands": [
+            {
+                "name": "squareblur",
+                "inline": false,
+                "description": {
+                    "doc": "make image 1:1 ratio"
+                }
+            }
+        ],
+        "name": "SquareBlur",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SquareBlur.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "stick2pic",
+                "inline": false,
+                "description": {
+                    "doc": "reply to Sticker\nsend stricker as image"
+                }
+            },
+            {
+                "name": "stick2file",
+                "inline": false,
+                "description": {
+                    "doc": "reply to Sticker\nsend stricker as image"
+                }
+            }
+        ],
+        "name": "StickTools",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/StickTools.py"
+    },
+    {
+        "description": "Swiper",
+        "commands": [
+            {
+                "name": "sl2r",
+                "inline": false,
+                "description": {
+                    "doc": "swipe left to right"
+                }
+            },
+            {
+                "name": "sr2l",
+                "inline": false,
+                "description": {
+                    "doc": "swipe right to left"
+                }
+            },
+            {
+                "name": "su2d",
+                "inline": false,
+                "description": {
+                    "doc": "swipe up to down"
+                }
+            },
+            {
+                "name": "sd2u",
+                "inline": false,
+                "description": {
+                    "doc": "swipe down to up"
+                }
+            }
+        ],
+        "name": "Swiper",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/Swiper.py"
+    },
+    {
+        "description": "Хуярит",
+        "commands": [
+            {
+                "name": "tgs",
+                "inline": false,
+                "description": {
+                    "doc": "хуярит стикеры"
+                }
+            }
+        ],
+        "name": "TgsKiller",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/TgsKiller.py"
+    },
+    {
+        "description": "Reverse image search via Yandex (he is the best, imho)",
+        "commands": [
+            {
+                "name": "yars",
+                "inline": false,
+                "description": {
+                    "doc": ".yars <repy to image>"
+                }
+            }
+        ],
+        "name": "YandexReverseSearch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/YandexRS.py"
+    },
+    {
+        "description": "Кодирование и декодирование base64",
+        "commands": [
+            {
+                "name": "b64encode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64encode <(text or media) or (reply to text or media)>"
+                }
+            },
+            {
+                "name": "b64decode",
+                "inline": false,
+                "description": {
+                    "doc": ".b64decode <text or reply to text>"
+                }
+            }
+        ],
+        "name": "base64",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/_base64.py"
+    },
+    {
+        "description": "Кукулирует вырожения",
+        "commands": [
+            {
+                "name": "calc",
+                "inline": false,
+                "description": {
+                    "doc": ".calc <выражение или реплай на то, что нужно посчитать>\nКстати:\n** - возвести в степень\n/ - деление\n% - деление по модулю"
+                }
+            }
+        ],
+        "name": "Кукулятор",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/calc.py"
+    },
+    {
+        "description": "Выполняет команду в канале",
+        "commands": [
+            {
+                "name": "cheval",
+                "inline": false,
+                "description": {
+                    "doc": ".channel <канал> <id сообщения реплая, или же выполнение команды из комментариев> <комманда в том виде, в котором бы ты отправил её в чат>"
+                }
+            }
+        ],
+        "name": "ChannelEval",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/cheval.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "cbit",
+                "inline": false,
+                "description": {
+                    "doc": ".cbit <число от 0 до 255"
+                }
+            }
+        ],
+        "name": "colorBit",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/colorBit.py"
+    },
+    {
+        "description": "Image to dot\n.cmd <count> + reply to img\nthe bigger, the slower and bugger\nrecommended not more 1000",
+        "commands": [
+            {
+                "name": "dotify",
+                "inline": false,
+                "description": {
+                    "doc": "Image to RGB dots"
+                }
+            },
+            {
+                "name": "dotifi",
+                "inline": false,
+                "description": {
+                    "doc": "Image to BW dots"
+                }
+            }
+        ],
+        "name": "[PRIVATE]Dotify",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/dotify.py"
+    },
+    {
+        "description": "Provides this help message",
+        "commands": [
+            {
+                "name": "help",
+                "inline": false,
+                "description": {
+                    "doc": ".help [module]"
+                }
+            },
+            {
+                "name": "KeyZenD",
+                "inline": false,
+                "description": {
+                    "doc": "ДА Я ЗНАЮ ЧТО Я ОХУЕЛ НО МНЕ ПОХУЙ, МОЙ ХЕЛП!"
+                }
+            }
+        ],
+        "name": "Help",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/help.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "хуй",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "хуйня",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Хуификатор",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/hyi.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "keyboard",
+                "inline": false,
+                "description": {
+                    "doc": ".keyboard <text or reply>"
+                }
+            }
+        ],
+        "name": "Keyboard typer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/keyboard_lagre.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "keyboard",
+                "inline": false,
+                "description": {
+                    "doc": ".keyboard <text or reply>"
+                }
+            }
+        ],
+        "name": "Keyboard typer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/keyboard_small.py"
+    },
+    {
+        "description": "kzdQuote a message",
+        "commands": [
+            {
+                "name": "qq",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "qqset",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "kzdQuotes",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/kzdQuotes.py"
+    },
+    {
+        "description": "Спаммер медиа(стикер/гиф/фото/видео/войс/видеовойс</code>",
+        "commands": [
+            {
+                "name": "mediaspam",
+                "inline": false,
+                "description": {
+                    "doc": ".mediaspam <количество> + реплай на медиа(стикер/гиф/фото/видео/войс/видеовойс)"
+                }
+            }
+        ],
+        "name": "МедиаСпам",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/mediaspam.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "null",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "null",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/null.py"
+    },
+    {
+        "description": "Upload video and photo to telegra.ph",
+        "commands": [
+            {
+                "name": "ph",
+                "inline": false,
+                "description": {
+                    "doc": ".ph <reply photo or video>"
+                }
+            }
+        ],
+        "name": "UploadPH",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/ph.py"
+    },
+    {
+        "description": "pic2pack",
+        "commands": [
+            {
+                "name": "pic2pack",
+                "inline": false,
+                "description": {
+                    "doc": ".pic2pack {packname} + <reply to photo>"
+                }
+            }
+        ],
+        "name": "pic2pack",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pic2pack.py"
+    },
+    {
+        "description": "Perevodit rysskiy na rysianskiy yazyk",
+        "commands": [
+            {
+                "name": "rysianskiy",
+                "inline": false,
+                "description": {
+                    "doc": ".rysianskiy <tekst ili replay na tekst>"
+                }
+            }
+        ],
+        "name": "Rysianskiy yazyk",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/rysianskiy.py"
+    },
+    {
+        "description": "Соxранятель в избранное",
+        "commands": [
+            {
+                "name": "saved",
+                "inline": false,
+                "description": {
+                    "doc": ".saved реплай на медиа"
+                }
+            }
+        ],
+        "name": "SavedMessages",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/saved.py"
+    },
+    {
+        "description": "Screenshot Spammer by @KeyZenD",
+        "commands": [
+            {
+                "name": "scrs",
+                "inline": false,
+                "description": {
+                    "doc": ".scrs <amount>"
+                }
+            }
+        ],
+        "name": "ScrSpam",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/scrs.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "soap",
+                "inline": false,
+                "description": {
+                    "doc": ".soap <reply to photo>"
+                }
+            }
+        ],
+        "name": "Soaping",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/soaper.py"
+    },
+    {
+        "description": "Гавно залупное",
+        "commands": [
+            {
+                "name": "spin",
+                "inline": false,
+                "description": {
+                    "doc": "you spin me round..."
+                }
+            },
+            {
+                "name": "epilepsy",
+                "inline": false,
+                "description": {
+                    "doc": "ПРИВЕТ ЭПИЛЕТИКИ АХАХАХХА"
+                }
+            }
+        ],
+        "name": "Spinner",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/spinner.py"
+    },
+    {
+        "description": "Text to sticker",
+        "commands": [
+            {
+                "name": "stext",
+                "inline": false,
+                "description": {
+                    "doc": ".stext <reply to photo>"
+                }
+            }
+        ],
+        "name": "StickText",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/stext.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "urldl",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "urldlbig",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "UrlDl",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/urldl.py"
+    },
+    {
+        "description": "Valute converter",
+        "commands": [
+            {
+                "name": "valute",
+                "inline": false,
+                "description": {
+                    "doc": ".valute <Valute char code (optional)>"
+                }
+            }
+        ],
+        "name": "Valutes",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/valute.py"
+    },
+    {
+        "commands": [
+            {
+                "name": "words",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Words Counter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/words.py"
+    },
+    {
+        "description": "Запаковывает/распаковывает файлы",
+        "commands": [
+            {
+                "name": "zipadd",
+                "inline": false,
+                "description": {
+                    "doc": ".zipadd <file/reply to file> - сохраняет файл во временную папку"
+                }
+            },
+            {
+                "name": "ziplist",
+                "inline": false,
+                "description": {
+                    "doc": "список сохраненных файлов"
+                }
+            },
+            {
+                "name": "zipshow",
+                "inline": false,
+                "description": {
+                    "doc": ".zipshow <name> - показывает сохранённый файл"
+                }
+            },
+            {
+                "name": "zipdel",
+                "inline": false,
+                "description": {
+                    "doc": ".zipdel <name> - удаляет сохранённый файл"
+                }
+            },
+            {
+                "name": "zip",
+                "inline": false,
+                "description": {
+                    "doc": ".zip <name> (-s) - пакует в архив name. если есть флаг -s то сохраняет папку с фацлами"
+                }
+            },
+            {
+                "name": "zipclean",
+                "inline": false,
+                "description": {
+                    "doc": ".zipclear - очищает папку с файлами"
+                }
+            }
+        ],
+        "name": "ZIP",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/zip.py"
+    },
+    {
+        "description": "Заебет любого",
+        "commands": [
+            {
+                "name": "заебу",
+                "inline": false,
+                "description": {
+                    "doc": ".заебу <колличество> <реплай на того, кого заебать>"
+                }
+            }
+        ],
+        "name": "Заёбушка",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/заёбушка.py"
+    },
+    {
         "author": "@AuroraModules",
         "banner": "https://te.legra.ph/file/f35de08579b3bd2235bc4.jpg",
         "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
@@ -14921,7 +15596,7 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVA.jpg",
-        "description": "Module for @YamiChat_bot",
+        "description": "Module for @YamiChat_bot ",
         "commands": [
             {
                 "name": "scmmnd",
@@ -29748,7 +30423,7 @@
             }
         ],
         "name": "MPorn",
-        "version": "1.0.0",
+        "version": "2.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/MPorn.py"
     },
     {
