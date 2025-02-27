@@ -376,7 +376,7 @@ class FHeta(loader.Module):
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
-                response = await conv.get_response(timeout=1)
+                response = await conv.get_response(timeout=5)
                 self.db.set("FHeta", "token", response.text.strip())
         except Exception as e:
             pass
