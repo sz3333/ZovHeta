@@ -370,7 +370,7 @@ class FHeta(loader.Module):
                 "bot_username": self.inline.bot_username,
                 "language": self.strings['language'][:-4]
             }
-            requests.post(url, headers=headers, params=params)
+            requests.post(url, headers=headers, params=params, timeout=10)
             await asyncio.sleep(10)
             
     async def on_dlmod(self, client, db):    
