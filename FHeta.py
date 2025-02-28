@@ -1,6 +1,6 @@
-__version__ = (9, 1, 1)
+__version__ = (9, 1, 2)
 # meta developer: @Foxy437
-# change-log: Bug fix.
+# change-log: Improved speed.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -17,18 +17,10 @@ __version__ = (9, 1, 1)
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
-import requests
-import asyncio
-import aiohttp
+import requests, asyncio, aiohttp, json, io, inspect, difflib, re
 from .. import loader, utils, main
-import json
-import io
-import inspect
 from hikkatl.types import Message
-import random
 from ..types import InlineCall, InlineQuery
-import difflib
-import re
 from telethon.tl.functions.contacts import UnblockRequest
 
 @loader.tds
@@ -115,7 +107,7 @@ class FHeta(loader.Module):
         "reqj": "Це канал з усіма новинами FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
-        "closest_match": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "closest_matchh": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "gsf": "♥️ Розумний пошук через ШІ (швидкість пошуку ±10 секунд, працює тільки на пошук через команду)"
     }
 
@@ -506,270 +498,132 @@ class FHeta(loader.Module):
         return [r for r in res if r]
         
     @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
-    async def fhetacmd(self, message):
+    async def fhetacmd(self, m):
         '''(query) - search modules.'''
-        args = utils.get_args_raw(message)
-        if not args:
-            await utils.answer(message, self.strings["no_query"])
+        a = utils.get_args_raw(m)
+        if not a:
+            await utils.answer(m, self.strings["no_query"])
             return
 
-        search_message = await utils.answer(message, self.strings["search"])
-        modules = await self.search_modules(args)
-        tm = len(modules)
+        sm = await utils.answer(m, self.strings["search"])
+        ms = await self.search_modules(a)
+        tm = len(ms)
         
-        if not modules and not self.config["GSearch"]:
-            modules = await self.search_modules(args.replace(" ", ""))
+        if not ms and not self.config["GSearch"]:
+            ms = await self.search_modules(a.replace(" ", ""))
 
-        if not modules:
-            await utils.answer(message, self.strings["no_modules_found"])
+        if not ms:
+            await utils.answer(m, self.strings["no_modules_found"])
             return
 
-        seen_modules = set()
-        formatted_modules = []
-        result_index = 1
+        seen = set()
+        fm = []
+        idx = 1
+        lang = self.strings.get("language", "doc")
 
-        current_language = self.strings.get("language", "doc")
-        
-        for module in modules:
+        async def ft(u):
+            if u:
+                try:
+                    async with aiohttp.ClientSession() as s:
+                        async with s.get(u, timeout=5) as r:
+                            if r.status == 200:
+                                return str(r.url)
+                except:
+                    return None
+            return None
+
+        async def pm(mod, i):
             try:
-                install = module['install']
+                inst = mod['install']
+                auth = utils.escape_html(mod.get("author", "???"))
+                name = utils.escape_html(mod['name'].replace('.py', ''))
+                ver = utils.escape_html(mod.get("version", "?.?.?"))
+                v = f"(v{ver})"
+                key = f"{name}_{auth}_{v}"
 
-                commands_section = ""
-                inline_commands_section = ""
+                if key in seen:
+                    return None
+                seen.add(key)
 
-                if "commands" in module and module['commands']:                             
-                    normal_commands = []                                         
-                    inline_commands = []                                         
+                thumb = await ft(mod.get("banner"))
+                desc = self.strings["description"].format(
+                    description=utils.escape_html(mod["description"])
+                ) if mod.get("description") else ""
 
-                    for cmd in module['commands']:                               
-                        description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))  
+                cmds, inline = [], []
+                for cmd in mod.get("commands", []):
+                    d = cmd.get('description', {}).get(lang, cmd.get('description', {}).get("doc"))
+                    if isinstance(d, dict):
+                        d = d.get('doc', '')
+                    n = utils.escape_html(cmd['name'])
+                    d = utils.escape_html(d) if d else ""
+                    
+                    if cmd.get("inline"):
+                        inline.append(f"<code>@{self.inline.bot_username} {n}</code> {d}")
+                    else:
+                        cmds.append(f"<code>{self.get_prefix()}{n}</code> {d}")
 
-                        if isinstance(description, dict):                     
-                            description = description.get('doc', '')             
-
-                        if cmd.get("inline", False):                         
-                            if description:                                 
-                                cmd_entry = f"<code>@{self.inline.bot_username} {utils.escape_html(cmd['name'])}</code> {utils.escape_html(description)}"   
-                            else:                                            
-                                cmd_entry = f"<code>@{self.inline.bot_username} {utils.escape_html(cmd['name'])}</code>"  
-                            inline_commands.append(cmd_entry)                
-                        else:                                                 
-                            if description:                                 
-                                cmd_entry = f"<code>{self.get_prefix()}{utils.escape_html(cmd['name'])}</code> {utils.escape_html(description)}" 
-                            else:                                            
-                                cmd_entry = f"<code>{self.get_prefix()}{utils.escape_html(cmd['name'])}</code>" 
-                            normal_commands.append(cmd_entry)                
-
-                    if normal_commands:                                          
-                        commands_section = self.strings["commands"].format(commands_list="\n".join(normal_commands)) 
-
-                    if inline_commands:                                          
-                        inline_commands_section = self.strings["inline_commandss"].format(    
-                            inline_list="\n".join(inline_commands))                   
-                
-                description_section = ""
-                if "description" in module and module["description"]:
-                    description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
-
-                author_info = utils.escape_html(module.get("author", "???"))
-                module_name = utils.escape_html(module['name'].replace('.py', ''))
-                module_namee = utils.escape_html(module['name'].replace('.py', '').lower())
-                version = utils.escape_html(module.get("version", "?.?.?"))
-                versionn = f"(v{version})"
-                module_key = f"{module_name}_{author_info}_{versionn}"
-
-                if module_key in seen_modules:
-                    continue
-                seen_modules.add(module_key)
-
-                thumb_url = module.get("banner", None)
-                if thumb_url:
-                    try:
-                        response = requests.get(thumb_url, timeout=5)
-                        response.raise_for_status()
-                    except requests.exceptions.RequestException:
-                        thumb_url = None
-
-                if thumb_url is None:
-                    result = self.strings["result"].format(
-                        index=result_index,
-                        query=utils.escape_html(args),
-                        tm=tm,
-                        module_name=module_name,
-                        author=author_info,
-                        version=versionn,
-                        install_command=f"{self.get_prefix()}{utils.escape_html(install)}",
-                        description=description_section,
-                        commands=commands_section + inline_commands_section
-                    )[:4096]
-                else:
-                    result = self.strings["result"].format(
-                        index=result_index,
-                        query=utils.escape_html(args),
-                        module_name=module_name,
-                        tm=tm,
-                        author=author_info,
-                        version=versionn,
-                        install_command=f"{self.get_prefix()}{utils.escape_html(install)}",
-                        description=description_section,
-                        commands=commands_section + inline_commands_section
-                    )[:4096]
-
-                formatted_modules.append((result, thumb_url, install))
-                result_index += 1
-                mod_name = module_name
+                cs = self.strings["commands"].format(commands_list="\n".join(cmds)) if cmds else ""
+                ins = self.strings["inline_commandss"].format(inline_list="\n".join(inline)) if inline else ""
+                res = self.strings["result"].format(index=i, query=utils.escape_html(a), tm=tm, module_name=name, author=auth, version=v, install_command=f"{self.get_prefix()}{utils.escape_html(inst)}", description=desc, commands=cs + ins)[:4096]
+                return (res, thumb, inst, name, auth, v, desc, cs, ins)
             except Exception:
-                continue
+                return None
 
-        if len(formatted_modules) == 1:  
-            result_text, thumb_url, install = formatted_modules[0] 
-            
-            if thumb_url:
-                result_text[:1024]
-                
-            stats = await self.get_stats(install)
-            if stats is None:
-                stats = {"likes": 0, "dislikes": 0}
-        
-            likes_count = stats['likes']
-            dislikes_count = stats['dislikes']
-            current_indexx = 0
-            buttons = [              
-                [{              
-                    "text": f"👍 {likes_count}",              
-                    "callback": self.like_callback,              
-                    "args": (install, "like", current_indexx, formatted_modules)              
-                }, {              
-                    "text": f"👎 {dislikes_count}",              
-                    "callback": self.dislike_callback,              
-                    "args": (install, "dislike", current_indexx, formatted_modules)              
-                }]              
-            ]              
+        tasks = [pm(mod, idx + i) for i, mod in enumerate(ms)]
+        res = await asyncio.gather(*tasks)
+        fm = [r for r in res if r]
 
-            if len(result_text) <= 1024 and thumb_url:       
-                async with aiohttp.ClientSession() as session:              
-                    async with session.get(thumb_url) as response:              
-                        if response.status == 200:              
-                            closest_match_result = self.strings["closest_match"].format(              
-                                query=utils.escape_html(args),              
-                                module_name=module_name,              
-                                author=author_info,              
-                                version=versionn,           
-                                install_command=f"{self.get_prefix()}{utils.escape_html(install)}",              
-                                description=description_section,              
-                                commands=commands_section + inline_commands_section              
-                            )            
+        if not fm:
+            await utils.answer(m, self.strings["no_modules_found"])
+            return
 
-                            await self.inline.form(              
-                                message=message,              
-                                text=closest_match_result,              
-                                **(              
-                                    {"photo": thumb_url}              
-                                    if thumb_url              
-                                    else {}              
-                                ),              
-                                reply_markup=buttons              
-                            )              
-                            await search_message.delete()              
-                            return              
-
-            closest_match_result = self.strings["closest_match"].format(              
-                query=utils.escape_html(args),              
-                module_name=module_name,              
-                author=author_info,              
-                version=versionn,         
-                install_command=f"{self.get_prefix()}{utils.escape_html(install)}",              
-                description=description_section,              
-                commands=commands_section + inline_commands_section     
-            )[:4096]
-
-            await self.inline.form(              
-                text=closest_match_result,              
-                message=search_message,              
-                reply_markup=buttons              
-            )        
-
-        else:              
-            results = "".join([item[0] for item in formatted_modules])              
-                
-        if len(formatted_modules) > 1:
-            current_index = 0
-            result_text, thumb_url, install = formatted_modules[current_index]
-
-            stats = await self.get_stats(install)
-            if stats is None:
-                stats = {"likes": 0, "dislikes": 0}
-
-            likes_count = stats['likes']
-            dislikes_count = stats['dislikes']
-            current_indexx = 0
-            buttons = [
+        if len(fm) == 1:
+            d = fm[0]
+            stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+            btns = [[
+                {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", 0, fm)},
+                {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", 0, fm)}
+            ]]
+            await self.inline.form(message=m, text=self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8]), photo=d[1], reply_markup=btns)
+            await sm.delete()
+        else:
+            ci = 0
+            d = fm[ci]
+            stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+            btns = [
                 [
-                    {"text": f"👍 {likes_count}", "callback": self.like_callback, "args": (install, "like", current_indexx, formatted_modules)},
-                    {"text": f"👎 {dislikes_count}", "callback": self.dislike_callback, "args": (install, "dislike", current_indexx, formatted_modules)}
+                    {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", ci, fm)},
+                    {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", ci, fm)}
                 ],
                 [
-                    {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
-                    {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
+                    b for b in [
+                        {"text": "◀️", "callback": self.navigate_callback, "args": (ci-1, fm)} if ci > 0 else None,
+                        {"text": "▶️", "callback": self.navigate_callback, "args": (ci+1, fm)} if ci < len(fm)-1 else None
+                    ] if b
                 ]
             ]
+            await self.inline.form(message=m, text=d[0], photo=None, reply_markup=btns)
 
-            buttons = [[button for button in row if button is not None] for row in buttons]
+    async def navigate_callback(self, c, i, fm):
+        if not (0 <= i < len(fm)):
+            return
 
-            if thumb_url:
-                await self.inline.form(
-                    message=message,
-                    text=result_text,
-                    photo=None,
-                    reply_markup=buttons
-                )
-            else:
-                await self.inline.form(
-                    message=message,
-                    text=result_text,
-                    photo=None,
-                    reply_markup=buttons
-                )
-
-    async def navigate_callback(self, call, index, formatted_modules):
-        result_text, thumb_url, install = formatted_modules[index]
-
-        stats = await self.get_stats(install)
-        if stats is None:
-            stats = {"likes": 0, "dislikes": 0}
-
-        current_index = index
-        likes_count = stats['likes']
-        dislikes_count = stats['dislikes']
-
-        buttons = [
+        d = fm[i]
+        stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+        btns = [
             [
-                {"text": f"👍 {likes_count}", "callback": self.like_callback, "args": (install, "like", current_index, formatted_modules)},
-                {"text": f"👎 {dislikes_count}", "callback": self.dislike_callback, "args": (install, "dislike", current_index, formatted_modules)}
+                {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", i, fm)},
+                {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", i, fm)}
             ],
             [
-                {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
-                {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
+                b for b in [
+                    {"text": "◀️", "callback": self.navigate_callback, "args": (i-1, fm)} if i > 0 else None,
+                    {"text": "▶️", "callback": self.navigate_callback, "args": (i+1, fm)} if i < len(fm)-1 else None
+                ] if b
             ]
         ]
-        
-        buttons = [[button for button in row if button is not None] for row in buttons]
-
-        prev_thumb_url = formatted_modules[current_index - 1][1] if current_index > 0 else None
-        next_thumb_url = formatted_modules[current_index + 1][1] if current_index < len(formatted_modules) - 1 else None
-
-        if thumb_url == prev_thumb_url or thumb_url == next_thumb_url:
-            await call.edit(
-                text=result_text,
-                photo=None,
-                reply_markup=buttons
-            )
-        else:
-            await call.edit(
-                text=result_text,
-                photo=None,
-                reply_markup=buttons
-            )
+        await c.edit(text=d[0], photo=None, reply_markup=btns)
 
     async def like_callback(self, call, install, action, current_index, formatted_modules):
         await self.handle_rating(call, install, action, current_index, formatted_modules)
@@ -974,7 +828,7 @@ class FHeta(loader.Module):
                         if closest_matches:
                             found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
 
-                    return found_modules
+                    return found_modules[:50]
 
     async def search_moduless(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
