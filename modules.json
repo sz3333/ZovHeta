@@ -20239,7 +20239,7 @@
                 "name": "autobonusW",
                 "inline": false,
                 "description": {
-                    "doc": "Автоматически собирает бонус каждые 4 часа"
+                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
                 }
             },
             {
@@ -20267,6 +20267,28 @@
         ],
         "name": "ScheduledMessagesPlus",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/SchedulePlus.py"
+    },
+    {
+        "author": "@nullmod",
+        "description": "Automatization module for @garem_chatbot",
+        "commands": [
+            {
+                "name": "autobonusWH",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                }
+            },
+            {
+                "name": "lightsoutW",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на соо с полем] Автоматически решает Lights Out"
+                }
+            }
+        ],
+        "name": "WaifuHarem",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
         "author": "@thisLyomi & @AmekaMods",
@@ -30820,6 +30842,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
     },
     {
+        "description": "Модуль для получения информации о своем профиле FACEIT\nАвтор: @mead0ws_modules",
+        "commands": [
+            {
+                "name": "myfaceit",
+                "inline": false,
+                "description": {
+                    "doc": "- Показать информацию об своем FACEIT профиле."
+                }
+            }
+        ],
+        "name": "MyFACEIT",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/MyFACEIT.py"
+    },
+    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
@@ -30948,53 +30984,60 @@
     },
     {
         "author": "@psyho_Kuznetsov",
-        "description": "+18 модуль!!!!!!!",
+        "description": "+18 module!!!!!",
         "commands": [
             {
-                "name": "гей",
+                "name": "gayvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайное гей видео"
+                    "doc": "Sends a random gay video"
                 }
             },
             {
-                "name": "рандом",
+                "name": "randomvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайный контент 18+"
+                    "doc": "Sends a random 18+ video"
                 }
             },
             {
-                "name": "хентайв",
+                "name": "hentaivideo",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайное хентай видео"
+                    "doc": "Sends a random hentai video"
                 }
             },
             {
-                "name": "хентай",
+                "name": "hentaiphoto",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайное хентай фото"
+                    "doc": "Sends a random hentai photo"
                 }
             },
             {
-                "name": "порно",
+                "name": "pornvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайное порно видео"
+                    "doc": "Sends a random porn video"
                 }
             },
             {
-                "name": "лесби",
+                "name": "lesbianvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет случайное лесбийское видео"
+                    "doc": "Sends a random lesbian video"
+                }
+            },
+            {
+                "name": "randommedia",
+                "inline": false,
+                "description": {
+                    "doc": "Sends a random video or photo from all categories"
                 }
             }
         ],
         "name": "MPorn",
-        "version": "2.1.0",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/MPorn.py"
     },
     {
