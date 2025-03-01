@@ -32568,8 +32568,8 @@
                 "name": "delmsg",
                 "inline": false,
                 "description": {
-                    "ru_doc": "[число] — Удалить сообщения (можно использовать значение из конфига: «{значение}{число}», без пробела!)",
-                    "doc": "[count] — Delete messages (you can use your trigger from config: «{value}{count}» and write them only together!)"
+                    "ru_doc": "[число] 👉 Удалить сообщения (можно использовать значение из конфига: «{значение}{число}», без пробела!)",
+                    "doc": "[count] 👉 Delete messages (you can use your trigger from config: «{value}{count}» and write them only together!)"
                 }
             }
         ],
@@ -32587,24 +32587,24 @@
                 "name": "tlogin",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Авторизация в TIDAL",
-                    "doc": "Open OAuth window to login into TIDAL"
+                    "ru_doc": "👉 Авторизация в TIDAL",
+                    "doc": "👉 Open OAuth window to login into TIDAL"
                 }
             },
             {
                 "name": "tidal",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<запрос> - Поиск трека в TIDAL",
-                    "doc": "<query> - Search track in TIDAL"
+                    "ru_doc": "<запрос> 👉 Поиск трека в TIDAL",
+                    "doc": "<query> 👉 Search track in TIDAL"
                 }
             },
             {
                 "name": "turl",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<ID/ссылка> - Поиск трека в TIDAL по ID или ссылке",
-                    "doc": "<ID/url> - Search track in TIDAL by ID or url"
+                    "ru_doc": "<ID/ссылка> 👉 Поиск трека в TIDAL по ID или ссылке",
+                    "doc": "<ID/url> 👉 Search track in TIDAL by ID or url"
                 }
             }
         ],
@@ -32622,24 +32622,24 @@
                 "name": "afight",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Включить/отключить автобой",
-                    "doc": "- Enable/disable autofight"
+                    "ru_doc": "👉 Включить/отключить автобой",
+                    "doc": "👉 Enable/disable autofight"
                 }
             },
             {
                 "name": "agrow",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Включить/отключить автокормёжку",
-                    "doc": "- Enable/disable autogrow"
+                    "ru_doc": "👉 Включить/отключить автокормёжку",
+                    "doc": "👉 Enable/disable autogrow"
                 }
             },
             {
                 "name": "setname",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<имя> - Меняет имя вашего хряка",
-                    "doc": "<name> - Changes your pig's name"
+                    "ru_doc": "<имя> 👉 Меняет имя вашего хряка",
+                    "doc": "<name> 👉 Changes your pig's name"
                 }
             }
         ],
@@ -32692,48 +32692,48 @@
                 "name": "ybio",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Включить/выключить автобио",
-                    "doc": "- Enable/disable autobio"
+                    "ru_doc": "👉 Включить/выключить автобио",
+                    "doc": "👉 Enable/disable autobio"
                 }
             },
             {
                 "name": "yguide",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Гайд по получению токена Яндекс.Музыки",
-                    "doc": "- Guide for obtaining a Yandex.Music token"
+                    "ru_doc": "👉 Гайд по получению токена Яндекс.Музыки",
+                    "doc": "👉 Guide for obtaining a Yandex.Music token"
                 }
             },
             {
                 "name": "ynow",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Получить трек, который играет сейчас",
-                    "doc": "- Get now playing track"
+                    "ru_doc": "👉 Получить трек, который играет сейчас",
+                    "doc": "👉 Get now playing track"
                 }
             },
             {
                 "name": "ysearch",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<запрос> - Поиск трека в Яндекс.Музыке",
-                    "doc": "<query> - Search track in Yandex.Music"
+                    "ru_doc": "<запрос> 👉 Поиск трека в Яндекс.Музыке",
+                    "doc": "<query> 👉 Search track in Yandex.Music"
                 }
             },
             {
                 "name": "yautomsg",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Включить все виджеты",
-                    "doc": "- Enable all widgets"
+                    "ru_doc": "👉 Включить все виджеты",
+                    "doc": "👉 Enable all widgets"
                 }
             },
             {
                 "name": "ywidget",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<ссылка на сообщение/пост> - Сделать сообщение/пост виджетом",
-                    "doc": "<link to message/post> - Make a message/post a widget"
+                    "ru_doc": "<ссылка на сообщение/пост> 👉 Сделать сообщение/пост виджетом",
+                    "doc": "<link to message/post> 👉 Make a message/post a widget"
                 }
             }
         ],
