@@ -1490,7 +1490,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/FakeActions.py"
     },
     {
-        "author": "@hikka_mods, @nervousmods",
+        "author": "@hikka_mods",
         "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
         "commands": [
             {
@@ -1529,13 +1529,52 @@
                 "name": "gigamodel",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Получите исчерпывающий ответ на свой вопрос",
-                    "en_doc": "Get GigaResponse to your question"
+                    "ru_doc": "Получить список моделей",
+                    "en_doc": "Get a list of models"
                 }
             }
         ],
         "name": "GigaChat",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/GigaChat.py"
+    },
+    {
+        "author": "@hikka_mods",
+        "commands": [
+            {
+                "name": "afk",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[reason / none] – Установить режим AFK",
+                    "en_doc": "[reason / none] – Set AFK mode globally"
+                }
+            },
+            {
+                "name": "afkhere",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[reason / none] – Установить режим AFK только в этом чате.",
+                    "en_doc": "[reason / none] – Set AFK mode in current chat only."
+                }
+            },
+            {
+                "name": "unafk",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выйти из режима AFK",
+                    "en_doc": "Exit AFK mode"
+                }
+            },
+            {
+                "name": "unafkhere",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выйти из режима AFK в этом чате",
+                    "en_doc": "Exit AFK mode in this chat"
+                }
+            }
+        ],
+        "name": "HAFK",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/HAFK.py"
     },
     {
         "author": "@hikka_mods",
@@ -1929,6 +1968,30 @@
         ],
         "name": "VoiceDL",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/VoiceDL.py"
+    },
+    {
+        "author": "@hikka_mods",
+        "description": "Advanced weather module with detailed information",
+        "commands": [
+            {
+                "name": "weather",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Узнайте погоду для указанного города",
+                    "en_doc": "Get the weather for the specified city"
+                }
+            },
+            {
+                "name": "weatherset",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установите город по умолчанию для определения погоды",
+                    "en_doc": "Set the default city for weather"
+                }
+            }
+        ],
+        "name": "Weather",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/Weather.py"
     },
     {
         "author": "@hikka_mods",
@@ -6520,6 +6583,29 @@
         ],
         "name": "HetaLib",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/hetalib.py"
+    },
+    {
+        "author": "@FAmods",
+        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/hetsu.png?raw=true",
+        "description": "Search and install modules easily.",
+        "commands": [
+            {
+                "name": "hetsu",
+                "inline": false,
+                "description": {
+                    "doc": "Search module"
+                }
+            },
+            {
+                "name": "hetsu",
+                "inline": true,
+                "description": {
+                    "doc": "Search module"
+                }
+            }
+        ],
+        "name": "Hetsu",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/hetsu.py"
     },
     {
         "author": "@FAmods",
@@ -11454,6 +11540,50 @@
     },
     {
         "author": "@HikkTutor",
+        "description": "Модуль для создания заготовленных сообщений",
+        "commands": [
+            {
+                "name": "msg",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - выводит заготовленное сообщение в чат"
+                }
+            },
+            {
+                "name": "msi",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - выводит список сохранённых сообщений"
+                }
+            },
+            {
+                "name": "mss",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - сохраняет сообщение для вывода"
+                }
+            },
+            {
+                "name": "msd",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - удаляет сохранённое сообщение"
+                }
+            },
+            {
+                "name": "msh",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - выводит справку по модулю"
+                }
+            }
+        ],
+        "name": "MSG",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/MSG.py"
+    },
+    {
+        "author": "@HikkTutor",
         "description": "Модуль для отображения статуса подписки Telegram Premium через @PremiumBot.",
         "commands": [
             {
@@ -16121,7 +16251,6 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVT.jpg",
-        "description": "Module for VK Music (Remember, if your server is outside of Russia, errors can happen because VK does not want to give out track information due to restrictions)",
         "commands": [
             {
                 "name": "vkmpnow",
@@ -16135,7 +16264,7 @@
                 "name": "vkmtoken",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - Инструкции для токена и пользовательского индетефикатора",
+                    "ru_doc": " - Инструкции для токена и пользовательского идентификатора",
                     "doc": "- Instructions for token and user ID"
                 }
             }
@@ -17354,7 +17483,7 @@
     {
         "author": "@kshmods",
         "banner": "https://kappa.lol/--YNb",
-        "description": "Загрузка на зеркало 0x.at",
+        "description": "Модуль для загрузки файлов",
         "commands": [
             {
                 "name": "oxload",
@@ -17362,13 +17491,12 @@
                 "description": {
                     "en_doc": "Upload file",
                     "ru_doc": "Загрузить файл",
-                    "ua_doc": "Завантажити файл",
-                    "doc": "Upload file"
+                    "ua_doc": "Завантажити файл"
                 }
             }
         ],
         "name": "Uploader",
-        "version": "1.1.3",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/Uploader.py"
     },
     {
@@ -20216,6 +20344,80 @@
         "name": "IrisPM",
         "version": "2.2.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/IrisPM/IrisPM.py"
+    },
+    {
+        "author": "@YA_ManuI",
+        "description": "Генератор безопасных паролей",
+        "commands": [
+            {
+                "name": "ghelp",
+                "inline": false,
+                "description": {
+                    "doc": "- показать опции генерации"
+                }
+            },
+            {
+                "name": "genpass",
+                "inline": false,
+                "description": {
+                    "doc": "[длина] - сгенерировать пароль"
+                }
+            }
+        ],
+        "name": "GenPass",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/GenPass.py"
+    },
+    {
+        "author": "@YA_ManuI",
+        "description": "Получение ID пользователя по юзернейму",
+        "commands": [
+            {
+                "name": "ид",
+                "inline": false,
+                "description": {
+                    "doc": "[@юзернейм или реплай] - Узнать ID пользователя"
+                }
+            }
+        ],
+        "name": "UserID Finder",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/SearchUs.py"
+    },
+    {
+        "author": "@YA_ManuI",
+        "description": "Загружает видео в Imgur по реплаю и возвращает ссылку. Не забудьте зайти в cfg",
+        "commands": [
+            {
+                "name": "ivup",
+                "inline": false,
+                "description": {
+                    "doc": "- загрузить видео из реплая"
+                }
+            }
+        ],
+        "name": "ImgurVideoUploader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/imgur.py"
+    },
+    {
+        "author": "@YA_ManuI",
+        "description": "Генератор случайных цитат из канала (с настройкой по умолчанию)",
+        "commands": [
+            {
+                "name": "rquote",
+                "inline": false,
+                "description": {
+                    "doc": "[username канала] - Получить случайную цитату"
+                }
+            },
+            {
+                "name": "setdefchannel",
+                "inline": false,
+                "description": {
+                    "doc": "<username/id канала> - Установить канал по умолчанию"
+                }
+            }
+        ],
+        "name": "QuotePicker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/цитаты.py"
     },
     {
         "author": "@nullmod",
@@ -32137,6 +32339,13 @@
                     "ru_doc": "<реплай на сообщение> Получить кнопки сообщения",
                     "doc": "<reply to message> Get replied message reply markup (buttons)"
                 }
+            },
+            {
+                "name": "entity_link",
+                "inline": false,
+                "description": {
+                    "doc": "<bot api entity id> <use open message (optional)> - creates link to entity (chat/user)"
+                }
             }
         ],
         "name": "QuickTools",
@@ -32340,8 +32549,8 @@
                 "name": "calias",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<имя> <команда>\n[аргументы] 👉 Добавить новый алиас (может содержать ключевое слово {args})",
-                    "doc": "<name> <command>\n[args] 👉 Add new alias (may contain {args} keyword)"
+                    "ru_doc": "<имя> <команда> [аргументы] 👉 Добавить новый алиас (может содержать ключевое слово {args})",
+                    "doc": "<name> <command> [args] 👉 Add new alias (may contain {args} keyword)"
                 }
             }
         ],
@@ -32448,24 +32657,24 @@
                 "name": "yguide",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Гайд по получению токена Яндекс.Музыки",
-                    "doc": "- Guide for obtaining a Yandex.Music token"
+                    "ru_doc": "👉 Гайд по получению токена Яндекс.Музыки",
+                    "doc": "👉 Guide for obtaining a Yandex.Music token"
                 }
             },
             {
                 "name": "ynow",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Получить трек, который играет сейчас",
-                    "doc": "- Get now playing track"
+                    "ru_doc": "👉 Получить трек, который играет сейчас",
+                    "doc": "👉 Get now playing track"
                 }
             },
             {
                 "name": "ysearch",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<запрос> - Поиск трека в Яндекс.Музыке",
-                    "doc": "<query> - Search track in Yandex.Music"
+                    "ru_doc": "<запрос> 👉 Поиск трека в Яндекс.Музыке",
+                    "doc": "<query> 👉 Search track in Yandex.Music"
                 }
             }
         ],
