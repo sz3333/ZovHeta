@@ -1,6 +1,6 @@
-__version__ = (9, 1, 2)
+__version__ = (9, 1, 3)
 # meta developer: @Foxy437
-# change-log: Improved speed.
+# change-log: Now the module ratings and the number of installations affect its place in the result, I explain how the system works: 👍 = +7, 👎 = -5, Install = +1, Uninstall = -1
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -354,6 +354,7 @@ class FHeta(loader.Module):
             myfid = user.id
             self.db.set("FHeta", "id", myfid)
         pref = self.get_prefix()
+        moduliki = "".join(mod.__class__.__module__.replace("%d", "_") for mod in self.allmodules.modules if "https://raw" in mod.__class__.__module__)
         while True:
             url = "http://138.124.34.91:777/dataset"
             headers = {
@@ -363,7 +364,8 @@ class FHeta(loader.Module):
                 "myfid": myfid,
                 "pref": pref,
                 "bot_username": self.inline.bot_username,
-                "language": self.strings['language'][:-4]
+                "language": self.strings['language'][:-4],
+                "modules": moduliki
             }
             requests.post(url, headers=headers, params=params, timeout=10)
             await asyncio.sleep(10)
@@ -776,62 +778,109 @@ class FHeta(loader.Module):
                         return await response.json()
         except Exception:
             pass
+        return {"likes": 0, "dislikes": 0}
+
+    async def get_icountt(self, install):
+        try:
+            async with aiohttp.ClientSession() as session:
+                instal = install[4:]
+                get_url = f"http://138.124.34.91:777/icount/{instal}"
+                async with session.get(get_url) as response:
+                    if response.status == 200:
+                        return await response.json()
+        except Exception:
+            pass
+        return {"pizda": 0}
+
+    async def get_statss(self, install, session):
+        try:
+            url = f"http://138.124.34.91:777/get/{install}"
+            async with session.get(url) as response:
+                if response.status == 200:
+                    return await response.json()
+        except Exception:
+            pass
+        return {"likes": 0, "dislikes": 0}
+
+    async def get_icount(self, install, session):
+        try:
+            instal = install[4:]
+            url = f"http://138.124.34.91:777/icount/{instal}"
+            async with session.get(url) as response:
+                if response.status == 200:
+                    return await response.json()
+        except Exception:
+            pass
+        return {"pizdo": 0}
 
     async def search_modules(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
-        async with aiohttp.ClientSession() as session:         
+        async with aiohttp.ClientSession() as session:
             instalik = (await (await session.post("http://138.124.34.91:777/OnlySKThx", json={"q": query})).json()).get("OnlySKThx") if self.config["GSearch"] else False
-            async with session.get(url) as response:
-                if response.status == 200:
-                    data = await response.text()
-                    modules = json.loads(data)
-                    if instalik:
-                        found_modules = [
-                            module for module in modules
-                            if instalik.strip() in module.get("install", "").strip()
-                        ]
-                        return found_modules
-                        
-                    found_modules = [
-                        module for module in modules
-                        if query.lower() in module.get("name", "").lower()
-                    ]
+            modules_task = asyncio.create_task(session.get(url))
+            modules_response = await modules_task
 
-                    if not found_modules:
-                        found_modules = [
-                            module for module in modules
-                            if any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
-                        ]
+            if modules_response.status != 200:
+                return []
 
-                    if not found_modules:
-                        found_modules = [
-                            module for module in modules
-                            if query.lower() in module.get("author", "").lower()
-                        ]
+            data = await modules_response.text()
+            modules = json.loads(data)
 
-                    if not found_modules:
-                        found_modules = [
-                            module for module in modules
-                            if query.lower() in module.get("description", "").lower()
-                        ]
+            found_modules = []
 
-                    if not found_modules:
-                        found_modules = [
-                            module for module in modules
-                            if any(
-                                query.lower() in desc.lower()
-                                for cmd in module.get("commands", [])
-                                for desc in cmd.get("description", {}).values()
-                            )
-                        ]
+            if instalik:
+                for module in modules:
+                    if instalik.strip() in module.get("install", "").strip():
+                        found_modules.append(module)
+                        if len(found_modules) >= 50:
+                            break
+            else:
+                for module in modules:
+                    if (query.lower() in module.get("name", "").lower()
+                        or any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
+                        or query.lower() in module.get("author", "").lower()
+                        or query.lower() in module.get("description", "").lower()
+                        or any(
+                            query.lower() in desc.lower()
+                            for cmd in module.get("commands", [])
+                            for desc in cmd.get("description", {}).values()
+                        )):
+                        found_modules.append(module)
+                        if len(found_modules) >= 50:
+                            break
 
-                    if not found_modules:
-                        module_names = [module['name'] for module in modules if 'name' in module]
-                        closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
-                        if closest_matches:
-                            found_modules = [next((module for module in modules if module.get('name') == closest_matches[0]), None)]
+                if len(found_modules) < 50:
+                    module_names = [module['name'] for module in modules if 'name' in module]
+                    closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
+                    if closest_matches:
+                        module = next((m for m in modules if m.get('name') == closest_matches[0]), None)
+                        if module and module not in found_modules:
+                            found_modules.append(module)
 
-                    return found_modules[:50]
+            found_modules = found_modules[:50]
+
+            stats_tasks = [self.get_stats(module.get("install", "")) for module in found_modules]
+            ic_tasks = [self.get_icountt(module.get("install", "")) for module in found_modules]
+            stats_responses, ic_responses = await asyncio.gather(
+                asyncio.gather(*stats_tasks),
+                asyncio.gather(*ic_tasks)
+            )
+
+            processed_modules = [
+                await self.process_module(module, stats_responses[i], ic_responses[i])
+                for i, module in enumerate(found_modules)
+            ]
+
+            processed_modules.sort(key=lambda x: x["rating"], reverse=True)
+            return processed_modules
+
+    async def process_module(self, module, stats, ic):
+        module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
+        module["ic"] = ic.get("pizdo", 0)
+        module["likes"] = module_stats.get("likes", 0)
+        module["dislikes"] = module_stats.get("dislikes", 0)
+        module["rating"] = (module["likes"] * 7) - (module["dislikes"] * 5) + int(module["ic"])
+        return module
 
     async def search_moduless(self, query: str):
         url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
@@ -844,26 +893,32 @@ class FHeta(loader.Module):
                     found = []
 
                     async def search_field(field: str):
-                        return [
-                            mod for mod in mods
-                            if isinstance(mod.get(field), str) and query.lower() in mod.get(field, "").lower()
-                        ]
+                        nonlocal found
+                        for mod in mods:
+                            if isinstance(mod.get(field), str) and query.lower() in mod.get(field, "").lower():
+                                found.append(mod)
+                                if len(found) >= 50:
+                                    return
 
                     async def search_cmds():
-                        return [
-                            mod for mod in mods
-                            if any(query.lower() in cmd.get("name", "").lower() for cmd in mod.get("commands", []))
-                        ]
+                        nonlocal found
+                        for mod in mods:
+                            if any(query.lower() in cmd.get("name", "").lower() for cmd in mod.get("commands", [])):
+                                found.append(mod)
+                                if len(found) >= 50:
+                                    return
 
                     async def search_cmd_desc():
-                        return [
-                            mod for mod in mods
+                        nonlocal found
+                        for mod in mods:
                             if any(
                                 query.lower() in desc.lower()
                                 for cmd in mod.get("commands", [])
                                 for desc in cmd.get("description", {}).values()
-                            )
-                        ]
+                            ):
+                                found.append(mod)
+                                if len(found) >= 50:
+                                    return
 
                     tasks = [
                         search_field("name"),
@@ -873,8 +928,7 @@ class FHeta(loader.Module):
                         search_cmd_desc()
                     ]
 
-                    res = await asyncio.gather(*tasks)
-                    found = [mod for result in res for mod in result]
+                    await asyncio.gather(*tasks)
 
                     if len(found) < 50:
                         names = {mod['name'] for mod in mods if 'name' in mod}
@@ -886,7 +940,22 @@ class FHeta(loader.Module):
                                 if len(found) >= 50:
                                     break
 
-                    return found[:50]
+                    found = found[:50]
+
+                    stats_tasks = [self.get_statss(mod.get("install", ""), session) for mod in found]
+                    ic_tasks = [self.get_icount(mod.get("install", ""), session) for mod in found]
+                    stats_responses, ic_responses = await asyncio.gather(
+                        asyncio.gather(*stats_tasks),
+                        asyncio.gather(*ic_tasks)
+                    )
+
+                    processed_modules = [
+                        await self.process_module(mod, stats_responses[i], ic_responses[i])
+                        for i, mod in enumerate(found)
+                    ]
+
+                    processed_modules.sort(key=lambda x: x["rating"], reverse=True)
+                    return processed_modules
                     
     async def format_module(self, module, query):
         install = module['install']
