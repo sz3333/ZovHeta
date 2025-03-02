@@ -31031,6 +31031,40 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/RandomTT.py"
     },
     {
+        "author": "@mead0ws_modules",
+        "banner": "https://x0.at/eoIh.jpg",
+        "description": "Модуль для работы с GPT",
+        "commands": [
+            {
+                "name": "gpt",
+                "inline": false,
+                "description": {
+                    "doc": "Модуль для работы с ChatGPT прямо в Telegram. \nАвтор: @mead0ws_modules"
+                }
+            }
+        ],
+        "name": "CablyAI",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
+    },
+    {
+        "author": "@mead0ws_modules",
+        "banner": "https://x0.at/Hu25.jpg",
+        "description": "Модуль для получения информации о своем профиле FACEIT\nАвтор: @mead0ws_modules",
+        "commands": [
+            {
+                "name": "myfaceit",
+                "inline": false,
+                "description": {
+                    "doc": "- Показать информацию об своем FACEIT профиле."
+                }
+            }
+        ],
+        "name": "MyFACEIT",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/MyFACEIT.py"
+    },
+    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
