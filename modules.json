@@ -24404,6 +24404,7 @@
             }
         ],
         "name": "AI Hikka",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/AIHikka.py"
     },
     {
