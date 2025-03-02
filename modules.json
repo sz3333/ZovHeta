@@ -31514,6 +31514,28 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Модуль для скачки песен с разных сервисов",
+        "commands": [
+            {
+                "name": "spoty",
+                "inline": false,
+                "description": {
+                    "doc": "Скачать песню со Spotify"
+                }
+            },
+            {
+                "name": "scl",
+                "inline": false,
+                "description": {
+                    "doc": "Скачать песню с SoundCloud"
+                }
+            }
+        ],
+        "name": "MusicLoader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/MusicLoader.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Your profile changer",
         "commands": [
             {
