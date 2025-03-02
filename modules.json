@@ -31031,34 +31031,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/RandomTT.py"
     },
     {
-        "description": "Модуль для работы с GPT",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": "Модуль для работы с ChatGPT прямо в Telegram. \nАвтор: @maximtrous"
-                }
-            }
-        ],
-        "name": "CablyAI",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
-    },
-    {
-        "description": "Модуль для получения информации о своем профиле FACEIT\nАвтор: @mead0ws_modules",
-        "commands": [
-            {
-                "name": "myfaceit",
-                "inline": false,
-                "description": {
-                    "doc": "- Показать информацию об своем FACEIT профиле."
-                }
-            }
-        ],
-        "name": "MyFACEIT",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/MyFACEIT.py"
-    },
-    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
@@ -31515,6 +31487,8 @@
     },
     {
         "author": "@angellmodules",
+        "banner": "https://0x0.st/s/tytHFF50yN6sgTxnxeD4mg/8B0j.jpg",
+        "pic": "https://0x0.st/s/tytHFF50yN6sgTxnxeD4mg/8B0j.jpg",
         "description": "Модуль для скачки песен с разных сервисов",
         "commands": [
             {
@@ -31533,6 +31507,7 @@
             }
         ],
         "name": "MusicLoader",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/MusicLoader.py"
     },
     {
