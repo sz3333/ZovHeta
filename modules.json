@@ -11807,6 +11807,37 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/sozivala.py"
     },
     {
+        "author": "@MrAmigoch for @HikkaZPM",
+        "description": "Femboy Modul",
+        "commands": [
+            {
+                "name": "femboy",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить режим фембоя"
+                }
+            }
+        ],
+        "name": "FemBoy",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/femboy.py"
+    },
+    {
+        "author": "@HikkaZPM",
+        "banner": "https://0x0.st/s/gJtVZxi43-Zy4q2je-yx-A/8XdP.gif",
+        "description": "окак",
+        "commands": [
+            {
+                "name": "okak",
+                "inline": false,
+                "description": {
+                    "doc": "окак"
+                }
+            }
+        ],
+        "name": "окак",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/okak.py"
+    },
+    {
         "author": "@modwini",
         "description": "Отправляет случайное фото котика.",
         "commands": [
