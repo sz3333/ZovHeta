@@ -20421,6 +20421,42 @@
     },
     {
         "author": "@nullmod",
+        "description": "Automatization module for @Horny_GaremBot",
+        "commands": [
+            {
+                "name": "catchW",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить режим ловли. Вывод арта украденной вайфу в лс бота"
+                }
+            },
+            {
+                "name": "catchW_output",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить вывод арта украденной вайфу."
+                }
+            },
+            {
+                "name": "autobonusW",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                }
+            },
+            {
+                "name": "lightsoutW",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на соо с полем] Автоматически решает Lights Out"
+                }
+            }
+        ],
+        "name": "HornyHarem",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
+    },
+    {
+        "author": "@nullmod",
         "description": "Планирование периодичных сообщений",
         "commands": [
             {
