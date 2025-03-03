@@ -18013,6 +18013,27 @@
                 }
             },
             {
+                "name": "S3rename",
+                "inline": false,
+                "description": {
+                    "doc": "<folder> <old_filename> <new_filename> - переименовывает файл. Пробелы в адресе заменяйте на %20"
+                }
+            },
+            {
+                "name": "S3cut",
+                "inline": false,
+                "description": {
+                    "doc": "<file> <old_folder> <new_folder> - вырезает файл. Пробелы в адресе заменяйте на %20"
+                }
+            },
+            {
+                "name": "S3copy",
+                "inline": false,
+                "description": {
+                    "doc": "<file> <old_folder> <new_folder> - копирует файл. Пробелы в адресе заменяйте на %20"
+                }
+            },
+            {
                 "name": "S3download",
                 "inline": false,
                 "description": {
@@ -18025,9 +18046,31 @@
                 "description": {
                     "doc": "- открыть конфигурацию модуля"
                 }
+            },
+            {
+                "name": "S3usage",
+                "inline": false,
+                "description": {
+                    "doc": "- сколько занято памяти на S3"
+                }
+            },
+            {
+                "name": "S3clear",
+                "inline": false,
+                "description": {
+                    "doc": "- удаление незавершенных загрузок"
+                }
+            },
+            {
+                "name": "S3purge",
+                "inline": false,
+                "description": {
+                    "doc": "- ПОЛНАЯ ОЧИСТКА ХРАНИЛИЩА S3. Будьте осторожны с этой командой"
+                }
             }
         ],
         "name": "S3",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/S3.py"
     },
     {
