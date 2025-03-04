@@ -590,7 +590,10 @@ class FHeta(loader.Module):
                 {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", 0, fm)},
                 {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", 0, fm)}
             ]]
-            await self.inline.form(message=m, text=self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8]), photo=d[1], reply_markup=btns)
+            xyi = self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8])
+            if d[1]:
+                xyi[:1024]
+            await self.inline.form(message=m, text=xyi, photo=d[1], reply_markup=btns)
             await sm.delete()
         else:
             ci = 0
@@ -608,7 +611,7 @@ class FHeta(loader.Module):
                     ] if b
                 ]
             ]
-            await self.inline.form(message=m, text=d[0], photo=None, reply_markup=btns)
+            await self.inline.form(message=m, text=d[0][:4096], photo=None, reply_markup=btns)
 
     async def navigate_callback(self, c, i, fm):
         if not (0 <= i < len(fm)):
