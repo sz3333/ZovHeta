@@ -586,14 +586,19 @@ class FHeta(loader.Module):
         if len(fm) == 1:
             d = fm[0]
             stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+
             btns = [[
                 {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", 0, fm)},
                 {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", 0, fm)}
             ]]
+
             xyi = self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8])
-            if d[1]:
-                xyi[:1024]
-            await self.inline.form(message=m, text=xyi, photo=d[1], reply_markup=btns)
+
+            photo = d[1] if d[1] else None
+            max_length = 1024 if photo else 4096
+            xyi = xyi[:max_length]
+
+            await self.inline.form(message=m, text=xyi, photo=photo, reply_markup=btns)
             await sm.delete()
         else:
             ci = 0
