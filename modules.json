@@ -17083,8 +17083,8 @@
                 "name": "steal",
                 "inline": false,
                 "description": {
-                    "ru_doc": "<nobot: OPTIONAL> | Добавляет людей и ботов с чата в чат.",
-                    "doc": "<nobot: OPTIONAL> | Adds people from the chat to the chat."
+                    "ru_doc": "<id> <nobot: OPTIONAL> | Добавляет людей и ботов с чата в чат.",
+                    "doc": "<id> <nobot: OPTIONAL> | Adds people from the chat to the chat."
                 }
             },
             {
@@ -17971,6 +17971,20 @@
         ],
         "name": "IrisAutoFarm",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/IrisAutoFarm.py"
+    },
+    {
+        "description": "A module for uploading modules as a file. Let's just say it's a heavily stripped-down UnitHeta.",
+        "commands": [
+            {
+                "name": "nml",
+                "inline": false,
+                "description": {
+                    "doc": "send module via file"
+                }
+            }
+        ],
+        "name": "NewMlMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/NewMlMod.py"
     },
     {
         "author": "@RUIS_VlP",
@@ -20527,6 +20541,7 @@
             }
         ],
         "name": "HornyHarem",
+        "version": "1.3.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
     },
     {
@@ -20564,6 +20579,7 @@
             }
         ],
         "name": "WaifuHarem",
+        "version": "1.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
