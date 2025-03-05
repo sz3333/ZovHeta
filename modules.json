@@ -20509,6 +20509,43 @@
     },
     {
         "author": "@nullmod",
+        "description": "Automatization module for @GIFgarem_bot",
+        "commands": [
+            {
+                "name": "catchGH",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить режим ловли. Вывод арта украденной вайфу в лс бота"
+                }
+            },
+            {
+                "name": "catchGH_output",
+                "inline": false,
+                "description": {
+                    "doc": "Переключить вывод арта украденной вайфу."
+                }
+            },
+            {
+                "name": "autobonusGH",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                }
+            },
+            {
+                "name": "lightsoutW",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на соо с полем] Автоматически решает Lights Out"
+                }
+            }
+        ],
+        "name": "GifHarem",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/GifHarem.py"
+    },
+    {
+        "author": "@nullmod",
         "description": "Automatization module for @Horny_GaremBot",
         "commands": [
             {
