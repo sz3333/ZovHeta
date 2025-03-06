@@ -20541,7 +20541,7 @@
             }
         ],
         "name": "GifHarem",
-        "version": "1.0.1",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/GifHarem.py"
     },
     {
@@ -20578,7 +20578,7 @@
             }
         ],
         "name": "HornyHarem",
-        "version": "1.3.1",
+        "version": "1.3.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
     },
     {
@@ -22708,6 +22708,21 @@
         ],
         "name": "Asdlbot",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/Asdlbot.py"
+    },
+    {
+        "author": "@codermasochist",
+        "description": "генератор рандомных паролей",
+        "commands": [
+            {
+                "name": "grr",
+                "inline": false,
+                "description": {
+                    "doc": "— <число> — макс. символов."
+                }
+            }
+        ],
+        "name": "GRR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/GRR.py"
     },
     {
         "author": "@mm_mods",
