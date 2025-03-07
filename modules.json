@@ -34585,40 +34585,68 @@
                 "name": "checks",
                 "inline": false,
                 "description": {
-                    "doc": "вкл/выкл активатор"
+                    "ru_doc": "вкл/выкл активатор",
+                    "ua_doc": "увімк/вимк активатор",
+                    "doc": "on/off auto-check activation"
+                }
+            },
+            {
+                "name": "testnet",
+                "inline": false,
+                "description": {
+                    "ru_doc": "вкл/выкл активатор testnet",
+                    "ua_doc": "увімк/вимк активатор testnet",
+                    "doc": "on/off auto-check activation for testnet"
                 }
             },
             {
                 "name": "yglogs",
                 "inline": false,
                 "description": {
-                    "doc": "вкл/выкл отправку логов"
+                    "ru_doc": "вкл/выкл отправку логов",
+                    "ua_doc": "увімк/вимк відправку логів",
+                    "doc": "on/off log sending"
+                }
+            },
+            {
+                "name": "passwords",
+                "inline": false,
+                "description": {
+                    "ru_doc": "вкл/выкл подбор паролей с помощью нейросети",
+                    "ua_doc": "увімк/вимк підбір паролей за допомогою нейромережі",
+                    "doc": "on/off password cracking with neural network"
                 }
             },
             {
                 "name": "ygls",
                 "inline": false,
                 "description": {
-                    "doc": "вкл/выкл активацию чеков отправленных в личке"
+                    "ru_doc": "вкл/выкл активацию чеков отправленных в личке",
+                    "ua_doc": "увімк/вимк активацію чеків, надісланих в особисті повідомлення",
+                    "doc": "on/off activation of checks sent in private messages"
                 }
             },
             {
                 "name": "subscribe",
                 "inline": false,
                 "description": {
-                    "doc": "вкл/выкл авто-подписку"
+                    "ru_doc": "вкл/выкл авто-подписку",
+                    "ua_doc": "увімк/вимк авто-підписку",
+                    "doc": "on/off auto-subscription"
                 }
             },
             {
                 "name": "unsubscribe",
                 "inline": false,
                 "description": {
-                    "doc": "вкл/выкл авто-отписку"
+                    "ru_doc": "вкл/выкл авто-отписку",
+                    "ua_doc": "увімк/вимк авто-відписку",
+                    "doc": "on/off auto-unsubscription"
                 }
             }
         ],
         "name": "yg_checks",
-        "version": "1.4.8.9",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_checks.py"
     },
     {
