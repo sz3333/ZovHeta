@@ -17220,7 +17220,7 @@
             }
         ],
         "name": "DevGPT",
-        "version": "13.0.0",
+        "version": "15.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/DevGPT.py"
     },
     {
@@ -22723,6 +22723,28 @@
         ],
         "name": "GRR",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/GRR.py"
+    },
+    {
+        "author": "@codermasochist",
+        "description": "качает видео через ботов.\nскачивает: Pinterest, Instagram, TikTok & YouTube.",
+        "commands": [
+            {
+                "name": "ttinst",
+                "inline": false,
+                "description": {
+                    "doc": "— ссылка. скачивает tt & inst."
+                }
+            },
+            {
+                "name": "vl",
+                "inline": false,
+                "description": {
+                    "doc": "— ссылка. скачать видео с yt & pin."
+                }
+            }
+        ],
+        "name": "dlvd",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/dlvd.py"
     },
     {
         "author": "@mm_mods",
@@ -31478,6 +31500,29 @@
     },
     {
         "author": "@psyho_Kuznetsov",
+        "description": "Speech to text conversion via Google Speech Recognition (supports multiple languages)",
+        "commands": [
+            {
+                "name": "atxt",
+                "inline": false,
+                "description": {
+                    "doc": "Usage: Reply to a voice message with .atxt [language code]"
+                }
+            },
+            {
+                "name": "stxtcfg",
+                "inline": false,
+                "description": {
+                    "doc": "Configure default language: .stxtcfg [language code]"
+                }
+            }
+        ],
+        "name": "SpeechToText",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SpeechToText.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
         "description": "🚀 Модуль для спама стикерами",
         "commands": [
             {
@@ -35017,6 +35062,14 @@
                 "description": {
                     "ru_doc": "<reply to tgs or custom emoji> - конвертировать tgs в gif",
                     "doc": "<reply to tgs or custom emoji> - convert tgs to gif"
+                }
+            },
+            {
+                "name": "emoji2tgs",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply to custom emoji> - конвертировать кастом эмодзи в tgs",
+                    "doc": "<reply to custom emoji> - convert custom emoji to tgs"
                 }
             }
         ],
