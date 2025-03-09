@@ -16440,7 +16440,7 @@
                 "name": "spam_stop",
                 "inline": false,
                 "description": {
-                    "doc": "- Закончить весь спам"
+                    "doc": "- [id] Закончить спам"
                 }
             }
         ],
