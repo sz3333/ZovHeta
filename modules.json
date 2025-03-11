@@ -5100,65 +5100,6 @@
     },
     {
         "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/TwinkManager.jpg",
-        "description": "Управление твинками через основной аккаунт.",
-        "commands": [
-            {
-                "name": "trestart",
-                "inline": false,
-                "description": {
-                    "doc": "- перезагрузить аккаунты"
-                }
-            },
-            {
-                "name": "tping",
-                "inline": false,
-                "description": {
-                    "doc": "- проверить пинг"
-                }
-            },
-            {
-                "name": "tdlmod",
-                "inline": false,
-                "description": {
-                    "doc": "<name/link> - загрузить модули на аккаунты"
-                }
-            },
-            {
-                "name": "tterminal",
-                "inline": false,
-                "description": {
-                    "doc": "<command> - выполнить действие в терминале"
-                }
-            },
-            {
-                "name": "tupdate",
-                "inline": false,
-                "description": {
-                    "doc": "- обновить хикку на аккаунтах"
-                }
-            },
-            {
-                "name": "thelp",
-                "inline": false,
-                "description": {
-                    "doc": "<name/-f>- список модулей либо информация о модуле"
-                }
-            },
-            {
-                "name": "tloadmod",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> - загрузить файл модуля на аккаунты"
-                }
-            }
-        ],
-        "name": "Twink-Manager",
-        "version": "1.3.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/TwinkManager.py"
-    },
-    {
-        "author": "@AstroModules",
         "description": "Афк модуль от AstroModules с изменением био и имени",
         "commands": [
             {
@@ -7606,42 +7547,6 @@
         ],
         "name": "GPT3.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/GPT3.5.py"
-    },
-    {
-        "author": "@Yaukais,@Shadow_red1",
-        "description": "Модуль для запуска ботов через GitHub!",
-        "commands": [
-            {
-                "name": "python",
-                "inline": false,
-                "description": {
-                    "doc": "Запускает файл бота"
-                }
-            },
-            {
-                "name": "of_b",
-                "inline": false,
-                "description": {
-                    "doc": "Отключает файл бота"
-                }
-            },
-            {
-                "name": "restart_b",
-                "inline": false,
-                "description": {
-                    "doc": "Перезапускает файл бота"
-                }
-            },
-            {
-                "name": "bot_ping",
-                "inline": false,
-                "description": {
-                    "doc": "Показывает задержку бота"
-                }
-            }
-        ],
-        "name": "GitServerBot",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/GitServerBot.py"
     },
     {
         "author": "@Yaukais,@Shadow_red1",
