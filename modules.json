@@ -31431,6 +31431,22 @@
     },
     {
         "author": "@psyho_Kuznetsov",
+        "description": "истории 18+ 🔞",
+        "commands": [
+            {
+                "name": "история",
+                "inline": false,
+                "description": {
+                    "doc": "Получить рандом историю 🔞"
+                }
+            }
+        ],
+        "name": "RandomStory",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/RandomStory+18.py"
+    },
+    {
+        "author": "@psyho_Kuznetsov",
         "description": "Сохраняет сообщения, видео, файлы и т.д в избранное",
         "commands": [
             {
@@ -32644,8 +32660,8 @@
                 "name": "tconfig",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Конфиг модуля",
-                    "doc": "Config for the module."
+                    "ru_doc": "[необязятельно: айди триггера] - Конфиг модуля",
+                    "doc": "[optional: trigger id] - Triggers config."
                 }
             },
             {
