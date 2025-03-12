@@ -13999,6 +13999,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/leave.py"
     },
     {
+        "description": "Спаммер медиа(стикер/гиф/фото/видео/войс/видеовойс</code>",
+        "commands": [
+            {
+                "name": "mediaspam",
+                "inline": false,
+                "description": {
+                    "doc": ".mediaspam <количество> + реплай на медиа(стикер/гиф/фото/видео/войс/видеовойс)"
+                }
+            }
+        ],
+        "name": "МедиаСпам",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/mediaspam.py"
+    },
+    {
         "description": "Modulate pitch of voice",
         "commands": [
             {
@@ -15403,6 +15417,38 @@
         "name": "ChatGPT",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/chatgpt.py"
+    },
+    {
+        "author": "@morisummermods",
+        "banner": "https://i.imgur.com/AIjsMoV.jpg",
+        "pic": "https://i.imgur.com/pViqDsI.png",
+        "description": "Song lyrics from Genius",
+        "commands": [
+            {
+                "name": "lyrics",
+                "inline": false,
+                "description": {
+                    "doc": "Get lyrics"
+                }
+            },
+            {
+                "name": "lyrics",
+                "inline": true,
+                "description": {
+                    "doc": "Search song"
+                }
+            },
+            {
+                "name": "slyrics",
+                "inline": false,
+                "description": {
+                    "doc": "Get lyrics from your current Spotify playback (Needs SpotifyNow module)"
+                }
+            }
+        ],
+        "name": "Lyrics",
+        "version": "2.6.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/lyrics.py"
     },
     {
         "author": "@morisummermods",
@@ -17230,6 +17276,23 @@
         ],
         "name": "InlineButtons",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/InlineButtons.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Restart your LavHost without using a bot",
+        "commands": [
+            {
+                "name": "lhrestart",
+                "inline": false,
+                "description": {
+                    "en_doc": "Restart",
+                    "ru_doc": "Перезагрузить"
+                }
+            }
+        ],
+        "name": "LavReboot",
+        "version": "0.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/LavReboot.py"
     },
     {
         "author": "@kshmods",
@@ -19556,6 +19619,22 @@
         "name": "KsenonGPT",
         "version": "1.5.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/ksenongpt.py"
+    },
+    {
+        "author": "@kmodules",
+        "description": "Модуль для сокращения ссылок.",
+        "commands": [
+            {
+                "name": "shortlink",
+                "inline": false,
+                "description": {
+                    "doc": "Использование: .shortlink <url>"
+                }
+            }
+        ],
+        "name": "K:ShortLinker",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kshortlinker.py"
     },
     {
         "author": "@kmodules",
@@ -28727,6 +28806,20 @@
         ],
         "name": "Cu",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/cu.py"
+    },
+    {
+        "description": "CheckerTG",
+        "commands": [
+            {
+                "name": "check",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить id на слитый номер\nЖуёт либо <reply> либо <uid>"
+                }
+            }
+        ],
+        "name": "CheckerTG",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/dekftg_checker.py"
     },
     {
         "description": "Deotivators",
