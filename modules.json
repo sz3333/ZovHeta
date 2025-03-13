@@ -34428,6 +34428,20 @@
     },
     {
         "author": "@xdesai",
+        "commands": [
+            {
+                "name": "rbs",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> | React by status"
+                }
+            }
+        ],
+        "name": "ReactByStatus",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/rbs.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Screenshot Spammer",
         "commands": [
             {
