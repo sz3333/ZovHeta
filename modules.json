@@ -34318,27 +34318,21 @@
     },
     {
         "author": "@xdesai",
-        "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
                 "name": "bfg",
                 "inline": false,
                 "description": {
-                    "doc": "Начать автоматическую фарму."
-                }
-            },
-            {
-                "name": "rstbfg",
-                "inline": false,
-                "description": {
-                    "doc": "Перезапустить автоматическую фарму."
+                    "ru_doc": "Начать автоматическую фарму.",
+                    "doc": "Start autofarming."
                 }
             },
             {
                 "name": "bfgstop",
                 "inline": false,
                 "description": {
-                    "doc": "Остановить автоматическую фарму."
+                    "ru_doc": "Остановить автоматическую фарму.",
+                    "doc": "Stop autofarming."
                 }
             }
         ],
