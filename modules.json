@@ -22293,6 +22293,30 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/ascii_face.py"
     },
     {
+        "author": "@codrago_m, @unneyon_hmods",
+        "banner": "https://mods.codrago.top/banners/clicon.png",
+        "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
+        "description": "Autoclicker for inline buttons.",
+        "commands": [
+            {
+                "name": "clickon",
+                "inline": false,
+                "description": {
+                    "doc": "[interval button_line button] | Enable Autoclicker"
+                }
+            },
+            {
+                "name": "clickoff",
+                "inline": false,
+                "description": {
+                    "doc": "| disable autoclicker."
+                }
+            }
+        ],
+        "name": "AutoClicker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/autoclicker.py"
+    },
+    {
         "author": "@codrago_m, @ytkanelox",
         "banner": "https://mods.codrago.top/banners/clicon.png",
         "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
