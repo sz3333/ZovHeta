@@ -34460,6 +34460,27 @@
     },
     {
         "author": "@xdesai",
+        "commands": [
+            {
+                "name": "like",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> | React like"
+                }
+            },
+            {
+                "name": "love",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> | React love"
+                }
+            }
+        ],
+        "name": "React",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/react.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Screenshot Spammer",
         "commands": [
             {
