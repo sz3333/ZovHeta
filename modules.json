@@ -32838,6 +32838,41 @@
     },
     {
         "author": "@unneyon_hmods",
+        "banner": "https://mods.unneyon.ru/banners/privacy.png",
+        "pic": "https://static.unneyon.ru/mods/privacy_icon.png",
+        "description": "Module for fastly changing privacy settings",
+        "commands": [
+            {
+                "name": "privacytypes",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Список типов настроек для указания их в командах",
+                    "doc": "👉 List of setting types to pass it in commands"
+                }
+            },
+            {
+                "name": "allowuser",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<пользователь> [настройка (необязательно)] 👉 Добавить пользователя в разрешённых для какой-либо настройки",
+                    "doc": "<user> [setting (optional)] 👉 Add user to includes for some setting"
+                }
+            },
+            {
+                "name": "disallowuser",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<пользователь> [настройка (необязательно)] 👉 Добавить пользователя в запрещённых для какой-либо настройки",
+                    "doc": "<user> [setting (optional)] 👉 Add user to excludes for some setting"
+                }
+            }
+        ],
+        "name": "Privacy",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/privacy.py"
+    },
+    {
+        "author": "@unneyon_hmods",
         "banner": "https://mods.unneyon.ru/banners/tidal.png",
         "pic": "https://static.unneyon.ru/mods/tidal_icon.png",
         "description": "API wrapper over TIDAL Hi-Fi music streaming service\nThanks @hikarimods for original module: t.me/hikarimods/764",
