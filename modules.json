@@ -1539,6 +1539,22 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "H",
+        "commands": [
+            {
+                "name": "h",
+                "inline": false,
+                "description": {
+                    "ru_doc": "H",
+                    "doc": "H"
+                }
+            }
+        ],
+        "name": "H",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/H.py"
+    },
+    {
+        "author": "@hikka_mods",
         "commands": [
             {
                 "name": "afk",
