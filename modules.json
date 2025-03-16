@@ -34326,6 +34326,21 @@
     },
     {
         "author": "@xdesai",
+        "commands": [
+            {
+                "name": "whisper",
+                "inline": true,
+                "description": {
+                    "ru_doc": "Секретное сообщение для пользователя",
+                    "doc": "Secret message for a user"
+                }
+            }
+        ],
+        "name": "SecretMessage",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/SecretM.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "A module for parsing URLs.",
         "commands": [
             {
