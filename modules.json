@@ -11485,18 +11485,19 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Кастомный пинг с поддержкой премиум эмодзи и медиа",
+        "description": "Настраиваемый пинг с поддержкой медиа и премиум эмодзи",
         "commands": [
             {
                 "name": "cping",
                 "inline": false,
                 "description": {
-                    "ru_doc": " - Узнать пинг вашего юзербота"
+                    "ru_doc": " - Узнать пинг вашего юзербота",
+                    "en_doc": " - Check your userbot's ping"
                 }
             }
         ],
         "name": "Cping",
-        "version": "1.0.9",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Cping.py"
     },
     {
