@@ -22752,6 +22752,21 @@
     },
     {
         "author": "@codermasochist",
+        "description": "инлайн менеджер для бфг. by @codermasochist",
+        "commands": [
+            {
+                "name": "inf",
+                "inline": false,
+                "description": {
+                    "doc": "— <reply> открыть меню."
+                }
+            }
+        ],
+        "name": "Bfgim",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/Bfgim.py"
+    },
+    {
+        "author": "@codermasochist",
         "description": "генератор рандомных паролей",
         "commands": [
             {
