@@ -6732,7 +6732,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/proxy.py"
     },
     {
-        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/removebg.png?raw=true",
         "description": "Убрать фон из изображения",
         "commands": [
