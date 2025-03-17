@@ -34245,6 +34245,21 @@
     },
     {
         "author": "@xdesai",
+        "commands": [
+            {
+                "name": "ipi",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ip> | Информация об IP",
+                    "doc": "<ip> | Information about IP."
+                }
+            }
+        ],
+        "name": "InfoIP",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/InfoIP.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Create inline buttons easily",
         "commands": [
             {
