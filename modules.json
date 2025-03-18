@@ -17676,6 +17676,37 @@
     },
     {
         "author": "@kshmods",
+        "commands": [
+            {
+                "name": "restorealiases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Ресторнуть алиасы из конфига",
+                    "doc": "Restore aliases from config"
+                }
+            },
+            {
+                "name": "clearaliases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очистить все алиасы",
+                    "doc": "Clear aliases"
+                }
+            },
+            {
+                "name": "backupaliases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Резервное копирование алиасов",
+                    "doc": "Backup aliases"
+                }
+            }
+        ],
+        "name": "AliasManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/aliasmanager.py"
+    },
+    {
+        "author": "@kshmods",
         "description": "Пишет ASCII шрифтом",
         "commands": [
             {
