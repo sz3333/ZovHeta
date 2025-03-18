@@ -34424,6 +34424,22 @@
     },
     {
         "author": "@xdesai",
+        "description": "Gets information about user from funstat.\nBefore using unblock @Accstat_bot",
+        "commands": [
+            {
+                "name": "fstat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<user> | Получить информацию.",
+                    "doc": "<user> | Get info."
+                }
+            }
+        ],
+        "name": "Accstat",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/accstat.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Пишет ASCII шрифтом",
         "commands": [
             {
