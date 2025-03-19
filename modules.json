@@ -24085,29 +24085,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/Dorotoro01code.png",
-        "description": "Ваш персональный шифратор в двоичный код.",
-        "commands": [
-            {
-                "name": "codeit",
-                "inline": false,
-                "description": {
-                    "doc": "<текст, который необходимо зашифровать> - шифрует ваш текст в двоичный код."
-                }
-            },
-            {
-                "name": "decode",
-                "inline": false,
-                "description": {
-                    "doc": "<код, который необходимо дешифровать> - дешифрует двоичный код."
-                }
-            }
-        ],
-        "name": "01code",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dorotorothequickend/DorotoroModules/01code.py"
-    },
-    {
-        "author": "@DorotoroMods",
         "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroAccountDeleter.png",
         "commands": [
             {
@@ -24120,22 +24097,6 @@
         ],
         "name": "AccountDeleter",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dorotorothequickend/DorotoroModules/AccountDeleter.py"
-    },
-    {
-        "author": "@DorotoroMods",
-        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroAutoEdit.png",
-        "description": "Редактирует каждое ваше сообщение в определенное время на выбранный вами текст.\nНастройка через .config AutoEdit",
-        "commands": [
-            {
-                "name": "autoedit",
-                "inline": false,
-                "description": {
-                    "doc": "- включить/выключить AutoEdit."
-                }
-            }
-        ],
-        "name": "AutoEdit",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dorotorothequickend/DorotoroModules/AutoEdit.py"
     },
     {
         "author": "@DorotoroMods & @AstroModules",
