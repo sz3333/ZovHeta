@@ -31299,7 +31299,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
     },
     {
-        "author": "@mead0ws_modules",
+        "author": "@mead0wssMods",
         "banner": "https://x0.at/Hu25.jpg",
         "description": "Модуль для получения информации о своем профиле FACEIT\nАвтор: @mead0ws_modules",
         "commands": [
