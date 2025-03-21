@@ -1851,6 +1851,62 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Manages tasks with Telegram commands and inline keyboards.",
+        "commands": [
+            {
+                "name": "taskadd",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавить задачу:\n.taskadd <описание> | <дата (необязательно)>",
+                    "en_doc": "Add task:\n.taskadd <description> | <date (opt)>"
+                }
+            },
+            {
+                "name": "taskremove",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[index] - удалить задачу",
+                    "en_doc": "[index] - remove task"
+                }
+            },
+            {
+                "name": "taskcomplete",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[index] - Завершите задачу",
+                    "en_doc": "[index] - Complete task"
+                }
+            },
+            {
+                "name": "tasklist",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Список задач",
+                    "en_doc": "List tasks"
+                }
+            },
+            {
+                "name": "taskinfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[index] - Посмотреть информацию о задаче",
+                    "en_doc": "[index] - Show task info"
+                }
+            },
+            {
+                "name": "taskclear",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить все задачи",
+                    "en_doc": "Clear all tasks"
+                }
+            }
+        ],
+        "name": "TaskManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/TaskManager.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Dictionary of telegram status codes",
         "commands": [
             {
