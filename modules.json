@@ -5838,7 +5838,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/пон_вахуи.py"
     },
     {
-        "author": "@ElonKuska",
+        "author": "@ElonModules",
         "description": "Модуль для получения информации о профиле игрока DDraceNetwork и KOG",
         "commands": [
             {
