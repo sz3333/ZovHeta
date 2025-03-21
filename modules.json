@@ -5838,6 +5838,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/пон_вахуи.py"
     },
     {
+        "author": "@ElonKuska",
+        "description": "Модуль для получения информации о профиле игрока DDraceNetwork и KOG",
+        "commands": [
+            {
+                "name": "ddnet",
+                "inline": false,
+                "description": {
+                    "doc": "Получить информацию о профиле игрока DDraceNetwork"
+                }
+            },
+            {
+                "name": "kog",
+                "inline": false,
+                "description": {
+                    "doc": "Получить информацию о профиле игрока KOG"
+                }
+            }
+        ],
+        "name": "DDNet player info",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ElonKuska/ElonModules/Modules/DDNet_player_info/DDNet_Player_Info.py"
+    },
+    {
         "author": "@Enceth",
         "description": "Модуль для автоматической рассылки сообщений",
         "commands": [
