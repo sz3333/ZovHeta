@@ -20742,6 +20742,7 @@
             }
         ],
         "name": "ScheduledMessagesPlus",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/SchedulePlus.py"
     },
     {
