@@ -31417,6 +31417,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/MyFACEIT.py"
     },
     {
+        "author": "@mead0wssMods",
+        "banner": "https://x0.at/N3nB.jpg",
+        "description": "Модуль для игры в Русскую рулетку. При поражении выкидывает с чата.",
+        "commands": [
+            {
+                "name": "roulette",
+                "inline": false,
+                "description": {
+                    "doc": "Начать игру в Русскую рулетку"
+                }
+            }
+        ],
+        "name": "Roulette",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/RussianRoulette.py"
+    },
+    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
