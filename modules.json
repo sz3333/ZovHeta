@@ -31434,6 +31434,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/RussianRoulette.py"
     },
     {
+        "author": "@mead0wssMods",
+        "banner": "https://x0.at/B0ze.png",
+        "description": "Модуль для получения информации о пользователях Steam.",
+        "commands": [
+            {
+                "name": "steamprofile",
+                "inline": false,
+                "description": {
+                    "doc": "Получить информацию об пользователе Steam."
+                }
+            }
+        ],
+        "name": "Steam Profile",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/SteamProfile.py"
+    },
+    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
