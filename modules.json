@@ -31384,6 +31384,65 @@
     },
     {
         "author": "@mead0wssMods",
+        "banner": "https://x0.at/yCcx.jpg",
+        "description": "Модуль для автоматического форматирования вашего текста в чате.",
+        "commands": [
+            {
+                "name": "bold",
+                "inline": false,
+                "description": {
+                    "doc": "Включает или отключает жирный текст."
+                }
+            },
+            {
+                "name": "italic",
+                "inline": false,
+                "description": {
+                    "doc": "Включает или отключает курсив."
+                }
+            },
+            {
+                "name": "mono",
+                "inline": false,
+                "description": {
+                    "doc": "Включает или отключает моноширинный текст."
+                }
+            },
+            {
+                "name": "underline",
+                "inline": false,
+                "description": {
+                    "doc": "Включает или отключает подчеркивание."
+                }
+            },
+            {
+                "name": "strikethrough",
+                "inline": false,
+                "description": {
+                    "doc": "Включает или отключает зачеркивание."
+                }
+            },
+            {
+                "name": "off",
+                "inline": false,
+                "description": {
+                    "doc": "Отключает все стили."
+                }
+            },
+            {
+                "name": "on",
+                "inline": false,
+                "description": {
+                    "doc": "Включает стиль по умолчанию (жирный текст)."
+                }
+            }
+        ],
+        "name": "AutoFormatting",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/AutoFormatting.py"
+    },
+    {
+        "author": "@mead0wssMods",
         "banner": "https://x0.at/eoIh.jpg",
         "description": "Модуль для работы с GPT",
         "commands": [
