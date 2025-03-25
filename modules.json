@@ -34400,14 +34400,6 @@
                 }
             },
             {
-                "name": "steal",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<id> <nobot: OPTIONAL> | Добавляет людей и ботов с чата в чат.",
-                    "doc": "<id> <nobot: OPTIONAL> | Adds people from the chat to the chat."
-                }
-            },
-            {
                 "name": "users",
                 "inline": false,
                 "description": {
