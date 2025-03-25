@@ -31444,13 +31444,13 @@
     {
         "author": "@mead0wssMods",
         "banner": "https://x0.at/eoIh.jpg",
-        "description": "Модуль для работы с GPT",
+        "description": "Модуль для работы с нейросетями (ChatGPT)",
         "commands": [
             {
                 "name": "gpt",
                 "inline": false,
                 "description": {
-                    "doc": "Модуль для работы с ChatGPT прямо в Telegram. \nАвтор: @mead0ws_modules"
+                    "doc": "Модуль для работы с ChatGPT прямо в Telegram."
                 }
             }
         ],
@@ -31461,7 +31461,7 @@
     {
         "author": "@mead0wssMods",
         "banner": "https://x0.at/Hu25.jpg",
-        "description": "Модуль для получения информации о своем профиле FACEIT\nАвтор: @mead0ws_modules",
+        "description": "Модуль для получения информации о своем профиле FACEIT",
         "commands": [
             {
                 "name": "myfaceit",
