@@ -13128,6 +13128,28 @@
     },
     {
         "author": "@kotcheat",
+        "description": "Загружает изображения на imgbb.com ( by @kotcheat )",
+        "commands": [
+            {
+                "name": "apikey",
+                "inline": false,
+                "description": {
+                    "doc": "<ключ> - Установить API ключ для imgbb.com"
+                }
+            },
+            {
+                "name": "imgbb",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на изображение] - Загрузить изображение на imgbb.com"
+                }
+            }
+        ],
+        "name": "KOTimgbb",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KOTmodules/FREEmodules/KOTimgbb.py"
+    },
+    {
+        "author": "@kotcheat",
         "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
         "commands": [
             {
