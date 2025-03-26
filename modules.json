@@ -32920,6 +32920,14 @@
                     "ru_doc": "[модуль] [язык] [ключ] [значение] - Изменить перевод",
                     "doc": "[mod] [lang] [key] [val] - Set translation"
                 }
+            },
+            {
+                "name": "trdel",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[модуль] [язык] [ключ] - Удалить кастомный перевод",
+                    "doc": "[mod] [lang] [key] - Delete custom translation"
+                }
             }
         ],
         "name": "TranslationManager",
