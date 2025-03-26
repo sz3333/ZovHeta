@@ -32902,6 +32902,31 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/translation_manager.png?raw=true",
+        "description": "Module for managing external modules translations",
+        "commands": [
+            {
+                "name": "trget",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[модуль] [язык] [ключ] - Получить перевод",
+                    "doc": "[mod] [lang] [key] - Get current translation"
+                }
+            },
+            {
+                "name": "trset",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[модуль] [язык] [ключ] [значение] - Изменить перевод",
+                    "doc": "[mod] [lang] [key] [val] - Set translation"
+                }
+            }
+        ],
+        "name": "TranslationManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/translation_manager.py"
+    },
+    {
+        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/triggers.png?raw=true",
         "description": "Triggers watch chat messages and can do anything, reply to a message with a given text, delete a message, execute any userbot command. Overall, a very cool module",
         "commands": [
