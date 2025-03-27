@@ -31472,6 +31472,30 @@
     },
     {
         "author": "@mead0wssMods",
+        "banner": "https://x0.at/GGCl.png",
+        "description": "Модуль для работы с нейросетями (200+ шт) и генерацией изображений.",
+        "commands": [
+            {
+                "name": "gpt",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для разговора с ИИ."
+                }
+            },
+            {
+                "name": "image",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для генерации изображений с помощью ИИ."
+                }
+            }
+        ],
+        "name": "ChatGPT",
+        "version": "2.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
+    },
+    {
+        "author": "@mead0wssMods",
         "banner": "https://x0.at/Hu25.jpg",
         "description": "Модуль для получения информации о своем профиле FACEIT",
         "commands": [
