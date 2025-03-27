@@ -6917,6 +6917,13 @@
                 }
             },
             {
+                "name": "spbiochannel",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить стрим текущего трека в канале в био"
+                }
+            },
+            {
                 "name": "splike",
                 "inline": false,
                 "description": {
@@ -31465,47 +31472,6 @@
     },
     {
         "author": "@mead0wssMods",
-        "banner": "https://x0.at/eoIh.jpg",
-        "description": "Модуль для работы с нейросетями (ChatGPT)",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": "Модуль для работы с ChatGPT прямо в Telegram."
-                }
-            }
-        ],
-        "name": "CablyAI",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/CablyAI.py"
-    },
-    {
-        "author": "@mead0wssMods",
-        "banner": "https://x0.at/GGCl.png",
-        "description": "Модуль для работы с нейросетями (200+ шт) и генерацией изображений.",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": "Команда для разговора с ИИ."
-                }
-            },
-            {
-                "name": "image",
-                "inline": false,
-                "description": {
-                    "doc": "Команда для генерации изображений с помощью ИИ."
-                }
-            }
-        ],
-        "name": "ChatGPT",
-        "version": "2.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
-    },
-    {
-        "author": "@mead0wssMods",
         "banner": "https://x0.at/Hu25.jpg",
         "description": "Модуль для получения информации о своем профиле FACEIT",
         "commands": [
@@ -34644,28 +34610,6 @@
         ],
         "name": "MentionNotifier",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/MentionNotifier.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Profile Photo Repeater Module",
-        "commands": [
-            {
-                "name": "pfp",
-                "inline": false,
-                "description": {
-                    "doc": "Start repeating profile photo"
-                }
-            },
-            {
-                "name": "pfpstop",
-                "inline": false,
-                "description": {
-                    "doc": "Stop repeating profile photo"
-                }
-            }
-        ],
-        "name": "PfpRepeater",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/PfpRepeater.py"
     },
     {
         "author": "@xdesai",
