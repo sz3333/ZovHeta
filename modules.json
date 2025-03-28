@@ -34548,6 +34548,21 @@
         "author": "@xdesai",
         "commands": [
             {
+                "name": "rights",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply/username/id> | Проверить права в текущем чате.",
+                    "doc": "<reply/username/id> | Check rights in the current chat."
+                }
+            }
+        ],
+        "name": "CheckAdminRights",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/CheckAdminRights.py"
+    },
+    {
+        "author": "@xdesai",
+        "commands": [
+            {
                 "name": "ipi",
                 "inline": false,
                 "description": {
