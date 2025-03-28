@@ -17858,6 +17858,21 @@
     },
     {
         "author": "@kshmods",
+        "description": "creates a file from a reply or text",
+        "commands": [
+            {
+                "name": "cfile",
+                "inline": false,
+                "description": {
+                    "doc": "— <reply/text> create file."
+                }
+            }
+        ],
+        "name": "C File",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/cfile.py"
+    },
+    {
+        "author": "@kshmods",
         "description": "Encryption Module",
         "commands": [
             {
