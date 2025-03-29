@@ -31689,55 +31689,55 @@
     },
     {
         "author": "@psyho_Kuznetsov",
-        "description": "+18 module!!!!!",
+        "description": "+18 модуль!!!!!",
         "commands": [
             {
                 "name": "gayvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random gay video"
+                    "doc": "Отправляет случайное гей видео"
                 }
             },
             {
                 "name": "randomvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random 18+ video"
+                    "doc": "Отправляет случайное 18+ видео"
                 }
             },
             {
                 "name": "hentaivideo",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random hentai video"
+                    "doc": "Отправляет случайное хентай видео"
                 }
             },
             {
                 "name": "hentaiphoto",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random hentai photo"
+                    "doc": "Отправляет случайное хентай фото"
                 }
             },
             {
                 "name": "pornvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random porn video"
+                    "doc": "Отправляет случайное порно видео"
                 }
             },
             {
                 "name": "lesbianvideo",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random lesbian video"
+                    "doc": "Отправляет случайное лесбийское видео"
                 }
             },
             {
                 "name": "randommedia",
                 "inline": false,
                 "description": {
-                    "doc": "Sends a random video or photo from all categories"
+                    "doc": "Отправляет случайное видео или фото из всех категорий"
                 }
             }
         ],
