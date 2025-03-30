@@ -34681,6 +34681,37 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/SecretM.py"
     },
     {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/todo.jpg",
+        "pic": "https://img.icons8.com/stickers/500/000000/todo-list.png",
+        "description": "ToDo List",
+        "commands": [
+            {
+                "name": "td",
+                "inline": false,
+                "description": {
+                    "doc": "[importance:int] <item> - Add task"
+                }
+            },
+            {
+                "name": "tdl",
+                "inline": false,
+                "description": {
+                    "doc": "Show active tasks"
+                }
+            },
+            {
+                "name": "utd",
+                "inline": false,
+                "description": {
+                    "doc": "<id> - Remove task from todo"
+                }
+            }
+        ],
+        "name": "ToDo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/ToDo.py"
+    },
+    {
         "author": "@xdesai",
         "description": "A module for parsing URLs.",
         "commands": [
