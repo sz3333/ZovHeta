@@ -367,7 +367,10 @@ class FHeta(loader.Module):
                 "language": self.strings['language'][:-4],
                 "modules": moduliki
             }
-            requests.post(url, headers=headers, params=params, timeout=10)
+            try:
+                requests.post(url, headers=headers, params=params, timeout=10)
+            except:
+                None
             await asyncio.sleep(10)
             
     async def on_dlmod(self, client, db):    
