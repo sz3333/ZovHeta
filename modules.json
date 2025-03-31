@@ -20704,24 +20704,10 @@
         "description": "Automatization module for @GIFgarem_bot",
         "commands": [
             {
-                "name": "catchGH",
+                "name": "GifMenu",
                 "inline": false,
                 "description": {
-                    "doc": "Переключить режим ловли. Вывод арта украденной вайфу в лс бота"
-                }
-            },
-            {
-                "name": "catchGH_output",
-                "inline": false,
-                "description": {
-                    "doc": "Переключить вывод арта украденной вайфу."
-                }
-            },
-            {
-                "name": "autobonusGH",
-                "inline": false,
-                "description": {
-                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                    "doc": "Меню конфигурации"
                 }
             },
             {
@@ -20733,7 +20719,7 @@
             }
         ],
         "name": "GifHarem",
-        "version": "1.0.5",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/GifHarem.py"
     },
     {
@@ -20741,24 +20727,10 @@
         "description": "Automatization module for @Horny_GaremBot",
         "commands": [
             {
-                "name": "catchW",
+                "name": "HornyMenu",
                 "inline": false,
                 "description": {
-                    "doc": "Переключить режим ловли. Вывод арта украденной вайфу в лс бота"
-                }
-            },
-            {
-                "name": "catchW_output",
-                "inline": false,
-                "description": {
-                    "doc": "Переключить вывод арта украденной вайфу."
-                }
-            },
-            {
-                "name": "autobonusW",
-                "inline": false,
-                "description": {
-                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                    "doc": "Меню конфигурации"
                 }
             },
             {
@@ -20770,7 +20742,7 @@
             }
         ],
         "name": "HornyHarem",
-        "version": "1.3.5",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
     },
     {
@@ -20794,10 +20766,10 @@
         "description": "Automatization module for @garem_chatbot",
         "commands": [
             {
-                "name": "autobonusWH",
+                "name": "WaifuMenu",
                 "inline": false,
                 "description": {
-                    "doc": "Автоматически собирает бонус(а также бонус за подписку и отыгрывает 3 игры в /lout) каждые 4 часа"
+                    "doc": "Меню конфигурации"
                 }
             },
             {
@@ -20809,7 +20781,7 @@
             }
         ],
         "name": "WaifuHarem",
-        "version": "1.2.3",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
