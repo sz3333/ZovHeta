@@ -34547,6 +34547,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/CheckAdminRights.py"
     },
     {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/fancyfonts.jpg",
+        "pic": "https://static.dan.tatar/fancy_fonts_icon.png",
+        "description": "Create fancy font text with more than 10 styles available",
+        "commands": [
+            {
+                "name": "ffont",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - Create the fancy version of text"
+                }
+            }
+        ],
+        "name": "FancyFonts",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/FancyFonts.py"
+    },
+    {
         "author": "@xdesai",
         "commands": [
             {
