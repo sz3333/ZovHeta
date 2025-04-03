@@ -11610,18 +11610,25 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Module for Cleaning Up Deleted Accounts in Chat",
+        "description": "Модуль для очистки удаленных аккаунтов в чате",
         "commands": [
             {
                 "name": "delete",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет удалённые аккаунты из чата"
+                    "doc": "Удаляет удаленные аккаунты из чата"
+                }
+            },
+            {
+                "name": "delmsg",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет сообщения от удаленных аккаунтов из чата"
                 }
             }
         ],
         "name": "Del",
-        "version": "1.0.0",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Del.py"
     },
     {
@@ -20624,6 +20631,62 @@
         "name": "IrisPM",
         "version": "2.2.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/IrisPM/IrisPM.py"
+    },
+    {
+        "author": "@ManulMods",
+        "description": "Автоматические ответы с управлением",
+        "commands": [
+            {
+                "name": "aa",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ключ>\\n<ответ> - Добавить автоответ",
+                    "doc": "Добавить автоответ"
+                }
+            },
+            {
+                "name": "ar",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ключ> - Удалить автоответ",
+                    "doc": "Удалить автоответ"
+                }
+            },
+            {
+                "name": "al",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать все автоответы",
+                    "doc": "Список автоответов"
+                }
+            },
+            {
+                "name": "aatoggle",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить глобально",
+                    "doc": "Вкл/выкл Глобального управления"
+                }
+            },
+            {
+                "name": "aaon",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить в текущем чате",
+                    "doc": "Вкл автоответы в чате"
+                }
+            },
+            {
+                "name": "aaoff",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выключить в текущем чате",
+                    "doc": "Выкл автоответы в чате"
+                }
+            }
+        ],
+        "name": "AutoResponder",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/AutoResponser.py"
     },
     {
         "author": "@YA_ManuI",
