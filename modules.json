@@ -18340,6 +18340,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/checkmodule.py"
     },
     {
+        "author": "@RUIS_VlP",
+        "description": "Помогает сократить ссылку в clck.ru или расшифровать укороченную ссылку.",
+        "commands": [
+            {
+                "name": "schort",
+                "inline": false,
+                "description": {
+                    "doc": "<url> - сократит ссылку."
+                }
+            },
+            {
+                "name": "deschort",
+                "inline": false,
+                "description": {
+                    "doc": "<url> - расшифрует ссылку."
+                }
+            }
+        ],
+        "name": "ClckRu",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/clck.py"
+    },
+    {
         "author": "@RUIS_VlP, @matubuntu",
         "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
         "commands": [
