@@ -2067,6 +2067,22 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Provides you Windows activation keys",
+        "commands": [
+            {
+                "name": "winkey",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Открывает выбор ключа для активации Windows",
+                    "en_doc": "Opens the Windows activation key selection"
+                }
+            }
+        ],
+        "name": "WindowsKeys",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/WindowsKeys.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Random cats and dogs",
         "commands": [
             {
