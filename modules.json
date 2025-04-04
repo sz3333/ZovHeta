@@ -21351,24 +21351,6 @@
         "author": "@apodiktum_modules",
         "banner": "https://t.me/apodiktum_dumpster/11",
         "pic": "https://t.me/apodiktum_dumpster/13",
-        "description": "This module deletes error messages which have defined text in it.",
-        "commands": [
-            {
-                "name": "cautodelerror",
-                "inline": false,
-                "description": {
-                    "doc": "This will open the config for the module."
-                }
-            }
-        ],
-        "name": "Apo-AutoDelError",
-        "version": "0.0.4",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/auto_delerror.py"
-    },
-    {
-        "author": "@apodiktum_modules",
-        "banner": "https://t.me/apodiktum_dumpster/11",
-        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Automatically update your Hikka Userbot",
         "commands": [
             {
