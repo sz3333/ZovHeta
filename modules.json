@@ -35612,6 +35612,24 @@
     },
     {
         "author": "@yg_modules",
+        "description": "Module to cheat score in @gamee",
+        "commands": [
+            {
+                "name": "gamee",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply/link to message with game> <score> <time in seconds> - накрутить рекорд",
+                    "ua_doc": "<reply/link to message with game> <score> <time in seconds> - накрутити рекорд",
+                    "doc": "<reply/link to message with game> <score> <time in seconds> - cheat score"
+                }
+            }
+        ],
+        "name": "yg_gamee",
+        "version": "1.5.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_gamee.py"
+    },
+    {
+        "author": "@yg_modules",
         "description": "Модуль для общения с Gemini AI",
         "commands": [
             {
