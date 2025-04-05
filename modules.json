@@ -20802,6 +20802,29 @@
     },
     {
         "author": "@nullmod",
+        "description": "Шахматы для игры вдвоём.",
+        "commands": [
+            {
+                "name": "chess",
+                "inline": false,
+                "description": {
+                    "doc": "[reply/username/id] предложить человеку сыграть партию в чате"
+                }
+            },
+            {
+                "name": "purgeGame",
+                "inline": false,
+                "description": {
+                    "doc": "Грубо завершить партию, очистив ВСЕ связанные с ней данные"
+                }
+            }
+        ],
+        "name": "Chess",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/Chess.py"
+    },
+    {
+        "author": "@nullmod",
         "description": "Automatization module for @GIFgarem_bot",
         "commands": [
             {
