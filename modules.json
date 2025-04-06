@@ -20727,6 +20727,35 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/AutoResponser.py"
     },
     {
+        "author": "@ManulMods",
+        "description": "Модуль для просмотра и конвертации валют (USD, RUB, EUR, TON)",
+        "commands": [
+            {
+                "name": "kurs",
+                "inline": false,
+                "description": {
+                    "doc": "Показать текущие курсы валют"
+                }
+            },
+            {
+                "name": "convert",
+                "inline": false,
+                "description": {
+                    "doc": "Конвертировать валюту"
+                }
+            },
+            {
+                "name": "updatekurs",
+                "inline": false,
+                "description": {
+                    "doc": "Обновить курсы валют вручную"
+                }
+            }
+        ],
+        "name": "CurrencyConverter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/CurrencyConverter.py"
+    },
+    {
         "author": "@YA_ManuI",
         "description": "Генератор безопасных паролей",
         "commands": [
