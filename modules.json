@@ -19658,6 +19658,22 @@
     },
     {
         "author": "@kmodules",
+        "description": "Модуль позволяет пересылать сообщение из канала, где это запрещено.",
+        "commands": [
+            {
+                "name": "gpm",
+                "inline": false,
+                "description": {
+                    "doc": "<ссылка: https://t.me/канал/номер_поста> Переслать сообщения из канала, где запрещено."
+                }
+            }
+        ],
+        "name": "GPMTool",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/gpmtool.py"
+    },
+    {
+        "author": "@kmodules",
         "description": "Модуль для проверки насколько вы ...",
         "commands": [
             {
