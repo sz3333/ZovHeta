@@ -34996,6 +34996,22 @@
     },
     {
         "author": "@xdesai",
+        "description": "Module to check and clean the database\nBe careful while using this module!",
+        "commands": [
+            {
+                "name": "mydb",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Посмотреть модуль в базе данных",
+                    "doc": "Check the info of the modules"
+                }
+            }
+        ],
+        "name": "DBMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/managedb.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Module to create a list of users.",
         "commands": [
             {
