@@ -20744,7 +20744,7 @@
     },
     {
         "author": "@ManulMods",
-        "description": "Модуль для просмотра и конвертации валют (USD, RUB, EUR, TON)",
+        "description": "Модуль для просмотра и конвертации валют (USD, RUB, EUR, UAH, KZT, CNY, TON)",
         "commands": [
             {
                 "name": "kurs",
