@@ -36201,6 +36201,38 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_xxx.py"
     },
     {
+        "author": "@zelenogoloviy_m",
+        "description": "module for short urls in So.su",
+        "commands": [
+            {
+                "name": "short",
+                "inline": false,
+                "description": {
+                    "doc": "short the url \n.short <https://your.link>"
+                }
+            }
+        ],
+        "name": "SoSuShortener",
+        "version": "0.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zelenogoloviy/hikka-modules/SoSuShortener.py"
+    },
+    {
+        "author": "@zelenogoloviy_m",
+        "description": "z",
+        "commands": [
+            {
+                "name": "z",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Z",
+                    "doc": "Z"
+                }
+            }
+        ],
+        "name": "Z",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zelenogoloviy/hikka-modules/Z.py"
+    },
+    {
         "author": "@zolotarevxc",
         "banner": "https://mods.whypodg.me/badges/faqmodule.jpg",
         "pic": "https://static.whypodg.me/mods!faqmodule.png",
