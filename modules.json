@@ -22890,6 +22890,30 @@
     },
     {
         "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/passwordgen.png",
+        "pic": "https://envs.sh/Lmn.webp",
+        "description": "Generate password",
+        "commands": [
+            {
+                "name": "pass",
+                "inline": false,
+                "description": {
+                    "doc": "| Generate password from utils"
+                }
+            },
+            {
+                "name": "passg",
+                "inline": false,
+                "description": {
+                    "doc": "| Generate password from string"
+                }
+            }
+        ],
+        "name": "PassGen",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/passwordgen.py"
+    },
+    {
+        "author": "@codrago_m",
         "banner": "https://mods.codrago.top/banners/pinterest.png",
         "pic": "https://0x0.st/s/PRHLZJFYjFlRZEOaVcaopw/8KP6.webp",
         "description": "Gives a link to download a file from Pinterest",
@@ -31321,6 +31345,21 @@
         ],
         "name": "RandomAnimePic",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/RandomAnimePic.py"
+    },
+    {
+        "author": "@aki_modules",
+        "commands": [
+            {
+                "name": "search",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[запрос] - получить ссылку на поисковую систему с указанным запросом. (Указать поисковую систему можно через .cfg Search)",
+                    "doc": "[query] - get link to search engine with your query. (You can specify search engine via .cfg Search)"
+                }
+            }
+        ],
+        "name": "Search",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/Search.py"
     },
     {
         "author": "@aki_modules",
