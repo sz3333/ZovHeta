@@ -1770,6 +1770,43 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/Memes.py"
     },
     {
+        "author": "@hikka_mods and @Frost_Shard",
+        "description": "Модуль для автофарма в \"Коровке\"!\nВ конфиге настройте: сhat_id и bot_id ->\nСинхронизируйте скин в меню ->\nЗарегистрируйтесь на Redis.io и ссылку добавьте в конфиг",
+        "commands": [
+            {
+                "name": "fmoo",
+                "inline": false,
+                "description": {
+                    "doc": "Инлайн-меню управления автофармом"
+                }
+            },
+            {
+                "name": "auto_eating",
+                "inline": false,
+                "description": {
+                    "doc": "Автоматически кормит персонажа, если уровень еды ниже 70%"
+                }
+            },
+            {
+                "name": "auto_craft_txt",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для автоматической работы авто-крафта"
+                }
+            },
+            {
+                "name": "auto_forest_txt",
+                "inline": false,
+                "description": {
+                    "doc": "Команда для автоматической работы авто-леса"
+                }
+            }
+        ],
+        "name": "AutoFarmbot",
+        "version": "0.1.4.10",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/MooFarmRC1.py"
+    },
+    {
         "author": "@hikka_mods",
         "commands": [
             {
