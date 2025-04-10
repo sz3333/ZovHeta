@@ -2032,6 +2032,21 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "A module for checking modules for security.",
+        "commands": [
+            {
+                "name": "checkmod",
+                "inline": false,
+                "description": {
+                    "doc": "[module_link] или [reply file] или [send file] - выполняет проверку модуля на безопасность."
+                }
+            }
+        ],
+        "name": "UserbotAvast",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/UserbotAvast.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Converts video to GIF",
         "commands": [
             {
