@@ -20902,7 +20902,7 @@
             }
         ],
         "name": "Chess",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/Chess.py"
     },
     {
