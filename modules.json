@@ -23175,6 +23175,21 @@
     },
     {
         "author": "@codermasochist",
+        "description": "Создает ссылку на оплату TON. by @codermasochist",
+        "commands": [
+            {
+                "name": "dton",
+                "inline": false,
+                "description": {
+                    "doc": "— текст / сумма / коммент"
+                }
+            }
+        ],
+        "name": "TonDonate",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/TonDonate.py"
+    },
+    {
+        "author": "@codermasochist",
         "description": "качает видео через ботов.\nскачивает: Pinterest, Instagram, TikTok & YouTube.",
         "commands": [
             {
