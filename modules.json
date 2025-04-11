@@ -11568,6 +11568,137 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/versteck.py"
     },
     {
+        "author": "@Goduser18",
+        "description": "Генератор паролей",
+        "commands": [
+            {
+                "name": "genpwd",
+                "inline": false,
+                "description": {
+                    "doc": "Сгенерировать пароль для сайта"
+                }
+            },
+            {
+                "name": "genpwdN",
+                "inline": false,
+                "description": {
+                    "doc": "Сгенерировать случайный пароль без привязки к сайту"
+                }
+            },
+            {
+                "name": "listpwd",
+                "inline": false,
+                "description": {
+                    "doc": "Показать все сохранённые пароли с ссылками"
+                }
+            },
+            {
+                "name": "delpwd",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить пароль для сайта"
+                }
+            }
+        ],
+        "name": "PassGen",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/PassGen.py"
+    },
+    {
+        "author": "@goduser18",
+        "description": "ChatGPT",
+        "commands": [
+            {
+                "name": "on_gpt",
+                "inline": false,
+                "description": {
+                    "doc": "Включить GPT в этом чате"
+                }
+            },
+            {
+                "name": "off_gpt",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить GPT в этом чате"
+                }
+            }
+        ],
+        "name": "GPTCHAT",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/chatgpt.py"
+    },
+    {
+        "author": "@goduser18",
+        "commands": [
+            {
+                "name": "start",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "stop",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "list",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "spamtime",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/spamtime.py"
+    },
+    {
+        "author": "@goduser18",
+        "description": "SSH клиент для выполнения команд на удалённых серверах",
+        "commands": [
+            {
+                "name": "key",
+                "inline": false,
+                "description": {
+                    "doc": "ключ(ответ на файл приватный"
+                }
+            },
+            {
+                "name": "passwd",
+                "inline": false,
+                "description": {
+                    "doc": "Пароль ответ еа сообщение с паролям"
+                }
+            },
+            {
+                "name": "komad",
+                "inline": false,
+                "description": {
+                    "doc": "Выполнить команду\nПример: .komad ls -la /home"
+                }
+            }
+        ],
+        "name": "SSHClient",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/ssh.py"
+    },
+    {
+        "author": "@goduser18",
+        "description": "Получение UserID и ChatID",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Получить UserID (ответ на сообщение или @username)"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Получить ChatID"
+                }
+            }
+        ],
+        "name": "GetIDs",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/userid.py"
+    },
+    {
         "author": "@HikkTutor",
         "description": "Модуль для создания ASCII артов из фото, стикеров и текста",
         "commands": [
