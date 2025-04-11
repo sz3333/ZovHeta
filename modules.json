@@ -34290,6 +34290,22 @@
     },
     {
         "author": "@wmodules",
+        "description": "Чтение файла из реплая",
+        "commands": [
+            {
+                "name": "rf",
+                "inline": false,
+                "description": {
+                    "doc": "загрузить и прочитать файл."
+                }
+            }
+        ],
+        "name": "ReadFile",
+        "version": "1.0.9",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/readfile.py"
+    },
+    {
+        "author": "@wmodules",
         "description": "Гибкий спам-модуль.",
         "commands": [
             {
