@@ -34194,6 +34194,22 @@
     },
     {
         "author": "@wmodules",
+        "description": "Изиеняет кодировки файлов",
+        "commands": [
+            {
+                "name": "chenc",
+                "inline": false,
+                "description": {
+                    "doc": "<новая кодировка> - изменить кодировку файла."
+                }
+            }
+        ],
+        "name": "FileEnc",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/chenc.py"
+    },
+    {
+        "author": "@wmodules",
         "description": "Модуль для удаления твоих сообщений в указанном чате или текущем чате (не используй для удаления слишком много).",
         "commands": [
             {
