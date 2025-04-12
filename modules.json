@@ -11604,6 +11604,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/PassGen.py"
     },
     {
+        "author": "@Goduser18",
+        "commands": [
+            {
+                "name": "vgo",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "VoiceToText",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/VoiceToTEXT.py"
+    },
+    {
         "author": "@goduser18",
         "description": "ChatGPT",
         "commands": [
