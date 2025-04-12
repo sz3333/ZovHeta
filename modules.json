@@ -34401,6 +34401,29 @@
     },
     {
         "author": "@wmodules",
+        "description": "Модуль для получения ID пользователей или чатов",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "получить ID пользователя"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "получить ID текущего чата"
+                }
+            }
+        ],
+        "name": "ID",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/id.py"
+    },
+    {
+        "author": "@wmodules",
         "description": "Модуль для отправки сообщения ирису и получения ответа.",
         "commands": [
             {
@@ -34547,7 +34570,7 @@
                 "name": "wordbywordstop",
                 "inline": false,
                 "description": {
-                    "doc": "Остановить все анимации"
+                    "doc": "остановить все анимации"
                 }
             }
         ],
