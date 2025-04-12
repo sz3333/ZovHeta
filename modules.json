@@ -34518,6 +34518,22 @@
     },
     {
         "author": "@wmodules",
+        "description": "Проверка скорости интернета на сервере.",
+        "commands": [
+            {
+                "name": "speedtest",
+                "inline": false,
+                "description": {
+                    "doc": "проверить скорость интернета"
+                }
+            }
+        ],
+        "name": "SpeedTest",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/speedtest.py"
+    },
+    {
+        "author": "@wmodules",
         "description": "Анимация текста по словам",
         "commands": [
             {
@@ -35284,6 +35300,22 @@
         ],
         "name": "EncDec",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/encmod.py"
+    },
+    {
+        "author": "@xdesai",
+        "description": "Module to check the ids",
+        "commands": [
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Посмотреть ID",
+                    "doc": "See the IDs"
+                }
+            }
+        ],
+        "name": "ID",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/id.py"
     },
     {
         "author": "@xdesai",
