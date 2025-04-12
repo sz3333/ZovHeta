@@ -34347,7 +34347,7 @@
                 }
             }
         ],
-        "name": "FileEnc",
+        "name": "ChEnc",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/chenc.py"
     },
