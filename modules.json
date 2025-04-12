@@ -34517,6 +34517,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/spamcheck.py"
     },
     {
+        "author": "@wmodules",
+        "description": "Анимация текста по словам",
+        "commands": [
+            {
+                "name": "wordbyword",
+                "inline": false,
+                "description": {
+                    "doc": "<задержка в ms> \"текст\" - анимировать текст по словам"
+                }
+            },
+            {
+                "name": "wordbywordstop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить все анимации"
+                }
+            }
+        ],
+        "name": "WordByWord",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/wordbyword.py"
+    },
+    {
         "author": "@xdesai",
         "description": "Модуль для админов чатов\nMade by Desai",
         "commands": [
