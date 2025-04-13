@@ -11653,6 +11653,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/chatgpt.py"
     },
     {
+        "author": "@Goduser18",
+        "description": "Создать QR-code",
+        "commands": [
+            {
+                "name": "qr",
+                "inline": false,
+                "description": {
+                    "doc": "Создать QR-код. Используй: .qr <текст/ссылка>"
+                }
+            }
+        ],
+        "name": "QRCode",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/qr.py"
+    },
+    {
         "author": "@goduser18",
         "commands": [
             {
