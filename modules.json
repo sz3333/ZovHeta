@@ -32025,6 +32025,41 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/SteamProfile.py"
     },
     {
+        "author": "@hmodule",
+        "description": "Модуль для взаимодействия с ИИ моделями через g4f с памятью",
+        "commands": [
+            {
+                "name": "ai",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<модель> - Установить модель ИИ (gemini, deepseek, claude)",
+                    "en_doc": "<model_alias> - Set the AI model (gemini, deepseek, claude)",
+                    "doc": "Set the AI model"
+                }
+            },
+            {
+                "name": "ask",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<запрос> - Задать вопрос выбранной модели ИИ (с учетом истории)",
+                    "en_doc": "<query> - Ask a question to the configured AI model (with history)",
+                    "doc": "Ask the AI a question, maintaining chat history"
+                }
+            },
+            {
+                "name": "clearchat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очистить память ИИ для текущего чата",
+                    "en_doc": "Clear the AI memory for the current chat",
+                    "doc": "Clears the AI's conversation history for the current chat."
+                }
+            }
+        ],
+        "name": "G4fAsk",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mlwre-off/hikka_modules/ai.py"
+    },
+    {
         "author": "@murpiz",
         "description": "Модуль для Яндекс.Музыки. Основан на YmNow от vsecoder (@vsecoder_m). Создатель: @murpiz [BETA]",
         "commands": [
