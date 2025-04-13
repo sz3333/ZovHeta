@@ -31832,6 +31832,50 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/RandomTT.py"
     },
     {
+        "author": "@llocJlednuy_cepafum, @ManulMods",
+        "description": "- нᴀстᴘойкᴀ конфидᴇнциᴀльности в ᴛᴇʟᴇɢʀᴀᴍ",
+        "commands": [
+            {
+                "name": "setbio",
+                "inline": false,
+                "description": {
+                    "doc": "<текст> - измᴇнить ҕио"
+                }
+            },
+            {
+                "name": "setname",
+                "inline": false,
+                "description": {
+                    "doc": "<имя> - измᴇнить имя"
+                }
+            },
+            {
+                "name": "setuser",
+                "inline": false,
+                "description": {
+                    "doc": "<юзернейм> - измᴇнить юзᴇᴘнᴇйм (остᴀвьтᴇ пʏстым для ʏдᴀлᴇния)"
+                }
+            },
+            {
+                "name": "setavatar",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай на фото> - ʏстᴀновить новый ᴀвᴀтᴀᴘ"
+                }
+            },
+            {
+                "name": "getprivacy",
+                "inline": false,
+                "description": {
+                    "doc": "- покᴀзᴀть тᴇкʏщиᴇ нᴀстᴘойки конфидᴇнциᴀльности"
+                }
+            }
+        ],
+        "name": "AccountManager",
+        "version": "2.2.4",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
+    },
+    {
         "author": "@mead0wssMods",
         "banner": "https://x0.at/yCcx.jpg",
         "description": "Модуль для автоматического форматирования вашего текста в чате.",
