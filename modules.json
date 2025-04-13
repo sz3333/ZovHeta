@@ -11569,6 +11569,21 @@
     },
     {
         "author": "@Goduser18",
+        "description": "Анализатор чата",
+        "commands": [
+            {
+                "name": "chatstats",
+                "inline": false,
+                "description": {
+                    "doc": "Ниже⬇️↙️.\n\nЮзать .chatstats [limit]\n\n2+2=5"
+                }
+            }
+        ],
+        "name": "ChatStats",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/ChatStatsMod.py"
+    },
+    {
+        "author": "@Goduser18",
         "description": "Генератор паролей",
         "commands": [
             {
