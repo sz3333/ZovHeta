@@ -31872,7 +31872,7 @@
             }
         ],
         "name": "AccountManager",
-        "version": "2.2.4",
+        "version": "2.2.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
     },
     {
