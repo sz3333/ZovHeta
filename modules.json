@@ -31951,6 +31951,30 @@
     },
     {
         "author": "@mead0wssMods",
+        "banner": "https://x0.at/GgLO.png",
+        "description": "Модуль для автоматического перевода сообщений на язык выбранный вами. Модуль создан ради забавы.",
+        "commands": [
+            {
+                "name": "on",
+                "inline": false,
+                "description": {
+                    "doc": "Включить автоматический перевод."
+                }
+            },
+            {
+                "name": "off",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить автоматический перевод."
+                }
+            }
+        ],
+        "name": "AutomaticTranslator",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/AutomaticTranslator.py"
+    },
+    {
+        "author": "@mead0wssMods",
         "banner": "https://x0.at/GGCl.png",
         "description": "Модуль для работы с нейросетями (200+ шт) и генерацией изображений.",
         "commands": [
@@ -31972,6 +31996,82 @@
         "name": "ChatGPT",
         "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
+    },
+    {
+        "author": "@mead0wssMods",
+        "banner": "https://x0.at/tYLF.png",
+        "description": "Модуль для установки статуса в зависимости от уровня FACEIT CS 2",
+        "commands": [
+            {
+                "name": "on_fac",
+                "inline": false,
+                "description": {
+                    "doc": "Включить обновление статуса."
+                }
+            },
+            {
+                "name": "off_fac",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить обновление статуса."
+                }
+            }
+        ],
+        "name": "FaceitStatus",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/FaceitStatus.py"
+    },
+    {
+        "author": "@mead0wssMods",
+        "banner": "https://x0.at/GHOP.png",
+        "description": "Управление пресетами для HerokuInfo",
+        "commands": [
+            {
+                "name": "createpr",
+                "inline": false,
+                "description": {
+                    "doc": "Создать новый пресет."
+                }
+            },
+            {
+                "name": "delpr",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить пресет."
+                }
+            },
+            {
+                "name": "delfilepr",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить файл с пресетами."
+                }
+            },
+            {
+                "name": "uploadpr",
+                "inline": false,
+                "description": {
+                    "doc": "Загрузить файл с пресетами."
+                }
+            },
+            {
+                "name": "listpr",
+                "inline": false,
+                "description": {
+                    "doc": "Показать список всех пресетов."
+                }
+            },
+            {
+                "name": "loadpr",
+                "inline": false,
+                "description": {
+                    "doc": "Загрузить пресет."
+                }
+            }
+        ],
+        "name": "InfoPresets",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/InfoPresets.py"
     },
     {
         "author": "@mead0wssMods",
