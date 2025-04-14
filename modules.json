@@ -34462,6 +34462,22 @@
     },
     {
         "author": "@wmodules",
+        "description": "Кликер.",
+        "commands": [
+            {
+                "name": "clickmod",
+                "inline": false,
+                "description": {
+                    "doc": "показать кликер"
+                }
+            }
+        ],
+        "name": "Click",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/click.py"
+    },
+    {
+        "author": "@wmodules",
         "description": "Модуль для удаления твоих сообщений в указанном чате или текущем чате (не используй для удаления слишком много).",
         "commands": [
             {
