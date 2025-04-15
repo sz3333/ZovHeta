@@ -1,5 +1,5 @@
 __version__ = (9, 1, 3)
-# meta developer: @Samuray43k
+# meta developer: @Fixyres
 # change-log: Now the module ratings and the number of installations affect its place in the result, I explain how the system works: 👍 = +7, 👎 = -5, Install = +1, Uninstall = -1
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
