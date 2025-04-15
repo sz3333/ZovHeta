@@ -18603,6 +18603,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/clck.py"
     },
     {
+        "author": "@matubuntu",
+        "commands": [
+            {
+                "name": "valute",
+                "inline": false,
+                "description": {
+                    "doc": "[count]  [usd, eur, ...]"
+                }
+            },
+            {
+                "name": "crypto",
+                "inline": false,
+                "description": {
+                    "doc": "[count] [ton, btc, ...]"
+                }
+            }
+        ],
+        "name": "FinanceMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/financemod.py"
+    },
+    {
         "author": "@RUIS_VlP, @matubuntu",
         "description": "ChatGPT 3, Gigachat без API ключа и с контекстом. Бот, который используется для запросов: @Gigachat_bot и @GPTChatRBot. Модуль распространяется по лицензии MIT.",
         "commands": [
