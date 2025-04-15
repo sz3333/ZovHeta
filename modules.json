@@ -32859,6 +32859,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/ДатаЗачатия.py"
     },
     {
+        "author": "@psyhomodules",
+        "description": "Конвертер валют",
+        "commands": [
+            {
+                "name": "cv",
+                "inline": false,
+                "description": {
+                    "doc": "Конвертация валют: .cv [сумма] [из валюты] [в валюту] (например, .cv 100 USD RUB)"
+                }
+            },
+            {
+                "name": "currencies",
+                "inline": false,
+                "description": {
+                    "doc": "Список валют и их номера"
+                }
+            }
+        ],
+        "name": "КонвекторВалют",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/КонвекторВалют.py"
+    },
+    {
         "author": "@angellmodules",
         "description": "Конвертация изображений в ASCII-арт",
         "commands": [
