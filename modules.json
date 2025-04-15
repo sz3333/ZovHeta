@@ -23348,6 +23348,28 @@
     },
     {
         "author": "@codermasochist",
+        "description": "массовая рассылка по всем чатам.",
+        "commands": [
+            {
+                "name": "rsl",
+                "inline": false,
+                "description": {
+                    "doc": "— текст | задержка | повторы"
+                }
+            },
+            {
+                "name": "stoprsl",
+                "inline": false,
+                "description": {
+                    "doc": "— стоп рассылки."
+                }
+            }
+        ],
+        "name": "Mass Mailing",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/MassMailing.py"
+    },
+    {
+        "author": "@codermasochist",
         "description": "Создает ссылку на оплату TON. by @codermasochist",
         "commands": [
             {
