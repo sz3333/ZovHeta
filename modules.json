@@ -31921,13 +31921,13 @@
     },
     {
         "author": "@llocJlednuy_cepafum, @ManulMods",
-        "description": "- нᴀстᴘойкᴀ конфидᴇнциᴀльности в ᴛᴇʟᴇɢʀᴀᴍ",
+        "description": "нᴀстᴘойкᴀ конфидᴇнциᴀльности в ᴛᴇʟᴇɢʀᴀᴍ",
         "commands": [
             {
                 "name": "setbio",
                 "inline": false,
                 "description": {
-                    "doc": "<текст> - измᴇнить ҕио"
+                    "doc": "<описание> - измᴇнить ҕио"
                 }
             },
             {
@@ -31960,7 +31960,7 @@
             }
         ],
         "name": "AccountManager",
-        "version": "2.2.5",
+        "version": "2.2.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
     },
     {
