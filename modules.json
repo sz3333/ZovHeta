@@ -18871,6 +18871,21 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для получения информации о домене или ip адресе",
+        "commands": [
+            {
+                "name": "whois",
+                "inline": false,
+                "description": {
+                    "doc": "<домен> - получить информацию о домене или IP"
+                }
+            }
+        ],
+        "name": "Whois",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/whois.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Помогает скачивать видео с YouTube",
         "commands": [
             {
@@ -23425,6 +23440,21 @@
         ],
         "name": "dlvd",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/dlvd.py"
+    },
+    {
+        "author": "@codermasochist",
+        "description": "получает ид юзера",
+        "commands": [
+            {
+                "name": "ид",
+                "inline": false,
+                "description": {
+                    "doc": "— <reply/username>. (без префа ток с репли)"
+                }
+            }
+        ],
+        "name": "id?",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/id.py"
     },
     {
         "author": "@mm_mods",
