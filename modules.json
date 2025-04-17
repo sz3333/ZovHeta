@@ -23412,7 +23412,7 @@
                 "name": "dton",
                 "inline": false,
                 "description": {
-                    "doc": "— текст / сумма / коммент"
+                    "doc": "— текст | сумма | коммент"
                 }
             }
         ],
@@ -31962,6 +31962,22 @@
         "name": "AccountManager",
         "version": "2.2.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
+    },
+    {
+        "author": "@llocJlednuy_cepafum, @ManulMods",
+        "description": "пᴘовᴇᴘкᴀ имя пользовᴀтᴇля в ᴛᴇʟᴇɢʀᴀᴍ",
+        "commands": [
+            {
+                "name": "check",
+                "inline": false,
+                "description": {
+                    "doc": "<юзернейм> - пᴘовᴇᴘяᴇт достʏпность имᴇни пользовᴀтᴇля"
+                }
+            }
+        ],
+        "name": "CheckUsername",
+        "version": "1.1.3",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/CheckUsername.py"
     },
     {
         "author": "@mead0wssMods",
