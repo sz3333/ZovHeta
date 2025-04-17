@@ -31920,7 +31920,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/RandomTT.py"
     },
     {
-        "author": "@llocJlednuy_cepafum, @ManulMods",
+        "author": "@ManulMods",
         "description": "нᴀстᴘойкᴀ конфидᴇнциᴀльности в ᴛᴇʟᴇɢʀᴀᴍ",
         "commands": [
             {
@@ -31952,6 +31952,13 @@
                 }
             },
             {
+                "name": "checkuser",
+                "inline": false,
+                "description": {
+                    "doc": "<юзернейм> - пᴘовᴇᴘяᴇт достʏпность юзᴇᴘнᴇймᴀ"
+                }
+            },
+            {
                 "name": "getprivacy",
                 "inline": false,
                 "description": {
@@ -31960,11 +31967,11 @@
             }
         ],
         "name": "AccountManager",
-        "version": "2.2.7",
+        "version": "2.3.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
     },
     {
-        "author": "@llocJlednuy_cepafum, @ManulMods",
+        "author": "@ManulMods",
         "description": "пᴘовᴇᴘкᴀ имя пользовᴀтᴇля в ᴛᴇʟᴇɢʀᴀᴍ",
         "commands": [
             {
@@ -31976,7 +31983,7 @@
             }
         ],
         "name": "CheckUsername",
-        "version": "1.1.3",
+        "version": "1.1.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/CheckUsername.py"
     },
     {
