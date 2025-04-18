@@ -31955,7 +31955,14 @@
                 "name": "checkuser",
                 "inline": false,
                 "description": {
-                    "doc": "<юзернейм> - пᴘовᴇᴘяᴇт достʏпность юзᴇᴘнᴇймᴀ"
+                    "doc": "<юзернейм> - пᴘовᴇᴘяᴇт достʏпность имᴇни пользовᴀтᴇля"
+                }
+            },
+            {
+                "name": "profile",
+                "inline": false,
+                "description": {
+                    "doc": "- полʏчᴀᴇт и отоҕᴘᴀжᴀᴇт полнʏю инфоᴘмᴀцию о пᴘофилᴇ пользовᴀтᴇля"
                 }
             },
             {
@@ -31967,7 +31974,7 @@
             }
         ],
         "name": "AccountManager",
-        "version": "2.3.3",
+        "version": "2.3.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
     },
     {
