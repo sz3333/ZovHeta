@@ -19557,6 +19557,35 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/x0-Uploader.py"
     },
     {
+        "description": "Show userbot info",
+        "commands": [
+            {
+                "name": "insfont",
+                "inline": false,
+                "description": {
+                    "doc": "Install font"
+                }
+            },
+            {
+                "name": "info",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "herokuinfo",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "setinfo",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "HerokuInfo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/1.6.3%20and%201.6.8/heroku_info.py"
+    },
+    {
         "author": "@Hicota",
         "description": "ASCII Arts | Различные прикольные арты 0_o",
         "commands": [
