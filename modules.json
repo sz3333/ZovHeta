@@ -19649,6 +19649,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/AsRt.py"
     },
     {
+        "author": "@Hicota",
+        "description": "Install Hikka(Heroku)info with image mode (Beta)",
+        "commands": [
+            {
+                "name": "inshikkainfo",
+                "inline": false,
+                "description": {
+                    "doc": "ИДИ СЮДА яишко яишко СЕЙЧАС яишко ТЕБЕ БУДЕТ РАЗБИВАТЬ яишко🥚🥚🥚🥚ПОЛУЧАЙ яишко🥚🥚🥚🥚🥚🥚🥚🥚НА🥚НА🥚НА🥚🥚🥚БЕЕЕЙ🥚🥚🥚яишко яишко яишко ТЕБЕ МАЛО????🥚🥚🥚ПОНЯЛ яишко🥚🥚🥚🥚НА ЕШЕ ЯИЧКЭЭЭ🥚🥚🥚ЖРИ яишко🥚🥚🥚яишко БЕЙ🥚🥚🥚🥚ТЫ ПОНИМАЕШЬ ЧТО яишко БЕЙ МЕНЯ🥚🥚🥚🥚🥚🥚НА яишко яишко🥚🥚🥚 яишко. ЗАПОМНИТЕ ТАК БУДЕТ С КАЖДЫМ яишко.🥚🥚🥚бей яичко чур я выиграю🥚"
+                }
+            }
+        ],
+        "name": "IIHikkaInfo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/IIHikkaInfo.py"
+    },
+    {
         "author": "@hicota",
         "description": "Ask a question to the magic ball🔮",
         "commands": [
