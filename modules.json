@@ -19563,7 +19563,7 @@
                 "name": "insfont",
                 "inline": false,
                 "description": {
-                    "doc": "Install font"
+                    "doc": "<Url|Reply to font> - Install font"
                 }
             },
             {
@@ -19584,6 +19584,35 @@
         ],
         "name": "HerokuInfo",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/1.6.3%20and%201.6.8/heroku_info.py"
+    },
+    {
+        "description": "Show userbot info",
+        "commands": [
+            {
+                "name": "insfont",
+                "inline": false,
+                "description": {
+                    "doc": "<Url|Reply to font> - Install font"
+                }
+            },
+            {
+                "name": "info",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "hikkainfo",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "setinfo",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "HikkaInfo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/1.6.3%20and%201.6.8/hikka_info.py"
     },
     {
         "author": "@Hicota",
@@ -32102,25 +32131,39 @@
     {
         "author": "@mead0wssMods",
         "banner": "https://x0.at/GGCl.png",
-        "description": "Модуль для работы с нейросетями (200+ шт) и генерацией изображений.",
+        "description": "Модуль для работы с нейросетями.",
         "commands": [
             {
                 "name": "gpt",
                 "inline": false,
                 "description": {
-                    "doc": "Команда для разговора с ИИ."
+                    "doc": "- Разговор с ИИ."
+                }
+            },
+            {
+                "name": "clearmem",
+                "inline": false,
+                "description": {
+                    "doc": "- Очистить память."
+                }
+            },
+            {
+                "name": "meminfo",
+                "inline": false,
+                "description": {
+                    "doc": "- Информация о памяти."
                 }
             },
             {
                 "name": "image",
                 "inline": false,
                 "description": {
-                    "doc": "Команда для генерации изображений с помощью ИИ."
+                    "doc": "- Генерация изображений с помощью ИИ."
                 }
             }
         ],
         "name": "ChatGPT",
-        "version": "2.1.0",
+        "version": "2.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
     },
     {
