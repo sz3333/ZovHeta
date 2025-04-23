@@ -12136,6 +12136,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/sozivala.py"
     },
     {
+        "author": "@HikkaZPM",
+        "banner": "https://files.catbox.moe/swqxd1.png",
+        "description": "Поиск сленговых значений в UrbanDictionary, пишите на английском для лучшего поиска (перевод в будующем)",
+        "commands": [
+            {
+                "name": "ud",
+                "inline": false,
+                "description": {
+                    "doc": "Поиск обозначения"
+                }
+            }
+        ],
+        "name": "UrbanDictionary",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/UD.py"
+    },
+    {
         "author": "@MrAmigoch for @HikkaZPM",
         "description": "Femboy Modul",
         "commands": [
