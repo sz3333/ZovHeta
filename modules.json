@@ -22514,76 +22514,251 @@
     },
     {
         "author": "@OnlySq",
-        "description": "Задавайте вопросы с помощью разных моделей GPT, а также генерируйте изображения by @MiSidePlayer, основанный на OnlySq api. Пока в onlysq не работает генерация изображений, и она была временно удалена из модуля. Пишите об идеях MiSidePlayer",
+        "description": "Задавайте вопросы и генерируйте изображения с помощью моделей AI через OnlySq API by @chepuxcat.",
         "commands": [
             {
                 "name": "gpt",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте gpt <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-4o-mini"
-                }
-            },
-            {
-                "name": "gemini",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте gemini <вопрос> или ответьте на сообщение чтобы спросить вопрос у gemini"
+                    "doc": "Используйте .gpt <вопрос> для gpt-4o-mini."
                 }
             },
             {
                 "name": "searchgpt",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .searchgpt <вопрос> или ответьте на сообщение чтобы спросить вопрос у searchgpt"
+                    "doc": "Используйте .searchgpt <вопрос> для searchgpt."
                 }
             },
             {
                 "name": "claude3",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .claude3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у claude-3.5-haiku"
+                    "doc": "Используйте .claude3 <вопрос> для claude-3-haiku."
                 }
             },
             {
                 "name": "gpt4",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .gpt4 <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-4"
-                }
-            },
-            {
-                "name": "geminiflash",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .geminiflash <вопрос> или ответьте на сообщение чтобы спросить вопрос у gemini-flash"
+                    "doc": "Используйте .gpt4 <вопрос> для gpt-4."
                 }
             },
             {
                 "name": "gpt3",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .gpt3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у gpt-3.5-turbo"
+                    "doc": "Используйте .gpt3 <вопрос> для gpt-3.5-turbo."
                 }
             },
             {
                 "name": "llama3",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .llama3 <вопрос> или ответьте на сообщение чтобы спросить вопрос у llama-3.1"
-                }
-            },
-            {
-                "name": "mixtral8",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .mixtral8 <вопрос> или ответьте на сообщение чтобы спросить вопрос у Mixtral-8x7B"
+                    "doc": "Используйте .llama3 <вопрос> для llama-3.1."
                 }
             },
             {
                 "name": "qwen",
                 "inline": false,
                 "description": {
-                    "doc": "Используйте .qwen <вопрос> или ответьте на сообщение чтобы спросить вопрос у qwen"
+                    "doc": "Используйте .qwen <вопрос> для qwen."
+                }
+            },
+            {
+                "name": "kandinsky",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .kandinsky <описание> для генерации изображения с kandinsky."
+                }
+            },
+            {
+                "name": "flux",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .flux <описание> для генерации изображения с flux."
+                }
+            },
+            {
+                "name": "claude35",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .claude35 <вопрос> для claude-3.5-sonnet."
+                }
+            },
+            {
+                "name": "gpt4o",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gpt4o <вопрос> для gpt-4o."
+                }
+            },
+            {
+                "name": "gpt4turbo",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gpt4turbo <вопрос> для gpt-4-turbo."
+                }
+            },
+            {
+                "name": "llama33",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .llama33 <вопрос> для llama-3.3."
+                }
+            },
+            {
+                "name": "deepseekv3",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .deepseekv3 <вопрос> для deepseek-v3."
+                }
+            },
+            {
+                "name": "qwen25",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .qwen25 <вопрос> для qwen-2.5-32b."
+                }
+            },
+            {
+                "name": "mistralsmall",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .mistralsmall <вопрос> для mistral-small-3.1."
+                }
+            },
+            {
+                "name": "command",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .command <вопрос> для command."
+                }
+            },
+            {
+                "name": "commandlight",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandlight <вопрос> для command-light."
+                }
+            },
+            {
+                "name": "commandnightly",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandnightly <вопрос> для command-nightly."
+                }
+            },
+            {
+                "name": "commandlightnightly",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandlightnightly <вопрос> для command-light-nightly."
+                }
+            },
+            {
+                "name": "commandr03",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandr03 <вопрос> для command-r-03-2024."
+                }
+            },
+            {
+                "name": "commandr08",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandr08 <вопрос> для command-r-08-2024."
+                }
+            },
+            {
+                "name": "commandr",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandr <вопрос> для command-r."
+                }
+            },
+            {
+                "name": "commandrplus",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandrplus <вопрос> для command-r-plus."
+                }
+            },
+            {
+                "name": "commandrplus04",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandrplus04 <вопрос> для command-r-plus-04-2024."
+                }
+            },
+            {
+                "name": "commandr7b",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commandr7b <вопрос> для command-r7b-12-2024."
+                }
+            },
+            {
+                "name": "commanda",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .commanda <вопрос> для command-a-03-2025."
+                }
+            },
+            {
+                "name": "c4aiaya",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .c4aiaya <вопрос> для c4ai-aya-expanse-32b."
+                }
+            },
+            {
+                "name": "gemma34b",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gemma34b <вопрос> для gemma-3-4b-it."
+                }
+            },
+            {
+                "name": "gemini15flash",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gemini15flash <вопрос> для gemini-1.5-flash."
+                }
+            },
+            {
+                "name": "gemini15pro",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .gemini15pro <вопрос> для gemini-1.5-pro."
+                }
+            },
+            {
+                "name": "deepseekr1",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .deepseekr1 <вопрос> для deepseek-r1."
+                }
+            },
+            {
+                "name": "o3mini",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .o3mini <вопрос> для o3-mini."
+                }
+            },
+            {
+                "name": "evil",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .evil <вопрос> для evil."
+                }
+            },
+            {
+                "name": "mistral",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .mistral <вопрос> для mistral."
                 }
             }
         ],
