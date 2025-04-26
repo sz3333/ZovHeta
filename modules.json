@@ -37013,18 +37013,64 @@
     },
     {
         "author": "@yg_modules",
-        "description": "Модуль для общения с Gemini AI",
+        "description": "Gemini AI module with media support, regeneration, and chat context!",
         "commands": [
+            {
+                "name": "gcreate",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[имя] - создать чат Gemini с контекстом",
+                    "ua_doc": "[ім'я] — створити чат Gemini з контекстом",
+                    "doc": "[name] - create a new Gemini chat session with context"
+                }
+            },
+            {
+                "name": "gask",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<id_чата> <вопрос> - задать вопрос в чат Gemini",
+                    "ua_doc": "<id_чату> <питання> — поставити питання в чаті Gemini",
+                    "doc": "<chat_id> <question> - ask a question in a Gemini chat session"
+                }
+            },
             {
                 "name": "gemini",
                 "inline": false,
                 "description": {
-                    "doc": "<reply to photo / text> — отправить запрос к Gemini"
+                    "ru_doc": "<реплай на медиа / текст> — запрос к Gemini (фото/видео/аудио), без контекста",
+                    "ua_doc": "<реплай на медіа / текст> — запит до Gemini (фото/відео/аудіо), без контексту",
+                    "doc": "<reply to media / text> — send stateless request to Gemini (photo/video/audio)"
+                }
+            },
+            {
+                "name": "gchats",
+                "inline": false,
+                "description": {
+                    "ru_doc": "показать/управлять чатами Gemini",
+                    "ua_doc": "показати/керувати чатами Gemini",
+                    "doc": "show and manage Gemini chat sessions"
+                }
+            },
+            {
+                "name": "gset",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<текст> - установить инструкцию для Gemini",
+                    "ua_doc": "<текст> - встановити інструкцію для Gemini",
+                    "doc": "<text> - set instruction for Gemini"
+                }
+            },
+            {
+                "name": "gmodels",
+                "inline": false,
+                "description": {
+                    "ru_doc": "показывает доступные модели Gemini",
+                    "ua_doc": "показує доступні моделі Gemini"
                 }
             }
         ],
         "name": "yg_gemini",
-        "version": "1.0.0.1",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_gemini.py"
     },
     {
