@@ -16708,6 +16708,43 @@
     },
     {
         "author": "@BruhHikkaModules",
+        "banner": "link",
+        "description": "Wynncraft API Module",
+        "commands": [
+            {
+                "name": "wstats",
+                "inline": false,
+                "description": {
+                    "doc": "[Username / uuid] - Player stats"
+                }
+            },
+            {
+                "name": "wguild",
+                "inline": false,
+                "description": {
+                    "doc": "[GuildName / Prefix] - Guild stats"
+                }
+            },
+            {
+                "name": "wleaderboard",
+                "inline": false,
+                "description": {
+                    "doc": "Show Wynncraft leaderboards"
+                }
+            },
+            {
+                "name": "wsearch",
+                "inline": false,
+                "description": {
+                    "doc": "[Query] - Search for players or guilds"
+                }
+            }
+        ],
+        "name": "WynnCraft",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/Wynncraft.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVA.jpg",
         "description": "Module for @YamiChat_bot ",
         "commands": [
@@ -18405,6 +18442,29 @@
         ],
         "name": "Figlet",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/Figlet.py"
+    },
+    {
+        "author": "@RUIS_VlP",
+        "description": "Простой генератор ников",
+        "commands": [
+            {
+                "name": "GenNick",
+                "inline": false,
+                "description": {
+                    "doc": "Генерирует стандартный ник"
+                }
+            },
+            {
+                "name": "GenIntNick",
+                "inline": false,
+                "description": {
+                    "doc": "Генерирует ник с цифрами"
+                }
+            }
+        ],
+        "name": "GenNick",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/GenNick.py"
     },
     {
         "author": "@RUIS_VlP",
