@@ -2135,6 +2135,46 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Random cats and dogs",
+        "commands": [
+            {
+                "name": "fcat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Файлы случайных фотографий кошек",
+                    "en_doc": "Random photos of cats files"
+                }
+            },
+            {
+                "name": "fdog",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Случайные фотографии собачьих файлов",
+                    "en_doc": "Random photos of dog files"
+                }
+            },
+            {
+                "name": "cat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Случайные фотографии кошек",
+                    "en_doc": "Random photos of cats"
+                }
+            },
+            {
+                "name": "dog",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Случайные фотографии собаки",
+                    "en_doc": "Random photos of dog"
+                }
+            }
+        ],
+        "name": "animals",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/animals.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "random face",
         "commands": [
             {
@@ -11607,6 +11647,18 @@
         ],
         "name": "PassGen",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/PassGen.py"
+    },
+    {
+        "author": "@Goduser18",
+        "commands": [
+            {
+                "name": "vgo",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "VoiceToText",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/VoiceToTEXT.py"
     },
     {
         "author": "@goduser18",
