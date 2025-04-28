@@ -8153,11 +8153,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Permalink.py"
     },
     {
-        "description": "Suggests new Hikka users a packs of modules to load",
-        "name": "Presets",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Presets.py"
-    },
-    {
         "author": "@mm_mods",
         "pic": "https://img.icons8.com/?size=512&id=17387&format=png",
         "description": "Image generator based on Prodia API. No API key required.",
@@ -16129,6 +16124,11 @@
         ],
         "name": "CheckTime",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/CheckTime.py"
+    },
+    {
+        "description": "Relays and executes code",
+        "name": "CodeRelay",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/CodeRelay.py"
     },
     {
         "author": "@BruhHikkaModules",
