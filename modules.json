@@ -6028,6 +6028,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/AutoSend.py"
     },
     {
+        "description": "Спизженная хуйня у @mqone но она лучше",
+        "commands": [
+            {
+                "name": "l",
+                "inline": false,
+                "description": {
+                    "doc": "вирусы (ответом на фото)"
+                }
+            }
+        ],
+        "name": "LinuxMscreen",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/LinuxMScreen.py"
+    },
+    {
         "author": "@Enceth",
         "description": "Дает возможность грести эти гребаные деньги лопатой",
         "commands": [
