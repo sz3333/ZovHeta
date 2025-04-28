@@ -16131,11 +16131,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/CheckTime.py"
     },
     {
-        "description": "Relays and executes code",
-        "name": "CodeRelay",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/CodeRelay.py"
-    },
-    {
         "author": "@BruhHikkaModules",
         "banner": "https://0x0.st/HYVX.jpg",
         "description": "Have you seen a customizable ping module in Netfoll? I have, yes, but I find it unacceptable to use Netfoll, so I took the idea of custom ping, and replicated it.",
