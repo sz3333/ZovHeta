@@ -1075,22 +1075,6 @@
     },
     {
         "author": "@hikamorumods",
-        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/phstiker.jpg",
-        "description": "Make Pornhub logo sticker",
-        "commands": [
-            {
-                "name": "phl",
-                "inline": false,
-                "description": {
-                    "doc": "Makes PHub style logo sticker."
-                }
-            }
-        ],
-        "name": "Phlogo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/phsticker.py"
-    },
-    {
-        "author": "@hikamorumods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/poststeal.jpg",
         "description": "Steal post from another channel to your channel",
         "commands": [
@@ -1805,21 +1789,6 @@
         "name": "AutoFarmbot",
         "version": "0.1.4.10",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/MooFarmRC1.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "commands": [
-            {
-                "name": "music",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Найти трек в Yandex Music или VK: `.music yandex {название}` или `.music vk {название}`",
-                    "en_doc": "Find a track in Yandex Music or VK: `.music yandex {name}` or `.music vk {name}`"
-                }
-            }
-        ],
-        "name": "Music",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/Music.py"
     },
     {
         "author": "@hikka_mods",
@@ -2572,30 +2541,6 @@
         "name": "🖥 InlineSystemInfo",
         "version": "1.4.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineSystemInfo.py"
-    },
-    {
-        "author": "@cakestwix_mods",
-        "pic": "https://b.thumbs.redditmedia.com/-cDkj6PuQHqdLEhPh1JYsYplTArOOUuBnKs5FC8sgKs.png",
-        "description": "A module for displaying player information on the WynnCraft rpg server",
-        "commands": [
-            {
-                "name": "wucheck",
-                "inline": false,
-                "description": {
-                    "doc": "Check user by username"
-                }
-            },
-            {
-                "name": "wplayertop",
-                "inline": false,
-                "description": {
-                    "doc": "Top players"
-                }
-            }
-        ],
-        "name": "InlineWynnCraft",
-        "version": "1.2.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineWynnCraft.py"
     },
     {
         "author": "@cakestwix_mods",
@@ -4142,6 +4087,20 @@
     },
     {
         "author": "@D4n13l3k00",
+        "commands": [
+            {
+                "name": "sph",
+                "inline": false,
+                "description": {
+                    "doc": "Найти видео на pornhub"
+                }
+            }
+        ],
+        "name": "PornHub",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/PHSearch.py"
+    },
+    {
+        "author": "@D4n13l3k00",
         "description": "Модуль для работы с Qiwi кошельком",
         "commands": [
             {
@@ -4898,21 +4857,6 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Перевод на ваш sbebbank",
-        "commands": [
-            {
-                "name": "sbeb",
-                "inline": false,
-                "description": {
-                    "doc": "Переводит деньги на ваш sbebbank"
-                }
-            }
-        ],
-        "name": "Sbeb",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/sbeb.py"
-    },
-    {
-        "author": "@shrimp_mod",
         "commands": [
             {
                 "name": "sosal",
@@ -5012,21 +4956,6 @@
         "name": "UnknownAFK",
         "version": "3.5.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/unknownafk.py"
-    },
-    {
-        "author": "@shrimp_mod",
-        "description": "Модуль для конвертации видео в голосовое сообщение",
-        "commands": [
-            {
-                "name": "vtv",
-                "inline": false,
-                "description": {
-                    "doc": "Конвертация видео в голосовое сообщение"
-                }
-            }
-        ],
-        "name": "VideoToVoice",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/videovgs.py"
     },
     {
         "author": "@AstroModules",
@@ -5428,57 +5357,6 @@
         "name": "AstroWeather",
         "version": "1.0.6",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/astroweather.py"
-    },
-    {
-        "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/BrawlStats.jpg",
-        "description": "Brawl Stars Players/Clubs information :)",
-        "commands": [
-            {
-                "name": "get_my_ip",
-                "inline": false,
-                "description": {
-                    "doc": "Получить свой IP-Адрес для получения API-Токен BrawlStarsAPI"
-                }
-            },
-            {
-                "name": "set_bs_api_token",
-                "inline": false,
-                "description": {
-                    "doc": "<api_token> - сохранить свой API-Токен в конфиге модуля."
-                }
-            },
-            {
-                "name": "bs_get_player",
-                "inline": false,
-                "description": {
-                    "doc": "<#player_tag> <#player_tag2> -> получить информацию об игроке/игроках(теги можно через пробел указывать)"
-                }
-            },
-            {
-                "name": "bs_get_club",
-                "inline": false,
-                "description": {
-                    "doc": "<#CLUB_TAG> -> получить информацию о клубе по его #ТЕГУ"
-                }
-            },
-            {
-                "name": "bs_get_club_members",
-                "inline": false,
-                "description": {
-                    "doc": "<#CLUB_TAG> -> получить информацию об участниках клуба по его #ТЕГУ"
-                }
-            },
-            {
-                "name": "bs_get_player_brawlers",
-                "inline": false,
-                "description": {
-                    "doc": "<#player_tag> -> получить информацию о Бравлерах(Бойцах) игрока по его #ТЕГУ"
-                }
-            }
-        ],
-        "name": "BrawlStatsInfo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/brawl_stats.py"
     },
     {
         "author": "@AstroModules",
@@ -7284,25 +7162,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AniverseCard.py"
     },
     {
-        "description": "АвтоБан",
+        "description": "Модуль для отправки аудиосообщений с визуальной длительностью",
         "commands": [
             {
-                "name": "aban",
+                "name": "audiomsg",
                 "inline": false,
                 "description": {
-                    "doc": "Добавить/исключить юзера из автобана.\nИспользуй: .aban <@ или реплай> или <list>."
-                }
-            },
-            {
-                "name": "achat",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить чат в список для автобана.\nИспользуй: .achat."
+                    "doc": "<длительность:часы> - отправляет аудиосообщение длительностью <длительность> часов (визуально)"
                 }
             }
         ],
-        "name": "AutoBan",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoBan.py"
+        "name": "AudioMessage",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AudioMessage.py"
     },
     {
         "author": "@sqlmerr_m",
@@ -7325,28 +7196,6 @@
         ],
         "name": "AutoFormatter",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoFormatter.py"
-    },
-    {
-        "author": "@XenSideMOD",
-        "commands": [
-            {
-                "name": "artoggle",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включить/выключить автореакции в текущем чате"
-                }
-            },
-            {
-                "name": "setr",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Установить реакцию (обычный эмодзи или ID для Premium)"
-                }
-            }
-        ],
-        "name": "AutoReact",
-        "version": "1.3.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoReact_pu.py"
     },
     {
         "author": "@moduleslist",
@@ -7492,6 +7341,62 @@
         ],
         "name": "CendPing",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CendPing.py"
+    },
+    {
+        "description": "Чат модуль",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .userid <@ или реплай> показывает ID выбранного пользователя."
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .chatid показывает ID чата."
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .invite <@ или реплай>, чтобы добавить пользователя в чат."
+                }
+            },
+            {
+                "name": "kickme",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте команду .kickme, чтобы кикнуть себя из чата."
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .users <имя>; ничего выводит список всех пользователей в чате."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .admins показывает список всех админов в чате."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .bots показывает список всех ботов в чате."
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/ChatModule.py"
     },
     {
         "author": "@mqone",
@@ -7650,42 +7555,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Figlet.py"
     },
     {
-        "author": "@DieModules",
-        "description": "Модуль для учета финансов",
-        "commands": [
-            {
-                "name": "balance",
-                "inline": false,
-                "description": {
-                    "doc": "Показать текущий баланс"
-                }
-            },
-            {
-                "name": "income",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить доход: .income сумма"
-                }
-            },
-            {
-                "name": "expense",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить расход: .expense сумма"
-                }
-            },
-            {
-                "name": "actions",
-                "inline": false,
-                "description": {
-                    "doc": "Показать историю транзакций"
-                }
-            }
-        ],
-        "name": "FinanceModule",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/FinanceModule.py"
-    },
-    {
         "author": "@y9_d0lbaeb",
         "description": "Based on docs.onlysq.com",
         "commands": [
@@ -7787,27 +7656,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Git_serverBot.py"
     },
     {
-        "description": "AI автоответчик с памятью для каждого чата и готовыми конфигами\n\nВ коде можно установить 2 конфига с загатовленными инструкциями",
-        "commands": [
-            {
-                "name": "lsbot",
-                "inline": false,
-                "description": {
-                    "doc": "Включает автоответчик для всех личных чатов с использованием конфигов или одноразовых инструкций."
-                }
-            },
-            {
-                "name": "offmonitoring",
-                "inline": false,
-                "description": {
-                    "doc": "Выключает автоответчик для всех личных чатов"
-                }
-            }
-        ],
-        "name": "GlobalAutoReplyGPT",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/GlobalAutoReplyGPT.py"
-    },
-    {
         "author": "@skillzmeow",
         "commands": [
             {
@@ -7820,22 +7668,6 @@
         ],
         "name": "Goida",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Goida.py"
-    },
-    {
-        "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/gsearch.png?raw=true",
-        "description": "Поиск в Google",
-        "commands": [
-            {
-                "name": "gsearch",
-                "inline": false,
-                "description": {
-                    "doc": "Поиск в Google"
-                }
-            }
-        ],
-        "name": "Gsearch",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Gsearch.py"
     },
     {
         "description": "Информация об IP адресе by @blazeftg",
@@ -9499,6 +9331,69 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/rocket_fuel.py"
     },
     {
+        "description": "Модуль для рассылки сообщений по заданным чатам от @Apostol_prince.",
+        "commands": [
+            {
+                "name": "soob",
+                "inline": false,
+                "description": {
+                    "doc": "- сохранить сообщение для рассылки (использовать в ответ на сообщение)"
+                }
+            },
+            {
+                "name": "slist",
+                "inline": false,
+                "description": {
+                    "doc": "- показать сохраненное сообщение для рассылки"
+                }
+            },
+            {
+                "name": "dobchat",
+                "inline": false,
+                "description": {
+                    "doc": "- добавить чат в список для рассылки (использовать только с @username)"
+                }
+            },
+            {
+                "name": "chatlist",
+                "inline": false,
+                "description": {
+                    "doc": "- показать список чатов для рассылки"
+                }
+            },
+            {
+                "name": "delchat",
+                "inline": false,
+                "description": {
+                    "doc": "- удалить чат из списка для рассылки (использовать только через @username)"
+                }
+            },
+            {
+                "name": "setinterval",
+                "inline": false,
+                "description": {
+                    "doc": "- установить интервал рассылки (в минутах)"
+                }
+            },
+            {
+                "name": "startr",
+                "inline": false,
+                "description": {
+                    "doc": "- разослать сохраненное сообщение по указанным чатам через интервал времени"
+                }
+            },
+            {
+                "name": "stopr",
+                "inline": false,
+                "description": {
+                    "doc": "- остановить рассылку сообщений"
+                }
+            }
+        ],
+        "name": "soobxp",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/soobxp.py"
+    },
+    {
         "author": "@Yaukais, @Shadow_red1",
         "description": "Спам модуль",
         "commands": [
@@ -10272,22 +10167,6 @@
         "name": "CoVis",
         "version": "1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/CoVis.py"
-    },
-    {
-        "author": "@minimaxno",
-        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
-        "description": "Keeps your chat clean from dices, darts and so on.",
-        "commands": [
-            {
-                "name": "deldice",
-                "inline": false,
-                "description": {
-                    "doc": "Set deleting dices in this chat on/off."
-                }
-            }
-        ],
-        "name": "Dicedestroyer",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/Dicedestroyer.py"
     },
     {
         "author": "@mm_mods",
@@ -11719,29 +11598,6 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для очистки удаленных аккаунтов в чате",
-        "commands": [
-            {
-                "name": "delete",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет удаленные аккаунты из чата"
-                }
-            },
-            {
-                "name": "delmsg",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет сообщения от удаленных аккаунтов из чата"
-                }
-            }
-        ],
-        "name": "Del",
-        "version": "1.0.5",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Del.py"
-    },
-    {
-        "author": "@HikkTutor",
         "description": "Модуль для настройки и отображения фейкового пинга",
         "commands": [
             {
@@ -12148,8 +12004,36 @@
                 }
             }
         ],
+        "name": "NewFakePing",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/NewPing.py"
+    },
+    {
+        "description": "Фейк пинг с премиум эмодзи",
+        "commands": [
+            {
+                "name": "pinj",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .pinj <цифры>."
+                }
+            }
+        ],
         "name": "Premium fake ping",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/PremiumPing.py"
+    },
+    {
+        "description": "Подпишись на канал @modwini",
+        "commands": [
+            {
+                "name": "amogus",
+                "inline": false,
+                "description": {
+                    "doc": "Скидывает видео с амогусом (работает в чатах где отключено медиa)"
+                }
+            }
+        ],
+        "name": "amogus",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/amogus.py"
     },
     {
         "description": "Подпишись на канал @modwini",
@@ -13033,6 +12917,23 @@
     },
     {
         "author": "@K0vaIskii",
+        "description": "Модуль для обновления Премиум-статуса",
+        "commands": [
+            {
+                "name": "sem",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответ> - Обновить Премиум-статус",
+                    "doc": "Set the emoji status"
+                }
+            }
+        ],
+        "name": "KSEMModule",
+        "version": "0.0.3",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KSEMModule.py"
+    },
+    {
+        "author": "@K0vaIskii",
         "description": "Скачивание видео из Tiktok",
         "commands": [
             {
@@ -13053,6 +12954,22 @@
         "name": "KoTik",
         "version": "0.1.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KoTik.py"
+    },
+    {
+        "author": "@K0vaIskii",
+        "description": "Просто удаляет реплей",
+        "commands": [
+            {
+                "name": "d",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<ответ> - удалить нахуй!"
+                }
+            }
+        ],
+        "name": "Kodel",
+        "version": "0.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kodel.py"
     },
     {
         "author": "@K0vaIskii",
@@ -14273,20 +14190,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pic2pack.py"
     },
     {
-        "description": "Аналог модуля typewriter",
-        "commands": [
-            {
-                "name": "print",
-                "inline": false,
-                "description": {
-                    "doc": ".print <text or reply>"
-                }
-            }
-        ],
-        "name": "print",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/print.py"
-    },
-    {
         "description": "более точный пинг",
         "commands": [
             {
@@ -14490,20 +14393,6 @@
         ],
         "name": "UrlDl",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/urldl.py"
-    },
-    {
-        "description": "Valute converter",
-        "commands": [
-            {
-                "name": "valute",
-                "inline": false,
-                "description": {
-                    "doc": ".valute <Valute char code (optional)>"
-                }
-            }
-        ],
-        "name": "Valutes",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/valute.py"
     },
     {
         "description": "link to screen",
@@ -16048,22 +15937,6 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "link",
-        "description": "Facts about numbers, dates, years, etc",
-        "commands": [
-            {
-                "name": "randomfact",
-                "inline": false,
-                "description": {
-                    "doc": "- [Type of random facts (year, trivia, math, date)] Random fact about something"
-                }
-            }
-        ],
-        "name": "INumber",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/INumber.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "link",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -17508,6 +17381,23 @@
         ],
         "name": "InlineButtons",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/InlineButtons.py"
+    },
+    {
+        "author": "@kshmods",
+        "description": "Restart your LavHost without using a bot",
+        "commands": [
+            {
+                "name": "lhrestart",
+                "inline": false,
+                "description": {
+                    "en_doc": "Restart",
+                    "ru_doc": "Перезагрузить"
+                }
+            }
+        ],
+        "name": "LavReboot",
+        "version": "0.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/LavReboot.py"
     },
     {
         "author": "@kshmods",
@@ -19594,21 +19484,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/AsRt.py"
     },
     {
-        "author": "@Hicota",
-        "description": "Install Hikka(Heroku)info with image mode (Beta)",
-        "commands": [
-            {
-                "name": "inshikkainfo",
-                "inline": false,
-                "description": {
-                    "doc": "ИДИ СЮДА яишко яишко СЕЙЧАС яишко ТЕБЕ БУДЕТ РАЗБИВАТЬ яишко🥚🥚🥚🥚ПОЛУЧАЙ яишко🥚🥚🥚🥚🥚🥚🥚🥚НА🥚НА🥚НА🥚🥚🥚БЕЕЕЙ🥚🥚🥚яишко яишко яишко ТЕБЕ МАЛО????🥚🥚🥚ПОНЯЛ яишко🥚🥚🥚🥚НА ЕШЕ ЯИЧКЭЭЭ🥚🥚🥚ЖРИ яишко🥚🥚🥚яишко БЕЙ🥚🥚🥚🥚ТЫ ПОНИМАЕШЬ ЧТО яишко БЕЙ МЕНЯ🥚🥚🥚🥚🥚🥚НА яишко яишко🥚🥚🥚 яишко. ЗАПОМНИТЕ ТАК БУДЕТ С КАЖДЫМ яишко.🥚🥚🥚бей яичко чур я выиграю🥚"
-                }
-            }
-        ],
-        "name": "IIHikkaInfo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/IIHikkaInfo.py"
-    },
-    {
         "author": "@hicota",
         "description": "Ask a question to the magic ball🔮",
         "commands": [
@@ -19966,22 +19841,6 @@
     },
     {
         "author": "@kmodules",
-        "description": "Генератор случайных пользовательских данных.",
-        "commands": [
-            {
-                "name": "randuser",
-                "inline": false,
-                "description": {
-                    "doc": "Сгенерировать случайные данные"
-                }
-            }
-        ],
-        "name": "K:RandomUser",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/krandomuser.py"
-    },
-    {
-        "author": "@kmodules",
         "banner": "https://i.ibb.co/gy5xbPd/d4be263e-63b5-42e1-ac2b-0dac067b0623.jpg",
         "description": "Универсальный AFK модуль с поддержкой кастом сообщения и премиум статуса.",
         "commands": [
@@ -20331,6 +20190,11 @@
         "name": "YTSearch",
         "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/ytsearch.py"
+    },
+    {
+        "description": "люблю программирование🔥🔥 и все что с ним связано😜😜 алгоритмы💕💕😎 рекурсии😍😍😲 переменные😈😈 циклы😆😆🤘 разветвления 💗💗 функции🙇🤤 обычно программирую везде😋дома😎в метро😏в душе☺️и даже ночью🙀🙀это мое хобби 😹😹читаю топ документацию 💗java🍀c++🐈 python💀php🙈c#👹haskell😽смотрю в свое крутое IDE🤠иногда балуюсь с компилятором😎  ищу API которые упростят мне жизнь  🥳если ты не тру программист и не шаришь то не пиши мне ✋✋👎",
+        "name": "люблю программирование🔥🔥 и все что с ним связано😜😜 алгоритмы💕💕😎 рекурсии😍😍😲 переменные😈😈 циклы😆😆🤘 разветвления 💗💗 функции🙇🤤 обычно программирую везде😋дома😎в метро😏в душе☺️и даже ночью🙀🙀это мое хобби 😹😹читаю топ документацию 💗java🍀c++🐈 python💀php🙈c#👹haskell😽смотрю в свое крутое IDE🤠иногда балуюсь с компилятором😎  ищу API которые упростят мне жизнь  🥳если ты не тру программист и не шаришь то не пиши мне ✋✋👎",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/zapretheta_limoka.py"
     },
     {
         "description": "Модуль для рассылок",
@@ -21274,6 +21138,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/amm1edev/AmeMods/MentionAll.py"
     },
     {
+        "author": "@thisLyomi & @amekamods",
+        "description": "Вместо репли вставляет цитату с содержимым из репли.",
+        "commands": [
+            {
+                "name": "qmsg",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - Отправить сообщение с цитированием содержимого из репли."
+                }
+            }
+        ],
+        "name": "QuoteMsg",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/amm1edev/AmeMods/QuoteMsg.py"
+    },
+    {
         "author": "@thisLyomi & @AmekaMods",
         "description": "🎵 Скачивает mp3 из видео и плейлистов YouTube",
         "commands": [
@@ -21898,6 +21777,24 @@
         "name": "Apo-LoginCodeReciever",
         "version": "0.0.36",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/lcr.py"
+    },
+    {
+        "author": "@apodiktum_modules",
+        "banner": "https://t.me/apodiktum_dumpster/11",
+        "pic": "https://t.me/apodiktum_dumpster/13",
+        "description": "Forces users to join a linked chat before they can send messages in the current chat.",
+        "commands": [
+            {
+                "name": "clinkedchat",
+                "inline": false,
+                "description": {
+                    "doc": "This will open the config for the module."
+                }
+            }
+        ],
+        "name": "Apo-LinkedChat",
+        "version": "0.0.8",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/linked_chat.py"
     },
     {
         "author": "@apodiktum_modules",
@@ -22946,24 +22843,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/SwitchToHeroku.py"
     },
     {
-        "author": "@codrago_m",
-        "banner": "https://mods.codrago.top/banners/ascii_face.png",
-        "pic": "https://0x0.st/s/TGT42nesnQ5TwvixG8nFEQ/8KPa.webp",
-        "description": "Random Ascii Face from utils",
-        "commands": [
-            {
-                "name": "ascii",
-                "inline": false,
-                "description": {
-                    "doc": "| Get random ascii face"
-                }
-            }
-        ],
-        "name": "Ascii_Face",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/ascii_face.py"
-    },
-    {
         "author": "@codrago_m, @unneyon_hmods",
         "banner": "https://mods.codrago.top/banners/clicon.png",
         "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
@@ -23063,6 +22942,31 @@
         "name": "EmojiDownload",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/emojidown.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://0x0.st/s/P0iSUm3VUe-mY3Soc7qRAQ/8KPV.webp",
+        "description": "Tool for work with figlet",
+        "commands": [
+            {
+                "name": "figlet",
+                "inline": false,
+                "description": {
+                    "doc": "[args] | run figlet command"
+                }
+            },
+            {
+                "name": "figlist",
+                "inline": false,
+                "description": {
+                    "doc": "| see list of all fonts"
+                }
+            }
+        ],
+        "name": "Figlet",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/figlet.py"
     },
     {
         "author": "@codrago_m",
@@ -23417,6 +23321,21 @@
         ],
         "name": "Bfgim",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/Bfgim.py"
+    },
+    {
+        "author": "@codermasochist",
+        "description": "генератор рандомных паролей",
+        "commands": [
+            {
+                "name": "grr",
+                "inline": false,
+                "description": {
+                    "doc": "— <число> — макс. символов."
+                }
+            }
+        ],
+        "name": "GRR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/GRR.py"
     },
     {
         "author": "@codermasochist",
@@ -23916,43 +23835,6 @@
         ],
         "name": "LiMERPMod",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/LiMERPMod.py"
-    },
-    {
-        "author": "@minimaxno",
-        "pic": "https://img.icons8.com/emoji/344/scroll-emoji.png",
-        "description": "Helps to download mods to file and automaticaly make simple descriptions for your modules.",
-        "commands": [
-            {
-                "name": "setun",
-                "inline": false,
-                "description": {
-                    "doc": "Configurates GH username."
-                }
-            },
-            {
-                "name": "setrepo",
-                "inline": false,
-                "description": {
-                    "doc": "Configurates GH repo name."
-                }
-            },
-            {
-                "name": "descr",
-                "inline": false,
-                "description": {
-                    "doc": "Makes decription. Required format:\nemoji > name > description > base language code, language codes to translate automatocally, …"
-                }
-            },
-            {
-                "name": "topy",
-                "inline": false,
-                "description": {
-                    "doc": "Gets module from link."
-                }
-            }
-        ],
-        "name": "MHelp",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/MHelp.py"
     },
     {
         "author": "@mm_mods",
@@ -25183,57 +25065,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroGenerateHuman.png",
-        "description": "Отправляет рандомное имя, фамилию, дату рождения, email, пароль и телефон.",
-        "commands": [
-            {
-                "name": "generatehuman",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать человека."
-                }
-            },
-            {
-                "name": "generatepass",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать паспорт."
-                }
-            },
-            {
-                "name": "generateschl",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать инф-цию об образовании."
-                }
-            },
-            {
-                "name": "generatedocs",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать документы."
-                }
-            },
-            {
-                "name": "generateauto",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать инф-цию об авто."
-                }
-            },
-            {
-                "name": "generatebank",
-                "inline": false,
-                "description": {
-                    "doc": "- сгенерировать платежную инф-цию."
-                }
-            }
-        ],
-        "name": "GenerateHuman",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dorotorothequickend/DorotoroModules/RandomHuman.py"
-    },
-    {
-        "author": "@DorotoroMods",
         "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroRandomJumoreska.png",
         "description": "Отправляет случайную юмореску.",
         "commands": [
@@ -25541,23 +25372,6 @@
         ],
         "name": "Activists",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/activists.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/alphabet.jpg",
-        "pic": "https://img.icons8.com/plasticine/344/hiragana-ma.png",
-        "description": "Replaces your text with custom emojis. Telegram Premium only",
-        "commands": [
-            {
-                "name": "a",
-                "inline": false,
-                "description": {
-                    "doc": "<text> - Write text with emojis"
-                }
-            }
-        ],
-        "name": "Alphabet",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/alphabet.py"
     },
     {
         "author": "@hikarimods",
@@ -25943,6 +25757,23 @@
         ],
         "name": "ModuleCloud",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/cloud.py"
+    },
+    {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/craiyon.jpg",
+        "pic": "https://static.dan.tatar/craiyon_icon.png",
+        "description": "Generates images by description using Craiyon AI (DALL-E)",
+        "commands": [
+            {
+                "name": "craiyon",
+                "inline": false,
+                "description": {
+                    "doc": "<description> - Generate an image by description using Craiyon AI (DALL-E)"
+                }
+            }
+        ],
+        "name": "CrAIyon",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/craiyon.py"
     },
     {
         "author": "@hikarimods",
@@ -28055,6 +27886,51 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/systemd.jpg",
+        "pic": "https://img.icons8.com/plasticine/344/apple-settings--v2.png",
+        "description": "Control systemd units easily",
+        "commands": [
+            {
+                "name": "units",
+                "inline": false,
+                "description": {
+                    "doc": "Open control panel"
+                }
+            },
+            {
+                "name": "addunit",
+                "inline": false,
+                "description": {
+                    "doc": "<unit> <name> - Add new unit"
+                }
+            },
+            {
+                "name": "delunit",
+                "inline": false,
+                "description": {
+                    "doc": "<unit> - Delete unit"
+                }
+            },
+            {
+                "name": "unit",
+                "inline": false,
+                "description": {
+                    "doc": "<unit> <start|stop|restart|logs|tail> - Perform specific action on unit bypassing main menu"
+                }
+            },
+            {
+                "name": "nameunit",
+                "inline": false,
+                "description": {
+                    "doc": "<unit> <new_name> - Rename unit"
+                }
+            }
+        ],
+        "name": "Systemd",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/systemd.py"
+    },
+    {
+        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/tagall.jpg",
         "pic": "https://static.dan.tatar/tagall_icon.png",
         "description": "Tags all people in chat with either inline bot or client",
@@ -28096,6 +27972,52 @@
         ],
         "name": "Teledocs",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/teledocs.py"
+    },
+    {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/temp_chat.jpg",
+        "pic": "https://static.dan.tatar/temp_chat_icon.png",
+        "description": "Creates temprorary chats",
+        "commands": [
+            {
+                "name": "tmpchat",
+                "inline": false,
+                "description": {
+                    "doc": "<time> <title> - Create new temporary chat"
+                }
+            },
+            {
+                "name": "tmpcurrent",
+                "inline": false,
+                "description": {
+                    "doc": "<time> - Make current chat temporary"
+                }
+            },
+            {
+                "name": "tmpchats",
+                "inline": false,
+                "description": {
+                    "doc": "List temp chats"
+                }
+            },
+            {
+                "name": "tmpcancel",
+                "inline": false,
+                "description": {
+                    "doc": "[chat-id] - Disable deleting chat by id, or current chat if unspecified."
+                }
+            },
+            {
+                "name": "tmpctime",
+                "inline": false,
+                "description": {
+                    "doc": "[chat_id] <new_time> - Change chat deletion time"
+                }
+            }
+        ],
+        "name": "TmpChats",
+        "version": "3.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/temp_chat.py"
     },
     {
         "author": "@bsolute",
@@ -28723,6 +28645,62 @@
         ],
         "name": "Information",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/Information.py"
+    },
+    {
+        "description": "tracking in all PM chats.",
+        "commands": [
+            {
+                "name": "seechat",
+                "inline": false,
+                "description": {
+                    "doc": "use: .seechat | to enable tracking in all PM chats."
+                }
+            },
+            {
+                "name": "setchat",
+                "inline": false,
+                "description": {
+                    "doc": "use: .setchat | to set this chat as a track chat."
+                }
+            },
+            {
+                "name": "seechats",
+                "inline": false,
+                "description": {
+                    "doc": "use: .seechats | to see the list of tracking people."
+                }
+            },
+            {
+                "name": "gsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .gsee {id} | to get the tracked file."
+                }
+            },
+            {
+                "name": "delsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .delsee {id} | to delete the tracked file."
+                }
+            },
+            {
+                "name": "excsee",
+                "inline": false,
+                "description": {
+                    "doc": "use: .excsee {id} | to add / remove user from exclude tracking."
+                }
+            },
+            {
+                "name": "exclist",
+                "inline": false,
+                "description": {
+                    "doc": "use: .exclist | to see the list of exceptions."
+                }
+            }
+        ],
+        "name": "SeeChat",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/SeeChat.py"
     },
     {
         "description": "Юникод арты",
@@ -31268,6 +31246,22 @@
     },
     {
         "author": "@nervousmods, @hikka_mods",
+        "description": "Module for search cutie kitties from @catslovemeow",
+        "commands": [
+            {
+                "name": "kit",
+                "inline": false,
+                "description": {
+                    "doc": "-> to get a cute kitty"
+                }
+            }
+        ],
+        "name": "Kittens",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Kittens.py"
+    },
+    {
+        "author": "@nervousmods, @hikka_mods",
         "description": "Module for downloading images via link from any sources",
         "commands": [
             {
@@ -31504,21 +31498,6 @@
         "author": "@aki_modules",
         "commands": [
             {
-                "name": "rapic",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- получить рандомную аниме-картинку 👀",
-                    "doc": "- fetch random anime-pic 👀"
-                }
-            }
-        ],
-        "name": "RandomAnimePic",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/RandomAnimePic.py"
-    },
-    {
-        "author": "@aki_modules",
-        "commands": [
-            {
                 "name": "search",
                 "inline": false,
                 "description": {
@@ -31589,6 +31568,35 @@
         ],
         "name": "VoiceToText",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/VoiceToText.py"
+    },
+    {
+        "author": "@aki_modules",
+        "commands": [
+            {
+                "name": "wallet",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет ваш баланс в @send"
+                }
+            }
+        ],
+        "name": "WalletCheck",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/WalletCheck.py"
+    },
+    {
+        "author": "@codeer_kot",
+        "description": "Модуль для проверки на флуд-вейты",
+        "commands": [
+            {
+                "name": "fl",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить флуд-вейты"
+                }
+            }
+        ],
+        "name": "KOTFLMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTFLMod.py"
     },
     {
         "author": "@codeer_kot",
@@ -35563,21 +35571,6 @@
     },
     {
         "author": "@xdesai",
-        "commands": [
-            {
-                "name": "ipi",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ip> | Информация об IP",
-                    "doc": "<ip> | Information about IP."
-                }
-            }
-        ],
-        "name": "InfoIP",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/InfoIP.py"
-    },
-    {
-        "author": "@xdesai",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -35733,22 +35726,6 @@
         ],
         "name": "URLModule",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/URLModule.py"
-    },
-    {
-        "author": "@xdesai",
-        "description": "Gets information about user from funstat.\nBefore using unblock @Accstat_bot",
-        "commands": [
-            {
-                "name": "fstat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<user> | Получить информацию.",
-                    "doc": "<user> | Get info."
-                }
-            }
-        ],
-        "name": "Accstat",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/accstat.py"
     },
     {
         "author": "@xdesai",
