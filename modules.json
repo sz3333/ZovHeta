@@ -4992,43 +4992,6 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Модуль АФК который меняет эмодзи статус (онли Прем) и всякая другая всячина",
-        "commands": [
-            {
-                "name": "afklist",
-                "inline": false,
-                "description": {
-                    "doc": "Показать черный список чатов"
-                }
-            },
-            {
-                "name": "afkadd",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить текущий чат или пользователя в черный список"
-                }
-            },
-            {
-                "name": "afkdel",
-                "inline": false,
-                "description": {
-                    "doc": "Удалить текущий чат из черного списка"
-                }
-            },
-            {
-                "name": "afk",
-                "inline": false,
-                "description": {
-                    "doc": "[причина] [время] - включить/выключить АФК режим"
-                }
-            }
-        ],
-        "name": "UnknownAFK",
-        "version": "3.5.5",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/unknownafk.py"
-    },
-    {
-        "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
             {
@@ -6243,29 +6206,6 @@
     },
     {
         "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/avachanger.png?raw=true",
-        "description": "Смена аватарки по времени",
-        "commands": [
-            {
-                "name": "avatarl",
-                "inline": false,
-                "description": {
-                    "doc": "Смена аватарки по времени"
-                }
-            },
-            {
-                "name": "avatarl_stop",
-                "inline": false,
-                "description": {
-                    "doc": "Выключить смену аватарки по времени"
-                }
-            }
-        ],
-        "name": "AvaChanger",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/avachanger.py"
-    },
-    {
-        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/banforaskmod.png?raw=true",
         "description": "Бан за просьбу дать модулей",
         "commands": [
@@ -6693,22 +6633,6 @@
     },
     {
         "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/grokai.png?raw=true",
-        "description": "Взаимодействие с Grok AI",
-        "commands": [
-            {
-                "name": "grok",
-                "inline": false,
-                "description": {
-                    "doc": "Задать вопрос к Grok"
-                }
-            }
-        ],
-        "name": "GrokAI",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/grokai.py"
-    },
-    {
-        "author": "@FAmods",
         "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/gsearch.png?raw=true",
         "description": "Поиск в Google",
         "commands": [
@@ -7130,43 +7054,6 @@
         ],
         "name": "TonDNS",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/tondns.py"
-    },
-    {
-        "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/tonscan.png?raw=true",
-        "description": "Информация о TON адресе",
-        "commands": [
-            {
-                "name": "tonwallet",
-                "inline": false,
-                "description": {
-                    "doc": "Информация о TON кошельке"
-                }
-            },
-            {
-                "name": "tonjetton",
-                "inline": false,
-                "description": {
-                    "doc": "Информация о TON токене"
-                }
-            },
-            {
-                "name": "tonnftcol",
-                "inline": false,
-                "description": {
-                    "doc": "Информация о TON NFT коллекции"
-                }
-            },
-            {
-                "name": "tonnft",
-                "inline": false,
-                "description": {
-                    "doc": "Информация о TON NFT"
-                }
-            }
-        ],
-        "name": "Tonscan",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/tonscan.py"
     },
     {
         "author": "@FAmods",
@@ -8961,21 +8848,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/huhuhu.py"
     },
     {
-        "author": "@mwmodules",
-        "description": "Получает подробную информацию об IP-адресе, включая хост, дополнительные данные, ссылку на Google Maps и 20 полей.",
-        "commands": [
-            {
-                "name": "ip",
-                "inline": false,
-                "description": {
-                    "doc": "Получает подробную информацию об IP-адресе и определяет хост.\n.ip <ip_address>"
-                }
-            }
-        ],
-        "name": "IPInfo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/ipinfo_mw.py"
-    },
-    {
         "description": "Модуль для просмотра мешка в Irise by @zhako_o7",
         "commands": [
             {
@@ -9395,195 +9267,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/pizdeznaxyi284738.py"
     },
     {
-        "description": "Модуль Ragnarok",
-        "commands": [
-            {
-                "name": "ragnhelp",
-                "inline": false,
-                "description": {
-                    "doc": "Αϰμϻαҵμя"
-                }
-            },
-            {
-                "name": "chathelp",
-                "inline": false,
-                "description": {
-                    "doc": "🄼🄾🄳🅄🄻🄴 🄲🄷🄰🅃"
-                }
-            },
-            {
-                "name": "irishelp",
-                "inline": false,
-                "description": {
-                    "doc": "🄸🅁🄸🅂 🄷🄴🄻🄿"
-                }
-            },
-            {
-                "name": "afkhelp",
-                "inline": false,
-                "description": {
-                    "doc": "🄰🄵🄺 🄷🄴🄻🄿"
-                }
-            },
-            {
-                "name": "ragnping",
-                "inline": false,
-                "description": {
-                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʙᴀɯ ᴨинᴦ"
-                }
-            },
-            {
-                "name": "ragnprofile",
-                "inline": false,
-                "description": {
-                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʙᴀɯ ᴨᴩᴏɸиᴧь"
-                }
-            },
-            {
-                "name": "ragnafkon",
-                "inline": false,
-                "description": {
-                    "doc": "Вх᧐д ʙ ᥲɸκ ᥴᴛᥲᴛуᥴ"
-                }
-            },
-            {
-                "name": "ragnafkoff",
-                "inline": false,
-                "description": {
-                    "doc": "Вых᧐д ᥙɜ ᥲɸκ ᥴᴛᥲᴛуᥴᥲ"
-                }
-            },
-            {
-                "name": "irison",
-                "inline": false,
-                "description": {
-                    "doc": "ʙᴋᴧючᴀᴇᴛ ᴀʙᴛᴏ ɸᴀᴩʍ ʙ иᴩиᴄᴇ"
-                }
-            },
-            {
-                "name": "irisoff",
-                "inline": false,
-                "description": {
-                    "doc": "ʙыᴋᴧючᴀᴇᴛ ᴀʙᴛᴏ ɸᴀᴩʍ ʙ иᴩиᴄᴇ"
-                }
-            },
-            {
-                "name": "irisf",
-                "inline": false,
-                "description": {
-                    "doc": "ʙыʙᴏдиᴛ ɸᴀᴩʍ иɜ ʍᴏдуᴧя"
-                }
-            },
-            {
-                "name": "irismeh",
-                "inline": false,
-                "description": {
-                    "doc": "ᴨᴏᴋᴀɜыʙᴀᴇᴛ ʍᴇɯᴏᴋ ʙ иᴩиᴄᴇ"
-                }
-            },
-            {
-                "name": "ragnautoon",
-                "inline": false,
-                "description": {
-                    "doc": "ʙᴋᴧючиᴛь ʍᴏдуᴧь ᴄ ᴏᴛʙᴇᴛᴀʍи ⟨𝗋𝖾𝗉𝗅𝗒⟩"
-                }
-            },
-            {
-                "name": "ragnautooffall",
-                "inline": false,
-                "description": {
-                    "doc": "ᴨᴏᴧнᴀя ᴏᴄᴛᴀнᴏʙᴋᴀ ʍᴏдуᴧя ᴄ ᴏᴛʙᴇᴛᴀʍи"
-                }
-            },
-            {
-                "name": "ragnautooff",
-                "inline": false,
-                "description": {
-                    "doc": "ᴏᴄᴛᴀнᴏʙᴋᴀ ʍᴏдуᴧя ᴄ ᴏᴛʙᴇᴛᴀʍи нᴀ ʙыбᴩᴀнный ᴀᴋᴋᴀунᴛ  ⟨𝗋𝖾𝗉𝗅𝗒⟩"
-                }
-            },
-            {
-                "name": "ragline",
-                "inline": false,
-                "description": {
-                    "doc": "Вечный онлайн"
-                }
-            },
-            {
-                "name": "ragn1type",
-                "inline": false,
-                "description": {
-                    "doc": "Автотайп на 1 час"
-                }
-            },
-            {
-                "name": "ragn7",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 7"
-                }
-            },
-            {
-                "name": "ragn1",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 1"
-                }
-            },
-            {
-                "name": "ragn2",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 2"
-                }
-            },
-            {
-                "name": "ragnpht",
-                "inline": false,
-                "description": {
-                    "doc": "Οτɞετ ϲ ϕστσ/ɞμɠεσ/GIF"
-                }
-            },
-            {
-                "name": "ragn3",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 3"
-                }
-            },
-            {
-                "name": "ragn4",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 4"
-                }
-            },
-            {
-                "name": "ragn5",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 5"
-                }
-            },
-            {
-                "name": "ragn6",
-                "inline": false,
-                "description": {
-                    "doc": "Шᥲδ᧘᧐н 6"
-                }
-            },
-            {
-                "name": "ragninfo",
-                "inline": false,
-                "description": {
-                    "doc": "Կᥲᴛ ᥙнɸ᧐ρʍᥲцᥙя"
-                }
-            }
-        ],
-        "name": "<b>[ 🇹🇨 𝘙𝘢𝘨𝘯𝘢𝘳𝘰𝘬 𝘩𝘦𝘭𝘱𝘦𝘳 🇹🇨]</b>",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/ragnarokhelper.py"
-    },
-    {
         "description": "Модуль для автоматизації дій з кнопками у @coloniZERObot з кількістю повторів",
         "commands": [
             {
@@ -9596,69 +9279,6 @@
         ],
         "name": "RocketFuel",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/rocket_fuel.py"
-    },
-    {
-        "description": "Модуль для рассылки сообщений по заданным чатам от @Apostol_prince.",
-        "commands": [
-            {
-                "name": "soob",
-                "inline": false,
-                "description": {
-                    "doc": "- сохранить сообщение для рассылки (использовать в ответ на сообщение)"
-                }
-            },
-            {
-                "name": "slist",
-                "inline": false,
-                "description": {
-                    "doc": "- показать сохраненное сообщение для рассылки"
-                }
-            },
-            {
-                "name": "dobchat",
-                "inline": false,
-                "description": {
-                    "doc": "- добавить чат в список для рассылки (использовать только с @username)"
-                }
-            },
-            {
-                "name": "chatlist",
-                "inline": false,
-                "description": {
-                    "doc": "- показать список чатов для рассылки"
-                }
-            },
-            {
-                "name": "delchat",
-                "inline": false,
-                "description": {
-                    "doc": "- удалить чат из списка для рассылки (использовать только через @username)"
-                }
-            },
-            {
-                "name": "setinterval",
-                "inline": false,
-                "description": {
-                    "doc": "- установить интервал рассылки (в минутах)"
-                }
-            },
-            {
-                "name": "startr",
-                "inline": false,
-                "description": {
-                    "doc": "- разослать сохраненное сообщение по указанным чатам через интервал времени"
-                }
-            },
-            {
-                "name": "stopr",
-                "inline": false,
-                "description": {
-                    "doc": "- остановить рассылку сообщений"
-                }
-            }
-        ],
-        "name": "soobxp",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/soobxp.py"
     },
     {
         "author": "@Yaukais, @Shadow_red1",
@@ -9780,126 +9400,6 @@
         ],
         "name": "voiceActing",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/voiceActing.py"
-    },
-    {
-        "author": "@ZSUtop_Ukraine",
-        "description": "Мемные гс для диалогов",
-        "commands": [
-            {
-                "name": "повезло",
-                "inline": false,
-                "description": {
-                    "doc": "| повезло повезло"
-                }
-            },
-            {
-                "name": "нахяп",
-                "inline": false,
-                "description": {
-                    "doc": "| Блять нахуй я сюда пришёл"
-                }
-            },
-            {
-                "name": "ктототут",
-                "inline": false,
-                "description": {
-                    "doc": "| Ай ай ай кто-то тут пиздабол"
-                }
-            },
-            {
-                "name": "тыгений",
-                "inline": false,
-                "description": {
-                    "doc": "| Блин вот это ты умный"
-                }
-            },
-            {
-                "name": "щазарежу",
-                "inline": false,
-                "description": {
-                    "doc": "| Щас зарежу нахуй"
-                }
-            },
-            {
-                "name": "япрощаю",
-                "inline": false,
-                "description": {
-                    "doc": "| Я прощаю тебя"
-                }
-            },
-            {
-                "name": "okurwa",
-                "inline": false,
-                "description": {
-                    "doc": "| О курва"
-                }
-            },
-            {
-                "name": "отсталый",
-                "inline": false,
-                "description": {
-                    "doc": "| А я поняла ты уменствнно осталый, да?"
-                }
-            },
-            {
-                "name": "заебалинах",
-                "inline": false,
-                "description": {
-                    "doc": "| Блять заебали нахуй написано же сначало сделать юзербота"
-                }
-            },
-            {
-                "name": "отвинта",
-                "inline": false,
-                "description": {
-                    "doc": "| Всё зависит от винта"
-                }
-            },
-            {
-                "name": "пошёлнах",
-                "inline": false,
-                "description": {
-                    "doc": "| Пошёл нахуй"
-                }
-            },
-            {
-                "name": "пизда",
-                "inline": false,
-                "description": {
-                    "doc": "| Да, пизда"
-                }
-            },
-            {
-                "name": "Крик",
-                "inline": false,
-                "description": {
-                    "doc": "| Крик(пиздец громко)"
-                }
-            },
-            {
-                "name": "ohmy",
-                "inline": false,
-                "description": {
-                    "doc": "| Oh my gad"
-                }
-            },
-            {
-                "name": "смех",
-                "inline": false,
-                "description": {
-                    "doc": "| Стрёмный смех"
-                }
-            },
-            {
-                "name": "почя",
-                "inline": false,
-                "description": {
-                    "doc": "| Что, почему я черный?"
-                }
-            }
-        ],
-        "name": "voiceMEMS1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/voiceMEMS1.py"
     },
     {
         "author": "@hewin",
@@ -10568,92 +10068,6 @@
         ],
         "name": "GoogleTrans",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/GoogleTrans.py"
-    },
-    {
-        "author": "@mm_mods",
-        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
-        "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Google Translate,\nwith many useful features.",
-        "commands": [
-            {
-                "name": "autotranslate",
-                "inline": false,
-                "description": {
-                    "doc": "Use language code with this command to add this chat to autotranslate list."
-                }
-            },
-            {
-                "name": "onboardh",
-                "inline": false,
-                "description": {
-                    "doc": "Syntax manual."
-                }
-            },
-            {
-                "name": "dllap",
-                "inline": false,
-                "description": {
-                    "doc": "Downloads languages name pack for entered language. Allows to search languages through .searchlang on your own language."
-                }
-            },
-            {
-                "name": "dellap",
-                "inline": false,
-                "description": {
-                    "doc": "Deletes custom language pack."
-                }
-            },
-            {
-                "name": "deflang",
-                "inline": false,
-                "description": {
-                    "doc": "Use language code with this command to switch basic translation language."
-                }
-            },
-            {
-                "name": "searchlang",
-                "inline": false,
-                "description": {
-                    "doc": "Searching language by code or name (RU and EN names avaliable — if you downloaded others, you may use them; first usage takes some time to configure database)."
-                }
-            },
-            {
-                "name": "silentmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch between silent/unsilent mode."
-                }
-            },
-            {
-                "name": "subsmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch autotranslate subscription mode."
-                }
-            },
-            {
-                "name": "markmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch between showing/unshowing «translated» mark."
-                }
-            },
-            {
-                "name": "atlist",
-                "inline": false,
-                "description": {
-                    "doc": "Sends a list of chats, in which autotranslate is turned on."
-                }
-            },
-            {
-                "name": "translate",
-                "inline": false,
-                "description": {
-                    "doc": "In fact, it translates. Use (start;final) to mark the start and end language of the translation.\nLeave the start language blank to define it automatically."
-                }
-            }
-        ],
-        "name": "GoogleTrans",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/GoogleTransRR.py"
     },
     {
         "author": "@mm_mods, original by Fl1yd",
@@ -13223,23 +12637,6 @@
     },
     {
         "author": "@K0vaIskii",
-        "description": "Модуль для обновления Премиум-статуса",
-        "commands": [
-            {
-                "name": "sem",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ> - Обновить Премиум-статус",
-                    "doc": "Set the emoji status"
-                }
-            }
-        ],
-        "name": "KSEMModule",
-        "version": "0.0.3",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KSEMModule.py"
-    },
-    {
-        "author": "@K0vaIskii",
         "description": "Скачивание видео из Tiktok",
         "commands": [
             {
@@ -13941,27 +13338,6 @@
             }
         ],
         "name": "SuperDemotivator",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SuperDemotivator.V2.py"
-    },
-    {
-        "description": "Демотиваторы на картинки от @SomeScripts by @DneZyeK",
-        "commands": [
-            {
-                "name": "demoti",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nне мнёт фотки"
-                }
-            },
-            {
-                "name": "demot",
-                "inline": false,
-                "description": {
-                    "doc": "текст + фото или ответ на фото\nмнёт фотки"
-                }
-            }
-        ],
-        "name": "SuperDemotivator",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/SuperDemotivator.py"
     },
     {
@@ -14573,27 +13949,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pypng.py"
     },
     {
-        "description": "Python stuff",
-        "commands": [
-            {
-                "name": "eval",
-                "inline": false,
-                "description": {
-                    "doc": ".eval <expression>\nEvaluates python code"
-                }
-            },
-            {
-                "name": "exec",
-                "inline": false,
-                "description": {
-                    "doc": ".exec <expression>\nExecutes python code"
-                }
-            }
-        ],
-        "name": "Python",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/python.py"
-    },
-    {
         "description": "Perevodit rysskiy na rysianskiy yazyk",
         "commands": [
             {
@@ -14727,18 +14082,6 @@
         ],
         "name": "Valutes",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/valute.py"
-    },
-    {
-        "description": "link to screen",
-        "commands": [
-            {
-                "name": "webshot",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "WebShot",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/webshot.py"
     },
     {
         "description": "wow, what is it there?",
@@ -15172,27 +14515,6 @@
     },
     {
         "author": "@AuroraModules",
-        "banner": "https://te.legra.ph/file/9bf5a040f3fcab0caf689.jpg",
-        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
-        "commands": [
-            {
-                "name": "deanon",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Поиск по @UserName/Number/Email",
-                    "uz_doc": "Qidiruv @UserName/Number/Email",
-                    "de_doc": "Suche nach @UserName/Number/Email",
-                    "es_doc": "Buscar por @UserName/Number/Email",
-                    "doc": "Search by @UserName/Number/Email"
-                }
-            }
-        ],
-        "name": "Deanon",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Deanon.py"
-    },
-    {
-        "author": "@AuroraModules",
         "banner": "https://te.legra.ph/file/388d6138470f2036d08ed.jpg",
         "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Get a random historical fact",
@@ -15426,36 +14748,6 @@
         "name": "MyDebtors",
         "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
-    },
-    {
-        "author": "@AuroraModules",
-        "description": "With this module, you can play the game «rock, paper, scissors».",
-        "commands": [
-            {
-                "name": "sgamerps",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Начать игру «Камень, ножницы, бумага»",
-                    "uz_doc": "- «Tosh, qog'oz, qaychi» o'yinining boshlanishi",
-                    "de_doc": "- Beginn des Spiels «Stein, Papier, Schere»",
-                    "es_doc": "- El comienzo del juego «Piedra, papel o tijera»",
-                    "doc": "- Start the game «Rock, Paper, Scissors»"
-                }
-            },
-            {
-                "name": "cleargames",
-                "inline": false,
-                "description": {
-                    "uz_doc": "- Barcha faol o'yinlarni tugatish.",
-                    "de_doc": "- Alle aktiven Spiele beenden.",
-                    "es_doc": "- Completar todos los juegos en curso.",
-                    "doc": "- Complete all running games."
-                }
-            }
-        ],
-        "name": "RPSgame",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RPSgame.py"
     },
     {
         "author": "@AuroraModules",
@@ -17914,42 +17206,6 @@
     },
     {
         "author": "@kshmods",
-        "description": "A module for parsing URLs.",
-        "commands": [
-            {
-                "name": "scrape",
-                "inline": false,
-                "description": {
-                    "doc": "Extracts and processes data from the specified URL."
-                }
-            },
-            {
-                "name": "shurl",
-                "inline": false,
-                "description": {
-                    "doc": "Shortens the given URL."
-                }
-            },
-            {
-                "name": "expandurl",
-                "inline": false,
-                "description": {
-                    "doc": "Expands the given shortened URL."
-                }
-            },
-            {
-                "name": "ipurl",
-                "inline": false,
-                "description": {
-                    "doc": "Gets the IP address of the given URL."
-                }
-            }
-        ],
-        "name": "URLModule",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/URLModule.py"
-    },
-    {
-        "author": "@kshmods",
         "description": "Upgraded neofetch",
         "commands": [
             {
@@ -18145,21 +17401,6 @@
     },
     {
         "author": "@kshmods",
-        "description": "Пишет ASCII шрифтом",
-        "commands": [
-            {
-                "name": "ascii",
-                "inline": false,
-                "description": {
-                    "doc": "Пишет ASCII шрифтом. Использование: .ascii <текст>"
-                }
-            }
-        ],
-        "name": "Ascii",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/ascii.py"
-    },
-    {
-        "author": "@kshmods",
         "description": "Автоматическая фарма в боте BFG.",
         "commands": [
             {
@@ -18297,36 +17538,6 @@
         ],
         "name": "ScrSpam",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/screenspam.py"
-    },
-    {
-        "author": "@kshmods",
-        "description": "Module for sending private messages",
-        "commands": [
-            {
-                "name": "send",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .send <message>"
-                }
-            },
-            {
-                "name": "setpm",
-                "inline": false,
-                "description": {
-                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
-                }
-            },
-            {
-                "name": "stopchat",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
-                }
-            }
-        ],
-        "name": "SendPm",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/send.py"
     },
     {
         "author": "@kshmods",
@@ -26105,23 +25316,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/bigtext.jpg",
-        "pic": "https://img.icons8.com/external-soft-fill-juicy-fish/480/000000/external-big-cute-monsters-soft-fill-soft-fill-juicy-fish-4.png",
-        "description": "Creates big ASCII Text",
-        "commands": [
-            {
-                "name": "bt",
-                "inline": false,
-                "description": {
-                    "doc": "[chars in line] - Create big text"
-                }
-            }
-        ],
-        "name": "BigText",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/bigtext.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/bincheck.jpg",
         "pic": "https://static.dan.tatar/bincheck_icon.png",
         "description": "Show bin info about card",
@@ -26683,30 +25877,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/git_pusher.jpg",
-        "pic": "https://static.dan.tatar/git_pusher.png",
-        "description": "Easily push your repo from within the Telegram",
-        "commands": [
-            {
-                "name": "setghdir",
-                "inline": false,
-                "description": {
-                    "doc": "<path> - Set directory as upstream"
-                }
-            },
-            {
-                "name": "push",
-                "inline": false,
-                "description": {
-                    "doc": "[commit message] - Push current upstream directory"
-                }
-            }
-        ],
-        "name": "GitPusher",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/git_pusher.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/grustnogram.jpg",
         "pic": "https://static.dan.tatar/grustnogram_icon.png",
         "description": "Grustnogram.ru Telegram client",
@@ -27120,24 +26290,6 @@
         ],
         "name": "Img2Pdf",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/img2pdf.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/inactive.jpg",
-        "pic": "https://img.icons8.com/external-wanicon-flat-wanicon/344/external-dead-halloween-costume-avatar-wanicon-flat-wanicon.png",
-        "description": "Blocks people who are inactive for a long time. Check .config",
-        "commands": [
-            {
-                "name": "inactive",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Запустить чистку неактивных юзеров",
-                    "doc": "Start inactive users cleaner"
-                }
-            }
-        ],
-        "name": "Inactive",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inactive.py"
     },
     {
         "author": "@hikarimods",
@@ -27800,23 +26952,6 @@
         "name": "PMBL",
         "version": "3.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/pmbl.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/pollplot.jpg",
-        "pic": "https://static.dan.tatar/pollplot_icon.png",
-        "description": "Visualises polls as plots",
-        "commands": [
-            {
-                "name": "plot",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> - Create plot from poll"
-                }
-            }
-        ],
-        "name": "PollPlot",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/pollplot.py"
     },
     {
         "author": "@hikarimods",
@@ -31750,22 +30885,6 @@
     },
     {
         "author": "@nervousmods, @hikka_mods",
-        "description": "Module for search cutie kitties from @catslovemeow",
-        "commands": [
-            {
-                "name": "kit",
-                "inline": false,
-                "description": {
-                    "doc": "-> to get a cute kitty"
-                }
-            }
-        ],
-        "name": "Kittens",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Kittens.py"
-    },
-    {
-        "author": "@nervousmods, @hikka_mods",
         "description": "Module for downloading images via link from any sources",
         "commands": [
             {
@@ -34182,23 +33301,6 @@
     },
     {
         "author": "@sqlmerr_m",
-        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
-        "description": "Module for converting a large number of currencies to other currencies",
-        "commands": [
-            {
-                "name": "cconvert",
-                "inline": false,
-                "description": {
-                    "ru_doc": "[from] [to] Конвертировать одну валюту в другую",
-                    "doc": "[from] [to] Convert currency to other currency"
-                }
-            }
-        ],
-        "name": "Currency Converter",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/currencyconverter.py"
-    },
-    {
-        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/egsfreegames.png?raw=true",
         "description": "Module for checking free games in Epic Games Store. Inline bot will send them every day in special chat",
         "commands": [
@@ -36180,21 +35282,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/MentionNotifier.py"
     },
     {
-        "author": "@xdesai",
-        "commands": [
-            {
-                "name": "whisper",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Секретное сообщение для пользователя",
-                    "doc": "Secret message for a user"
-                }
-            }
-        ],
-        "name": "SecretMessage",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/SecretM.py"
-    },
-    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/todo.jpg",
         "pic": "https://img.icons8.com/stickers/500/000000/todo-list.png",
@@ -37330,22 +36417,6 @@
         "name": "yg_rickroll",
         "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_rickroll.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Модуль для отправки сообщений на указанный юзернейм",
-        "commands": [
-            {
-                "name": "sendmsg",
-                "inline": false,
-                "description": {
-                    "doc": "<username> <word> oтправляет сообщение на указанный юзернейм"
-                }
-            }
-        ],
-        "name": "yg_sendmsg",
-        "version": "1.4.8.8",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_sendmsg.py"
     },
     {
         "author": "@yg_modules",
