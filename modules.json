@@ -9099,22 +9099,6 @@
     },
     {
         "author": "@mwmodules",
-        "description": "Мониторинг системных ресурсов сервера/устройства",
-        "commands": [
-            {
-                "name": "serverinfo",
-                "inline": false,
-                "description": {
-                    "doc": "Показывает информацию о системе с интерактивными кнопками"
-                }
-            }
-        ],
-        "name": "ServerInfo",
-        "version": "1.1.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/mw_serverinfo.py"
-    },
-    {
-        "author": "@mwmodules",
         "description": "🚀 Accurate internet speed measurement\n🚀 Точное измерение скорости интернета (для смены языка используйте .config SpeedTest language en/ru/uk)\n🚀 Точне вимірювання швидкості інтернету (для зміни мови використовуйте .config SpeedTest language en/ru/uk)",
         "commands": [
             {
@@ -13240,29 +13224,6 @@
     },
     {
         "author": "@K0vaIskii",
-        "description": "Скачивание видео из Tiktok",
-        "commands": [
-            {
-                "name": "tm",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Скачать Музыку"
-                }
-            },
-            {
-                "name": "tt",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Скачать Видео"
-                }
-            }
-        ],
-        "name": "KoTik",
-        "version": "0.1.4",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KoTik.py"
-    },
-    {
-        "author": "@K0vaIskii",
         "description": "Просто удаляет реплей",
         "commands": [
             {
@@ -14608,20 +14569,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/rysianskiy.py"
     },
     {
-        "description": "Соxранятель в избранное",
-        "commands": [
-            {
-                "name": "saved",
-                "inline": false,
-                "description": {
-                    "doc": ".saved реплай на медиа"
-                }
-            }
-        ],
-        "name": "SavedMessages",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/saved.py"
-    },
-    {
         "description": "Screenshot Spammer by @KeyZenD",
         "commands": [
             {
@@ -15546,61 +15493,6 @@
     },
     {
         "author": "@AuroraModules",
-        "banner": "https://te.legra.ph/file/5131a980bd2f80ad463ad.jpg",
-        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
-        "description": "Module for sending reports to the administration.",
-        "commands": [
-            {
-                "name": "addadmins",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Добавить администраторов из конфигурации в группу.",
-                    "uz_doc": "Konfiguratsiyadan administratorlarni guruhga qo'shadi.",
-                    "de_doc": "Fügt Administratoren aus der Konfiguration zur Gruppe hinzu.",
-                    "es_doc": "Agrega administradores desde la configuración al grupo.",
-                    "doc": "Add administrators from the config to the group"
-                }
-            },
-            {
-                "name": "chaton",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включает чат для репортов.",
-                    "uz_doc": "Hisobotlar uchun chatni yoqadi.",
-                    "de_doc": "Aktiviert den Chat für Berichte.",
-                    "es_doc": "Habilita el chat para informes.",
-                    "doc": "Enable chat for reports"
-                }
-            },
-            {
-                "name": "chatoff",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Отключает чат для репортов.",
-                    "uz_doc": "Hisobotlar uchun chatni o'chiradi.",
-                    "de_doc": "Deaktiviert den Chat für Berichte.",
-                    "es_doc": "Desactiva el chat para informes.",
-                    "doc": "Disable chat for reports"
-                }
-            },
-            {
-                "name": "report",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Отправляет репорт администрации.",
-                    "uz_doc": "Ma'muriyatga hisobot yuboradi.",
-                    "de_doc": "Sendet einen Bericht an die Verwaltung.",
-                    "es_doc": "Envía un informe a la administración.",
-                    "doc": "Sends a report to the administration."
-                }
-            }
-        ],
-        "name": "Reports",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Reports.py"
-    },
-    {
-        "author": "@AuroraModules",
         "banner": "https://te.legra.ph/file/55fa6eebae860a359ac27.jpg",
         "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Assistant for sending messages",
@@ -15750,28 +15642,6 @@
         ],
         "name": "Wikipedia",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Wikipedia.py"
-    },
-    {
-        "author": "@AuroraModules",
-        "banner": "https://te.legra.ph/file/c34c0a11aabd6a1fb6210.jpg",
-        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
-        "description": "Universal module for searching for certain words in the text.",
-        "commands": [
-            {
-                "name": "wfind",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<on/off> - установить статус работы модуля",
-                    "uz_doc": "<on/off> - o'rnatish modulining ish holati",
-                    "de_doc": "<on/off> - den Betriebsstatus des Moduls festlegen",
-                    "es_doc": "<on/off> - establecer el estado de funcionamiento del módulo",
-                    "doc": "<on/off> - set the module operation status"
-                }
-            }
-        ],
-        "name": "WordFinder",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/WordFinder.py"
     },
     {
         "commands": [
@@ -26247,23 +26117,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/cloud.jpg",
-        "pic": "https://static.dan.tatar/cloud_icon.png",
-        "description": "Hikari modules management",
-        "commands": [
-            {
-                "name": "ilink",
-                "inline": false,
-                "description": {
-                    "doc": "<modname> - Get hikari module banner"
-                }
-            }
-        ],
-        "name": "ModuleCloud",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/cloud.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/craiyon.jpg",
         "pic": "https://static.dan.tatar/craiyon_icon.png",
         "description": "Generates images by description using Craiyon AI (DALL-E)",
@@ -28457,28 +28310,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/teledocs.jpg",
-        "pic": "https://i.imgur.com/jH9i1SW.jpeg",
-        "description": "Telethon docs in your pocket",
-        "commands": [
-            {
-                "name": "tl",
-                "inline": true,
-                "description": {}
-            },
-            {
-                "name": "tl",
-                "inline": false,
-                "description": {
-                    "doc": "<ref> - Return telethon reference"
-                }
-            }
-        ],
-        "name": "Teledocs",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/teledocs.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/temp_chat.jpg",
         "pic": "https://static.dan.tatar/temp_chat_icon.png",
         "description": "Creates temprorary chats",
@@ -30348,20 +30179,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/lovemagic.py"
     },
     {
-        "description": "Модуль ловли подарков в True Mafia News.",
-        "commands": [
-            {
-                "name": "md",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .md чтобы включить/выключить ловлю подарков."
-                }
-            }
-        ],
-        "name": "MafiaDrawing",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/mafiadrawing.py"
-    },
-    {
         "commands": [
             {
                 "name": "mozg",
@@ -30542,34 +30359,6 @@
         ],
         "name": "Purge",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/purge.py"
-    },
-    {
-        "description": "Quotes by @sh1tchannel",
-        "commands": [
-            {
-                "name": "q",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> [quantity] [!file] [color] - Create nice quote from message(-s)"
-                }
-            },
-            {
-                "name": "fsq",
-                "inline": false,
-                "description": {
-                    "doc": "<@ / ID> + <text> + -r + <@ / ID> + <text>; <args> - Create fake quote"
-                }
-            },
-            {
-                "name": "sqset",
-                "inline": false,
-                "description": {
-                    "doc": "<bg_color/text_color> <value> - Configure SQuotes"
-                }
-            }
-        ],
-        "name": "SQuotes",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/quotes.py"
     },
     {
         "commands": [
@@ -31318,58 +31107,6 @@
         ],
         "name": "AnimeArts",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/animearts.py"
-    },
-    {
-        "author": "@idiotcoders",
-        "banner": "https://mods.whypodg.me/badges/animetools.jpg",
-        "pic": "https://static.whypodg.me/mods!animetools.png",
-        "description": "AnimeTools",
-        "commands": [
-            {
-                "name": "findanime",
-                "inline": false,
-                "description": {
-                    "doc": "Search by picture for what anime"
-                }
-            },
-            {
-                "name": "animequote",
-                "inline": false,
-                "description": {
-                    "doc": "Sends anime quotes"
-                }
-            },
-            {
-                "name": "animechar",
-                "inline": false,
-                "description": {
-                    "doc": "Sends anime quotes for specific character"
-                }
-            },
-            {
-                "name": "animeavailable",
-                "inline": false,
-                "description": {
-                    "doc": "Sends a list of available anime"
-                }
-            },
-            {
-                "name": "characteravailable",
-                "inline": false,
-                "description": {
-                    "doc": "Sends a list of available characters"
-                }
-            },
-            {
-                "name": "randomanime",
-                "inline": false,
-                "description": {
-                    "doc": "Sends a random anime"
-                }
-            }
-        ],
-        "name": "AnimeTools",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/animetools.py"
     },
     {
         "author": "@idiotcoders",
@@ -36415,35 +36152,6 @@
     },
     {
         "author": "@xdesai",
-        "description": "Модуль для преобразования изображения в GIF",
-        "commands": [
-            {
-                "name": "p2g",
-                "inline": false,
-                "description": {
-                    "doc": "Creates a GIF from an image."
-                }
-            }
-        ],
-        "name": "ImageToGif",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/p2g.py"
-    },
-    {
-        "author": "@xdesai",
-        "commands": [
-            {
-                "name": "rbs",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> | React by status"
-                }
-            }
-        ],
-        "name": "ReactByStatus",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/rbs.py"
-    },
-    {
-        "author": "@xdesai",
         "commands": [
             {
                 "name": "like",
@@ -36710,22 +36418,6 @@
         "name": "SwitchToTelethon",
         "version": "1.0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/SwitchToTelethon.py"
-    },
-    {
-        "author": "@yg_modules, @D4n13l3k00",
-        "description": "Полное копирование юзера (ава, имя|фамилия, био, эмодзи статус)",
-        "commands": [
-            {
-                "name": "cu",
-                "inline": false,
-                "description": {
-                    "doc": ".cu <s> <a> <reply/@username>\n<s> - Скрытый режим\n<a> - Удалить ваши аватарки\nАргументы после юзера не указывайте, не скушает\nПримеры:\n.cu s @user/reply\n.cu a @user/reply\n.cu s a @user/reply"
-                }
-            }
-        ],
-        "name": "CopyUser",
-        "version": "1.4.8.8",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_CopyUser_fix.py"
     },
     {
         "author": "@yg_modules",
