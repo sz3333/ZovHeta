@@ -98,23 +98,6 @@
     {
         "author": "@shiro_hikka",
         "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
-        "description": "Emoji / Sticker pickpocket",
-        "commands": [
-            {
-                "name": "steal",
-                "inline": false,
-                "description": {
-                    "doc": "<reply / quote reply> - add an emoji or sticker to your pack\nEmoji: one type of emoji only is possible to be used at time"
-                }
-            }
-        ],
-        "name": "StickerStealer",
-        "version": "1.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/StickerStealer.py"
-    },
-    {
-        "author": "@shiro_hikka",
-        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
         "description": "Creates fine adorned timer",
         "commands": [
             {
@@ -752,22 +735,6 @@
     },
     {
         "author": "@hikamorumods",
-        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Facts.jpg",
-        "description": "More Interesting Facts",
-        "commands": [
-            {
-                "name": "afacts",
-                "inline": false,
-                "description": {
-                    "doc": "Intersting Facts"
-                }
-            }
-        ],
-        "name": "Facts",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/facts.py"
-    },
-    {
-        "author": "@hikamorumods",
         "banner": "https://github.com/AmoreForever/assets/blob/master/Figlet.jpg?raw=true",
         "description": "Creates Figlet Text",
         "commands": [
@@ -887,30 +854,6 @@
     },
     {
         "author": "@hikamorumods",
-        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Inlineping.jpg",
-        "description": "Inline Pinger For Test",
-        "commands": [
-            {
-                "name": "iping",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверить скорость отклика юзербота",
-                    "doc": "Test your userbot ping"
-                }
-            },
-            {
-                "name": "ping",
-                "inline": true,
-                "description": {
-                    "doc": "Test your userbot ping"
-                }
-            }
-        ],
-        "name": "InlinePing",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/inlineping.py"
-    },
-    {
-        "author": "@hikamorumods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Instsave.jpg",
         "pic": "https://te.legra.ph/file/0251f5d602a8f32cd7368.png",
         "description": "Download video from instagram without watermark",
@@ -927,21 +870,6 @@
         "name": "InstSave",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/instsave.py"
-    },
-    {
-        "author": "@hikamorumods",
-        "description": "Download and get info about anime from jut.su",
-        "commands": [
-            {
-                "name": "jutsud",
-                "inline": false,
-                "description": {
-                    "doc": "Download anime from jutsu - [url]"
-                }
-            }
-        ],
-        "name": "Jutsu",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/jutsu.py"
     },
     {
         "author": "@hikamorumods",
@@ -1591,30 +1519,6 @@
         ],
         "name": "HAFK",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/HAFK.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Create inline button",
-        "commands": [
-            {
-                "name": "crinl_inline_handler",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
-                    "en_doc": "Create an inline button\nexample: @username_bot crinl Message text, Button text, Link in the button"
-                }
-            },
-            {
-                "name": "crinl",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Создать inline кнопку\nНапример: @username_bot crinl Текст сообщения, Текст кнопки, Ссылка в кнопке",
-                    "en_doc": "Create an inline button\nexample: @username_bot crinl Message text, Button text, Link in the button"
-                }
-            }
-        ],
-        "name": "InlineButton",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/InlineButton.py"
     },
     {
         "author": "@hikka_mods",
@@ -2324,39 +2228,6 @@
         ],
         "name": "NSFWArt",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/nsfwart.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "This module can change your Telegram profile.",
-        "commands": [
-            {
-                "name": "name",
-                "inline": false,
-                "description": {
-                    "ru_doc": "для того, чтобы сменить свое имя/отчество",
-                    "en_doc": "for change your first/second name"
-                }
-            },
-            {
-                "name": "about",
-                "inline": false,
-                "description": {
-                    "ru_doc": "чтобы изменить свою биографию",
-                    "en_doc": "for change your bio"
-                }
-            },
-            {
-                "name": "user",
-                "inline": false,
-                "description": {
-                    "ru_doc": "для изменения вашего имени пользователя. Введите значение без '@'",
-                    "en_doc": "for change your username. Enter value without '@'",
-                    "doc": "- for change your username. Enter value without \"@\"."
-                }
-            }
-        ],
-        "name": "Profile",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/profile.py"
     },
     {
         "author": "@hikka_mods",
@@ -12384,41 +12255,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/catt.py"
     },
     {
-        "description": "Гимнт твича с Басбустом by @modwini",
-        "commands": [
-            {
-                "name": "b25",
-                "inline": false,
-                "description": {
-                    "doc": "| 25%"
-                }
-            },
-            {
-                "name": "b50",
-                "inline": false,
-                "description": {
-                    "doc": "| 50%?"
-                }
-            },
-            {
-                "name": "b75",
-                "inline": false,
-                "description": {
-                    "doc": "| 75%"
-                }
-            },
-            {
-                "name": "b100",
-                "inline": false,
-                "description": {
-                    "doc": "| 100%"
-                }
-            }
-        ],
-        "name": "bas",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/gimntv.py"
-    },
-    {
         "description": "Голосовые сообщения девушек by @modwini",
         "commands": [
             {
@@ -12653,32 +12489,6 @@
         ],
         "name": "Magic Ball",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/magicBall.py"
-    },
-    {
-        "author": "@modwini",
-        "commands": [
-            {
-                "name": "rap",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Реп оксимирона",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/oksimiron.py"
-    },
-    {
-        "description": "Подпишись на канал @modwini",
-        "commands": [
-            {
-                "name": "kr",
-                "inline": false,
-                "description": {
-                    "doc": "Кидает рандом видео сообщение из канала @kruglishik"
-                }
-            }
-        ],
-        "name": "кругляш",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/rand.py"
     },
     {
         "description": "Подпишись на канал @modwini",
@@ -13767,20 +13577,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MacAshoT.py"
     },
     {
-        "description": "Микроцитаты",
-        "commands": [
-            {
-                "name": "mq",
-                "inline": false,
-                "description": {
-                    "doc": ".mq <реплай на текст>"
-                }
-            }
-        ],
-        "name": "MicroQuotes",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/MicroQuotes.py"
-    },
-    {
         "commands": [
             {
                 "name": "ll",
@@ -14188,6 +13984,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/datamosh.py"
     },
     {
+        "description": "Демотиваторы",
+        "commands": [
+            {
+                "name": "demot",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Demoter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/demot.py"
+    },
+    {
         "description": "Image to dot\n.cmd <count> + reply to img\nthe bigger, the slower and bugger\nrecommended not more 1000",
         "commands": [
             {
@@ -14324,6 +14132,20 @@
         ],
         "name": "Im2Bin",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/im2bin.py"
+    },
+    {
+        "description": "Makes message monospace",
+        "commands": [
+            {
+                "name": "keyboard",
+                "inline": false,
+                "description": {
+                    "doc": ".keyboard <text or reply>"
+                }
+            }
+        ],
+        "name": "Keyboard typer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/keyboard_lagre.py"
     },
     {
         "description": "Makes message monospace",
@@ -15222,6 +15044,35 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/1d547b05f967c9681b90a.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
+        "description": "Auto farm in iris bot",
+        "commands": [
+            {
+                "name": "irfarm",
+                "inline": false,
+                "description": {
+                    "doc": "{on/off} - turn auto farm on or off"
+                }
+            },
+            {
+                "name": "bag",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Заглянуть в мешок.",
+                    "uz_doc": "Sumkaga qarang.",
+                    "de_doc": "Schau in die Tasche.",
+                    "es_doc": "Mira en la bolsa.",
+                    "doc": "Look into the bag"
+                }
+            }
+        ],
+        "name": "IrisFarm",
+        "version": "3.1.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/IrisFarm.py"
+    },
+    {
+        "author": "@AuroraModules",
         "banner": "https://te.legra.ph/file/787faf75b8a094553336f.jpg",
         "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
         "description": "Module for playing various songs in a chat",
@@ -15371,6 +15222,36 @@
         "name": "MyDebtors",
         "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
+    },
+    {
+        "author": "@AuroraModules",
+        "description": "With this module, you can play the game «rock, paper, scissors».",
+        "commands": [
+            {
+                "name": "sgamerps",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Начать игру «Камень, ножницы, бумага»",
+                    "uz_doc": "- «Tosh, qog'oz, qaychi» o'yinining boshlanishi",
+                    "de_doc": "- Beginn des Spiels «Stein, Papier, Schere»",
+                    "es_doc": "- El comienzo del juego «Piedra, papel o tijera»",
+                    "doc": "- Start the game «Rock, Paper, Scissors»"
+                }
+            },
+            {
+                "name": "cleargames",
+                "inline": false,
+                "description": {
+                    "uz_doc": "- Barcha faol o'yinlarni tugatish.",
+                    "de_doc": "- Alle aktiven Spiele beenden.",
+                    "es_doc": "- Completar todos los juegos en curso.",
+                    "doc": "- Complete all running games."
+                }
+            }
+        ],
+        "name": "RPSgame",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RPSgame.py"
     },
     {
         "author": "@AuroraModules",
@@ -27604,24 +27485,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/nometa.jpg",
-        "pic": "https://static.dan.tatar/nometa_icon.png",
-        "description": "Warns people about Meta messages",
-        "commands": [
-            {
-                "name": "nometa",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Показать сообщение с предупреждением о мете",
-                    "doc": "Show message about NoMeta"
-                }
-            }
-        ],
-        "name": "NoMeta",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/nometa.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/notes.jpg",
         "pic": "https://static.dan.tatar/notes_icon.png",
         "description": "Advanced notes module with folders and other features",
@@ -34179,6 +34042,46 @@
         ],
         "name": "NumbersFacts",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/numbersfacts.py"
+    },
+    {
+        "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/quicktools.png?raw=true",
+        "description": "Module with various quick and useful tools",
+        "commands": [
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай на сообщение> Получить айди пользователя/чата/отправителя/сообщения",
+                    "doc": "<reply to message> Get user/chat/sender/replied message/message ID"
+                }
+            },
+            {
+                "name": "text",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай на сообщение> Получить текст сообщения",
+                    "doc": "<reply to message> Get replied message text"
+                }
+            },
+            {
+                "name": "reply_markup",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай на сообщение> Получить кнопки сообщения",
+                    "doc": "<reply to message> Get replied message reply markup (buttons)"
+                }
+            },
+            {
+                "name": "entity_link",
+                "inline": false,
+                "description": {
+                    "doc": "<bot api entity id> <use open message (optional)> - creates link to entity (chat/user)"
+                }
+            }
+        ],
+        "name": "QuickTools",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/quicktools.py"
     },
     {
         "author": "@sqlmerr_m",
