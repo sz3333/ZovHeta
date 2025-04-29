@@ -12013,7 +12013,7 @@
         "description": "Модуль для форматирования текста в чате",
         "commands": [
             {
-                "name": "tsxelp",
+                "name": "tshelp",
                 "inline": false,
                 "description": {
                     "doc": "Показывает инструкцию по использованию модуля"
@@ -12021,7 +12021,7 @@
             }
         ],
         "name": "TextStyler",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/TextStyler.py"
     },
     {
