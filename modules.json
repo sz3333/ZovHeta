@@ -20081,23 +20081,6 @@
     },
     {
         "author": "@kmodules",
-        "description": "Module for viewing GitHub profile information",
-        "commands": [
-            {
-                "name": "github",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<username> - получить информацию о профиле GitHub",
-                    "en_doc": "<username> - get GitHub profile information"
-                }
-            }
-        ],
-        "name": "GitHubInfo",
-        "version": "1.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/github.py"
-    },
-    {
-        "author": "@kmodules",
         "description": "Модуль позволяет пересылать сообщение из канала, где это запрещено.",
         "commands": [
             {
