@@ -1248,6 +1248,22 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Find out the approximate date of registration of the telegram account",
+        "commands": [
+            {
+                "name": "accdata",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Узнать примерную дату регистрации аккаунта телеграмм",
+                    "en_doc": "Find out the approximate date of registration of the telegram account"
+                }
+            }
+        ],
+        "name": "AccountData",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/AccountData.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Searches and gives random agtme on the AniLibria database.",
         "commands": [
             {
@@ -1382,22 +1398,6 @@
         ],
         "name": "BirthdayTime",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/BirthdayTime.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Checks spam ban for your account.",
-        "commands": [
-            {
-                "name": "spambot",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
-                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
-                }
-            }
-        ],
-        "name": "CheckSpamBan",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/CheckSpamBan.py"
     },
     {
         "author": "@hikka_mods",
@@ -1789,21 +1789,6 @@
         "name": "AutoFarmbot",
         "version": "0.1.4.10",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/MooFarmRC1.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "commands": [
-            {
-                "name": "music",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Найти трек в Yandex Music или VK: `.music yandex {название}` или `.music vk {название}`",
-                    "en_doc": "Find a track in Yandex Music or VK: `.music yandex {name}` or `.music vk {name}`"
-                }
-            }
-        ],
-        "name": "Music",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/Music.py"
     },
     {
         "author": "@hikka_mods",
@@ -10311,6 +10296,48 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/тесты.py"
     },
     {
+        "author": "@Mersai",
+        "commands": [
+            {
+                "name": "clearbull",
+                "inline": false,
+                "description": {
+                    "doc": "Никого не буллить"
+                }
+            },
+            {
+                "name": "bulla",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить фразу | .bulla <фраза>"
+                }
+            },
+            {
+                "name": "bullr",
+                "inline": false,
+                "description": {
+                    "doc": "Вкинуть рандомное оскорбление"
+                }
+            },
+            {
+                "name": "addbull",
+                "inline": false,
+                "description": {
+                    "doc": "Буллить человека. <reply>"
+                }
+            },
+            {
+                "name": "rmbull",
+                "inline": false,
+                "description": {
+                    "doc": "Не буллить человека. <reply>"
+                }
+            }
+        ],
+        "name": "☠️ Унижатор 2.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/☠️_Унижатор_2.0.py"
+    },
+    {
         "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Tired of people asking you questions? Let this module answer them for you!\nP.S. Author is not responsible for all your problems after using it.",
@@ -13205,22 +13232,6 @@
     },
     {
         "author": "@K0vaIskii",
-        "description": "Просто удаляет реплей",
-        "commands": [
-            {
-                "name": "d",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ> - удалить нахуй!"
-                }
-            }
-        ],
-        "name": "Kodel",
-        "version": "0.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kodel.py"
-    },
-    {
-        "author": "@K0vaIskii",
         "description": "Модуль для симбиоза Heroku и Yarangrad_bot",
         "commands": [
             {
@@ -15368,36 +15379,6 @@
         "name": "MyDebtors",
         "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
-    },
-    {
-        "author": "@AuroraModules",
-        "description": "With this module, you can play the game «rock, paper, scissors».",
-        "commands": [
-            {
-                "name": "sgamerps",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- Начать игру «Камень, ножницы, бумага»",
-                    "uz_doc": "- «Tosh, qog'oz, qaychi» o'yinining boshlanishi",
-                    "de_doc": "- Beginn des Spiels «Stein, Papier, Schere»",
-                    "es_doc": "- El comienzo del juego «Piedra, papel o tijera»",
-                    "doc": "- Start the game «Rock, Paper, Scissors»"
-                }
-            },
-            {
-                "name": "cleargames",
-                "inline": false,
-                "description": {
-                    "uz_doc": "- Barcha faol o'yinlarni tugatish.",
-                    "de_doc": "- Alle aktiven Spiele beenden.",
-                    "es_doc": "- Completar todos los juegos en curso.",
-                    "doc": "- Complete all running games."
-                }
-            }
-        ],
-        "name": "RPSgame",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RPSgame.py"
     },
     {
         "author": "@AuroraModules",
@@ -19776,21 +19757,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/AsRt.py"
     },
     {
-        "author": "@Hicota",
-        "description": "Install Hikka(Heroku)info with image mode (Beta)",
-        "commands": [
-            {
-                "name": "inshikkainfo",
-                "inline": false,
-                "description": {
-                    "doc": "ИДИ СЮДА яишко яишко СЕЙЧАС яишко ТЕБЕ БУДЕТ РАЗБИВАТЬ яишко🥚🥚🥚🥚ПОЛУЧАЙ яишко🥚🥚🥚🥚🥚🥚🥚🥚НА🥚НА🥚НА🥚🥚🥚БЕЕЕЙ🥚🥚🥚яишко яишко яишко ТЕБЕ МАЛО????🥚🥚🥚ПОНЯЛ яишко🥚🥚🥚🥚НА ЕШЕ ЯИЧКЭЭЭ🥚🥚🥚ЖРИ яишко🥚🥚🥚яишко БЕЙ🥚🥚🥚🥚ТЫ ПОНИМАЕШЬ ЧТО яишко БЕЙ МЕНЯ🥚🥚🥚🥚🥚🥚НА яишко яишко🥚🥚🥚 яишко. ЗАПОМНИТЕ ТАК БУДЕТ С КАЖДЫМ яишко.🥚🥚🥚бей яичко чур я выиграю🥚"
-                }
-            }
-        ],
-        "name": "IIHikkaInfo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/IIHikkaInfo.py"
-    },
-    {
         "author": "@hicota",
         "description": "Ask a question to the magic ball🔮",
         "commands": [
@@ -23665,6 +23631,21 @@
     },
     {
         "author": "@codermasochist",
+        "description": "генератор рандомных паролей",
+        "commands": [
+            {
+                "name": "grr",
+                "inline": false,
+                "description": {
+                    "doc": "— <число> — макс. символов."
+                }
+            }
+        ],
+        "name": "GRR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/GRR.py"
+    },
+    {
+        "author": "@codermasochist",
         "description": "массовая рассылка по всем чатам.",
         "commands": [
             {
@@ -27344,6 +27325,30 @@
         ],
         "name": "MindGame",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/mindgame.py"
+    },
+    {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/moonlove.jpg",
+        "pic": "https://static.dan.tatar/moonlove_icon.png",
+        "description": "Animation with moon and hearts for your beloved",
+        "commands": [
+            {
+                "name": "moonlove",
+                "inline": false,
+                "description": {
+                    "doc": "[text] - Love you to the moon"
+                }
+            },
+            {
+                "name": "moonlovei",
+                "inline": false,
+                "description": {
+                    "doc": "[text] - Love you to the moon [Inline]"
+                }
+            }
+        ],
+        "name": "MoonLove",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/moonlove.py"
     },
     {
         "author": "@hikarimods",
@@ -31905,21 +31910,6 @@
         "author": "@aki_modules",
         "commands": [
             {
-                "name": "rapic",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- получить рандомную аниме-картинку 👀",
-                    "doc": "- fetch random anime-pic 👀"
-                }
-            }
-        ],
-        "name": "RandomAnimePic",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/RandomAnimePic.py"
-    },
-    {
-        "author": "@aki_modules",
-        "commands": [
-            {
                 "name": "search",
                 "inline": false,
                 "description": {
@@ -32115,21 +32105,6 @@
         ],
         "name": "KOTfarm",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTfarm.py"
-    },
-    {
-        "author": "@codeer_kot",
-        "description": "Модуль для поиска музыки.",
-        "commands": [
-            {
-                "name": "трек",
-                "inline": false,
-                "description": {
-                    "doc": "Ищет песни по названию."
-                }
-            }
-        ],
-        "name": "KOTmusic",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTmusic.py"
     },
     {
         "author": "@codeer_kot",
@@ -34547,41 +34522,6 @@
     },
     {
         "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/warpigs.png",
-        "pic": "https://static.unneyon.ru/mods/warpigs_icon.png",
-        "description": "Some auto-functions for your pig in @warpigs_bot",
-        "commands": [
-            {
-                "name": "afight",
-                "inline": false,
-                "description": {
-                    "ru_doc": "👉 Включить/отключить автобой",
-                    "doc": "👉 Enable/disable autofight"
-                }
-            },
-            {
-                "name": "agrow",
-                "inline": false,
-                "description": {
-                    "ru_doc": "👉 Включить/отключить автокормёжку",
-                    "doc": "👉 Enable/disable autogrow"
-                }
-            },
-            {
-                "name": "setname",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<имя> 👉 Меняет имя вашего хряка",
-                    "doc": "<name> 👉 Changes your pig's name"
-                }
-            }
-        ],
-        "name": "WarPigs",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/warpigs.py"
-    },
-    {
-        "author": "@unneyon_hmods",
         "banner": "https://mods.unneyon.ru/banners/yamusic.png",
         "pic": "https://static.unneyon.ru/mods/yamusic_icon.png",
         "description": "The module for Yandex.Music streaming service",
@@ -34990,24 +34930,6 @@
         "name": "MonkeyType",
         "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/monkeytype.py"
-    },
-    {
-        "author": "@vsecoder_m",
-        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cotton/344/code.png&title=OctoCode&description=OctoCode%20is%20a%20module%20for%20octopussed%20code%20in%20Telegram",
-        "pic": "https://img.icons8.com/cotton/344/code.png",
-        "description": "Module for octopussed code\n\nhttps://github.com/charmbracelet/freeze based\n\nTo use, run this in .terminal:\n\nwget https://github.com/charmbracelet/freeze/releases/download/v0.1.6/freeze_0.1.6_amd64.deb\nsudo dpkg -i freeze_0.1.6_amd64.deb",
-        "commands": [
-            {
-                "name": "octo",
-                "inline": false,
-                "description": {
-                    "doc": "\"reply file\" or \"send file\"\nOctopussed your code"
-                }
-            }
-        ],
-        "name": "OctoCode",
-        "version": "3.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/octocode.py"
     },
     {
         "author": "@vsecoder_m",
@@ -36494,6 +36416,21 @@
         ],
         "name": "Custom Fake Ping",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xuduk/modules/CustomFakePing.py"
+    },
+    {
+        "author": "@xuduk",
+        "description": "Гуглит что-то вместо тебя.",
+        "commands": [
+            {
+                "name": "g",
+                "inline": false,
+                "description": {
+                    "doc": "[запрос] - сгенерировать ссылку которая гуглит за тебя"
+                }
+            }
+        ],
+        "name": "Давай погуглим",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xuduk/modules/GoogleItForMe.py"
     },
     {
         "author": "@xuduk",
