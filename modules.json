@@ -13854,27 +13854,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/OneMessage.py"
     },
     {
-        "description": "Generator and reader of QR codes",
-        "commands": [
-            {
-                "name": "makeqr",
-                "inline": false,
-                "description": {
-                    "doc": ".makeqr <text or reply>"
-                }
-            },
-            {
-                "name": "readqr",
-                "inline": false,
-                "description": {
-                    "doc": ".readqr <qrcode or reply to qrcode>"
-                }
-            }
-        ],
-        "name": "QR tool's",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/QRtools.py"
-    },
-    {
         "description": "каждое слово раз в 100мс",
         "commands": [
             {
@@ -34179,40 +34158,6 @@
         ],
         "name": "CodeFormat",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/codeformat.py"
-    },
-    {
-        "author": "@sqlmerr_m",
-        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
-        "description": "Module for converting a large number of currencies to other currencies",
-        "commands": [
-            {
-                "name": "cconvert",
-                "inline": false,
-                "description": {
-                    "ru_doc": "[from] [to] Конвертировать одну валюту в другую",
-                    "doc": "[from] [to] Convert currency to other currency"
-                }
-            }
-        ],
-        "name": "Currency Converter",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/currencyconverter.py"
-    },
-    {
-        "author": "@sqlmerr_m",
-        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/egsfreegames.png?raw=true",
-        "description": "Module for checking free games in Epic Games Store. Inline bot will send them every day in special chat",
-        "commands": [
-            {
-                "name": "egsgames",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Получить бесплатные игры доступные в Epic Games Store",
-                    "doc": "Get free games links available in Epic Games Store"
-                }
-            }
-        ],
-        "name": "EGSFreeGames",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/egsfreegames.py"
     },
     {
         "author": "@sqlmerr_m",
