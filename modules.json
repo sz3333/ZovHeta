@@ -10436,6 +10436,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/CoVis.py"
     },
     {
+        "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
+        "description": "Keeps your chat clean from dices, darts and so on.",
+        "commands": [
+            {
+                "name": "deldice",
+                "inline": false,
+                "description": {
+                    "doc": "Set deleting dices in this chat on/off."
+                }
+            }
+        ],
+        "name": "Dicedestroyer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/Dicedestroyer.py"
+    },
+    {
         "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/256/qr-code.png",
         "description": "Decoding QR codes.",
@@ -15410,6 +15426,36 @@
         "name": "MyDebtors",
         "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
+    },
+    {
+        "author": "@AuroraModules",
+        "description": "With this module, you can play the game «rock, paper, scissors».",
+        "commands": [
+            {
+                "name": "sgamerps",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Начать игру «Камень, ножницы, бумага»",
+                    "uz_doc": "- «Tosh, qog'oz, qaychi» o'yinining boshlanishi",
+                    "de_doc": "- Beginn des Spiels «Stein, Papier, Schere»",
+                    "es_doc": "- El comienzo del juego «Piedra, papel o tijera»",
+                    "doc": "- Start the game «Rock, Paper, Scissors»"
+                }
+            },
+            {
+                "name": "cleargames",
+                "inline": false,
+                "description": {
+                    "uz_doc": "- Barcha faol o'yinlarni tugatish.",
+                    "de_doc": "- Alle aktiven Spiele beenden.",
+                    "es_doc": "- Completar todos los juegos en curso.",
+                    "doc": "- Complete all running games."
+                }
+            }
+        ],
+        "name": "RPSgame",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RPSgame.py"
     },
     {
         "author": "@AuroraModules",
@@ -31096,6 +31142,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/x0.py"
     },
     {
+        "description": "Reverse image search via Yandex (he is the best, imho)",
+        "commands": [
+            {
+                "name": "yars",
+                "inline": false,
+                "description": {
+                    "doc": ".yars <repy to image>"
+                }
+            }
+        ],
+        "name": "YandexReverseSearch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/yandexrs.py"
+    },
+    {
         "author": "@nalinormods",
         "description": "Simple @lavHost manager",
         "commands": [
@@ -32029,6 +32089,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/VoiceToText.py"
     },
     {
+        "author": "@aki_modules",
+        "commands": [
+            {
+                "name": "wallet",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет ваш баланс в @send"
+                }
+            }
+        ],
+        "name": "WalletCheck",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/WalletCheck.py"
+    },
+    {
         "author": "@codeer_kot",
         "description": "Модуль для проверки на флуд-вейты",
         "commands": [
@@ -32587,6 +32661,63 @@
     },
     {
         "author": "@psyhomodules",
+        "commands": [
+            {
+                "name": "bold",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует жирный текст."
+                }
+            },
+            {
+                "name": "italic",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует курсив."
+                }
+            },
+            {
+                "name": "mono",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует моноширинный текст."
+                }
+            },
+            {
+                "name": "underline",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует подчеркивание."
+                }
+            },
+            {
+                "name": "strikethrough",
+                "inline": false,
+                "description": {
+                    "doc": "Активирует зачеркивание."
+                }
+            },
+            {
+                "name": "off",
+                "inline": false,
+                "description": {
+                    "doc": "Отключает все стили."
+                }
+            },
+            {
+                "name": "on",
+                "inline": false,
+                "description": {
+                    "doc": "Включает стиль по умолчанию (жирный текст)."
+                }
+            }
+        ],
+        "name": "AdvancedText",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/AdvancedText.py"
+    },
+    {
+        "author": "@psyhomodules",
         "description": "❤️ Анимация сердца и эффект печати текста",
         "commands": [
             {
@@ -32609,6 +32740,29 @@
         "name": "Animation",
         "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Animation.py"
+    },
+    {
+        "author": "@psyhomodules",
+        "description": "Мониторит канал с промо на BFG если находит водить в бота",
+        "commands": [
+            {
+                "name": "promo",
+                "inline": false,
+                "description": {
+                    "doc": "Включить/выключить авто-промо"
+                }
+            },
+            {
+                "name": "promos",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить статус авто-промо"
+                }
+            }
+        ],
+        "name": "BFGPromoMonitor",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/BfgPromo.py"
     },
     {
         "author": "@psyhomodules",
@@ -33038,6 +33192,36 @@
         "name": "SpeechToText",
         "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SpeechToText.py"
+    },
+    {
+        "author": "@psyhomodules",
+        "description": "🚀 Модуль для спама стикерами",
+        "commands": [
+            {
+                "name": "stickspam",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🚀 Начать спам стикерами"
+                }
+            },
+            {
+                "name": "stopspam",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🛑 Остановить спам принудительно"
+                }
+            },
+            {
+                "name": "idstick",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🔍 Получить ID стикера"
+                }
+            }
+        ],
+        "name": "StickSpam",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
     },
     {
         "author": "@psyhomodules",
@@ -33664,6 +33848,28 @@
         ],
         "name": "ChatGPT",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/GPT2.py"
+    },
+    {
+        "author": "@shadow_modules, @toxicuse, @vsecoder",
+        "banner": "https://i.imgur.com/8UYznku.jpeg",
+        "commands": [
+            {
+                "name": "rnd_hentai_manga",
+                "inline": false,
+                "description": {
+                    "doc": "{hentai_api_name: optional} - рандомная хентай-манга"
+                }
+            },
+            {
+                "name": "get_hentai_manga",
+                "inline": false,
+                "description": {
+                    "doc": "{hentai_api_name} {id} - получить хентай-мангу"
+                }
+            }
+        ],
+        "name": "HentaiManga",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/HentaiManga.py"
     },
     {
         "author": "@shadow_modules, @dan_endy, @hikarimods",
