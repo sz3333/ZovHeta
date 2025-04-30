@@ -1075,6 +1075,22 @@
     },
     {
         "author": "@hikamorumods",
+        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/phstiker.jpg",
+        "description": "Make Pornhub logo sticker",
+        "commands": [
+            {
+                "name": "phl",
+                "inline": false,
+                "description": {
+                    "doc": "Makes PHub style logo sticker."
+                }
+            }
+        ],
+        "name": "Phlogo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/phsticker.py"
+    },
+    {
+        "author": "@hikamorumods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/poststeal.jpg",
         "description": "Steal post from another channel to your channel",
         "commands": [
@@ -1232,6 +1248,22 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "Find out the approximate date of registration of the telegram account",
+        "commands": [
+            {
+                "name": "accdata",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Узнать примерную дату регистрации аккаунта телеграмм",
+                    "en_doc": "Find out the approximate date of registration of the telegram account"
+                }
+            }
+        ],
+        "name": "AccountData",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/AccountData.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Searches and gives random agtme on the AniLibria database.",
         "commands": [
             {
@@ -1366,6 +1398,22 @@
         ],
         "name": "BirthdayTime",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/BirthdayTime.py"
+    },
+    {
+        "author": "@hikka_mods",
+        "description": "Checks spam ban for your account.",
+        "commands": [
+            {
+                "name": "spambot",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
+                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
+                }
+            }
+        ],
+        "name": "CheckSpamBan",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/CheckSpamBan.py"
     },
     {
         "author": "@hikka_mods",
@@ -5331,24 +5379,6 @@
     },
     {
         "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Akinator.jpg",
-        "description": "Akinator will guess any character you have in mind,\nYou just need to answer a couple of questions)",
-        "commands": [
-            {
-                "name": "akinator",
-                "inline": false,
-                "description": {
-                    "ru_doc": "- начать игру",
-                    "doc": "- start the game"
-                }
-            }
-        ],
-        "name": "Akinator",
-        "version": "1.0.5",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/akinator.py"
-    },
-    {
-        "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AstroAFK.jpg",
         "description": "Полностью настраиваемый модуль для ухода в АФК режим! Обновление TxAFK!",
         "commands": [
@@ -8885,6 +8915,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/hohoho.py"
     },
     {
+        "author": "@skillzmeow",
+        "commands": [
+            {
+                "name": "hohol",
+                "inline": false,
+                "description": {
+                    "doc": "Включить или отключить режим свинки"
+                }
+            }
+        ],
+        "name": "Hohol Text Modifier",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/hoholmod.py"
+    },
+    {
         "description": "Модуль созданныйllkdkkddk",
         "commands": [
             {
@@ -10372,6 +10416,22 @@
         "name": "CoVis",
         "version": "1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/CoVis.py"
+    },
+    {
+        "author": "@minimaxno",
+        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
+        "description": "Keeps your chat clean from dices, darts and so on.",
+        "commands": [
+            {
+                "name": "deldice",
+                "inline": false,
+                "description": {
+                    "doc": "Set deleting dices in this chat on/off."
+                }
+            }
+        ],
+        "name": "Dicedestroyer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/Dicedestroyer.py"
     },
     {
         "author": "@mm_mods",
@@ -16193,22 +16253,6 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "link",
-        "description": "Facts about numbers, dates, years, etc",
-        "commands": [
-            {
-                "name": "randomfact",
-                "inline": false,
-                "description": {
-                    "doc": "- [Type of random facts (year, trivia, math, date)] Random fact about something"
-                }
-            }
-        ],
-        "name": "INumber",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/INumber.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "link",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -16556,31 +16600,6 @@
         ],
         "name": "SteamClient",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/SteamClient.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/assets/modbanners/tempjoinchannel.png",
-        "description": "Enter the channels temporarily!",
-        "commands": [
-            {
-                "name": "addchannels",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Добавь каналы, напишите в аргументы слово inline если нужны каналы оттуда. Либо перечислите любые признаки канала (айди, ссылки, юзернеймы). Inline dont work",
-                    "doc": "- Add channels, put the word inline in the arguments if you need channels from there. Or list any channel attributes (ids, links, usernames). (Inline dont work)"
-                }
-            },
-            {
-                "name": "leavechannels",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Покинуть все каналы которые были добавлены",
-                    "doc": "- Leave all channels that have been added"
-                }
-            }
-        ],
-        "name": "TempJoinChannel",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/TempJoinChannel.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -27530,6 +27549,87 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/nekospy_beta.jpg",
+        "pic": "https://0x0.st/oRer.webp",
+        "description": "Sends you deleted and / or edited messages from selected users",
+        "commands": [
+            {
+                "name": "spymode",
+                "inline": false,
+                "description": {
+                    "doc": "Toggle spymode"
+                }
+            },
+            {
+                "name": "spybl",
+                "inline": false,
+                "description": {
+                    "doc": "Add / remove chat from blacklist"
+                }
+            },
+            {
+                "name": "spyblclear",
+                "inline": false,
+                "description": {
+                    "doc": "Clear blacklist"
+                }
+            },
+            {
+                "name": "spywl",
+                "inline": false,
+                "description": {
+                    "doc": "Add / remove chat from whitelist"
+                }
+            },
+            {
+                "name": "spywlclear",
+                "inline": false,
+                "description": {
+                    "doc": "Clear whitelist"
+                }
+            },
+            {
+                "name": "spyinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Show current spy mode configuration"
+                }
+            },
+            {
+                "name": "nssave",
+                "inline": false,
+                "description": {
+                    "doc": "Save replied message to the channel"
+                }
+            },
+            {
+                "name": "stat",
+                "inline": false,
+                "description": {
+                    "doc": "Show stats for cached media and messages"
+                }
+            },
+            {
+                "name": "purgecache",
+                "inline": false,
+                "description": {
+                    "doc": "Empty cache storage from messages"
+                }
+            },
+            {
+                "name": "rest",
+                "inline": false,
+                "description": {
+                    "doc": "[time] [-current] - Restore all deleted and edited messages from [time]"
+                }
+            }
+        ],
+        "name": "NekoSpy",
+        "version": "2.12.3",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/nekospy_beta.py"
+    },
+    {
+        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/nometa.jpg",
         "pic": "https://static.dan.tatar/nometa_icon.png",
         "description": "Warns people about Meta messages",
@@ -37179,6 +37279,22 @@
         "name": "yg_rickroll",
         "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_rickroll.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для отправки сообщений на указанный юзернейм",
+        "commands": [
+            {
+                "name": "sendmsg",
+                "inline": false,
+                "description": {
+                    "doc": "<username> <word> oтправляет сообщение на указанный юзернейм"
+                }
+            }
+        ],
+        "name": "yg_sendmsg",
+        "version": "1.4.8.8",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_sendmsg.py"
     },
     {
         "author": "@yg_modules",
