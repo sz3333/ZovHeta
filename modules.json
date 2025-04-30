@@ -945,36 +945,6 @@
     },
     {
         "author": "@hikamorumods",
-        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/leta.jpg",
-        "description": "Customizable nightmode [Leta] for your group",
-        "commands": [
-            {
-                "name": "lettime",
-                "inline": false,
-                "description": {
-                    "doc": "Set time - morning [HH:MM] evening [HH:MM]"
-                }
-            },
-            {
-                "name": "letrmchat",
-                "inline": false,
-                "description": {
-                    "doc": "Remove nightmode - chat-id"
-                }
-            },
-            {
-                "name": "letchats",
-                "inline": false,
-                "description": {
-                    "doc": "Get all chats with nightmode"
-                }
-            }
-        ],
-        "name": "Leta",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/leta.py"
-    },
-    {
-        "author": "@hikamorumods",
         "description": "Lexical wizard - your english companion",
         "commands": [
             {
@@ -1401,22 +1371,6 @@
     },
     {
         "author": "@hikka_mods",
-        "description": "Checks spam ban for your account.",
-        "commands": [
-            {
-                "name": "spambot",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
-                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
-                }
-            }
-        ],
-        "name": "CheckSpamBan",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/CheckSpamBan.py"
-    },
-    {
-        "author": "@hikka_mods",
         "description": "Module for displaying current cryptocurrency exchange rates.",
         "commands": [
             {
@@ -1639,62 +1593,6 @@
         ],
         "name": "InlineCoin",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/InlineCoin.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Basic management of the UB in case only the inline works",
-        "commands": [
-            {
-                "name": "restart",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Перезагрузить юзербота",
-                    "en_doc": "Reboot the userbot"
-                }
-            },
-            {
-                "name": "update",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Обновить юзербота",
-                    "en_doc": "Update the userbot"
-                }
-            },
-            {
-                "name": "terminal_inline_handler",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
-                    "en_doc": "Execute the command in the terminal (it is better to prepare the command immediately and just paste it)"
-                }
-            },
-            {
-                "name": "terminal",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Выполнить команду в терминале (лучше сразу подготовить команду и просто вставить)",
-                    "en_doc": "Execute the command in the terminal (it is better to prepare the command immediately and just paste it)"
-                }
-            },
-            {
-                "name": "modules",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Вывести список установленных модулей через инлайн",
-                    "en_doc": "Display a list of installed modules via the inline"
-                }
-            },
-            {
-                "name": "resetprefix",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Сбросить префикс (осторожнее, сбрасывает ваш префикс на . )",
-                    "en_doc": "Reset the prefix (be careful, resets your prefix to . )"
-                }
-            }
-        ],
-        "name": "InlineHelper",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/InlineHelper.py"
     },
     {
         "author": "@hikka_mods",
@@ -12135,22 +12033,6 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для преобразования видео в видео-сообщение (кружок).",
-        "commands": [
-            {
-                "name": "okr",
-                "inline": false,
-                "description": {
-                    "doc": "Переделать (Видео, gif, sticker) в Кружок"
-                }
-            }
-        ],
-        "name": "okruglator",
-        "version": "1.2.5",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/okruglator.py"
-    },
-    {
-        "author": "@HikkTutor",
         "description": "Модуль для массового упоминания участников группы с возможностью исключения определенных пользователей",
         "commands": [
             {
@@ -13260,22 +13142,6 @@
         "name": "KoTik",
         "version": "0.1.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KoTik.py"
-    },
-    {
-        "author": "@K0vaIskii",
-        "description": "Просто удаляет реплей",
-        "commands": [
-            {
-                "name": "d",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<ответ> - удалить нахуй!"
-                }
-            }
-        ],
-        "name": "Kodel",
-        "version": "0.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kodel.py"
     },
     {
         "author": "@K0vaIskii",
@@ -17787,86 +17653,6 @@
     },
     {
         "author": "@kshmods",
-        "description": "Удобный инструмент для генерации и управления паролями и логинами, который поможет вам создавать безопасные пароли и логины, а также легко управлять ими. Так же можно регулировать длину желаемоего пароля и логина и писать примечание для чего он будет использоваться (by @kotcheat)",
-        "commands": [
-            {
-                "name": "gen",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Генерирует случайный пароль и логин",
-                    "doc": "Генерирует случайный пароль и логин"
-                }
-            },
-            {
-                "name": "save",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сохраняет последние сгенерированные данные",
-                    "doc": "Сохраняет последние сгенерированные данные"
-                }
-            },
-            {
-                "name": "show",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Показывает сохраненные данные",
-                    "doc": "Показывает сохраненные данные"
-                }
-            },
-            {
-                "name": "gensave",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Генерирует новые данные и сохраняет их",
-                    "doc": "Генерирует новые  данные и сохраняет их"
-                }
-            },
-            {
-                "name": "clear",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Очищает все сохраненные данные",
-                    "doc": "Очищает все сохраненные  данные"
-                }
-            },
-            {
-                "name": "note",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Добавляет примечание к сохраненным данным",
-                    "doc": "Добавляет примечание к сохраненным данным"
-                }
-            },
-            {
-                "name": "delcred",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Удаляет сохраненные данные по номеру",
-                    "doc": "Удаляет сохраненные  данные по номеру"
-                }
-            },
-            {
-                "name": "createprivatechat",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Создает приватный чат",
-                    "doc": "Создает приватный чат"
-                }
-            },
-            {
-                "name": "saveprivatedata",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Сохраняет данные в приватный чат по номеру",
-                    "doc": "Сохраняет данные с примечанием в приватный чат по номеру"
-                }
-            }
-        ],
-        "name": "PasswordManager",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/PassManager.py"
-    },
-    {
-        "author": "@kshmods",
         "description": "Profile Photo Repeater Module",
         "commands": [
             {
@@ -20495,22 +20281,6 @@
         "name": "RussianRoulette",
         "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/russianroulette.py"
-    },
-    {
-        "author": "@kmodules",
-        "description": "Create article using telegra.ph",
-        "commands": [
-            {
-                "name": "telegraph",
-                "inline": false,
-                "description": {
-                    "doc": "Create article. Use: .telegraph <title> | <description>"
-                }
-            }
-        ],
-        "name": "Telegraph",
-        "version": "1.0.2",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/telegraph.py"
     },
     {
         "author": "@kmodules",
@@ -29767,62 +29537,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/chat_tools.py"
     },
     {
-        "description": "Module for working with voicechat",
-        "commands": [
-            {
-                "name": "cplayv",
-                "inline": false,
-                "description": {
-                    "doc": "<link/path/reply_to_video> - Play video in voice chat"
-                }
-            },
-            {
-                "name": "cplaya",
-                "inline": false,
-                "description": {
-                    "doc": "<link/path/reply_to_audio> - Play audio in voice chat"
-                }
-            },
-            {
-                "name": "cleave",
-                "inline": false,
-                "description": {
-                    "doc": "Leave"
-                }
-            },
-            {
-                "name": "cmute",
-                "inline": false,
-                "description": {
-                    "doc": "Mute"
-                }
-            },
-            {
-                "name": "cunmute",
-                "inline": false,
-                "description": {
-                    "doc": "Unmute"
-                }
-            },
-            {
-                "name": "cpause",
-                "inline": false,
-                "description": {
-                    "doc": "Pause"
-                }
-            },
-            {
-                "name": "cresume",
-                "inline": false,
-                "description": {
-                    "doc": "Resume"
-                }
-            }
-        ],
-        "name": "ChatVoiceMod",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/chat_voice_mod.py"
-    },
-    {
         "description": "округляет всё",
         "commands": [
             {
@@ -29870,20 +29584,6 @@
         ],
         "name": "Cu",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/cu.py"
-    },
-    {
-        "description": "CheckerTG",
-        "commands": [
-            {
-                "name": "check",
-                "inline": false,
-                "description": {
-                    "doc": "Проверить id на слитый номер\nЖуёт либо <reply> либо <uid>"
-                }
-            }
-        ],
-        "name": "CheckerTG",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/dekftg_checker.py"
     },
     {
         "description": "Deotivators",
@@ -36481,35 +36181,6 @@
     },
     {
         "author": "@xdesai",
-        "description": "Module for sending private messages",
-        "commands": [
-            {
-                "name": "send",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .send <message>"
-                }
-            },
-            {
-                "name": "setpm",
-                "inline": false,
-                "description": {
-                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
-                }
-            },
-            {
-                "name": "stopchat",
-                "inline": false,
-                "description": {
-                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
-                }
-            }
-        ],
-        "name": "SendPm",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/send.py"
-    },
-    {
-        "author": "@xdesai",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
             {
@@ -37275,22 +36946,6 @@
         "name": "yg_ocr",
         "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_ocr.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Получить информацию о владельце стикер/эмодзи пака",
-        "commands": [
-            {
-                "name": "owner",
-                "inline": false,
-                "description": {
-                    "doc": "<reply to sticker/premium emoji> - узнать овнера пака"
-                }
-            }
-        ],
-        "name": "yg_owner",
-        "version": "1.0.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_owner.py"
     },
     {
         "author": "@yg_modules",
