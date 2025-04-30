@@ -7355,6 +7355,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoFormatter.py"
     },
     {
+        "author": "@XenSideMOD",
+        "commands": [
+            {
+                "name": "artoggle",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить автореакции в текущем чате"
+                }
+            },
+            {
+                "name": "setr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить реакцию (обычный эмодзи или ID для Premium)"
+                }
+            }
+        ],
+        "name": "AutoReact",
+        "version": "1.3.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoReact_pu.py"
+    },
+    {
         "author": "@moduleslist",
         "banner": "https://envs.sh/Ult.jpg",
         "description": "Faster version of auto-translator using Google Translate API",
@@ -33812,44 +33834,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/GForYou.py"
     },
     {
-        "author": "@shadow_modules",
-        "banner": "https://i.imgur.com/fdEskim.jpeg",
-        "description": "ChatGPT в модуле",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": ".gpt <args>"
-                }
-            }
-        ],
-        "name": "ChatGPT",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/GPT2.py"
-    },
-    {
-        "author": "@shadow_modules, @toxicuse, @vsecoder",
-        "banner": "https://i.imgur.com/8UYznku.jpeg",
-        "commands": [
-            {
-                "name": "rnd_hentai_manga",
-                "inline": false,
-                "description": {
-                    "doc": "{hentai_api_name: optional} - рандомная хентай-манга"
-                }
-            },
-            {
-                "name": "get_hentai_manga",
-                "inline": false,
-                "description": {
-                    "doc": "{hentai_api_name} {id} - получить хентай-мангу"
-                }
-            }
-        ],
-        "name": "HentaiManga",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/HentaiManga.py"
-    },
-    {
         "author": "@shadow_modules, @dan_endy, @hikarimods",
         "banner": "https://i.imgur.com/SbLqMlM.jpeg",
         "description": "You information in inline vizitka",
@@ -33869,29 +33853,6 @@
         ],
         "name": "InlineVizitka",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/InlineVizitka.py"
-    },
-    {
-        "author": "@shadow_modules",
-        "banner": "https://i.imgur.com/4aQGHmR.jpeg",
-        "commands": [
-            {
-                "name": "myvizit",
-                "inline": false,
-                "description": {
-                    "doc": "Command for displaying a business card"
-                }
-            },
-            {
-                "name": "myvizit",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Моя визитка",
-                    "doc": "My inline card"
-                }
-            }
-        ],
-        "name": "MyVizitka",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/MyVizitka.py"
     },
     {
         "author": "@shadow_modules",
@@ -33931,22 +33892,6 @@
         ],
         "name": "RandomMemes",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/RandomMemes.py"
-    },
-    {
-        "author": "@shadow_modules",
-        "banner": "https://i.imgur.com/1UnAXNf.jpeg",
-        "description": "Sticker Downloader",
-        "commands": [
-            {
-                "name": "stickdown",
-                "inline": false,
-                "description": {
-                    "doc": "stickdown <reply for sticker>"
-                }
-            }
-        ],
-        "name": "StickerDownload",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/StickerDownload.py"
     },
     {
         "author": "@shadow_modules",
@@ -34440,9 +34385,17 @@
     },
     {
         "author": "@sqlmerr_m",
-        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_upgradedeval.png?raw=true",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/upgradedeval.png?raw=true",
         "description": "Just eval with customizable text and stdout",
         "commands": [
+            {
+                "name": "ehistory",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить историю (с рестарта юзербота)",
+                    "doc": "Get history (since userbot restart)"
+                }
+            },
             {
                 "name": "ie",
                 "inline": false,
@@ -35476,6 +35429,43 @@
         "name": "ReadFile",
         "version": "1.0.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/readfile.py"
+    },
+    {
+        "author": "@wmodules",
+        "description": "Гибкий спам-модуль.",
+        "commands": [
+            {
+                "name": "spam",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск спама.\nИспользование: .spam [кол-во сообщений] [задержка] \"текст\" (или ответ на сообщение)."
+                }
+            },
+            {
+                "name": "dspam",
+                "inline": false,
+                "description": {
+                    "doc": "Запуск спама с удалением отправленных сообщений.\nИспользование: .dspam [кол-во сообщений] [задержка] \"текст\" (или ответ на сообщение)."
+                }
+            },
+            {
+                "name": "stopspam",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает все активные задачи .spam."
+                }
+            },
+            {
+                "name": "stopdspam",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает все активные задачи .dspam."
+                }
+            }
+        ],
+        "name": "WSpamMod",
+        "version": "1.4.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/spam.py"
     },
     {
         "author": "@wmodules",
