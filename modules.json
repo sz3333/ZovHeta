@@ -1823,6 +1823,22 @@
     },
     {
         "author": "@hikka_mods",
+        "description": "PastebinAPI",
+        "commands": [
+            {
+                "name": "past",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Заливает код в Pastebin",
+                    "en_doc": "Uploads the code to Pastebin"
+                }
+            }
+        ],
+        "name": "PastebinAPI",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/PastebinAPI.py"
+    },
+    {
+        "author": "@hikka_mods",
         "description": "Replaces vowel letters with ё",
         "commands": [
             {
@@ -9752,6 +9768,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/vivomod.py"
     },
     {
+        "description": "Подпишись на канал @modwini",
+        "commands": [
+            {
+                "name": "v",
+                "inline": false,
+                "description": {
+                    "doc": ".v <text> Вы можете сменить голос в боте @BigVoicyBot"
+                }
+            }
+        ],
+        "name": "voiceActing",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/voiceActing.py"
+    },
+    {
         "author": "@ZSUtop_Ukraine",
         "description": "Мемные гс для диалогов",
         "commands": [
@@ -15322,6 +15352,83 @@
     },
     {
         "author": "@AuroraModules",
+        "banner": "https://te.legra.ph/file/7d7a4c3ff3711e0e1ee88.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
+        "description": "Module for managing, adding, and deleting your debtors.",
+        "commands": [
+            {
+                "name": "dadd",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<name> <amount> - Добавить должника",
+                    "uz_doc": "<name> <amount> - Qarzdor qo'shish",
+                    "de_doc": "<name> <amount> - Schuldner hinzufügen",
+                    "es_doc": "<name> <amount> - Agregar un deudor",
+                    "doc": "<name> <amount> - add a debtor"
+                }
+            },
+            {
+                "name": "dinfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<name> - Узнать информацию о должнике",
+                    "uz_doc": "<name> - Qarzdor haqida ma'lumot olish",
+                    "de_doc": "<name> - Informationen über den Schuldner erhalten",
+                    "es_doc": "<name> - Obtener información sobre el deudor",
+                    "doc": "<name> - Find out information about the debtor"
+                }
+            },
+            {
+                "name": "ddel",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<name> - Удалить должника",
+                    "uz_doc": "<name> - Qarzdorni olib tashlash",
+                    "de_doc": "<name> - Schuldner entfernen",
+                    "es_doc": "<name> - Eliminar al deudor",
+                    "doc": "<name> - Remove the debtor"
+                }
+            },
+            {
+                "name": "dlist",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Список всех ваших должников",
+                    "uz_doc": "Sizning qarz berganlar ro'yxati",
+                    "de_doc": "Liste aller Ihrer Schuldner",
+                    "es_doc": "Lista de todos sus deudores",
+                    "doc": "List of all your debtors"
+                }
+            },
+            {
+                "name": "ddelall",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить всех ваших должников",
+                    "uz_doc": "Sizning barcha qarz berganlaringizni olib tashlash",
+                    "de_doc": "Alle Ihre Schuldner entfernen",
+                    "es_doc": "Eliminar a todos sus deudores",
+                    "doc": "Remove all your debtors"
+                }
+            },
+            {
+                "name": "dset",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<name> <amount> - Изменить долг",
+                    "uz_doc": "<name> <amount> - Qarzni o'zgartirish",
+                    "de_doc": "<name> <amount> - Schulden ändern",
+                    "es_doc": "<name> <amount> - Cambiar la deuda",
+                    "doc": "<name> <amount> - Change the debt"
+                }
+            }
+        ],
+        "name": "MyDebtors",
+        "version": "1.1.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
+    },
+    {
+        "author": "@AuroraModules",
         "description": "With this module, you can play the game «rock, paper, scissors».",
         "commands": [
             {
@@ -16111,6 +16218,38 @@
         "name": "FuckTagOne",
         "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/FuckTagOne.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
+        "banner": "link",
+        "description": "Module for Genshin",
+        "commands": [
+            {
+                "name": "greload",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - Поменяли данные для входа или хотите авторизироваться? Вам нужно перезагрузить модуль",
+                    "doc": "- You change credentials or want auth? You need to reload module"
+                }
+            },
+            {
+                "name": "hoyoaccounts",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - Показывает все аккаунты в Genshin",
+                    "doc": "- Shows all accounts in Genshin"
+                }
+            },
+            {
+                "name": "activatepromo",
+                "inline": false,
+                "description": {
+                    "ru_doc": " [Промокод] - Активирует промокод"
+                }
+            }
+        ],
+        "name": "Genshin",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/Genshin.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -28498,6 +28637,40 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/tidal.jpg",
+        "pic": "https://static.dan.tatar/tidal_icon.png",
+        "description": "API wrapper over TIDAL Hi-Fi music streaming service",
+        "commands": [
+            {
+                "name": "tlogin",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Авторизация в TIDAL",
+                    "de_doc": "Authentifizierung in TIDAL",
+                    "tr_doc": "TIDAL'de oturum açma",
+                    "hi_doc": "TIDAL में प्रमाणीकरण",
+                    "uz_doc": "TIDAL'da avtorizatsiya",
+                    "doc": "Open OAuth window to login into TIDAL"
+                }
+            },
+            {
+                "name": "tidal",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<запрос> - Поиск трека в TIDAL",
+                    "de_doc": "<Anfrage> - Suche nach einem Track in TIDAL",
+                    "tr_doc": "<sorgu> - TIDAL'de bir parça arama",
+                    "hi_doc": "<अनुरोध> - TIDAL में एक ट्रैक खोजें",
+                    "uz_doc": "<so'rov> - TIDAL'da parca qidirish",
+                    "doc": "<query> - Search TIDAL"
+                }
+            }
+        ],
+        "name": "Tidal",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/tidal.py"
+    },
+    {
+        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/todo.jpg",
         "pic": "https://img.icons8.com/stickers/500/000000/todo-list.png",
         "description": "ToDo List",
@@ -30448,6 +30621,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/smiles.py"
     },
     {
+        "description": "Provides system information about the computer hosting this bot",
+        "commands": [
+            {
+                "name": "info",
+                "inline": false,
+                "description": {
+                    "doc": "Shows system information"
+                }
+            }
+        ],
+        "name": "System Info",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/sysinfo.py"
+    },
+    {
         "description": "Runs commands",
         "commands": [
             {
@@ -31656,6 +31843,43 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/music.py"
     },
     {
+        "author": "@nervousmods",
+        "description": "Searches for various queries in inline bots",
+        "commands": [
+            {
+                "name": "pic",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @pic"
+                }
+            },
+            {
+                "name": "vid",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @vid"
+                }
+            },
+            {
+                "name": "gif",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @gif"
+                }
+            },
+            {
+                "name": "stik",
+                "inline": false,
+                "description": {
+                    "doc": "<emoji> -> search in @sticker"
+                }
+            }
+        ],
+        "name": "Searcher",
+        "version": "0.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/searcher.py"
+    },
+    {
         "author": "@nervousmods, @hikka_mods",
         "description": "Модуль таймер до начала времен года.",
         "commands": [
@@ -32688,6 +32912,22 @@
     },
     {
         "author": "@psyhomodules",
+        "description": "Модуль для упоминания пользовалей во всех общих чатах",
+        "commands": [
+            {
+                "name": "mn",
+                "inline": false,
+                "description": {
+                    "doc": "Упомянуть пользователя во всех общих группах - .mn [ID/reply/username] [текст]"
+                }
+            }
+        ],
+        "name": "MentionChat",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/MentionChat.py"
+    },
+    {
+        "author": "@psyhomodules",
         "description": "🌐 Модуль для 24/7 статуса 'в сети'",
         "commands": [
             {
@@ -32982,6 +33222,36 @@
         "name": "StickSpam",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
+    },
+    {
+        "author": "@psyhomodules",
+        "description": "Аватар инструмент",
+        "commands": [
+            {
+                "name": "avataradd",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить аватарки - .AvatarADD <количество> <ответ на фото>"
+                }
+            },
+            {
+                "name": "avatarrem",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить аватарки - .AvatarREM <количество>"
+                }
+            },
+            {
+                "name": "avatarremall",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить все аватарки - .AvatarREMALL"
+                }
+            }
+        ],
+        "name": "Avatar",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/avatar.py"
     },
     {
         "author": "@psyhomodules",
@@ -35328,6 +35598,224 @@
         "name": "WordByWord",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/wordbyword.py"
+    },
+    {
+        "author": "@xdesai",
+        "description": "Модуль для админов чатов\nMade by Desai",
+        "commands": [
+            {
+                "name": "fullrights",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (aka префикс)] — Повышение пользователя до администратора с полными правами."
+                }
+            },
+            {
+                "name": "myrights",
+                "inline": false,
+                "description": {
+                    "doc": "Проверить ваши права в текущем чате"
+                }
+            },
+            {
+                "name": "promote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> [роль (префикс)] — Повышение пользователя до администратора."
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "doc": "<пользователь> — Снятие прав администратора с пользователя."
+                }
+            },
+            {
+                "name": "create",
+                "inline": false,
+                "description": {
+                    "doc": "Используй .create <g|s|c> <название>, чтобы создать группу, супергруппу или канал."
+                }
+            },
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Получить айди пользователя"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Получить свой айди"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Получить айди чата"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет сообщение. Использование: ?del <reply>"
+                }
+            },
+            {
+                "name": "dgc",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет группу/канал по ссылке или ID. Использование: .dgc <ID или ссылка>"
+                }
+            },
+            {
+                "name": "join",
+                "inline": false,
+                "description": {
+                    "doc": "Вступает в группу или канал по ссылке."
+                }
+            },
+            {
+                "name": "whoisowner",
+                "inline": false,
+                "description": {
+                    "doc": "Определяет владельца группы или канала."
+                }
+            },
+            {
+                "name": "rename",
+                "inline": false,
+                "description": {
+                    "doc": ".rename <new_name> — Меняет название группы/канала на <new_name>"
+                }
+            },
+            {
+                "name": "members",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает кол-во участников канала/группы"
+                }
+            },
+            {
+                "name": "banall",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить всех участников в группе/канале"
+                }
+            },
+            {
+                "name": "chatinfo",
+                "inline": false,
+                "description": {
+                    "doc": "<айди чата>"
+                }
+            },
+            {
+                "name": "own",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список чатов, каналов и групп где вы владелец/админ."
+                }
+            },
+            {
+                "name": "unmute",
+                "inline": false,
+                "description": {
+                    "doc": "Размучивает пользователя. Использование: .unmute <id>"
+                }
+            },
+            {
+                "name": "mute",
+                "inline": false,
+                "description": {
+                    "doc": "Мут пользователя. Использование: .mute <reply | ID | username> <time> - мутит на определенное время."
+                }
+            },
+            {
+                "name": "kickall",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет всех пользователей из чата."
+                }
+            },
+            {
+                "name": "steal",
+                "inline": false,
+                "description": {
+                    "doc": "Добавляет людей и ботов с чата в чат. Если дописать аргумент nobot то без ботов"
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список участников."
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех админов в чате (без учёта ботов)."
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Выводит список всех ботов в чате."
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "Разбанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "Забанить участника. Использование: .ban <reply/id>"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "Кикнуть участника из чата. Использование: .kick <reply/id>"
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Пригласить пользователя/бота в чат. Использование: .invite <id/reply>."
+                }
+            },
+            {
+                "name": "flush",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет удалённые аккаунты из чата"
+                }
+            },
+            {
+                "name": "wipe",
+                "inline": false,
+                "description": {
+                    "doc": "Удаляет все сообщения от тебя"
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/CMDDJModule.py"
     },
     {
         "author": "@xdesai",
