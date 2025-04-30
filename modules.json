@@ -1248,22 +1248,6 @@
     },
     {
         "author": "@hikka_mods",
-        "description": "Find out the approximate date of registration of the telegram account",
-        "commands": [
-            {
-                "name": "accdata",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Узнать примерную дату регистрации аккаунта телеграмм",
-                    "en_doc": "Find out the approximate date of registration of the telegram account"
-                }
-            }
-        ],
-        "name": "AccountData",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/AccountData.py"
-    },
-    {
-        "author": "@hikka_mods",
         "description": "Searches and gives random agtme on the AniLibria database.",
         "commands": [
             {
@@ -5376,6 +5360,24 @@
         "name": "Achievements",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/achievements.py"
+    },
+    {
+        "author": "@AstroModules",
+        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Akinator.jpg",
+        "description": "Akinator will guess any character you have in mind,\nYou just need to answer a couple of questions)",
+        "commands": [
+            {
+                "name": "akinator",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- начать игру",
+                    "doc": "- start the game"
+                }
+            }
+        ],
+        "name": "Akinator",
+        "version": "1.0.5",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/akinator.py"
     },
     {
         "author": "@AstroModules",
@@ -10307,48 +10309,6 @@
         "name": "VoiceChat",
         "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/тесты.py"
-    },
-    {
-        "author": "@Mersai",
-        "commands": [
-            {
-                "name": "clearbull",
-                "inline": false,
-                "description": {
-                    "doc": "Никого не буллить"
-                }
-            },
-            {
-                "name": "bulla",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить фразу | .bulla <фраза>"
-                }
-            },
-            {
-                "name": "bullr",
-                "inline": false,
-                "description": {
-                    "doc": "Вкинуть рандомное оскорбление"
-                }
-            },
-            {
-                "name": "addbull",
-                "inline": false,
-                "description": {
-                    "doc": "Буллить человека. <reply>"
-                }
-            },
-            {
-                "name": "rmbull",
-                "inline": false,
-                "description": {
-                    "doc": "Не буллить человека. <reply>"
-                }
-            }
-        ],
-        "name": "☠️ Унижатор 2.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/☠️_Унижатор_2.0.py"
     },
     {
         "author": "@mm_mods",
@@ -16253,6 +16213,22 @@
     {
         "author": "@BruhHikkaModules",
         "banner": "link",
+        "description": "Facts about numbers, dates, years, etc",
+        "commands": [
+            {
+                "name": "randomfact",
+                "inline": false,
+                "description": {
+                    "doc": "- [Type of random facts (year, trivia, math, date)] Random fact about something"
+                }
+            }
+        ],
+        "name": "INumber",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/INumber.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
+        "banner": "link",
         "description": "Create inline buttons easily",
         "commands": [
             {
@@ -16600,6 +16576,31 @@
         ],
         "name": "SteamClient",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/SteamClient.py"
+    },
+    {
+        "author": "@BruhHikkaModules",
+        "banner": "https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/assets/modbanners/tempjoinchannel.png",
+        "description": "Enter the channels temporarily!",
+        "commands": [
+            {
+                "name": "addchannels",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавь каналы, напишите в аргументы слово inline если нужны каналы оттуда. Либо перечислите любые признаки канала (айди, ссылки, юзернеймы). Inline dont work",
+                    "doc": "- Add channels, put the word inline in the arguments if you need channels from there. Or list any channel attributes (ids, links, usernames). (Inline dont work)"
+                }
+            },
+            {
+                "name": "leavechannels",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Покинуть все каналы которые были добавлены",
+                    "doc": "- Leave all channels that have been added"
+                }
+            }
+        ],
+        "name": "TempJoinChannel",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/TempJoinChannel.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -23664,21 +23665,6 @@
     },
     {
         "author": "@codermasochist",
-        "description": "генератор рандомных паролей",
-        "commands": [
-            {
-                "name": "grr",
-                "inline": false,
-                "description": {
-                    "doc": "— <число> — макс. символов."
-                }
-            }
-        ],
-        "name": "GRR",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/GRR.py"
-    },
-    {
-        "author": "@codermasochist",
         "description": "массовая рассылка по всем чатам.",
         "commands": [
             {
@@ -27358,30 +27344,6 @@
         ],
         "name": "MindGame",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/mindgame.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/moonlove.jpg",
-        "pic": "https://static.dan.tatar/moonlove_icon.png",
-        "description": "Animation with moon and hearts for your beloved",
-        "commands": [
-            {
-                "name": "moonlove",
-                "inline": false,
-                "description": {
-                    "doc": "[text] - Love you to the moon"
-                }
-            },
-            {
-                "name": "moonlovei",
-                "inline": false,
-                "description": {
-                    "doc": "[text] - Love you to the moon [Inline]"
-                }
-            }
-        ],
-        "name": "MoonLove",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/moonlove.py"
     },
     {
         "author": "@hikarimods",
@@ -36532,21 +36494,6 @@
         ],
         "name": "Custom Fake Ping",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xuduk/modules/CustomFakePing.py"
-    },
-    {
-        "author": "@xuduk",
-        "description": "Гуглит что-то вместо тебя.",
-        "commands": [
-            {
-                "name": "g",
-                "inline": false,
-                "description": {
-                    "doc": "[запрос] - сгенерировать ссылку которая гуглит за тебя"
-                }
-            }
-        ],
-        "name": "Давай погуглим",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xuduk/modules/GoogleItForMe.py"
     },
     {
         "author": "@xuduk",
