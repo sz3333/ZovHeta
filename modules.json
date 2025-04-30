@@ -4992,43 +4992,6 @@
     },
     {
         "author": "@shrimp_mod",
-        "description": "Модуль АФК который меняет эмодзи статус (онли Прем) и всякая другая всячина",
-        "commands": [
-            {
-                "name": "afklist",
-                "inline": false,
-                "description": {
-                    "doc": "Показать черный список чатов"
-                }
-            },
-            {
-                "name": "afkadd",
-                "inline": false,
-                "description": {
-                    "doc": "Добавить текущий чат или пользователя в черный список"
-                }
-            },
-            {
-                "name": "afkdel",
-                "inline": false,
-                "description": {
-                    "doc": "Удалить текущий чат из черного списка"
-                }
-            },
-            {
-                "name": "afk",
-                "inline": false,
-                "description": {
-                    "doc": "[причина] [время] - включить/выключить АФК режим"
-                }
-            }
-        ],
-        "name": "UnknownAFK",
-        "version": "3.5.5",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/unknownafk.py"
-    },
-    {
-        "author": "@shrimp_mod",
         "description": "Модуль для конвертации видео в голосовое сообщение",
         "commands": [
             {
@@ -5072,30 +5035,6 @@
         "name": "Анти-Мат",
         "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/AntiMat.py"
-    },
-    {
-        "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Compliments.jpg",
-        "description": "Покажи девушке какая она прекрасная (ну или им, какие они прекрасные)",
-        "commands": [
-            {
-                "name": "complimentscfg",
-                "inline": false,
-                "description": {
-                    "doc": "—>конфиг этого модуля"
-                }
-            },
-            {
-                "name": "ilike",
-                "inline": false,
-                "description": {
-                    "doc": "Инлайн анимация комплиментов(полная настройка в конфиге)"
-                }
-            }
-        ],
-        "name": "Compliments",
-        "version": "2.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Compliments.py"
     },
     {
         "author": "@AstroModules, @HikariMods",
@@ -5160,22 +5099,6 @@
         "name": "RandomPasswordGenerator",
         "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomPasswordGenerator.py"
-    },
-    {
-        "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/RandomStatuses.jpg",
-        "description": "Рандомные статусы для описания аккаунта в ТГ/Вацап/ВК и т.д.",
-        "commands": [
-            {
-                "name": "rstatus",
-                "inline": false,
-                "description": {
-                    "doc": "Рандомный статус на описание аккаунта в ТГ/ВК/Вацап и т.д."
-                }
-            }
-        ],
-        "name": "RandomStatuses",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomStatuses.py"
     },
     {
         "author": "@AstroModules",
@@ -6553,36 +6476,6 @@
         ],
         "name": "Faker",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/faker.py"
-    },
-    {
-        "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/famod.png?raw=true",
-        "description": "Управление вещами, связанными с @FAmods_Bot",
-        "commands": [
-            {
-                "name": "fmstats",
-                "inline": false,
-                "description": {
-                    "doc": "Просмотр статистики"
-                }
-            },
-            {
-                "name": "fmsearch",
-                "inline": false,
-                "description": {
-                    "doc": "Поиск модуля"
-                }
-            },
-            {
-                "name": "famods",
-                "inline": true,
-                "description": {
-                    "doc": "Поиск модулей"
-                }
-            }
-        ],
-        "name": "Famod",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/famod.py"
     },
     {
         "author": "@FAmods",
@@ -17292,54 +17185,6 @@
         ],
         "name": "WatcherModule",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/N3rcy/modules/watch.py"
-    },
-    {
-        "author": "@nercymods",
-        "description": "Module for speech recognition",
-        "commands": [
-            {
-                "name": "whisper",
-                "inline": false,
-                "description": {
-                    "ru_doc": "распознать речь из голосового/видео сообщения в реплае, используя openai api",
-                    "doc": "Transcribe speech from a voice/video message in reply using openai api"
-                }
-            },
-            {
-                "name": "autowhspr",
-                "inline": false,
-                "description": {
-                    "ru_doc": "включить/выключить автораспознавание голосовых и видео сообщений в чате где введена команда",
-                    "doc": "Enable/disable auto-speech recognition for voice and video messages"
-                }
-            },
-            {
-                "name": "hfwhisper",
-                "inline": false,
-                "description": {
-                    "ru_doc": "распознать речь из голосового/видео сообщения в реплае, используя hugging face api",
-                    "doc": "Transcribe speech from a voice/video message in reply using hugging face api"
-                }
-            },
-            {
-                "name": "hfautowhspr",
-                "inline": false,
-                "description": {
-                    "ru_doc": "включить/выключить автораспознавание через Hugging Face API в текущем чате",
-                    "doc": "Enable/disable auto-speech recognition using Hugging Face API"
-                }
-            },
-            {
-                "name": "hfguide",
-                "inline": false,
-                "description": {
-                    "ru_doc": "гайд как получить hugging face токен",
-                    "en_doc": "guide how to get hugging face token"
-                }
-            }
-        ],
-        "name": "WhisperMod",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/N3rcy/modules/whisper.py"
     },
     {
         "author": "@RUIS_VlP, @matubuntu",
@@ -32743,29 +32588,6 @@
     },
     {
         "author": "@psyhomodules",
-        "description": "Мониторит канал с промо на BFG если находит водить в бота",
-        "commands": [
-            {
-                "name": "promo",
-                "inline": false,
-                "description": {
-                    "doc": "Включить/выключить авто-промо"
-                }
-            },
-            {
-                "name": "promos",
-                "inline": false,
-                "description": {
-                    "doc": "Проверить статус авто-промо"
-                }
-            }
-        ],
-        "name": "BFGPromoMonitor",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/BfgPromo.py"
-    },
-    {
-        "author": "@psyhomodules",
         "description": "🤖 Управление запуском ботов через команды",
         "commands": [
             {
@@ -33033,45 +32855,6 @@
         "name": "RandomStory",
         "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/RandomStory.py"
-    },
-    {
-        "author": "@psyhomodules",
-        "description": "Модуль для чтения содержимого файлов из реплая или по URL.",
-        "commands": [
-            {
-                "name": "rf",
-                "inline": false,
-                "description": {
-                    "doc": "Чтение файла из реплая: .rf"
-                }
-            },
-            {
-                "name": "rl",
-                "inline": false,
-                "description": {
-                    "doc": "Чтение файла по ссылке: .rl <url>"
-                }
-            }
-        ],
-        "name": "ReadFilelink",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Readfilelink.py"
-    },
-    {
-        "author": "@psyhomodules",
-        "description": "Сохраняет сообщения, видео, файлы и т.д в избранное",
-        "commands": [
-            {
-                "name": "fav",
-                "inline": false,
-                "description": {
-                    "doc": "Сохраняет в избранное. Использование: .fav"
-                }
-            }
-        ],
-        "name": "SaveFav",
-        "version": "1.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SaveFav.py"
     },
     {
         "author": "@psyhomodules",
@@ -33561,23 +33344,6 @@
         ],
         "name": "RandomCircle",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/randomcircle.py"
-    },
-    {
-        "author": "@ScreamDev",
-        "banner": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
-        "pic": "https://raw.githubusercontent.com/scream-dev/Modules/refs/heads/main/images/AutoAddon.png",
-        "description": "Добавляет к сообщению канала ватемарку",
-        "commands": [
-            {
-                "name": "autoedit",
-                "inline": false,
-                "description": {
-                    "doc": "- включить/выключить AutoAdd-On."
-                }
-            }
-        ],
-        "name": "AutoAdd-On",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/AutoAdd-on.py"
     },
     {
         "author": "@ScreamDev",
