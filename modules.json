@@ -13854,6 +13854,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/OneMessage.py"
     },
     {
+        "description": "Generator and reader of QR codes",
+        "commands": [
+            {
+                "name": "makeqr",
+                "inline": false,
+                "description": {
+                    "doc": ".makeqr <text or reply>"
+                }
+            },
+            {
+                "name": "readqr",
+                "inline": false,
+                "description": {
+                    "doc": ".readqr <qrcode or reply to qrcode>"
+                }
+            }
+        ],
+        "name": "QR tool's",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/QRtools.py"
+    },
+    {
         "description": "каждое слово раз в 100мс",
         "commands": [
             {
@@ -16638,43 +16659,6 @@
         ],
         "name": "TempJoinChannel",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/TempJoinChannel.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "link",
-        "description": "Module for interaction with ToTHosting API (obviously) ",
-        "commands": [
-            {
-                "name": "tinfo",
-                "inline": false,
-                "description": {
-                    "doc": "[id/None] - Get info about your userbot"
-                }
-            },
-            {
-                "name": "tlogs",
-                "inline": false,
-                "description": {
-                    "doc": "[id/None] - Get logs of your userbot"
-                }
-            },
-            {
-                "name": "trestart",
-                "inline": false,
-                "description": {
-                    "doc": "[id/None] - Restart the userbot"
-                }
-            },
-            {
-                "name": "tuserinfo",
-                "inline": false,
-                "description": {
-                    "doc": "- Info about user"
-                }
-            }
-        ],
-        "name": "ToTHosting",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/ToTHosting.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -34161,6 +34145,40 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
+        "description": "Module for converting a large number of currencies to other currencies",
+        "commands": [
+            {
+                "name": "cconvert",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[from] [to] Конвертировать одну валюту в другую",
+                    "doc": "[from] [to] Convert currency to other currency"
+                }
+            }
+        ],
+        "name": "Currency Converter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/currencyconverter.py"
+    },
+    {
+        "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/egsfreegames.png?raw=true",
+        "description": "Module for checking free games in Epic Games Store. Inline bot will send them every day in special chat",
+        "commands": [
+            {
+                "name": "egsgames",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Получить бесплатные игры доступные в Epic Games Store",
+                    "doc": "Get free games links available in Epic Games Store"
+                }
+            }
+        ],
+        "name": "EGSFreeGames",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/egsfreegames.py"
+    },
+    {
+        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_fakedata.png?raw=true",
         "description": "Just fake data of persons and credit cards",
         "commands": [
@@ -35173,24 +35191,6 @@
     },
     {
         "author": "@vsecoder_m",
-        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cute-clipart/344/wikipedia.png&title=Wikipedia&description=Module%20for%20wikipedia%20search",
-        "pic": "https://img.icons8.com/cute-clipart/344/wikipedia.png",
-        "description": "Module for wikipedia search",
-        "commands": [
-            {
-                "name": "wiki",
-                "inline": false,
-                "description": {
-                    "doc": "<text> - search in wikipedia"
-                }
-            }
-        ],
-        "name": "Wikipedia🌐",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/wikimod.py"
-    },
-    {
-        "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg&title=YMNow&description=Module%20for%20yandex%20music",
         "pic": "https://img.freepik.com/premium-vector/yandex-music-logo_578229-242.jpg",
         "description": "Module for yandex music. Based on SpotifyNow, YaNow and WakaTime. [BETA]\n\nNow on Ynison API.",
@@ -36008,21 +36008,6 @@
         ],
         "name": "ChatModule",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/ChatModule.py"
-    },
-    {
-        "author": "@xdesai",
-        "commands": [
-            {
-                "name": "rights",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<reply/username/id> | Проверить права в текущем чате.",
-                    "doc": "<reply/username/id> | Check rights in the current chat."
-                }
-            }
-        ],
-        "name": "CheckAdminRights",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/CheckAdminRights.py"
     },
     {
         "author": "@hikarimods",
