@@ -5360,6 +5360,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/YandexMusic.py"
     },
     {
+        "description": "Модуль для демонстрации играющей песни в Яндекс.Музыке",
+        "commands": [
+            {
+                "name": "yalive",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- включить/выключить YaLive",
+                    "doc": "Включение или выключение автоматического обновления названия канала"
+                }
+            }
+        ],
+        "name": "YandexMusicLive",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/YmLive.py"
+    },
+    {
         "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Achievements.jpg",
         "description": "Create the achievement from https://minecraft-inside.ru/achievements/\n\nIdea from @Den4ikSOP & @boyhao",
