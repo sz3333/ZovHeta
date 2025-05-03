@@ -21344,7 +21344,7 @@
             }
         ],
         "name": "GifHarem",
-        "version": "2.0.2",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/GifHarem.py"
     },
     {
@@ -21367,7 +21367,7 @@
             }
         ],
         "name": "HornyHarem",
-        "version": "2.0.2",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
     },
     {
@@ -21406,7 +21406,7 @@
             }
         ],
         "name": "WaifuHarem",
-        "version": "2.0.2",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
@@ -33547,6 +33547,20 @@
         ],
         "name": "SpamBan",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/SpamBan.py"
+    },
+    {
+        "description": "Выдаёт username и tg-ссылку по ID",
+        "commands": [
+            {
+                "name": "getuser",
+                "inline": false,
+                "description": {
+                    "doc": "<id> — Получить username и ссылку по ID"
+                }
+            }
+        ],
+        "name": "UserByID",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/UserID.py"
     },
     {
         "author": "@angellmodules",
