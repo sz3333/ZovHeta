@@ -6015,6 +6015,71 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ElonKuska/ElonModules/Modules/DDNet_player_info/DDNet_Player_Info.py"
     },
     {
+        "author": "@ElonModules, @yg_modules",
+        "description": "Активатор чеков @send (@CryptoBot) (Fork Module t.me/yg_modules/113)",
+        "commands": [
+            {
+                "name": "checks",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить активатор",
+                    "doc": "Включить/выключить автоматическую активацию чеков"
+                }
+            },
+            {
+                "name": "testnet",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить активатор тестнет чеков",
+                    "doc": "Включить/выключить автоматическую активацию тестнет чеков"
+                }
+            },
+            {
+                "name": "elogs",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить отправку логов",
+                    "doc": "Включить/выключить отправку логов"
+                }
+            },
+            {
+                "name": "passwords",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить подбор паролей",
+                    "doc": "Включить/выключить подбор паролей с помощью нейросети"
+                }
+            },
+            {
+                "name": "els",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить активацию чеков в личке",
+                    "doc": "Включить/выключить активацию чеков, отправленных в личные сообщения"
+                }
+            },
+            {
+                "name": "subscribe",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить авто-подписку",
+                    "doc": "Включить/выключить автоматическую подписку на каналы"
+                }
+            },
+            {
+                "name": "unsubscribe",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить авто-отписку",
+                    "doc": "Включить/выключить автоматическую отписку от каналов"
+                }
+            }
+        ],
+        "name": "e_checks",
+        "version": "1.5.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ElonKuska/ElonModules/Modules/e_checks/e_checks.py"
+    },
+    {
         "author": "@Enceth",
         "description": "Модуль для автоматической рассылки сообщений",
         "commands": [
