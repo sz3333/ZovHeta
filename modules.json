@@ -35923,7 +35923,7 @@
                 }
             },
             {
-                "name": "del",
+                "name": "d",
                 "inline": false,
                 "description": {
                     "ru_doc": "<реплай/кол-во> | Удаляет сообщения.",
