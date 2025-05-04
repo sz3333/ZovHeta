@@ -32546,7 +32546,7 @@
             }
         ],
         "name": "ChatGPT",
-        "version": "2.2.0",
+        "version": "2.5.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
     },
     {
