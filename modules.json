@@ -9793,6 +9793,41 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/ss.py"
     },
     {
+        "author": "@mwmodules",
+        "commands": [
+            {
+                "name": "starlink",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать положение спутников Starlink на карте Земли [число спутников]. Показывает до 5000 спутников, по умолчанию 100. Выводит карту и координаты ближайших 5 спутников, полный список в Telegraph."
+                }
+            },
+            {
+                "name": "starlinkone",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать положение спутника Starlink по имени. Выводит карту и координаты указанного спутника."
+                }
+            },
+            {
+                "name": "starlinknear",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать ближайший спутник к указанному по имени. Выводит карту и координаты ближайшего спутника к указанному."
+                }
+            },
+            {
+                "name": "starlinkspeed",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Оценить скорость интернета до ближайшего спутника Starlink, как если бы Starlink был провайдером. Выводит пинг, скорость загрузки и отдачи."
+                }
+            }
+        ],
+        "name": "StarlinkTracker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/starlink.py"
+    },
+    {
         "author": "@dummykezu",
         "name": "UnknownStrings",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/unknown_strings.py"
