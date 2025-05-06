@@ -18770,6 +18770,7 @@
             }
         ],
         "name": "BarcodeGenerator",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/barcode.py"
     },
     {
