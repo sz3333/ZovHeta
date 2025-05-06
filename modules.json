@@ -9071,20 +9071,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/iris.py"
     },
     {
-        "description": "Модуль для пополнения казны (Gentle bar) by nanashi..?",
-        "commands": [
-            {
-                "name": "kaz",
-                "inline": false,
-                "description": {
-                    "doc": "Пример ввода: .kaz 1e19"
-                }
-            }
-        ],
-        "name": "kazbar",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/kazbar.py"
-    },
-    {
         "description": "Модуль для пополнения казны",
         "commands": [
             {
@@ -14314,27 +14300,6 @@
         ],
         "name": "Demoter",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/demot.py"
-    },
-    {
-        "description": "Image to dot\n.cmd <count> + reply to img\nthe bigger, the slower and bugger\nrecommended not more 1000",
-        "commands": [
-            {
-                "name": "dotify",
-                "inline": false,
-                "description": {
-                    "doc": "Image to RGB dots"
-                }
-            },
-            {
-                "name": "dotifi",
-                "inline": false,
-                "description": {
-                    "doc": "Image to BW dots"
-                }
-            }
-        ],
-        "name": "[PRIVATE]Dotify",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/dotify.py"
     },
     {
         "description": "Quote a message",
@@ -27355,44 +27320,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/keyword.jpg",
-        "pic": "https://img.icons8.com/fluency/48/000000/macbook-chat.png",
-        "description": "Allows you to create custom filters with regexes, commands and unlimited funcionality",
-        "commands": [
-            {
-                "name": "kword",
-                "inline": false,
-                "description": {
-                    "doc": "<keyword | could be in quotes | & for multiple words that should be in msg> <message | empty to remove keyword> [-r for full match] [-m for autoreading msg] [-l to log in pm] [-e for regular expressions]"
-                }
-            },
-            {
-                "name": "kwords",
-                "inline": false,
-                "description": {
-                    "doc": "List current kwords"
-                }
-            },
-            {
-                "name": "kwbl",
-                "inline": false,
-                "description": {
-                    "doc": "Blacklist chat from answering keywords"
-                }
-            },
-            {
-                "name": "kwbllist",
-                "inline": false,
-                "description": {
-                    "doc": "List blacklisted chats"
-                }
-            }
-        ],
-        "name": "Keyword",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/keyword.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/lastcommand.jpg",
         "pic": "https://static.dan.tatar/lastcommand_icon.png",
         "description": "Execute last command",
@@ -32206,20 +32133,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/VoiceToText.py"
     },
     {
-        "author": "@aki_modules",
-        "commands": [
-            {
-                "name": "wallet",
-                "inline": false,
-                "description": {
-                    "doc": "Отправляет ваш баланс в @send"
-                }
-            }
-        ],
-        "name": "WalletCheck",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kezuhiro-web/modules/WalletCheck.py"
-    },
-    {
         "author": "@codeer_kot",
         "description": "Модуль для проверки на флуд-вейты",
         "commands": [
@@ -32270,21 +32183,6 @@
         ],
         "name": "KOTNewYear",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTNewYear.py"
-    },
-    {
-        "author": "@codeer_kot",
-        "description": "модуль, который отправляет рандом видио с зимой",
-        "commands": [
-            {
-                "name": "win",
-                "inline": false,
-                "description": {
-                    "doc": "- вывести медиа с зимним вайбом."
-                }
-            }
-        ],
-        "name": "KotWinter",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTWinter.py"
     },
     {
         "author": "@codeer_kot",
@@ -34148,22 +34046,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/VulgarStories.py"
     },
     {
-        "author": "@shadow_modules",
-        "banner": "https://i.imgur.com/aGGx93G.jpeg",
-        "description": "Try such as in samp",
-        "commands": [
-            {
-                "name": "try",
-                "inline": false,
-                "description": {
-                    "doc": "try you luck"
-                }
-            }
-        ],
-        "name": "TrySamp",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/shadowhikka/sh.modules/trysamp.py"
-    },
-    {
         "author": "@sqlmerr_m",
         "description": "Change your status fast. Only for premium users | Изменяйте ваш статус быстро. Только для премиум пользователей",
         "commands": [
@@ -35146,24 +35028,6 @@
         "name": "HH",
         "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/hh.py"
-    },
-    {
-        "author": "@vsecoder_m",
-        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/cute-clipart/64/minecraft-logo.png&title=Hypixel&description=Module%20for%20getting%20information%20about%20minecraft%20Hypixel%20player",
-        "pic": "https://img.icons8.com/cute-clipart/64/minecraft-logo.png",
-        "description": "Module for getting information about minecraft Hypixel player (beta)",
-        "commands": [
-            {
-                "name": "stat",
-                "inline": false,
-                "description": {
-                    "doc": "Get stats about Hypixel player"
-                }
-            }
-        ],
-        "name": "Hypixel",
-        "version": "1.1.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/hypixel.py"
     },
     {
         "author": "@vsecoder_m",
