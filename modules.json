@@ -130,44 +130,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Timer.py"
     },
     {
-        "author": "@shiro_hikka",
-        "banner": "https://0x0.st/s/FIR0RnhUN5pZV5CZ6sNFEw/8KBz.jpg",
-        "description": "Tracks the change history of usernames and nicknames of users",
-        "commands": [
-            {
-                "name": "track",
-                "inline": false,
-                "description": {
-                    "doc": "Enable / Disable the tracking"
-                }
-            },
-            {
-                "name": "addtrack",
-                "inline": false,
-                "description": {
-                    "doc": "<ID / Username> - add a new user to track"
-                }
-            },
-            {
-                "name": "deltrack",
-                "inline": false,
-                "description": {
-                    "doc": "Remove user from the track list"
-                }
-            },
-            {
-                "name": "trackstat",
-                "inline": false,
-                "description": {
-                    "doc": "View the statistic about users you're tracking"
-                }
-            }
-        ],
-        "name": "Tracker",
-        "version": "1.1.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Tracker.py"
-    },
-    {
         "author": "@hikamorumods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Abstract.jpg",
         "pic": "https://te.legra.ph/file/868a280910e7f61f6ab0e.png",
@@ -3860,21 +3822,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "Craiyon - Mini DALL-E for FTG",
-        "commands": [
-            {
-                "name": "craiyon",
-                "inline": false,
-                "description": {
-                    "doc": ".craiyon <text> - Generate images with text using Craiyon (Mini DALL-E)"
-                }
-            }
-        ],
-        "name": "Craiyon",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/Craiyon.py"
-    },
-    {
-        "author": "@D4n13l3k00",
         "commands": [
             {
                 "name": "dai_set_token",
@@ -4120,25 +4067,6 @@
         ],
         "name": "AntiPublic MYRZ",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/MYRZ.py"
-    },
-    {
-        "author": "@D4n13l3k00",
-        "commands": [
-            {
-                "name": "nk",
-                "inline": false,
-                "description": {
-                    "doc": "Отправить фото/гиф\nПо умолчанию отправляется neko\nМожно указать другую категорию(.nkct)"
-                }
-            },
-            {
-                "name": "nkct",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "NekosLife",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/NekosLife.py"
     },
     {
         "author": "@D4n13l3k00",
@@ -4659,21 +4587,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "description": "WttrIn",
-        "commands": [
-            {
-                "name": "wthr",
-                "inline": false,
-                "description": {
-                    "doc": ".wthr <Город если надо>\nПолучить текущую погоду"
-                }
-            }
-        ],
-        "name": "WttrIn",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/WttrIn.py"
-    },
-    {
-        "author": "@D4n13l3k00",
         "description": "Youtube-Dl Module",
         "commands": [
             {
@@ -4745,50 +4658,6 @@
         ],
         "name": "FarmdMod",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/FarmdMod.py"
-    },
-    {
-        "author": "@shrimp_mod",
-        "description": "Подсчет сообщений, медиа и статистики пользователей в чате",
-        "commands": [
-            {
-                "name": "mymsg",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчитывает все ваши сообщения и медиафайлы."
-                }
-            },
-            {
-                "name": "usermsg",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчитывает все сообщения и медиафайлы указанного пользователя. Использование: .usermsg <реплай или @username>"
-                }
-            },
-            {
-                "name": "allmsg",
-                "inline": false,
-                "description": {
-                    "doc": "Подсчитывает сообщения всех участников."
-                }
-            },
-            {
-                "name": "chatstats",
-                "inline": false,
-                "description": {
-                    "doc": "Показывает полную статистику чата."
-                }
-            },
-            {
-                "name": "silent",
-                "inline": false,
-                "description": {
-                    "doc": "Получает список пользователей без сообщений."
-                }
-            }
-        ],
-        "name": "CMC",
-        "version": "3.2.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/cmc.py"
     },
     {
         "author": "@shrimp_mod",
@@ -5119,32 +4988,6 @@
         "name": "Emotions",
         "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Emotions.py"
-    },
-    {
-        "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/PasswordGenerator.jpg",
-        "description": "Random password/pincode generator",
-        "commands": [
-            {
-                "name": "generatorcfg",
-                "inline": false,
-                "description": {
-                    "ru_doc": "—>конфиг этого модуля",
-                    "doc": "—>config for this module"
-                }
-            },
-            {
-                "name": "igenerator",
-                "inline": false,
-                "description": {
-                    "ru_doc": "—>сгенерировать случайный пароль/пин-код",
-                    "doc": "—>generate random password/pin"
-                }
-            }
-        ],
-        "name": "RandomPasswordGenerator",
-        "version": "2.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomPasswordGenerator.py"
     },
     {
         "author": "@AstroModules",
@@ -5508,31 +5351,6 @@
         ],
         "name": "HikkaCommandsLogger",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/commands_logger.py"
-    },
-    {
-        "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Convertio.jpg",
-        "description": "Convert file with api from https://convertio.co",
-        "commands": [
-            {
-                "name": "renewconvertio",
-                "inline": false,
-                "description": {
-                    "doc": "Renew convertio api key"
-                }
-            },
-            {
-                "name": "convert",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<выходной формат> | Пример: png",
-                    "doc": "<output format> <!reply to file> | Example: png"
-                }
-            }
-        ],
-        "name": "Convertio",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/convertio.py"
     },
     {
         "author": "@AstroModules",
@@ -7588,62 +7406,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CendPing.py"
     },
     {
-        "description": "Чат модуль",
-        "commands": [
-            {
-                "name": "userid",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .userid <@ или реплай> показывает ID выбранного пользователя."
-                }
-            },
-            {
-                "name": "chatid",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .chatid показывает ID чата."
-                }
-            },
-            {
-                "name": "invite",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте .invite <@ или реплай>, чтобы добавить пользователя в чат."
-                }
-            },
-            {
-                "name": "kickme",
-                "inline": false,
-                "description": {
-                    "doc": "Используйте команду .kickme, чтобы кикнуть себя из чата."
-                }
-            },
-            {
-                "name": "users",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .users <имя>; ничего выводит список всех пользователей в чате."
-                }
-            },
-            {
-                "name": "admins",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .admins показывает список всех админов в чате."
-                }
-            },
-            {
-                "name": "bots",
-                "inline": false,
-                "description": {
-                    "doc": "Команда .bots показывает список всех ботов в чате."
-                }
-            }
-        ],
-        "name": "ChatModule",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/ChatModule.py"
-    },
-    {
         "author": "@mqone",
         "description": "Узнать сколько стоит юзер на Fragment.com",
         "commands": [
@@ -7657,23 +7419,6 @@
         ],
         "name": "Check Fragment",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CheckFragmen.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Check spam ban for your account.",
-        "commands": [
-            {
-                "name": "spamban",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
-                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
-                }
-            }
-        ],
-        "name": "CheckSpamBan",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CheckSpamBan.py"
     },
     {
         "banner": "https://envs.sh/J6r.jpg",
@@ -14597,20 +14342,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pic2pack.py"
     },
     {
-        "description": "Аналог модуля typewriter",
-        "commands": [
-            {
-                "name": "print",
-                "inline": false,
-                "description": {
-                    "doc": ".print <text or reply>"
-                }
-            }
-        ],
-        "name": "print",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/print.py"
-    },
-    {
         "description": "более точный пинг",
         "commands": [
             {
@@ -15994,45 +15725,6 @@
     },
     {
         "author": "@morisummermods",
-        "banner": "https://i.imgur.com/3joMFwC.jpg",
-        "pic": "https://i.imgur.com/nmAXM3k.png",
-        "description": "Magic Text generator",
-        "commands": [
-            {
-                "name": "mtset",
-                "inline": false,
-                "description": {
-                    "doc": "Set the symbols for animation (Separated by space. Example: .mtset ✨ 💖)"
-                }
-            },
-            {
-                "name": "mtiset",
-                "inline": false,
-                "description": {
-                    "doc": "Set the text for inline message (Example: .mtiset ❤️‍🔥 I want to tell you something...)"
-                }
-            },
-            {
-                "name": "mt",
-                "inline": false,
-                "description": {
-                    "doc": "Send message with animating text"
-                }
-            },
-            {
-                "name": "mti",
-                "inline": false,
-                "description": {
-                    "doc": "Send inline message with animating text"
-                }
-            }
-        ],
-        "name": "MagicText",
-        "version": "2.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/magictext.py"
-    },
-    {
-        "author": "@morisummermods",
         "banner": "https://i.imgur.com/fPWWFrL.jpg",
         "pic": "https://i.imgur.com/fcHCrS2.png",
         "description": "\"I'm an osu!bot that can do some things written by @morisummerzxc",
@@ -16164,23 +15856,6 @@
         ],
         "name": "AutoLeave",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/AutoLeave.py"
-    },
-    {
-        "author": "@BruhHikkaModules",
-        "banner": "https://0x0.st/HgiU.jpg",
-        "description": "Is it annoying to write the terminal command every time before writing something?\nNow the problem is solved! You can set a local prefix and it will work! Example: &ls -l",
-        "commands": [
-            {
-                "name": "setprefixbash",
-                "inline": false,
-                "description": {
-                    "ru_doc": " [Префикс] - Поставь префикс для терминала",
-                    "doc": "[Prefix] - Set prefix for terminal"
-                }
-            }
-        ],
-        "name": "BashWatcher",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/BashWatcher.py"
     },
     {
         "author": "@BruhHikkaModules",
@@ -19418,6 +19093,41 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/ChatStats.py"
     },
     {
+        "description": "Госу, пикапы, подкаты.",
+        "commands": [
+            {
+                "name": "gosu",
+                "inline": false,
+                "description": {
+                    "doc": "Выебать чью-то мамку"
+                }
+            },
+            {
+                "name": "pikap",
+                "inline": false,
+                "description": {
+                    "doc": "Пикап"
+                }
+            },
+            {
+                "name": "podkat",
+                "inline": false,
+                "description": {
+                    "doc": "Подкат"
+                }
+            },
+            {
+                "name": "ayf",
+                "inline": false,
+                "description": {
+                    "doc": "АУФ!!!"
+                }
+            }
+        ],
+        "name": "Фразы",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Frazes.py"
+    },
+    {
         "description": "Создать чат или канал.",
         "commands": [
             {
@@ -21351,6 +21061,29 @@
         ],
         "name": "QuotePicker",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/цитаты.py"
+    },
+    {
+        "author": "@nullmod",
+        "description": "Шахматы для игры вдвоём.",
+        "commands": [
+            {
+                "name": "chess",
+                "inline": false,
+                "description": {
+                    "doc": "[reply/username/id] предложить человеку сыграть партию в чате"
+                }
+            },
+            {
+                "name": "purgeGame",
+                "inline": false,
+                "description": {
+                    "doc": "Грубо завершить партию, очистив ВСЕ связанные с ней данные"
+                }
+            }
+        ],
+        "name": "Chess",
+        "version": "1.1.2",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/Chess.py"
     },
     {
         "author": "@nullmod",
@@ -35184,6 +34917,38 @@
     },
     {
         "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/sf-black-filled/64/quote.png&title=Quotes&description=Quote%20a%20message%20using%20vsecoder%20API",
+        "pic": "https://img.icons8.com/sf-black-filled/64/quote.png",
+        "description": "Quotes by @vsecoder [beta]\n\nNow doesn't work stickers, gifs, video.\n(Fake stories later)\n\nThk t.me/Fl1yd, based on his SQuotes module\nThk t.me/hikariatama, recognize from VTT module",
+        "commands": [
+            {
+                "name": "q",
+                "inline": false,
+                "description": {
+                    "doc": "<reply> [quantity] [!story] [!rec] [color] - Create nice quote from message(-s)"
+                }
+            },
+            {
+                "name": "fq",
+                "inline": false,
+                "description": {
+                    "doc": "<@ or id> <text> -r <@ or id> <text> ... - Create fake quote"
+                }
+            },
+            {
+                "name": "sqset",
+                "inline": false,
+                "description": {
+                    "doc": "<bg_color/max_messages> <value> - Configure Quotes (text color automatically adjust to the background)"
+                }
+            }
+        ],
+        "name": "Quotes",
+        "version": "0.0.7",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/quotes.py"
+    },
+    {
+        "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCO9v08B8wLGwL4UMxZzlf7tNOvsRvWQjMypjq5uyvxhAa03NbOO40DY1m-Rr4aYeK7WE&usqp=CAU&title=SearX&description=Telegram%20SearX%20Engine",
         "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCO9v08B8wLGwL4UMxZzlf7tNOvsRvWQjMypjq5uyvxhAa03NbOO40DY1m-Rr4aYeK7WE&usqp=CAU",
         "description": "Module for multi search",
@@ -37226,22 +36991,6 @@
         "name": "yg_giveaways",
         "version": "1.4.9.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_giveaways.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Модуль для автоматического участия в розыгрышах @GiveShareBot",
-        "commands": [
-            {
-                "name": "giveshare",
-                "inline": false,
-                "description": {
-                    "doc": "вкл/выкл автоматическое участие в розыгрышах"
-                }
-            }
-        ],
-        "name": "yg_giveshare",
-        "version": "1.4.8.8",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_giveshare.py"
     },
     {
         "author": "@yg_modules",
