@@ -27313,6 +27313,31 @@
     },
     {
         "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/inline_spotify.jpg",
+        "pic": "https://img.icons8.com/color/480/000000/playstation-buttons.png",
+        "description": "EXTENSION for SpotifyNow mod, that allows you to send interactive player.",
+        "commands": [
+            {
+                "name": "splayer",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Отправляет интерактивный плеер Spotify (активен в течение 5 минут!)",
+                    "it_doc": "Invia un player interattivo di Spotify (attivo per 5 minuti!)",
+                    "de_doc": "Sendet einen interaktiven Spotify-Player (aktiv für 5 Minuten!)",
+                    "tr_doc": "Etkin Spotify oynatıcı gönderir (5 dakika boyunca aktif!)",
+                    "uz_doc": "Faol Spotify oynatuvchisini yuboradi (5 daqiqada aktiv!)",
+                    "es_doc": "Envía un reproductor interactivo de Spotify (activo durante 5 minutos!)",
+                    "kk_doc": "Интерактивті Spotify ойындысын жібереді (5 минутта актив!)",
+                    "doc": "Send interactive Spotify player (active only for 5 minutes!)"
+                }
+            }
+        ],
+        "name": "InlineSpotify",
+        "version": "2.1.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inline_spotify.py"
+    },
+    {
+        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/insult.jpg",
         "pic": "https://img.icons8.com/color/480/000000/angry--v1.png",
         "description": "If you need to insult but to be intelligent",
@@ -30046,6 +30071,48 @@
         ],
         "name": "Demotivator",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/demot.py"
+    },
+    {
+        "description": "Downloader module",
+        "commands": [
+            {
+                "name": "dlr",
+                "inline": false,
+                "description": {
+                    "doc": ".dlr <path/file_name> - download file to server"
+                }
+            },
+            {
+                "name": "ulf",
+                "inline": false,
+                "description": {
+                    "doc": ".ulf <file_name/path> send file from server\n<d> - Delete file after sending"
+                }
+            },
+            {
+                "name": "dltiktok",
+                "inline": false,
+                "description": {
+                    "doc": "TikTok video downloader"
+                }
+            },
+            {
+                "name": "dlfile",
+                "inline": false,
+                "description": {
+                    "doc": "File downloader (small files)"
+                }
+            },
+            {
+                "name": "dlbigfile",
+                "inline": false,
+                "description": {
+                    "doc": "File downloader (big files)"
+                }
+            }
+        ],
+        "name": "Downloader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/downloader.py"
     },
     {
         "description": "Imitates your actions",
@@ -36546,6 +36613,35 @@
     },
     {
         "author": "@xdesai",
+        "description": "Module for sending private messages",
+        "commands": [
+            {
+                "name": "send",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .send <message>"
+                }
+            },
+            {
+                "name": "setpm",
+                "inline": false,
+                "description": {
+                    "doc": "Set a chat to send a message. Usage: .setpm <chat_id>"
+                }
+            },
+            {
+                "name": "stopchat",
+                "inline": false,
+                "description": {
+                    "doc": "Send a private message to a user. Usage: .stopchat <user_id>"
+                }
+            }
+        ],
+        "name": "SendPm",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/send.py"
+    },
+    {
+        "author": "@xdesai",
         "description": "Показывает статистику твоего аккаунта",
         "commands": [
             {
@@ -37291,6 +37387,29 @@
     },
     {
         "author": "@yg_modules",
+        "description": "Модуль для распознавания текста на изображении и перевода",
+        "commands": [
+            {
+                "name": "ocr",
+                "inline": false,
+                "description": {
+                    "doc": "распознать текст на изображении"
+                }
+            },
+            {
+                "name": "trocr",
+                "inline": false,
+                "description": {
+                    "doc": "распознать и перевести текст на изображении"
+                }
+            }
+        ],
+        "name": "yg_ocr",
+        "version": "1.4.8.8",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_ocr.py"
+    },
+    {
+        "author": "@yg_modules",
         "description": "Получить информацию о владельце стикер/эмодзи пака",
         "commands": [
             {
@@ -37304,6 +37423,29 @@
         "name": "yg_owner",
         "version": "1.0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_owner.py"
+    },
+    {
+        "author": "@yg_modules",
+        "description": "Модуль для автоматического участия в розыгрышах премиум-подписок",
+        "commands": [
+            {
+                "name": "prem",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл автоматическое участие в розыгрышах на премиум-подписки"
+                }
+            },
+            {
+                "name": "folder",
+                "inline": false,
+                "description": {
+                    "doc": "вкл/выкл добавление каналов на которые подписался модуль в папку"
+                }
+            }
+        ],
+        "name": "yg_prem",
+        "version": "1.4.8.8",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_prem.py"
     },
     {
         "author": "@yg_modules",
