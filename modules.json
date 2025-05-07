@@ -5028,21 +5028,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/unknownafk.py"
     },
     {
-        "author": "@shrimp_mod",
-        "description": "Модуль для конвертации видео в голосовое сообщение",
-        "commands": [
-            {
-                "name": "vtv",
-                "inline": false,
-                "description": {
-                    "doc": "Конвертация видео в голосовое сообщение"
-                }
-            }
-        ],
-        "name": "VideoToVoice",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/videovgs.py"
-    },
-    {
         "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/AntiMat.jpg",
         "description": "Будьте культурным человеком, не материтесь",
@@ -19433,41 +19418,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/ChatStats.py"
     },
     {
-        "description": "Госу, пикапы, подкаты.",
-        "commands": [
-            {
-                "name": "gosu",
-                "inline": false,
-                "description": {
-                    "doc": "Выебать чью-то мамку"
-                }
-            },
-            {
-                "name": "pikap",
-                "inline": false,
-                "description": {
-                    "doc": "Пикап"
-                }
-            },
-            {
-                "name": "podkat",
-                "inline": false,
-                "description": {
-                    "doc": "Подкат"
-                }
-            },
-            {
-                "name": "ayf",
-                "inline": false,
-                "description": {
-                    "doc": "АУФ!!!"
-                }
-            }
-        ],
-        "name": "Фразы",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Frazes.py"
-    },
-    {
         "description": "Создать чат или канал.",
         "commands": [
             {
@@ -21401,29 +21351,6 @@
         ],
         "name": "QuotePicker",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/YM_Modules/цитаты.py"
-    },
-    {
-        "author": "@nullmod",
-        "description": "Шахматы для игры вдвоём.",
-        "commands": [
-            {
-                "name": "chess",
-                "inline": false,
-                "description": {
-                    "doc": "[reply/username/id] предложить человеку сыграть партию в чате"
-                }
-            },
-            {
-                "name": "purgeGame",
-                "inline": false,
-                "description": {
-                    "doc": "Грубо завершить партию, очистив ВСЕ связанные с ней данные"
-                }
-            }
-        ],
-        "name": "Chess",
-        "version": "1.1.2",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/Chess.py"
     },
     {
         "author": "@nullmod",
@@ -35254,38 +35181,6 @@
         "name": "Profilemod",
         "version": "0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/profile.py"
-    },
-    {
-        "author": "@vsecoder_m",
-        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/sf-black-filled/64/quote.png&title=Quotes&description=Quote%20a%20message%20using%20vsecoder%20API",
-        "pic": "https://img.icons8.com/sf-black-filled/64/quote.png",
-        "description": "Quotes by @vsecoder [beta]\n\nNow doesn't work stickers, gifs, video.\n(Fake stories later)\n\nThk t.me/Fl1yd, based on his SQuotes module\nThk t.me/hikariatama, recognize from VTT module",
-        "commands": [
-            {
-                "name": "q",
-                "inline": false,
-                "description": {
-                    "doc": "<reply> [quantity] [!story] [!rec] [color] - Create nice quote from message(-s)"
-                }
-            },
-            {
-                "name": "fq",
-                "inline": false,
-                "description": {
-                    "doc": "<@ or id> <text> -r <@ or id> <text> ... - Create fake quote"
-                }
-            },
-            {
-                "name": "sqset",
-                "inline": false,
-                "description": {
-                    "doc": "<bg_color/max_messages> <value> - Configure Quotes (text color automatically adjust to the background)"
-                }
-            }
-        ],
-        "name": "Quotes",
-        "version": "0.0.7",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/quotes.py"
     },
     {
         "author": "@vsecoder_m",
