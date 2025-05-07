@@ -36319,21 +36319,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/MentionNotifier.py"
     },
     {
-        "author": "@xdesai",
-        "commands": [
-            {
-                "name": "whisper",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Секретное сообщение для пользователя",
-                    "doc": "Secret message for a user"
-                }
-            }
-        ],
-        "name": "SecretMessage",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/SecretM.py"
-    },
-    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/todo.jpg",
         "pic": "https://img.icons8.com/stickers/500/000000/todo-list.png",
@@ -37347,43 +37332,6 @@
         "name": "yg_giveshare",
         "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_giveshare.py"
-    },
-    {
-        "author": "@yg_modules",
-        "description": "Модуль заметок (для каждого чата отдельный список)",
-        "commands": [
-            {
-                "name": "note",
-                "inline": false,
-                "description": {
-                    "doc": "<текст> добавить новую заметку"
-                }
-            },
-            {
-                "name": "notes",
-                "inline": false,
-                "description": {
-                    "doc": "показать список заметок"
-                }
-            },
-            {
-                "name": "delnote",
-                "inline": false,
-                "description": {
-                    "doc": "<# заметки> удалить заметку"
-                }
-            },
-            {
-                "name": "clearnotes",
-                "inline": false,
-                "description": {
-                    "doc": "очистить все заметки"
-                }
-            }
-        ],
-        "name": "yg_notes",
-        "version": "1.4.8.8",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_notes.py"
     },
     {
         "author": "@yg_modules",
