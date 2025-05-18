@@ -35595,6 +35595,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_spam.py"
     },
     {
+        "description": "Get current prices for stars in different currencies!",
+        "commands": [
+            {
+                "name": "stars",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<amount> - получить курс звезд",
+                    "ua_doc": "<amount> - отримати курс зірок",
+                    "doc": "<amount> - get the rate of stars"
+                }
+            }
+        ],
+        "name": "yg_stars",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_stars.py"
+    },
+    {
         "description": "Модуль для работы с .tgs (Telegram Animated Sticker)",
         "commands": [
             {
