@@ -23800,6 +23800,21 @@
     },
     {
         "author": "@codermasochist",
+        "description": "узнать свой точнейший возраст",
+        "commands": [
+            {
+                "name": "exactage",
+                "inline": false,
+                "description": {
+                    "doc": "— дд.мм.гг"
+                }
+            }
+        ],
+        "name": "Decimal Age?",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/DecimalAge.py"
+    },
+    {
+        "author": "@codermasochist",
         "description": "генератор рандомных паролей",
         "commands": [
             {
