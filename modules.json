@@ -25923,86 +25923,6 @@
     },
     {
         "author": "@PyModule",
-        "description": "Получает username пользователя по его ID",
-        "commands": [
-            {
-                "name": "getuser",
-                "inline": false,
-                "description": {
-                    "doc": "[ID] - Найти username по ID."
-                }
-            }
-        ],
-        "name": "GetUser",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/Getusername.py"
-    },
-    {
-        "author": "@PyModule",
-        "description": "РП команды как в боте Ирис.",
-        "commands": [
-            {
-                "name": "addrp",
-                "inline": false,
-                "description": {
-                    "doc": "[команда (1-3 слова)] / [действие] / (эмодзи) - Создать РП команду."
-                }
-            },
-            {
-                "name": "delrp",
-                "inline": false,
-                "description": {
-                    "doc": "[команда / all] - Удалить РП команду."
-                }
-            },
-            {
-                "name": "rptoggle",
-                "inline": false,
-                "description": {
-                    "doc": "- Включить/Выключить РП команды."
-                }
-            },
-            {
-                "name": "rplist",
-                "inline": false,
-                "description": {
-                    "doc": "- Список все ваших команд."
-                }
-            },
-            {
-                "name": "rpback",
-                "inline": false,
-                "description": {
-                    "doc": "(all) - Сохранить или загрузить список РП команд. All используется для замены всех команд."
-                }
-            },
-            {
-                "name": "rpa",
-                "inline": false,
-                "description": {
-                    "doc": "(ID/Reply) - Разрешить или запретить доступ к РП командам. Для подробностей напишите .rpa"
-                }
-            }
-        ],
-        "name": "IrisRP",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/IrisRP.py"
-    },
-    {
-        "author": "@PyModule",
-        "description": "Модуль для поиска текста песни через Genius API",
-        "commands": [
-            {
-                "name": "lyrics",
-                "inline": false,
-                "description": {
-                    "doc": "[запрос] - Найти текст песни по запросу"
-                }
-            }
-        ],
-        "name": "Lyrics",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/Lyrics.py"
-    },
-    {
-        "author": "@PyModule",
         "description": "Модуль для добавления переходника в сообщения каналов",
         "commands": [
             {
@@ -26081,6 +26001,86 @@
         ],
         "name": "DomainScanner",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/dscanner.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Получает username пользователя по его ID",
+        "commands": [
+            {
+                "name": "getuser",
+                "inline": false,
+                "description": {
+                    "doc": "[ID] - Найти username по ID."
+                }
+            }
+        ],
+        "name": "GetUser",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/getusername.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "РП команды как в боте Ирис.",
+        "commands": [
+            {
+                "name": "addrp",
+                "inline": false,
+                "description": {
+                    "doc": "[команда (1-3 слова)] / [действие] / (эмодзи) - Создать РП команду."
+                }
+            },
+            {
+                "name": "delrp",
+                "inline": false,
+                "description": {
+                    "doc": "[команда / all] - Удалить РП команду."
+                }
+            },
+            {
+                "name": "rptoggle",
+                "inline": false,
+                "description": {
+                    "doc": "- Включить/Выключить РП команды."
+                }
+            },
+            {
+                "name": "rplist",
+                "inline": false,
+                "description": {
+                    "doc": "- Список все ваших команд."
+                }
+            },
+            {
+                "name": "rpback",
+                "inline": false,
+                "description": {
+                    "doc": "(all) - Сохранить или загрузить список РП команд. All используется для замены всех команд."
+                }
+            },
+            {
+                "name": "rpa",
+                "inline": false,
+                "description": {
+                    "doc": "(ID/Reply) - Разрешить или запретить доступ к РП командам. Для подробностей напишите .rpa"
+                }
+            }
+        ],
+        "name": "IrisRP",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/irisrp.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Модуль для поиска текста песни через Genius API",
+        "commands": [
+            {
+                "name": "lyrics",
+                "inline": false,
+                "description": {
+                    "doc": "[запрос] - Найти текст песни по запросу"
+                }
+            }
+        ],
+        "name": "Lyrics",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/lyrics.py"
     },
     {
         "author": "@pymodule",
