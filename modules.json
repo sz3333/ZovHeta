@@ -25922,6 +25922,234 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/huificinator.py"
     },
     {
+        "author": "@PyModule",
+        "description": "Получает username пользователя по его ID",
+        "commands": [
+            {
+                "name": "getuser",
+                "inline": false,
+                "description": {
+                    "doc": "[ID] - Найти username по ID."
+                }
+            }
+        ],
+        "name": "GetUser",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/Getusername.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "РП команды как в боте Ирис.",
+        "commands": [
+            {
+                "name": "addrp",
+                "inline": false,
+                "description": {
+                    "doc": "[команда (1-3 слова)] / [действие] / (эмодзи) - Создать РП команду."
+                }
+            },
+            {
+                "name": "delrp",
+                "inline": false,
+                "description": {
+                    "doc": "[команда / all] - Удалить РП команду."
+                }
+            },
+            {
+                "name": "rptoggle",
+                "inline": false,
+                "description": {
+                    "doc": "- Включить/Выключить РП команды."
+                }
+            },
+            {
+                "name": "rplist",
+                "inline": false,
+                "description": {
+                    "doc": "- Список все ваших команд."
+                }
+            },
+            {
+                "name": "rpback",
+                "inline": false,
+                "description": {
+                    "doc": "(all) - Сохранить или загрузить список РП команд. All используется для замены всех команд."
+                }
+            },
+            {
+                "name": "rpa",
+                "inline": false,
+                "description": {
+                    "doc": "(ID/Reply) - Разрешить или запретить доступ к РП командам. Для подробностей напишите .rpa"
+                }
+            }
+        ],
+        "name": "IrisRP",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/IrisRP.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Модуль для поиска текста песни через Genius API",
+        "commands": [
+            {
+                "name": "lyrics",
+                "inline": false,
+                "description": {
+                    "doc": "[запрос] - Найти текст песни по запросу"
+                }
+            }
+        ],
+        "name": "Lyrics",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/Lyrics.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Модуль для добавления переходника в сообщения каналов",
+        "commands": [
+            {
+                "name": "addadapter",
+                "inline": false,
+                "description": {
+                    "doc": "[CHANNEL ID] [Текст] - Добавить канал и переходник."
+                }
+            },
+            {
+                "name": "deladapter",
+                "inline": false,
+                "description": {
+                    "doc": "[CHANNEL ID] - Удалить переходник для канала."
+                }
+            },
+            {
+                "name": "listadapters",
+                "inline": false,
+                "description": {
+                    "doc": "- Показать список всех переходников."
+                }
+            },
+            {
+                "name": "clearadapters",
+                "inline": false,
+                "description": {
+                    "doc": "- Удалить все переходники."
+                }
+            }
+        ],
+        "name": "ChannelAdapter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/channeladapter.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Модуль для отправки вопросов к DeepSeek с использованием OpenRouter API.",
+        "commands": [
+            {
+                "name": "dsc",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить вопрос к DeepSeek. Использование: .dsc <вопрос>"
+                }
+            },
+            {
+                "name": "txtdsc",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить содержимое .txt файла в DeepSeek. Использование: !txtdsc (ответ на .txt файл)"
+                }
+            },
+            {
+                "name": "cleardsc",
+                "inline": false,
+                "description": {
+                    "doc": "Очистить историю диалога с DeepSeek."
+                }
+            }
+        ],
+        "name": "DeepSeek",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/deepseek.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "Scan a domain / Сканирование домена",
+        "commands": [
+            {
+                "name": "domscan",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сканировать домен. Использование: .domscan <домен>",
+                    "doc": "Scan domain / Сканировать домен. Usage: .domscan <domain>"
+                }
+            }
+        ],
+        "name": "DomainScanner",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/dscanner.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "Randomly selects one of the comma-separated values.",
+        "commands": [
+            {
+                "name": "randomize",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выбирает случайное значение из перечисленных через запятую"
+                }
+            }
+        ],
+        "name": "Randomizer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/randomizer.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "Модуль для проверки скорости интернета",
+        "commands": [
+            {
+                "name": "speed",
+                "inline": false,
+                "description": {
+                    "doc": "Запускает тест скорости интернета"
+                }
+            }
+        ],
+        "name": "SpeedTest",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/speedtest.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Auto switching from Heroku to Hikka",
+        "commands": [
+            {
+                "name": "switchtohikka",
+                "inline": false,
+                "description": {
+                    "doc": "- Automatically switch to Hikka"
+                }
+            }
+        ],
+        "name": "SwitchToHikka",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/switchtohikka.py"
+    },
+    {
+        "author": "@PyModule",
+        "description": "Парсер ID, имени, фамилии и юзернейма пользователей с выбором формата файла",
+        "commands": [
+            {
+                "name": "formatpars",
+                "inline": false,
+                "description": {
+                    "doc": "Устанавливает формат файла: json, txt или html"
+                }
+            },
+            {
+                "name": "userpars",
+                "inline": false,
+                "description": {
+                    "doc": "Собирает информацию о пользователях из чата и сохраняет в файл"
+                }
+            }
+        ],
+        "name": "UserParser",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/userparser.py"
+    },
+    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/account_switcher.jpg",
         "pic": "https://static.dan.tatar/account_switcher_icon.png",
