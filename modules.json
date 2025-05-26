@@ -23075,8 +23075,8 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/chebupelka10/HikkaModules/lavhostauto.py"
     },
     {
-        "author": "@MiSidePlayer",
-        "description": "Display beautiful spotify now bar. Idea: t.me/fuccsoc. Implementation: t.me/hikariatama. Fixed by @MiSidePlayer.",
+        "author": "@chepuxcat",
+        "description": "Display beautiful spotify now bar. Idea: t.me/fuccsoc. Implementation: t.me/hikariatama. Fixed by @chepuxcat.",
         "commands": [
             {
                 "name": "srepeat",
@@ -23502,6 +23502,27 @@
         ],
         "name": "ID",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/id.py"
+    },
+    {
+        "description": "Module for music from different services",
+        "commands": [
+            {
+                "name": "nowplay",
+                "inline": false,
+                "description": {
+                    "doc": "| send playing track"
+                }
+            },
+            {
+                "name": "tutorl",
+                "inline": false,
+                "description": {
+                    "doc": "| tutorial"
+                }
+            }
+        ],
+        "name": "LastFm",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/lastfm.py"
     },
     {
         "author": "@codrago_m",
