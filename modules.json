@@ -12211,6 +12211,30 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/UD.py"
     },
     {
+        "author": "@HikkaZPM",
+        "description": "Имитация neofetch --stdout",
+        "commands": [
+            {
+                "name": "fneo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать фейковый neofetch с кастомным хостом",
+                    "doc": "Показывает фейковый вывод neofetch с кастомным хостом"
+                }
+            },
+            {
+                "name": "resetneofetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сбросить все настройки до стандартных",
+                    "doc": "Сбрасывает все настройки neofetch до стандартных"
+                }
+            }
+        ],
+        "name": "Fakeneofetch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/fakeneofetch.py"
+    },
+    {
         "author": "@MrAmigoch for @HikkaZPM",
         "description": "Femboy Modul",
         "commands": [
