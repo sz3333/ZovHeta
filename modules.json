@@ -11902,20 +11902,13 @@
     },
     {
         "author": "@HikkTutor",
-        "description": "Модуль для очистки удаленных аккаунтов в чате",
+        "description": "Module for Cleaning Up Deleted Accounts in Chat",
         "commands": [
             {
                 "name": "delete",
                 "inline": false,
                 "description": {
-                    "doc": "Удаляет удаленные аккаунты из чата"
-                }
-            },
-            {
-                "name": "delmsg",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет сообщения от удаленных аккаунтов из чата"
+                    "doc": "Удаляет удалённые аккаунты из чата"
                 }
             }
         ],
