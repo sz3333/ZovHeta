@@ -32906,6 +32906,49 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/SteamProfile.py"
     },
     {
+        "author": "@mead0wssMods",
+        "description": "Модуль для работы с Twitch",
+        "commands": [
+            {
+                "name": "followed",
+                "inline": false,
+                "description": {
+                    "doc": "Показать всех подписанных стримеров"
+                }
+            },
+            {
+                "name": "streams",
+                "inline": false,
+                "description": {
+                    "doc": "Показать онлайн стримы"
+                }
+            },
+            {
+                "name": "streamer",
+                "inline": false,
+                "description": {
+                    "doc": "Информация о стримере"
+                }
+            },
+            {
+                "name": "topgames",
+                "inline": false,
+                "description": {
+                    "doc": "Топ игр на Twitch"
+                }
+            },
+            {
+                "name": "game",
+                "inline": false,
+                "description": {
+                    "doc": "Поиск игры и стримы по ней"
+                }
+            }
+        ],
+        "name": "Twitch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/Twitch.py"
+    },
+    {
         "author": "@hmodule",
         "description": "Модуль для взаимодействия с ИИ моделями через g4f с памятью",
         "commands": [
