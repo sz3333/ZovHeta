@@ -23904,6 +23904,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/TonDonate.py"
     },
     {
+        "author": "@AssaMods",
+        "description": "creates a file from a reply or text",
+        "commands": [
+            {
+                "name": "cfile",
+                "inline": false,
+                "description": {
+                    "doc": "— <reply/text> create file."
+                }
+            }
+        ],
+        "name": "C File",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/cfile.py"
+    },
+    {
         "author": "@codermasochist",
         "description": "качает видео через ботов.\nскачивает: Pinterest, Instagram, TikTok & YouTube.",
         "commands": [
