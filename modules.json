@@ -12205,14 +12205,14 @@
     },
     {
         "author": "@HikkaZPM",
-        "description": "Имитация neofetch --stdout, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy (да падажите не гатова ещо)",
+        "description": "Имитация neofetch, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy",
         "commands": [
             {
                 "name": "fneo",
                 "inline": false,
                 "description": {
                     "ru_doc": "Показать фейковый neofetch с кастомным хостом",
-                    "doc": "Показывает фейковый вывод neofetch с кастомным хостом"
+                    "doc": "Показывает фейковый вывод neofetch"
                 }
             },
             {
