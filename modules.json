@@ -12205,7 +12205,7 @@
     },
     {
         "author": "@HikkaZPM",
-        "description": "Имитация neofetch --stdout",
+        "description": "Имитация neofetch --stdout, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy (да падажите не гатова ещо)",
         "commands": [
             {
                 "name": "fneo",
@@ -12224,7 +12224,7 @@
                 }
             }
         ],
-        "name": "Fakeneofetch",
+        "name": "FFetch",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/fakeneofetch.py"
     },
     {
