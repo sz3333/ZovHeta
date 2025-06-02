@@ -32017,6 +32017,129 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/yoomoney.py"
     },
     {
+        "banner": "https://envs.sh/oJa.jpg",
+        "description": "Модуль казино с виртуальными монетами",
+        "commands": [
+            {
+                "name": "roulette",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Играть в рулетку",
+                    "doc": "Play roulette"
+                }
+            },
+            {
+                "name": "profile",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Посмотреть профиль",
+                    "doc": "View casino profile"
+                }
+            },
+            {
+                "name": "dice",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Игра в четное/нечетное",
+                    "doc": "Play even/odd dice game"
+                }
+            },
+            {
+                "name": "russian_roulette",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Русская рулетка",
+                    "doc": "Play Russian roulette"
+                }
+            }
+        ],
+        "name": "Casino",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/Casino.py"
+    },
+    {
+        "banner": "https://envs.sh/oJH.jpg",
+        "description": "GachiMuchoHentay💙",
+        "commands": [
+            {
+                "name": "randpic",
+                "inline": false,
+                "description": {
+                    "doc": "Send a random anime photo"
+                }
+            }
+        ],
+        "name": "GachiMuchi",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/GachiMuchi.py"
+    },
+    {
+        "author": "@Toxano_Modules",
+        "banner": "https://envs.sh/Nma.jpg",
+        "description": "Rule34 medie",
+        "commands": [
+            {
+                "name": "r34",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<теги> - Поиск ",
+                    "en_doc": "<tags> - Search ",
+                    "doc": "<теги> - Поиск изображений по тегам"
+                }
+            },
+            {
+                "name": "r34random",
+                "inline": false,
+                "description": {
+                    "ru_doc": "рандом rule34",
+                    "en_doc": "Random ",
+                    "doc": "Случайное изображение"
+                }
+            }
+        ],
+        "name": "Rule34",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/Rule34.py"
+    },
+    {
+        "author": "@Toxano_Modules",
+        "banner": "https://envs.sh/oJM.jpg",
+        "description": "Показывает текущее время в никнейме и био с разными стилями шрифтов",
+        "commands": [
+            {
+                "name": "timenick",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить отображение времени в никнейме",
+                    "doc": "Включить/выключить отображение времени в никнейме"
+                }
+            },
+            {
+                "name": "timebio",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить отображение времени в био",
+                    "doc": "Включить/выключить отображение времени в био"
+                }
+            }
+        ],
+        "name": "TimeInNick",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeInName.py"
+    },
+    {
+        "author": "@Toxano_Modules, @mqvon",
+        "banner": "https://envs.sh/oJf.jpg",
+        "description": "Module for uploading images to imgbb.com",
+        "commands": [
+            {
+                "name": "imgbb",
+                "inline": false,
+                "description": {
+                    "doc": "Upload image to imgbb.com"
+                }
+            }
+        ],
+        "name": "ImgBBUploader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/ibb.py"
+    },
+    {
         "author": "@hikka_mods, @nervousmods",
         "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
         "commands": [
