@@ -32150,7 +32150,7 @@
                 }
             }
         ],
-        "name": "TimeNick",
+        "name": "TimeInNick",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeNick.py"
     },
     {
