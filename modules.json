@@ -32020,6 +32020,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/yoomoney.py"
     },
     {
+        "author": "@Toxano_Modules",
         "banner": "https://envs.sh/oJa.jpg",
         "description": "Модуль казино с виртуальными монетами",
         "commands": [
@@ -32060,6 +32061,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/Casino.py"
     },
     {
+        "author": "@Toxano_Modules",
         "banner": "https://envs.sh/oJH.jpg",
         "description": "GachiMuchoHentay💙",
         "commands": [
