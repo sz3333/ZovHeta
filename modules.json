@@ -32129,6 +32129,31 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeInName.py"
     },
     {
+        "author": "@Toxano_Modules",
+        "banner": "https://envs.sh/oJM.jpg",
+        "description": "Показывает текущее время в никнейме и био с разными стилями шрифтов",
+        "commands": [
+            {
+                "name": "timenick",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить отображение времени в никнейме",
+                    "doc": "Включить/выключить отображение времени в никнейме"
+                }
+            },
+            {
+                "name": "timebio",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить отображение времени в био",
+                    "doc": "Включить/выключить отображение времени в био"
+                }
+            }
+        ],
+        "name": "TimeNick",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeNick.py"
+    },
+    {
         "author": "@Toxano_Modules, @mqvon",
         "banner": "https://envs.sh/oJf.jpg",
         "description": "Module for uploading images to imgbb.com",
