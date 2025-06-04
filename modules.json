@@ -23944,6 +23944,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/id.py"
     },
     {
+        "author": "@codermasochist",
+        "description": "парсит инфу из тонвиера.",
+        "commands": [
+            {
+                "name": "tonvw",
+                "inline": false,
+                "description": {
+                    "doc": "— <address ton>"
+                }
+            },
+            {
+                "name": "tvwme",
+                "inline": false,
+                "description": {
+                    "doc": "— чек свой адрес (указать в кфг)"
+                }
+            }
+        ],
+        "name": "tonviewer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/codermasochist/AsModules/tonviewer.py"
+    },
+    {
         "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/344/block.png",
         "description": "Tired of people asking you questions? Let this module answer them for you!\nP.S. Author is not responsible for all your problems after using it.",
