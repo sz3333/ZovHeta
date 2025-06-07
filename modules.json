@@ -23687,6 +23687,23 @@
     {
         "author": "@codrago_m",
         "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJ7.webp",
+        "description": "Развлекательный модуль",
+        "commands": [
+            {
+                "name": "rnum",
+                "inline": false,
+                "description": {
+                    "doc": "Угадывайте рандомные числа!"
+                }
+            }
+        ],
+        "name": "RandomNumbers",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/randnum.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
         "pic": "https://envs.sh/HJy.webp",
         "description": "Random - it's life!",
         "commands": [
