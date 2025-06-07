@@ -16454,6 +16454,31 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/InlineButtons.py"
     },
     {
+        "author": "@BruhHikkaModules",
+        "banner": "https://raw.githubusercontent.com/MuRuLOSE/HikkaModulesRepo/main/assets/modbanners/inumber.png",
+        "description": "Manage Telegram invite links",
+        "commands": [
+            {
+                "name": "createinvite",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Создать ссылку-приглашение для канала",
+                    "doc": "Create an invite link for a channel"
+                }
+            },
+            {
+                "name": "editinvite",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[ссылка] [канал] - Редактировать ссылку-приглашение через инлайн-кнопки",
+                    "doc": "[link] [channel] - Edit an invite link with inline buttons"
+                }
+            }
+        ],
+        "name": "InviteManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/InviteManager.py"
+    },
+    {
         "description": "K",
         "commands": [
             {
