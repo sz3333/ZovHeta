@@ -2118,6 +2118,333 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/WindowsKeys.py"
     },
     {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/hikarichat.jpg",
+        "pic": "https://static.dan.tatar/hikarichat_icon.png",
+        "description": "Advanced chat admin toolkit",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "[user(-s)] - Clean message history starting from replied one"
+                }
+            },
+            {
+                "name": "del",
+                "inline": false,
+                "description": {
+                    "doc": "Delete the replied message"
+                }
+            },
+            {
+                "name": "version",
+                "inline": false,
+                "description": {
+                    "doc": "Get module info"
+                }
+            },
+            {
+                "name": "deleted",
+                "inline": false,
+                "description": {
+                    "doc": "Remove deleted accounts from chat"
+                }
+            },
+            {
+                "name": "fclean",
+                "inline": false,
+                "description": {
+                    "doc": "Remove deleted accounts from federation"
+                }
+            },
+            {
+                "name": "newfed",
+                "inline": false,
+                "description": {
+                    "doc": "<shortname> <name> - Create new federation"
+                }
+            },
+            {
+                "name": "rmfed",
+                "inline": false,
+                "description": {
+                    "doc": "<shortname> - Remove federation"
+                }
+            },
+            {
+                "name": "fpromote",
+                "inline": false,
+                "description": {
+                    "doc": "<user> - Promote user in federation"
+                }
+            },
+            {
+                "name": "fdemote",
+                "inline": false,
+                "description": {
+                    "doc": "<shortname> <reply|user> - Demote user in federation"
+                }
+            },
+            {
+                "name": "fadd",
+                "inline": false,
+                "description": {
+                    "doc": "<fed name> - Add chat to federation"
+                }
+            },
+            {
+                "name": "frm",
+                "inline": false,
+                "description": {
+                    "doc": "Remove chat from federation"
+                }
+            },
+            {
+                "name": "gban",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай | юзер> [причина] [-s] - Заблокировать пользователя во всех чатах, где ты админ",
+                    "doc": "<reply|user> [reason] [-s] - Ban user in all chats where you are admin"
+                }
+            },
+            {
+                "name": "gunban",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<реплай | юзер> [причина] [-s] - Разблокировать пользователя во всех чатах, где ты админ",
+                    "doc": "<reply|user> [reason] [-s] - Unban user in all chats where you are admin"
+                }
+            },
+            {
+                "name": "fban",
+                "inline": false,
+                "description": {
+                    "doc": "<reply | user> [reason] - Ban user in federation"
+                }
+            },
+            {
+                "name": "punishsuff",
+                "inline": false,
+                "description": {
+                    "doc": "Set new punishment suffix"
+                }
+            },
+            {
+                "name": "sethclog",
+                "inline": false,
+                "description": {
+                    "doc": "Set logchat"
+                }
+            },
+            {
+                "name": "funban",
+                "inline": false,
+                "description": {
+                    "doc": "<user> [reason] - Unban user in federation"
+                }
+            },
+            {
+                "name": "fmute",
+                "inline": false,
+                "description": {
+                    "doc": "<reply | user> [reason] - Mute user in federation"
+                }
+            },
+            {
+                "name": "funmute",
+                "inline": false,
+                "description": {
+                    "doc": "<user> [reason] - Unban user in federation"
+                }
+            },
+            {
+                "name": "kick",
+                "inline": false,
+                "description": {
+                    "doc": "<user> [reason] - Kick user"
+                }
+            },
+            {
+                "name": "ban",
+                "inline": false,
+                "description": {
+                    "doc": "<user> [reason] - Ban user"
+                }
+            },
+            {
+                "name": "mute",
+                "inline": false,
+                "description": {
+                    "doc": "<user> [time] [reason] - Mute user"
+                }
+            },
+            {
+                "name": "unmute",
+                "inline": false,
+                "description": {
+                    "doc": "<reply | user> - Unmute user"
+                }
+            },
+            {
+                "name": "unban",
+                "inline": false,
+                "description": {
+                    "doc": "<user> - Unban user"
+                }
+            },
+            {
+                "name": "protects",
+                "inline": false,
+                "description": {
+                    "doc": "typing.List available filters"
+                }
+            },
+            {
+                "name": "feds",
+                "inline": false,
+                "description": {
+                    "doc": "typing.List federations"
+                }
+            },
+            {
+                "name": "fed",
+                "inline": false,
+                "description": {
+                    "doc": "<shortname> - Info about federation"
+                }
+            },
+            {
+                "name": "pchat",
+                "inline": false,
+                "description": {
+                    "doc": "typing.List protection for current chat"
+                }
+            },
+            {
+                "name": "warn",
+                "inline": false,
+                "description": {
+                    "doc": "<user> - Warn user"
+                }
+            },
+            {
+                "name": "warns",
+                "inline": false,
+                "description": {
+                    "doc": "[user] - Show warns in chat \\ of user"
+                }
+            },
+            {
+                "name": "delwarn",
+                "inline": false,
+                "description": {
+                    "doc": "<user> - Forgave last warn"
+                }
+            },
+            {
+                "name": "clrwarns",
+                "inline": false,
+                "description": {
+                    "doc": "<reply | user_id | username> - Remove all warns from user"
+                }
+            },
+            {
+                "name": "clrallwarns",
+                "inline": false,
+                "description": {
+                    "doc": "Remove all warns from current federation"
+                }
+            },
+            {
+                "name": "welcome",
+                "inline": false,
+                "description": {
+                    "doc": "<text> - Change welcome text"
+                }
+            },
+            {
+                "name": "fdef",
+                "inline": false,
+                "description": {
+                    "doc": "<user> - Toggle global user invulnerability"
+                }
+            },
+            {
+                "name": "fsave",
+                "inline": false,
+                "description": {
+                    "doc": "<note name> <reply> - Save federative note"
+                }
+            },
+            {
+                "name": "fstop",
+                "inline": false,
+                "description": {
+                    "doc": "<note name> - Remove federative note"
+                }
+            },
+            {
+                "name": "fnotes",
+                "inline": false,
+                "description": {
+                    "doc": "Show federative notes"
+                }
+            },
+            {
+                "name": "fdeflist",
+                "inline": false,
+                "description": {
+                    "doc": "Show global invulnerable users"
+                }
+            },
+            {
+                "name": "dmute",
+                "inline": false,
+                "description": {
+                    "doc": "Delete and mute"
+                }
+            },
+            {
+                "name": "dban",
+                "inline": false,
+                "description": {
+                    "doc": "Delete and ban"
+                }
+            },
+            {
+                "name": "dwarn",
+                "inline": false,
+                "description": {
+                    "doc": "Delete and warn"
+                }
+            },
+            {
+                "name": "frename",
+                "inline": false,
+                "description": {
+                    "doc": "Rename federation"
+                }
+            },
+            {
+                "name": "clnraid",
+                "inline": false,
+                "description": {
+                    "doc": "<number of users> - Clean raid"
+                }
+            },
+            {
+                "name": "myrights",
+                "inline": false,
+                "description": {
+                    "doc": "typing.List your admin rights in all chats"
+                }
+            }
+        ],
+        "name": "HikariChat",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/aiogram3/hikarichat.py"
+    },
+    {
         "author": "@hikka_mods",
         "description": "Random cats and dogs",
         "commands": [
@@ -32085,7 +32412,7 @@
     },
     {
         "author": "@Toxano_Modules",
-        "banner": "https://envs.sh/oJa.jpg",
+        "banner": "https://i.ibb.co/Z1RrLnfv/image-9708.jpg",
         "description": "Модуль казино с виртуальными монетами",
         "commands": [
             {
@@ -32126,7 +32453,7 @@
     },
     {
         "author": "@Toxano_Modules",
-        "banner": "https://envs.sh/oJH.jpg",
+        "banner": "https://i.ibb.co/Swf1Qr9C/image-9710.jpg",
         "description": "GachiMuchoHentay💙",
         "commands": [
             {
@@ -32194,7 +32521,7 @@
     },
     {
         "author": "@Toxano_Modules",
-        "banner": "https://envs.sh/oJM.jpg",
+        "banner": "https://i.ibb.co/r2VKP6yv/image-9709.jpg",
         "description": "Показывает текущее время в никнейме и био с разными стилями шрифтов",
         "commands": [
             {
@@ -32219,7 +32546,7 @@
     },
     {
         "author": "@Toxano_Modules, @mqvon",
-        "banner": "https://envs.sh/oJf.jpg",
+        "banner": "https://i.ibb.co/bRFKb6ys/image-9711.jpg",
         "description": "Module for uploading images to imgbb.com",
         "commands": [
             {
