@@ -21854,6 +21854,27 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
+        "description": "Module for harem bots: Gif Harem, Waifu Harem, Horny Harem",
+        "commands": [
+            {
+                "name": "Harems",
+                "inline": false,
+                "description": {
+                    "doc": "Открыть меню управления"
+                }
+            },
+            {
+                "name": "lightsout",
+                "inline": false,
+                "description": {
+                    "doc": "[ответ на соо с полем] Автоматически решает Lights Out"
+                }
+            }
+        ],
+        "name": "HaremManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/harem_manager.py"
+    },
+    {
         "author": "@thisLyomi & @AmekaMods",
         "description": "Модуль автоответчик.",
         "commands": [
