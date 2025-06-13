@@ -19502,14 +19502,14 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/whois.py"
     },
     {
-        "author": "@RUIS_VlP",
+        "author": "@RUIS_VlP, @RoKrz",
         "description": "Помогает скачивать видео с YouTube",
         "commands": [
             {
                 "name": "dlvideo",
                 "inline": false,
                 "description": {
-                    "doc": "<link> - скачивает видео с ютуба"
+                    "doc": "<ссылка> или ответ на сообщение со ссылкой — скачивает видео с YouTube"
                 }
             }
         ],
