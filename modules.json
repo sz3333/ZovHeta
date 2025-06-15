@@ -32757,6 +32757,36 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/ibb.py"
     },
     {
+        "author": "@mqvon",
+        "banner": "https://i.ibb.co/BV2s93rS/image-10098.jpg",
+        "description": "Модуль для автоматического обновления времени в аватарке",
+        "commands": [
+            {
+                "name": "timeavatar",
+                "inline": false,
+                "description": {
+                    "doc": "Включить время в аватарке"
+                }
+            },
+            {
+                "name": "setavatarphoto",
+                "inline": false,
+                "description": {
+                    "doc": "Установить фото для времени в аватарке"
+                }
+            },
+            {
+                "name": "stopavatar",
+                "inline": false,
+                "description": {
+                    "doc": "Отключить время в аватарке"
+                }
+            }
+        ],
+        "name": "TimeAvatar",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/timeavatar.py"
+    },
+    {
         "author": "@hikka_mods, @nervousmods",
         "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
         "commands": [
@@ -33687,6 +33717,22 @@
         ],
         "name": "Twitch",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/Twitch.py"
+    },
+    {
+        "author": "@mead0wssMods",
+        "description": "Модуль для загрузки файлов на tmpfiles.org",
+        "commands": [
+            {
+                "name": "tmpfiles",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Загрузка ваших файлов на tmpfiles.org",
+                    "en_doc": "Uploading your files to tmpfiles.org"
+                }
+            }
+        ],
+        "name": "tmpfiles",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/tmpfiles.py"
     },
     {
         "author": "@hmodule",
