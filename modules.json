@@ -13595,7 +13595,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ijidishurka/modules/xixixaxa.py"
     },
     {
-        "author": "@K0vaIskii",
+        "author": "@Kovalsky_modules",
         "description": "Модуль для обновления Премиум-статуса",
         "commands": [
             {
@@ -13611,7 +13611,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KSEMModule.py"
     },
     {
-        "author": "@K0vaIskii",
+        "author": "@Kovalsky_modules",
         "description": "Скачивание видео из Tiktok",
         "commands": [
             {
@@ -13633,7 +13633,43 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KoTik.py"
     },
     {
-        "author": "@K0vaIskii",
+        "author": "@Kovalsky_modules",
+        "description": "Скачивание видео по ссылке из разных источников.\nЕсли не указывать качество, будет выбрано Возможные варианты качества:\n\nmax, 4320, 2160, 1440, 1080, 720, 480, 360, 240, 144",
+        "commands": [
+            {
+                "name": "kservices",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Поддерживаемые сервисы"
+                }
+            },
+            {
+                "name": "ka",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Скачать Аудио"
+                }
+            },
+            {
+                "name": "km",
+                "inline": false,
+                "description": {
+                    "ru_doc": "{url} {quality} - Скачать Медиа"
+                }
+            },
+            {
+                "name": "kmv",
+                "inline": false,
+                "description": {
+                    "ru_doc": "{url} {quality} - Скачать Видео без звука"
+                }
+            }
+        ],
+        "name": "Kobalt",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kobalt.py"
+    },
+    {
+        "author": "@Kovalsky_modules",
         "description": "Просто удаляет реплей",
         "commands": [
             {
@@ -15479,11 +15515,11 @@
                 "name": "dme",
                 "inline": false,
                 "description": {
-                    "ru_doc": "- Открыть реквизиты для донатов",
-                    "uz_doc": "- Donatlar uchun ma'lumotlarni ochish",
-                    "de_doc": "- Details für Spenden öffnen",
-                    "es_doc": "- Abrir detalles para donaciones",
-                    "doc": "- Open details for donations"
+                    "ru_doc": "{-h} - Открыть реквизиты для донатов",
+                    "uz_doc": "{-h} - Donatlar uchun ma'lumotlarni ochish",
+                    "de_doc": "{-h} - Details für Spenden öffnen",
+                    "es_doc": "{-h} - Abrir detalles para donaciones",
+                    "doc": "{-h} - Open details for donations"
                 }
             }
         ],
@@ -15712,6 +15748,49 @@
         ],
         "name": "Deanon",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Deanon.py"
+    },
+    {
+        "author": "@AuroraModules & @nercymods",
+        "banner": "https://te.legra.ph/file/05a519da50f993b950260.jpg",
+        "pic": "https://i.postimg.cc/Hx3Zm8rB/logo.png",
+        "description": "Multifunctional feedback bot.",
+        "commands": [
+            {
+                "name": "flink",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Получить ссылку на feedback бота",
+                    "uz_doc": "- Feedback botga havolani olish",
+                    "de_doc": "- Erhalten Sie einen Link zum Feedback-Bot",
+                    "es_doc": "- Obtener un enlace al bot de retroalimentación",
+                    "doc": "- Get a link to the feedback bot"
+                }
+            },
+            {
+                "name": "banfeedback",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[UserID] - Заблокировать пользователю feedback бота",
+                    "uz_doc": "[UserID] - Feedback botga foydalanuvchi kirishini bloklang",
+                    "de_doc": "[UserID] - Blockiere den Zugriff des Benutzers auf den Feedback-Bot",
+                    "es_doc": "[UserID] - Bloquear el acceso del usuario al bot de retroalimentación",
+                    "doc": "[UserID] - Block the feedback bot user"
+                }
+            },
+            {
+                "name": "unbanfeedback",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[UserID] - Разблокировать пользователю feedback бота",
+                    "uz_doc": "[UserID] - Feedback bot foydalanuvchisini ochib tashlash",
+                    "de_doc": "[UserID] - Feedback-Bot-Benutzer entsperren",
+                    "es_doc": "[UserID] - Desbloquear al usuario del bot de retroalimentación",
+                    "doc": "[UserID] - Unblock the feedback bot user"
+                }
+            }
+        ],
+        "name": "AuroraFeedBack",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/HerokuAuroraFeedBack.py"
     },
     {
         "author": "@AuroraModules",
