@@ -26497,6 +26497,59 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/huificinator.py"
     },
     {
+        "author": "@pymodule",
+        "description": "Automatically update your profile description",
+        "commands": [
+            {
+                "name": "autodesc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить или отключить автоописание",
+                    "en_doc": "Enable or disable auto bio updates",
+                    "doc": "Toggle auto bio"
+                }
+            },
+            {
+                "name": "adddesc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавить описание: .adddesc <текст>",
+                    "en_doc": "Add a description: .adddesc <text>",
+                    "doc": "Add description"
+                }
+            },
+            {
+                "name": "deldesc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Удалить описание по номеру: .deldesc <номер>",
+                    "en_doc": "Delete description by number: .deldesc <number>",
+                    "doc": "Delete description"
+                }
+            },
+            {
+                "name": "listdesc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать список описаний",
+                    "en_doc": "Show list of descriptions",
+                    "doc": "List descriptions"
+                }
+            },
+            {
+                "name": "setinterval",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить интервал обновления: .setinterval <сек>",
+                    "en_doc": "Set update interval: .setinterval <seconds>",
+                    "doc": "Set update interval"
+                }
+            }
+        ],
+        "name": "AutoProfile",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/autoprofile.py"
+    },
+    {
         "author": "@PyModule",
         "description": "Модуль для добавления переходника в сообщения каналов",
         "commands": [
