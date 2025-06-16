@@ -26756,6 +26756,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/switchtohikka.py"
     },
     {
+        "author": "@pymodule",
+        "description": "System information.",
+        "commands": [
+            {
+                "name": "sysinfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🔧 Узнать информацию о системе"
+                }
+            }
+        ],
+        "name": "SysInfo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/sysinfo.py"
+    },
+    {
         "author": "@PyModule",
         "description": "Парсер ID, имени, фамилии и юзернейма пользователей с выбором формата файла",
         "commands": [
