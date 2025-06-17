@@ -35741,9 +35741,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ssstafff07/HikkaMods/shifrator.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/caliases.png",
-        "pic": "https://static.unneyon.ru/mods/caliases_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/caliases.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/caliases.png",
         "description": "Module for custom aliases",
         "commands": [
             {
@@ -35775,9 +35775,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/caliases.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/deleter.png",
-        "pic": "https://static.unneyon.ru/mods/deleter_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/deleter.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/deleter.png",
         "description": "Module for delete your messages",
         "commands": [
             {
@@ -35793,9 +35793,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/deleter.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/privacy.png",
-        "pic": "https://static.unneyon.ru/mods/privacy_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/privacy.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/privacy.png",
         "description": "Module for fastly changing privacy settings",
         "commands": [
             {
@@ -35827,9 +35827,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/privacy.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/tidal.png",
-        "pic": "https://static.unneyon.ru/mods/tidal_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/tidal.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/tidal.png",
         "description": "API wrapper over TIDAL Hi-Fi music streaming service\nThanks @hikarimods for original module: t.me/hikarimods/764",
         "commands": [
             {
@@ -35861,9 +35861,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/tidal.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/warpigs.png",
-        "pic": "https://static.unneyon.ru/mods/warpigs_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/warpigs.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/warpigs.png",
         "description": "Some auto-functions for your pig in @warpigs_bot",
         "commands": [
             {
@@ -35895,9 +35895,9 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/warpigs.py"
     },
     {
-        "author": "@unneyon_hmods",
-        "banner": "https://mods.unneyon.ru/banners/yamusic.png",
-        "pic": "https://static.unneyon.ru/mods/yamusic_icon.png",
+        "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/yamusic.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/yamusic.png",
         "description": "The module for Yandex.Music streaming service",
         "commands": [
             {
@@ -35909,11 +35909,59 @@
                 }
             },
             {
+                "name": "ybio",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Включить/выключить автобио",
+                    "doc": "👉 Enable/disable autobio"
+                }
+            },
+            {
                 "name": "ynow",
                 "inline": false,
                 "description": {
                     "ru_doc": "👉 Получить трек, который играет сейчас",
                     "doc": "👉 Get now playing track"
+                }
+            },
+            {
+                "name": "ynowb",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Получить баннер трека, который играет сейчас",
+                    "doc": "👉 Get now playing track's banner"
+                }
+            },
+            {
+                "name": "ylike",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Лайкнуть играющий сейчас трек",
+                    "doc": "👉 Like now playing track's banner"
+                }
+            },
+            {
+                "name": "yunlike",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Убрать лайк с играющего сейчас трека",
+                    "doc": "👉 Unlike now playing track"
+                }
+            },
+            {
+                "name": "ydislike",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Дизлайкнуть играющий сейчас трек",
+                    "doc": "👉 Dislike now playing track"
+                }
+            },
+            {
+                "name": "ylyrics",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Получить текст играющего сейчас трека",
+                    "doc": "👉 Get lyrics of the now playing track"
                 }
             },
             {
