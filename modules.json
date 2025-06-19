@@ -33802,6 +33802,21 @@
     },
     {
         "author": "@YahooMods",
+        "description": "Модуль для скачивания стикеров в различных форматах",
+        "commands": [
+            {
+                "name": "sdown",
+                "inline": false,
+                "description": {
+                    "doc": "Скачать стикер - используйте в ответ на стикер"
+                }
+            }
+        ],
+        "name": "StickerDownloader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mlwre-off/hikka_modules/StickerDownloader.py"
+    },
+    {
+        "author": "@YahooMods",
         "description": "Модуль для исправления ошибок в тексте с помощью ИИ",
         "commands": [
             {
