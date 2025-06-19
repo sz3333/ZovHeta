@@ -26675,6 +26675,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/getusername.py"
     },
     {
+        "author": "@pymodule",
+        "description": "🔁 Automatically restarts your userbot at set intervals.\n\n⏱ Use .setrestart <interval> and .histart on/off to enable/disable.",
+        "commands": [
+            {
+                "name": "setrestart",
+                "inline": false,
+                "description": {
+                    "ru_doc": "⚙️ Установить интервал автоперезапуска. Поддерживает 1h30m, 2d3h и т.д."
+                }
+            },
+            {
+                "name": "histart",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🔁 Включить или выключить авто-рестарт: .histart on | off"
+                }
+            }
+        ],
+        "name": "Histart",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/histart.py"
+    },
+    {
         "author": "@PyModule",
         "description": "РП команды как в боте Ирис.",
         "commands": [
