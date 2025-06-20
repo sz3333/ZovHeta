@@ -26615,6 +26615,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/channeladapter.py"
     },
     {
+        "author": "@pymodule",
+        "description": "Makes your messages extra cute with adorable styles!",
+        "commands": [
+            {
+                "name": "cutemessages",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включение или выключение CuteMessages.",
+                    "doc": "Toggle CuteMessages on or off."
+                }
+            },
+            {
+                "name": "cutemessages_settings",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Просмотр и изменение настроек CuteMessages."
+                }
+            }
+        ],
+        "name": "CuteMessages",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/cutemessages.py"
+    },
+    {
         "author": "@PyModule",
         "description": "Модуль для отправки вопросов к DeepSeek с использованием OpenRouter API.",
         "commands": [
