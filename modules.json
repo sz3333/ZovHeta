@@ -15266,6 +15266,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/spinner.py"
     },
     {
+        "description": "Text to sticker",
+        "commands": [
+            {
+                "name": "stext",
+                "inline": false,
+                "description": {
+                    "doc": ".stext <reply to photo>"
+                }
+            }
+        ],
+        "name": "StickText",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/stext.py"
+    },
+    {
         "description": "Makes your messages type slower",
         "commands": [
             {
