@@ -20303,6 +20303,190 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/x0-Uploader.py"
     },
     {
+        "author": "@SenkoGuardianModules",
+        "description": "Модуль для работы с Google Gemini AI.(стабильная память и поддержка video/image/audio)",
+        "commands": [
+            {
+                "name": "g",
+                "inline": false,
+                "description": {
+                    "doc": "[текст или reply] — спросить у Gemini"
+                }
+            },
+            {
+                "name": "gclear",
+                "inline": false,
+                "description": {
+                    "doc": "— очистить память в этом чате"
+                }
+            },
+            {
+                "name": "gmemchats",
+                "inline": false,
+                "description": {
+                    "doc": "— показать чаты с памятью"
+                }
+            },
+            {
+                "name": "gmodel",
+                "inline": false,
+                "description": {
+                    "doc": "[model или пусто] — узнать/сменить модель"
+                }
+            },
+            {
+                "name": "gmemoff",
+                "inline": false,
+                "description": {
+                    "doc": "— отключить память в этом чате"
+                }
+            },
+            {
+                "name": "gmemon",
+                "inline": false,
+                "description": {
+                    "doc": "— включить память в этом чате"
+                }
+            },
+            {
+                "name": "gmemexport",
+                "inline": false,
+                "description": {
+                    "doc": "— экспортировать историю чата в файл"
+                }
+            },
+            {
+                "name": "gmemimport",
+                "inline": false,
+                "description": {
+                    "doc": "— импортировать историю из файла (ответом на файл)"
+                }
+            },
+            {
+                "name": "gmemfind",
+                "inline": false,
+                "description": {
+                    "doc": "[ключ] — поиск по истории чата"
+                }
+            },
+            {
+                "name": "gmemdel",
+                "inline": false,
+                "description": {
+                    "doc": "[N] — удалить последние N ПАР сообщений из памяти."
+                }
+            },
+            {
+                "name": "gmemshow",
+                "inline": false,
+                "description": {
+                    "doc": "— показать историю чата (до 20 последних)"
+                }
+            },
+            {
+                "name": "gres",
+                "inline": false,
+                "description": {
+                    "doc": "— Очистить ВСЮ память Gemini во всех чатах."
+                }
+            }
+        ],
+        "name": "Gemini",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/Gemini.py"
+    },
+    {
+        "author": "@SenkoGuardianModules",
+        "description": "Модуль для массовой рассылки сообщений по чатам v5.8.0 (Поддерживает все типы сообщений (кроме цитат))",
+        "commands": [
+            {
+                "name": "add_chat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "➕ Добавить текущий чат/тему. Используйте .add_chat или .add_chat <ID/Username/Ссылка> (Можно сразу несколько ссылкок в 1 комманду)."
+                }
+            },
+            {
+                "name": "remove_chat",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🗑️ Удалить чат/тему по номеру из списка. Используйте .remove_chat <номер>."
+                }
+            },
+            {
+                "name": "clear_chats",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🗑️ Очистить список чатов для рассылки."
+                }
+            },
+            {
+                "name": "list_chats",
+                "inline": false,
+                "description": {
+                    "ru_doc": "📜 Показать список чатов/тем для рассылки."
+                }
+            },
+            {
+                "name": "add_msg",
+                "inline": false,
+                "description": {
+                    "ru_doc": "➕ Добавить сообщение (ответом на другое сообщение)."
+                }
+            },
+            {
+                "name": "remove_msg",
+                "inline": false,
+                "description": {
+                    "ru_doc": "➖ Удалить сообщение по номеру из списка рассылки."
+                }
+            },
+            {
+                "name": "clear_msgs",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🗑️ Очистить список сообщений для рассылки."
+                }
+            },
+            {
+                "name": "list_msgs",
+                "inline": false,
+                "description": {
+                    "ru_doc": "📜 Показать список сообщений для рассылки."
+                }
+            },
+            {
+                "name": "set_seller",
+                "inline": false,
+                "description": {
+                    "ru_doc": "⚙️ Установить ID чата/пользователя продавца для уведомлений. Используйте .set_seller <ID/Username/Ссылка/'me'>."
+                }
+            },
+            {
+                "name": "mail_status",
+                "inline": false,
+                "description": {
+                    "ru_doc": "📊 Показать статус рассылки."
+                }
+            },
+            {
+                "name": "start_mail",
+                "inline": false,
+                "description": {
+                    "ru_doc": "🚀 Запустить рассылку. Использование: .start_mail <время_сек> <интервал_цикла_от-до_сек>."
+                }
+            },
+            {
+                "name": "stop_mail",
+                "inline": false,
+                "description": {
+                    "ru_doc": "⏹️ Остановить рассылку."
+                }
+            }
+        ],
+        "name": "MaillingChatGT99",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/MaillingChatGT99.py"
+    },
+    {
         "description": "Show userbot info",
         "commands": [
             {
@@ -26524,6 +26708,49 @@
         ],
         "name": "Huificinator",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/huificinator.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "Module for interacting with AI",
+        "commands": [
+            {
+                "name": "ai",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Отправить вопрос к AI. Использование: .ai [--no-history] <вопрос>"
+                }
+            },
+            {
+                "name": "txtai",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Отправить содержимое файла к AI. Использование: .txtai [--no-history] (ответ на файл)"
+                }
+            },
+            {
+                "name": "clearai",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очистить историю запросов. Использование: .clearai"
+                }
+            },
+            {
+                "name": "aiconfig",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Просмотреть или изменить настройки. Использование: .aiconfig [--edit]"
+                }
+            },
+            {
+                "name": "aitest",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Проверить валидность API-ключа. Использование: .aitest"
+                }
+            }
+        ],
+        "name": "AI",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/ai.py"
     },
     {
         "author": "@pymodule",
