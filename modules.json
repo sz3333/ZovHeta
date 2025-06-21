@@ -26865,35 +26865,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/cutemessages.py"
     },
     {
-        "author": "@PyModule",
-        "description": "Модуль для отправки вопросов к DeepSeek с использованием OpenRouter API.",
-        "commands": [
-            {
-                "name": "dsc",
-                "inline": false,
-                "description": {
-                    "doc": "Отправить вопрос к DeepSeek. Использование: .dsc <вопрос>"
-                }
-            },
-            {
-                "name": "txtdsc",
-                "inline": false,
-                "description": {
-                    "doc": "Отправить содержимое .txt файла в DeepSeek. Использование: !txtdsc (ответ на .txt файл)"
-                }
-            },
-            {
-                "name": "cleardsc",
-                "inline": false,
-                "description": {
-                    "doc": "Очистить историю диалога с DeepSeek."
-                }
-            }
-        ],
-        "name": "DeepSeek",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/deepseek.py"
-    },
-    {
         "author": "@pymodule",
         "description": "Scan a domain / Сканирование домена",
         "commands": [
