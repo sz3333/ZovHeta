@@ -20750,6 +20750,46 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/ReNamePing.py"
     },
     {
+        "author": "@Hicota",
+        "description": "Живите счастливо со своей половинкой",
+        "commands": [
+            {
+                "name": "wedlock",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - сделать предложение",
+                    "doc": "- make a proposal"
+                }
+            },
+            {
+                "name": "divorce",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - подать на развод",
+                    "doc": "- file to divorce"
+                }
+            },
+            {
+                "name": "winfo",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - информация о браке",
+                    "doc": "- marriage information"
+                }
+            },
+            {
+                "name": "rplist",
+                "inline": false,
+                "description": {
+                    "ru_doc": " - Лист РП-команд ",
+                    "doc": "- RP-Commands list"
+                }
+            }
+        ],
+        "name": "Wedding",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Slaik78/ModulesHikkaFromSlaik/Wedding.py"
+    },
+    {
         "author": "@kmodules",
         "banner": "https://i.ibb.co/7k4sJRR/5ad271ae-ec1b-4803-a714-5d6628ee8f50.jpg",
         "description": "Module for speech-to-text conversion",
