@@ -12582,14 +12582,14 @@
     },
     {
         "author": "@HikkaZPM",
-        "description": "Имитация neofetch, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy",
+        "description": "Имитация neofetch/fastfetch, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy",
         "commands": [
             {
                 "name": "fneo",
                 "inline": false,
                 "description": {
                     "ru_doc": "Показать фейковый neofetch с кастомным хостом",
-                    "doc": "Показывает фейковый вывод neofetch"
+                    "doc": "Показывает фейковый вывод neofetch/fastfetch"
                 }
             },
             {
