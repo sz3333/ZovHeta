@@ -37541,6 +37541,14 @@
                     "ru_doc": "Переименовать группу/канал",
                     "doc": "Rename the chat/channel"
                 }
+            },
+            {
+                "name": "create",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[g/c] [title] - Создать группу/канал",
+                    "doc": "[g/c] [title] - Create group/channel"
+                }
             }
         ],
         "name": "ChatModule",
