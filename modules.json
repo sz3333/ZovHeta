@@ -37491,7 +37491,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Забанить участника",
-                    "doc": "Ban a participant"
+                    "doc": "Ban a participant temporarily or permanently"
                 }
             },
             {
@@ -37515,7 +37515,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Замутить участника",
-                    "doc": "Mute a participant"
+                    "doc": "Mute a participant temporarily or permanently"
                 }
             },
             {
