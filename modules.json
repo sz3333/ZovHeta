@@ -37411,6 +37411,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[reply] - Узнать ID",
+                    "jp_doc": "[reply] - IDを知る",
                     "doc": "[reply] - Get the ID"
                 }
             },
@@ -37419,6 +37420,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[reply/username/id] - Посмотреть права администратора пользователя",
+                    "jp_doc": "[reply/username/id] - ユーザーの管理者権限を確認する",
                     "doc": "[reply/username/id] - Check user's admin rights"
                 }
             },
@@ -37427,6 +37429,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Покинуть чат",
+                    "jp_doc": "チャットから離脱する",
                     "doc": "Leave chat"
                 }
             },
@@ -37435,6 +37438,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[a[1-100] b[1-100]] | [reply] Удалить сообщения",
+                    "jp_doc": "[a[1-100] b[1-100]] | [reply] メッセージを削除する",
                     "doc": "[a[1-100] b[1-100]] | [reply] - Delete messages"
                 }
             },
@@ -37443,6 +37447,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Показывает список чатов, каналов и групп где вы админ/владелец",
+                    "jp_doc": "管理者であるかオーナーであるかのチャット、チャンネル、グループの一覧を表示する",
                     "doc": "Shows the list of chats, channels and groups where you are an admin/owner"
                 }
             },
@@ -37451,6 +37456,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[link/id] Удаляет группу/канал",
+                    "jp_doc": "[link/id] グループ・チャンネルを削除する",
                     "doc": "[link/id] Delete chat/channel"
                 }
             },
@@ -37459,6 +37465,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Очищает группу/канал от удаленных аккаунтов",
+                    "jp_doc": "グループ・チャンネルから削除されたアカウントを削除する",
                     "doc": "Removes deleted accounts from the chat/channel"
                 }
             },
@@ -37467,6 +37474,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Показывает админов в группе/канале",
+                    "jp_doc": "グループ・チャンネルの管理者を表示する",
                     "doc": "Shows the admins in the chat/channel"
                 }
             },
@@ -37475,6 +37483,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Показывает ботов в группе/канале",
+                    "jp_doc": "グループ・チャンネルのボットを表示する",
                     "doc": "Shows the bots in the chat/channel"
                 }
             },
@@ -37483,6 +37492,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Показывает простых участников чата/канала",
+                    "jp_doc": "グループ・チャンネルのユーザーを表示する",
                     "doc": "Shows the users in the chat/channel"
                 }
             },
@@ -37491,6 +37501,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Забанить участника",
+                    "jp_doc": "ユーザーを一時的または永久に禁止する",
                     "doc": "Ban a participant temporarily or permanently"
                 }
             },
@@ -37499,6 +37510,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Разбанить пользователя",
+                    "jp_doc": "ユーザーを解除する",
                     "doc": "Unban a user"
                 }
             },
@@ -37507,6 +37519,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Кикнуть участника",
+                    "jp_doc": "ユーザーをキックする",
                     "doc": "Kick a participant"
                 }
             },
@@ -37515,6 +37528,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Замутить участника",
+                    "jp_doc": "ユーザーを一時的または永久にミュートする",
                     "doc": "Mute a participant temporarily or permanently"
                 }
             },
@@ -37523,6 +37537,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Размутить участника",
+                    "jp_doc": "ユーザーをミュートを解除する",
                     "doc": "Unmute a participant"
                 }
             },
@@ -37531,6 +37546,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Закрыть чат для всех кроме админов",
+                    "jp_doc": "チャットを管理者以外のユーザーに限定して閉じる",
                     "doc": "Mute the chat for everyone except admins"
                 }
             },
@@ -37539,6 +37555,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "Переименовать группу/канал",
+                    "jp_doc": "グループ・チャンネルの名前を変更する",
                     "doc": "Rename the chat/channel"
                 }
             },
@@ -37547,7 +37564,17 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[g/c] [title] - Создать группу/канал",
+                    "jp_doc": "[g/c] [title] - グループ・チャンネルを作成する",
                     "doc": "[g/c] [title] - Create group/channel"
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Пригласить пользователя в чат",
+                    "jp_doc": "ユーザーをチャットに招待する",
+                    "doc": "Invite a user to the chat"
                 }
             }
         ],
