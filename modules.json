@@ -37485,6 +37485,15 @@
                 }
             },
             {
+                "name": "creator",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показывает создателя группы/канала",
+                    "jp_doc": "グループ・チャンネルの管理者を表示する",
+                    "doc": "Shows the creator of the chat/channel"
+                }
+            },
+            {
                 "name": "admins",
                 "inline": false,
                 "description": {
