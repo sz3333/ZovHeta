@@ -1,7 +1,6 @@
-__version__ = (9, 1, 3)
+__version__ = (9, 1, 4)
 # meta developer: @Fixyres
-# change-log: Now the module ratings and the number of installations affect its place in the result, I explain how the system works: 👍 = +7, 👎 = -5, Install = +1, Uninstall = -1
-
+# change-log: Soon...
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
 #             █████╗  ███████║█████╗     ██║   ███████║
@@ -356,7 +355,7 @@ class FHeta(loader.Module):
         pref = self.get_prefix()
         moduliki = "".join(mod.__class__.__module__.replace("%d", "_") for mod in self.allmodules.modules if "https://raw" in mod.__class__.__module__)
         while True:
-            url = "http://138.124.34.91:777/dataset"
+            url = "http://5.58.78.76:777/dataset"
             headers = {
                 "Authorization": self.token
             }
@@ -654,12 +653,12 @@ class FHeta(loader.Module):
             headers = {"Authorization": token}
 
             async with aiohttp.ClientSession(headers=headers) as session:
-                post_url = f"http://138.124.34.91:777/rate/{user_id}/{install}/{action}"
+                post_url = f"http://5.58.78.76:777/rate/{user_id}/{install}/{action}"
                 async with session.post(post_url) as response:
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
-                        get_url = f"http://138.124.34.91:777/get/{install}"
+                        get_url = f"http://5.58.78.76:777/get/{install}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -685,7 +684,7 @@ class FHeta(loader.Module):
                         return
 
                     elif "che" in result:
-                        get_url = f"http://138.124.34.91:777/get/{install}"
+                        get_url = f"http://5.58.78.76:777/get/{install}"
                         async with session.get(get_url) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
@@ -783,7 +782,7 @@ class FHeta(loader.Module):
     async def get_stats(self, install):
         try:
             async with aiohttp.ClientSession() as session:
-                get_url = f"http://138.124.34.91:777/get/{install}"
+                get_url = f"http://5.58.78.76:777/get/{install}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
                         return await response.json()
@@ -795,7 +794,7 @@ class FHeta(loader.Module):
         try:
             async with aiohttp.ClientSession() as session:
                 instal = install[4:]
-                get_url = f"http://138.124.34.91:777/icount/{instal}"
+                get_url = f"http://5.58.78.76:777/icount/{instal}"
                 async with session.get(get_url) as response:
                     if response.status == 200:
                         return await response.json()
@@ -805,7 +804,7 @@ class FHeta(loader.Module):
 
     async def get_statss(self, install, session):
         try:
-            url = f"http://138.124.34.91:777/get/{install}"
+            url = f"http://5.58.78.76:777/get/{install}"
             async with session.get(url) as response:
                 if response.status == 200:
                     return await response.json()
@@ -816,7 +815,7 @@ class FHeta(loader.Module):
     async def get_icount(self, install, session):
         try:
             instal = install[4:]
-            url = f"http://138.124.34.91:777/icount/{instal}"
+            url = f"http://5.58.78.76:777/icount/{instal}"
             async with session.get(url) as response:
                 if response.status == 200:
                     return await response.json()
