@@ -33802,6 +33802,85 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/CheckUsername.py"
     },
     {
+        "author": "@LoLpryvet",
+        "description": "Module for managing profile avatar",
+        "commands": [
+            {
+                "name": "setava",
+                "inline": false,
+                "description": {
+                    "doc": "Set avatar from reply or URL\nUsage: \n.setava (reply to photo/video)\n.setava <url>"
+                }
+            },
+            {
+                "name": "delava",
+                "inline": false,
+                "description": {
+                    "doc": "Delete current profile avatar\nUsage: .delava"
+                }
+            }
+        ],
+        "name": "AvatarManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/lolpryvetik/Modules/AvatarManager.py"
+    },
+    {
+        "author": "@qq_shark, @LoLpryvet",
+        "description": "Модуль для пересылки, ретрансляции и подделки геопозиции в реальном времени",
+        "commands": [
+            {
+                "name": "fakegeo",
+                "inline": false,
+                "description": {
+                    "doc": "Отправить геопозицию"
+                }
+            },
+            {
+                "name": "fakelive",
+                "inline": false,
+                "description": {
+                    "doc": "Запустить Live Location трансляцию"
+                }
+            },
+            {
+                "name": "geochange",
+                "inline": false,
+                "description": {
+                    "doc": "Изменить координаты активной трансляции"
+                }
+            },
+            {
+                "name": "geospy",
+                "inline": false,
+                "description": {
+                    "doc": "Переслать геопозицию или запустить ретрансляцию Live Location"
+                }
+            },
+            {
+                "name": "geostop",
+                "inline": false,
+                "description": {
+                    "doc": "Остановить все активные ретрансляции Live Location"
+                }
+            },
+            {
+                "name": "geostatus",
+                "inline": false,
+                "description": {
+                    "doc": "Показать статус активных ретрансляций"
+                }
+            },
+            {
+                "name": "geospyhelp",
+                "inline": false,
+                "description": {
+                    "doc": "Показать справку по модулю GeoSpy"
+                }
+            }
+        ],
+        "name": "GeoSpy",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/lolpryvetik/Modules/GeoSpy.py"
+    },
+    {
         "author": "@mead0wssMods",
         "banner": "https://x0.at/yCcx.jpg",
         "description": "Модуль для автоматического форматирования вашего текста в чате.",
