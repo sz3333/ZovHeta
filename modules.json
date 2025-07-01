@@ -33083,6 +33083,30 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeNick.py"
     },
     {
+        "author": "@Toxano_Modules",
+        "description": "Модуль для отображения информации о системе с помощью fastfetch",
+        "commands": [
+            {
+                "name": "instfetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить fastfetch",
+                    "doc": "Установка fastfetch в пользовательскую директорию"
+                }
+            },
+            {
+                "name": "fastfetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать информацию о системе",
+                    "doc": "Отображение информации о системе с ASCII артом"
+                }
+            }
+        ],
+        "name": "fastfetch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/fastfetch.py"
+    },
+    {
         "author": "@Toxano_Modules, @mqvon",
         "banner": "https://i.ibb.co/bRFKb6ys/image-9711.jpg",
         "description": "Module for uploading images to imgbb.com",
@@ -37779,24 +37803,21 @@
         "description": "A module for parsing URLs.",
         "commands": [
             {
-                "name": "scrape",
-                "inline": false,
-                "description": {
-                    "doc": "Extracts and processes data from the specified URL asynchronously."
-                }
-            },
-            {
                 "name": "expandurl",
                 "inline": false,
                 "description": {
-                    "doc": "Expands the given shortened URL."
+                    "ru_doc": "Показывает куда ведет сокращенная ссылка",
+                    "p_doc": "指定された短縮URLを展開します",
+                    "doc": "Expands the given shortened URL"
                 }
             },
             {
                 "name": "ipurl",
                 "inline": false,
                 "description": {
-                    "doc": "Gets the IP address of the given URL asynchronously."
+                    "ru_doc": "Получить IP адрес сайта",
+                    "jp_doc": "WebサイトのIPアドレスを取得する",
+                    "doc": "Gets the IP address of the given URL"
                 }
             }
         ],
@@ -38118,9 +38139,9 @@
                 "name": "weather",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Посмотрите погоду в указанном городе.",
-                    "en_doc": "Check the weather in the specified city.",
-                    "doc": "Check the weather in the specified city."
+                    "ru_doc": "Посмотреть погоду в указанном городе",
+                    "jp_doc": "指定された都市の天気を確認してください",
+                    "doc": "Check the weather in the specified city"
                 }
             }
         ],
