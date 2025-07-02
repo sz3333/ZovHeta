@@ -37703,6 +37703,24 @@
                     "jp_doc": "ユーザーをチャットに招待する",
                     "doc": "Invite a user to the chat"
                 }
+            },
+            {
+                "name": "fullrights",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Выдать полные права",
+                    "jp_doc": "完全な権限を持つ参加者を昇格させる",
+                    "doc": "Promote a participant with full rights"
+                }
+            },
+            {
+                "name": "demote",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Снять с админки",
+                    "jp_doc": "参加者の降格",
+                    "doc": "Demote a participant"
+                }
             }
         ],
         "name": "ChatModule",
@@ -37748,7 +37766,8 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "<ip> | Информация об IP",
-                    "doc": "<ip> | Information about IP."
+                    "jp_doc": "IPに関する情報",
+                    "doc": "<ip> | Information about IP"
                 }
             }
         ],
