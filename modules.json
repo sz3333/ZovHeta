@@ -34935,6 +34935,22 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/always-online.py"
     },
     {
+        "author": "@qq_shark && @SharkHostBot",
+        "description": "Конвертор фото/видео в гиф (by @qq_shark).",
+        "commands": [
+            {
+                "name": "media2gif",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[ответ на фото или видео] — превращает фото или видео в GIF.",
+                    "en_doc": "[reply to photo or video] — converts photo or video to GIF."
+                }
+            }
+        ],
+        "name": "media2gif",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/media2gif.py"
+    },
+    {
         "author": "@angellmodules",
         "description": "Конвертация изображений в ASCII-арт",
         "commands": [
