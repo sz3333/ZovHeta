@@ -10,7 +10,7 @@ __version__ = (9, 1, 3)
 
 # meta banner: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg
 # meta pic: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg
-# ©️ Fixyres, 2024
+# ©️ Fixyres, 2025
 # 🌐 https://github.com/Fixyres/FHeta
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
