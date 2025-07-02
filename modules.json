@@ -34920,6 +34920,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/КонвекторВалют.py"
     },
     {
+        "author": "@qq_shark && @SharkHostBot",
+        "description": "Always Online - модуль вечного онлайна (by @qq_shark).",
+        "commands": [
+            {
+                "name": "online",
+                "inline": false,
+                "description": {
+                    "doc": "- переключатель режима онлайн"
+                }
+            }
+        ],
+        "name": "Always Online",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/always-online.py"
+    },
+    {
         "author": "@angellmodules",
         "description": "Конвертация изображений в ASCII-арт",
         "commands": [
