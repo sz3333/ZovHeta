@@ -34921,6 +34921,28 @@
     },
     {
         "author": "@qq_shark && @SharkHostBot",
+        "description": "Конвертор аудио и голосовых (by @qq_shark).\n\nПоддерживаемые форматы аудио: mp3, m4a, ogg, mpeg, wav, oga, 3gp.",
+        "commands": [
+            {
+                "name": "tovoice",
+                "inline": false,
+                "description": {
+                    "doc": "- <reply to media> \nКонвертировать аудио/видео в голосовое."
+                }
+            },
+            {
+                "name": "toformat",
+                "inline": false,
+                "description": {
+                    "doc": "- <replay to media> [format] [url_cover/none]\n[name]\n[author]"
+                }
+            }
+        ],
+        "name": "AudioConverter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/AudioConvertor.py"
+    },
+    {
+        "author": "@qq_shark && @SharkHostBot",
         "description": "Always Online - модуль вечного онлайна (by @qq_shark).",
         "commands": [
             {
@@ -37560,7 +37582,7 @@
                 "inline": false,
                 "description": {
                     "ru_doc": "[reply] - Узнать ID",
-                    "jp_doc": "[reply] - IDを知る",
+                    "jp_doc": "[rbeply] - IDを知る",
                     "doc": "[reply] - Get the ID"
                 }
             },
