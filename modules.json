@@ -33824,6 +33824,35 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/lolpryvetik/Modules/AvatarManager.py"
     },
     {
+        "author": "@LoLpryvet",
+        "description": "Модуль для поиска участников с общими чатами",
+        "commands": [
+            {
+                "name": "chatsi",
+                "inline": false,
+                "description": {
+                    "doc": "Найти участников с общими чатами. Использование: .chatsi <число> [ссылка на чат] [s - в избранное]"
+                }
+            },
+            {
+                "name": "chatsink",
+                "inline": false,
+                "description": {
+                    "doc": "Найти общие чаты с конкретным пользователем. Использование: .chatsink <@user или реплай> [s - в избранное]"
+                }
+            },
+            {
+                "name": "chatsinfo",
+                "inline": false,
+                "description": {
+                    "doc": "Подробная информация об общих чатах с участником. Использование: .chatsinfo <@user или реплай> [s - в избранное]"
+                }
+            }
+        ],
+        "name": "ChatSi",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/lolpryvetik/Modules/ChatSi.py"
+    },
+    {
         "author": "@qq_shark, @LoLpryvet",
         "description": "Модуль для пересылки, ретрансляции и подделки геопозиции в реальном времени",
         "commands": [
@@ -38059,6 +38088,22 @@
         ],
         "name": "ChatMembers",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/chatmembers.py"
+    },
+    {
+        "author": "@xdesai",
+        "commands": [
+            {
+                "name": "cr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<сумма> <валюта> - Показать курсы валют",
+                    "jp_doc": "<amount> <currency> - 為替レートを表示",
+                    "doc": "<amount> <currency> - Show Exchange Rates"
+                }
+            }
+        ],
+        "name": "Currency",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/currency.py"
     },
     {
         "author": "@xdesai",
