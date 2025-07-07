@@ -12566,6 +12566,22 @@
     },
     {
         "author": "@HikkaZPM",
+        "banner": "https://files.catbox.moe/u91fwo.jpg (a gde femboy set 😔)",
+        "description": "Модуль для поиска пакетов в AUR (Arch User Repository)",
+        "commands": [
+            {
+                "name": "aur",
+                "inline": false,
+                "description": {
+                    "doc": "Поиск пакетов в AUR. Использование: .aur <запрос>"
+                }
+            }
+        ],
+        "name": "AURSearch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/ArchAur.py"
+    },
+    {
+        "author": "@HikkaZPM",
         "banner": "https://files.catbox.moe/swqxd1.png",
         "description": "Поиск сленговых значений в UrbanDictionary, пишите на английском для лучшего поиска (перевод в будующем)",
         "commands": [
@@ -26861,6 +26877,28 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/autoprofile.py"
     },
     {
+        "author": "@pymodule",
+        "description": "Калькулятор.",
+        "commands": [
+            {
+                "name": "calc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[Выражение] - Вычислить выражение"
+                }
+            },
+            {
+                "name": "calc",
+                "inline": true,
+                "description": {
+                    "doc": "[Math Expression] - Calculate a math expression"
+                }
+            }
+        ],
+        "name": "Calc",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/calc.py"
+    },
+    {
         "author": "@PyModule",
         "description": "Модуль для добавления переходника в сообщения каналов",
         "commands": [
@@ -27090,7 +27128,7 @@
                 "name": "sysinfo",
                 "inline": false,
                 "description": {
-                    "ru_doc": "🔧 Узнать информацию о системе"
+                    "ru_doc": "🔧 Показывает информацию о системе."
                 }
             }
         ],
