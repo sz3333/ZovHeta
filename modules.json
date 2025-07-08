@@ -12566,6 +12566,20 @@
     },
     {
         "author": "@HikkaZPM",
+        "banner": "https://files.catbox.moe/u91fwo.jpg",
+        "description": "Поиск aur пакетов в aur.archlinux.org",
+        "commands": [
+            {
+                "name": "aur",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "ArchAUR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/AURSearch.py"
+    },
+    {
+        "author": "@HikkaZPM",
         "banner": "https://files.catbox.moe/u91fwo.jpg (a gde femboy set 😔)",
         "description": "Модуль для поиска пакетов в AUR (Arch User Repository)",
         "commands": [
