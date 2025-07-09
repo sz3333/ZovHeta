@@ -19066,6 +19066,21 @@
     },
     {
         "author": "@RUIS_VlP",
+        "description": "Модуль для отправки DNS запросов ",
+        "commands": [
+            {
+                "name": "resolve",
+                "inline": false,
+                "description": {
+                    "doc": "<домен> - получает DNS записи указанного домена"
+                }
+            }
+        ],
+        "name": "DNSResolver",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/DNSResolver.py"
+    },
+    {
+        "author": "@RUIS_VlP",
         "description": "Помогает расшифовать сокращенную ссылку\n\nМодуль не поддерживает ссылки от vk.cc\n\nВсе остальное (bit.ly, clck.ru и тд) поддерживается.",
         "commands": [
             {
@@ -26949,6 +26964,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/channeladapter.py"
     },
     {
+        "description": "Check host via check-host.net",
+        "commands": [
+            {
+                "name": "checkhost",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[хост] — проверить хост"
+                }
+            }
+        ],
+        "name": "CheckHost",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/checkhost.py"
+    },
+    {
         "author": "@pymodule",
         "description": "Makes your messages extra cute with adorable styles!",
         "commands": [
@@ -27001,6 +27030,35 @@
         ],
         "name": "GetUser",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/getusername.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "GitHub user info, recent activity and contribution graph",
+        "commands": [
+            {
+                "name": "gh",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Информация о пользователе GitHub"
+                }
+            },
+            {
+                "name": "gha",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Последняя активность GitHub"
+                }
+            },
+            {
+                "name": "ghc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать график контрибов GitHub"
+                }
+            }
+        ],
+        "name": "GitHubInfo",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/githubinfo.py"
     },
     {
         "author": "@pymodule",
@@ -27091,6 +27149,22 @@
     },
     {
         "author": "@pymodule",
+        "description": "Generate QR codes from text or links",
+        "commands": [
+            {
+                "name": "qr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Сгенерировать QR-код из текста или ссылки",
+                    "doc": "<text or URL> — generate QR code"
+                }
+            }
+        ],
+        "name": "QRGen",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/qrgen.py"
+    },
+    {
+        "author": "@pymodule",
         "description": "Randomly selects one of the comma-separated values.",
         "commands": [
             {
@@ -27170,6 +27244,28 @@
         ],
         "name": "UserParser",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/userparser.py"
+    },
+    {
+        "author": "@pymodule",
+        "description": "Search Wikipedia articles",
+        "commands": [
+            {
+                "name": "wiki",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[термин] - Поиск статьи в Википедии по запросу"
+                }
+            },
+            {
+                "name": "wiki",
+                "inline": true,
+                "description": {
+                    "doc": "[term] - Inline Wikipedia search"
+                }
+            }
+        ],
+        "name": "WikiSearch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/wiki.py"
     },
     {
         "author": "@hikarimods",
