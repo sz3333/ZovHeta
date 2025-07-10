@@ -27039,21 +27039,24 @@
                 "name": "gh",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Информация о пользователе GitHub"
+                    "ru_doc": "Информация о пользователе GitHub",
+                    "doc": "Show GitHub user info"
                 }
             },
             {
                 "name": "gha",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Последняя активность GitHub"
+                    "ru_doc": "Последняя активность GitHub",
+                    "doc": "Show recent GitHub activity"
                 }
             },
             {
                 "name": "ghc",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Показать график контрибов GitHub"
+                    "ru_doc": "Показать график контрибов GitHub",
+                    "doc": "Show GitHub contribution graph"
                 }
             }
         ],
