@@ -12612,6 +12612,20 @@
     },
     {
         "author": "@HikkaZPM",
+        "banner": "https://files.catbox.moe/u91fwo.jpg",
+        "description": "Поиск aur пакетов в aur.archlinux.org",
+        "commands": [
+            {
+                "name": "aur",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "ArchAUR",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/archaur.py"
+    },
+    {
+        "author": "@HikkaZPM",
         "description": "Имитация neofetch/fastfetch, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy",
         "commands": [
             {
