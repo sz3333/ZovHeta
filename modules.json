@@ -33219,7 +33219,7 @@
     },
     {
         "author": "@Toxano_Modules",
-        "description": "Модуль для отображения информации о системе с помощью fastfetch",
+        "description": "Модуль для отображения информации о системе с помощью fastfetch и neofetch",
         "commands": [
             {
                 "name": "instfetch",
@@ -33230,11 +33230,27 @@
                 }
             },
             {
+                "name": "instneofetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Установить neofetch",
+                    "doc": "Установка neofetch в пользовательскую директорию"
+                }
+            },
+            {
                 "name": "fastfetch",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Показать информацию о системе",
-                    "doc": "Отображение информации о системе с ASCII артом"
+                    "ru_doc": "Показать информацию о системе через fastfetch",
+                    "doc": "Отображение информации о системе с ASCII артом через fastfetch"
+                }
+            },
+            {
+                "name": "neofetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать информацию о системе через neofetch",
+                    "doc": "Отображение информации о системе с ASCII артом через neofetch"
                 }
             }
         ],
