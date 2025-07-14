@@ -23989,6 +23989,592 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/chebupelka10/HikkaModules/spotify4ik.py"
     },
     {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJx.webp",
+        "description": "Module to manage and delete your messages in the current chat",
+        "commands": [
+            {
+                "name": "purge",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] [-img] [-voice] [-file] [-all] - delete all your messages in current chat or only ones up to the message you replied to\n-all - to delete messages in each topic if this is a forum otherwise the flag'll just be ingored"
+                }
+            },
+            {
+                "name": "purgekeyword",
+                "inline": false,
+                "description": {
+                    "doc": "<keyword> [-img] [-voice] [-file] [-all] - delete all your messages containing the specified keyword in the current chat\n-all - to delete messages in each topic if this is a forum otherwise the flag'll just be ingored"
+                }
+            },
+            {
+                "name": "purgetime",
+                "inline": false,
+                "description": {
+                    "doc": "<start_time> <end_time> [-img] [-voice] [-file] [-all] - delete all your messages within the specified time range in the current chat\n-all - to delete messages in each topic if this is a forum otherwise the flag'll just be ingored\nTime format: YYYY-MM-DD HH:MM:SS"
+                }
+            },
+            {
+                "name": "purgelength",
+                "inline": false,
+                "description": {
+                    "doc": "<length> [-img] [-voice] [-file] [-all] - delete all your messages with the specified length in the current chat\n-all - to delete messages in each topic if this is a forum otherwise the flag'll just be ingored"
+                }
+            },
+            {
+                "name": "nopurge",
+                "inline": false,
+                "description": {
+                    "doc": "Interrupt the deletion process\nUse in the chat where you've previously started deletion"
+                }
+            }
+        ],
+        "name": "DelMessTools",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DelMessTools.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJM.webp",
+        "description": "Maybe... doxing tool?",
+        "commands": [
+            {
+                "name": "gb",
+                "inline": false,
+                "description": {
+                    "doc": "search in databases eye of god!"
+                }
+            },
+            {
+                "name": "deanon",
+                "inline": false,
+                "description": {
+                    "doc": "Full information of user in global database"
+                }
+            },
+            {
+                "name": "dinfo",
+                "inline": false,
+                "description": {
+                    "doc": "info of module"
+                }
+            }
+        ],
+        "name": "DoxTool",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DoxTool.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/banner.png",
+        "pic": "https://kappa.lol/2Z_Q-",
+        "description": "Auto switching from Hikka to Heroku",
+        "commands": [
+            {
+                "name": "switchtoheroku",
+                "inline": false,
+                "description": {
+                    "doc": "- Automatically switch to heroku"
+                }
+            }
+        ],
+        "name": "SwitchToHeroku",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/SwitchToHeroku.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HoE.webp",
+        "description": "Random Ascii Face from utils",
+        "commands": [
+            {
+                "name": "ascii",
+                "inline": false,
+                "description": {
+                    "doc": "| Get random ascii face"
+                }
+            }
+        ],
+        "name": "Ascii_Face",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/ascii_face.py"
+    },
+    {
+        "author": "@codrago_m, @unneyon_hmods",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJv.webp",
+        "description": "Autoclicker for inline buttons.",
+        "commands": [
+            {
+                "name": "clickon",
+                "inline": false,
+                "description": {
+                    "doc": "[interval button_line button] | Enable Autoclicker"
+                }
+            },
+            {
+                "name": "clickoff",
+                "inline": false,
+                "description": {
+                    "doc": "| disable autoclicker."
+                }
+            }
+        ],
+        "name": "AutoClicker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/autoclicker.py"
+    },
+    {
+        "author": "@codrago_m, @ytkanelox",
+        "banner": "https://mods.codrago.top/banners/clicon.png",
+        "pic": "https://0x0.st/s/7EWHGzqAj49M6PDMeawuzw/8KPu.webp",
+        "description": "Модуль для автоматического нажатия на инлайн кнопки.",
+        "commands": [
+            {
+                "name": "clickon",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .clickon <интервал в секундах> для начала кликов."
+                }
+            },
+            {
+                "name": "clickoff",
+                "inline": false,
+                "description": {
+                    "doc": "Используйте .clickoff для остановки кликера."
+                }
+            }
+        ],
+        "name": "AutoClicker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/clickon.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJ6.webp",
+        "description": "Compliments for your partner",
+        "commands": [
+            {
+                "name": "cg",
+                "inline": false,
+                "description": {
+                    "doc": "Compliments for girl"
+                }
+            }
+        ],
+        "name": "Compliments",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/compliments.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/master/banner.png",
+        "pic": "https://0x0.st/s/4xg5IubxTkikjI6JG2AU8w/8KP_.webp",
+        "description": "Развлекательный модуль",
+        "commands": [
+            {
+                "name": "rnum",
+                "inline": false,
+                "description": {
+                    "doc": "Угадывайте рандомные числа!"
+                }
+            }
+        ],
+        "name": "RandomNumbers",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/dice.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/Hod.webp",
+        "description": "Download emoji from reply",
+        "commands": [
+            {
+                "name": "emojidown",
+                "inline": false,
+                "description": {
+                    "doc": "[reply] | Download emoji from reply"
+                }
+            }
+        ],
+        "name": "EmojiDownload",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/emojidown.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/Hou.webp",
+        "description": "Tool for work with figlet",
+        "commands": [
+            {
+                "name": "figlet",
+                "inline": false,
+                "description": {
+                    "doc": "[args] | run figlet command"
+                }
+            },
+            {
+                "name": "figlist",
+                "inline": false,
+                "description": {
+                    "doc": "| see list of all fonts"
+                }
+            }
+        ],
+        "name": "Figlet",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/figlet.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/loli.png",
+        "pic": "https://envs.sh/HJ-.webp",
+        "description": "Send to you random hentai media!",
+        "commands": [
+            {
+                "name": "loli",
+                "inline": false,
+                "description": {
+                    "doc": "| random loli photo"
+                }
+            },
+            {
+                "name": "fem",
+                "inline": false,
+                "description": {
+                    "doc": "| random femboy media"
+                }
+            },
+            {
+                "name": "sfw",
+                "inline": false,
+                "description": {
+                    "doc": "| random SFW media"
+                }
+            },
+            {
+                "name": "furry",
+                "inline": false,
+                "description": {
+                    "doc": "| to get random furry media"
+                }
+            },
+            {
+                "name": "nsfw",
+                "inline": false,
+                "description": {
+                    "doc": "| to get random NSFW media"
+                }
+            }
+        ],
+        "name": "Hentai",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/hentai.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJX.webp",
+        "description": "ID of all!",
+        "commands": [
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "[reply or username] | Get User ID"
+                }
+            },
+            {
+                "name": "id",
+                "inline": false,
+                "description": {
+                    "doc": "| Get your ID"
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "| Get chat ID"
+                }
+            }
+        ],
+        "name": "ID",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/id.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/Hob.webp",
+        "description": "Module for music from different services",
+        "commands": [
+            {
+                "name": "nowplay",
+                "inline": false,
+                "description": {
+                    "doc": "| send playing track"
+                }
+            },
+            {
+                "name": "tutorl",
+                "inline": false,
+                "description": {
+                    "doc": "| tutorial"
+                }
+            }
+        ],
+        "name": "LastFm",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/lastfm.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJm.webp",
+        "description": "Your the best friend in loli hentai",
+        "commands": [
+            {
+                "name": "loli",
+                "inline": false,
+                "description": {
+                    "doc": "-> random loli photo"
+                }
+            },
+            {
+                "name": "lolic",
+                "inline": false,
+                "description": {
+                    "doc": "-> to get your loli"
+                }
+            }
+        ],
+        "name": "LoliHentai",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/loli.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJH.webp",
+        "description": "Модуль для быстрого доступа к каналам с модулями",
+        "commands": [
+            {
+                "name": "modlist",
+                "inline": false,
+                "description": {
+                    "ru_doc": " | Быстрый доступ к каналам с модулями ",
+                    "doc": "| Quick access to channels with modules"
+                }
+            },
+            {
+                "name": "offmodlist",
+                "inline": false,
+                "description": {
+                    "ru_doc": " | Оффициальные каналы с модулями ",
+                    "doc": "| Official channel with modules"
+                }
+            },
+            {
+                "name": "addmchat",
+                "inline": false,
+                "description": {
+                    "doc": "[BOT API ID] | add chat"
+                }
+            }
+        ],
+        "name": "ModList",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/modlist.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/Hoe.webp",
+        "description": "Generate password",
+        "commands": [
+            {
+                "name": "pass",
+                "inline": false,
+                "description": {
+                    "doc": "| Generate password from utils"
+                }
+            },
+            {
+                "name": "passg",
+                "inline": false,
+                "description": {
+                    "doc": "| Generate password from string"
+                }
+            }
+        ],
+        "name": "PassGen",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/passwordgen.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJV.webp",
+        "description": "Gives a link to download a file from Pinterest",
+        "commands": [
+            {
+                "name": "pinterest",
+                "inline": false,
+                "description": {
+                    "doc": "Gives a link to download"
+                }
+            }
+        ],
+        "name": "PinterestDownloader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/pinterest.py"
+    },
+    {
+        "author": "@codrago_m, @exttasy1",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/Hoh.webp",
+        "description": "Ban in pm for time",
+        "commands": [
+            {
+                "name": "pmban",
+                "inline": false,
+                "description": {
+                    "doc": "| ban in PM for time"
+                }
+            },
+            {
+                "name": "pmunban",
+                "inline": false,
+                "description": {
+                    "doc": "| unban in PM"
+                }
+            }
+        ],
+        "name": "PMBan",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/pmban.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HoF.webp",
+        "description": "Automatically claim https://t.me/StableWaifuBot promo from any chat",
+        "commands": [
+            {
+                "name": "checktokens",
+                "inline": false,
+                "description": {
+                    "ru_doc": "| Посмотреть баланс токенов",
+                    "doc": "| check tokens balance"
+                }
+            }
+        ],
+        "name": "PromoClaimer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/promoclaimer.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJ7.webp",
+        "description": "Развлекательный модуль",
+        "commands": [
+            {
+                "name": "rnum",
+                "inline": false,
+                "description": {
+                    "doc": "Угадывайте рандомные числа!"
+                }
+            }
+        ],
+        "name": "RandomNumbers",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/randnum.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HJy.webp",
+        "description": "Random - it's life!",
+        "commands": [
+            {
+                "name": "chance",
+                "inline": false,
+                "description": {
+                    "doc": "[args] | A chance for your success!"
+                }
+            },
+            {
+                "name": "random",
+                "inline": false,
+                "description": {
+                    "doc": "!cfg | random number"
+                }
+            },
+            {
+                "name": "ship",
+                "inline": false,
+                "description": {
+                    "doc": "| Ship from iris?"
+                }
+            },
+            {
+                "name": "randuser",
+                "inline": false,
+                "description": {
+                    "doc": "| Random user!"
+                }
+            }
+        ],
+        "name": "Randomizer",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/randomizer.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://kappa.lol/p3wVI",
+        "description": "| module to send messages",
+        "commands": [
+            {
+                "name": "send",
+                "inline": false,
+                "description": {
+                    "doc": "[user] [text] | Send message to user"
+                }
+            },
+            {
+                "name": "sendsm",
+                "inline": false,
+                "description": {
+                    "doc": "[reply or text] | send message to saved messages"
+                }
+            }
+        ],
+        "name": "Send",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/send.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
+        "pic": "https://envs.sh/HoD.webp",
+        "description": "Module to run speedtest using speedtest library",
+        "commands": [
+            {
+                "name": "speedtest",
+                "inline": false,
+                "description": {
+                    "doc": "Speedtest of your server internet"
+                }
+            }
+        ],
+        "name": "SpeedTest",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/speedtest.py"
+    },
+    {
+        "author": "@codrago_m",
+        "banner": "https://mods.codrago.top/banners/whoyou.png",
+        "pic": "https://0x0.st/s/1Ygc1jQQyLJJ2f0Z1vyJ6w/8KPF.webp",
+        "description": "Who you? Who i'm? Who all in this world?",
+        "commands": [
+            {
+                "name": "question",
+                "inline": false,
+                "description": {
+                    "doc": "Answer the question asked in the config!"
+                }
+            }
+        ],
+        "name": "WhoYou",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/whoyou.py"
+    },
+    {
         "author": "@codermasochist & @makimalove",
         "description": "кидает ахуенные эдиты. by @codermasochist",
         "commands": [
