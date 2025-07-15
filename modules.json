@@ -26977,6 +26977,22 @@
     },
     {
         "author": "@pymodule",
+        "description": "Creates a sticker pack from photos and video avatars of participants",
+        "commands": [
+            {
+                "name": "createavatars",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Создать стикерпак из аватаров пользователей группы",
+                    "doc": "- Create a sticker pack from the avatars of users in the group"
+                }
+            }
+        ],
+        "name": "CreateAvatarsPack",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/createavatarspack.py"
+    },
+    {
+        "author": "@pymodule",
         "description": "Makes your messages extra cute with adorable styles!",
         "commands": [
             {
