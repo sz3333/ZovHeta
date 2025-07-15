@@ -20516,7 +20516,8 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/MaillingChatGT99.py"
     },
     {
-        "description": "Neko-редактор сообщений | Владелец: @SstAngelStar",
+        "author": "@SenkoGuardianModules",
+        "description": "Neko-редактор сообщений | Владелецы: @SstAngelStar × @ilovesenko ",
         "commands": [
             {
                 "name": "nekoed",
