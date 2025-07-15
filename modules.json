@@ -20516,6 +20516,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/MaillingChatGT99.py"
     },
     {
+        "description": "Neko-редактор сообщений | Владелец: @SstAngelStar",
+        "commands": [
+            {
+                "name": "nekoed",
+                "inline": false,
+                "description": {
+                    "doc": "Управление Neko-режимом | .nekoed [on/off]"
+                }
+            }
+        ],
+        "name": "NekoEditor",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/NekoEditorMod.py"
+    },
+    {
         "description": "Show userbot info",
         "commands": [
             {
@@ -33216,6 +33230,23 @@
         ],
         "name": "TimeInNick",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/TimeNick.py"
+    },
+    {
+        "author": "@Toxano_Modules",
+        "banner": "https://i.ibb.co/S7f3RT0Y/image-10097.jpg",
+        "description": "говно поиск аниме по скрину (новые аниме не ищит) ",
+        "commands": [
+            {
+                "name": "animefinder",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Найти аниме по изображению",
+                    "doc": "Find anime by image"
+                }
+            }
+        ],
+        "name": "AnimeFinder",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/animefindermod.py"
     },
     {
         "author": "@Toxano_Modules",
