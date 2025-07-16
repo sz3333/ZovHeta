@@ -12174,6 +12174,57 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Godusers19/models/userid.py"
     },
     {
+        "author": "@Hikimuro",
+        "description": "Отправляет случайное изображение с fapreactor.com по категории",
+        "commands": [
+            {
+                "name": "setfapcategory",
+                "inline": false,
+                "description": {
+                    "doc": "Устанавливает категорию (раздел)"
+                }
+            },
+            {
+                "name": "fap",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет рандомное изображение с fapreactor.com"
+                }
+            }
+        ],
+        "name": "FapReactor",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Fapreactor.py"
+    },
+    {
+        "author": "@Hikimuro",
+        "description": "Модуль для общения с Gemini AI",
+        "commands": [
+            {
+                "name": "gemini",
+                "inline": false,
+                "description": {
+                    "doc": "<reply to photo / text> — отправить запрос к Gemini."
+                }
+            }
+        ],
+        "name": "gemini",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Gemini.py"
+    },
+    {
+        "author": "@FMHbJ",
+        "commands": [
+            {
+                "name": "setwelcome",
+                "inline": false,
+                "description": {
+                    "doc": "Настроить приветствие. Используй в чате:\n\n.setwelcome Текст приветствия"
+                }
+            }
+        ],
+        "name": "WelcomeMessage",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Welcome.py"
+    },
+    {
         "author": "@HikkTutor",
         "description": "Модуль для создания ASCII артов из фото, стикеров и текста",
         "commands": [
