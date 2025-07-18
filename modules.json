@@ -12175,7 +12175,7 @@
     },
     {
         "author": "@Hikimuro",
-        "description": "Отправляет случайное изображение с fapreactor.com по категории",
+        "description": "Отправляет случайное NSFW изображение с fapreactor.com по категории",
         "commands": [
             {
                 "name": "setfapcategory",
@@ -12188,7 +12188,7 @@
                 "name": "fap",
                 "inline": false,
                 "description": {
-                    "doc": "Отправляет рандомное изображение с fapreactor.com"
+                    "doc": "Отправляет рандомное NSFW изображение с fapreactor.com"
                 }
             }
         ],
@@ -33224,6 +33224,23 @@
     },
     {
         "author": "@Toxano_Modules",
+        "description": "кидает что было пока ты отходил",
+        "commands": [
+            {
+                "name": "ch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать всё, что происходило пока ты отошёл. Можно указать @username или реплай.",
+                    "en_doc": "Show what happened while you were away. Use @username or reply to filter.",
+                    "doc": ".ch (@username / reply) — конкретный юзер\n.ch — вся история"
+                }
+            }
+        ],
+        "name": "HistAI",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/HistAi.py"
+    },
+    {
+        "author": "@Toxano_Modules",
         "banner": "https://envs.sh/Nma.jpg",
         "description": "Rule34 medie",
         "commands": [
@@ -34239,43 +34256,6 @@
         ],
         "name": "AutomaticTranslator",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/AutomaticTranslator.py"
-    },
-    {
-        "author": "@mead0wssMods",
-        "banner": "https://x0.at/GGCl.png",
-        "description": "Модуль для работы с нейросетями.",
-        "commands": [
-            {
-                "name": "gpt",
-                "inline": false,
-                "description": {
-                    "doc": "- Разговор с ИИ."
-                }
-            },
-            {
-                "name": "clearmem",
-                "inline": false,
-                "description": {
-                    "doc": "- Очистить память."
-                }
-            },
-            {
-                "name": "meminfo",
-                "inline": false,
-                "description": {
-                    "doc": "- Информация о памяти."
-                }
-            },
-            {
-                "name": "image",
-                "inline": false,
-                "description": {
-                    "doc": "- Генерация изображений с помощью ИИ."
-                }
-            }
-        ],
-        "name": "ChatGPT",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/ChatGPT.py"
     },
     {
         "author": "@mead0wssMods",
