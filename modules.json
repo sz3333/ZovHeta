@@ -33224,15 +33224,14 @@
     },
     {
         "author": "@Toxano_Modules",
-        "description": "кидает что было пока ты отходил",
+        "description": "Summarises what you missed while you were away.",
         "commands": [
             {
                 "name": "ch",
                 "inline": false,
                 "description": {
                     "ru_doc": "Показать всё, что происходило пока ты отошёл. Можно указать @username или реплай.",
-                    "en_doc": "Show what happened while you were away. Use @username or reply to filter.",
-                    "doc": ".ch (@username / reply) — конкретный юзер\n.ch — вся история"
+                    "en_doc": "Show what happened while you were away. Use @username or reply to filter."
                 }
             }
         ],
