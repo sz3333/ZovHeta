@@ -12196,20 +12196,14 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Fapreactor.py"
     },
     {
-        "description": "Копирует сообщения из других чатов/каналов, включая закрытые",
+        "author": "@Hikimuro, @kf_ic3peak",
+        "description": "Модуль для пересылки сообщений из каналов с обходом защиты",
         "commands": [
             {
                 "name": "fh",
                 "inline": false,
                 "description": {
-                    "doc": "<chat_id> <кол-во> — копировать сообщения в текущий чат (обход запрета пересылки)"
-                }
-            },
-            {
-                "name": "getid",
-                "inline": false,
-                "description": {
-                    "doc": "[username или пусто] — получить chat_id канала, группы или чата"
+                    "doc": "<chat_id> <количество> — пересылка последних N сообщений из канала"
                 }
             },
             {
@@ -12217,6 +12211,13 @@
                 "inline": false,
                 "description": {
                     "doc": "— показать список всех каналов и супергрупп, включая закрытые"
+                }
+            },
+            {
+                "name": "getid",
+                "inline": false,
+                "description": {
+                    "doc": "— получить ID текущего чата"
                 }
             }
         ],
