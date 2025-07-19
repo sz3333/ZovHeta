@@ -12196,6 +12196,34 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Fapreactor.py"
     },
     {
+        "description": "Копирует сообщения из других чатов/каналов, включая закрытые",
+        "commands": [
+            {
+                "name": "fh",
+                "inline": false,
+                "description": {
+                    "doc": "<chat_id> <кол-во> — копировать сообщения в текущий чат (обход запрета пересылки)"
+                }
+            },
+            {
+                "name": "getid",
+                "inline": false,
+                "description": {
+                    "doc": "[username или пусто] — получить chat_id канала, группы или чата"
+                }
+            },
+            {
+                "name": "listch",
+                "inline": false,
+                "description": {
+                    "doc": "— показать список всех каналов и супергрупп, включая закрытые"
+                }
+            }
+        ],
+        "name": "ForwardHidden",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/ForwardHidden.py"
+    },
+    {
         "author": "@Hikimuro",
         "description": "Модуль для общения с Gemini AI",
         "commands": [
