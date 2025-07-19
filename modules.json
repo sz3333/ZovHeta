@@ -12175,7 +12175,7 @@
     },
     {
         "author": "@Hikimuro",
-        "description": "FapReactor:\n Отправляет случайное NSFW изображение с fapreactor.com по категории\n\n▫️ -fap Отправляет рандомное NSFW изображение с fapreactor.com  \n▫️ -setfapcategory Устанавливает категорию (раздел)\n    ",
+        "description": "FapReactor:\n Отправляет случайное NSFW изображение с fapreactor.com по категории\n    ",
         "commands": [
             {
                 "name": "setfapcategory",
