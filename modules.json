@@ -34287,6 +34287,21 @@
     },
     {
         "author": "@mead0wssMods",
+        "description": "Получение статистики отыгранного времени игрока DDNet с ddstats.tw",
+        "commands": [
+            {
+                "name": "ddpt",
+                "inline": false,
+                "description": {
+                    "doc": "<ник> | Получить статистику игрока"
+                }
+            }
+        ],
+        "name": "DDNetPT",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/DDNetPlayerTime.py"
+    },
+    {
+        "author": "@mead0wssMods",
         "banner": "https://x0.at/tYLF.png",
         "description": "Модуль для установки статуса в зависимости от уровня FACEIT CS 2",
         "commands": [
