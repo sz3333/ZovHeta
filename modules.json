@@ -35306,6 +35306,21 @@
     },
     {
         "author": "@angellmodules",
+        "description": "Конвертация изображений в ASCII-арт",
+        "commands": [
+            {
+                "name": "ascii",
+                "inline": false,
+                "description": {
+                    "doc": "<реплай на изображение>"
+                }
+            }
+        ],
+        "name": "ASCIIArt",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/ASCIIArt.py"
+    },
+    {
+        "author": "@angellmodules",
         "description": "Показывает текущую погоду в указанном городе.🍃",
         "commands": [
             {
@@ -38649,6 +38664,21 @@
     },
     {
         "author": "@xuduk",
+        "description": "Кастомный фейк пинг, советую заглянуть в конфиг.",
+        "commands": [
+            {
+                "name": "cpinj",
+                "inline": false,
+                "description": {
+                    "doc": "<ping> - Узнать фейковый пинг вашего юзербота"
+                }
+            }
+        ],
+        "name": "Custom Fake Ping",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xuduk/modules/CustomFakePing.py"
+    },
+    {
+        "author": "@xuduk",
         "description": "Гуглит что-то вместо тебя.",
         "commands": [
             {
@@ -39371,6 +39401,21 @@
     },
     {
         "author": "@yg_modules",
+        "description": "Модуль для отправки сообщений на указанный юзернейм",
+        "commands": [
+            {
+                "name": "sendmsg",
+                "inline": false,
+                "description": {
+                    "doc": "<username> <word> oтправляет сообщение на указанный юзернейм"
+                }
+            }
+        ],
+        "name": "yg_sendmsg",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_sendmsg.py"
+    },
+    {
+        "author": "@yg_modules",
         "description": "Модуль для подкрутки игрового автомата (частое использование может вызвать FloodWait)",
         "commands": [
             {
@@ -39708,6 +39753,96 @@
         ],
         "name": "FAQModule",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zolotarevinc/modules/FAQModule.py"
+    },
+    {
+        "author": "@zolotarevxc",
+        "banner": "https://mods.whypodg.me/badges/irisfarm.jpg",
+        "pic": "https://static.whypodg.me/mods!irisfarm.png",
+        "description": "Модуль для автоматического приветствия новых участников чата",
+        "commands": [
+            {
+                "name": "welon",
+                "inline": false,
+                "description": {
+                    "doc": "Включить автоматическое приветствие новых участников"
+                }
+            },
+            {
+                "name": "weloff",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить автоматическое приветствие новых участников"
+                }
+            }
+        ],
+        "name": "WelcomeModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zolotarevinc/modules/WelcomeMod.py"
+    },
+    {
+        "author": "@zolotarevxc 🌟",
+        "banner": "https://mods.whypodg.me/badges/chatmod.jpg",
+        "pic": "https://static.whypodg.me/mods!chatmod.png",
+        "description": "Модуль для управления чатом с красивыми эмодзи!",
+        "commands": [
+            {
+                "name": "helpmodule",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .helpmodule для отображения помощи по модулю."
+                }
+            },
+            {
+                "name": "userid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .userid <@ или реплай> для отображения ID пользователя."
+                }
+            },
+            {
+                "name": "chatid",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .chatid показывает ID чата."
+                }
+            },
+            {
+                "name": "invite",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .invite <@ или реплай> для приглашения пользователя в чат."
+                }
+            },
+            {
+                "name": "kickme",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .kickme для выхода из чата."
+                }
+            },
+            {
+                "name": "users",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .users для вывода списка пользователей чата 👥"
+                }
+            },
+            {
+                "name": "admins",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .admins для вывода списка администраторов чата 👑"
+                }
+            },
+            {
+                "name": "bots",
+                "inline": false,
+                "description": {
+                    "doc": "Команда .bots для вывода списка ботов чата 🤖"
+                }
+            }
+        ],
+        "name": "ChatModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zolotarevinc/modules/chatmodule.py"
     },
     {
         "author": "@zolotarevxc",
