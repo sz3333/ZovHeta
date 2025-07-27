@@ -20505,6 +20505,21 @@
     },
     {
         "author": "@SenkoGuardianModules",
+        "description": "Парсер пользователей с NFT-подарками в чате.",
+        "commands": [
+            {
+                "name": "giftscan",
+                "inline": false,
+                "description": {
+                    "doc": "Ищет пользователей с NFT-подарками в чате.\nИспользование: .giftscan [лимит] или .giftscan [ID чата] [лимит]"
+                }
+            }
+        ],
+        "name": "GiftFinder",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/GiftFinder.py"
+    },
+    {
+        "author": "@SenkoGuardianModules",
         "description": "Модуль для массовой рассылки сообщений по чатам v5.8.0 (Поддерживает все типы сообщений (кроме цитат))",
         "commands": [
             {
@@ -32270,6 +32285,20 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/translator.py"
     },
     {
+        "description": "Download TikTok videos",
+        "commands": [
+            {
+                "name": "tt",
+                "inline": false,
+                "description": {
+                    "doc": "<url> - Download TikTok video"
+                }
+            }
+        ],
+        "name": "TikTokDl",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/ttdl.py"
+    },
+    {
         "description": "Valute Converter",
         "commands": [
             {
@@ -32626,6 +32655,18 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/vshakal.py"
     },
     {
+        "description": "Uploader",
+        "commands": [
+            {
+                "name": "x0",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "x0 Uploader",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/x0.py"
+    },
+    {
         "description": "Reverse image search via Yandex (he is the best, imho)",
         "commands": [
             {
@@ -32725,6 +32766,21 @@
         ],
         "name": "MsgRate",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/iamnalinor/FTG-modules/msgrate.py"
+    },
+    {
+        "author": "@nalinormods",
+        "description": "Tests your internet speed via speedtest.net",
+        "commands": [
+            {
+                "name": "speedtest",
+                "inline": false,
+                "description": {
+                    "doc": "Run speedtest"
+                }
+            }
+        ],
+        "name": "Speedtest",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/iamnalinor/FTG-modules/speedtest.py"
     },
     {
         "author": "@nalinormods",
@@ -33863,6 +33919,21 @@
         ],
         "name": "KOTNewYear",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTNewYear.py"
+    },
+    {
+        "author": "@codeer_kot",
+        "description": "модуль, который отправляет рандом видио с зимой",
+        "commands": [
+            {
+                "name": "win",
+                "inline": false,
+                "description": {
+                    "doc": "- вывести медиа с зимним вайбом."
+                }
+            }
+        ],
+        "name": "KotWinter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kotenochekk/codeer_kot/KOTWinter.py"
     },
     {
         "author": "@codeer_kot",
@@ -35182,6 +35253,28 @@
     },
     {
         "author": "@qq_shark && @SharkHostBot",
+        "description": "Конвертор аудио и голосовых (by @qq_shark).\n\nПоддерживаемые форматы аудио: mp3, m4a, ogg, mpeg, wav, oga, 3gp.",
+        "commands": [
+            {
+                "name": "tovoice",
+                "inline": false,
+                "description": {
+                    "doc": "- <reply to media> \nКонвертировать аудио/видео в голосовое."
+                }
+            },
+            {
+                "name": "toformat",
+                "inline": false,
+                "description": {
+                    "doc": "- <replay to media> [format] [url_cover/none]\n[name]\n[author]"
+                }
+            }
+        ],
+        "name": "AudioConverter",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/AudioConvertor.py"
+    },
+    {
+        "author": "@qq_shark && @SharkHostBot",
         "description": "Always Online - модуль вечного онлайна (by @qq_shark).",
         "commands": [
             {
@@ -35493,6 +35586,28 @@
         ],
         "name": "AutoAdd-On",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/AutoAdd-on.py"
+    },
+    {
+        "author": "@ScreamDev",
+        "description": "Модуль для авто замены ПОТУЖНО на жирный только если сообщение содержит 'потужно'. Переписанный модуль @Foxy437",
+        "commands": [
+            {
+                "name": "on_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Включить авто замену ПОТУЖНО на жирный."
+                }
+            },
+            {
+                "name": "off_bold",
+                "inline": false,
+                "description": {
+                    "doc": "Выключить авто замену ПОТУЖНО на жирный."
+                }
+            }
+        ],
+        "name": "PotuznoBold",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/BoldPotuzno.py"
     },
     {
         "author": "@ScreamDev, yg_modules",
@@ -36117,6 +36232,20 @@
     },
     {
         "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_codeformat.png?raw=true",
+        "description": "Format your code!",
+        "commands": [
+            {
+                "name": "code",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "CodeFormat",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/codeformat.py"
+    },
+    {
+        "author": "@sqlmerr_m",
         "banner": "https://github.com/sqlmerr/hikka_mods/blob/main/assets/banners/currencyconverter.png?raw=true",
         "description": "Module for converting a large number of currencies to other currencies",
         "commands": [
@@ -36239,6 +36368,22 @@
         ],
         "name": "QuickTools",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/quicktools.py"
+    },
+    {
+        "author": "@sqlmerr_m",
+        "banner": "https://github.com/sqlmerr/sqlmerr/blob/main/assets/hikka_mods/sqlmerrmodules_randomemoji.png?raw=true",
+        "description": "Just random emojis",
+        "commands": [
+            {
+                "name": "random_emoji",
+                "inline": false,
+                "description": {
+                    "doc": "Random emoji"
+                }
+            }
+        ],
+        "name": "RandomEmoji",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sqlmerr/hikka_mods/random_emoji.py"
     },
     {
         "author": "@sqlmerr_m",
@@ -36773,6 +36918,21 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/CheckMods.py"
     },
     {
+        "author": "@limokanews",
+        "description": "Hikka modules are now in one place with easy searching!",
+        "commands": [
+            {
+                "name": "limoka",
+                "inline": false,
+                "description": {
+                    "doc": "[query] - Search module"
+                }
+            }
+        ],
+        "name": "Limoka",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/Limoka.py"
+    },
+    {
         "author": "@vsecoder_m",
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/256/kakashi-hatake.png&title=MangaSlider&description=Read%20manga%20in%20Telegram%20%F0%9F%91%8D",
         "pic": "https://img.icons8.com/color/256/kakashi-hatake.png",
@@ -37008,6 +37168,23 @@
         ],
         "name": "LMFIFY",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/lmfify.py"
+    },
+    {
+        "author": "@vsecoder_m",
+        "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-maze-game-development-icongeek26-linear-colour-icongeek26.png&title=MazeMod&description=Telegram%20Maze%20Game",
+        "pic": "https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/344/external-maze-game-development-icongeek26-linear-colour-icongeek26.png",
+        "description": "Module for play maze",
+        "commands": [
+            {
+                "name": "maze",
+                "inline": false,
+                "description": {
+                    "doc": "- generate maze and start play\nBased on... my code)"
+                }
+            }
+        ],
+        "name": "MazeMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/mazemod.py"
     },
     {
         "author": "@vsecoder_m",
@@ -37310,6 +37487,21 @@
         ],
         "name": "DeleterMod",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/deleter.py"
+    },
+    {
+        "author": "@wmodules",
+        "description": "Модуль на фанстат, использует бота @fanstarttt_bot чтобы получить ответ.",
+        "commands": [
+            {
+                "name": "funstat",
+                "inline": false,
+                "description": {
+                    "doc": "Отправляет команду фанстату."
+                }
+            }
+        ],
+        "name": "FunstatMod",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/funstat.py"
     },
     {
         "author": "@wmodules",
