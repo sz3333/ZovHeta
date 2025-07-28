@@ -5389,43 +5389,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Compliments.py"
     },
     {
-        "author": "@AstroModules, @HikariMods",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/Emotions.jpg",
-        "description": "Выражение эмоций в чате",
-        "commands": [
-            {
-                "name": "emogo",
-                "inline": false,
-                "description": {
-                    "doc": "- вкл/выкл эмоции в данном чате"
-                }
-            },
-            {
-                "name": "emoclear",
-                "inline": false,
-                "description": {
-                    "doc": "<y> - сбросить список эмоций"
-                }
-            },
-            {
-                "name": "emolist",
-                "inline": false,
-                "description": {
-                    "doc": "- список доступных эмоций"
-                }
-            },
-            {
-                "name": "emo",
-                "inline": false,
-                "description": {
-                    "doc": "<символ|слово> <эмоция> - добавить эмоцию в базу модуля"
-                }
-            }
-        ],
-        "name": "Emotions",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Emotions.py"
-    },
-    {
         "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/PasswordGenerator.jpg",
         "description": "Random password/pincode generator",
