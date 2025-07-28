@@ -14808,20 +14808,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/admin_tools.py"
     },
     {
-        "description": "Кукулирует вырожения",
-        "commands": [
-            {
-                "name": "calc",
-                "inline": false,
-                "description": {
-                    "doc": ".calc <выражение или реплай на то, что нужно посчитать>\nКстати:\n** - возвести в степень\n/ - деление\n% - деление по модулю"
-                }
-            }
-        ],
-        "name": "Кукулятор",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/calc.py"
-    },
-    {
         "description": "Выполняет команду в канале",
         "commands": [
             {
@@ -15197,20 +15183,6 @@
         ],
         "name": "print",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/print.py"
-    },
-    {
-        "description": "более точный пинг",
-        "commands": [
-            {
-                "name": "ping",
-                "inline": false,
-                "description": {
-                    "doc": "пингует"
-                }
-            }
-        ],
-        "name": "PingerХуингер",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pung.py"
     },
     {
         "description": "Deletes your messages",
@@ -19108,28 +19080,6 @@
     },
     {
         "author": "@RUIS_VlP",
-        "description": "Модуль для разбана всех пользователей в чате или в лс (амнистия)",
-        "commands": [
-            {
-                "name": "amnesty",
-                "inline": false,
-                "description": {
-                    "doc": "- разблокирует всех в чате"
-                }
-            },
-            {
-                "name": "amnistia",
-                "inline": false,
-                "description": {
-                    "doc": "- разблокирует всех в лс"
-                }
-            }
-        ],
-        "name": "Amnesty",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/Amnesty.py"
-    },
-    {
-        "author": "@RUIS_VlP",
         "description": "Модуль для отправки DNS запросов ",
         "commands": [
             {
@@ -19610,20 +19560,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/search.py"
     },
     {
-        "author": "@RUIS_VlP",
-        "commands": [
-            {
-                "name": "spellcheck",
-                "inline": false,
-                "description": {
-                    "doc": "Проверить орфографию текста.\n\nИспользование:\n.spellcheck [текст] - проверка указанного текста.\n.spellcheck -r - проверка текста из реплая."
-                }
-            }
-        ],
-        "name": "Speller",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/spellchecker.py"
-    },
-    {
         "author": "Пидорас",
         "commands": [
             {
@@ -19732,87 +19668,6 @@
         ],
         "name": "YouTube-DLD",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/youtube-loader.py"
-    },
-    {
-        "description": "Делает надстрочный текст",
-        "commands": [
-            {
-                "name": "up",
-                "inline": false,
-                "description": {
-                    "doc": "<text> - сделать верхний шрифт"
-                }
-            }
-        ],
-        "name": "Надстрочка",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/Надстрочка.py"
-    },
-    {
-        "commands": [
-            {
-                "name": "pm",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .pm : чтобы включить/отключить авто ответ на личные сообщения."
-                }
-            },
-            {
-                "name": "allow",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .allow чтобы разрешить этому пользователю писать вам в личку."
-                }
-            },
-            {
-                "name": "deny",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .deny чтобы запретить этому пользователю писать вам в личку."
-                }
-            },
-            {
-                "name": "allowed",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .allowed : чтобы посмотреть список пользователей которым вы разрешили писать в личку."
-                }
-            },
-            {
-                "name": "block",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .block чтобы заблокировать этого пользователя."
-                }
-            },
-            {
-                "name": "unblock",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .unblock чтобы разблокировать этого пользователя."
-                }
-            },
-            {
-                "name": "addcont",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .addcont чтобы добавить пользователя в свои контакты."
-                }
-            },
-            {
-                "name": "delcont",
-                "inline": false,
-                "description": {
-                    "doc": "Используй: .delcont чтобы удалить пользователя из своих контактов."
-                }
-            },
-            {
-                "name": "rename",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Anti-PM",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SekaiYoneya/Friendly-telegram/Anti-PM.py"
     },
     {
         "description": "Конвертирование в разные форматы",
@@ -23111,23 +22966,6 @@
         "author": "@apodiktum_modules",
         "banner": "https://t.me/apodiktum_dumpster/11",
         "pic": "https://t.me/apodiktum_dumpster/13",
-        "description": "This module automatically respond to messages with unknown languages.",
-        "commands": [
-            {
-                "name": "clangreplier",
-                "inline": false,
-                "description": {
-                    "doc": "This will open the config for the module."
-                }
-            }
-        ],
-        "name": "Apo-LangReplier",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/langreplier.py"
-    },
-    {
-        "author": "@apodiktum_modules",
-        "banner": "https://t.me/apodiktum_dumpster/11",
-        "pic": "https://t.me/apodiktum_dumpster/13",
         "description": "Telegram Login Code Reciever",
         "commands": [
             {
@@ -23343,34 +23181,6 @@
         ],
         "name": "Apo-PyPNG",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/pypng.py"
-    },
-    {
-        "description": "Quote a message using Mishase Quotes API",
-        "commands": [
-            {
-                "name": "cquotes",
-                "inline": false,
-                "description": {
-                    "doc": "This will open the config for the module."
-                }
-            },
-            {
-                "name": "quote",
-                "inline": false,
-                "description": {
-                    "doc": "Quote a message. Args: .<count> .file"
-                }
-            },
-            {
-                "name": "fquote",
-                "inline": false,
-                "description": {
-                    "doc": "Fake message quote. Args: @<username>/<id>/<reply> <text>"
-                }
-            }
-        ],
-        "name": "Apo-Quotes",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/quotes.py"
     },
     {
         "author": "@apodiktum_modules",
@@ -24142,37 +23952,6 @@
         ],
         "name": "DelMessTools",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DelMessTools.py"
-    },
-    {
-        "author": "@codrago_m",
-        "banner": "https://raw.githubusercontent.com/coddrago/modules/refs/heads/main/banner.png",
-        "pic": "https://envs.sh/HJM.webp",
-        "description": "Maybe... doxing tool?",
-        "commands": [
-            {
-                "name": "gb",
-                "inline": false,
-                "description": {
-                    "doc": "search in databases eye of god!"
-                }
-            },
-            {
-                "name": "deanon",
-                "inline": false,
-                "description": {
-                    "doc": "Full information of user in global database"
-                }
-            },
-            {
-                "name": "dinfo",
-                "inline": false,
-                "description": {
-                    "doc": "info of module"
-                }
-            }
-        ],
-        "name": "DoxTool",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DoxTool.py"
     },
     {
         "author": "@codrago_m",
@@ -25347,30 +25126,6 @@
         ],
         "name": "MHelp",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/MHelp.py"
-    },
-    {
-        "author": "@mm_mods",
-        "pic": "https://img.icons8.com/stickers/344/block.png",
-        "description": "Protects your account from spam if anyone accessed your account/session.",
-        "commands": [
-            {
-                "name": "mmas",
-                "inline": false,
-                "description": {
-                    "doc": "Toggle the module."
-                }
-            },
-            {
-                "name": "mmaslimit",
-                "inline": false,
-                "description": {
-                    "doc": "Get or set the limit of same messages sent by you."
-                }
-            }
-        ],
-        "name": "MMAS",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/MMAS.py"
     },
     {
         "author": "@mm_mods",
@@ -27089,29 +26844,6 @@
     },
     {
         "author": "@pymodule",
-        "description": "Makes your messages extra cute with adorable styles!",
-        "commands": [
-            {
-                "name": "cutemessages",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Включение или выключение CuteMessages.",
-                    "doc": "Toggle CuteMessages on or off."
-                }
-            },
-            {
-                "name": "cutemessages_settings",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Просмотр и изменение настроек CuteMessages."
-                }
-            }
-        ],
-        "name": "CuteMessages",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/cutemessages.py"
-    },
-    {
-        "author": "@pymodule",
         "description": "Scan a domain / Сканирование домена",
         "commands": [
             {
@@ -28741,30 +28473,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/inline_spotify.jpg",
-        "pic": "https://img.icons8.com/color/480/000000/playstation-buttons.png",
-        "description": "EXTENSION for SpotifyNow mod, that allows you to send interactive player.",
-        "commands": [
-            {
-                "name": "splayer",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Отправляет интерактивный плеер Spotify (активен в течение 5 минут!)",
-                    "it_doc": "Invia un player interattivo di Spotify (attivo per 5 minuti!)",
-                    "de_doc": "Sendet einen interaktiven Spotify-Player (aktiv für 5 Minuten!)",
-                    "tr_doc": "Etkin Spotify oynatıcı gönderir (5 dakika boyunca aktif!)",
-                    "uz_doc": "Faol Spotify oynatuvchisini yuboradi (5 daqiqada aktiv!)",
-                    "es_doc": "Envía un reproductor interactivo de Spotify (activo durante 5 minutos!)",
-                    "kk_doc": "Интерактивті Spotify ойындысын жібереді (5 минутта актив!)",
-                    "doc": "Send interactive Spotify player (active only for 5 minutes!)"
-                }
-            }
-        ],
-        "name": "InlineSpotify",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inline_spotify.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/insult.jpg",
         "pic": "https://img.icons8.com/color/480/000000/angry--v1.png",
         "description": "If you need to insult but to be intelligent",
@@ -29621,28 +29329,6 @@
         ],
         "name": "SpellCheck",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/speller.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/spoilers.jpg",
-        "pic": "https://img.icons8.com/external-sketchy-juicy-fish/480/000000/external-anonymous-cryptography-sketchy-sketchy-juicy-fish.png",
-        "description": "Create spoilers, that can be accessed only by certain users",
-        "commands": [
-            {
-                "name": "hide",
-                "inline": true,
-                "description": {
-                    "ru_doc": "Создать скрытое сообщение",
-                    "de_doc": "Erstellt eine versteckte Nachricht",
-                    "uz_doc": "Shifrlangan xabar yaratish",
-                    "tr_doc": "Gizli mesaj oluştur",
-                    "hi_doc": "छिपा संदेश बनाएं",
-                    "doc": "Create hidden message"
-                }
-            }
-        ],
-        "name": "Spoilers",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/spoilers.py"
     },
     {
         "author": "@hikarimods",
@@ -32207,41 +31893,6 @@
         ],
         "name": "Terminal",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/terminal.py"
-    },
-    {
-        "description": "Text to speech module",
-        "commands": [
-            {
-                "name": "levitan",
-                "inline": false,
-                "description": {
-                    "doc": "Convert text to speech with levitan voice"
-                }
-            },
-            {
-                "name": "oksana",
-                "inline": false,
-                "description": {
-                    "doc": "Convert text to speech with oksana voice"
-                }
-            },
-            {
-                "name": "yandex",
-                "inline": false,
-                "description": {
-                    "doc": "Convert text to speech with yandex voice"
-                }
-            },
-            {
-                "name": "tts",
-                "inline": false,
-                "description": {
-                    "doc": "Convert text to speech with Google APIs"
-                }
-            }
-        ],
-        "name": "DTTS",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/host/text-to-speech.py"
     },
     {
         "commands": [
