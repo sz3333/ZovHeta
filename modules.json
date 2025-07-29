@@ -557,61 +557,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/animevoices.py"
     },
     {
-        "author": "@hikamorumods, FTG",
-        "description": "Automatic stuff for your profile :P",
-        "commands": [
-            {
-                "name": "cfautoprof",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Что-бы указать таймзону через конфиг",
-                    "doc": "To specify the timezone via the config"
-                }
-            },
-            {
-                "name": "autobio",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Автоматически изменяет биографию вашей учетной записи с учетом текущего времени, использования: .autobio 'сообщение, время как {time}'",
-                    "doc": "Automatically changes your account's bio with current time, usage:\n.autobio 'message, time as {time}'"
-                }
-            },
-            {
-                "name": "stopautobio",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Что-бы остановить время в био введи .stopautobio",
-                    "doc": "Stop autobio cmd."
-                }
-            },
-            {
-                "name": "autoname",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Автоматически изменяет имя вашей учетной записи с учетом текущего времени, использования: .autoname 'сообщение, время как {time}'",
-                    "doc": "Automatically changes your Telegram name with current time, usage:\n.autoname '<message, time as {time}>'"
-                }
-            },
-            {
-                "name": "stopautoname",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Что-бы остановить время в имени учетной записи введи .stopautoname",
-                    "doc": "just write .stopautoname"
-                }
-            },
-            {
-                "name": "aguide",
-                "inline": false,
-                "description": {
-                    "doc": "Just guide ru/en"
-                }
-            }
-        ],
-        "name": "AutoProfile",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/autoprofile.py"
-    },
-    {
         "author": "@hikamorumods",
         "banner": "https://github.com/AmoreForever/assets/blob/master/besafe.jpg?raw=true",
         "description": "Check module before loading",
@@ -1299,22 +1244,6 @@
     },
     {
         "author": "@hikka_mods",
-        "description": "Displays your article Criminal Code of the Russian Federation",
-        "commands": [
-            {
-                "name": "arc",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Отображается ваша статья Уголовного кодекса Российской Федерации",
-                    "en_doc": "Displays your article Criminal Code of the Russian Federation"
-                }
-            }
-        ],
-        "name": "Article",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/Article.py"
-    },
-    {
-        "author": "@hikka_mods",
         "description": "Autofarm in the bot @cookies_game_bot",
         "commands": [
             {
@@ -1384,22 +1313,6 @@
         ],
         "name": "BirthdayTime",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/BirthdayTime.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Checks spam ban for your account.",
-        "commands": [
-            {
-                "name": "spambot",
-                "inline": false,
-                "description": {
-                    "ru_doc": "Проверяет вашу учетную запись на спам-бан с помощью бота @SpamBot",
-                    "en_doc": "Checks your account for spam ban via @SpamBot bot"
-                }
-            }
-        ],
-        "name": "CheckSpamBan",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/CheckSpamBan.py"
     },
     {
         "author": "@hikka_mods",
@@ -2571,22 +2484,6 @@
         ],
         "name": "HikkaHost",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/hikkahost.py"
-    },
-    {
-        "author": "@hikka_mods",
-        "description": "Жаконизатор",
-        "commands": [
-            {
-                "name": "ioni",
-                "inline": false,
-                "description": {
-                    "ru_doc": "<реплай на сообщение/свой текст>",
-                    "en_doc": "<reply to the message/your own text>"
-                }
-            }
-        ],
-        "name": "Жаконизатор",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/jacques.py"
     },
     {
         "author": "@hikka_mods",
@@ -4927,20 +4824,6 @@
     },
     {
         "author": "@D4n13l3k00",
-        "commands": [
-            {
-                "name": "vsh",
-                "inline": false,
-                "description": {
-                    "doc": ".vsh <реплай на видео> <уровень от 1 до 6 (по умолчанию 3)>\nСшакалить видео"
-                }
-            }
-        ],
-        "name": "Video Shakal",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/D4n13l3k00/FTG-Modules/VideoShakal.py"
-    },
-    {
-        "author": "@D4n13l3k00",
         "description": "Распознавание речи через Google Recognition API",
         "commands": [
             {
@@ -5740,57 +5623,6 @@
     },
     {
         "author": "@AstroModules",
-        "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/BrawlStats.jpg",
-        "description": "Brawl Stars Players/Clubs information :)",
-        "commands": [
-            {
-                "name": "get_my_ip",
-                "inline": false,
-                "description": {
-                    "doc": "Получить свой IP-Адрес для получения API-Токен BrawlStarsAPI"
-                }
-            },
-            {
-                "name": "set_bs_api_token",
-                "inline": false,
-                "description": {
-                    "doc": "<api_token> - сохранить свой API-Токен в конфиге модуля."
-                }
-            },
-            {
-                "name": "bs_get_player",
-                "inline": false,
-                "description": {
-                    "doc": "<#player_tag> <#player_tag2> -> получить информацию об игроке/игроках(теги можно через пробел указывать)"
-                }
-            },
-            {
-                "name": "bs_get_club",
-                "inline": false,
-                "description": {
-                    "doc": "<#CLUB_TAG> -> получить информацию о клубе по его #ТЕГУ"
-                }
-            },
-            {
-                "name": "bs_get_club_members",
-                "inline": false,
-                "description": {
-                    "doc": "<#CLUB_TAG> -> получить информацию об участниках клуба по его #ТЕГУ"
-                }
-            },
-            {
-                "name": "bs_get_player_brawlers",
-                "inline": false,
-                "description": {
-                    "doc": "<#player_tag> -> получить информацию о Бравлерах(Бойцах) игрока по его #ТЕГУ"
-                }
-            }
-        ],
-        "name": "BrawlStatsInfo",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/brawl_stats.py"
-    },
-    {
-        "author": "@AstroModules",
         "banner": "https://raw.githubusercontent.com/Den4ikSuperOstryyPer4ik/Astro-modules/main/Banners/HikkaCommandsLogger.jpg",
         "description": "Hikka Commands Logger",
         "commands": [
@@ -6214,28 +6046,6 @@
         ],
         "name": "WordlyHelper",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/wordly.py"
-    },
-    {
-        "author": "@AstroModules",
-        "description": "пон и вахуи",
-        "commands": [
-            {
-                "name": "пон",
-                "inline": false,
-                "description": {
-                    "doc": "--> пон"
-                }
-            },
-            {
-                "name": "вахуи",
-                "inline": false,
-                "description": {
-                    "doc": "--> вахуи"
-                }
-            }
-        ],
-        "name": "ВАХУИ-ПОН",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/вахуи_пон.py"
     },
     {
         "author": "@AstroModules",
