@@ -30505,23 +30505,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/wakatime.jpg",
-        "pic": "https://static.dan.tatar/wakatime_icon.png",
-        "description": "WakaTime widget for your @username_bio channels",
-        "commands": [
-            {
-                "name": "wakatoggle",
-                "inline": false,
-                "description": {
-                    "doc": "Toggle widgets' updates"
-                }
-            }
-        ],
-        "name": "WakaTime",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/wakatime.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/web2file.jpg",
         "pic": "https://img.icons8.com/fluency/240/000000/archive.png",
         "description": "Download content from link and send it as file",
