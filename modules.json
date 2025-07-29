@@ -6985,36 +6985,6 @@
     },
     {
         "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/famod.png?raw=true",
-        "description": "Управление вещами, связанными с @FAmods_Bot",
-        "commands": [
-            {
-                "name": "fmstats",
-                "inline": false,
-                "description": {
-                    "doc": "Просмотр статистики"
-                }
-            },
-            {
-                "name": "fmsearch",
-                "inline": false,
-                "description": {
-                    "doc": "Поиск модуля"
-                }
-            },
-            {
-                "name": "famods",
-                "inline": true,
-                "description": {
-                    "doc": "Поиск модулей"
-                }
-            }
-        ],
-        "name": "Famod",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/famod.py"
-    },
-    {
-        "author": "@FAmods",
         "description": "Установка модулей через @FAmods_Bot",
         "name": "FAmodsSocket",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/famods_socket.py"
@@ -7642,36 +7612,6 @@
         ],
         "name": "Wakatime",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/wakatime.py"
-    },
-    {
-        "author": "@FAmods",
-        "banner": "https://github.com/FajoX1/FAmods/blob/main/assets/banners/xrocket.png?raw=true",
-        "description": "Автоматизация базового функционала @xRocket",
-        "commands": [
-            {
-                "name": "xwallet",
-                "inline": false,
-                "description": {
-                    "doc": "Посмотреть кошелёк"
-                }
-            },
-            {
-                "name": "xinvoice",
-                "inline": false,
-                "description": {
-                    "doc": "Создать счёт"
-                }
-            },
-            {
-                "name": "xcheck",
-                "inline": false,
-                "description": {
-                    "doc": "Создать чек"
-                }
-            }
-        ],
-        "name": "xRocket",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/FajoX1/FAmods/xrocket.py"
     },
     {
         "author": "@FAmods",
@@ -9306,20 +9246,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/file_manager.py"
     },
     {
-        "description": "Это просто фурри порно, какого вообще хуя .",
-        "commands": [
-            {
-                "name": "furryp",
-                "inline": false,
-                "description": {
-                    "doc": "Фурри порно(wtf)\nИспользование: .furryp [photo|video] (можно не указывать для рандома)"
-                }
-            }
-        ],
-        "name": "FurryPorn",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/furryporn.py"
-    },
-    {
         "author": "@mqone",
         "commands": [
             {
@@ -10924,92 +10850,6 @@
         ],
         "name": "GLyrics",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/GLyrics.py"
-    },
-    {
-        "author": "@mm_mods",
-        "pic": "https://img.icons8.com/color/344/input-latin-letters-emoji.png",
-        "description": "Guaranteed to be the most advanced and feature-rich message translation module based on Google Translate,\nwith many useful features.",
-        "commands": [
-            {
-                "name": "autotranslate",
-                "inline": false,
-                "description": {
-                    "doc": "Use language code with this command to add this chat to autotranslate list."
-                }
-            },
-            {
-                "name": "onboardh",
-                "inline": false,
-                "description": {
-                    "doc": "Syntax manual."
-                }
-            },
-            {
-                "name": "dllap",
-                "inline": false,
-                "description": {
-                    "doc": "Downloads languages name pack for entered language. Allows to search languages through .searchlang on your own language."
-                }
-            },
-            {
-                "name": "dellap",
-                "inline": false,
-                "description": {
-                    "doc": "Deletes custom language pack."
-                }
-            },
-            {
-                "name": "deflang",
-                "inline": false,
-                "description": {
-                    "doc": "Use language code with this command to switch basic translation language."
-                }
-            },
-            {
-                "name": "searchlang",
-                "inline": false,
-                "description": {
-                    "doc": "Searching language by code or name (RU and EN names avaliable — if you downloaded others, you may use them; first usage takes some time to configure database)."
-                }
-            },
-            {
-                "name": "silentmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch between silent/unsilent mode."
-                }
-            },
-            {
-                "name": "subsmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch autotranslate subscription mode."
-                }
-            },
-            {
-                "name": "markmode",
-                "inline": false,
-                "description": {
-                    "doc": "Use this command to switch between showing/unshowing «translated» mark."
-                }
-            },
-            {
-                "name": "atlist",
-                "inline": false,
-                "description": {
-                    "doc": "Sends a list of chats, in which autotranslate is turned on."
-                }
-            },
-            {
-                "name": "translate",
-                "inline": false,
-                "description": {
-                    "doc": "In fact, it translates. Use (start;final) to mark the start and end language of the translation.\nLeave the start language blank to define it automatically."
-                }
-            }
-        ],
-        "name": "GoogleTrans",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/GoogleTrans.py"
     },
     {
         "author": "@mm_mods",
@@ -14591,27 +14431,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/OneMessage.py"
     },
     {
-        "description": "Generator and reader of QR codes",
-        "commands": [
-            {
-                "name": "makeqr",
-                "inline": false,
-                "description": {
-                    "doc": ".makeqr <text or reply>"
-                }
-            },
-            {
-                "name": "readqr",
-                "inline": false,
-                "description": {
-                    "doc": ".readqr <qrcode or reply to qrcode>"
-                }
-            }
-        ],
-        "name": "QR tool's",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/QRtools.py"
-    },
-    {
         "description": "каждое слово раз в 100мс",
         "commands": [
             {
@@ -14958,18 +14777,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/dotify.py"
     },
     {
-        "description": "Quote a message",
-        "commands": [
-            {
-                "name": "family",
-                "inline": false,
-                "description": {}
-            }
-        ],
-        "name": "Family",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/family.py"
-    },
-    {
         "description": "filename changer",
         "commands": [
             {
@@ -15294,20 +15101,6 @@
         ],
         "name": "PyDraft",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pydraft.py"
-    },
-    {
-        "description": "Uploader",
-        "commands": [
-            {
-                "name": "pypng",
-                "inline": false,
-                "description": {
-                    "doc": "reply to text code or py file"
-                }
-            }
-        ],
-        "name": "pypng",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KeyZenD/modules/pypng.py"
     },
     {
         "description": "Python stuff",
@@ -19235,28 +19028,6 @@
         ],
         "name": "Figlet",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/Figlet.py"
-    },
-    {
-        "author": "@RUIS_VlP",
-        "description": "Простой генератор ников",
-        "commands": [
-            {
-                "name": "GenNick",
-                "inline": false,
-                "description": {
-                    "doc": "Генерирует стандартный ник"
-                }
-            },
-            {
-                "name": "GenIntNick",
-                "inline": false,
-                "description": {
-                    "doc": "Генерирует ник с цифрами"
-                }
-            }
-        ],
-        "name": "GenNick",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/GenNick.py"
     },
     {
         "author": "@RUIS_VlP",
@@ -25001,22 +24772,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/CoVis.py"
     },
     {
-        "author": "@minimaxno",
-        "pic": "https://img.icons8.com/emoji/344/bullseye.png",
-        "description": "Keeps your chat clean from dices, darts and so on.",
-        "commands": [
-            {
-                "name": "deldice",
-                "inline": false,
-                "description": {
-                    "doc": "Set deleting dices in this chat on/off."
-                }
-            }
-        ],
-        "name": "Dicedestroyer",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/Dicedestroyer.py"
-    },
-    {
         "author": "@mm_mods",
         "pic": "https://img.icons8.com/stickers/256/qr-code.png",
         "description": "Decoding QR codes.",
@@ -26376,22 +26131,6 @@
     },
     {
         "author": "@DorotoroMods",
-        "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroExcuseGenerator.png",
-        "description": "Ваш преданный помощник!",
-        "commands": [
-            {
-                "name": "excuse",
-                "inline": false,
-                "description": {
-                    "doc": "<имя> - генерирует отмазку."
-                }
-            }
-        ],
-        "name": "ExcuseGenerator",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dorotorothequickend/DorotoroModules/ExcuseGenerator.py"
-    },
-    {
-        "author": "@DorotoroMods",
         "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroFkinRickRoll.png",
         "description": "Лучший способ зарикроллить собеседника.",
         "commands": [
@@ -27512,23 +27251,6 @@
         ],
         "name": "AniSearch",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/anisearch.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/anything.jpg",
-        "pic": "https://img.icons8.com/fluency/512/artificial-intelligence.png",
-        "description": "Draws ANYTHING using artificial intelligence. No API key required. 18+ only.",
-        "commands": [
-            {
-                "name": "draw",
-                "inline": false,
-                "description": {
-                    "doc": "<prompt> [-n <int>] [-comp] [-neg <str>]"
-                }
-            }
-        ],
-        "name": "Anything",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/anything.py"
     },
     {
         "author": "@hikarimods",
@@ -28668,37 +28390,6 @@
     },
     {
         "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/hw.jpg",
-        "pic": "https://static.dan.tatar/hw_icon.png",
-        "description": "Simple Homework planner",
-        "commands": [
-            {
-                "name": "hw",
-                "inline": false,
-                "description": {
-                    "doc": "<item> - New hometask"
-                }
-            },
-            {
-                "name": "hwl",
-                "inline": false,
-                "description": {
-                    "doc": "List of hometasks"
-                }
-            },
-            {
-                "name": "uhw",
-                "inline": false,
-                "description": {
-                    "doc": "<id> - Remove hometask"
-                }
-            }
-        ],
-        "name": "HomeWork",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/hw.py"
-    },
-    {
-        "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/img2pdf.jpg",
         "pic": "https://img.icons8.com/stickers/500/000000/pdf.png",
         "description": "Packs images to pdf",
@@ -28748,44 +28439,6 @@
         ],
         "name": "InlineGhoul",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inline_ghoul.py"
-    },
-    {
-        "author": "@hikarimods",
-        "banner": "https://mods.hikariatama.ru/badges/inline_random.jpg",
-        "pic": "https://img.icons8.com/fluency/240/000000/shuffle.png",
-        "description": "Random tools for your userbot",
-        "commands": [
-            {
-                "name": "coin",
-                "inline": true,
-                "description": {
-                    "doc": "Heads or tails?"
-                }
-            },
-            {
-                "name": "random",
-                "inline": true,
-                "description": {
-                    "doc": "[number] - Send random number less than specified"
-                }
-            },
-            {
-                "name": "choice",
-                "inline": true,
-                "description": {
-                    "doc": "[args, separated by comma] - Make a choice"
-                }
-            },
-            {
-                "name": "person",
-                "inline": true,
-                "description": {
-                    "doc": "This person doesn't exist"
-                }
-            }
-        ],
-        "name": "InlineRandom",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inline_random.py"
     },
     {
         "author": "@hikarimods",
@@ -33660,42 +33313,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/music.py"
     },
     {
-        "author": "@nervousmods",
-        "description": "Searches for various queries in inline bots",
-        "commands": [
-            {
-                "name": "pic",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @pic"
-                }
-            },
-            {
-                "name": "vid",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @vid"
-                }
-            },
-            {
-                "name": "gif",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @gif"
-                }
-            },
-            {
-                "name": "stik",
-                "inline": false,
-                "description": {
-                    "doc": "<emoji> -> search in @sticker"
-                }
-            }
-        ],
-        "name": "Searcher",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/searcher.py"
-    },
-    {
         "author": "@nervousmods, @hikka_mods",
         "description": "Модуль таймер до начала времен года.",
         "commands": [
@@ -35559,42 +35176,6 @@
     },
     {
         "author": "@angellmodules",
-        "description": "Your profile changer",
-        "commands": [
-            {
-                "name": "cname",
-                "inline": false,
-                "description": {
-                    "doc": "<name> — Change display name"
-                }
-            },
-            {
-                "name": "cusern",
-                "inline": false,
-                "description": {
-                    "doc": "<username> — Change username (leave empty to remove)"
-                }
-            },
-            {
-                "name": "cbio",
-                "inline": false,
-                "description": {
-                    "doc": "<bio> — Change bio"
-                }
-            },
-            {
-                "name": "cavatar",
-                "inline": false,
-                "description": {
-                    "doc": "<reply to photo> — Change avatar"
-                }
-            }
-        ],
-        "name": "Profilemanager",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/Profilemanager.py"
-    },
-    {
-        "author": "@angellmodules",
         "description": "Download music from SoundCloud🫀",
         "commands": [
             {
@@ -35820,20 +35401,6 @@
         ],
         "name": "GigaChat Channel",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/archive/ChannelAI.py"
-    },
-    {
-        "description": "Downloader YT module",
-        "commands": [
-            {
-                "name": "dlyt",
-                "inline": false,
-                "description": {
-                    "doc": "YouTubeDownload"
-                }
-            }
-        ],
-        "name": "YTDL",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/archive/YTDL.py"
     },
     {
         "author": "@shadow_modules",
