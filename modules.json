@@ -12700,7 +12700,7 @@
     },
     {
         "author": "@MrAmigoch for @HikkaZPM",
-        "description": "Femboy Modul",
+        "description": "Femboy Module",
         "commands": [
             {
                 "name": "femboy",
@@ -30502,6 +30502,23 @@
         ],
         "name": "Waifu",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/waifu.py"
+    },
+    {
+        "author": "@hikarimods",
+        "banner": "https://mods.hikariatama.ru/badges/wakatime.jpg",
+        "pic": "https://static.dan.tatar/wakatime_icon.png",
+        "description": "WakaTime widget for your @username_bio channels",
+        "commands": [
+            {
+                "name": "wakatoggle",
+                "inline": false,
+                "description": {
+                    "doc": "Toggle widgets' updates"
+                }
+            }
+        ],
+        "name": "WakaTime",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/wakatime.py"
     },
     {
         "author": "@hikarimods",
