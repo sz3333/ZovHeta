@@ -6260,6 +6260,54 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/пон_вахуи.py"
     },
     {
+        "author": "@kelovo",
+        "description": "Уведомляет о новых личных сообщениях и сохраняет исчезающие фото/видео",
+        "commands": [
+            {
+                "name": "load",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Отправляет исчезающее фото/видео",
+                    "doc": "Отправляет исчезающее фото/видео. Ответьте на медиа или прикрепите файл. Пример: .load (ответ на сообщение)"
+                }
+            },
+            {
+                "name": "pmnoff",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить PMNotifier",
+                    "doc": "Включить/выключить PMNotifier"
+                }
+            },
+            {
+                "name": "pmnignore",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Добавить/удалить чат из игнора",
+                    "doc": "Добавить/удалить чат из игнора. Ответьте на сообщение или укажите ID"
+                }
+            },
+            {
+                "name": "pmnmedia",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Включить/выключить сохранение медиа",
+                    "doc": "Включить/выключить сохранение медиа"
+                }
+            },
+            {
+                "name": "pmlist",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать игнор-лист",
+                    "doc": "Показать игнор-лист"
+                }
+            }
+        ],
+        "name": "PMNotifier",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Dissy-code/modules/PMNotifier.py"
+    },
+    {
         "author": "@ElonModules",
         "description": "Модуль для получения информации о профиле игрока DDraceNetwork и KOG",
         "commands": [
@@ -33268,7 +33316,7 @@
     },
     {
         "author": "@Toxano_Modules",
-        "description": "Summarises what you missed while you were away.",
+        "description": "кидает что было пока ты отходил",
         "commands": [
             {
                 "name": "ch",
@@ -35303,6 +35351,55 @@
         ],
         "name": "media2gif",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/media2gif.py"
+    },
+    {
+        "author": "@EXPERT_CATPON && @SharkHostBot",
+        "commands": [
+            {
+                "name": "sstatus",
+                "inline": false,
+                "description": {
+                    "ru_doc": "[код] - Показать статус серверов"
+                }
+            },
+            {
+                "name": "scheck",
+                "inline": false,
+                "description": {
+                    "ru_doc": "<reply/ID/юзернейм> - Показать информацию о пользователе"
+                }
+            },
+            {
+                "name": "smanage",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Открыть меню управления юзерботом"
+                }
+            },
+            {
+                "name": "sstart",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Запустить юзербота"
+                }
+            },
+            {
+                "name": "sstop",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Остановить юзербота"
+                }
+            },
+            {
+                "name": "srestart",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Перезапустить юзербота"
+                }
+            }
+        ],
+        "name": "SharkHost",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqsharki4/SharkHostModules/SharkHost.py"
     },
     {
         "author": "@angellmodules",
@@ -38237,6 +38334,28 @@
     },
     {
         "author": "@xdesai",
+        "description": "Profile Photo Repeater Module",
+        "commands": [
+            {
+                "name": "pfp",
+                "inline": false,
+                "description": {
+                    "doc": "Start repeating profile photo"
+                }
+            },
+            {
+                "name": "pfpstop",
+                "inline": false,
+                "description": {
+                    "doc": "Stop repeating profile photo"
+                }
+            }
+        ],
+        "name": "PfpRepeater",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/PfpRepeater.py"
+    },
+    {
+        "author": "@xdesai",
         "commands": [
             {
                 "name": "whisper",
@@ -38322,6 +38441,37 @@
         ],
         "name": "Accstat",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/accstat.py"
+    },
+    {
+        "author": "@xdesai",
+        "commands": [
+            {
+                "name": "restorealiases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Ресторнуть алиасы из конфига",
+                    "doc": "Restore aliases from config"
+                }
+            },
+            {
+                "name": "clearaliases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Очистить все алиасы",
+                    "doc": "Clear aliases"
+                }
+            },
+            {
+                "name": "backupaliases",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Резервное копирование алиасов",
+                    "doc": "Backup aliases"
+                }
+            }
+        ],
+        "name": "AliasManager",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/xdesai96/modules/aliasmanager.py"
     },
     {
         "author": "@xdesai",
