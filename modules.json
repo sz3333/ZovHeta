@@ -12756,6 +12756,11 @@
                 "description": {
                     "doc": "Включить/выключить режим фембоя"
                 }
+            },
+            {
+                "name": "watcher",
+                "inline": false,
+                "description": {}
             }
         ],
         "name": "FemBoy",
@@ -20467,84 +20472,105 @@
                 "name": "g",
                 "inline": false,
                 "description": {
-                    "doc": "[текст или reply] — спросить у Gemini"
+                    "doc": "[текст или reply] — спросить у Gemini. Может анализировать ссылки."
+                }
+            },
+            {
+                "name": "gch",
+                "inline": false,
+                "description": {
+                    "doc": "<[id чата]> <кол-во> <вопрос> - Проанализировать историю чата."
+                }
+            },
+            {
+                "name": "gauto",
+                "inline": false,
+                "description": {
+                    "doc": "<on/off> — Включить/выключить режим авто-ответа в чате."
+                }
+            },
+            {
+                "name": "gautochats",
+                "inline": false,
+                "description": {
+                    "doc": "— Показать чаты с активным режимом авто-ответа."
                 }
             },
             {
                 "name": "gclear",
                 "inline": false,
                 "description": {
-                    "doc": "— очистить память в этом чате"
-                }
-            },
-            {
-                "name": "gmemchats",
-                "inline": false,
-                "description": {
-                    "doc": "— показать чаты с памятью"
-                }
-            },
-            {
-                "name": "gmodel",
-                "inline": false,
-                "description": {
-                    "doc": "[model или пусто] — узнать/сменить модель"
-                }
-            },
-            {
-                "name": "gmemoff",
-                "inline": false,
-                "description": {
-                    "doc": "— отключить память в этом чате"
-                }
-            },
-            {
-                "name": "gmemon",
-                "inline": false,
-                "description": {
-                    "doc": "— включить память в этом чате"
-                }
-            },
-            {
-                "name": "gmemexport",
-                "inline": false,
-                "description": {
-                    "doc": "— экспортировать историю чата в файл"
-                }
-            },
-            {
-                "name": "gmemimport",
-                "inline": false,
-                "description": {
-                    "doc": "— импортировать историю из файла (ответом на файл)"
-                }
-            },
-            {
-                "name": "gmemfind",
-                "inline": false,
-                "description": {
-                    "doc": "[ключ] — поиск по истории чата"
+                    "doc": "[auto] — очистить память в чате. auto для памяти gauto."
                 }
             },
             {
                 "name": "gmemdel",
                 "inline": false,
                 "description": {
-                    "doc": "[N] — удалить последние N ПАР сообщений из памяти."
+                    "doc": "[N] — удалить последние N пар сообщений из памяти."
+                }
+            },
+            {
+                "name": "gmemchats",
+                "inline": false,
+                "description": {
+                    "doc": "— Показать список чатов с активной памятью (имя и ID)."
+                }
+            },
+            {
+                "name": "gmemexport",
+                "inline": false,
+                "description": {
+                    "doc": "[auto] — экспортировать историю чата. auto для истории gauto."
+                }
+            },
+            {
+                "name": "gmemimport",
+                "inline": false,
+                "description": {
+                    "doc": "[auto] — импорт истории из файла (ответом). auto для gauto."
+                }
+            },
+            {
+                "name": "gmemfind",
+                "inline": false,
+                "description": {
+                    "doc": "[слово] — Поиск по истории текущего чата по ключевому слову или фразе."
+                }
+            },
+            {
+                "name": "gmemoff",
+                "inline": false,
+                "description": {
+                    "doc": "— Отключить память в этом чате"
+                }
+            },
+            {
+                "name": "gmemon",
+                "inline": false,
+                "description": {
+                    "doc": "— Включить память в этом чате"
                 }
             },
             {
                 "name": "gmemshow",
                 "inline": false,
                 "description": {
-                    "doc": "— показать историю чата (до 20 последних)"
+                    "doc": "[auto] — Показать память чата (до 20 последних запросов). auto для gauto."
+                }
+            },
+            {
+                "name": "gmodel",
+                "inline": false,
+                "description": {
+                    "doc": "[model или пусто] — Узнать/сменить модель"
                 }
             },
             {
                 "name": "gres",
                 "inline": false,
                 "description": {
-                    "doc": "— Очистить ВСЮ память Gemini во всех чатах."
+                    "doc": "[auto] — Очистить ВСЮ память. auto для всей памяти gauto."
                 }
             }
         ],
