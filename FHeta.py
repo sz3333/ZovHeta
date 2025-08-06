@@ -1,6 +1,6 @@
-__version__ = (9, 1, 3)
+__version__ = (9, 1, 4)
 # meta developer: @Fixyres
-# change-log: Now the module ratings and the number of installations affect its place in the result, I explain how the system works: 👍 = +7, 👎 = -5, Install = +1, Uninstall = -1
+# change-log: 🧠 Now using AI-based search, FHeta has migrated to new server, bug fix.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -17,7 +17,7 @@ __version__ = (9, 1, 3)
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
-import requests, asyncio, aiohttp, json, io, inspect, difflib, re
+import asyncio, aiohttp, json, io, inspect, ssl, difflib
 from .. import loader, utils, main
 from hikkatl.types import Message
 from ..types import InlineCall, InlineQuery
@@ -37,7 +37,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Commands:</b>\n{commands_list}",
         "description": "\n📁 <b>Description:</b> {description}",
         "result": "🔎 <b>Result {index}/{tm} by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b><code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Error.</b>",
         "closest_match": "🔎 <b>Result by query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>by </b><code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
@@ -52,11 +51,9 @@ class FHeta(loader.Module):
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "♥️ Smart search via AI (search speed ±10 seconds, works only for search via command)"        
     }
 
     strings_ru = {
-        "name": "FHeta",
         "search": "🔎 <b>Поиск...</b>",
         "no_query": "❌ <b>Введите запрос для поиска.</b>",
         "no_modules_found": "❌ <b>Модули не найдены.</b>",
@@ -65,7 +62,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Команды:</b>\n{commands_list}",
         "description": "\n📁 <b>Описание:</b> {description}",
         "result": "🔎 <b>Результат {index}/{tm} по запросу:</b> <code>{query}</code>\n<code>{module_name}</code><b> от</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Ошибка.</b>",
         "closest_match": "🔎 <b>Результат по запросу:</b> <code>{query}</code>\n<code>{module_name}</code> <b>от</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Инлайн команды:</b>\n{inline_list}",
         "language": "ru_doc",
@@ -80,11 +76,9 @@ class FHeta(loader.Module):
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
         "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "♥️ Умный поиск через ИИ (скорость поиска ±10 секунд, работает только на поиск через команду)"        
     }
 
     strings_ua = {
-        "name": "FHeta",
         "search": "🔎 <b>Пошук...</b>",
         "no_query": "❌ <b>Введіть запит для пошуку.</b>",
         "no_modules_found": "❌ <b>Модулі не знайдені.</b>",
@@ -93,7 +87,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Команди:</b>\n{commands_list}",
         "description": "\n📁 <b>Опис:</b> {description}",
         "result": "🔎 <b>Результат {index}/{tm} за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> <b>від</b> <code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Помилка.</b>",
         "closest_match": "🔎 <b>Результат за запитом:</b> <code>{query}</code>\n<code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
@@ -108,11 +101,9 @@ class FHeta(loader.Module):
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "♥️ Розумний пошук через ШІ (швидкість пошуку ±10 секунд, працює тільки на пошук через команду)"
     }
 
     strings_de = {
-        "name": "FHeta",
         "search": "🔎 <b>Suche...</b>",
         "no_query": "❌ <b>Bitte geben Sie eine Suchanfrage ein.</b>",
         "no_modules_found": "❌ <b>Keine Module gefunden.</b>",
@@ -121,7 +112,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Befehle:</b>\n{commands_list}",
         "description": "\n📁 <b>Beschreibung:</b> {description}",
         "result": "🔎 <b>Ergebnis {index}/{tm} für die Anfrage:</b> <code>{query}</code>\n<code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Fehler.</b>",
         "closest_match": "🔎 <b>Ergebnis für die Anfrage:</b> <code>{query}</code>\n<code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline-Befehle:</b>\n{inline_list}",
         "language": "de_doc",
@@ -136,11 +126,9 @@ class FHeta(loader.Module):
         "noo_query": "Name, Befehl, Beschreibung, Autor.",
         "no_modules_foound": "Bitte versuchen Sie eine andere Suchanfrage.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Intelligente KI-Suche (Suchgeschwindigkeit ±10 Sekunden, funktioniert nur bei der Befehlsuche)."
     }
 
     strings_tr = {
-        "name": "FHeta",
         "search": "🔎 <b>Arama...</b>",
         "no_query": "❌ <b>Lütfen bir arama sorgusu girin.</b>",
         "no_modules_found": "❌ <b>Hiçbir modül bulunamadı.</b>",
@@ -149,7 +137,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Komutlar:</b>\n{commands_list}",
         "description": "\n📁 <b>Açıklama:</b> {description}",
         "result": "🔎 <b>{index}/{tm} sorgu sonucu:</b> <code>{query}</code>\n<code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Hata.</b>",
         "closest_match": "🔎 <b>Sorgu sonucu:</b> <code>{query}</code>\n<code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline Komutlar:</b>\n{inline_list}",
         "language": "tr_doc",
@@ -164,11 +151,9 @@ class FHeta(loader.Module):
         "noo_query": "Ad, komut, açıklama, yazar.",
         "no_modules_foound": "Lütfen başka bir sorgu deneyin.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Akıllı AI arama (arama hızı ±10 saniye, sadece komut araması ile çalışır)."
     }
 
     strings_tt = {
-        "name": "FHeta",
         "search": "🔎 <b>Эзләү...</b>",
         "no_query": "❌ <b>Зинһар, эзләү соравыгызны кертегез.</b>",
         "no_modules_found": "❌ <b>Модульләр табылмады.</b>",
@@ -177,7 +162,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
         "description": "\n📁 <b>Тасвирлама:</b> {description}",
         "result": "🔎 <b>{index}/{tm} сорау нәтиҗәсе:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Хата.</b>",
         "closest_match": "🔎 <b>Сорау нәтиҗәсе:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "tt_doc",
@@ -192,11 +176,9 @@ class FHeta(loader.Module):
         "noo_query": "Исем, команда, тасвирлама, автор.",
         "no_modules_foound": "Зинһар, башка сорау сынап карагыз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Акыллы AI эзләү (эзләү тизлеге ±10 секунд, команда эзләү белән генә эшли)."
     }
 
     strings_es = {
-        "name": "FHeta",
         "search": "🔎 <b>Buscando...</b>",
         "no_query": "❌ <b>Por favor, ingrese una consulta de búsqueda.</b>",
         "no_modules_found": "❌ <b>No se encontraron módulos.</b>",
@@ -205,7 +187,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Comandos:</b>\n{commands_list}",
         "description": "\n📁 <b>Descripción:</b> {description}",
         "result": "🔎 <b>Resultado {index}/{tm} para la consulta:</b> <code>{query}</code>\n<code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Error.</b>",
         "closest_match": "🔎 <b>Resultado para la consulta:</b> <code>{query}</code>\n<code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Comandos inline:</b>\n{inline_list}",
         "language": "es_doc",
@@ -220,11 +201,9 @@ class FHeta(loader.Module):
         "noo_query": "Nombre, comando, descripción, autor.",
         "no_modules_foound": "Por favor, intenta con otra consulta.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Búsqueda inteligente con IA (velocidad de búsqueda ±10 segundos, solo funciona con búsqueda por comandos)."
     }
 
     strings_kk = {
-        "name": "FHeta",
         "search": "🔎 <b>Іздеу...</b>",
         "no_query": "❌ <b>Іздеу сұрауын енгізіңіз.</b>",
         "no_modules_found": "❌ <b>Модульдер табылмады.</b>",
@@ -233,7 +212,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
         "description": "\n📁 <b>Сипаттама:</b> {description}",
         "result": "🔎 <b>{index}/{tm} сұрау нәтижесі:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Қате.</b>",
         "closest_match": "🔎 <b>Сұрау нәтижесі:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "kk_doc",
@@ -248,11 +226,9 @@ class FHeta(loader.Module):
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Басқа сұрау сынап көріңіз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Ақылды AI іздеу (іздеу жылдамдығы ±10 секунд, тек команда іздеу арқылы жұмыс істейді)."
     }
 
     strings_yz = {
-        "name": "FHeta",
         "search": "🔎 <b>Излау...</b>",
         "no_query": "❌ <b>Излау суравын енгизиңиз.</b>",
         "no_modules_found": "❌ <b>Модуллер табылмады.</b>",
@@ -261,7 +237,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Командалар:</b>\n{commands_list}",
         "description": "\n📁 <b>Сипаттама:</b> {description}",
         "result": "🔎 <b>{index}/{tm} сурав нетижеси:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Кате.</b>",
         "closest_match": "🔎 <b>Сурав нетижеси:</b> <code>{query}</code>\n<code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "yz_doc",
@@ -276,11 +251,9 @@ class FHeta(loader.Module):
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Башка сурав сынап көриңиз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Акылды AI излау (излау жылдамдығы ±10 секунд, тек команда излау арқылы жұмыс істейді)."
     }
 
     strings_fr = {
-        "name": "FHeta",
         "search": "🔎 <b>Recherche...</b>",
         "no_query": "❌ <b>Veuillez entrer une requête de recherche.</b>",
         "no_modules_found": "❌ <b>Aucun module trouvé.</b>",
@@ -289,7 +262,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Commandes:</b>\n{commands_list}",
         "description": "\n📁 <b>Description:</b> {description}",
         "result": "🔎 <b>Résultat {index}/{tm} pour la requête:</b> <code>{query}</code>\n<code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Erreur.</b>",
         "closest_match": "🔎 <b>Résultat pour la requête:</b> <code>{query}</code>\n<code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Commandes inline:</b>\n{inline_list}",
         "language": "fr_doc",
@@ -304,11 +276,9 @@ class FHeta(loader.Module):
         "noo_query": "Nom, commande, description, auteur.",
         "no_modules_foound": "Veuillez essayer une autre requête.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Recherche intelligente par IA (vitesse de recherche ±10 secondes, fonctionne uniquement avec la recherche par commande)."
     }
 
     strings_it = {
-        "name": "FHeta",
         "search": "🔎 <b>Ricerca...</b>",
         "no_query": "❌ <b>Inserisci una query di ricerca.</b>",
         "no_modules_found": "❌ <b>Nessun modulo trovato.</b>",
@@ -317,7 +287,6 @@ class FHeta(loader.Module):
         "commands": "\n👨‍💻 <b>Comandi:</b>\n{commands_list}",
         "description": "\n📁 <b>Descrizione:</b> {description}",
         "result": "🔎 <b>Risultato {index}/{tm} per la query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "fetch_failed": "❌ <b>Errore.</b>",
         "closest_match": "🔎 <b>Risultato per la query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
         "inline_commandss": "\n🤖 <b>Comandi inline:</b>\n{inline_list}",
         "language": "it_doc",
@@ -332,7 +301,6 @@ class FHeta(loader.Module):
         "noo_query": "Nome, comando, descrizione, autore.",
         "no_modules_foound": "Prova un'altra query.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "gsf": "❤️ Ricerca intelligente con AI (velocità di ricerca ±10 secondi, funziona solo con la ricerca tramite comando)."
     }
     
     async def client_ready(self, client, db):
@@ -340,64 +308,58 @@ class FHeta(loader.Module):
             await client(UnblockRequest("@FHeta_robot"))
         except:
             None
-        await self.request_join(
-            "@fheta_updates",
-            self.strings['reqj'],
-        )
+
+        self.sslc = ssl.create_default_context()
+        self.sslc.check_hostname = False
+        self.sslc.verify_mode = ssl.CERT_NONE
+
         self.token = self.db.get("FHeta", "token")
         asyncio.create_task(self.sdata())
         
     async def sdata(self):
-        myfid = self.db.get("FHeta", "id")
-        if myfid is None:
-            user = await self.client.get_me()
-            myfid = user.id
-            self.db.set("FHeta", "id", myfid)
-        pref = self.get_prefix()
-        moduliki = "".join(mod.__class__.__module__.replace("%d", "_") for mod in self.allmodules.modules if "https://raw" in mod.__class__.__module__)
+        self.fid = self.db.get("FHeta", "id")
+        if self.fid is None:
+            self.fid = (await self.c.get_me()).id
+            self.db.set("FHeta", "id", fid)
+
         while True:
-            url = "http://138.124.34.91:777/dataset"
-            headers = {
-                "Authorization": self.token
-            }
-            params = {
-                "myfid": myfid,
-                "pref": pref,
-                "bot_username": self.inline.bot_username,
-                "language": self.strings['language'][:-4],
-                "modules": moduliki
-            }
             try:
-                requests.post(url, headers=headers, params=params, timeout=10)
+                async with aiohttp.ClientSession() as s:
+                    await s.post(
+                        "https://fheta_api.fixyres.com/dataset",
+                        params={
+                            "myfid": self.fid,
+                            "pref": self.get_prefix(),
+                            "bot_username": self.inline.bot_username,
+                            "language": self.strings["language"][:-4],
+                            "modules": "".join(
+                                m.__class__.__module__.replace("%d", "_")
+                                for m in self.allmodules.modules
+                                if "https://raw" in m.__class__.__module__
+                            )
+                        },
+                        headers={"Authorization": self.token},
+                        ssl=self.sslc,
+                        timeout=5
+                    )
             except:
-                None
+                pass
             await asyncio.sleep(10)
             
     async def on_dlmod(self, client, db):    
-        try:            
+        try:
             await client(UnblockRequest("@FHeta_robot"))
             await utils.dnd(self._client, "@fheta_robot", archive=True)
-        except: 
-            None
+            await self.request_join("@fheta_updates", self.strings['reqj'])
+        except:
+            pass
         try:
             async with self.client.conversation('@FHeta_robot') as conv:
                 await conv.send_message('/token')
                 response = await conv.get_response(timeout=5)
                 self.db.set("FHeta", "token", response.text.strip())
-        except Exception as e:
+        except:
             pass
-
-    def __init__(self):
-        self.config = loader.ModuleConfig(
-            loader.ConfigValue(
-                "GSearch",
-                False,
-                (
-                    self.strings["gsf"]
-                ),
-                validator=loader.validators.Boolean(),
-            )
-        )
         
     @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fheta(self, query):
@@ -497,9 +459,9 @@ class FHeta(loader.Module):
                         "reply_markup": buttons,
                     }
 
-                return None
-            except Exception:
-                return None
+                return
+            except:
+                return
 
         tasks = [proc_mod(mod) for mod in mods[:50]]
         res = await asyncio.gather(*tasks)
@@ -516,9 +478,6 @@ class FHeta(loader.Module):
         sm = await utils.answer(m, self.strings["search"])
         ms = await self.search_modules(a)
         tm = len(ms)
-        
-        if not ms and not self.config["GSearch"]:
-            ms = await self.search_modules(a.replace(" ", ""))
 
         if not ms:
             await utils.answer(m, self.strings["no_modules_found"])
@@ -537,8 +496,8 @@ class FHeta(loader.Module):
                             if r.status == 200:
                                 return str(r.url)
                 except:
-                    return None
-            return None
+                    return
+            return
 
         async def pm(mod, i):
             try:
@@ -550,7 +509,7 @@ class FHeta(loader.Module):
                 key = f"{name}_{auth}_{v}"
 
                 if key in seen:
-                    return None
+                    return
                 seen.add(key)
 
                 thumb = await ft(mod.get("banner"))
@@ -575,8 +534,8 @@ class FHeta(loader.Module):
                 ins = self.strings["inline_commandss"].format(inline_list="\n".join(inline)) if inline else ""
                 res = self.strings["result"].format(index=i, query=utils.escape_html(a), tm=tm, module_name=name, author=auth, version=v, install_command=f"{self.get_prefix()}{utils.escape_html(inst)}", description=desc, commands=cs + ins)[:4096]
                 return (res, thumb, inst, name, auth, v, desc, cs, ins)
-            except Exception:
-                return None
+            except:
+                return
 
         tasks = [pm(mod, idx + i) for i, mod in enumerate(ms)]
         res = await asyncio.gather(*tasks)
@@ -649,18 +608,16 @@ class FHeta(loader.Module):
 
     async def handle_rating(self, call, install, action, current_index, formatted_modules):
         try:
-            user_id = str(call.from_user.id)
+            user_id = self.fid
             token = self.token
             headers = {"Authorization": token}
 
             async with aiohttp.ClientSession(headers=headers) as session:
-                post_url = f"http://138.124.34.91:777/rate/{user_id}/{install}/{action}"
-                async with session.post(post_url) as response:
+                async with session.post(f"https://fheta_api.fixyres.com/rate/{user_id}/{install}/{action}", ssl=self.sslc) as response:
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
-                        get_url = f"http://138.124.34.91:777/get/{install}"
-                        async with session.get(get_url) as stats_response:
+                        async with session.get( f"https://fheta_api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
                                 likes_count = stats['likes']
@@ -685,8 +642,7 @@ class FHeta(loader.Module):
                         return
 
                     elif "che" in result:
-                        get_url = f"http://138.124.34.91:777/get/{install}"
-                        async with session.get(get_url) as stats_response:
+                        async with session.get( f"https://fheta_api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
                                 likes_count = stats['likes']
@@ -752,7 +708,7 @@ class FHeta(loader.Module):
             await utils.answer(message, update_message)
 
     @loader.watcher(chat_id=7575472403)
-    async def venom(self, message):
+    async def install_via_fheta(self, message):
         link = message.raw_text.strip()
         
         if not link.startswith("https://"):
@@ -777,117 +733,43 @@ class FHeta(loader.Module):
                     break
                 else:
                     None
-        except Exception:
+        except:
             pass
 
-    async def get_stats(self, install):
+    async def get_stats(self, url):
         try:
             async with aiohttp.ClientSession() as session:
-                get_url = f"http://138.124.34.91:777/get/{install}"
-                async with session.get(get_url) as response:
+                async with session.get(f"https://fheta_api.fixyres.com/get/{url}", ssl=self.sslc) as response:
                     if response.status == 200:
                         return await response.json()
-        except Exception:
+        except:
             pass
         return {"likes": 0, "dislikes": 0}
 
-    async def get_icountt(self, install):
+    async def get_icount(self, url):
         try:
             async with aiohttp.ClientSession() as session:
-                instal = install[4:]
-                get_url = f"http://138.124.34.91:777/icount/{instal}"
-                async with session.get(get_url) as response:
+                async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
                     if response.status == 200:
                         return await response.json()
-        except Exception:
+        except:
             pass
-        return {"pizda": 0}
+        return {"icount": 0}
 
-    async def get_statss(self, install, session):
-        try:
-            url = f"http://138.124.34.91:777/get/{install}"
-            async with session.get(url) as response:
-                if response.status == 200:
-                    return await response.json()
-        except Exception:
-            pass
-        return {"likes": 0, "dislikes": 0}
-
-    async def get_icount(self, install, session):
-        try:
-            instal = install[4:]
-            url = f"http://138.124.34.91:777/icount/{instal}"
-            async with session.get(url) as response:
-                if response.status == 200:
-                    return await response.json()
-        except Exception:
-            pass
-        return {"pizdo": 0}
-
-    async def search_modules(self, query: str):
-        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
+    async def search_modules(self, query):
         async with aiohttp.ClientSession() as session:
-            instalik = (await (await session.post("http://138.124.34.91:777/OnlySKThx", json={"q": query})).json()).get("OnlySKThx") if self.config["GSearch"] else False
-            modules_task = asyncio.create_task(session.get(url))
-            modules_response = await modules_task
-
-            if modules_response.status != 200:
-                return []
-
-            data = await modules_response.text()
-            modules = json.loads(data)
-
-            found_modules = []
-
-            if instalik:
-                for module in modules:
-                    if instalik.strip() in module.get("install", "").strip():
-                        found_modules.append(module)
-                        if len(found_modules) >= 50:
-                            break
-            else:
-                for module in modules:
-                    if (query.lower() in module.get("name", "").lower()
-                        or any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
-                        or query.lower() in module.get("author", "").lower()
-                        or query.lower() in module.get("description", "").lower()
-                        or any(
-                            query.lower() in desc.lower()
-                            for cmd in module.get("commands", [])
-                            for desc in cmd.get("description", {}).values()
-                        )):
-                        found_modules.append(module)
-                        if len(found_modules) >= 50:
-                            break
-
-                if len(found_modules) < 50:
-                    module_names = [module['name'] for module in modules if 'name' in module]
-                    closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
-                    if closest_matches:
-                        module = next((m for m in modules if m.get('name') == closest_matches[0]), None)
-                        if module and module not in found_modules:
-                            found_modules.append(module)
-
-            found_modules = found_modules[:50]
-
-            stats_tasks = [self.get_stats(module.get("install", "")) for module in found_modules]
-            ic_tasks = [self.get_icountt(module.get("install", "")) for module in found_modules]
-            stats_responses, ic_responses = await asyncio.gather(
-                asyncio.gather(*stats_tasks),
-                asyncio.gather(*ic_tasks)
-            )
-
-            processed_modules = [
-                await self.process_module(module, stats_responses[i], ic_responses[i])
-                for i, module in enumerate(found_modules)
-            ]
-
-            processed_modules.sort(key=lambda x: x["rating"], reverse=True)
-            return processed_modules
+                async with session.post("https://fheta_api.fixyres.com/search", json={"query": query}, ssl=self.sslc) as response:
+                    if response.status == 200:
+                        text = await response.text()
+                        modules = json.loads(text)
+                        modules = json.loads(modules)
+                        return modules
+                    else:
+                        return
 
     async def process_module(self, module, stats, ic):
         module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
-        module["ic"] = ic.get("pizdo", 0)
+        module["ic"] = ic.get("icount", 0)
         module["likes"] = module_stats.get("likes", 0)
         module["dislikes"] = module_stats.get("dislikes", 0)
         module["rating"] = (module["likes"] * 7) - (module["dislikes"] * 5) + int(module["ic"])
@@ -953,8 +835,8 @@ class FHeta(loader.Module):
 
                     found = found[:50]
 
-                    stats_tasks = [self.get_statss(mod.get("install", ""), session) for mod in found]
-                    ic_tasks = [self.get_icount(mod.get("install", ""), session) for mod in found]
+                    stats_tasks = [self.get_stats(mod.get("install", "")) for mod in found]
+                    ic_tasks = [self.get_icount(mod.get("install", "")) for mod in found]
                     stats_responses, ic_responses = await asyncio.gather(
                         asyncio.gather(*stats_tasks),
                         asyncio.gather(*ic_tasks)
@@ -967,57 +849,4 @@ class FHeta(loader.Module):
 
                     processed_modules.sort(key=lambda x: x["rating"], reverse=True)
                     return processed_modules
-                    
-    async def format_module(self, module, query):
-        install = module['install']
-        current_language = self.strings.get("language", "doc")
-        commands_section = ""
-        inline_commands_section = ""
-
-        if "commands" in module and module['commands']:
-            normal_commands = []
-            inline_commands = []
-
-            for cmd in module['commands']:
-                description = cmd.get('description', {}).get(current_language, cmd.get('description', {}).get("doc"))
-
-                if isinstance(description, dict):
-                    description = description.get('doc', '')
-
-                if cmd.get("inline", False):
-                    if description:
-                        cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code> {utils.escape_html(description)}"
-                    else:
-                        cmd_entry = f"<code>@{self.inline.bot_username} {cmd['name']}</code>"
-                    inline_commands.append(cmd_entry)
-                else:
-                    if description:
-                        cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code> {utils.escape_html(description)}"
-                    else:
-                        cmd_entry = f"<code>{self.get_prefix()}{cmd['name']}</code>"
-                    normal_commands.append(cmd_entry)
-
-            if normal_commands:
-                commands_section = self.strings["commands"].format(commands_list="\n".join(normal_commands))
-
-            if inline_commands:
-                inline_commands_section = self.strings["inline_commandss"].format(
-                    inline_list="\n".join(inline_commands))
-
-        description_section = ""
-        if "description" in module and module["description"]:
-            description_section = self.strings["description"].format(description=utils.escape_html(module["description"]))
-
-        author_info = utils.escape_html(module.get("author", "???"))
-        module_name = utils.escape_html(module['name'].replace('.py', ''))
-        version = utils.escape_html(module.get("version", "?.?.?"))
-        versionn = f"(v{version})"
-        return self.strings["closest_match"].format(
-            query=query,
-            module_name=module_name,
-            author=author_info,
-            version=versionn,
-            install_command=f"{self.get_prefix()}{install}",
-            description=description_section,
-            commands=commands_section + inline_commands_section
-        )
+    
