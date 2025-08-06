@@ -27,6 +27,7 @@
             }
         ],
         "name": "Autotime",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Autotime.py"
     },
     {
@@ -50,6 +51,7 @@
             }
         ],
         "name": "Counter",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Counter.py"
     },
     {
@@ -73,6 +75,7 @@
             }
         ],
         "name": "MessageEraser",
+        "version": "1.2.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/MessageEraser.py"
     },
     {
@@ -89,6 +92,7 @@
             }
         ],
         "name": "PMStat",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/PMStat.py"
     },
     {
@@ -105,6 +109,7 @@
             }
         ],
         "name": "StickerStealer",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/StickerStealer.py"
     },
     {
@@ -121,6 +126,7 @@
             }
         ],
         "name": "Timer",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Timer.py"
     },
     {
@@ -158,6 +164,7 @@
             }
         ],
         "name": "Tracker",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/1jpshiro/hikka-modules/Tracker.py"
     },
     {
@@ -609,6 +616,7 @@
             }
         ],
         "name": "AutoProfile",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/autoprofile.py"
     },
     {
@@ -625,6 +633,7 @@
             }
         ],
         "name": "BeSafe",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/besafe.py"
     },
     {
@@ -840,6 +849,7 @@
             }
         ],
         "name": "FunQuotes",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/funquotes.py"
     },
     {
@@ -856,6 +866,7 @@
             }
         ],
         "name": "Hacker",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/hacker.py"
     },
     {
@@ -914,6 +925,7 @@
             }
         ],
         "name": "InstSave",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/instsave.py"
     },
     {
@@ -1042,6 +1054,7 @@
             }
         ],
         "name": "Diary",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/mydiary.py"
     },
     {
@@ -1359,6 +1372,7 @@
             }
         ],
         "name": "AutofarmCookies",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/AutofarmCookies.py"
     },
     {
@@ -1720,6 +1734,7 @@
             }
         ],
         "name": "IrisSimpleMod",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/IrisSimpleMod.py"
     },
     {
@@ -1788,6 +1803,7 @@
             }
         ],
         "name": "AutoFarmbot",
+        "version": "0.1.4.10",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/MooFarmRC1.py"
     },
     {
@@ -2442,6 +2458,7 @@
             }
         ],
         "name": "HikariChat",
+        "version": "13.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/C0dwiz/H.Modules/aiogram3/hikarichat.py"
     },
     {
@@ -2809,6 +2826,7 @@
             }
         ],
         "name": "FoxGallery",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/FoxAndDogsGallery.py"
     },
     {
@@ -2846,6 +2864,7 @@
             }
         ],
         "name": "ImageBoardSender",
+        "version": "2.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/ImageBoardSender.py"
     },
     {
@@ -2862,6 +2881,7 @@
             }
         ],
         "name": "InlineSpotifyDownloader",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineSpotifyDownloader.py"
     },
     {
@@ -2878,6 +2898,7 @@
             }
         ],
         "name": "🖥 InlineSystemInfo",
+        "version": "1.4.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineSystemInfo.py"
     },
     {
@@ -2901,6 +2922,7 @@
             }
         ],
         "name": "InlineWynnCraft",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineWynnCraft.py"
     },
     {
@@ -2917,6 +2939,7 @@
             }
         ],
         "name": "InlineYouTube",
+        "version": "1.2.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/InlineYouTube.py"
     },
     {
@@ -2933,6 +2956,7 @@
             }
         ],
         "name": "RandomPeople",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/RandomPeople.py"
     },
     {
@@ -2977,6 +3001,7 @@
             }
         ],
         "name": "Silero",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/Silero.py"
     },
     {
@@ -2993,6 +3018,7 @@
             }
         ],
         "name": "SimpleNoLinks",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/SimpleNoLink.py"
     },
     {
@@ -3023,6 +3049,7 @@
             }
         ],
         "name": "AniLibria",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/anilibria.py"
     },
     {
@@ -3039,6 +3066,7 @@
             }
         ],
         "name": "Compliments",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/compli.py"
     },
     {
@@ -3097,6 +3125,7 @@
             }
         ],
         "name": "ROMs",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/customroms.py"
     },
     {
@@ -3176,6 +3205,7 @@
             }
         ],
         "name": "InlineROMs",
+        "version": "1.4.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/customroms_geek.py"
     },
     {
@@ -3199,6 +3229,7 @@
             }
         ],
         "name": "FDroid",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/fdroid.py"
     },
     {
@@ -3222,6 +3253,7 @@
             }
         ],
         "name": "Flibusta",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/flibusta.py"
     },
     {
@@ -3259,6 +3291,7 @@
             }
         ],
         "name": "NHentai",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/hentai.py"
     },
     {
@@ -3289,6 +3322,7 @@
             }
         ],
         "name": "NHentai",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/hentai_ftg.py"
     },
     {
@@ -3312,6 +3346,7 @@
             }
         ],
         "name": "Packages",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/linux_packages.py"
     },
     {
@@ -3335,6 +3370,7 @@
             }
         ],
         "name": "MinecraftInfo",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/minecraft.py"
     },
     {
@@ -3351,6 +3387,7 @@
             }
         ],
         "name": "QrCode",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/qrcode.py"
     },
     {
@@ -3381,6 +3418,7 @@
             }
         ],
         "name": "Tools",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/random_tools.py"
     },
     {
@@ -3397,6 +3435,7 @@
             }
         ],
         "name": "SauceNao",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/saucenao.py"
     },
     {
@@ -3413,6 +3452,7 @@
             }
         ],
         "name": "YATikTok-DL",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/tikcock.py"
     },
     {
@@ -3436,6 +3476,7 @@
             }
         ],
         "name": "InlineHurtom",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/toloka_geek.py"
     },
     {
@@ -3473,6 +3514,7 @@
             }
         ],
         "name": "🔡 Translator",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/translate.py"
     },
     {
@@ -3503,6 +3545,7 @@
             }
         ],
         "name": "Transmission",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/transmission.py"
     },
     {
@@ -3533,6 +3576,7 @@
             }
         ],
         "name": "Yandere",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/yandere.py"
     },
     {
@@ -3584,6 +3628,7 @@
             }
         ],
         "name": "InlineYandere",
+        "version": "1.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/CakesTwix/Hikka-Modules/yandere_geek.py"
     },
     {
@@ -5202,6 +5247,7 @@
             }
         ],
         "name": "CMC",
+        "version": "3.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/cmc.py"
     },
     {
@@ -5291,6 +5337,7 @@
             }
         ],
         "name": "Mailing Chats",
+        "version": "1.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/mailingchats.py"
     },
     {
@@ -5400,6 +5447,7 @@
             }
         ],
         "name": "TemplateResponder",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/tr.py"
     },
     {
@@ -5436,6 +5484,7 @@
             }
         ],
         "name": "UnknownAFK",
+        "version": "3.5.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Daniel1236n29/Modules_hikka/unknownafk.py"
     },
     {
@@ -5481,6 +5530,7 @@
             }
         ],
         "name": "Анти-Мат",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/AntiMat.py"
     },
     {
@@ -5504,6 +5554,7 @@
             }
         ],
         "name": "Compliments",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Compliments.py"
     },
     {
@@ -5541,6 +5592,7 @@
             }
         ],
         "name": "Emotions",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Emotions.py"
     },
     {
@@ -5566,6 +5618,7 @@
             }
         ],
         "name": "RandomPasswordGenerator",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomPasswordGenerator.py"
     },
     {
@@ -5598,6 +5651,7 @@
             }
         ],
         "name": "RandomTrack",
+        "version": "1.4.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomTrack.py"
     },
     {
@@ -5615,6 +5669,7 @@
             }
         ],
         "name": "RandomUser",
+        "version": "1.6.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/RandomUser.py"
     },
     {
@@ -5656,6 +5711,7 @@
             }
         ],
         "name": "SteamNow",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/Steam.py"
     },
     {
@@ -5714,6 +5770,7 @@
             }
         ],
         "name": "Twink-Manager",
+        "version": "1.3.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/TwinkManager.py"
     },
     {
@@ -5743,6 +5800,7 @@
             }
         ],
         "name": "TxAFK",
+        "version": "1.4.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/TxAFK.py"
     },
     {
@@ -5759,6 +5817,7 @@
             }
         ],
         "name": "YandexMusic",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/YandexMusic.py"
     },
     {
@@ -5774,6 +5833,7 @@
             }
         ],
         "name": "YandexMusicLive",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/YmLive.py"
     },
     {
@@ -5791,6 +5851,7 @@
             }
         ],
         "name": "Achievements",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/achievements.py"
     },
     {
@@ -5808,6 +5869,7 @@
             }
         ],
         "name": "Akinator",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/akinator.py"
     },
     {
@@ -5838,6 +5900,7 @@
             }
         ],
         "name": "AstroAFK",
+        "version": "2.1.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/astroafk.py"
     },
     {
@@ -5854,6 +5917,7 @@
             }
         ],
         "name": "AstroWeather",
+        "version": "1.0.6",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/astroweather.py"
     },
     {
@@ -5943,6 +6007,7 @@
             }
         ],
         "name": "Convertio",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/convertio.py"
     },
     {
@@ -6042,6 +6107,7 @@
             }
         ],
         "name": "GameeCheats",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/gamecheat.py"
     },
     {
@@ -6133,6 +6199,7 @@
             }
         ],
         "name": "Komaru",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/komarumod.py"
     },
     {
@@ -6266,6 +6333,7 @@
             }
         ],
         "name": "PC-Manager",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/pcmanager.py"
     },
     {
@@ -6283,6 +6351,7 @@
             }
         ],
         "name": "Shazam",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Den4ikSuperOstryyPer4ik/Astro-modules/shazam.py"
     },
     {
@@ -6423,6 +6492,7 @@
             }
         ],
         "name": "PMNotifier",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Dissy-code/modules/PMNotifier.py"
     },
     {
@@ -6509,6 +6579,7 @@
             }
         ],
         "name": "e_checks",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ElonKuska/ElonModules/Modules/e_checks/e_checks.py"
     },
     {
@@ -6662,6 +6733,7 @@
             }
         ],
         "name": "EHentai",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/hentai.py"
     },
     {
@@ -6694,6 +6766,7 @@
             }
         ],
         "name": "Lolicom",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/lolicom.py"
     },
     {
@@ -6724,6 +6797,7 @@
             }
         ],
         "name": "ETranslate",
+        "version": "1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Enceth/Modules/translater.py"
     },
     {
@@ -7920,6 +7994,7 @@
             }
         ],
         "name": "AutoReact",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/AutoReact_pu.py"
     },
     {
@@ -7980,6 +8055,7 @@
             }
         ],
         "name": "Bihorix Troll",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/BihorixTroll.py"
     },
     {
@@ -7994,6 +8070,7 @@
             }
         ],
         "name": "BioWars",
+        "version": "1.8.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/BioWars.py"
     },
     {
@@ -8048,6 +8125,7 @@
             }
         ],
         "name": "🆔 CChid",
+        "version": "2.0.10",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CChid.py"
     },
     {
@@ -8149,6 +8227,7 @@
             }
         ],
         "name": "CheckSpamBan",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/CheckSpamBan.py"
     },
     {
@@ -8730,6 +8809,7 @@
             }
         ],
         "name": "RandomTrack",
+        "version": "1.4.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/RandomTrack.py"
     },
     {
@@ -8766,6 +8846,7 @@
             }
         ],
         "name": "Randomizer",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Randomizer.py"
     },
     {
@@ -8882,6 +8963,7 @@
             }
         ],
         "name": "SpeechCensorship",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/SpeechCensorship.py"
     },
     {
@@ -8914,6 +8996,7 @@
             }
         ],
         "name": "SysInfo",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/SysInfo.py"
     },
     {
@@ -8929,6 +9012,7 @@
             }
         ],
         "name": "Telegraph",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Telegraph.py"
     },
     {
@@ -8993,6 +9077,7 @@
             }
         ],
         "name": "TempChatsPlus",
+        "version": "1.4.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/TempChatsPlus.py"
     },
     {
@@ -9126,6 +9211,7 @@
             }
         ],
         "name": "Uploder_https",
+        "version": "7.7.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/Uploaded_Https_.py"
     },
     {
@@ -9210,6 +9296,7 @@
             }
         ],
         "name": "YaKeyGPT",
+        "version": "1.4.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/YaKeyGPT.py"
     },
     {
@@ -9278,6 +9365,7 @@
             }
         ],
         "name": "👨‍💻 Code-Manager",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/codemanagermod.py"
     },
     {
@@ -9308,6 +9396,7 @@
             }
         ],
         "name": "Crib",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/crib.py"
     },
     {
@@ -9366,6 +9455,7 @@
             }
         ],
         "name": "dushnometr",
+        "version": "2.7.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/dushnometr.py"
     },
     {
@@ -9597,6 +9687,7 @@
             }
         ],
         "name": "ID",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/mw_id.py"
     },
     {
@@ -9626,6 +9717,7 @@
             }
         ],
         "name": "ID",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/mw_ipinfo.py"
     },
     {
@@ -9641,6 +9733,7 @@
             }
         ],
         "name": "ServerInfo",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/mw_serverinfo.py"
     },
     {
@@ -9688,6 +9781,7 @@
             }
         ],
         "name": "TempMail",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/mw_tempmail.py"
     },
     {
@@ -10223,6 +10317,7 @@
             }
         ],
         "name": "Spam",
+        "version": "7.7.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/spam_shadow_.py"
     },
     {
@@ -10701,6 +10796,7 @@
             }
         ],
         "name": "AutoKit",
+        "version": "7.7.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/набор_в_ги.py"
     },
     {
@@ -10716,6 +10812,7 @@
             }
         ],
         "name": "otl",
+        "version": "1.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/отложка.py"
     },
     {
@@ -10759,6 +10856,7 @@
             }
         ],
         "name": "повтор",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/повтор.py"
     },
     {
@@ -10883,6 +10981,7 @@
             }
         ],
         "name": "VoiceChat",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Fixyres/Modules/тесты.py"
     },
     {
@@ -10993,6 +11092,7 @@
             }
         ],
         "name": "CoVis",
+        "version": "1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/GD-alt/mm-hikka-mods/CoVis.py"
     },
     {
@@ -12403,6 +12503,7 @@
             }
         ],
         "name": "gemini",
+        "version": "1.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/Gemini.py"
     },
     {
@@ -12432,6 +12533,7 @@
             }
         ],
         "name": "ASCIIArt",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/ASCIIArt.py"
     },
     {
@@ -12454,6 +12556,7 @@
             }
         ],
         "name": "AnimatedText",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/AnimatedText.py"
     },
     {
@@ -12483,6 +12586,7 @@
             }
         ],
         "name": "BioFarm",
+        "version": "1.8.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/BioFarm.py"
     },
     {
@@ -12499,6 +12603,7 @@
             }
         ],
         "name": "Cping",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Cping.py"
     },
     {
@@ -12521,6 +12626,7 @@
             }
         ],
         "name": "Currency",
+        "version": "1.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/CurrencyViewer.py"
     },
     {
@@ -12536,6 +12642,7 @@
             }
         ],
         "name": "Del",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Del.py"
     },
     {
@@ -12551,6 +12658,7 @@
             }
         ],
         "name": "Fping",
+        "version": "1.2.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Fping.py"
     },
     {
@@ -12594,6 +12702,7 @@
             }
         ],
         "name": "MSG",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/MSG.py"
     },
     {
@@ -12609,6 +12718,7 @@
             }
         ],
         "name": "PremiumStatus",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/PremiumStatus.py"
     },
     {
@@ -12638,6 +12748,7 @@
             }
         ],
         "name": "Spam+",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/Spam+.py"
     },
     {
@@ -12653,6 +12764,7 @@
             }
         ],
         "name": "TextStyler",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/TextStyler.py"
     },
     {
@@ -12689,6 +12801,7 @@
             }
         ],
         "name": "VoiceMP",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/VoiceMP.py"
     },
     {
@@ -12705,6 +12818,7 @@
             }
         ],
         "name": "AutoHeal",
+        "version": "1.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/autoheal.py"
     },
     {
@@ -12720,6 +12834,7 @@
             }
         ],
         "name": "Doxer",
+        "version": "1.6.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/doxer.py"
     },
     {
@@ -12735,6 +12850,7 @@
             }
         ],
         "name": "dushnometr",
+        "version": "2.7.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/dushnometr.py"
     },
     {
@@ -12757,6 +12873,7 @@
             }
         ],
         "name": "loginer",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/loginer.py"
     },
     {
@@ -12772,6 +12889,7 @@
             }
         ],
         "name": "okruglator",
+        "version": "1.2.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/okruglator.py"
     },
     {
@@ -12808,6 +12926,7 @@
             }
         ],
         "name": "sozivala",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/HikkTutor/HT/sozivala.py"
     },
     {
@@ -12851,6 +12970,7 @@
             }
         ],
         "name": "ArchAUR",
+        "version": "1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/archaur.py"
     },
     {
@@ -13920,6 +14040,7 @@
             }
         ],
         "name": "KSEMModule",
+        "version": "0.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KSEMModule.py"
     },
     {
@@ -13942,6 +14063,7 @@
             }
         ],
         "name": "KoTik",
+        "version": "0.1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/KoTik.py"
     },
     {
@@ -13978,6 +14100,7 @@
             }
         ],
         "name": "Kobalt",
+        "version": "0.1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kobalt.py"
     },
     {
@@ -13993,6 +14116,7 @@
             }
         ],
         "name": "Kodel",
+        "version": "0.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/Kodel.py"
     },
     {
@@ -14043,6 +14167,7 @@
             }
         ],
         "name": "YaranBotSync",
+        "version": "0.4.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/YaranBotSync.py"
     },
     {
@@ -14079,6 +14204,7 @@
             }
         ],
         "name": "SuggBotPanel",
+        "version": "0.4.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/K0valskii/MyModules/suggbotpanel.py"
     },
     {
@@ -15772,6 +15898,7 @@
             }
         ],
         "name": "AuroraAFK",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraAFK.py"
     },
     {
@@ -15836,6 +15963,7 @@
             }
         ],
         "name": "AuroraDonate",
+        "version": "1.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraDonate.py"
     },
     {
@@ -15857,6 +15985,7 @@
             }
         ],
         "name": "AuroraFarm",
+        "version": "3.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraFarm.py"
     },
     {
@@ -15900,6 +16029,7 @@
             }
         ],
         "name": "AuroraFeedBack",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraFeedBack.py"
     },
     {
@@ -15921,6 +16051,7 @@
             }
         ],
         "name": "AuroraSpam",
+        "version": "1.1.6",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AuroraSpam.py"
     },
     {
@@ -15942,6 +16073,7 @@
             }
         ],
         "name": "AutoDeleteMessages",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AutoDeleteMessages.py"
     },
     {
@@ -15963,6 +16095,7 @@
             }
         ],
         "name": "AutoFarmUniversal",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/AutoFarmUniversal.py"
     },
     {
@@ -16059,6 +16192,7 @@
             }
         ],
         "name": "Deanon",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Deanon.py"
     },
     {
@@ -16102,6 +16236,7 @@
             }
         ],
         "name": "AuroraFeedBack",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/HerokuAuroraFeedBack.py"
     },
     {
@@ -16156,6 +16291,7 @@
             }
         ],
         "name": "HistoryFact",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/HistoryFacts.py"
     },
     {
@@ -16184,6 +16320,7 @@
             }
         ],
         "name": "IrisFarm",
+        "version": "3.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/IrisFarm.py"
     },
     {
@@ -16335,6 +16472,7 @@
             }
         ],
         "name": "MyDebtors",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/MyDebtors.py"
     },
     {
@@ -16364,6 +16502,7 @@
             }
         ],
         "name": "RPSgame",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RPSgame.py"
     },
     {
@@ -16384,6 +16523,7 @@
             }
         ],
         "name": "RandomAvatars",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RandomAvatars.py"
     },
     {
@@ -16405,6 +16545,7 @@
             }
         ],
         "name": "RandomNumber",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/RandomNumber.py"
     },
     {
@@ -16448,6 +16589,7 @@
             }
         ],
         "name": "Randomizer",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Randomizer.py"
     },
     {
@@ -16502,6 +16644,7 @@
             }
         ],
         "name": "Reports",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Reports.py"
     },
     {
@@ -16556,6 +16699,7 @@
             }
         ],
         "name": "Send",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/Send.py"
     },
     {
@@ -16674,6 +16818,7 @@
             }
         ],
         "name": "WordFinder",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/KorenbZla/HikkaModules/WordFinder.py"
     },
     {
@@ -16687,6 +16832,7 @@
             }
         ],
         "name": "TimeBot",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/TimeBot.py"
     },
     {
@@ -16711,6 +16857,7 @@
             }
         ],
         "name": "AirAlert",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/airalert.py"
     },
     {
@@ -16734,6 +16881,7 @@
             }
         ],
         "name": "ChatGPT",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/chatgpt.py"
     },
     {
@@ -16765,6 +16913,7 @@
             }
         ],
         "name": "Lyrics",
+        "version": "2.6.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/lyrics.py"
     },
     {
@@ -16787,6 +16936,7 @@
             }
         ],
         "name": "MagicText",
+        "version": "0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/magictext-ftg.py"
     },
     {
@@ -16825,6 +16975,7 @@
             }
         ],
         "name": "MagicText",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/magictext.py"
     },
     {
@@ -16856,6 +17007,7 @@
             }
         ],
         "name": "Osu",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/osu.py"
     },
     {
@@ -16878,6 +17030,7 @@
             }
         ],
         "name": "Picsaver",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/picsaver.py"
     },
     {
@@ -16890,6 +17043,7 @@
             }
         ],
         "name": "Top20",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/top20.py"
     },
     {
@@ -16921,6 +17075,7 @@
             }
         ],
         "name": "Weather",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MoriSummerz/ftg-mods/weather.py"
     },
     {
@@ -16987,6 +17142,7 @@
             }
         ],
         "name": "ChannelCheck",
+        "version": "0.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/ChannelCheck.py"
     },
     {
@@ -17108,6 +17264,7 @@
             }
         ],
         "name": "FuckTagOne",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/FuckTagOne.py"
     },
     {
@@ -17493,6 +17650,7 @@
             }
         ],
         "name": "SpyEVO",
+        "version": "0.1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/SpyEVO.py"
     },
     {
@@ -17717,6 +17875,7 @@
             }
         ],
         "name": "YoutubeDLB",
+        "version": "1.0.6",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/YoutubeDL.py"
     },
     {
@@ -17769,6 +17928,7 @@
             }
         ],
         "name": "Autoreader",
+        "version": "0.19.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/MuRuLOSE/HikkaModulesRepo/autoreader.py"
     },
     {
@@ -18026,6 +18186,7 @@
             }
         ],
         "name": "JikanModule",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/N3rcy/modules/jikan.py"
     },
     {
@@ -18587,6 +18748,7 @@
             }
         ],
         "name": "DevGPT",
+        "version": "15.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/DevGPT.py"
     },
     {
@@ -18657,6 +18819,7 @@
             }
         ],
         "name": "LavReboot",
+        "version": "0.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/LavReboot.py"
     },
     {
@@ -18819,6 +18982,7 @@
             }
         ],
         "name": "ShotModule",
+        "version": "0.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/ShotModule.py"
     },
     {
@@ -18872,6 +19036,7 @@
             }
         ],
         "name": "Upgraded Neofetch",
+        "version": "0.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/UpgradedNeofetch.py"
     },
     {
@@ -18890,6 +19055,7 @@
             }
         ],
         "name": "Uploader",
+        "version": "3.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/Uploader.py"
     },
     {
@@ -19016,6 +19182,7 @@
             }
         ],
         "name": "HikkaVoiceMod",
+        "version": "3.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/VoiceChat.py"
     },
     {
@@ -19231,6 +19398,7 @@
             }
         ],
         "name": "SendPm",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/send.py"
     },
     {
@@ -19277,6 +19445,7 @@
             }
         ],
         "name": "VoiceChatInstall",
+        "version": "0.1.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Plovchikdeval/dev_modules/voicechatinstaller.py"
     },
     {
@@ -19330,6 +19499,7 @@
             }
         ],
         "name": "DNSResolver",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/DNSResolver.py"
     },
     {
@@ -19397,6 +19567,7 @@
             }
         ],
         "name": "GenNick",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/GenNick.py"
     },
     {
@@ -19526,6 +19697,7 @@
             }
         ],
         "name": "S3",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/S3.py"
     },
     {
@@ -19571,6 +19743,7 @@
             }
         ],
         "name": "BarcodeGenerator",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/barcode.py"
     },
     {
@@ -19905,6 +20078,7 @@
             }
         ],
         "name": "Whois",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/whois.py"
     },
     {
@@ -19920,6 +20094,7 @@
             }
         ],
         "name": "YouTube-DLD",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ruslan-Isaev/modules/youtube-loader.py"
     },
     {
@@ -20711,6 +20886,7 @@
             }
         ],
         "name": "Gemini",
+        "version": "5.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/Gemini.py"
     },
     {
@@ -20818,6 +20994,7 @@
             }
         ],
         "name": "MaillingChatGT99",
+        "version": "5.8.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/MaillingChatGT99.py"
     },
     {
@@ -21153,6 +21330,7 @@
             }
         ],
         "name": "Audio2Text",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/audio2text.py"
     },
     {
@@ -21186,6 +21364,7 @@
             }
         ],
         "name": "CopyUser",
+        "version": "1.0.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/copyuser.py"
     },
     {
@@ -21229,6 +21408,7 @@
             }
         ],
         "name": "CountTime",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/counttime.py"
     },
     {
@@ -21265,6 +21445,7 @@
             }
         ],
         "name": "GenderGuesser",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/genderguesser.py"
     },
     {
@@ -21281,6 +21462,7 @@
             }
         ],
         "name": "GitHubInfo",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/github.py"
     },
     {
@@ -21296,6 +21478,7 @@
             }
         ],
         "name": "GPMTool",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/gpmtool.py"
     },
     {
@@ -21346,6 +21529,7 @@
             }
         ],
         "name": "HowMuch",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/howmuch.py"
     },
     {
@@ -21363,6 +21547,7 @@
             }
         ],
         "name": "K:AccountData",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kaccountdata.py"
     },
     {
@@ -21385,6 +21570,7 @@
             }
         ],
         "name": "K:CustomInfo",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kcustominfo.py"
     },
     {
@@ -21400,6 +21586,7 @@
             }
         ],
         "name": "K:RandomUser",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/krandomuser.py"
     },
     {
@@ -21441,6 +21628,7 @@
             }
         ],
         "name": "KsenonAFK",
+        "version": "1.0.6",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/ksenonafk.py"
     },
     {
@@ -21491,6 +21679,7 @@
             }
         ],
         "name": "KsenonGPT",
+        "version": "1.5.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/ksenongpt.py"
     },
     {
@@ -21506,6 +21695,7 @@
             }
         ],
         "name": "K:ShortLinker",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kshortlinker.py"
     },
     {
@@ -21570,6 +21760,7 @@
             }
         ],
         "name": "K:Uploader",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/kuploader.py"
     },
     {
@@ -21629,6 +21820,7 @@
             }
         ],
         "name": "RandomFact",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/randomfact.py"
     },
     {
@@ -21654,6 +21846,7 @@
             }
         ],
         "name": "RandomMemes",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/randommemes.py"
     },
     {
@@ -21669,6 +21862,7 @@
             }
         ],
         "name": "RussianRoulette",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/russianroulette.py"
     },
     {
@@ -21684,6 +21878,7 @@
             }
         ],
         "name": "Telegraph",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/telegraph.py"
     },
     {
@@ -21709,6 +21904,7 @@
             }
         ],
         "name": "Text2Speech",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/text2speech.py"
     },
     {
@@ -21724,6 +21920,7 @@
             }
         ],
         "name": "WikiSearch",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/wikisearch.py"
     },
     {
@@ -21741,6 +21938,7 @@
             }
         ],
         "name": "YTSearch",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/TheKsenon/MyHikkaModules/ytsearch.py"
     },
     {
@@ -21902,6 +22100,7 @@
             }
         ],
         "name": "AutoReact",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/XenSideNBTS/HikkaModules/AutoReact.py"
     },
     {
@@ -22095,6 +22294,7 @@
             }
         ],
         "name": "😼Анимки @XenSide",
+        "version": "0.3.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/XenSideNBTS/HikkaModules/xenanims.py"
     },
     {
@@ -22292,6 +22492,7 @@
             }
         ],
         "name": "IrisPM",
+        "version": "2.2.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Ya-Manul/IrisPM/IrisPM.py"
     },
     {
@@ -22472,6 +22673,7 @@
             }
         ],
         "name": "Chess",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/Chess.py"
     },
     {
@@ -22494,6 +22696,7 @@
             }
         ],
         "name": "GifHarem",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/GifHarem.py"
     },
     {
@@ -22516,6 +22719,7 @@
             }
         ],
         "name": "HaremManager",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HaremManager.py"
     },
     {
@@ -22538,6 +22742,7 @@
             }
         ],
         "name": "HornyHarem",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/HornyHarem.py"
     },
     {
@@ -22553,6 +22758,7 @@
             }
         ],
         "name": "ScheduledMessagesPlus",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/SchedulePlus.py"
     },
     {
@@ -22575,6 +22781,7 @@
             }
         ],
         "name": "WaifuHarem",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/WaifuHarem.py"
     },
     {
@@ -22596,6 +22803,7 @@
             }
         ],
         "name": "HaremManager",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/ZetGoHack/Nullmod/harem_manager.py"
     },
     {
@@ -22900,6 +23108,7 @@
             }
         ],
         "name": "Apo-Skeleton",
+        "version": "0.0.21",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/_skeleton.py"
     },
     {
@@ -22987,6 +23196,7 @@
             }
         ],
         "name": "Apo-AdminTools",
+        "version": "1.2.14",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/admintools.py"
     },
     {
@@ -23018,6 +23228,7 @@
             }
         ],
         "name": "Apo-Info",
+        "version": "0.1.24",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/apoinfo.py"
     },
     {
@@ -23070,6 +23281,7 @@
             }
         ],
         "name": "Apo-LibController",
+        "version": "0.1.20",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/apolib_controller.py"
     },
     {
@@ -23087,6 +23299,7 @@
             }
         ],
         "name": "Apo-AutoDelError",
+        "version": "0.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/auto_delerror.py"
     },
     {
@@ -23104,6 +23317,7 @@
             }
         ],
         "name": "Apo-AutoUpdater",
+        "version": "1.0.27",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/auto_update.py"
     },
     {
@@ -23121,6 +23335,7 @@
             }
         ],
         "name": "Apo-AutoReact",
+        "version": "0.1.30",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/autoreact.py"
     },
     {
@@ -23215,6 +23430,7 @@
             }
         ],
         "name": "Apo-DND",
+        "version": "0.3.17",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/dnd.py"
     },
     {
@@ -23246,6 +23462,7 @@
             }
         ],
         "name": "Apo-Donators",
+        "version": "0.0.31",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/donators.py"
     },
     {
@@ -23270,6 +23487,7 @@
             }
         ],
         "name": "Apo-GoogleTranslator",
+        "version": "0.0.72",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/gtranslate.py"
     },
     {
@@ -23315,6 +23533,7 @@
             }
         ],
         "name": "Apo-HerokuManager",
+        "version": "0.0.36",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/heroku.py"
     },
     {
@@ -23332,6 +23551,7 @@
             }
         ],
         "name": "Apo-LangReplier",
+        "version": "0.1.26",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/langreplier.py"
     },
     {
@@ -23349,6 +23569,7 @@
             }
         ],
         "name": "Apo-LoginCodeReciever",
+        "version": "0.0.36",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/lcr.py"
     },
     {
@@ -23366,6 +23587,7 @@
             }
         ],
         "name": "Apo-LinkedChat",
+        "version": "0.0.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/linked_chat.py"
     },
     {
@@ -23383,6 +23605,7 @@
             }
         ],
         "name": "Apo-MarkRead",
+        "version": "0.1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/mark_read.py"
     },
     {
@@ -23414,6 +23637,7 @@
             }
         ],
         "name": "Apo-MsgMerger",
+        "version": "0.1.23",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/msg_merger.py"
     },
     {
@@ -23438,6 +23662,7 @@
             }
         ],
         "name": "Apo-NoTTL",
+        "version": "0.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/no_ttl.py"
     },
     {
@@ -23455,6 +23680,7 @@
             }
         ],
         "name": "Apo-PMLog",
+        "version": "0.1.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/pmlog.py"
     },
     {
@@ -23535,6 +23761,7 @@
             }
         ],
         "name": "Apo-Purge",
+        "version": "0.1.34",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/purge.py"
     },
     {
@@ -23552,6 +23779,7 @@
             }
         ],
         "name": "Apo-PyPNG",
+        "version": "0.0.32",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/pypng.py"
     },
     {
@@ -23580,6 +23808,7 @@
             }
         ],
         "name": "Apo-Quotes",
+        "version": "2.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/quotes.py"
     },
     {
@@ -23604,6 +23833,7 @@
             }
         ],
         "name": "Apo-SaveMessage",
+        "version": "0.0.32",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/save_message.py"
     },
     {
@@ -23628,6 +23858,7 @@
             }
         ],
         "name": "Apo-ShowViews",
+        "version": "0.0.28",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/show_viewer.py"
     },
     {
@@ -23658,6 +23889,7 @@
             }
         ],
         "name": "Apo-TextToSpeech",
+        "version": "0.1.93",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/tts.py"
     },
     {
@@ -23801,6 +24033,7 @@
             }
         ],
         "name": "Apo-VoiceTools",
+        "version": "1.0.35",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/voicetools.py"
     },
     {
@@ -24351,6 +24584,7 @@
             }
         ],
         "name": "DelMessTools",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DelMessTools.py"
     },
     {
@@ -24382,6 +24616,7 @@
             }
         ],
         "name": "DoxTool",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/DoxTool.py"
     },
     {
@@ -24416,6 +24651,7 @@
             }
         ],
         "name": "Ascii_Face",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/ascii_face.py"
     },
     {
@@ -24481,6 +24717,7 @@
             }
         ],
         "name": "Compliments",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/compliments.py"
     },
     {
@@ -24515,6 +24752,7 @@
             }
         ],
         "name": "EmojiDownload",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/emojidown.py"
     },
     {
@@ -24539,6 +24777,7 @@
             }
         ],
         "name": "Figlet",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/figlet.py"
     },
     {
@@ -24584,6 +24823,7 @@
             }
         ],
         "name": "Hentai",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/hentai.py"
     },
     {
@@ -24615,6 +24855,7 @@
             }
         ],
         "name": "ID",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/id.py"
     },
     {
@@ -24663,6 +24904,7 @@
             }
         ],
         "name": "LoliHentai",
+        "version": "1.6.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/loli.py"
     },
     {
@@ -24737,6 +24979,7 @@
             }
         ],
         "name": "PinterestDownloader",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/pinterest.py"
     },
     {
@@ -24761,6 +25004,7 @@
             }
         ],
         "name": "PMBan",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/pmban.py"
     },
     {
@@ -24779,6 +25023,7 @@
             }
         ],
         "name": "PromoClaimer",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/promoclaimer.py"
     },
     {
@@ -24834,6 +25079,7 @@
             }
         ],
         "name": "Randomizer",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/coddrago/modules/randomizer.py"
     },
     {
@@ -25160,6 +25406,7 @@
             }
         ],
         "name": "CoVis",
+        "version": "1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/CoVis.py"
     },
     {
@@ -26926,6 +27173,7 @@
             }
         ],
         "name": "AI Hikka",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/AIHikka.py"
     },
     {
@@ -26980,6 +27228,7 @@
             }
         ],
         "name": "BIOAudio",
+        "version": "1.7.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/BIOAudio.py"
     },
     {
@@ -27004,6 +27253,7 @@
             }
         ],
         "name": "LazyTikTok",
+        "version": "1.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/LazyTikTok.py"
     },
     {
@@ -27079,6 +27329,7 @@
             }
         ],
         "name": "YaKeyGPT",
+        "version": "1.4.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/YaKeyGPT.py"
     },
     {
@@ -27095,6 +27346,7 @@
             }
         ],
         "name": "Crib",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/crib.py"
     },
     {
@@ -27111,6 +27363,7 @@
             }
         ],
         "name": "Huificinator",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/eremeyko/ne_Hikka/huificinator.py"
     },
     {
@@ -27605,6 +27858,7 @@
             }
         ],
         "name": "AccountSwitcher",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/account_switcher.py"
     },
     {
@@ -27690,6 +27944,7 @@
             }
         ],
         "name": "Anything",
+        "version": "1.0.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/anything.py"
     },
     {
@@ -27707,6 +27962,7 @@
             }
         ],
         "name": "ArtAI",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/artai.py"
     },
     {
@@ -27835,6 +28091,7 @@
             }
         ],
         "name": "BanStickers",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/banstickers.py"
     },
     {
@@ -27861,6 +28118,7 @@
             }
         ],
         "name": "BFG",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/bfg.py"
     },
     {
@@ -28002,6 +28260,7 @@
             }
         ],
         "name": "CheckEge",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/checkege.py"
     },
     {
@@ -28114,6 +28373,7 @@
         "pic": "https://ton.org/download/ton_symbol.png",
         "description": "Steals checks for crypto",
         "name": "CryptoSteal",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/cryptosteal.py"
     },
     {
@@ -28469,6 +28729,7 @@
         "pic": "https://static.dan.tatar/grustnogram_icon.png",
         "description": "Grustnogram.ru Telegram client",
         "name": "GrustnoGram",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/grustnogram.py"
     },
     {
@@ -28796,12 +29057,14 @@
             }
         ],
         "name": "HikariChat",
+        "version": "13.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/hikarichat.py"
     },
     {
         "author": "@hikarimods",
         "description": "Gives @hikkamods_bot a right to download modules from official modules aggregator and autoupdate them",
         "name": "HikkaModsSocket",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/hikkamods_socket.py"
     },
     {
@@ -28971,6 +29234,7 @@
             }
         ],
         "name": "InlineSpotify",
+        "version": "2.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/inline_spotify.py"
     },
     {
@@ -29068,6 +29332,7 @@
         "pic": "https://static.dan.tatar/leomatch_icon.png",
         "description": "Simplifies the interaction with @leomatchbot - Rejects slag, allows you to create filters by age, cities, blacklisted words. Check .config for more info",
         "name": "Leomatch",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/leomatch.py"
     },
     {
@@ -29109,6 +29374,7 @@
             }
         ],
         "name": "LongRead",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/longread.py"
     },
     {
@@ -29355,6 +29621,7 @@
             }
         ],
         "name": "NekoSpy",
+        "version": "1.0.28",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/nekospy.py"
     },
     {
@@ -29435,6 +29702,7 @@
             }
         ],
         "name": "NekoSpy",
+        "version": "2.12.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/nekospy_beta.py"
     },
     {
@@ -29548,6 +29816,7 @@
             }
         ],
         "name": "PMBL",
+        "version": "3.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/pmbl.py"
     },
     {
@@ -29751,6 +30020,7 @@
             }
         ],
         "name": "ServerInfo",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/serverinfo.py"
     },
     {
@@ -29796,6 +30066,7 @@
             }
         ],
         "name": "Shikimori",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/shikimori.py"
     },
     {
@@ -29813,6 +30084,7 @@
             }
         ],
         "name": "SilentTags",
+        "version": "2.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/silent_tags.py"
     },
     {
@@ -29852,6 +30124,7 @@
             }
         ],
         "name": "Spoilers",
+        "version": "1.0.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/spoilers.py"
     },
     {
@@ -29974,6 +30247,7 @@
             }
         ],
         "name": "SpotifyNow",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/spotify.py"
     },
     {
@@ -30105,6 +30379,7 @@
             }
         ],
         "name": "StickManager",
+        "version": "3.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/sticks.py"
     },
     {
@@ -30195,6 +30470,7 @@
             }
         ],
         "name": "TagAll",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/tagall.py"
     },
     {
@@ -30262,6 +30538,7 @@
             }
         ],
         "name": "TmpChats",
+        "version": "3.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/temp_chat.py"
     },
     {
@@ -30373,6 +30650,7 @@
             }
         ],
         "name": "TicTacToe",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/tictactoe.py"
     },
     {
@@ -30493,6 +30771,7 @@
             }
         ],
         "name": "TruthOrDare",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/truth_or_dare.py"
     },
     {
@@ -30524,6 +30803,7 @@
             }
         ],
         "name": "Uploader",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/uploader.py"
     },
     {
@@ -30663,6 +30943,7 @@
             }
         ],
         "name": "VoiceChat",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/voicechat.py"
     },
     {
@@ -30687,6 +30968,7 @@
             }
         ],
         "name": "Voicy",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/vtt.py"
     },
     {
@@ -30728,6 +31010,7 @@
             }
         ],
         "name": "WakaTime",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hikariatama/ftg/wakatime.py"
     },
     {
@@ -33191,6 +33474,7 @@
             }
         ],
         "name": "Bio",
+        "version": "3.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/bio.py"
     },
     {
@@ -33257,6 +33541,7 @@
             }
         ],
         "name": "LastFM",
+        "version": "1.0.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/idiotcoders/idiotmodules/lastfm.py"
     },
     {
@@ -33640,6 +33925,7 @@
             }
         ],
         "name": "ImgBBUploader",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/ibb.py"
     },
     {
@@ -33692,6 +33978,7 @@
             }
         ],
         "name": "FakeWallet",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/FakeWallet.py"
     },
     {
@@ -33708,6 +33995,7 @@
             }
         ],
         "name": "GitClone",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/GitClone.py"
     },
     {
@@ -33729,6 +34017,7 @@
             }
         ],
         "name": "Keeper",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Keeper.py"
     },
     {
@@ -33744,6 +34033,7 @@
             }
         ],
         "name": "Kittens",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Kittens.py"
     },
     {
@@ -33789,6 +34079,7 @@
             }
         ],
         "name": "Profile",
+        "version": "0.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Profile.py"
     },
     {
@@ -33804,6 +34095,7 @@
             }
         ],
         "name": "Text2File",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Text2File.py"
     },
     {
@@ -33826,6 +34118,7 @@
             }
         ],
         "name": "FakeWallet",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/fakewallet.py"
     },
     {
@@ -33842,6 +34135,7 @@
             }
         ],
         "name": "GitClone",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/gitclone.py"
     },
     {
@@ -33863,6 +34157,7 @@
             }
         ],
         "name": "Keeper",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/keeper.py"
     },
     {
@@ -33879,6 +34174,7 @@
             }
         ],
         "name": "Link2Pic",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/link2pic.py"
     },
     {
@@ -33894,6 +34190,7 @@
             }
         ],
         "name": "musicMod",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/music.py"
     },
     {
@@ -33923,6 +34220,7 @@
             }
         ],
         "name": "ProfileEditor",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/profile.py"
     },
     {
@@ -33959,6 +34257,7 @@
             }
         ],
         "name": "Searcher",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/searcher.py"
     },
     {
@@ -33999,6 +34298,7 @@
             }
         ],
         "name": "SeasonsTimer",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/seasons.py"
     },
     {
@@ -34014,6 +34314,7 @@
             }
         ],
         "name": "speedtester",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/speedtest.py"
     },
     {
@@ -34029,6 +34330,7 @@
             }
         ],
         "name": "Text2File",
+        "version": "1.1.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/text2file.py"
     },
     {
@@ -34423,6 +34725,7 @@
             }
         ],
         "name": "AccountManager",
+        "version": "2.3.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/AccountManager.py"
     },
     {
@@ -34438,6 +34741,7 @@
             }
         ],
         "name": "CheckUsername",
+        "version": "1.1.4",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/llocJlednuy-cepafum/modules/CheckUsername.py"
     },
     {
@@ -34604,6 +34908,7 @@
             }
         ],
         "name": "AutoFormatting",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/AutoFormatting.py"
     },
     {
@@ -34627,6 +34932,7 @@
             }
         ],
         "name": "AutomaticTranslator",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/AutomaticTranslator.py"
     },
     {
@@ -34642,6 +34948,7 @@
             }
         ],
         "name": "DDNetPT",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/DDNetPlayerTime.py"
     },
     {
@@ -34664,6 +34971,7 @@
             }
         ],
         "name": "DDNetStats",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/DDNetStats.py"
     },
     {
@@ -34687,6 +34995,7 @@
             }
         ],
         "name": "FaceitStatus",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/FaceitStatus.py"
     },
     {
@@ -34738,6 +35047,7 @@
             }
         ],
         "name": "InfoPresets",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/InfoPresets.py"
     },
     {
@@ -34754,6 +35064,7 @@
             }
         ],
         "name": "MyFACEIT",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/MyFACEIT.py"
     },
     {
@@ -34770,6 +35081,7 @@
             }
         ],
         "name": "Roulette",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/RussianRoulette.py"
     },
     {
@@ -34785,6 +35097,7 @@
             }
         ],
         "name": "SenderGifts",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/SenderGifts.py"
     },
     {
@@ -34801,6 +35114,7 @@
             }
         ],
         "name": "Steam Profile",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/SteamProfile.py"
     },
     {
@@ -34844,6 +35158,7 @@
             }
         ],
         "name": "Twitch",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/Twitch.py"
     },
     {
@@ -34860,6 +35175,7 @@
             }
         ],
         "name": "tmpfiles",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/mead0wsss/mead0wsMods/tmpfiles.py"
     },
     {
@@ -35031,6 +35347,7 @@
             }
         ],
         "name": "AdvancedText",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/AdvancedText.py"
     },
     {
@@ -35055,6 +35372,7 @@
             }
         ],
         "name": "Animation",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Animation.py"
     },
     {
@@ -35077,6 +35395,7 @@
             }
         ],
         "name": "BFGPromoMonitor",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/BfgPromo.py"
     },
     {
@@ -35109,6 +35428,7 @@
             }
         ],
         "name": "BotHost",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/BotHost.py"
     },
     {
@@ -35131,6 +35451,7 @@
             }
         ],
         "name": "CopyUser",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/CopyUser.py"
     },
     {
@@ -35146,6 +35467,7 @@
             }
         ],
         "name": "DeleteMessages",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/DeleteMessages.py"
     },
     {
@@ -35168,6 +35490,7 @@
             }
         ],
         "name": "GetID",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/GetID.py"
     },
     {
@@ -35218,6 +35541,7 @@
             }
         ],
         "name": "GithubhostBot",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/GithubhostBot.py"
     },
     {
@@ -35233,6 +35557,7 @@
             }
         ],
         "name": "MentionChat",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/MentionChat.py"
     },
     {
@@ -35262,6 +35587,7 @@
             }
         ],
         "name": "NetStatus",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/NetStatus.py"
     },
     {
@@ -35291,6 +35617,7 @@
             }
         ],
         "name": "Prints",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Prints.py"
     },
     {
@@ -35306,6 +35633,7 @@
             }
         ],
         "name": "Purge",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Purge.py"
     },
     {
@@ -35321,6 +35649,7 @@
             }
         ],
         "name": "RandomStory",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/RandomStory+18.py"
     },
     {
@@ -35336,6 +35665,7 @@
             }
         ],
         "name": "RandomStory",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/RandomStory.py"
     },
     {
@@ -35358,6 +35688,7 @@
             }
         ],
         "name": "ReadFilelink",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Readfilelink.py"
     },
     {
@@ -35373,6 +35704,7 @@
             }
         ],
         "name": "SaveFav",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SaveFav.py"
     },
     {
@@ -35388,6 +35720,7 @@
             }
         ],
         "name": "ScriptSearchRbx",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/ScriptSearchRbx.py"
     },
     {
@@ -35431,6 +35764,7 @@
             }
         ],
         "name": "ShortLink",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/ShortLink.py"
     },
     {
@@ -35467,6 +35801,7 @@
             }
         ],
         "name": "Spammer",
+        "version": "1.7.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/Spammer.py"
     },
     {
@@ -35489,6 +35824,7 @@
             }
         ],
         "name": "SpeechToText",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/SpeechToText.py"
     },
     {
@@ -35518,6 +35854,7 @@
             }
         ],
         "name": "StickSpam",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/StickSpam.py"
     },
     {
@@ -35547,6 +35884,7 @@
             }
         ],
         "name": "Avatar",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/avatar.py"
     },
     {
@@ -35562,6 +35900,7 @@
             }
         ],
         "name": "Time",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/time.py"
     },
     {
@@ -35578,6 +35917,7 @@
             }
         ],
         "name": "ДатаЗачатия",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/ДатаЗачатия.py"
     },
     {
@@ -35600,6 +35940,7 @@
             }
         ],
         "name": "КонвекторВалют",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/psyhoKuznetsov/Hikka-Models/КонвекторВалют.py"
     },
     {
@@ -35622,6 +35963,7 @@
             }
         ],
         "name": "AudioConverter",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/AudioConvertor.py"
     },
     {
@@ -35637,6 +35979,7 @@
             }
         ],
         "name": "Always Online",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/always-online.py"
     },
     {
@@ -35653,6 +35996,7 @@
             }
         ],
         "name": "media2gif",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqshark/Modules/media2gif.py"
     },
     {
@@ -35858,6 +36202,7 @@
             }
         ],
         "name": "MusicLoader",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/sawwnapix/Hikka/MusicLoader.py"
     },
     {
@@ -36037,6 +36382,7 @@
             }
         ],
         "name": "CryptoNow",
+        "version": "1.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/scream-dev/Modules/CryptoNow.py"
     },
     {
@@ -37038,6 +37384,7 @@
             }
         ],
         "name": "CAliases",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/caliases.py"
     },
     {
@@ -37056,6 +37403,7 @@
             }
         ],
         "name": "Deleter",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/deleter.py"
     },
     {
@@ -37090,6 +37438,7 @@
             }
         ],
         "name": "Privacy",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/privacy.py"
     },
     {
@@ -37108,6 +37457,7 @@
             }
         ],
         "name": "SDSaver",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/sdsaver.py"
     },
     {
@@ -37142,6 +37492,7 @@
             }
         ],
         "name": "Tidal",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/tidal.py"
     },
     {
@@ -37176,6 +37527,7 @@
             }
         ],
         "name": "WarPigs",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/warpigs.py"
     },
     {
@@ -37258,6 +37610,7 @@
             }
         ],
         "name": "YaMusic",
+        "version": "1.0.3",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/yamusic.py"
     },
     {
@@ -37333,6 +37686,7 @@
             }
         ],
         "name": "Check module",
+        "version": "3.3.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/CheckMods.py"
     },
     {
@@ -37355,6 +37709,7 @@
         "banner": "https://chojuu.vercel.app/api/banner?img=https://img.icons8.com/color/256/kakashi-hatake.png&title=MangaSlider&description=Read%20manga%20in%20Telegram%20%F0%9F%91%8D",
         "pic": "https://img.icons8.com/color/256/kakashi-hatake.png",
         "name": "MangaSlider",
+        "version": "2.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/MangaSlider.py"
     },
     {
@@ -37372,6 +37727,7 @@
             }
         ],
         "name": "Russian roulette",
+        "version": "2.3.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/RussianRoulette.py"
     },
     {
@@ -37389,6 +37745,7 @@
             }
         ],
         "name": "Account Time",
+        "version": "2.5.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/accounttime.py"
     },
     {
@@ -37406,6 +37763,7 @@
             }
         ],
         "name": "AsciiMod",
+        "version": "0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/ascii.py"
     },
     {
@@ -37423,6 +37781,7 @@
             }
         ],
         "name": "Bio Page",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/biopage.py"
     },
     {
@@ -37440,6 +37799,7 @@
             }
         ],
         "name": "📟 Calc",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/calc.py"
     },
     {
@@ -37470,6 +37830,7 @@
         "pic": "https://img.icons8.com/fluency/344/feedback.png",
         "description": "FeedbackBot",
         "name": "📥 Feedback",
+        "version": "3.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/feedbackbot.py"
     },
     {
@@ -37478,6 +37839,7 @@
         "pic": "https://img.icons8.com/fluency/344/pen-1.png",
         "description": "Module for prettifying the formatting of messages 🪛\n\n📌 For example write:\n--------------------\nHi, now is {now}, today is {today}, yesterday is {yesterday}, my id is {id}, username is @{username}...\n\n⌨️ Keyboard:\n~\n📥 Modules $ https://t.me/vsecoder_m\n👨‍💻 Dev $ https://t.me/vsecoder\n--------------------\n\nP.S. \"~\" is a separator for keyboard and message.\n     \"$\" is a separator for button and link.",
         "name": "Formatter",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/formatter.py"
     },
     {
@@ -37495,6 +37857,7 @@
             }
         ],
         "name": "Google it",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/googleit.py"
     },
     {
@@ -37551,6 +37914,7 @@
             }
         ],
         "name": "HH",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/hh.py"
     },
     {
@@ -37568,6 +37932,7 @@
             }
         ],
         "name": "Hypixel",
+        "version": "1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/hypixel.py"
     },
     {
@@ -37585,6 +37950,7 @@
             }
         ],
         "name": "LMFIFY",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/lmfify.py"
     },
     {
@@ -37602,6 +37968,7 @@
             }
         ],
         "name": "MazeMod",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/mazemod.py"
     },
     {
@@ -37619,6 +37986,7 @@
             }
         ],
         "name": "MonkeyType",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/monkeytype.py"
     },
     {
@@ -37636,6 +38004,7 @@
             }
         ],
         "name": "OctoCode",
+        "version": "3.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/octocode.py"
     },
     {
@@ -37653,6 +38022,7 @@
             }
         ],
         "name": "Profilemod",
+        "version": "0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/profile.py"
     },
     {
@@ -37684,6 +38054,7 @@
             }
         ],
         "name": "Quotes",
+        "version": "0.0.7",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/quotes.py"
     },
     {
@@ -37701,6 +38072,7 @@
             }
         ],
         "name": "SearX",
+        "version": "1.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/searx.py"
     },
     {
@@ -37716,6 +38088,7 @@
             }
         ],
         "name": "SpeechCensorship",
+        "version": "2.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/speechcensorship.py"
     },
     {
@@ -37733,6 +38106,7 @@
             }
         ],
         "name": "Steam",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/steam.py"
     },
     {
@@ -37750,6 +38124,7 @@
             }
         ],
         "name": "💠 Vsecoder Translate",
+        "version": "2.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/vsecodertranslate.py"
     },
     {
@@ -37767,6 +38142,7 @@
             }
         ],
         "name": "Wikipedia🌐",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/wikimod.py"
     },
     {
@@ -37798,6 +38174,7 @@
             }
         ],
         "name": "YmNow",
+        "version": "3.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/ymnow.py"
     },
     {
@@ -37822,6 +38199,7 @@
             }
         ],
         "name": "YmNowBeta",
+        "version": "2.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/vsecoder/hikka_modules/ymnowbeta.py"
     },
     {
@@ -37844,6 +38222,7 @@
             }
         ],
         "name": "AutoReaderMod",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/autoreader.py"
     },
     {
@@ -37859,6 +38238,7 @@
             }
         ],
         "name": "CalculatorMod",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/calculator.py"
     },
     {
@@ -37874,6 +38254,7 @@
             }
         ],
         "name": "ChEnc",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/chenc.py"
     },
     {
@@ -37889,6 +38270,7 @@
             }
         ],
         "name": "Click",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/click.py"
     },
     {
@@ -37904,6 +38286,7 @@
             }
         ],
         "name": "DeleterMod",
+        "version": "1.2.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/deleter.py"
     },
     {
@@ -37919,6 +38302,7 @@
             }
         ],
         "name": "FunstatMod",
+        "version": "1.1.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/funstat.py"
     },
     {
@@ -37934,6 +38318,7 @@
             }
         ],
         "name": "GroupHelpMod",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/grouphelp.py"
     },
     {
@@ -37956,6 +38341,7 @@
             }
         ],
         "name": "ID",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/id.py"
     },
     {
@@ -37971,6 +38357,7 @@
             }
         ],
         "name": "IrisMod",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/iris.py"
     },
     {
@@ -37986,6 +38373,7 @@
             }
         ],
         "name": "KomaruMod",
+        "version": "1.9.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/komarumod.py"
     },
     {
@@ -38001,6 +38389,7 @@
             }
         ],
         "name": "RandomizerMod",
+        "version": "1.0.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/randomizer.py"
     },
     {
@@ -38016,6 +38405,7 @@
             }
         ],
         "name": "ReadFile",
+        "version": "1.0.9",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/readfile.py"
     },
     {
@@ -38052,6 +38442,7 @@
             }
         ],
         "name": "WSpamMod",
+        "version": "1.4.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/spam.py"
     },
     {
@@ -38067,6 +38458,7 @@
             }
         ],
         "name": "SpamCheckMod",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/spamcheck.py"
     },
     {
@@ -38082,6 +38474,7 @@
             }
         ],
         "name": "SpeedTest",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/speedtest.py"
     },
     {
@@ -38104,6 +38497,7 @@
             }
         ],
         "name": "WordByWord",
+        "version": "1.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/werpyock/hikkamods/wordbyword.py"
     },
     {
@@ -39272,6 +39666,7 @@
             }
         ],
         "name": "SwitchToTelethon",
+        "version": "1.0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/SwitchToTelethon.py"
     },
     {
@@ -39287,6 +39682,7 @@
             }
         ],
         "name": "CopyUser",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_CopyUser_fix.py"
     },
     {
@@ -39302,6 +39698,7 @@
             }
         ],
         "name": "yg_TokensPrice",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_TokensPrice.py"
     },
     {
@@ -39317,6 +39714,7 @@
             }
         ],
         "name": "yg_TonWalletGenerator",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_TonWalletGenerator.py"
     },
     {
@@ -39352,6 +39750,7 @@
             }
         ],
         "name": "yg_balance",
+        "version": "1.5",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_balance.py"
     },
     {
@@ -39374,6 +39773,7 @@
             }
         ],
         "name": "yg_base64",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_base64.py"
     },
     {
@@ -39438,6 +39838,7 @@
             }
         ],
         "name": "yg_blum",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_blum.py"
     },
     {
@@ -39453,6 +39854,7 @@
             }
         ],
         "name": "yg_captcha",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_captcha.py"
     },
     {
@@ -39468,6 +39870,7 @@
             }
         ],
         "name": "yg_chatid",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_chatid.py"
     },
     {
@@ -39483,6 +39886,7 @@
             }
         ],
         "name": "yg_chatinfo",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_chatinfo.py"
     },
     {
@@ -39554,6 +39958,7 @@
             }
         ],
         "name": "yg_checks",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_checks.py"
     },
     {
@@ -39569,6 +39974,7 @@
             }
         ],
         "name": "yg_circle",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_circle.py"
     },
     {
@@ -39591,6 +39997,7 @@
             }
         ],
         "name": "yg_crypto",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_crypto.py"
     },
     {
@@ -39606,6 +40013,7 @@
             }
         ],
         "name": "yg_dice",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_dice.py"
     },
     {
@@ -39628,6 +40036,7 @@
             }
         ],
         "name": "yg_dogs",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_dogs.py"
     },
     {
@@ -39650,6 +40059,7 @@
             }
         ],
         "name": "yg_fakeload",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_fakeload.py"
     },
     {
@@ -39667,6 +40077,7 @@
             }
         ],
         "name": "yg_gamee",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_gamee.py"
     },
     {
@@ -39728,6 +40139,7 @@
             }
         ],
         "name": "yg_gemini",
+        "version": "1.5.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_gemini.py"
     },
     {
@@ -39743,6 +40155,7 @@
             }
         ],
         "name": "yg_giveaways",
+        "version": "1.4.9.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_giveaways.py"
     },
     {
@@ -39758,6 +40171,7 @@
             }
         ],
         "name": "yg_giveshare",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_giveshare.py"
     },
     {
@@ -39794,6 +40208,7 @@
             }
         ],
         "name": "yg_notes",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_notes.py"
     },
     {
@@ -39816,6 +40231,7 @@
             }
         ],
         "name": "yg_ocr",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_ocr.py"
     },
     {
@@ -39831,6 +40247,7 @@
             }
         ],
         "name": "yg_owner",
+        "version": "1.0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_owner.py"
     },
     {
@@ -39853,6 +40270,7 @@
             }
         ],
         "name": "yg_prem",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_prem.py"
     },
     {
@@ -39868,6 +40286,7 @@
             }
         ],
         "name": "yg_rickroll",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_rickroll.py"
     },
     {
@@ -39883,6 +40302,7 @@
             }
         ],
         "name": "yg_sendmsg",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_sendmsg.py"
     },
     {
@@ -39905,6 +40325,7 @@
             }
         ],
         "name": "yg_slot",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_slot.py"
     },
     {
@@ -39927,6 +40348,7 @@
             }
         ],
         "name": "yg_spam",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_spam.py"
     },
     {
@@ -39944,6 +40366,7 @@
             }
         ],
         "name": "yg_stars",
+        "version": "1.1.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_stars.py"
     },
     {
@@ -40000,6 +40423,7 @@
             }
         ],
         "name": "yg_tgs",
+        "version": "1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_tgs.py"
     },
     {
@@ -40022,6 +40446,7 @@
             }
         ],
         "name": "yg_timer",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_timer.py"
     },
     {
@@ -40037,6 +40462,7 @@
             }
         ],
         "name": "yg_ton",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_ton.py"
     },
     {
@@ -40080,6 +40506,7 @@
             }
         ],
         "name": "yg_trigger",
+        "version": "1.0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_trigger.py"
     },
     {
@@ -40102,6 +40529,7 @@
             }
         ],
         "name": "yg_vm",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_vm.py"
     },
     {
@@ -40117,6 +40545,7 @@
             }
         ],
         "name": "yg_wallet",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_wallet.py"
     },
     {
@@ -40146,6 +40575,7 @@
             }
         ],
         "name": "yg_whales",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_whales.py"
     },
     {
@@ -40161,6 +40591,7 @@
             }
         ],
         "name": "yg_xxx",
+        "version": "1.4.8.8",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_xxx.py"
     },
     {
@@ -40176,6 +40607,7 @@
             }
         ],
         "name": "SoSuShortener",
+        "version": "0.0.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/zelenogoloviy/hikka-modules/SoSuShortener.py"
     },
     {
