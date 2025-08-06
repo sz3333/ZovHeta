@@ -23451,17 +23451,10 @@
                 "description": {
                     "doc": "Удаляет все сообщения от тебя"
                 }
-            },
-            {
-                "name": "delmenow",
-                "inline": false,
-                "description": {
-                    "doc": "Удаляет все сообщения от тебя без вопросов"
-                }
             }
         ],
         "name": "DelMe",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/delme.py"
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/diff_test.py"
     },
     {
         "author": "@DorotoroMods",
