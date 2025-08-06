@@ -9325,31 +9325,47 @@
     },
     {
         "author": "@Hikimuro, @kf_ic3peak",
-        "description": "Модуль для пересылки сообщений из каналов с обходом защиты",
+        "description": "Forward messages from protected channels.",
         "commands": [
             {
                 "name": "fh",
                 "inline": false,
                 "description": {
-                    "doc": "<chat_id> <количество> — пересылка последних N сообщений из канала"
+                    "ru_doc": "Пересылка сообщений из канала или топика.",
+                    "de_doc": "Weiterleitung von Nachrichten aus Channel oder Thema.",
+                    "doc": "Forward messages from a channel or topic."
+                }
+            },
+            {
+                "name": "listtopics",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Показать все топики в чате.",
+                    "de_doc": "Alle Themen im Chat anzeigen.",
+                    "doc": "Show all topics in a chat."
                 }
             },
             {
                 "name": "listch",
                 "inline": false,
                 "description": {
-                    "doc": "— показать список всех каналов и супергрупп, включая закрытые"
+                    "ru_doc": "Показать все каналы и группы.",
+                    "de_doc": "Alle Kanäle und Gruppen anzeigen.",
+                    "doc": "Show all channels and groups."
                 }
             },
             {
                 "name": "getid",
                 "inline": false,
                 "description": {
-                    "doc": "— получить ID текущего чата"
+                    "ru_doc": "Получить ID текущего чата.",
+                    "de_doc": "ID des aktuellen Chats anzeigen.",
+                    "doc": "Get the ID of the current chat."
                 }
             }
         ],
         "name": "ForwardHidden",
+        "version": "2.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/ForwardHidden.py"
     },
     {
@@ -23459,7 +23475,7 @@
             }
         ],
         "name": "DelMe",
-        "version": "9.1.5.6",
+        "version": "9.1.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/diff_test.py"
     },
     {
