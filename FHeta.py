@@ -757,15 +757,18 @@ class FHeta(loader.Module):
         return {"icount": 0}
 
     async def search_modules(self, query):
-        async with aiohttp.ClientSession() as session:
-                async with session.post("https://fheta_api.fixyres.com/search", json={"query": query}, ssl=self.sslc) as response:
-                    if response.status == 200:
-                        text = await response.text()
-                        modules = json.loads(text)
-                        modules = json.loads(modules)
-                        return modules
-                    else:
-                        return
+        try:
+            async with aiohttp.ClientSession() as session:
+                    async with session.post("https://fheta_api.fixyres.com/search", json={"query": query}, ssl=self.sslc) as response:
+                        if response.status == 200:
+                            text = await response.text()
+                            modules = json.loads(text)
+                            modules = json.loads(modules)
+                            return modules
+                        else:
+                            return
+        except:
+            return
 
     async def process_module(self, module, stats, ic):
         module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
@@ -849,4 +852,3 @@ class FHeta(loader.Module):
 
                     processed_modules.sort(key=lambda x: x["rating"], reverse=True)
                     return processed_modules
-    
