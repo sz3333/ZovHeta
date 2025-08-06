@@ -1,6 +1,6 @@
-__version__ = (9, 1, 4)
+__version__ = (9, 1, 5)
 # meta developer: @Fixyres
-# change-log: 🧠 Now using AI-based search, FHeta has migrated to new server, bug fix.
+# change-log: Bug fix.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -17,11 +17,13 @@ __version__ = (9, 1, 4)
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
-import asyncio, aiohttp, json, io, inspect, ssl, difflib
+import asyncio, aiohttp, json, io, inspect, ssl, difflib, logging
 from .. import loader, utils, main
 from hikkatl.types import Message
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
+
+logging.root.disabled = True
 
 @loader.tds
 class FHeta(loader.Module):
@@ -320,12 +322,12 @@ class FHeta(loader.Module):
         self.fid = self.db.get("FHeta", "id")
         if self.fid is None:
             self.fid = (await self.c.get_me()).id
-            self.db.set("FHeta", "id", fid)
+            self.db.set("FHeta", "id", self.fid)
 
         while True:
             try:
-                async with aiohttp.ClientSession() as s:
-                    await s.post(
+                async with aiohttp.ClientSession() as session:
+                    async with session.post(
                         "https://fheta_api.fixyres.com/dataset",
                         params={
                             "myfid": self.fid,
@@ -341,7 +343,8 @@ class FHeta(loader.Module):
                         headers={"Authorization": self.token},
                         ssl=self.sslc,
                         timeout=5
-                    )
+                    ) as response:
+                        await response.release()
             except:
                 pass
             await asyncio.sleep(10)
@@ -415,7 +418,7 @@ class FHeta(loader.Module):
 
                 cmds, inline_cmds = [], []
                 for cmd in mod.get("commands", []):
-                    cmd_desc = cmd.get('description', {}).get(lang, cmd.get('description', {}).get('doc'))
+                    cmd_desc = cmd.get('description', {}).get(lang) or cmd.get('description', {}).get('doc') or ""
                     if cmd.get("inline", False):
                         inline_cmds.append(f"<code>@{self.inline.bot_username} {utils.escape_html(cmd['name'])}</code> {utils.escape_html(cmd_desc)}")
                     else:
@@ -491,8 +494,8 @@ class FHeta(loader.Module):
         async def ft(u):
             if u:
                 try:
-                    async with aiohttp.ClientSession() as s:
-                        async with s.get(u, timeout=5) as r:
+                    async with aiohttp.ClientSession() as session:
+                        async with session.get(u, timeout=5) as r:
                             if r.status == 200:
                                 return str(r.url)
                 except:
@@ -694,7 +697,6 @@ class FHeta(loader.Module):
                     remote_lines = remote_content.splitlines()
                     new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
                     what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
-                    
                 else:
                     await utils.answer(message, self.strings("fetch_failed"))
                     return
@@ -731,8 +733,6 @@ class FHeta(loader.Module):
                     await rose.delete()
                     await message.delete()
                     break
-                else:
-                    None
         except:
             pass
 
@@ -746,12 +746,20 @@ class FHeta(loader.Module):
             pass
         return {"likes": 0, "dislikes": 0}
 
-    async def get_icount(self, url):
+    async def get_statss(self, url, session):
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
-                    if response.status == 200:
-                        return await response.json()
+            async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
+                if response.status == 200:
+                    return await response.json()
+        except:
+            pass
+        return {"likes": 0, "dislikes": 0}
+
+    async def get_icount(self, url, session):
+        try:
+            async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
+                if response.status == 200:
+                    return await response.json()
         except:
             pass
         return {"icount": 0}
@@ -760,15 +768,15 @@ class FHeta(loader.Module):
         try:
             async with aiohttp.ClientSession() as session:
                     async with session.post("https://fheta_api.fixyres.com/search", json={"query": query}, ssl=self.sslc) as response:
-                        if response.status == 200:
-                            text = await response.text()
-                            modules = json.loads(text)
+                        text = await response.text()
+                        modules = json.loads(text)
+                        try:
                             modules = json.loads(modules)
-                            return modules
-                        else:
-                            return
+                        except:
+                            pass
+                        return modules
         except:
-            return
+            return []
 
     async def process_module(self, module, stats, ic):
         module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
@@ -838,8 +846,8 @@ class FHeta(loader.Module):
 
                     found = found[:50]
 
-                    stats_tasks = [self.get_stats(mod.get("install", "")) for mod in found]
-                    ic_tasks = [self.get_icount(mod.get("install", "")) for mod in found]
+                    stats_tasks = [self.get_statss(mod.get("install", ""), session) for mod in found]
+                    ic_tasks = [self.get_icount(mod.get("install", ""), session) for mod in found]
                     stats_responses, ic_responses = await asyncio.gather(
                         asyncio.gather(*stats_tasks),
                         asyncio.gather(*ic_tasks)
@@ -851,4 +859,4 @@ class FHeta(loader.Module):
                     ]
 
                     processed_modules.sort(key=lambda x: x["rating"], reverse=True)
-                    return processed_modules
+                    return processed_modules 
