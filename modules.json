@@ -3681,6 +3681,96 @@
     },
     {
         "author": "@hikkagpt",
+        "description": ">> Часть экосистемы Zetta - AI models <<\n🌒 Version: 1.2 (Group Fix & Context Fix)\n📍Описание:\nУниверсальный AI автоответчик для ваших личных чатов в Telegram.\nЭтот модуль является частью экосистемы Zetta и дополняет основной модуль «Zetta - AI models».\n\n🤖 Больше возможностей в нашем боте: @ZettaGPT4o_bot\n\n🔀Режимы работы:\n- Ответ всем: ИИ отвечает на сообщения от любого пользователя в ЛС.\n- Ответ друзьям: ИИ отвечает только пользователям из вашего списка друзей.\n- Всем кроме друзей: ИИ отвечает всем, кто НЕ в списке друзей.\n\n⚙️ Ключевые возможности:\n- Контекстная память в каждом чате (до 100 сообщений).\n- Основные настройки через меню `.zcfg`.\n- Управление плагинами через интерактивное меню `.zplugins`.\n- Раздельная настройка ролей командами (`.zrole`).\n- Выбор из 35 моделей ИИ.\n\n🫶 Разработчик: @hikkagpt",
+        "commands": [
+            {
+                "name": "watcher",
+                "inline": false,
+                "description": {}
+            },
+            {
+                "name": "zclear",
+                "inline": false,
+                "description": {
+                    "doc": "Очистить историю диалога в текущем чате."
+                }
+            },
+            {
+                "name": "zallclear",
+                "inline": false,
+                "description": {
+                    "doc": "Очистить историю всех диалогов."
+                }
+            },
+            {
+                "name": "zrole",
+                "inline": false,
+                "description": {
+                    "doc": "Установить роль для 'all' или 'friends'."
+                }
+            },
+            {
+                "name": "zallrole",
+                "inline": false,
+                "description": {
+                    "doc": "Установить одну роль для всех и для друзей."
+                }
+            },
+            {
+                "name": "zplugin",
+                "inline": false,
+                "description": {
+                    "doc": "Создать плагин."
+                }
+            },
+            {
+                "name": "zswitch",
+                "inline": false,
+                "description": {
+                    "doc": "Применить плагин."
+                }
+            },
+            {
+                "name": "zfriend",
+                "inline": false,
+                "description": {
+                    "doc": "Добавить пользователя в друзья."
+                }
+            },
+            {
+                "name": "zunfriend",
+                "inline": false,
+                "description": {
+                    "doc": "Удалить пользователя из друзей."
+                }
+            },
+            {
+                "name": "zfriends",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает список друзей."
+                }
+            },
+            {
+                "name": "zcfg",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает основное меню настроек."
+                }
+            },
+            {
+                "name": "zplugins",
+                "inline": false,
+                "description": {
+                    "doc": "Показывает меню управления плагинами."
+                }
+            }
+        ],
+        "name": "Zetta - AI Assistant",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Chaek1403/VAWEIRR/Zetta%20-%20AI%20Assistant.py"
+    },
+    {
+        "author": "@hikkagpt",
         "description": "🧠 Модуль Zetta - AI Models\n>> Часть экосистемы Zetta - AI models <<\n🌒 Version: 13.0 | fastZetta Beta 2 | New settings\nОснованно на базе инструментов API - @OnlySq\n\n📍Описание:\nМодуль дает доступ к 35 модели ИИ, подходит как для быстрых запросов, так и для общения с контекстом и автоматизации общения/обслуживания.\n\n🔀Режимы работы:\n\nОдиночный запрос:\n.ai <запрос> - мгновенный ответ без сохранения истории диалога. Ответ на голосовое сообщение также поддерживается.\n\nЧат:\n.chat - ведите диалог с ИИ, который запоминает контекст беседы. Распознает голосовые сообщения всех участников беседы.\n.mode <all/reply/friends/random> - установка режима ответа в чате.\n\nFastZetta:\n.fastzetta on - активирует быстрый вызов ассистента по имени \"Зетта\" в чате, которое можно изменить.\nТеперь с поддержкой памяти (.zettacfg для настройки)\n.fastclear - очищает память FastZetta для текущего чата.\nМожете использовать только вы, либо дать доступ вашим друзьям.\n\nСоздание плагинов:\nСоздавайте инструкции для ИИ, чтобы он мог выполнять уникальные задачи. Сохранение ролей и их переключение через *.switchplugin.*\n\nПереписывание текстов:\nИспользуйте .rewrite для перевода, стилизации или упрощения сложных текстов.\n\nРабота с Hikka Userbot:\nКоманды aisup и aicreate задействуют дообученые модели GPT, и могут заменить вам чат поддержки Hikka или написать вам модуль.\n\nОсобенности:\n- Поддержка до 35 моделей ИИ.\n- Распознавание голосовых сообщений.\n- Полная интеграция с Telegram.\n- Универсальность и практичность для любых задач.\n    ",
         "commands": [
             {
@@ -12738,6 +12828,19 @@
     },
     {
         "author": "@HikkaZPM",
+        "description": "Анализ и сокращение сообщения с помощью ИИ (Gemini API)",
+        "commands": [
+            {
+                "name": "analyze",
+                "inline": false,
+                "description": {}
+            }
+        ],
+        "name": "Analyze",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/IgorVasilekIV/zalupa-modules/analyze.py"
+    },
+    {
+        "author": "@HikkaZPM",
         "banner": "https://files.catbox.moe/u91fwo.jpg",
         "description": "Поиск aur пакетов в aur.archlinux.org",
         "commands": [
@@ -12752,7 +12855,7 @@
     },
     {
         "author": "@HikkaZPM",
-        "description": "Имитация neofetch/fastfetch, канал с пресетами: https://t.me/+t_xLnCad6zM1NmEy",
+        "description": "Имитация neofetch/fastfetch, канал с пресетами: https://t.me/+FQHkk51Cb7U2MTUy",
         "commands": [
             {
                 "name": "fneo",
@@ -12805,6 +12908,11 @@
                 "description": {
                     "doc": "окак"
                 }
+            },
+            {
+                "name": "watcher",
+                "inline": false,
+                "description": {}
             }
         ],
         "name": "окак",
@@ -33699,7 +33807,82 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Text2File.py"
     },
     {
-        "author": "@nervousmods",
+        "author": "@sansaramods",
+        "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
+        "commands": [
+            {
+                "name": "fwallet",
+                "inline": false,
+                "description": {
+                    "doc": "-> to get a fake wallet"
+                }
+            },
+            {
+                "name": "fwinfo",
+                "inline": false,
+                "description": {
+                    "doc": "-> info about FakeModule"
+                }
+            }
+        ],
+        "name": "FakeWallet",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/fakewallet.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for cloning codes from GitHub using raw links with the ability to change the settings of the created file.",
+        "commands": [
+            {
+                "name": "gitcl",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> клонировать код из репозитория, используя raw ссылку. Пример: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py",
+                    "doc": "-> Clone code from repository using raw link. Example: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py`"
+                }
+            }
+        ],
+        "name": "GitClone",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/gitclone.py"
+    },
+    {
+        "author": "@sansaramods",
+        "commands": [
+            {
+                "name": "kp",
+                "inline": false,
+                "description": {
+                    "doc": ".kp <reply> - save a self-destructing photo"
+                }
+            },
+            {
+                "name": "akp",
+                "inline": false,
+                "description": {
+                    "doc": "toggle photo auto-upload mode in PM"
+                }
+            }
+        ],
+        "name": "Keeper",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/keeper.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for downloading images via link from any sources",
+        "commands": [
+            {
+                "name": "l2p",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> скачать изображение по ссылке",
+                    "doc": "-> to download image by url"
+                }
+            }
+        ],
+        "name": "Link2Pic",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/link2pic.py"
+    },
+    {
+        "author": "@sansaramods",
         "description": "Module for search music.",
         "commands": [
             {
@@ -33714,7 +33897,36 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/music.py"
     },
     {
-        "author": "@nervousmods",
+        "author": "@sansaramods",
+        "description": "This module can change your Telegram profile.",
+        "commands": [
+            {
+                "name": "name",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your first/second name."
+                }
+            },
+            {
+                "name": "about",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your bio."
+                }
+            },
+            {
+                "name": "user",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your username. Enter value without \"@\"."
+                }
+            }
+        ],
+        "name": "ProfileEditor",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/profile.py"
+    },
+    {
+        "author": "@sansaramods",
         "description": "Searches for various queries in inline bots",
         "commands": [
             {
@@ -33750,7 +33962,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/searcher.py"
     },
     {
-        "author": "@nervousmods, @hikka_mods",
+        "author": "@sansaramods",
         "description": "Модуль таймер до начала времен года.",
         "commands": [
             {
@@ -33803,6 +34015,21 @@
         ],
         "name": "speedtester",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/speedtest.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for convertation your text to file",
+        "commands": [
+            {
+                "name": "ttf",
+                "inline": false,
+                "description": {
+                    "doc": "-> to create a file with your text or code"
+                }
+            }
+        ],
+        "name": "Text2File",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/text2file.py"
     },
     {
         "author": "@aki_modules",
