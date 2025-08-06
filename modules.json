@@ -36867,6 +36867,24 @@
     },
     {
         "author": "@kamekuro_hmods",
+        "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/sdsaver.png",
+        "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/sdsaver.png",
+        "description": "The module for automatically saving self-destructing media",
+        "commands": [
+            {
+                "name": "sdmode",
+                "inline": false,
+                "description": {
+                    "ru_doc": "👉 Включить/Выключить автоматическое сохранение самоуничтожающихся медиа",
+                    "doc": "👉 Enable/Disable automatic saving self-destructing media"
+                }
+            }
+        ],
+        "name": "SDSaver",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/unneyon/hikka-mods/sdsaver.py"
+    },
+    {
+        "author": "@kamekuro_hmods",
         "banner": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/banners/tidal.png",
         "pic": "https://raw.githubusercontent.com/kamekuro/hikka-mods/main/icons/tidal.png",
         "description": "API wrapper over TIDAL Hi-Fi music streaming service\nThanks @hikarimods for original module: t.me/hikarimods/764",
