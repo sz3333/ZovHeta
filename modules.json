@@ -23448,9 +23448,7 @@
             {
                 "name": "delme",
                 "inline": false,
-                "description": {
-                    "doc": "Удаляет все сообщения от тебя"
-                }
+                "description": {}
             }
         ],
         "name": "DelMe",
