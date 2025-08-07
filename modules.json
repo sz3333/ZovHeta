@@ -9325,15 +9325,15 @@
     },
     {
         "author": "@Hikimuro, @kf_ic3peak",
-        "description": "Forward messages from protected channels.",
+        "description": "Optimized forward messages from protected channels.",
         "commands": [
             {
                 "name": "fh",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Пересылка сообщений из канала или топика.",
-                    "de_doc": "Weiterleitung von Nachrichten aus Channel oder Thema.",
-                    "doc": "Forward messages from a channel or topic."
+                    "ru_doc": "Оптимизированная пересылка с мягкой защитой.",
+                    "de_doc": "Optimized message forwarding.",
+                    "doc": "Optimized forward messages from a channel or topic."
                 }
             },
             {
@@ -9365,7 +9365,7 @@
             }
         ],
         "name": "ForwardHidden",
-        "version": "2.2.1",
+        "version": "2.4.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/ForwardHidden.py"
     },
     {
