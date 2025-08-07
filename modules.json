@@ -23459,26 +23459,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/dekkusudev/mm-hikka-mods/versteck.py"
     },
     {
-        "description": "Удаляет все сообщения",
-        "commands": [
-            {
-                "name": "delme",
-                "inline": false,
-                "description": {}
-            },
-            {
-                "name": "delme",
-                "inline": false,
-                "description": {
-                    "doc": "Sasoon..."
-                }
-            }
-        ],
-        "name": "DelMe",
-        "version": "9.1.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/diff_test.py"
-    },
-    {
         "author": "@DorotoroMods",
         "banner": "https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/Dorotoro01code.png",
         "description": "Ваш персональный шифратор в двоичный код.",
