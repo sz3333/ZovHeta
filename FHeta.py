@@ -1,6 +1,6 @@
-__version__ = (9, 1, 5)
+__version__ = (9, 1, 6)
 # meta developer: @Fixyres
-# change-log: Bug fix.
+# change-log: 😓 AI search is disabled.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -746,6 +746,16 @@ class FHeta(loader.Module):
             pass
         return {"likes": 0, "dislikes": 0}
 
+    async def get_icountt(self, url):
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
+                    if response.status == 200:
+                        return await response.json()
+        except:
+            pass
+        return {"icount": 0}
+
     async def get_statss(self, url, session):
         try:
             async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
@@ -763,20 +773,60 @@ class FHeta(loader.Module):
         except:
             pass
         return {"icount": 0}
+    
+    async def search_modules(self, query: str):
+        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
+        async with aiohttp.ClientSession() as session:
+            modules_task = asyncio.create_task(session.get(url))
+            modules_response = await modules_task
 
-    async def search_modules(self, query):
-        try:
-            async with aiohttp.ClientSession() as session:
-                    async with session.post("https://fheta_api.fixyres.com/search", json={"query": query}, ssl=self.sslc) as response:
-                        text = await response.text()
-                        modules = json.loads(text)
-                        try:
-                            modules = json.loads(modules)
-                        except:
-                            pass
-                        return modules
-        except:
-            return []
+            if modules_response.status != 200:
+                return []
+
+            data = await modules_response.text()
+            modules = json.loads(data)
+
+            found_modules = []
+
+            if 1:
+                for module in modules:
+                    if (query.lower() in module.get("name", "").lower()
+                        or any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
+                        or query.lower() in module.get("author", "").lower()
+                        or query.lower() in module.get("description", "").lower()
+                        or any(
+                            query.lower() in desc.lower()
+                            for cmd in module.get("commands", [])
+                            for desc in cmd.get("description", {}).values()
+                        )):
+                        found_modules.append(module)
+                        if len(found_modules) >= 50:
+                            break
+
+                if len(found_modules) < 50:
+                    module_names = [module['name'] for module in modules if 'name' in module]
+                    closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
+                    if closest_matches:
+                        module = next((m for m in modules if m.get('name') == closest_matches[0]), None)
+                        if module and module not in found_modules:
+                            found_modules.append(module)
+
+            found_modules = found_modules[:50]
+
+            stats_tasks = [self.get_stats(module.get("install", "")) for module in found_modules]
+            ic_tasks = [self.get_icountt(module.get("install", "")) for module in found_modules]
+            stats_responses, ic_responses = await asyncio.gather(
+                asyncio.gather(*stats_tasks),
+                asyncio.gather(*ic_tasks)
+            )
+
+            processed_modules = [
+                await self.process_module(module, stats_responses[i], ic_responses[i])
+                for i, module in enumerate(found_modules)
+            ]
+
+            processed_modules.sort(key=lambda x: x["rating"], reverse=True)
+            return processed_modules
 
     async def process_module(self, module, stats, ic):
         module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
