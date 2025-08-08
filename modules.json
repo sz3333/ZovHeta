@@ -9331,7 +9331,7 @@
                 "name": "fh",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Оптимизированная пересылка с мягкой защитой.",
+                    "ru_doc": "Оптимизированная пересылка с исправленным контролем скорости в конфиге.",
                     "de_doc": "Optimized message forwarding.",
                     "doc": "Optimized forward messages from a channel or topic."
                 }
@@ -9365,7 +9365,7 @@
             }
         ],
         "name": "ForwardHidden",
-        "version": "2.4.2",
+        "version": "2.5.2",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/Hikimuro/mods/ForwardHidden.py"
     },
     {
