@@ -17764,7 +17764,7 @@
             }
         ],
         "name": "Gemini",
-        "version": "5.0.1",
+        "version": "5.2.1",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/SenkoGuardian/SenkoGuardian/Gemini.py"
     },
     {
@@ -32904,6 +32904,88 @@
         ],
         "name": "SharkHost",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqsharki4/SharkHostModules/SharkHost.py"
+    },
+    {
+        "author": "bio.kezuhiro.fun",
+        "commands": [
+            {
+                "name": "neofetch",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- запустить команду neofetch",
+                    "ua_doc": "- запустити команду neofetch",
+                    "doc": "- run neofetch command"
+                }
+            }
+        ],
+        "name": "Neofetch",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/Neofetch.py"
+    },
+    {
+        "author": "bio.kezuhiro.fun",
+        "description": "Управление музыкой через playerctl. Только для Linux.",
+        "commands": [
+            {
+                "name": "mtoggle",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Переключить воспроизведение"
+                }
+            },
+            {
+                "name": "mnext",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Следующий трек"
+                }
+            },
+            {
+                "name": "mprev",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Предыдущий трек"
+                }
+            },
+            {
+                "name": "mnow",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- Показать текущий трек и позицию"
+                }
+            }
+        ],
+        "name": "PlayerCTL",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/playerctl.py"
+    },
+    {
+        "author": "@radiocycle",
+        "commands": [
+            {
+                "name": "rapic",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- получить рандомную аниме-картинку 👀",
+                    "doc": "- fetch random anime-pic 👀"
+                }
+            }
+        ],
+        "name": "RandomAnimePic",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/randomanimepic.py"
+    },
+    {
+        "author": "bio.kezuhiro.fun",
+        "commands": [
+            {
+                "name": "vtt",
+                "inline": false,
+                "description": {
+                    "ru_doc": "- распознает текст из голосового или видеосообщения.",
+                    "doc": "- recognizes text from voice or video messages."
+                }
+            }
+        ],
+        "name": "VoiceToText",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/voicetotext.py"
     },
     {
         "author": "@angellmodules",
