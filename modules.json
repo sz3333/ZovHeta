@@ -30824,8 +30824,8 @@
                 "name": "ch",
                 "inline": false,
                 "description": {
-                    "ru_doc": "Показать всё, что происходило пока ты отошёл. Можно указать @username или реплай.",
-                    "en_doc": "Show what happened while you were away. Use @username or reply to filter."
+                    "ru_doc": "Показать всё, что происходило пока ты отошёл. Использование: .ch [количество] [@username/reply]",
+                    "en_doc": "Show what happened while you were away. Usage: .ch [count] [@username/reply]"
                 }
             }
         ],
