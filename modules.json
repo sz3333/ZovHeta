@@ -24899,6 +24899,23 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/wiki.py"
     },
     {
+        "author": "@wifitldev",
+        "description": "Поиск свободных юзернеймов в Telegram, не всегда точный",
+        "commands": [
+            {
+                "name": "uc",
+                "inline": false,
+                "description": {
+                    "ru_doc": "Найти 5 свободных юзернеймов",
+                    "en_doc": "Find 5 available usernames",
+                    "doc": "Найти ровно 5 свободных юзернеймов"
+                }
+            }
+        ],
+        "name": "UseChecker",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hav4ik-well/UserChecker/UserChecker.py"
+    },
+    {
         "author": "@hikarimods",
         "banner": "https://mods.hikariatama.ru/badges/account_switcher.jpg",
         "pic": "https://static.dan.tatar/account_switcher_icon.png",
