@@ -24780,6 +24780,22 @@
     },
     {
         "author": "@pymodule",
+        "description": "Unloads several modules at once with one command",
+        "commands": [
+            {
+                "name": "mulm",
+                "inline": false,
+                "description": {
+                    "ru_doc": "{модули через запятую} — выгрузить несколько модулей",
+                    "doc": "{modules separated by commas} - unload multiple modules"
+                }
+            }
+        ],
+        "name": "MultiUnloadModule",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/fiksofficial/python-modules/multiunloadmodule.py"
+    },
+    {
+        "author": "@pymodule",
         "description": "Generate QR codes from text or links",
         "commands": [
             {
@@ -24900,7 +24916,7 @@
     },
     {
         "author": "@wifitldev",
-        "description": "Поиск свободных юзернеймов в Telegram, не всегда точный",
+        "description": "Поиск 5 свободных юзернеймов через Telegram API",
         "commands": [
             {
                 "name": "uc",
@@ -24908,11 +24924,11 @@
                 "description": {
                     "ru_doc": "Найти 5 свободных юзернеймов",
                     "en_doc": "Find 5 available usernames",
-                    "doc": "Найти ровно 5 свободных юзернеймов"
+                    "doc": "Поиск свободных юзернеймов через Telegram API"
                 }
             }
         ],
-        "name": "UseChecker",
+        "name": "UserChecker",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/hav4ik-well/UserChecker/UserChecker.py"
     },
     {
@@ -30850,6 +30866,29 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/HistAi.py"
     },
     {
+        "author": "@toxano_modules",
+        "banner": "https://i.ibb.co/3yNfKRLL/image-10490.jpg",
+        "description": "Имитация активности в чате",
+        "commands": [
+            {
+                "name": "im",
+                "inline": false,
+                "description": {
+                    "doc": "Запускает имитацию активности. Режимы: typing, voice, video, game, photo, round, audio, document, location, contact, mixed"
+                }
+            },
+            {
+                "name": "imstop",
+                "inline": false,
+                "description": {
+                    "doc": "Останавливает имитацию активности"
+                }
+            }
+        ],
+        "name": "Imitator",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/Imitator.py"
+    },
+    {
         "description": "Rule34 поиск контента",
         "commands": [
             {
@@ -33133,7 +33172,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/Neofetch.py"
     },
     {
-        "author": "bio.kezuhiro.fun",
+        "author": "@cachedfiles",
         "description": "Управление музыкой через playerctl. Только для Linux.",
         "commands": [
             {
@@ -33184,7 +33223,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/randomanimepic.py"
     },
     {
-        "author": "bio.kezuhiro.fun",
+        "author": "@cachedfiles",
         "commands": [
             {
                 "name": "vtt",
