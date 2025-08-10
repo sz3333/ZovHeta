@@ -33117,7 +33117,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/qqsharki4/SharkHostModules/SharkHost.py"
     },
     {
-        "author": "bio.kezuhiro.fun",
+        "author": "@cachedfiles",
         "commands": [
             {
                 "name": "neofetch",
@@ -33169,7 +33169,7 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/radiocycle/Modules/playerctl.py"
     },
     {
-        "author": "@radiocycle",
+        "author": "@cachedfiles",
         "commands": [
             {
                 "name": "rapic",
