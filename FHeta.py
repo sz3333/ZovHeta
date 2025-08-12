@@ -330,7 +330,7 @@ class FHeta(loader.Module):
                             "modules": "".join(
                                 m.__class__.__module__.replace("%d", "_")
                                 for m in self.allmodules.modules
-                                if "https://raw" in m.__class__.__module__
+                                if "https://api.fixyres.com/module" in m.__class__.__module__
                             )
                         },
                         headers={"Authorization": self.token},
