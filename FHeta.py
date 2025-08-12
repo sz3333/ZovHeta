@@ -1,6 +1,6 @@
-__version__ = (9, 1, 6)
-# meta developer: @Fixyres
-# change-log: 😓 AI search is disabled.
+__version__ = (9, 1, 7)
+# meta developer: @FHeta_Updates
+# change-log: Bug fixes, search rework, improved search speed.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -8,8 +8,6 @@ __version__ = (9, 1, 6)
 #             ██╔══╝  ██╔══██║██╔══╝     ██║   ██╔══██║
 #             ██║     ██║  ██║███████╗   ██║   ██║  ██║
 
-# meta banner: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111104_471.jpg
-# meta pic: https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/IMG_20241127_111101_663.jpg
 # ©️ Fixyres, 2025
 # 🌐 https://github.com/Fixyres/FHeta
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,11 +15,19 @@ __version__ = (9, 1, 6)
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
-import asyncio, aiohttp, json, io, inspect, ssl, difflib, logging
+import asyncio, aiohttp, json, io, inspect, ssl, difflib, logging, subprocess, sys
 from .. import loader, utils, main
-from hikkatl.types import Message
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
+try: 
+    from hikkatl.types import Message
+except:
+    from herokutl.types import Message
+try:
+    import certifi
+    assert certifi.__version__ == "2024.8.30"
+except (ImportError, AssertionError):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30"])
 
 logging.root.disabled = True
 
@@ -49,7 +55,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
-        "reqj": "This is the channel with all news FHeta!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -74,7 +79,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
-        "reqj": "Это канал со всеми новостями FHeta!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
         "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -99,7 +103,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
-        "reqj": "Це канал з усіма новинами FHeta!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -124,7 +127,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Änderungsprotokoll:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Um zu aktualisieren, geben Sie Folgendes ein:</b> <code>{update_command}</code>",
         "che": "👍 Bewertung wurde geändert!",
-        "reqj": "Dies ist der Kanal mit allen Neuigkeiten zu FHeta!",
         "noo_query": "Name, Befehl, Beschreibung, Autor.",
         "no_modules_foound": "Bitte versuchen Sie eine andere Suchanfrage.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -149,7 +151,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Değişiklik günlüğü:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Güncellemek için şunu yazın:</b> <code>{update_command}</code>",
         "che": "👍 Değerlendirme değiştirildi!",
-        "reqj": "Bu, FHeta ile ilgili tüm haberlerin bulunduğu kanaldır!",
         "noo_query": "Ad, komut, açıklama, yazar.",
         "no_modules_foound": "Lütfen başka bir sorgu deneyin.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -174,7 +175,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Үзгәртүләр көндәлеге:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Яңарту өчен боларны языгыз:</b> <code>{update_command}</code>",
         "che": "👍 Бәя үзгәртелде!",
-        "reqj": "Бу FHeta турында барлык яңалыклар булган канал!",
         "noo_query": "Исем, команда, тасвирлама, автор.",
         "no_modules_foound": "Зинһар, башка сорау сынап карагыз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -199,7 +199,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Registro de cambios:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Para actualizar, escribe:</b> <code>{update_command}</code>",
         "che": "👍 ¡Evaluación cambiada!",
-        "reqj": "¡Este es el canal con todas las noticias de FHeta!",
         "noo_query": "Nombre, comando, descripción, autor.",
         "no_modules_foound": "Por favor, intenta con otra consulta.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -224,7 +223,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Өзгерістер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту үшін мынаны енгізіңіз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгертілді!",
-        "reqj": "Бұл FHeta туралы барлық жаңалықтар бар канал!",
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Басқа сұрау сынап көріңіз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -249,7 +247,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Өзгертишлер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту учун мынаны енгизиңиз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгерттилди!",
-        "reqj": "Бул FHeta туралы барлық жаңалықтар бар канал!",
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Башка сурав сынап көриңиз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -274,7 +271,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Journal des modifications:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Pour mettre à jour, tapez:</b> <code>{update_command}</code>",
         "che": "👍 Évaluation modifiée!",
-        "reqj": "Ceci est le canal avec toutes les nouvelles de FHeta!",
         "noo_query": "Nom, commande, description, auteur.",
         "no_modules_foound": "Veuillez essayer une autre requête.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -299,7 +295,6 @@ class FHeta(loader.Module):
         "update_whats_new": "⁉️ <b>Registro delle modifiche:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Per aggiornare, scrivi:</b> <code>{update_command}</code>",
         "che": "👍 Valutazione modificata!",
-        "reqj": "Questo è il canale con tutte le novità su FHeta!",
         "noo_query": "Nome, comando, descrizione, autore.",
         "no_modules_foound": "Prova un'altra query.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -309,26 +304,23 @@ class FHeta(loader.Module):
         try: 
             await client(UnblockRequest("@FHeta_robot"))
         except:
-            None
+            pass
 
         self.sslc = ssl.create_default_context()
         self.sslc.check_hostname = False
         self.sslc.verify_mode = ssl.CERT_NONE
 
+        us = await self.client.get_me()
+        self.fid = us.id
         self.token = self.db.get("FHeta", "token")
         asyncio.create_task(self.sdata())
         
     async def sdata(self):
-        self.fid = self.db.get("FHeta", "id")
-        if self.fid is None:
-            self.fid = (await self.c.get_me()).id
-            self.db.set("FHeta", "id", self.fid)
-
         while True:
             try:
                 async with aiohttp.ClientSession() as session:
                     async with session.post(
-                        "https://fheta_api.fixyres.com/dataset",
+                        "https://api.fixyres.com/dataset",
                         params={
                             "myfid": self.fid,
                             "pref": self.get_prefix(),
@@ -352,8 +344,7 @@ class FHeta(loader.Module):
     async def on_dlmod(self, client, db):    
         try:
             await client(UnblockRequest("@FHeta_robot"))
-            await utils.dnd(self._client, "@fheta_robot", archive=True)
-            await self.request_join("@fheta_updates", self.strings['reqj'])
+            await utils.dnd(self.client, "@fheta_robot", archive=True)
         except:
             pass
         try:
@@ -375,7 +366,7 @@ class FHeta(loader.Module):
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
             }
 
-        mods = await self.search_moduless(query.args)
+        mods = await self.search_modules(query.args, True)
         if not mods:
             return {
                 "title": utils.escape_html(self.strings["no_modules_foundd"]),
@@ -384,91 +375,99 @@ class FHeta(loader.Module):
                 "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
             }
 
-        res = []
         seen = set()
         lang = self.strings.get("language", "doc")
 
         async def fetch_thumb(thumb):
-            if thumb:
-                try:
-                    async with aiohttp.ClientSession() as session:
-                        async with session.get(thumb, timeout=1) as resp:
-                            if resp.status == 200:
-                                return str(resp.url)
-                except:
-                    return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+            if not thumb:
+                return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+            try:
+                async with aiohttp.ClientSession() as session:
+                    async with session.get(thumb, timeout=1) as resp:
+                        if resp.status == 200:
+                            return str(resp.url)
+            except:
+                pass
             return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
 
         async def proc_mod(mod):
             try:
                 install = mod['install']
-                desc = utils.escape_html(mod["description"] if "description" in mod else "")
-                descr = ""
-                if "description" in mod and mod["description"]:
-                    descr = self.strings["description"].format(description=utils.escape_html(mod["description"]))
+                mod_name = utils.escape_html(mod["name"])
                 author = utils.escape_html(mod.get("author", "???"))
                 version = utils.escape_html(mod.get("version", "?.?.?"))
                 versionn = f"(v{version})"
-                mod_name = utils.escape_html(mod["name"].replace(".py", ""))
                 mod_key = f"{mod_name}_{author}_{versionn}"
-
                 if mod_key in seen:
-                    return None
+                    return
                 seen.add(mod_key)
 
+                desc_raw = mod.get("description", "") or ""
+                desc = utils.escape_html(desc_raw)
+                descr = self.strings["description"].format(description=desc) if desc_raw else ""
+
                 cmds, inline_cmds = [], []
-                for cmd in mod.get("commands", []):
-                    cmd_desc = cmd.get('description', {}).get(lang) or cmd.get('description', {}).get('doc') or ""
-                    if cmd.get("inline", False):
-                        inline_cmds.append(f"<code>@{self.inline.bot_username} {utils.escape_html(cmd['name'])}</code> {utils.escape_html(cmd_desc)}")
-                    else:
-                        cmds.append(f"<code>{self.get_prefix()}{utils.escape_html(cmd['name'])}</code> {utils.escape_html(cmd_desc)}")
+                cmds_list = mod.get("commands", [])
+                if cmds_list:
+                    for cmd in cmds_list:
+                        cmd_desc_raw = cmd.get('description', {}).get(lang) or cmd.get('description', {}).get('doc') or ""
+                        cmd_desc = utils.escape_html(cmd_desc_raw)
+                        cmd_name_esc = utils.escape_html(cmd.get("name", ""))
+                        if cmd.get("inline", False):
+                            inline_cmds.append(f"<code>@{self.inline.bot_username} {cmd_name_esc}</code> {cmd_desc}")
+                        else:
+                            prefix = self.get_prefix()
+                            cmds.append(f"<code>{prefix}{cmd_name_esc}</code> {cmd_desc}")
 
                 cmd_sec = self.strings["commands"].format(commands_list="\n".join(cmds)) if cmds else ""
                 inline_cmd_sec = self.strings["inline_commandss"].format(inline_list="\n".join(inline_cmds)) if inline_cmds else ""
 
-                msg = self.strings["closest_matchh"].format(
-                    module_name=mod_name,
-                    author=author,
-                    version=versionn,
-                    install_command=f"{self.get_prefix()}{utils.escape_html(install)}",
-                    description=descr,
-                    commands=cmd_sec + inline_cmd_sec,
+                msg = (
+                    self.strings["closest_matchh"].format(
+                        module_name=mod_name,
+                        author=author,
+                        version=versionn,
+                        install_command=f"{self.get_prefix()}{utils.escape_html(install)}",
+                        description=descr,
+                        commands=cmd_sec + inline_cmd_sec,
+                    )
                 )[:4096]
 
-                thumb = await fetch_thumb(mod.get("pic"))
-                stats = await self.get_stats(install)
-                stats = stats or {"likes": 0, "dislikes": 0}
-                likes, dislikes = stats['likes'], stats['dislikes']
+                thumb_url = await fetch_thumb(mod.get("pic"))
+
+                stats = await self.get_stats(install) or {"likes": 0, "dislikes": 0}
+                likes = stats.get('likes', 0)
+                dislikes = stats.get('dislikes', 0)
+
                 current_indexx = 0
-                formatted_modules = []
-                buttons = [
-                    [{
+                buttons = [[
+                    {
                         "text": f"👍 {likes}",
                         "callback": self.like_callback,
-                        "args": (install, "like", current_indexx, formatted_modules)
-                    }, {
+                        "args": (install, "like", current_indexx, None)
+                    },
+                    {
                         "text": f"👎 {dislikes}",
                         "callback": self.dislike_callback,
-                        "args": (install, "dislike", current_indexx, formatted_modules)
-                    }]
-                ]
+                        "args": (install, "dislike", current_indexx, None)
+                    }
+                ]]
+
                 if len(msg) <= 4096:
                     return {
                         "title": mod_name,
                         "description": desc,
-                        "thumb": str(thumb),
+                        "thumb": thumb_url,
                         "message": msg,
                         "reply_markup": buttons,
                     }
-
                 return
             except:
                 return
 
         tasks = [proc_mod(mod) for mod in mods[:50]]
-        res = await asyncio.gather(*tasks)
-        return [r for r in res if r]
+        results = await asyncio.gather(*tasks)
+        return [r for r in results if r]
         
     @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fhetacmd(self, m):
@@ -479,7 +478,7 @@ class FHeta(loader.Module):
             return
 
         sm = await utils.answer(m, self.strings["search"])
-        ms = await self.search_modules(a)
+        ms = await self.search_modules(a, False)
         tm = len(ms)
 
         if not ms:
@@ -506,7 +505,7 @@ class FHeta(loader.Module):
             try:
                 inst = mod['install']
                 auth = utils.escape_html(mod.get("author", "???"))
-                name = utils.escape_html(mod['name'].replace('.py', ''))
+                name = utils.escape_html(mod['name'])
                 ver = utils.escape_html(mod.get("version", "?.?.?"))
                 v = f"(v{ver})"
                 key = f"{name}_{auth}_{v}"
@@ -616,11 +615,11 @@ class FHeta(loader.Module):
             headers = {"Authorization": token}
 
             async with aiohttp.ClientSession(headers=headers) as session:
-                async with session.post(f"https://fheta_api.fixyres.com/rate/{user_id}/{install}/{action}", ssl=self.sslc) as response:
+                async with session.post(f"https://api.fixyres.com/rate/{user_id}/{install}/{action}", ssl=self.sslc) as response:
                     result = await response.json()
 
                     if "yaebalmenasosali" in result:
-                        async with session.get( f"https://fheta_api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
+                        async with session.get( f"https://api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
                                 likes_count = stats['likes']
@@ -645,7 +644,7 @@ class FHeta(loader.Module):
                         return
 
                     elif "che" in result:
-                        async with session.get( f"https://fheta_api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
+                        async with session.get( f"https://api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
                             if stats_response.status == 200:
                                 stats = await stats_response.json()
                                 likes_count = stats['likes']
@@ -738,175 +737,24 @@ class FHeta(loader.Module):
 
     async def get_stats(self, url):
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(f"https://fheta_api.fixyres.com/get/{url}", ssl=self.sslc) as response:
+            async with aiohttp.ClientSession() as nsession:
+                async with nsession.get(f"https://api.fixyres.com/get/{url}", ssl=self.sslc) as response:
                     if response.status == 200:
-                        return await response.json()
+                        data = await response.json()
+                        return data
         except:
             pass
         return {"likes": 0, "dislikes": 0}
-
-    async def get_icountt(self, url):
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
-                    if response.status == 200:
-                        return await response.json()
-        except:
-            pass
-        return {"icount": 0}
-
-    async def get_statss(self, url, session):
-        try:
-            async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
-                if response.status == 200:
-                    return await response.json()
-        except:
-            pass
-        return {"likes": 0, "dislikes": 0}
-
-    async def get_icount(self, url, session):
-        try:
-            async with session.get(f"https://fheta_api.fixyres.com/icount/{url[4:]}", ssl=self.sslc) as response:
-                if response.status == 200:
-                    return await response.json()
-        except:
-            pass
-        return {"icount": 0}
     
-    async def search_modules(self, query: str):
-        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
-        async with aiohttp.ClientSession() as session:
-            modules_task = asyncio.create_task(session.get(url))
-            modules_response = await modules_task
-
-            if modules_response.status != 200:
-                return []
-
-            data = await modules_response.text()
-            modules = json.loads(data)
-
-            found_modules = []
-
-            if 1:
-                for module in modules:
-                    if (query.lower() in module.get("name", "").lower()
-                        or any(query.lower() in cmd.get("name", "").lower() for cmd in module.get("commands", []))
-                        or query.lower() in module.get("author", "").lower()
-                        or query.lower() in module.get("description", "").lower()
-                        or any(
-                            query.lower() in desc.lower()
-                            for cmd in module.get("commands", [])
-                            for desc in cmd.get("description", {}).values()
-                        )):
-                        found_modules.append(module)
-                        if len(found_modules) >= 50:
-                            break
-
-                if len(found_modules) < 50:
-                    module_names = [module['name'] for module in modules if 'name' in module]
-                    closest_matches = difflib.get_close_matches(query, module_names, n=1, cutoff=0.5)
-                    if closest_matches:
-                        module = next((m for m in modules if m.get('name') == closest_matches[0]), None)
-                        if module and module not in found_modules:
-                            found_modules.append(module)
-
-            found_modules = found_modules[:50]
-
-            stats_tasks = [self.get_stats(module.get("install", "")) for module in found_modules]
-            ic_tasks = [self.get_icountt(module.get("install", "")) for module in found_modules]
-            stats_responses, ic_responses = await asyncio.gather(
-                asyncio.gather(*stats_tasks),
-                asyncio.gather(*ic_tasks)
-            )
-
-            processed_modules = [
-                await self.process_module(module, stats_responses[i], ic_responses[i])
-                for i, module in enumerate(found_modules)
-            ]
-
-            processed_modules.sort(key=lambda x: x["rating"], reverse=True)
-            return processed_modules
-
-    async def process_module(self, module, stats, ic):
-        module_stats = stats if stats is not None else {"likes": 0, "dislikes": 0}
-        module["ic"] = ic.get("icount", 0)
-        module["likes"] = module_stats.get("likes", 0)
-        module["dislikes"] = module_stats.get("dislikes", 0)
-        module["rating"] = (module["likes"] * 7) - (module["dislikes"] * 5) + int(module["ic"])
-        return module
-
-    async def search_moduless(self, query: str):
-        url = "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/modules.json"
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url) as resp:
-                if resp.status == 200:
-                    data = await resp.text()
-                    mods = json.loads(data)
-
-                    found = []
-
-                    async def search_field(field: str):
-                        nonlocal found
-                        for mod in mods:
-                            if isinstance(mod.get(field), str) and query.lower() in mod.get(field, "").lower():
-                                found.append(mod)
-                                if len(found) >= 50:
-                                    return
-
-                    async def search_cmds():
-                        nonlocal found
-                        for mod in mods:
-                            if any(query.lower() in cmd.get("name", "").lower() for cmd in mod.get("commands", [])):
-                                found.append(mod)
-                                if len(found) >= 50:
-                                    return
-
-                    async def search_cmd_desc():
-                        nonlocal found
-                        for mod in mods:
-                            if any(
-                                query.lower() in desc.lower()
-                                for cmd in mod.get("commands", [])
-                                for desc in cmd.get("description", {}).values()
-                            ):
-                                found.append(mod)
-                                if len(found) >= 50:
-                                    return
-
-                    tasks = [
-                        search_field("name"),
-                        search_field("author"),
-                        search_field("description"),
-                        search_cmds(),
-                        search_cmd_desc()
-                    ]
-
-                    await asyncio.gather(*tasks)
-
-                    if len(found) < 50:
-                        names = {mod['name'] for mod in mods if 'name' in mod}
-                        close_matches = difflib.get_close_matches(query, list(names), n=50, cutoff=0.5)
-                        for match in close_matches:
-                            mod = next((m for m in mods if m.get('name') == match), None)
-                            if mod and mod not in found:
-                                found.append(mod)
-                                if len(found) >= 50:
-                                    break
-
-                    found = found[:50]
-
-                    stats_tasks = [self.get_statss(mod.get("install", ""), session) for mod in found]
-                    ic_tasks = [self.get_icount(mod.get("install", ""), session) for mod in found]
-                    stats_responses, ic_responses = await asyncio.gather(
-                        asyncio.gather(*stats_tasks),
-                        asyncio.gather(*ic_tasks)
-                    )
-
-                    processed_modules = [
-                        await self.process_module(mod, stats_responses[i], ic_responses[i])
-                        for i, mod in enumerate(found)
-                    ]
-
-                    processed_modules.sort(key=lambda x: x["rating"], reverse=True)
-                    return processed_modules 
+    async def search_modules(self, query: str, inline: bool):
+        params = {
+            "query": query,
+            "inline": str(inline).lower()
+        }
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get("https://api.fixyres.com/search", params=params, ssl=self.sslc) as response:
+                    data = await response.json()
+                    return data
+        except:
+            return []
