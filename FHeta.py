@@ -1,6 +1,6 @@
-__version__ = (9, 1, 7)
+__version__ = (9, 1, 8)
 # meta developer: @FHeta_Updates
-# change-log: Bug fixes, search rework, improved search speed.
+# change-log: Ratings rework.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -49,12 +49,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
         "sub": "👍 Rating submitted!",
-        "nope": "❌ You have already given one grade for this module, you cannot give a second one, you can only change it!",
         "actual_version": "🎉 <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
+        "del": "👍 Rating deleted!",
         "noo_query": "Name, command, description, author.",
         "no_modules_foound": "Try another request.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>by</b> <code>{author} </code><code>{version}</code>\n💾 <b>Command for installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -73,12 +73,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Инлайн команды:</b>\n{inline_list}",
         "language": "ru_doc",
         "sub": "👍 Оценка отправлена!",
-        "nope": "❌ Вы уже поставили одну оценку на этот модуль, вы не можете поставить вторую, вы можете только изменить ее!",
         "actual_version": "🎉 <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
+        "del": "👍 Оценка удалена!",
         "noo_query": "Название, команда, описание, автор.",
         "no_modules_foound": "Попробуйте другой запрос.",
         "closest_matchh": "📑 <code>{module_name}</code><b> от </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для установки:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -97,12 +97,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
         "sub": "👍 Оцінка відправлена!",
-        "nope": "❌ Ви вже поставили одну оцінку на цей модуль, ви не можете поставити другу, ви можете лише змінити її!",
         "actual_version": "🎉 <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>" ,
         "old_version": "⛔️ <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
+        "del": "👍 Оцінка видалена!",
         "noo_query": "Назва, команда, опис, автор.",
         "no_modules_foound": "Спробуйте інший запит.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>від </b><code>{author} </code><code>{version}</code>\n💾 <b>Команда для встановлення:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -121,12 +121,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline-Befehle:</b>\n{inline_list}",
         "language": "de_doc",
         "sub": "👍 Bewertung abgeschickt!",
-        "nope": "❌ Sie haben bereits eine Bewertung für dieses Modul abgegeben. Sie können keine zweite Bewertung abgeben, sondern nur die bestehende ändern!",
         "actual_version": "🎉 <b>Sie haben die aktuelle Version</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Sie haben eine veraltete Version</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Eine neue Version ist verfügbar:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Änderungsprotokoll:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Um zu aktualisieren, geben Sie Folgendes ein:</b> <code>{update_command}</code>",
         "che": "👍 Bewertung wurde geändert!",
+        "del": "👍 Bewertung gelöscht!",
         "noo_query": "Name, Befehl, Beschreibung, Autor.",
         "no_modules_foound": "Bitte versuchen Sie eine andere Suchanfrage.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>von</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Installationsbefehl:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -145,12 +145,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline Komutlar:</b>\n{inline_list}",
         "language": "tr_doc",
         "sub": "👍 Değerlendirme gönderildi!",
-        "nope": "❌ Bu modül için zaten bir değerlendirme yaptınız. İkinci bir değerlendirme yapamazsınız, sadece mevcut değerlendirmeyi değiştirebilirsiniz!",
         "actual_version": "🎉 <b>Mevcut sürümünüz:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Eski bir sürümünüz var:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Yeni sürüm mevcut:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Değişiklik günlüğü:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Güncellemek için şunu yazın:</b> <code>{update_command}</code>",
         "che": "👍 Değerlendirme değiştirildi!",
+        "del": "👍 Değerlendirme silindi!",
         "noo_query": "Ad, komut, açıklama, yazar.",
         "no_modules_foound": "Lütfen başka bir sorgu deneyin.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>tarafından</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Kurulum komutu:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -169,12 +169,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "tt_doc",
         "sub": "👍 Бәя җибәрелде!",
-        "nope": "❌ Сез бу модуль өчен инде бәя бирдегез. Икенче бәя бирә алмыйсыз, мөгаен, хәзерге бәяне үзгәртә аласыз!",
         "actual_version": "🎉 <b>Сездә актуаль версия:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Сездә иске версия:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Яңа версия бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Үзгәртүләр көндәлеге:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Яңарту өчен боларны языгыз:</b> <code>{update_command}</code>",
         "che": "👍 Бәя үзгәртелде!",
+        "del": "👍 Бәя бетерелде!",
         "noo_query": "Исем, команда, тасвирлама, автор.",
         "no_modules_foound": "Зинһар, башка сорау сынап карагыз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Урнаштыру командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -193,12 +193,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Comandos inline:</b>\n{inline_list}",
         "language": "es_doc",
         "sub": "👍 ¡Evaluación enviada!",
-        "nope": "❌ Ya has enviado una evaluación para este módulo. ¡No puedes enviar una segunda evaluación, solo puedes cambiar la existente!",
         "actual_version": "🎉 <b>Tienes la versión actual:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Tienes una versión desactualizada:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Hay una nueva versión disponible:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Registro de cambios:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Para actualizar, escribe:</b> <code>{update_command}</code>",
         "che": "👍 ¡Evaluación cambiada!",
+        "del": "👍 Evaluación eliminada!",
         "noo_query": "Nombre, comando, descripción, autor.",
         "no_modules_foound": "Por favor, intenta con otra consulta.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -217,12 +217,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "kk_doc",
         "sub": "👍 Баға жіберілді!",
-        "nope": "❌ Сіз бұл модуль үшін баға бердіңіз. Екінші баға бере алмайсыз, тек қолданыстағы бағаны өзгерте аласыз!",
         "actual_version": "🎉 <b>Сізде ағымдағы нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Сізде ескі нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Өзгерістер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту үшін мынаны енгізіңіз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгертілді!",
+        "del": "👍 Баға жойылды!",
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Басқа сұрау сынап көріңіз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -241,12 +241,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "yz_doc",
         "sub": "👍 Баға жиберилди!",
-        "nope": "❌ Сиз бул модул учун баға бердингиз. Экинчи баға бере алмайсыз, тек колданыстағы бағаны өзгерте аласыз!",
         "actual_version": "🎉 <b>Сизде ағымдағы нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Сизде ески нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Өзгертишлер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту учун мынаны енгизиңиз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгерттилди!",
+        "del": "👍 Баға өчүрүлдү!",
         "noo_query": "Атауы, команда, сипаттама, автор.",
         "no_modules_foound": "Башка сурав сынап көриңиз.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>авторы:</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Орнату командасы:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -265,12 +265,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Commandes inline:</b>\n{inline_list}",
         "language": "fr_doc",
         "sub": "👍 Évaluation envoyée!",
-        "nope": "❌ Vous avez déjà soumis une évaluation pour ce module. Vous ne pouvez pas soumettre une deuxième évaluation, vous pouvez seulement modifier celle existante!",
         "actual_version": "🎉 <b>Vous avez la version actuelle:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Vous avez une version obsolète:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Une nouvelle version est disponible:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Journal des modifications:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Pour mettre à jour, tapez:</b> <code>{update_command}</code>",
         "che": "👍 Évaluation modifiée!",
+        "del": "👍 Évaluation supprimée!",
         "noo_query": "Nom, commande, description, auteur.",
         "no_modules_foound": "Veuillez essayer une autre requête.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>par</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Commande d'installation:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -289,12 +289,12 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Comandi inline:</b>\n{inline_list}",
         "language": "it_doc",
         "sub": "👍 Valutazione inviata!",
-        "nope": "❌ Hai già inviato una valutazione per questo modulo. Non puoi inviare una seconda valutazione, puoi solo modificare quella esistente!",
         "actual_version": "🎉 <b>Hai la versione attuale:</b> <code>FHeta (v{version})</code><b>.</b>",
         "old_version": "⛔️ <b>Hai una versione obsoleta:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>È disponibile una nuova versione:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Registro delle modifiche:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Per aggiornare, scrivi:</b> <code>{update_command}</code>",
         "che": "👍 Valutazione modificata!",
+        "del": "👍 Valutazione rimossa!",
         "noo_query": "Nome, comando, descrizione, autore.",
         "no_modules_foound": "Prova un'altra query.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
@@ -313,6 +313,7 @@ class FHeta(loader.Module):
         us = await self.client.get_me()
         self.fid = us.id
         self.token = self.db.get("FHeta", "token")
+
         asyncio.create_task(self.sdata())
         
     async def sdata(self):
@@ -443,12 +444,12 @@ class FHeta(loader.Module):
                 buttons = [[
                     {
                         "text": f"👍 {likes}",
-                        "callback": self.like_callback,
+                        "callback": self.rating,
                         "args": (install, "like", current_indexx, None)
                     },
                     {
                         "text": f"👎 {dislikes}",
-                        "callback": self.dislike_callback,
+                        "callback": self.rating,
                         "args": (install, "dislike", current_indexx, None)
                     }
                 ]]
@@ -552,8 +553,8 @@ class FHeta(loader.Module):
             stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
 
             btns = [[
-                {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", 0, fm)},
-                {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", 0, fm)}
+                {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", 0, fm)},
+                {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d[2], "dislike", 0, fm)}
             ]]
 
             xyi = self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8])
@@ -570,8 +571,8 @@ class FHeta(loader.Module):
             stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
             btns = [
                 [
-                    {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", ci, fm)},
-                    {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", ci, fm)}
+                    {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", ci, fm)},
+                    {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d[2], "dislike", ci, fm)}
                 ],
                 [
                     b for b in [
@@ -590,8 +591,8 @@ class FHeta(loader.Module):
         stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
         btns = [
             [
-                {"text": f"👍 {stats['likes']}", "callback": self.like_callback, "args": (d[2], "like", i, fm)},
-                {"text": f"👎 {stats['dislikes']}", "callback": self.dislike_callback, "args": (d[2], "dislike", i, fm)}
+                {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", i, fm)},
+                {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d[2], "dislike", i, fm)}
             ],
             [
                 b for b in [
@@ -602,13 +603,7 @@ class FHeta(loader.Module):
         ]
         await c.edit(text=d[0], photo=None, reply_markup=btns)
 
-    async def like_callback(self, call, install, action, current_index, formatted_modules):
-        await self.handle_rating(call, install, action, current_index, formatted_modules)
-
-    async def dislike_callback(self, call, install, action, current_index, formatted_modules):
-        await self.handle_rating(call, install, action, current_index, formatted_modules)
-
-    async def handle_rating(self, call, install, action, current_index, formatted_modules):
+    async def rating(self, call, install, action, current_index, formatted_modules):
         try:
             user_id = self.fid
             token = self.token
@@ -618,62 +613,36 @@ class FHeta(loader.Module):
                 async with session.post(f"https://api.fixyres.com/rate/{user_id}/{install}/{action}", ssl=self.sslc) as response:
                     result = await response.json()
 
-                    if "yaebalmenasosali" in result:
-                        async with session.get( f"https://api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
-                            if stats_response.status == 200:
-                                stats = await stats_response.json()
-                                likes_count = stats['likes']
-                                dislikes_count = stats['dislikes']
+                async with session.get(f"https://api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
+                    stats = await stats_response.json() if stats_response.status == 200 else {"likes": 0, "dislikes": 0}
 
-                                new_buttons = [
-                                    [
-                                        {"text": f"👍 {likes_count}", "callback": self.like_callback, "args": (install, "like", current_index, formatted_modules)},
-                                        {"text": f"👎 {dislikes_count}", "callback": self.dislike_callback, "args": (install, "dislike", current_index, formatted_modules)}
-                                    ],
-                                    [
-                                        {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
-                                        {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
-                                    ]
-                                ]
-                                
-                                new_buttons = [[button for button in row if button is not None] for row in new_buttons]
+            new_buttons = [
+                [
+                    {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (install, "like", current_index, formatted_modules)},
+                    {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (install, "dislike", current_index, formatted_modules)}
+                ],
+                [
+                    b for b in [
+                        {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
+                        {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
+                    ] if b
+                ]
+            ]
 
-                                await call.edit(reply_markup=new_buttons)
+            await call.edit(reply_markup=new_buttons)
 
-                        await call.answer(self.strings["sub"], show_alert=True)
-                        return
-
-                    elif "che" in result:
-                        async with session.get( f"https://api.fixyres.com/get/{install}", ssl=self.sslc) as stats_response:
-                            if stats_response.status == 200:
-                                stats = await stats_response.json()
-                                likes_count = stats['likes']
-                                dislikes_count = stats['dislikes']
-
-                                new_buttons = [
-                                    [
-                                        {"text": f"👍 {likes_count}", "callback": self.like_callback, "args": (install, "like", current_index, formatted_modules)},
-                                        {"text": f"👎 {dislikes_count}", "callback": self.dislike_callback, "args": (install, "dislike", current_index, formatted_modules)}
-                                    ],
-                                    [
-                                        {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
-                                        {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
-                                    ]
-                                ]
-
-                                new_buttons = [[button for button in row if button is not None] for row in new_buttons]
-
-                                await call.edit(reply_markup=new_buttons)
-
-                        await call.answer(self.strings["che"], show_alert=True)
-                        return
-
-                    elif "pizda" in result:
-                        await call.answer(self.strings["nope"], show_alert=True)
-                        return
+            if "yaebalmenasosali" in result:
+                await call.answer(self.strings["sub"], show_alert=True)
+                return
+            elif "che" in result:
+                await call.answer(self.strings["che"], show_alert=True)
+                return
+            elif "pizda" in result:
+                await call.answer(self.strings["del"], show_alert=True)
+                return
 
         except Exception as e:
-            await call.answer(f"{e}", show_alert=True)
+            await call.answer(str(e)[:256], show_alert=True)
 
     @loader.command(de_doc='- überprüfen auf updates.', ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення.', es_doc='- comprobar actualizaciones.', fr_doc='- vérifier les mises à jour.', it_doc='- verificare aggiornamenti.', kk_doc='- жаңартуларды тексеру.', tt_doc='- яңартуларны тикшерү.', tr_doc='- güncellemeleri kontrol et.', yz_doc='- жаңыртылыларды тексэр.')
     async def fupdate(self, message: Message):
