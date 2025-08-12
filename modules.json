@@ -653,37 +653,6 @@
     },
     {
         "author": "@hikamorumods",
-        "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Bull.jpg",
-        "pic": "https://te.legra.ph/file/7772a7dae6290f0a612a6.png",
-        "description": "Bull пиз#а собеседнику",
-        "commands": [
-            {
-                "name": "bull",
-                "inline": true,
-                "description": {
-                    "doc": "Забулить кого-то жесткими матами про мать"
-                }
-            },
-            {
-                "name": "bull",
-                "inline": false,
-                "description": {
-                    "doc": "Забулить кого-то жесткими матами про мать"
-                }
-            },
-            {
-                "name": "bulli",
-                "inline": false,
-                "description": {
-                    "doc": "Забулить кого-то жесткими матами про мать (inline)"
-                }
-            }
-        ],
-        "name": "BullMod",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/AmoreForever/amoremods/bull.py"
-    },
-    {
-        "author": "@hikamorumods",
         "banner": "https://raw.githubusercontent.com/AmoreForever/assets/master/Createlinks.jpg",
         "pic": "https://te.legra.ph/file/388e1b26a46a8c439e479.png",
         "description": "Create links",
