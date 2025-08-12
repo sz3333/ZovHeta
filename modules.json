@@ -21113,6 +21113,225 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/anon97945/hikka-mods/voicetools.py"
     },
     {
+        "author": "@sansaramods",
+        "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
+        "commands": [
+            {
+                "name": "fwallet",
+                "inline": false,
+                "description": {
+                    "doc": "-> to get a fake wallet"
+                }
+            },
+            {
+                "name": "fwinfo",
+                "inline": false,
+                "description": {
+                    "doc": "-> info about FakeModule"
+                }
+            }
+        ],
+        "name": "FakeWallet",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/fakewallet.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for cloning codes from GitHub using raw links with the ability to change the settings of the created file.",
+        "commands": [
+            {
+                "name": "gitcl",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> клонировать код из репозитория, используя raw ссылку. Пример: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py",
+                    "doc": "-> Clone code from repository using raw link. Example: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py`"
+                }
+            }
+        ],
+        "name": "GitClone",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/gitclone.py"
+    },
+    {
+        "author": "@sansaramods",
+        "commands": [
+            {
+                "name": "kp",
+                "inline": false,
+                "description": {
+                    "doc": ".kp <reply> - save a self-destructing photo"
+                }
+            },
+            {
+                "name": "akp",
+                "inline": false,
+                "description": {
+                    "doc": "toggle photo auto-upload mode in PM"
+                }
+            }
+        ],
+        "name": "Keeper",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/keeper.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for downloading images via link from any sources",
+        "commands": [
+            {
+                "name": "l2p",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> скачать изображение по ссылке",
+                    "doc": "-> to download image by url"
+                }
+            }
+        ],
+        "name": "Link2Pic",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/link2pic.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for search music.",
+        "commands": [
+            {
+                "name": "mus",
+                "inline": false,
+                "description": {
+                    "doc": "- for search music."
+                }
+            }
+        ],
+        "name": "musicMod",
+        "version": "1.0.0",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/music.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "This module can change your Telegram profile.",
+        "commands": [
+            {
+                "name": "name",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your first/second name."
+                }
+            },
+            {
+                "name": "about",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your bio."
+                }
+            },
+            {
+                "name": "user",
+                "inline": false,
+                "description": {
+                    "doc": "- for change your username. Enter value without \"@\"."
+                }
+            }
+        ],
+        "name": "ProfileEditor",
+        "version": "1.1.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/profile.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Searches for various queries in inline bots",
+        "commands": [
+            {
+                "name": "pic",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @pic"
+                }
+            },
+            {
+                "name": "vid",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @vid"
+                }
+            },
+            {
+                "name": "gif",
+                "inline": false,
+                "description": {
+                    "doc": "<str> -> search in @gif"
+                }
+            },
+            {
+                "name": "stik",
+                "inline": false,
+                "description": {
+                    "doc": "<emoji> -> search in @sticker"
+                }
+            }
+        ],
+        "name": "Searcher",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/searcher.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Модуль таймер до начала времен года.",
+        "commands": [
+            {
+                "name": "towin",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> вывести таймер до зимы",
+                    "doc": "-> display timer until winter"
+                }
+            },
+            {
+                "name": "tosum",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> вывести таймер до лета",
+                    "doc": "-> display timer until summer"
+                }
+            },
+            {
+                "name": "toaut",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> вывести таймер до осени",
+                    "doc": "-> display timer until autumn"
+                }
+            },
+            {
+                "name": "tospr",
+                "inline": false,
+                "description": {
+                    "ru_doc": "-> вывести таймер до весны",
+                    "doc": "-> display timer until spring"
+                }
+            }
+        ],
+        "name": "SeasonsTimer",
+        "version": "1.0.1",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/seasons.py"
+    },
+    {
+        "author": "@sansaramods",
+        "description": "Module for convertation your text to file",
+        "commands": [
+            {
+                "name": "ttf",
+                "inline": false,
+                "description": {
+                    "doc": "-> to create a file with your text or code"
+                }
+            }
+        ],
+        "name": "Text2File",
+        "version": "1.1.2",
+        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/caracurse/heroku-modules/text2file.py"
+    },
+    {
         "author": "@OnlySq",
         "description": "Задавайте вопросы и генерируйте изображения с помощью моделей AI через OnlySq API by @chepuxcat.",
         "commands": [
@@ -31066,381 +31285,6 @@
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/invalidedst/Modules/timeavatar.py"
     },
     {
-        "author": "@hikka_mods, @nervousmods",
-        "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
-        "commands": [
-            {
-                "name": "fwallet",
-                "inline": false,
-                "description": {
-                    "doc": "-> to get a fake wallet"
-                }
-            },
-            {
-                "name": "fwinfo",
-                "inline": false,
-                "description": {
-                    "doc": "-> info about FakeModule"
-                }
-            }
-        ],
-        "name": "FakeWallet",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/FakeWallet.py"
-    },
-    {
-        "author": "@nervousmods, @hikka_mods",
-        "description": "Module for cloning codes from GitHub using raw links with the ability to change the settings of the created file.",
-        "commands": [
-            {
-                "name": "gitcl",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> клонировать код из репозитория, используя raw ссылку. Пример: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py",
-                    "doc": "-> Clone code from repository using raw link. Example: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py`"
-                }
-            }
-        ],
-        "name": "GitClone",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/GitClone.py"
-    },
-    {
-        "author": "@nervousmods",
-        "commands": [
-            {
-                "name": "kp",
-                "inline": false,
-                "description": {
-                    "doc": ".kp <reply> - save a self-destructing photo"
-                }
-            },
-            {
-                "name": "akp",
-                "inline": false,
-                "description": {
-                    "doc": "toggle photo auto-upload mode in PM"
-                }
-            }
-        ],
-        "name": "Keeper",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Keeper.py"
-    },
-    {
-        "author": "@nervousmods, @hikka_mods",
-        "description": "Module for search cutie kitties from @catslovemeow",
-        "commands": [
-            {
-                "name": "kit",
-                "inline": false,
-                "description": {
-                    "doc": "-> to get a cute kitty"
-                }
-            }
-        ],
-        "name": "Kittens",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Kittens.py"
-    },
-    {
-        "author": "@nervousmods, @hikka_mods",
-        "description": "Module for downloading images via link from any sources",
-        "commands": [
-            {
-                "name": "l2p",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> скачать изображение по ссылке",
-                    "doc": "-> to download image by url"
-                }
-            }
-        ],
-        "name": "Link2Pic",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Link2Pic.py"
-    },
-    {
-        "author": "@nervousmods",
-        "description": "This module can change your Telegram profile.",
-        "commands": [
-            {
-                "name": "name",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your first/second name."
-                }
-            },
-            {
-                "name": "about",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your bio."
-                }
-            },
-            {
-                "name": "user",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your username. Enter value without \"@\"."
-                }
-            }
-        ],
-        "name": "Profile",
-        "version": "0.1.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Profile.py"
-    },
-    {
-        "author": "@nervousmods, @hikka_mods",
-        "description": "Module for convertation your text to file",
-        "commands": [
-            {
-                "name": "ttf",
-                "inline": false,
-                "description": {
-                    "doc": "-> to create a file with your text or code"
-                }
-            }
-        ],
-        "name": "Text2File",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/Text2File.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.",
-        "commands": [
-            {
-                "name": "fwallet",
-                "inline": false,
-                "description": {
-                    "doc": "-> to get a fake wallet"
-                }
-            },
-            {
-                "name": "fwinfo",
-                "inline": false,
-                "description": {
-                    "doc": "-> info about FakeModule"
-                }
-            }
-        ],
-        "name": "FakeWallet",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/fakewallet.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Module for cloning codes from GitHub using raw links with the ability to change the settings of the created file.",
-        "commands": [
-            {
-                "name": "gitcl",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> клонировать код из репозитория, используя raw ссылку. Пример: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py",
-                    "doc": "-> Clone code from repository using raw link. Example: `.gitcl https://raw.githubusercontent.com/kayt3m/modules/main/GitClone.py`"
-                }
-            }
-        ],
-        "name": "GitClone",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/gitclone.py"
-    },
-    {
-        "author": "@sansaramods",
-        "commands": [
-            {
-                "name": "kp",
-                "inline": false,
-                "description": {
-                    "doc": ".kp <reply> - save a self-destructing photo"
-                }
-            },
-            {
-                "name": "akp",
-                "inline": false,
-                "description": {
-                    "doc": "toggle photo auto-upload mode in PM"
-                }
-            }
-        ],
-        "name": "Keeper",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/keeper.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Module for downloading images via link from any sources",
-        "commands": [
-            {
-                "name": "l2p",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> скачать изображение по ссылке",
-                    "doc": "-> to download image by url"
-                }
-            }
-        ],
-        "name": "Link2Pic",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/link2pic.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Module for search music.",
-        "commands": [
-            {
-                "name": "mus",
-                "inline": false,
-                "description": {
-                    "doc": "- for search music."
-                }
-            }
-        ],
-        "name": "musicMod",
-        "version": "1.0.0",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/music.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "This module can change your Telegram profile.",
-        "commands": [
-            {
-                "name": "name",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your first/second name."
-                }
-            },
-            {
-                "name": "about",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your bio."
-                }
-            },
-            {
-                "name": "user",
-                "inline": false,
-                "description": {
-                    "doc": "- for change your username. Enter value without \"@\"."
-                }
-            }
-        ],
-        "name": "ProfileEditor",
-        "version": "1.1.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/profile.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Searches for various queries in inline bots",
-        "commands": [
-            {
-                "name": "pic",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @pic"
-                }
-            },
-            {
-                "name": "vid",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @vid"
-                }
-            },
-            {
-                "name": "gif",
-                "inline": false,
-                "description": {
-                    "doc": "<str> -> search in @gif"
-                }
-            },
-            {
-                "name": "stik",
-                "inline": false,
-                "description": {
-                    "doc": "<emoji> -> search in @sticker"
-                }
-            }
-        ],
-        "name": "Searcher",
-        "version": "1.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/searcher.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Модуль таймер до начала времен года.",
-        "commands": [
-            {
-                "name": "towin",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> вывести таймер до зимы",
-                    "doc": "-> display timer until winter"
-                }
-            },
-            {
-                "name": "tosum",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> вывести таймер до лета",
-                    "doc": "-> display timer until summer"
-                }
-            },
-            {
-                "name": "toaut",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> вывести таймер до осени",
-                    "doc": "-> display timer until autumn"
-                }
-            },
-            {
-                "name": "tospr",
-                "inline": false,
-                "description": {
-                    "ru_doc": "-> вывести таймер до весны",
-                    "doc": "-> display timer until spring"
-                }
-            }
-        ],
-        "name": "SeasonsTimer",
-        "version": "1.0.1",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/seasons.py"
-    },
-    {
-        "author": "@nervousmods",
-        "description": "Module for checking your speedtest.",
-        "commands": [
-            {
-                "name": "speed",
-                "inline": false,
-                "description": {
-                    "doc": "- start speedtest"
-                }
-            }
-        ],
-        "name": "speedtester",
-        "version": "1.1.2",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/speedtest.py"
-    },
-    {
-        "author": "@sansaramods",
-        "description": "Module for convertation your text to file",
-        "commands": [
-            {
-                "name": "ttf",
-                "inline": false,
-                "description": {
-                    "doc": "-> to create a file with your text or code"
-                }
-            }
-        ],
-        "name": "Text2File",
-        "version": "1.1.2",
-        "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/kayt3m/modules/text2file.py"
-    },
-    {
         "author": "@aki_modules",
         "commands": [
             {
@@ -37266,7 +37110,7 @@
             }
         ],
         "name": "yg_gamee",
-        "version": "1.5.0.0",
+        "version": "1.7.0.0",
         "install": "dlm https://raw.githubusercontent.com/Fixyres/MFFH/main/yummy1gay/modules/yg_gamee.py"
     },
     {
