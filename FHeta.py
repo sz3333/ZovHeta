@@ -1,6 +1,6 @@
-__version__ = (9, 1, 8)
+__version__ = (9, 1, 9)
 # meta developer: @FHeta_Updates
-# change-log: Ratings rework.
+# change-log: Bug fix.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -454,15 +454,13 @@ class FHeta(loader.Module):
                     }
                 ]]
 
-                if len(msg) <= 4096:
-                    return {
-                        "title": mod_name,
-                        "description": desc,
-                        "thumb": thumb_url,
-                        "message": msg,
-                        "reply_markup": buttons,
-                    }
-                return
+                return {
+                    "title": mod_name,
+                    "description": desc,
+                    "thumb": thumb_url,
+                    "message": msg,
+                    "reply_markup": buttons,
+                }
             except:
                 return
 
@@ -620,14 +618,17 @@ class FHeta(loader.Module):
                 [
                     {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (install, "like", current_index, formatted_modules)},
                     {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (install, "dislike", current_index, formatted_modules)}
-                ],
-                [
-                    b for b in [
-                        {"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)} if current_index > 0 else None,
-                        {"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)} if current_index < len(formatted_modules) - 1 else None
-                    ] if b
                 ]
             ]
+
+            if formatted_modules and current_index is not None:
+                nav_buttons = []
+                if current_index > 0:
+                    nav_buttons.append({"text": "◀️", "callback": self.navigate_callback, "args": (current_index - 1, formatted_modules)})
+                if current_index < len(formatted_modules) - 1:
+                    nav_buttons.append({"text": "▶️", "callback": self.navigate_callback, "args": (current_index + 1, formatted_modules)})
+                if nav_buttons:
+                    new_buttons.append(nav_buttons)
 
             await call.edit(reply_markup=new_buttons)
 
@@ -706,8 +707,8 @@ class FHeta(loader.Module):
 
     async def get_stats(self, url):
         try:
-            async with aiohttp.ClientSession() as nsession:
-                async with nsession.get(f"https://api.fixyres.com/get/{url}", ssl=self.sslc) as response:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"https://api.fixyres.com/get/{url}", ssl=self.sslc) as response:
                     if response.status == 200:
                         data = await response.json()
                         return data
