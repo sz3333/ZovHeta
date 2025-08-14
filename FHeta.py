@@ -1,6 +1,6 @@
-__version__ = (9, 1, 9)
+__version__ = (9, 2, 0)
 # meta developer: @FHeta_Updates
-# change-log: Bug fix.
+# change-log: Bot username, prefix tracking removed.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -324,8 +324,6 @@ class FHeta(loader.Module):
                         "https://api.fixyres.com/dataset",
                         params={
                             "myfid": self.fid,
-                            "pref": self.get_prefix(),
-                            "bot_username": self.inline.bot_username,
                             "language": self.strings["language"][:-4],
                             "modules": "".join(
                                 m.__class__.__module__.replace("%d", "_")
