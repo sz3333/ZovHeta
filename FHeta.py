@@ -688,7 +688,7 @@ class FHeta(loader.Module):
                     await utils.answer(m, self.strings("fetch_failed"))
                     return
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
-            await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
+            await utils.answer(m, self.strings("actual_version").format(version=correct_version_str))
         else:
             update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
             if what_new:
