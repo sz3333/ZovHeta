@@ -313,8 +313,14 @@ class FHeta(loader.Module):
         us = await self.client.get_me()
         self.fid = us.id
         self.token = self.db.get("FHeta", "token")
-        if not self.token:
-            await self.get_token()
+        if not self.token or self.token == "None":
+            try:
+                async with self.client.conversation('@FHeta_robot') as conv:
+                    await conv.send_message('/token')
+                    response = await conv.get_response(timeout=5)
+                    self.db.set("FHeta", "token", response.text.strip())
+            except:
+                pass
 
         asyncio.create_task(self.sdata())
         
@@ -340,16 +346,7 @@ class FHeta(loader.Module):
                         await response.release()
             except:
                 pass
-            await asyncio.sleep(10)
-            
-    async def get_token(self, client):
-        try:
-             async with self.client.conversation('@FHeta_robot') as conv:
-                await conv.send_message('/token')
-                response = await conv.get_response(timeout=5)
-                self.db.set("FHeta", "token", response.text.strip())
-        except:
-            pass
+            await asyncio.sleep(10)      
             
     async def on_dlmod(self, client, db):    
         try:
@@ -357,7 +354,6 @@ class FHeta(loader.Module):
             await utils.dnd(self.client, "@fheta_robot", archive=True)
         except:
             pass
-        await self.get_token()
         
     @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fheta(self, query):
