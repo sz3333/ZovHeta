@@ -27,7 +27,7 @@ try:
     import certifi
     assert certifi.__version__ == "2024.8.30"
 except (ImportError, AssertionError):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30", "--break-system-packages"])
 
 logging.root.disabled = True
 
