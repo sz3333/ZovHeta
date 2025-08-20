@@ -1,6 +1,6 @@
-__version__ = (9, 2, 0)
+__version__ = (9, 2, 1)
 # meta developer: @FHeta_Updates
-# change-log: Bot username, prefix tracking removed.
+# change-log: A "tracking" setting has been added to the config so you can disable tracking of your data.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -15,21 +15,15 @@ __version__ = (9, 2, 0)
 # You may obtain a copy of the License at
 # 🔑 http://www.apache.org/licenses/LICENSE-2.0
 
-import asyncio, aiohttp, json, io, inspect, ssl, difflib, logging, subprocess, sys
+import asyncio, aiohttp, json, io, inspect, difflib, subprocess, sys, ssl
 from .. import loader, utils, main
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
-try: 
-    from hikkatl.types import Message
-except:
-    from herokutl.types import Message
 try:
     import certifi
     assert certifi.__version__ == "2024.8.30"
 except (ImportError, AssertionError):
     subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30", "--break-system-packages"])
-
-logging.root.disabled = True
 
 @loader.tds
 class FHeta(loader.Module):
@@ -306,6 +300,15 @@ class FHeta(loader.Module):
         except:
             pass
 
+        self.config = loader.ModuleConfig(
+            loader.ConfigValue(
+                "tracking",
+                True,
+                "Enable tracking of your data (user ID, language, modules) for synchronization with the FHeta bot and for recommendations?",
+                validator=loader.validators.Boolean()
+            )
+        )
+
         self.sslc = ssl.create_default_context()
         self.sslc.check_hostname = False
         self.sslc.verify_mode = ssl.CERT_NONE
@@ -313,6 +316,7 @@ class FHeta(loader.Module):
         us = await self.client.get_me()
         self.fid = us.id
         self.token = self.db.get("FHeta", "token")
+
         if not self.token or self.token == "None":
             try:
                 async with self.client.conversation('@FHeta_robot') as conv:
@@ -323,30 +327,45 @@ class FHeta(loader.Module):
                 pass
 
         asyncio.create_task(self.sdata())
-        
+
     async def sdata(self):
-        while True:
-            try:
-                async with aiohttp.ClientSession() as session:
-                    async with session.post(
-                        "https://api.fixyres.com/dataset",
-                        params={
-                            "myfid": self.fid,
-                            "language": self.strings["language"][:-4],
-                            "modules": "".join(
-                                m.__class__.__module__.replace("%d", "_")
-                                for m in self.allmodules.modules
-                                if "https://api.fixyres.com/module" in m.__class__.__module__
-                            )
-                        },
-                        headers={"Authorization": self.token},
-                        ssl=self.sslc,
-                        timeout=5
-                    ) as response:
-                        await response.release()
-            except:
-                pass
-            await asyncio.sleep(10)      
+        indb = True
+        timeout = aiohttp.ClientTimeout(total=5)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            while True:
+                try:
+                    if self.config["tracking"]:
+                        modules_str = "".join(
+                            m.__class__.__module__.replace("%d", "_")
+                            for m in self.allmodules.modules
+                            if "https://api.fixyres.com/module" in m.__class__.__module__
+                        )
+                        async with session.post(
+                            "https://api.fixyres.com/dataset",
+                            params={
+                                "myfid": self.fid,
+                                "language": self.strings["language"][:-4],
+                                "modules": modules_str
+                            },
+                            headers={"Authorization": self.token},
+                            ssl=self.sslc
+                        ) as response:
+                            indb = True
+                            await response.release()
+                    elif indb:
+                        async with session.post(
+                            "https://api.fixyres.com/rmd",
+                            params={
+                                "myfid": self.fid
+                            },
+                            headers={"Authorization": self.token},
+                            ssl=self.sslc
+                        ) as response:
+                            indb = False
+                            await response.release()
+                except:
+                    pass
+                await asyncio.sleep(10)
             
     async def on_dlmod(self, client, db):    
         try:
@@ -645,7 +664,7 @@ class FHeta(loader.Module):
             await call.answer(str(e)[:256], show_alert=True)
 
     @loader.command(de_doc='- überprüfen auf updates.', ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення.', es_doc='- comprobar actualizaciones.', fr_doc='- vérifier les mises à jour.', it_doc='- verificare aggiornamenti.', kk_doc='- жаңартуларды тексеру.', tt_doc='- яңартуларны тикшерү.', tr_doc='- güncellemeleri kontrol et.', yz_doc='- жаңыртылыларды тексэр.')
-    async def fupdate(self, message: Message):
+    async def fupdate(self, m):
         ''' - check update.'''
         module_name = "FHeta"
         module = self.lookup(module_name)
@@ -666,7 +685,7 @@ class FHeta(loader.Module):
                     new_version = remote_lines[0].split("=", 1)[1].strip().strip("()").replace(",", "").replace(" ", ".")
                     what_new = remote_lines[2].split(":", 1)[1].strip() if len(remote_lines) > 2 and remote_lines[2].startswith("# change-log:") else ""
                 else:
-                    await utils.answer(message, self.strings("fetch_failed"))
+                    await utils.answer(m, self.strings("fetch_failed"))
                     return
         if local_first_line.replace(" ", "") == remote_lines[0].strip().replace(" ", ""):
             await utils.answer(message, self.strings("actual_version").format(version=correct_version_str))
@@ -675,7 +694,7 @@ class FHeta(loader.Module):
             if what_new:
                 update_message += self.strings("update_whats_new").format(whats_new=what_new)
             update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
-            await utils.answer(message, update_message)
+            await utils.answer(m, update_message)
 
     @loader.watcher(chat_id=7575472403)
     async def install_via_fheta(self, message):
