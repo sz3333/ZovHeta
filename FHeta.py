@@ -313,6 +313,15 @@ class FHeta(loader.Module):
         us = await self.client.get_me()
         self.fid = us.id
         self.token = self.db.get("FHeta", "token")
+        if not self.token:
+            try:
+                async with self.client.conversation('@FHeta_robot') as conv:
+                    await conv.send_message('/token')
+                    response = await conv.get_response(timeout=5)
+                    self.db.set("FHeta", "token", response.text.strip())
+            except:
+                pass
+        
 
         asyncio.create_task(self.sdata())
         
@@ -344,13 +353,6 @@ class FHeta(loader.Module):
         try:
             await client(UnblockRequest("@FHeta_robot"))
             await utils.dnd(self.client, "@fheta_robot", archive=True)
-        except:
-            pass
-        try:
-            async with self.client.conversation('@FHeta_robot') as conv:
-                await conv.send_message('/token')
-                response = await conv.get_response(timeout=5)
-                self.db.set("FHeta", "token", response.text.strip())
         except:
             pass
         
