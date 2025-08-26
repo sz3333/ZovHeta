@@ -737,7 +737,9 @@ class FHeta(loader.Module):
     async def search_modules(self, query: str, inline: bool):
         params = {
             "query": query,
-            "inline": str(inline).lower()
+            "inline": str(inline).lower(),
+            "token": self.token,
+            "user_id": self.fid
         }
         try:
             async with aiohttp.ClientSession() as session:
