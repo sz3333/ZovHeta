@@ -338,7 +338,7 @@ class FHeta(loader.Module):
                         modules_str = "".join(
                             m.__class__.__module__.replace("%d", "_")
                             for m in self.allmodules.modules
-                            if "https://api.fixyres.com/module" in m.__class__.__module__
+                            if "https://api" in m.__class__.__module__
                         )
                         async with session.post(
                             "https://api.fixyres.com/dataset",
