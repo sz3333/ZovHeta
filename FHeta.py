@@ -293,6 +293,16 @@ class FHeta(loader.Module):
         "no_modules_foound": "Prova un'altra query.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
     }
+
+    def __init__(self):
+        self.config = loader.ModuleConfig(
+            loader.ConfigValue(
+                "tracking",
+                True,
+                "Enable tracking of your data (user ID, language, modules) for synchronization with the FHeta bot and for recommendations?",
+                validator=loader.validators.Boolean()
+            )
+        )
     
     async def client_ready(self, client, db):
         try: 
@@ -303,15 +313,6 @@ class FHeta(loader.Module):
         await self.request_join(
             "FHeta_Updates", 
             "🔥 This is the channel with all updates in FHeta!"
-        )
-
-        self.config = loader.ModuleConfig(
-            loader.ConfigValue(
-                "tracking",
-                True,
-                "Enable tracking of your data (user ID, language, modules) for synchronization with the FHeta bot and for recommendations?",
-                validator=loader.validators.Boolean()
-            )
         )
 
         self.sslc = ssl.create_default_context()
