@@ -299,6 +299,11 @@ class FHeta(loader.Module):
             await client(UnblockRequest("@FHeta_robot"))
         except:
             pass
+            
+        await self.request_join(
+            "FHeta_Updates", 
+            "🔥 This is the channel with all updates in FHeta!"
+        )
 
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
