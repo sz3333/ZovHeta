@@ -1,6 +1,6 @@
-__version__ = (9, 2, 1)
+__version__ = (9, 2, 2)
 # meta developer: @FHeta_Updates
-# change-log: A "tracking" setting has been added to the config so you can disable tracking of your data.
+# change-log: Bug fix.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
