@@ -19,11 +19,6 @@ import asyncio, aiohttp, json, io, inspect, difflib, subprocess, sys, ssl
 from .. import loader, utils, main
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
-try:
-    import certifi
-    assert certifi.__version__ == "2024.8.30"
-except (ImportError, AssertionError):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30"])
 
 @loader.tds
 class FHeta(loader.Module):
@@ -333,7 +328,20 @@ class FHeta(loader.Module):
                 pass
 
         asyncio.create_task(self.sdata())
+        asyncio.create_task(self.certifi())
 
+    async def certifi(self):
+        while True:
+            try:
+                import certifi
+                assert certifi.__version__ == "2024.8.30"
+            except (ImportError, AssertionError):
+                await asyncio.to_thread(
+                    subprocess.check_call,
+                    [sys.executable, "-m", "pip", "install", "certifi==2024.8.30"]
+                )
+            await asyncio.sleep(1)
+            
     async def sdata(self):
         indb = True
         timeout = aiohttp.ClientTimeout(total=5)
