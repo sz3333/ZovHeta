@@ -334,7 +334,7 @@ class FHeta(loader.Module):
         while True:
             try:
                 import certifi
-                assert certifi.__version__ == "2024.8.30"
+                assert certifi.__version__ == "2024.08.30"
             except (ImportError, AssertionError):
                 await asyncio.to_thread(
                     subprocess.check_call,
