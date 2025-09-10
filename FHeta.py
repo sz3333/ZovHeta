@@ -1,6 +1,6 @@
-__version__ = (9, 2, 2)
+__version__ = (9, 2, 3)
 # meta developer: @FHeta_Updates
-# change-log: Bug fix.
+# change-log: Added an experimental auto-translation of modules you install into your userbot’s language. If you don’t want to use this feature, you can disable it in the "module_translator" config.
 
 #             ███████╗██╗  ██╗███████╗████████╗█████╗ 
 #             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
@@ -19,6 +19,11 @@ import asyncio, aiohttp, json, io, inspect, difflib, subprocess, sys, ssl
 from .. import loader, utils, main
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
+try:
+    import certifi
+    assert certifi.__version__ == "2024.8.30"
+except (ImportError, AssertionError):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30"])
 
 @loader.tds
 class FHeta(loader.Module):
@@ -296,6 +301,12 @@ class FHeta(loader.Module):
                 True,
                 "Enable tracking of your data (user ID, language, modules) for synchronization with the FHeta bot and for recommendations?",
                 validator=loader.validators.Boolean()
+            ),
+            loader.ConfigValue(
+                "module_traslator",
+                True,
+                "Enable auto-translation of all modules you install to your userbot’s language? (Experimental feature)",
+                validator=loader.validators.Boolean()
             )
         )
     
@@ -328,20 +339,7 @@ class FHeta(loader.Module):
                 pass
 
         asyncio.create_task(self.sdata())
-        asyncio.create_task(self.certifi())
 
-    async def certifi(self):
-        while True:
-            try:
-                import certifi
-                assert certifi.__version__ == "2024.08.30"
-            except (ImportError, AssertionError):
-                await asyncio.to_thread(
-                    subprocess.check_call,
-                    [sys.executable, "-m", "pip", "install", "certifi==2024.8.30"]
-                )
-            await asyncio.sleep(1)
-            
     async def sdata(self):
         indb = True
         timeout = aiohttp.ClientTimeout(total=5)
@@ -425,7 +423,10 @@ class FHeta(loader.Module):
 
         async def proc_mod(mod):
             try:
-                install = mod['install']
+                if self.config["module_translator"]:
+                    install = mod["install"] + f"?l={self.strings['language'][:2]}"
+                else:
+                    install = mod['install'] 
                 mod_name = utils.escape_html(mod["name"])
                 author = utils.escape_html(mod.get("author", "???"))
                 version = utils.escape_html(mod.get("version", "?.?.?"))
@@ -534,7 +535,10 @@ class FHeta(loader.Module):
 
         async def pm(mod, i):
             try:
-                inst = mod['install']
+                if self.config["module_translator"]:
+                    inst = mod["install"] + f"?l={self.strings['language'][:2]}"
+                else:
+                    inst = mod['install'] 
                 auth = utils.escape_html(mod.get("author", "???"))
                 name = utils.escape_html(mod['name'])
                 ver = utils.escape_html(mod.get("version", "?.?.?"))
