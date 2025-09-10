@@ -303,7 +303,7 @@ class FHeta(loader.Module):
                 validator=loader.validators.Boolean()
             ),
             loader.ConfigValue(
-                "module_traslator",
+                "module_translator",
                 True,
                 "Enable auto-translation of all modules you install to your userbot’s language? (Experimental feature)",
                 validator=loader.validators.Boolean()
