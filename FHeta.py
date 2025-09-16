@@ -502,7 +502,7 @@ class FHeta(loader.Module):
         
     @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
     async def fhetacmd(self, m):
-        '''(query) - search modules.'''
+        """(query) - search modules."""
         a = utils.get_args_raw(m)
         if not a:
             await utils.answer(m, self.strings["no_query"])
@@ -566,7 +566,20 @@ class FHeta(loader.Module):
                 cs = self.strings["commands"].format(commands_list="\n".join(cmds)) if cmds else ""
                 ins = self.strings["inline_commandss"].format(inline_list="\n".join(inline)) if inline else ""
                 res = self.strings["result"].format(index=i, query=utils.escape_html(a), tm=tm, module_name=name, author=auth, version=v, install_command=f"{self.get_prefix()}{utils.escape_html(inst)}", description=desc, commands=cs + ins)[:4096]
-                return (res, thumb, inst, name, auth, v, desc, cs, ins)
+
+                ratings = mod.get('ratings') or {"likes": 0, "dislikes": 0}
+
+                return {
+                    "msg": res,
+                    "thumb": thumb,
+                    "install": inst,
+                    "name": name,
+                    "author": auth,
+                    "version": v,
+                    "description": desc,
+                    "commands": cs + ins,
+                    "ratings": ratings
+                }
             except:
                 return
 
@@ -580,16 +593,16 @@ class FHeta(loader.Module):
 
         if len(fm) == 1:
             d = fm[0]
-            stats = d.get('ratings')
+            stats = d['ratings']
 
             btns = [[
-                {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", 0, fm)},
-                {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d[2], "dislike", 0, fm)}
+                {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d['install'], "like", 0, fm)},
+                {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d['install'], "dislike", 0, fm)}
             ]]
 
-            xyi = self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d[3], author=d[4], version=d[5], install_command=f"{self.get_prefix()}{utils.escape_html(d[2])}", description=d[6], commands=d[7] + d[8])
+            xyi = self.strings["closest_match"].format(query=utils.escape_html(a), module_name=d['name'], author=d['author'], version=d['version'], install_command=f"{self.get_prefix()}{utils.escape_html(d['install'])}", description=d['description'], commands=d['commands'])
 
-            photo = d[1] if d[1] else None
+            photo = d['thumb'] if d['thumb'] else None
             max_length = 1024 if photo else 4096
             xyi = xyi[:max_length]
 
@@ -598,11 +611,11 @@ class FHeta(loader.Module):
         else:
             ci = 0
             d = fm[ci]
-            stats = d.get('ratings')
+            stats = d['ratings']
             btns = [
                 [
-                    {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", ci, fm)},
-                    {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d[2], "dislike", ci, fm)}
+                    {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d['install'], "like", ci, fm)},
+                    {"text": f"👎 {stats['dislikes']}", "callback": self.rating, "args": (d['install'], "dislike", ci, fm)}
                 ],
                 [
                     b for b in [
@@ -611,7 +624,7 @@ class FHeta(loader.Module):
                     ] if b
                 ]
             ]
-            await self.inline.form(message=m, text=d[0][:4096], photo=None, reply_markup=btns)
+            await self.inline.form(message=m, text=d['msg'][:4096], photo=None, reply_markup=btns)
 
     async def navigate_callback(self, c, i, fm):
         if not (0 <= i < len(fm)):
@@ -762,3 +775,4 @@ class FHeta(loader.Module):
                     return data
         except:
             return []
+                
