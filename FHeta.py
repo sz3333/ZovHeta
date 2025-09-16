@@ -468,7 +468,7 @@ class FHeta(loader.Module):
 
                 thumb_url = await fetch_thumb(mod.get("pic"))
 
-                stats = await self.get_stats(install) or {"likes": 0, "dislikes": 0}
+                stats = mod.get('ratings')
                 likes = stats.get('likes', 0)
                 dislikes = stats.get('dislikes', 0)
 
@@ -580,7 +580,7 @@ class FHeta(loader.Module):
 
         if len(fm) == 1:
             d = fm[0]
-            stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+            stats = d.get('ratings')
 
             btns = [[
                 {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", 0, fm)},
@@ -598,7 +598,7 @@ class FHeta(loader.Module):
         else:
             ci = 0
             d = fm[ci]
-            stats = await self.get_stats(d[2]) or {"likes": 0, "dislikes": 0}
+            stats = d.get('ratings')
             btns = [
                 [
                     {"text": f"👍 {stats['likes']}", "callback": self.rating, "args": (d[2], "like", ci, fm)},
