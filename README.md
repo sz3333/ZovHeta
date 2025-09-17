@@ -1,1 +1,1 @@
-**🔎 FHeta this is [Heroku](https://github.com/coddrago/Heroku) module for searching modules!**
+**🔎 FHeta this is [Legacy](https://github.com/Crayz310/Legacy) module for searching modules!**
