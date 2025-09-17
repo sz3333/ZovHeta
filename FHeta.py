@@ -1,15 +1,15 @@
 __version__ = (9, 2, 2)
-# meta developer: @FHeta_Updates
+# meta developer: @ZovHeta_Updates
 # change-log: Bug fix.
 
-#             ███████╗██╗  ██╗███████╗████████╗█████╗ 
-#             ██╔════╝██║  ██║██╔════╝╚══██╔══╝██╔══██╗
-#             █████╗  ███████║█████╗     ██║   ███████║
-#             ██╔══╝  ██╔══██║██╔══╝     ██║   ██╔══██║
-#             ██║     ██║  ██║███████╗   ██║   ██║  ██║
+#             ███████╗ ██████╗ ██╗   ██╗██╗  ██╗███████╗████████╗█████╗ 
+#             ██╔════╝██╔═══██╗██║   ██║██║  ██║██╔════╝╚══██╔══╝██╔══██╗
+#             █████╗  ██║   ██║██║   ██║███████║█████╗     ██║   ███████║
+#             ██╔══╝  ██║   ██║██║   ██║██╔══██║██╔══╝     ██║   ██╔══██║
+#             ██║     ╚██████╔╝╚██████╔╝██║  ██║███████╗   ██║   ██║  ██║
 
-# ©️ Fixyres, 2025
-# 🌐 https://github.com/Fixyres/FHeta
+# ©️ ZovHeta, 2025
+# 🌐 https://github.com/ZovHeta/ZovHeta
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -19,13 +19,18 @@ import asyncio, aiohttp, json, io, inspect, difflib, subprocess, sys, ssl
 from .. import loader, utils, main
 from ..types import InlineCall, InlineQuery
 from telethon.tl.functions.contacts import UnblockRequest
+try:
+    import certifi
+    assert certifi.__version__ == "2024.8.30"
+except (ImportError, AssertionError):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "certifi==2024.8.30"])
 
 @loader.tds
-class FHeta(loader.Module):
-    '''Module for searching modules! Watch all news FHeta in @FHeta_updates!'''
+class ZovHeta(loader.Module):
+    '''Module for searching modules! Watch all news ZovHeta in @ZovHeta_Updates!'''
     
     strings = {
-        "name": "FHeta",
+        "name": "ZovHeta",
         "search": "🔎 <b>Searching...</b>",
         "no_query": "❌ <b>Enter a query to search.</b>",
         "no_modules_found": "❌ <b>No modules found.</b>",
@@ -38,8 +43,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline commands:</b>\n{inline_list}",
         "language": "en_doc",
         "sub": "👍 Rating submitted!",
-        "actual_version": "🎉 <b>You have the actual</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>You have the old version </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
+        "actual_version": "🎉 <b>You have the actual</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>You have the old version </b><code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>New version</b> <code>v{new_version}</code><b> available!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>To update type: <code>{update_command}</code></b>",
         "che": "👍 Rating has been changed!",
@@ -62,8 +67,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Инлайн команды:</b>\n{inline_list}",
         "language": "ru_doc",
         "sub": "👍 Оценка отправлена!",
-        "actual_version": "🎉 <b>У вас актуальная версия</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>У вас старая версия </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>У вас актуальная версия</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>У вас старая версия </b><code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна новая версия</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Чтобы обновиться напишите: <code>{update_command}</code></b>",
         "che": "👍 Оценка изменена!",
@@ -86,8 +91,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Інлайн команди:</b>\n{inline_list}",
         "language": "ua_doc",
         "sub": "👍 Оцінка відправлена!",
-        "actual_version": "🎉 <b>У вас актуальна версія</b> <code>FHeta (v{version})</code><b>.</b>" ,
-        "old_version": "⛔️ <b>У вас стара версія </b><code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>У вас актуальна версія</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>У вас стара версія </b><code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Доступна нова версія</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Change-log:</b><code> {whats_new}</code>\n\n",
         "update_command": "🔄 <b>Щоб оновитися напишіть: <code>{update_command}</code></b>",
         "che": "👍 Оцінка змінена!",
@@ -110,8 +115,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline-Befehle:</b>\n{inline_list}",
         "language": "de_doc",
         "sub": "👍 Bewertung abgeschickt!",
-        "actual_version": "🎉 <b>Sie haben die aktuelle Version</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Sie haben eine veraltete Version</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Eine neue Version ist verfügbar:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Sie haben die aktuelle Version</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Sie haben eine veraltete Version</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Eine neue Version ist verfügbar:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Änderungsprotokoll:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Um zu aktualisieren, geben Sie Folgendes ein:</b> <code>{update_command}</code>",
         "che": "👍 Bewertung wurde geändert!",
@@ -134,8 +139,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline Komutlar:</b>\n{inline_list}",
         "language": "tr_doc",
         "sub": "👍 Değerlendirme gönderildi!",
-        "actual_version": "🎉 <b>Mevcut sürümünüz:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Eski bir sürümünüz var:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Yeni sürüm mevcut:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Mevcut sürümünüz:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Eski bir sürümünüz var:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Yeni sürüm mevcut:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Değişiklik günlüğü:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Güncellemek için şunu yazın:</b> <code>{update_command}</code>",
         "che": "👍 Değerlendirme değiştirildi!",
@@ -158,8 +163,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "tt_doc",
         "sub": "👍 Бәя җибәрелде!",
-        "actual_version": "🎉 <b>Сездә актуаль версия:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Сездә иске версия:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Яңа версия бар:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Сездә актуаль версия:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Сездә иске версия:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Яңа версия бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Үзгәртүләр көндәлеге:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Яңарту өчен боларны языгыз:</b> <code>{update_command}</code>",
         "che": "👍 Бәя үзгәртелде!",
@@ -177,13 +182,13 @@ class FHeta(loader.Module):
         "no_modules_foundd": "❌ No se encontraron módulos.",
         "commands": "\n👨‍💻 <b>Comandos:</b>\n{commands_list}",
         "description": "\n📁 <b>Descripción:</b> {description}",
-        "result": "🔎 <b>Resultado {index}/{tm} para la consulta:</b> <code>{query}</code>\n<code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "closest_match": "🔎 <b>Resultado para la consulta:</b> <code>{query}</code>\n<code>{module_name}</code> <b>por</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando de instalación:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
-        "inline_commandss": "\n🤖 <b>Comandos inline:</b>\n{inline_list}",
+        "result": "🔎 <b>Risultato {index}/{tm} per la query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "closest_match": "🔎 <b>Risultato per la query:</b> <code>{query}</code>\n<code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
+        "inline_commandss": "\n🤖 <b>Comandi inline:</b>\n{inline_list}",
         "language": "es_doc",
         "sub": "👍 ¡Evaluación enviada!",
-        "actual_version": "🎉 <b>Tienes la versión actual:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Tienes una versión desactualizada:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Hay una nueva versión disponible:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Tienes la versión actual:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Tienes una versión desactualizada:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Hay una nueva versión disponible:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Registro de cambios:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Para actualizar, escribe:</b> <code>{update_command}</code>",
         "che": "👍 ¡Evaluación cambiada!",
@@ -206,8 +211,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "kk_doc",
         "sub": "👍 Баға жіберілді!",
-        "actual_version": "🎉 <b>Сізде ағымдағы нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Сізде ескі нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Сізде ағымдағы нұсқа:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Сізде ескі нұсқа:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Өзгерістер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту үшін мынаны енгізіңіз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгертілді!",
@@ -230,8 +235,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Inline командалар:</b>\n{inline_list}",
         "language": "yz_doc",
         "sub": "👍 Баға жиберилди!",
-        "actual_version": "🎉 <b>Сизде ағымдағы нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Сизде ески нұсқа:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Сизде ағымдағы нұсқа:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Сизде ески нұсқа:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Жаңа нұсқа бар:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Өзгертишлер журналы:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Жаңарту учун мынаны енгизиңиз:</b> <code>{update_command}</code>",
         "che": "👍 Баға өзгерттилди!",
@@ -254,8 +259,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Commandes inline:</b>\n{inline_list}",
         "language": "fr_doc",
         "sub": "👍 Évaluation envoyée!",
-        "actual_version": "🎉 <b>Vous avez la version actuelle:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Vous avez une version obsolète:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>Une nouvelle version est disponible:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Vous avez la version actuelle:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Vous avez une version obsolète:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>Une nouvelle version est disponible:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Journal des modifications:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Pour mettre à jour, tapez:</b> <code>{update_command}</code>",
         "che": "👍 Évaluation modifiée!",
@@ -278,8 +283,8 @@ class FHeta(loader.Module):
         "inline_commandss": "\n🤖 <b>Comandi inline:</b>\n{inline_list}",
         "language": "it_doc",
         "sub": "👍 Valutazione inviata!",
-        "actual_version": "🎉 <b>Hai la versione attuale:</b> <code>FHeta (v{version})</code><b>.</b>",
-        "old_version": "⛔️ <b>Hai una versione obsoleta:</b> <code>FHeta (v{version})</code><b>.</b>\n\n🆕 <b>È disponibile una nuova versione:</b> <code>v{new_version}</code><b>!</b>\n",
+        "actual_version": "🎉 <b>Hai la versione attuale:</b> <code>ZovHeta (v{version})</code><b>.</b>",
+        "old_version": "⛔️ <b>Hai una versione obsoleta:</b> <code>ZovHeta (v{version})</code><b>.</b>\n\n🆕 <b>È disponibile una nuova versione:</b> <code>v{new_version}</code><b>!</b>\n",
         "update_whats_new": "⁉️ <b>Registro delle modifiche:</b> <code>{whats_new}</code>\n\n",
         "update_command": "🔄 <b>Per aggiornare, scrivi:</b> <code>{update_command}</code>",
         "che": "👍 Valutazione modificata!",
@@ -288,26 +293,25 @@ class FHeta(loader.Module):
         "no_modules_foound": "Prova un'altra query.",
         "closest_matchh": "📑 <code>{module_name}</code> <b>di</b> <code>{author}</code> <code>{version}</code>\n💾 <b>Comando di installazione:</b> <code>{install_command}</code>{description}{commands}\n\n\n",
     }
-
-    def __init__(self):
-        self.config = loader.ModuleConfig(
-            loader.ConfigValue(
-                "tracking",
-                True,
-                "Enable tracking of your data (user ID, language, modules) for synchronization with the FHeta bot and for recommendations?",
-                validator=loader.validators.Boolean()
-            )
-        )
     
     async def client_ready(self, client, db):
         try: 
-            await client(UnblockRequest("@FHeta_robot"))
+            await client(UnblockRequest("@fheta_robot"))
         except:
             pass
             
         await self.request_join(
-            "FHeta_Updates", 
-            "🔥 This is the channel with all updates in FHeta!"
+            "ZovHeta_Updates", 
+            "🔥 This is the channel with all updates in ZovHeta!"
+        )
+
+        self.config = loader.ModuleConfig(
+            loader.ConfigValue(
+                "tracking",
+                True,
+                "Enable tracking of your data (user ID, language, modules) for synchronization with the ZovHeta bot and for recommendations?",
+                validator=loader.validators.Boolean()
+            )
         )
 
         self.sslc = ssl.create_default_context()
@@ -316,32 +320,19 @@ class FHeta(loader.Module):
 
         us = await self.client.get_me()
         self.fid = us.id
-        self.token = self.db.get("FHeta", "token")
+        self.token = self.db.get("ZovHeta", "token")
 
         if not self.token or self.token == "None":
             try:
-                async with self.client.conversation('@FHeta_robot') as conv:
+                async with self.client.conversation('@fheta_robot') as conv:
                     await conv.send_message('/token')
                     response = await conv.get_response(timeout=5)
-                    self.db.set("FHeta", "token", response.text.strip())
+                    self.db.set("ZovHeta", "token", response.text.strip())
             except:
                 pass
 
         asyncio.create_task(self.sdata())
-        asyncio.create_task(self.certifi())
 
-    async def certifi(self):
-        while True:
-            try:
-                import certifi
-                assert certifi.__version__ == "2024.08.30"
-            except (ImportError, AssertionError):
-                await asyncio.to_thread(
-                    subprocess.check_call,
-                    [sys.executable, "-m", "pip", "install", "certifi==2024.8.30"]
-                )
-            await asyncio.sleep(1)
-            
     async def sdata(self):
         indb = True
         timeout = aiohttp.ClientTimeout(total=5)
@@ -383,20 +374,20 @@ class FHeta(loader.Module):
             
     async def on_dlmod(self, client, db):    
         try:
-            await client(UnblockRequest("@FHeta_robot"))
+            await client(UnblockRequest("@fheta_robot"))
             await utils.dnd(self.client, "@fheta_robot", archive=True)
         except:
             pass
         
     @loader.inline_handler(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
-    async def fheta(self, query):
+    async def zovheta(self, query):
         '''(query) - search modules.'''
         if not query.args:
             return {
                 "title": utils.escape_html(self.strings["no_queryy"]),
                 "description": self.strings["noo_query"],
                 "message": self.strings["no_query"],
-                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
+                "thumb": "https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/imgonline-com-ua-Resize-4EUHOHiKpwRTb4s.png",
             }
 
         mods = await self.search_modules(query.args, True)
@@ -405,7 +396,7 @@ class FHeta(loader.Module):
                 "title": utils.escape_html(self.strings["no_modules_foundd"]),
                 "description": utils.escape_html(self.strings["no_modules_foound"]),
                 "message": self.strings["no_modules_found"],
-                "thumb": "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
+                "thumb": "https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/imgonline-com-ua-Resize-KbaztxA3oS67p3m8.png",
             }
 
         seen = set()
@@ -413,7 +404,7 @@ class FHeta(loader.Module):
 
         async def fetch_thumb(thumb):
             if not thumb:
-                return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+                return "https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
             try:
                 async with aiohttp.ClientSession() as session:
                     async with session.get(thumb, timeout=1) as resp:
@@ -421,7 +412,7 @@ class FHeta(loader.Module):
                             return str(resp.url)
             except:
                 pass
-            return "https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
+            return "https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/imgonline-com-ua-Resize-SOMllzo0cPFUCor.png"
 
         async def proc_mod(mod):
             try:
@@ -501,7 +492,7 @@ class FHeta(loader.Module):
         return [r for r in results if r]
         
     @loader.command(de_doc="(anfrage) - module suchen.", ru_doc="(запрос) - искать модули.", ua_doc="(запит) - шукати модулі.", es_doc="(consulta) - buscar módulos.", fr_doc="(requête) - rechercher des modules.", it_doc="(richiesta) - cercare moduli.", kk_doc="(сұраныс) - модульдерді іздеу.", tt_doc="(сорау) - модульләрне эзләү.", tr_doc="(sorgu) - modül arama.", yz_doc="(соруо) - модулларыты көҥүлүүр.")
-    async def fhetacmd(self, m):
+    async def zovhetacmd(self, m):
         '''(query) - search modules.'''
         a = utils.get_args_raw(m)
         if not a:
@@ -678,9 +669,9 @@ class FHeta(loader.Module):
             await call.answer(str(e)[:256], show_alert=True)
 
     @loader.command(de_doc='- überprüfen auf updates.', ru_doc='- проверить наличие обновления.', ua_doc='- перевірити наявність оновлення.', es_doc='- comprobar actualizaciones.', fr_doc='- vérifier les mises à jour.', it_doc='- verificare aggiornamenti.', kk_doc='- жаңартуларды тексеру.', tt_doc='- яңартуларны тикшерү.', tr_doc='- güncellemeleri kontrol et.', yz_doc='- жаңыртылыларды тексэр.')
-    async def fupdate(self, m):
+    async def zupdate(self, m):
         ''' - check update.'''
-        module_name = "FHeta"
+        module_name = "ZovHeta"
         module = self.lookup(module_name)
         sys_module = inspect.getmodule(module)
         local_file = io.BytesIO(sys_module.__loader__.data)
@@ -692,7 +683,7 @@ class FHeta(loader.Module):
         correct_version_str = ".".join(map(str, correct_version))
 
         async with aiohttp.ClientSession() as session:
-            async with session.get("https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py") as response:
+            async with session.get("https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/ZovHeta.py") as response:
                 if response.status == 200:
                     remote_content = await response.text()
                     remote_lines = remote_content.splitlines()
@@ -707,11 +698,11 @@ class FHeta(loader.Module):
             update_message = self.strings("old_version").format(version=correct_version_str, new_version=new_version)
             if what_new:
                 update_message += self.strings("update_whats_new").format(whats_new=what_new)
-            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/Fixyres/FHeta/refs/heads/main/FHeta.py")
+            update_message += self.strings("update_command").format(update_command=f"{self.get_prefix()}dlm https://raw.githubusercontent.com/ZovHeta/ZovHeta/refs/heads/main/ZovHeta.py")
             await utils.answer(m, update_message)
 
     @loader.watcher(chat_id=7575472403)
-    async def install_via_fheta(self, message):
+    async def install_via_zovheta(self, message):
         link = message.raw_text.strip()
         
         if not link.startswith("https://"):
